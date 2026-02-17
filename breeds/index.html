@@ -452,6 +452,7 @@
         // Get URL params
         const urlParams = new URLSearchParams(window.location.search);
         const sizeParam = urlParams.get('size');
+        const searchParam = urlParams.get('search');
         
         // Filter function
         function filterBySize(size) {
@@ -475,6 +476,15 @@
         // Apply URL param filter on load
         if (sizeParam) {
             filterBySize(sizeParam);
+        }
+        
+        // Apply search param on load
+        if (searchParam) {
+            document.getElementById('breed-search').value = searchParam;
+            document.querySelectorAll('.breed-card').forEach(card => {
+                const name = card.getAttribute('data-name');
+                card.style.display = name.includes(searchParam.toLowerCase()) ? 'block' : 'none';
+            });
         }
 
         // Filter button clicks
