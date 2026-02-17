@@ -1,0 +1,59 @@
+{
+  "id": "alaskan-malamute",
+  "name": "Alaskan Malamute",
+  "aliases": ["Malamute", "Mal"],
+  "group": "working",
+  "origin": "United States (Alaska)",
+  "lifespan": "10-14 years",
+  "size": {
+    "height_cm": "58-64",
+    "weight_kg": "34-39",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 4,
+    "trainability": 2,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Double coat, thick and plush",
+    "coat_colors": ["gray and white", "black and white", "sable and white", "red and white", "solid white"],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": ["loyal", "playful", "affectionate", "independent", "dignified", "friendly"],
+  "description": {
+    "overview": "The Alaskan Malamute is one of the oldest Arctic sled dogs, originally bred for hauling heavy freight. They're powerful, substantial dogs with a deep chest and strong, well-muscled body. Despite their wolf-like appearance, they're friendly and affectionate with people.",
+    "history": "Developed by the Mahlemut Inuit people of Alaska's Norton Sound region, Malamutes were essential for survival in the harsh Arctic environment. They pulled heavy sleds, hunted seals, and protected their families from polar bears. Unlike some breeds created for speed, Malamutes were bred for strength and endurance.",
+    "temperament": "Malamutes are friendly and outgoing with people, including strangers—they make poor guard dogs. They're loyal and devoted to their families but have an independent streak. They can be challenging to train due to their stubbornness, but they're highly intelligent. They may be aggressive toward other dogs, especially same-sex dogs.",
+    "health": "Generally healthy breed. Watch for hip dysplasia, cataracts, chondrodysplasia (dwarfism), hypothyroidism, and inherited polyneuropathy. Regular vet checkups and health screenings are recommended.",
+    "grooming": "Heavy shedders, especially twice a year during 'coat blow' season. Regular brushing (2-3 times per week, daily during shedding season) is essential. They're relatively clean dogs and typically don't have a strong odor.",
+    "exercise": "High exercise needs—at least 2 hours daily. They excel at hiking, backpacking, sledding, and weight pulling. Without adequate exercise, they can become destructive. They love cold weather and may struggle in hot climates."
+  },
+  "verdict": {
+    "best_for": [
+      "Active individuals and families",
+      "People who enjoy outdoor activities (hiking, camping)",
+      "Cold climate residents",
+      "Experienced dog owners",
+      "Those with large, fenced yards"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "First-time dog owners",
+      "Hot climate residents",
+      "Those wanting an easy-to-train dog",
+      "Homes with small pets (high prey drive)"
+    ],
+    "summary": "The Alaskan Malamute is perfect for active, experienced dog owners who love the outdoors and can provide firm, consistent leadership. They need space to run, plenty of exercise, and thrive in cold climates. Not recommended for apartments, hot climates, or first-time owners."
+  },
+  "images": {
+    "main": "/images/breeds/alaskan-malamute.jpg",
+    "gallery": []
+  }
+}
