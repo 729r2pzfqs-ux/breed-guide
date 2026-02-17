@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Dog Breeds Side by Side | BreedFinder</title>
+    <meta name="description" content="Compare dog breeds side by side. See size, energy level, grooming needs, and more to find your perfect match.">
+    <link rel="canonical" href="https://breedfinder.org/compare/">
+    
+    <link rel="icon" href="../favicon.svg?v=4" type="image/svg+xml">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://breedfinder.org/compare/">
+    <meta property="og:title" content="Compare Dog Breeds Side by Side">
+    <meta property="og:description" content="Compare dog breeds side by side to find your perfect match.">
+    <meta property="og:site_name" content="BreedFinder">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-sky-50 via-white to-violet-50 min-h-screen text-slate-800">
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="../" class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-violet-500 rounded-xl flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
+                    <img src="../favicon.svg?v=4" class="w-5 h-5" alt="BreedFinder">
+                </div>
+                <span class="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">BreedFinder</span>
+            </a>
+            <nav class="flex items-center gap-6 text-sm font-medium">
+                <a href="../breeds" class="text-slate-600 hover:text-sky-600 transition">All Breeds</a>
+                <a href="../quiz" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-sky-500/25 transition">Take Quiz</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        <!-- Header -->
+        <div class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
+                Compare
+                <span class="bg-gradient-to-r from-sky-500 to-violet-500 bg-clip-text text-transparent">Breeds</span>
+            </h1>
+            <p class="text-lg text-slate-600">Select up to 3 breeds to compare side by side</p>
+        </div>
+
+        <!-- Breed Selectors -->
+        <div class="grid md:grid-cols-3 gap-4 mb-10">
+            <div>
+                <label class="block text-sm font-medium text-slate-600 mb-2">Breed 1</label>
+                <select id="breed1" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-sky-400 focus:outline-none bg-white">
+                    <option value="">Select a breed...</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-slate-600 mb-2">Breed 2</label>
+                <select id="breed2" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-sky-400 focus:outline-none bg-white">
+                    <option value="">Select a breed...</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-slate-600 mb-2">Breed 3 (optional)</label>
+                <select id="breed3" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-sky-400 focus:outline-none bg-white">
+                    <option value="">Select a breed...</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Comparison Table -->
+        <div id="comparison-container" class="hidden">
+            <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/50 overflow-hidden">
+                <table class="w-full">
+                    <thead id="comparison-header">
+                    </thead>
+                    <tbody id="comparison-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Empty State -->
+        <div id="empty-state" class="text-center py-20">
+            <div class="text-6xl mb-4">🐕</div>
+            <h3 class="text-xl font-bold text-slate-700 mb-2">Select breeds to compare</h3>
+            <p class="text-slate-500">Choose at least 2 breeds from the dropdowns above</p>
+        </div>
+
+        <!-- Popular Comparisons -->
+        <div class="mt-16">
+            <h2 class="text-2xl font-bold mb-6">Popular Comparisons</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <button onclick="setBreeds('labrador-retriever', 'golden-retriever')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
+                    <span class="font-semibold">Labrador vs Golden Retriever</span>
+                    <p class="text-sm text-slate-500">Two of America's favorites</p>
+                </button>
+                <button onclick="setBreeds('french-bulldog', 'bulldog')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
+                    <span class="font-semibold">French Bulldog vs Bulldog</span>
+                    <p class="text-sm text-slate-500">Compact companions</p>
+                </button>
+                <button onclick="setBreeds('german-shepherd', 'belgian-malinois')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
+                    <span class="font-semibold">German Shepherd vs Malinois</span>
+                    <p class="text-sm text-slate-500">Working dog showdown</p>
+                </button>
+                <button onclick="setBreeds('siberian-husky', 'alaskan-malamute')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
+                    <span class="font-semibold">Husky vs Malamute</span>
+                    <p class="text-sm text-slate-500">Arctic breed battle</p>
+                </button>
+                <button onclick="setBreeds('shih-tzu', 'maltese')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
+                    <span class="font-semibold">Shih Tzu vs Maltese</span>
+                    <p class="text-sm text-slate-500">Lap dog legends</p>
+                </button>
+                <button onclick="setBreeds('poodle', 'bichon-frise')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
+                    <span class="font-semibold">Poodle vs Bichon Frise</span>
+                    <p class="text-sm text-slate-500">Hypoallergenic picks</p>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-100 mt-16 py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center text-slate-500 text-sm">
+            <p>© 2026 BreedFinder. Helping you find your perfect companion.</p>
+        </div>
+    </footer>
+
+    <script>
+        const breeds = [
+            { slug: "labrador-retriever", name: "Labrador Retriever", size: "Large", weight: "55-80 lbs", lifespan: "10-12 years", energy: 4, grooming: 2, family: 5, trainability: 5 },
+            { slug: "german-shepherd", name: "German Shepherd", size: "Large", weight: "50-90 lbs", lifespan: "9-13 years", energy: 4, grooming: 3, family: 4, trainability: 5 },
+            { slug: "golden-retriever", name: "Golden Retriever", size: "Large", weight: "55-75 lbs", lifespan: "10-12 years", energy: 4, grooming: 4, family: 5, trainability: 5 },
+            { slug: "french-bulldog", name: "French Bulldog", size: "Small", weight: "16-28 lbs", lifespan: "10-12 years", energy: 2, grooming: 1, family: 5, trainability: 3 },
+            { slug: "bulldog", name: "Bulldog", size: "Medium", weight: "40-50 lbs", lifespan: "8-10 years", energy: 2, grooming: 2, family: 4, trainability: 3 },
+            { slug: "poodle", name: "Poodle", size: "Varies", weight: "6-70 lbs", lifespan: "12-15 years", energy: 4, grooming: 5, family: 4, trainability: 5 },
+            { slug: "beagle", name: "Beagle", size: "Small-Med", weight: "20-30 lbs", lifespan: "12-15 years", energy: 4, grooming: 2, family: 5, trainability: 3 },
+            { slug: "rottweiler", name: "Rottweiler", size: "Large", weight: "80-135 lbs", lifespan: "8-10 years", energy: 3, grooming: 2, family: 3, trainability: 4 },
+            { slug: "german-shorthaired-pointer", name: "German Shorthaired Pointer", size: "Large", weight: "45-70 lbs", lifespan: "12-14 years", energy: 5, grooming: 2, family: 4, trainability: 4 },
+            { slug: "dachshund", name: "Dachshund", size: "Small", weight: "11-32 lbs", lifespan: "12-16 years", energy: 3, grooming: 2, family: 4, trainability: 3 },
+            { slug: "pembroke-welsh-corgi", name: "Pembroke Welsh Corgi", size: "Small", weight: "25-30 lbs", lifespan: "12-15 years", energy: 4, grooming: 3, family: 4, trainability: 4 },
+            { slug: "yorkshire-terrier", name: "Yorkshire Terrier", size: "Toy", weight: "4-7 lbs", lifespan: "13-16 years", energy: 3, grooming: 5, family: 3, trainability: 3 },
+            { slug: "boxer", name: "Boxer", size: "Large", weight: "55-70 lbs", lifespan: "10-12 years", energy: 4, grooming: 1, family: 5, trainability: 4 },
+            { slug: "siberian-husky", name: "Siberian Husky", size: "Medium", weight: "35-60 lbs", lifespan: "12-14 years", energy: 5, grooming: 4, family: 4, trainability: 3 },
+            { slug: "australian-shepherd", name: "Australian Shepherd", size: "Medium", weight: "40-65 lbs", lifespan: "12-15 years", energy: 5, grooming: 4, family: 4, trainability: 5 },
+            { slug: "great-dane", name: "Great Dane", size: "Giant", weight: "110-175 lbs", lifespan: "7-10 years", energy: 3, grooming: 2, family: 4, trainability: 3 },
+            { slug: "doberman-pinscher", name: "Doberman Pinscher", size: "Large", weight: "60-100 lbs", lifespan: "10-13 years", energy: 4, grooming: 2, family: 3, trainability: 5 },
+            { slug: "cavalier-king-charles-spaniel", name: "Cavalier King Charles", size: "Small", weight: "12-18 lbs", lifespan: "9-14 years", energy: 3, grooming: 3, family: 5, trainability: 4 },
+            { slug: "miniature-schnauzer", name: "Miniature Schnauzer", size: "Small", weight: "11-20 lbs", lifespan: "12-15 years", energy: 4, grooming: 4, family: 4, trainability: 4 },
+            { slug: "shih-tzu", name: "Shih Tzu", size: "Small", weight: "9-16 lbs", lifespan: "10-16 years", energy: 2, grooming: 5, family: 4, trainability: 3 },
+            { slug: "boston-terrier", name: "Boston Terrier", size: "Small", weight: "12-25 lbs", lifespan: "11-15 years", energy: 3, grooming: 1, family: 5, trainability: 4 },
+            { slug: "bernese-mountain-dog", name: "Bernese Mountain Dog", size: "Large", weight: "70-115 lbs", lifespan: "7-10 years", energy: 3, grooming: 4, family: 5, trainability: 4 },
+            { slug: "pomeranian", name: "Pomeranian", size: "Toy", weight: "3-7 lbs", lifespan: "12-16 years", energy: 3, grooming: 4, family: 3, trainability: 3 },
+            { slug: "havanese", name: "Havanese", size: "Small", weight: "7-13 lbs", lifespan: "14-16 years", energy: 3, grooming: 4, family: 5, trainability: 4 },
+            { slug: "shetland-sheepdog", name: "Shetland Sheepdog", size: "Small", weight: "15-25 lbs", lifespan: "12-14 years", energy: 4, grooming: 4, family: 4, trainability: 5 },
+            { slug: "brittany", name: "Brittany", size: "Medium", weight: "30-40 lbs", lifespan: "12-14 years", energy: 5, grooming: 2, family: 4, trainability: 4 },
+            { slug: "english-springer-spaniel", name: "English Springer Spaniel", size: "Medium", weight: "40-50 lbs", lifespan: "12-14 years", energy: 4, grooming: 3, family: 5, trainability: 4 },
+            { slug: "cocker-spaniel", name: "Cocker Spaniel", size: "Small-Med", weight: "20-30 lbs", lifespan: "12-15 years", energy: 3, grooming: 4, family: 5, trainability: 4 },
+            { slug: "chihuahua", name: "Chihuahua", size: "Toy", weight: "3-6 lbs", lifespan: "12-20 years", energy: 3, grooming: 1, family: 2, trainability: 3 },
+            { slug: "border-collie", name: "Border Collie", size: "Medium", weight: "30-45 lbs", lifespan: "12-15 years", energy: 5, grooming: 3, family: 4, trainability: 5 },
+            { slug: "vizsla", name: "Vizsla", size: "Medium", weight: "45-65 lbs", lifespan: "12-15 years", energy: 5, grooming: 1, family: 4, trainability: 4 },
+            { slug: "pug", name: "Pug", size: "Small", weight: "14-18 lbs", lifespan: "12-15 years", energy: 2, grooming: 2, family: 5, trainability: 3 },
+            { slug: "weimaraner", name: "Weimaraner", size: "Large", weight: "55-90 lbs", lifespan: "11-14 years", energy: 5, grooming: 1, family: 3, trainability: 4 },
+            { slug: "belgian-malinois", name: "Belgian Malinois", size: "Large", weight: "40-80 lbs", lifespan: "12-14 years", energy: 5, grooming: 2, family: 3, trainability: 5 },
+            { slug: "maltese", name: "Maltese", size: "Toy", weight: "4-7 lbs", lifespan: "12-15 years", energy: 2, grooming: 5, family: 4, trainability: 3 },
+            { slug: "collie", name: "Collie", size: "Large", weight: "50-75 lbs", lifespan: "12-14 years", energy: 3, grooming: 4, family: 5, trainability: 4 },
+            { slug: "basset-hound", name: "Basset Hound", size: "Medium", weight: "40-65 lbs", lifespan: "10-12 years", energy: 2, grooming: 2, family: 4, trainability: 2 },
+            { slug: "newfoundland", name: "Newfoundland", size: "Giant", weight: "100-150 lbs", lifespan: "8-10 years", energy: 2, grooming: 4, family: 5, trainability: 4 },
+            { slug: "rhodesian-ridgeback", name: "Rhodesian Ridgeback", size: "Large", weight: "70-85 lbs", lifespan: "10-12 years", energy: 4, grooming: 1, family: 3, trainability: 3 },
+            { slug: "shiba-inu", name: "Shiba Inu", size: "Small-Med", weight: "17-23 lbs", lifespan: "12-15 years", energy: 3, grooming: 3, family: 3, trainability: 3 },
+            { slug: "west-highland-white-terrier", name: "West Highland White Terrier", size: "Small", weight: "13-22 lbs", lifespan: "12-16 years", energy: 4, grooming: 4, family: 4, trainability: 3 },
+            { slug: "bichon-frise", name: "Bichon Frise", size: "Small", weight: "10-18 lbs", lifespan: "12-15 years", energy: 3, grooming: 5, family: 5, trainability: 4 },
+            { slug: "akita", name: "Akita", size: "Large", weight: "70-130 lbs", lifespan: "10-13 years", energy: 3, grooming: 4, family: 2, trainability: 3 },
+            { slug: "samoyed", name: "Samoyed", size: "Medium-Lg", weight: "35-65 lbs", lifespan: "12-14 years", energy: 4, grooming: 5, family: 4, trainability: 3 },
+            { slug: "portuguese-water-dog", name: "Portuguese Water Dog", size: "Medium", weight: "35-60 lbs", lifespan: "10-14 years", energy: 4, grooming: 4, family: 4, trainability: 4 },
+            { slug: "st-bernard", name: "St. Bernard", size: "Giant", weight: "120-180 lbs", lifespan: "8-10 years", energy: 2, grooming: 3, family: 5, trainability: 3 },
+            { slug: "bull-terrier", name: "Bull Terrier", size: "Medium", weight: "50-70 lbs", lifespan: "10-14 years", energy: 4, grooming: 1, family: 3, trainability: 3 },
+            { slug: "miniature-american-shepherd", name: "Miniature American Shepherd", size: "Small-Med", weight: "20-40 lbs", lifespan: "12-15 years", energy: 5, grooming: 3, family: 4, trainability: 5 },
+            { slug: "australian-cattle-dog", name: "Australian Cattle Dog", size: "Medium", weight: "35-50 lbs", lifespan: "12-16 years", energy: 5, grooming: 2, family: 3, trainability: 4 },
+            { slug: "alaskan-malamute", name: "Alaskan Malamute", size: "Large", weight: "75-100 lbs", lifespan: "10-14 years", energy: 4, grooming: 4, family: 3, trainability: 3 }
+        ];
+
+        // Populate dropdowns
+        function populateDropdowns() {
+            const selects = ['breed1', 'breed2', 'breed3'];
+            selects.forEach(id => {
+                const select = document.getElementById(id);
+                breeds.forEach(breed => {
+                    const option = document.createElement('option');
+                    option.value = breed.slug;
+                    option.textContent = breed.name;
+                    select.appendChild(option);
+                });
+            });
+        }
+
+        function setBreeds(slug1, slug2, slug3 = '') {
+            document.getElementById('breed1').value = slug1;
+            document.getElementById('breed2').value = slug2;
+            document.getElementById('breed3').value = slug3;
+            updateComparison();
+        }
+
+        function updateComparison() {
+            const slugs = [
+                document.getElementById('breed1').value,
+                document.getElementById('breed2').value,
+                document.getElementById('breed3').value
+            ].filter(s => s);
+
+            if (slugs.length < 2) {
+                document.getElementById('comparison-container').classList.add('hidden');
+                document.getElementById('empty-state').classList.remove('hidden');
+                return;
+            }
+
+            document.getElementById('comparison-container').classList.remove('hidden');
+            document.getElementById('empty-state').classList.add('hidden');
+
+            const selected = slugs.map(s => breeds.find(b => b.slug === s));
+
+            // Build header
+            const header = document.getElementById('comparison-header');
+            header.innerHTML = `
+                <tr class="bg-gradient-to-r from-sky-50 to-violet-50">
+                    <th class="p-4 text-left font-semibold text-slate-600">Trait</th>
+                    ${selected.map(b => `
+                        <th class="p-4 text-center">
+                            <a href="../breeds/${b.slug}.html" class="font-bold text-lg hover:text-sky-600 transition">${b.name}</a>
+                        </th>
+                    `).join('')}
+                </tr>
+            `;
+
+            // Build body
+            const traits = [
+                { label: "Size", key: "size" },
+                { label: "Weight", key: "weight" },
+                { label: "Lifespan", key: "lifespan" },
+                { label: "Energy Level", key: "energy", isRating: true },
+                { label: "Grooming Needs", key: "grooming", isRating: true },
+                { label: "Family Friendly", key: "family", isRating: true },
+                { label: "Trainability", key: "trainability", isRating: true }
+            ];
+
+            const body = document.getElementById('comparison-body');
+            body.innerHTML = traits.map((trait, i) => `
+                <tr class="${i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}">
+                    <td class="p-4 font-medium text-slate-700">${trait.label}</td>
+                    ${selected.map(b => `
+                        <td class="p-4 text-center">
+                            ${trait.isRating ? renderRating(b[trait.key]) : b[trait.key]}
+                        </td>
+                    `).join('')}
+                </tr>
+            `).join('');
+        }
+
+        function renderRating(value) {
+            const filled = '★'.repeat(value);
+            const empty = '☆'.repeat(5 - value);
+            return `<span class="text-amber-400">${filled}</span><span class="text-slate-300">${empty}</span>`;
+        }
+
+        // Init
+        populateDropdowns();
+    </script>
+</body>
+</html>
