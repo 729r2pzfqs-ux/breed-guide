@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breed Quiz — Find Your Perfect Match | BreedFinder</title>
+    <meta name="description" content="Take our quick quiz to find the perfect dog breed for your lifestyle. Answer a few questions and discover your ideal furry companion.">
+    <link rel="canonical" href="https://breedfinder.org/quiz/">
+    
+    <link rel="icon" href="../favicon.svg?v=4" type="image/svg+xml">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://breedfinder.org/quiz/">
+    <meta property="og:title" content="Dog Breed Quiz — Find Your Perfect Match">
+    <meta property="og:description" content="Take our quick quiz to find the perfect dog breed for your lifestyle.">
+    <meta property="og:site_name" content="BreedFinder">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-sky-50 via-white to-violet-50 min-h-screen text-slate-800">
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="../" class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-violet-500 rounded-xl flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
+                    <img src="../favicon.svg?v=4" class="w-5 h-5" alt="BreedFinder">
+                </div>
+                <span class="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">BreedFinder</span>
+            </a>
+            <nav class="flex items-center gap-6 text-sm font-medium">
+                <a href="../breeds" class="text-slate-600 hover:text-sky-600 transition">All Breeds</a>
+                <a href="./" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-5 py-2.5 rounded-xl font-semibold shadow-lg shadow-sky-500/25">Take Quiz</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-2xl mx-auto px-4 py-12">
+        <!-- Quiz Container -->
+        <div id="quiz-container">
+            <!-- Intro -->
+            <div id="quiz-intro" class="text-center">
+                <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm border border-slate-100 text-sm text-slate-600 mb-6">
+                    <span>🎯</span>
+                    <span>5 quick questions</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
+                    Find Your
+                    <span class="bg-gradient-to-r from-sky-500 to-violet-500 bg-clip-text text-transparent">Perfect Dog</span>
+                </h1>
+                <p class="text-lg text-slate-600 mb-8">Answer a few questions about your lifestyle and we'll match you with ideal breeds.</p>
+                <button onclick="startQuiz()" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:shadow-xl hover:shadow-sky-500/25 transition transform hover:scale-105">
+                    Start Quiz →
+                </button>
+            </div>
+
+            <!-- Questions -->
+            <div id="quiz-questions" class="hidden">
+                <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/50 p-8">
+                    <!-- Progress -->
+                    <div class="mb-8">
+                        <div class="flex justify-between text-sm text-slate-500 mb-2">
+                            <span>Question <span id="current-q">1</span> of 5</span>
+                            <span id="progress-pct">20%</span>
+                        </div>
+                        <div class="h-2 bg-slate-100 rounded-full overflow-hidden">
+                            <div id="progress-bar" class="h-full bg-gradient-to-r from-sky-500 to-violet-500 transition-all duration-300" style="width: 20%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Question -->
+                    <h2 id="question-text" class="text-2xl font-bold mb-6"></h2>
+                    
+                    <!-- Options -->
+                    <div id="options-container" class="space-y-3"></div>
+                </div>
+            </div>
+
+            <!-- Results -->
+            <div id="quiz-results" class="hidden">
+                <div class="text-center mb-8">
+                    <span class="text-6xl mb-4 block">🎉</span>
+                    <h2 class="text-3xl font-bold mb-2">Your Perfect Matches!</h2>
+                    <p class="text-slate-600">Based on your answers, these breeds are ideal for you:</p>
+                </div>
+                <div id="results-container" class="space-y-4"></div>
+                <div class="text-center mt-8">
+                    <button onclick="restartQuiz()" class="text-sky-600 font-semibold hover:text-sky-700">← Take Quiz Again</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-100 mt-16 py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center text-slate-500 text-sm">
+            <p>© 2026 BreedFinder. Helping you find your perfect companion.</p>
+        </div>
+    </footer>
+
+    <script>
+        const questions = [
+            {
+                q: "How active is your lifestyle?",
+                options: [
+                    { text: "🏃 Very active — I exercise daily", tags: ["high-energy", "athletic"] },
+                    { text: "🚶 Moderately active — Regular walks", tags: ["moderate-energy"] },
+                    { text: "🛋️ Relaxed — Prefer calm activities", tags: ["low-energy", "calm"] }
+                ]
+            },
+            {
+                q: "What's your living situation?",
+                options: [
+                    { text: "🏠 House with yard", tags: ["large", "medium", "any-size"] },
+                    { text: "🏢 Apartment", tags: ["small", "apartment-friendly"] },
+                    { text: "🏡 Small home/condo", tags: ["small", "medium"] }
+                ]
+            },
+            {
+                q: "Do you have children?",
+                options: [
+                    { text: "👶 Yes, young children", tags: ["family-friendly", "gentle", "patient"] },
+                    { text: "🧒 Yes, older children", tags: ["family-friendly", "playful"] },
+                    { text: "🚫 No children", tags: ["any-family"] }
+                ]
+            },
+            {
+                q: "How much time for grooming?",
+                options: [
+                    { text: "✂️ Happy to groom regularly", tags: ["high-grooming"] },
+                    { text: "🧹 Occasional brushing is fine", tags: ["moderate-grooming"] },
+                    { text: "⚡ Minimal grooming preferred", tags: ["low-grooming"] }
+                ]
+            },
+            {
+                q: "What's most important to you?",
+                options: [
+                    { text: "🛡️ Loyal protector", tags: ["protective", "loyal", "guard"] },
+                    { text: "🎾 Playful companion", tags: ["playful", "energetic", "fun"] },
+                    { text: "🧸 Cuddly lap dog", tags: ["affectionate", "calm", "lap-dog"] },
+                    { text: "🧠 Smart & trainable", tags: ["intelligent", "trainable"] }
+                ]
+            }
+        ];
+
+        const breeds = [
+            { name: "Labrador Retriever", slug: "labrador-retriever", tags: ["family-friendly", "playful", "moderate-energy", "any-size", "intelligent", "trainable", "moderate-grooming"] },
+            { name: "German Shepherd", slug: "german-shepherd", tags: ["protective", "loyal", "high-energy", "large", "intelligent", "trainable", "guard"] },
+            { name: "Golden Retriever", slug: "golden-retriever", tags: ["family-friendly", "gentle", "playful", "moderate-energy", "any-size", "patient", "high-grooming"] },
+            { name: "French Bulldog", slug: "french-bulldog", tags: ["apartment-friendly", "calm", "low-energy", "small", "affectionate", "lap-dog", "low-grooming"] },
+            { name: "Bulldog", slug: "bulldog", tags: ["calm", "low-energy", "medium", "gentle", "patient", "low-grooming"] },
+            { name: "Poodle", slug: "poodle", tags: ["intelligent", "trainable", "any-size", "high-grooming", "playful"] },
+            { name: "Beagle", slug: "beagle", tags: ["family-friendly", "playful", "moderate-energy", "medium", "fun", "moderate-grooming"] },
+            { name: "Rottweiler", slug: "rottweiler", tags: ["protective", "loyal", "guard", "large", "trainable", "low-grooming"] },
+            { name: "Dachshund", slug: "dachshund", tags: ["apartment-friendly", "small", "playful", "moderate-grooming"] },
+            { name: "Pembroke Welsh Corgi", slug: "pembroke-welsh-corgi", tags: ["playful", "intelligent", "medium", "family-friendly", "moderate-grooming"] },
+            { name: "Yorkshire Terrier", slug: "yorkshire-terrier", tags: ["apartment-friendly", "small", "lap-dog", "affectionate", "high-grooming"] },
+            { name: "Boxer", slug: "boxer", tags: ["playful", "energetic", "family-friendly", "large", "fun", "low-grooming"] },
+            { name: "Siberian Husky", slug: "siberian-husky", tags: ["high-energy", "athletic", "large", "playful", "high-grooming"] },
+            { name: "Australian Shepherd", slug: "australian-shepherd", tags: ["high-energy", "athletic", "intelligent", "trainable", "large", "high-grooming"] },
+            { name: "Great Dane", slug: "great-dane", tags: ["gentle", "calm", "large", "family-friendly", "patient", "low-grooming"] },
+            { name: "Doberman Pinscher", slug: "doberman-pinscher", tags: ["protective", "loyal", "guard", "athletic", "intelligent", "low-grooming"] },
+            { name: "Cavalier King Charles Spaniel", slug: "cavalier-king-charles-spaniel", tags: ["affectionate", "lap-dog", "calm", "small", "gentle", "moderate-grooming"] },
+            { name: "Miniature Schnauzer", slug: "miniature-schnauzer", tags: ["apartment-friendly", "small", "intelligent", "playful", "high-grooming"] },
+            { name: "Shih Tzu", slug: "shih-tzu", tags: ["apartment-friendly", "small", "lap-dog", "affectionate", "calm", "high-grooming"] },
+            { name: "Boston Terrier", slug: "boston-terrier", tags: ["apartment-friendly", "small", "playful", "fun", "low-grooming"] },
+            { name: "Bernese Mountain Dog", slug: "bernese-mountain-dog", tags: ["gentle", "family-friendly", "large", "calm", "patient", "high-grooming"] },
+            { name: "Pomeranian", slug: "pomeranian", tags: ["apartment-friendly", "small", "playful", "affectionate", "high-grooming"] },
+            { name: "Havanese", slug: "havanese", tags: ["apartment-friendly", "small", "affectionate", "playful", "high-grooming"] },
+            { name: "Shetland Sheepdog", slug: "shetland-sheepdog", tags: ["intelligent", "trainable", "medium", "family-friendly", "high-grooming"] },
+            { name: "Border Collie", slug: "border-collie", tags: ["high-energy", "athletic", "intelligent", "trainable", "medium", "moderate-grooming"] },
+            { name: "Chihuahua", slug: "chihuahua", tags: ["apartment-friendly", "small", "lap-dog", "low-grooming"] },
+            { name: "Pug", slug: "pug", tags: ["apartment-friendly", "small", "calm", "affectionate", "lap-dog", "low-grooming"] },
+            { name: "Maltese", slug: "maltese", tags: ["apartment-friendly", "small", "lap-dog", "affectionate", "gentle", "high-grooming"] },
+            { name: "Bichon Frise", slug: "bichon-frise", tags: ["apartment-friendly", "small", "playful", "affectionate", "high-grooming"] },
+            { name: "Shiba Inu", slug: "shiba-inu", tags: ["apartment-friendly", "medium", "intelligent", "moderate-grooming"] }
+        ];
+
+        let currentQuestion = 0;
+        let selectedTags = [];
+
+        function startQuiz() {
+            document.getElementById('quiz-intro').classList.add('hidden');
+            document.getElementById('quiz-questions').classList.remove('hidden');
+            showQuestion(0);
+        }
+
+        function showQuestion(index) {
+            const q = questions[index];
+            document.getElementById('question-text').textContent = q.q;
+            document.getElementById('current-q').textContent = index + 1;
+            document.getElementById('progress-pct').textContent = ((index + 1) * 20) + '%';
+            document.getElementById('progress-bar').style.width = ((index + 1) * 20) + '%';
+
+            const container = document.getElementById('options-container');
+            container.innerHTML = '';
+            
+            q.options.forEach((opt, i) => {
+                const btn = document.createElement('button');
+                btn.className = 'w-full text-left p-4 rounded-xl border-2 border-slate-200 hover:border-sky-400 hover:bg-sky-50 transition font-medium';
+                btn.textContent = opt.text;
+                btn.onclick = () => selectOption(opt.tags);
+                container.appendChild(btn);
+            });
+        }
+
+        function selectOption(tags) {
+            selectedTags = selectedTags.concat(tags);
+            currentQuestion++;
+            
+            if (currentQuestion < questions.length) {
+                showQuestion(currentQuestion);
+            } else {
+                showResults();
+            }
+        }
+
+        function showResults() {
+            document.getElementById('quiz-questions').classList.add('hidden');
+            document.getElementById('quiz-results').classList.remove('hidden');
+
+            // Score breeds
+            const scored = breeds.map(breed => {
+                const score = breed.tags.filter(t => selectedTags.includes(t)).length;
+                return { ...breed, score };
+            });
+
+            // Sort and get top 5
+            scored.sort((a, b) => b.score - a.score);
+            const top5 = scored.slice(0, 5);
+
+            const container = document.getElementById('results-container');
+            container.innerHTML = '';
+
+            top5.forEach((breed, i) => {
+                const match = Math.min(100, Math.round((breed.score / selectedTags.length) * 100 + 50));
+                const div = document.createElement('a');
+                div.href = '../breeds/' + breed.slug + '.html';
+                div.className = 'block bg-white rounded-2xl p-6 shadow-lg shadow-slate-200/50 hover:shadow-xl transition';
+                div.innerHTML = `
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-gradient-to-br from-sky-100 to-violet-100 rounded-xl flex items-center justify-center text-2xl font-bold text-sky-600">${i + 1}</div>
+                            <div>
+                                <h3 class="text-xl font-bold">${breed.name}</h3>
+                                <p class="text-slate-500 text-sm">${match}% match</p>
+                            </div>
+                        </div>
+                        <div class="text-sky-600 font-semibold">View →</div>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        function restartQuiz() {
+            currentQuestion = 0;
+            selectedTags = [];
+            document.getElementById('quiz-results').classList.add('hidden');
+            document.getElementById('quiz-intro').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
