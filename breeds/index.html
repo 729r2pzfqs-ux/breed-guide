@@ -73,6 +73,16 @@
         <h1 class="text-4xl font-extrabold text-slate-900 mb-2">All Dog Breeds</h1>
         <p class="text-lg text-slate-600 mb-8">Browse our collection of 50 popular dog breeds</p>
 
+        <!-- Size Filter -->
+        <div id="size-filter" class="flex flex-wrap gap-2 mb-6">
+            <button data-filter="all" class="filter-btn px-4 py-2 rounded-lg text-sm font-medium bg-sky-500 text-white">All Sizes</button>
+            <button data-filter="tiny" class="filter-btn px-4 py-2 rounded-lg text-sm font-medium bg-white text-slate-600 border border-slate-200 hover:border-sky-300">Tiny</button>
+            <button data-filter="small" class="filter-btn px-4 py-2 rounded-lg text-sm font-medium bg-white text-slate-600 border border-slate-200 hover:border-sky-300">Small</button>
+            <button data-filter="medium" class="filter-btn px-4 py-2 rounded-lg text-sm font-medium bg-white text-slate-600 border border-slate-200 hover:border-sky-300">Medium</button>
+            <button data-filter="large" class="filter-btn px-4 py-2 rounded-lg text-sm font-medium bg-white text-slate-600 border border-slate-200 hover:border-sky-300">Large</button>
+            <button data-filter="giant" class="filter-btn px-4 py-2 rounded-lg text-sm font-medium bg-white text-slate-600 border border-slate-200 hover:border-sky-300">Giant</button>
+        </div>
+
         <!-- Search -->
         <div class="mb-8">
             <div class="relative max-w-md">
@@ -411,12 +421,77 @@
     <script>
         lucide.createIcons();
         
+        // Breed size data
+        const breedSizes = {
+            'labrador-retriever': 'large', 'german-shepherd': 'large', 'golden-retriever': 'large',
+            'french-bulldog': 'small', 'bulldog': 'medium', 'poodle': 'large', 'beagle': 'medium',
+            'rottweiler': 'giant', 'german-shorthaired-pointer': 'large', 'dachshund': 'small',
+            'pembroke-welsh-corgi': 'medium', 'yorkshire-terrier': 'tiny', 'boxer': 'large',
+            'siberian-husky': 'large', 'australian-shepherd': 'large', 'great-dane': 'giant',
+            'doberman-pinscher': 'large', 'cavalier-king-charles-spaniel': 'small',
+            'miniature-schnauzer': 'small', 'shih-tzu': 'small', 'boston-terrier': 'small',
+            'bernese-mountain-dog': 'giant', 'pomeranian': 'tiny', 'havanese': 'small',
+            'shetland-sheepdog': 'small', 'brittany': 'medium', 'english-springer-spaniel': 'medium',
+            'cocker-spaniel': 'medium', 'chihuahua': 'tiny', 'border-collie': 'medium',
+            'vizsla': 'large', 'pug': 'small', 'weimaraner': 'large', 'belgian-malinois': 'large',
+            'maltese': 'tiny', 'collie': 'large', 'basset-hound': 'medium', 'newfoundland': 'giant',
+            'rhodesian-ridgeback': 'large', 'shiba-inu': 'medium', 'west-highland-white-terrier': 'small',
+            'bichon-frise': 'small', 'akita': 'giant', 'samoyed': 'large',
+            'portuguese-water-dog': 'medium', 'st-bernard': 'giant', 'bull-terrier': 'medium',
+            'miniature-american-shepherd': 'medium', 'australian-cattle-dog': 'medium', 'alaskan-malamute': 'giant'
+        };
+
+        // Add data-size to cards
+        document.querySelectorAll('.breed-card').forEach(card => {
+            const href = card.getAttribute('href');
+            const slug = href.split('/').pop().replace('.html', '');
+            const size = breedSizes[slug] || 'medium';
+            card.setAttribute('data-size', size);
+        });
+
+        // Get URL params
+        const urlParams = new URLSearchParams(window.location.search);
+        const sizeParam = urlParams.get('size');
+        
+        // Filter function
+        function filterBySize(size) {
+            document.querySelectorAll('.breed-card').forEach(card => {
+                if (size === 'all' || card.getAttribute('data-size') === size) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+            // Update button styles
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                if (btn.getAttribute('data-filter') === size) {
+                    btn.className = 'filter-btn px-4 py-2 rounded-lg text-sm font-medium bg-sky-500 text-white';
+                } else {
+                    btn.className = 'filter-btn px-4 py-2 rounded-lg text-sm font-medium bg-white text-slate-600 border border-slate-200 hover:border-sky-300';
+                }
+            });
+        }
+
+        // Apply URL param filter on load
+        if (sizeParam) {
+            filterBySize(sizeParam);
+        }
+
+        // Filter button clicks
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => filterBySize(btn.getAttribute('data-filter')));
+        });
+        
         // Search functionality
         document.getElementById('breed-search').addEventListener('input', function(e) {
             const search = e.target.value.toLowerCase();
+            const activeFilter = document.querySelector('.filter-btn.bg-sky-500')?.getAttribute('data-filter') || 'all';
             document.querySelectorAll('.breed-card').forEach(card => {
                 const name = card.getAttribute('data-name');
-                card.style.display = name.includes(search) ? 'block' : 'none';
+                const size = card.getAttribute('data-size');
+                const matchesSearch = name.includes(search);
+                const matchesSize = activeFilter === 'all' || size === activeFilter;
+                card.style.display = (matchesSearch && matchesSize) ? 'block' : 'none';
             });
         });
     </script>
