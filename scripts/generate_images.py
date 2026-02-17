@@ -1,16 +1,12 @@
 #!/usr/bin/env python3
 """
-Batch generate dog breed images using Replicate API (Flux model)
-Cost: ~$0.03 per image = ~$1.50 total for 50 breeds
+Batch generate dog breed images using Replicate API (Flux 1.1 Pro - best quality)
 """
 
 import os
 import replicate
 import requests
 import time
-
-# Get API key from environment
-# export REPLICATE_API_TOKEN=your_token_here
 
 BREEDS = [
     "Labrador Retriever", "German Shepherd", "Golden Retriever", "French Bulldog",
@@ -35,7 +31,7 @@ def breed_to_slug(breed):
 def generate_prompt(breed):
     """Generate the image prompt for a breed"""
     article = "an" if breed[0].lower() in "aeiou" else "a"
-    return f"Ultra realistic studio photograph of {article} {breed} dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text"
+    return f"Ultra realistic studio photograph of {article} {breed} dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance. The dog is framed in a vertical 4:5 portrait composition, head centered, top of ears close to top edge, cropped at mid chest so paws are not visible, consistent head size across breeds. Soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background with a subtle natural shadow under the dog for separation. Professional kennel club catalog photography style, no collar, no accessories, no text."
 
 def generate_image(breed, output_dir="images"):
     """Generate a single breed image"""
@@ -51,20 +47,20 @@ def generate_image(breed, output_dir="images"):
     print(f"🎨 Generating {breed}...")
     
     try:
-        # Using Flux Schnell (fast, good quality, cheap)
+        # Using Flux 1.1 Pro (best quality)
         output = replicate.run(
-            "black-forest-labs/flux-schnell",
+            "black-forest-labs/flux-1.1-pro",
             input={
                 "prompt": prompt,
                 "aspect_ratio": "4:5",
                 "output_format": "png",
-                "output_quality": 90
+                "safety_tolerance": 2
             }
         )
         
         # Download the image
-        if output and len(output) > 0:
-            img_url = output[0]
+        if output:
+            img_url = str(output)
             response = requests.get(img_url)
             
             os.makedirs(output_dir, exist_ok=True)
@@ -82,7 +78,7 @@ def generate_image(breed, output_dir="images"):
         return False
 
 def main():
-    print("🐕 BreedFinder Image Generator")
+    print("🐕 BreedFinder Image Generator (Flux 1.1 Pro)")
     print(f"📦 {len(BREEDS)} breeds to generate\n")
     
     # Check API key
@@ -103,8 +99,8 @@ def main():
         else:
             failed.append(breed)
         
-        # Respect rate limits (6/min with <$5 credit = 10s between)
-        time.sleep(12)
+        # Respect rate limits (10s between requests)
+        time.sleep(10)
     
     print(f"\n{'='*50}")
     print(f"✅ Generated: {success}/{len(BREEDS)}")
