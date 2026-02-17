@@ -103,7 +103,7 @@
                 <!-- Search -->
                 <div class="max-w-xl mx-auto mb-8">
                     <div class="relative">
-                        <input type="text" placeholder="Search breeds..." class="w-full bg-white border border-slate-200 rounded-2xl px-6 py-4 text-lg focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:border-sky-400 shadow-sm">
+                        <input type="text" id="home-search" placeholder="Search breeds..." class="w-full bg-white border border-slate-200 rounded-2xl px-6 py-4 text-lg focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:border-sky-400 shadow-sm">
                         <button class="absolute right-2 top-1/2 -translate-y-1/2 bg-slate-100 hover:bg-slate-200 p-3 rounded-xl transition">
                             <i data-lucide="search" class="w-5 h-5 text-slate-500"></i>
                         </button>
@@ -302,6 +302,18 @@
         </div>
     </footer>
 
-    <script>lucide.createIcons();</script>
+    <script>
+        lucide.createIcons();
+        
+        // Home search - redirect to breeds page
+        const homeSearch = document.getElementById('home-search');
+        if (homeSearch) {
+            homeSearch.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter' && this.value.trim()) {
+                    window.location.href = 'breeds/?search=' + encodeURIComponent(this.value.trim());
+                }
+            });
+        }
+    </script>
 </body>
 </html>
