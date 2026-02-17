@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <base href="/breedfinder.org/">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BreedFinder — Find Your Perfect Dog Breed</title>
@@ -9,7 +9,7 @@
     <link rel="canonical" href="https://breedfinder.org/">
     
     <!-- Favicon -->
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -69,15 +69,15 @@
     <!-- Header -->
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="./" class="flex items-center gap-3">
                 <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-violet-500 rounded-xl flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
                     <i data-lucide="dog" class="w-5 h-5"></i>
                 </div>
                 <span class="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="/breeds" class="text-slate-600 hover:text-sky-600 transition">All Breeds</a>
-                <a href="/quiz" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-sky-500/25 transition">Take Quiz</a>
+                <a href="breeds" class="text-slate-600 hover:text-sky-600 transition">All Breeds</a>
+                <a href="quiz" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-sky-500/25 transition">Take Quiz</a>
             </nav>
         </div>
     </header>
@@ -111,11 +111,11 @@
                 </div>
 
                 <div class="flex flex-wrap justify-center gap-4">
-                    <a href="/quiz" class="inline-flex items-center gap-2 bg-gradient-to-r from-sky-500 to-violet-500 text-white px-8 py-4 rounded-2xl font-semibold text-lg hover:shadow-xl hover:shadow-sky-500/25 transition transform hover:-translate-y-0.5">
+                    <a href="quiz" class="inline-flex items-center gap-2 bg-gradient-to-r from-sky-500 to-violet-500 text-white px-8 py-4 rounded-2xl font-semibold text-lg hover:shadow-xl hover:shadow-sky-500/25 transition transform hover:-translate-y-0.5">
                         <i data-lucide="target" class="w-5 h-5"></i>
                         Take the Breed Quiz
                     </a>
-                    <a href="/compare" class="inline-flex items-center gap-2 bg-white text-slate-700 border border-slate-200 px-8 py-4 rounded-2xl font-semibold text-lg hover:border-slate-300 hover:shadow-lg transition transform hover:-translate-y-0.5">
+                    <a href="compare" class="inline-flex items-center gap-2 bg-white text-slate-700 border border-slate-200 px-8 py-4 rounded-2xl font-semibold text-lg hover:border-slate-300 hover:shadow-lg transition transform hover:-translate-y-0.5">
                         <i data-lucide="scale" class="w-5 h-5"></i>
                         Compare Breeds
                     </a>
@@ -130,35 +130,35 @@
                 <p class="text-slate-500 mb-8">Find breeds that fit your living space</p>
                 
                 <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
-                    <a href="/breeds?size=tiny" class="bg-gradient-to-br from-pink-50 to-rose-50 hover:from-pink-100 hover:to-rose-100 rounded-2xl p-6 text-center transition border border-pink-100 group">
+                    <a href="breeds?size=tiny" class="bg-gradient-to-br from-pink-50 to-rose-50 hover:from-pink-100 hover:to-rose-100 rounded-2xl p-6 text-center transition border border-pink-100 group">
                         <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition shadow-sm">
                             <i data-lucide="dog" class="w-5 h-5 text-pink-500"></i>
                         </div>
                         <div class="font-semibold text-slate-800">Tiny</div>
                         <div class="text-sm text-slate-500">Under 5 kg</div>
                     </a>
-                    <a href="/breeds?size=small" class="bg-gradient-to-br from-amber-50 to-yellow-50 hover:from-amber-100 hover:to-yellow-100 rounded-2xl p-6 text-center transition border border-amber-100 group">
+                    <a href="breeds?size=small" class="bg-gradient-to-br from-amber-50 to-yellow-50 hover:from-amber-100 hover:to-yellow-100 rounded-2xl p-6 text-center transition border border-amber-100 group">
                         <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition shadow-sm">
                             <i data-lucide="dog" class="w-6 h-6 text-amber-500"></i>
                         </div>
                         <div class="font-semibold text-slate-800">Small</div>
                         <div class="text-sm text-slate-500">5–10 kg</div>
                     </a>
-                    <a href="/breeds?size=medium" class="bg-gradient-to-br from-emerald-50 to-teal-50 hover:from-emerald-100 hover:to-teal-100 rounded-2xl p-6 text-center transition border border-emerald-100 group">
+                    <a href="breeds?size=medium" class="bg-gradient-to-br from-emerald-50 to-teal-50 hover:from-emerald-100 hover:to-teal-100 rounded-2xl p-6 text-center transition border border-emerald-100 group">
                         <div class="w-14 h-14 bg-white rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition shadow-sm">
                             <i data-lucide="dog" class="w-7 h-7 text-emerald-500"></i>
                         </div>
                         <div class="font-semibold text-slate-800">Medium</div>
                         <div class="text-sm text-slate-500">10–25 kg</div>
                     </a>
-                    <a href="/breeds?size=large" class="bg-gradient-to-br from-sky-50 to-blue-50 hover:from-sky-100 hover:to-blue-100 rounded-2xl p-6 text-center transition border border-sky-100 group">
+                    <a href="breeds?size=large" class="bg-gradient-to-br from-sky-50 to-blue-50 hover:from-sky-100 hover:to-blue-100 rounded-2xl p-6 text-center transition border border-sky-100 group">
                         <div class="w-14 h-14 bg-white rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition shadow-sm">
                             <i data-lucide="dog" class="w-8 h-8 text-sky-500"></i>
                         </div>
                         <div class="font-semibold text-slate-800">Large</div>
                         <div class="text-sm text-slate-500">25–45 kg</div>
                     </a>
-                    <a href="/breeds?size=giant" class="bg-gradient-to-br from-violet-50 to-purple-50 hover:from-violet-100 hover:to-purple-100 rounded-2xl p-6 text-center transition border border-violet-100 group">
+                    <a href="breeds?size=giant" class="bg-gradient-to-br from-violet-50 to-purple-50 hover:from-violet-100 hover:to-purple-100 rounded-2xl p-6 text-center transition border border-violet-100 group">
                         <div class="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition shadow-sm">
                             <i data-lucide="dog" class="w-10 h-10 text-violet-500"></i>
                         </div>
@@ -176,56 +176,56 @@
                 <p class="text-slate-500 mb-8">Most loved dog breeds worldwide</p>
                 
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
-                    <a href="/breeds/labrador-retriever" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
+                    <a href="breeds/labrador-retriever" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-14 h-14 bg-slate-100 rounded-2xl flex items-center justify-center mx-auto mb-3 group-hover:bg-sky-50 transition">
                             <i data-lucide="dog" class="w-7 h-7 text-slate-400 group-hover:text-sky-500 transition"></i>
                         </div>
                         <div class="font-semibold text-slate-800 text-center">Labrador Retriever</div>
                         <div class="text-xs text-slate-500 text-center mt-1">Friendly • Active • Loyal</div>
                     </a>
-                    <a href="/breeds/german-shepherd" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
+                    <a href="breeds/german-shepherd" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-14 h-14 bg-slate-100 rounded-2xl flex items-center justify-center mx-auto mb-3 group-hover:bg-sky-50 transition">
                             <i data-lucide="dog" class="w-7 h-7 text-slate-400 group-hover:text-sky-500 transition"></i>
                         </div>
                         <div class="font-semibold text-slate-800 text-center">German Shepherd</div>
                         <div class="text-xs text-slate-500 text-center mt-1">Intelligent • Protective</div>
                     </a>
-                    <a href="/breeds/golden-retriever" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
+                    <a href="breeds/golden-retriever" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-14 h-14 bg-slate-100 rounded-2xl flex items-center justify-center mx-auto mb-3 group-hover:bg-sky-50 transition">
                             <i data-lucide="dog" class="w-7 h-7 text-slate-400 group-hover:text-sky-500 transition"></i>
                         </div>
                         <div class="font-semibold text-slate-800 text-center">Golden Retriever</div>
                         <div class="text-xs text-slate-500 text-center mt-1">Gentle • Friendly • Smart</div>
                     </a>
-                    <a href="/breeds/french-bulldog" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
+                    <a href="breeds/french-bulldog" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-14 h-14 bg-slate-100 rounded-2xl flex items-center justify-center mx-auto mb-3 group-hover:bg-sky-50 transition">
                             <i data-lucide="dog" class="w-7 h-7 text-slate-400 group-hover:text-sky-500 transition"></i>
                         </div>
                         <div class="font-semibold text-slate-800 text-center">French Bulldog</div>
                         <div class="text-xs text-slate-500 text-center mt-1">Playful • Adaptable</div>
                     </a>
-                    <a href="/breeds/poodle" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
+                    <a href="breeds/poodle" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-14 h-14 bg-slate-100 rounded-2xl flex items-center justify-center mx-auto mb-3 group-hover:bg-sky-50 transition">
                             <i data-lucide="dog" class="w-7 h-7 text-slate-400 group-hover:text-sky-500 transition"></i>
                         </div>
                         <div class="font-semibold text-slate-800 text-center">Poodle</div>
                         <div class="text-xs text-slate-500 text-center mt-1">Intelligent • Elegant</div>
                     </a>
-                    <a href="/breeds/siberian-husky" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
+                    <a href="breeds/siberian-husky" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-14 h-14 bg-slate-100 rounded-2xl flex items-center justify-center mx-auto mb-3 group-hover:bg-sky-50 transition">
                             <i data-lucide="dog" class="w-7 h-7 text-slate-400 group-hover:text-sky-500 transition"></i>
                         </div>
                         <div class="font-semibold text-slate-800 text-center">Siberian Husky</div>
                         <div class="text-xs text-slate-500 text-center mt-1">Energetic • Outgoing</div>
                     </a>
-                    <a href="/breeds/beagle" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
+                    <a href="breeds/beagle" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-14 h-14 bg-slate-100 rounded-2xl flex items-center justify-center mx-auto mb-3 group-hover:bg-sky-50 transition">
                             <i data-lucide="dog" class="w-7 h-7 text-slate-400 group-hover:text-sky-500 transition"></i>
                         </div>
                         <div class="font-semibold text-slate-800 text-center">Beagle</div>
                         <div class="text-xs text-slate-500 text-center mt-1">Curious • Merry</div>
                     </a>
-                    <a href="/breeds/alaskan-malamute" class="bg-white rounded-2xl p-5 card-shadow border-2 border-sky-300 transition group relative overflow-hidden">
+                    <a href="breeds/alaskan-malamute" class="bg-white rounded-2xl p-5 card-shadow border-2 border-sky-300 transition group relative overflow-hidden">
                         <div class="absolute top-2 right-2 bg-gradient-to-r from-sky-500 to-violet-500 text-white text-xs font-bold px-2 py-1 rounded-full">NEW</div>
                         <div class="w-14 h-14 bg-sky-50 rounded-2xl flex items-center justify-center mx-auto mb-3 group-hover:bg-sky-100 transition">
                             <i data-lucide="dog" class="w-7 h-7 text-sky-500 transition"></i>
@@ -236,7 +236,7 @@
                 </div>
                 
                 <div class="text-center mt-8">
-                    <a href="/breeds" class="inline-flex items-center gap-2 text-sky-600 font-semibold hover:text-sky-700 transition">
+                    <a href="breeds" class="inline-flex items-center gap-2 text-sky-600 font-semibold hover:text-sky-700 transition">
                         View all 300+ breeds
                         <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
@@ -290,10 +290,10 @@
                     <span class="text-xl font-bold">BreedFinder</span>
                 </div>
                 <div class="flex gap-8 text-sm text-slate-400">
-                    <a href="/breeds" class="hover:text-white transition">All Breeds</a>
-                    <a href="/quiz" class="hover:text-white transition">Breed Quiz</a>
-                    <a href="/compare" class="hover:text-white transition">Compare</a>
-                    <a href="/about" class="hover:text-white transition">About</a>
+                    <a href="breeds" class="hover:text-white transition">All Breeds</a>
+                    <a href="quiz" class="hover:text-white transition">Breed Quiz</a>
+                    <a href="compare" class="hover:text-white transition">Compare</a>
+                    <a href="about" class="hover:text-white transition">About</a>
                 </div>
             </div>
             <div class="border-t border-slate-800 mt-8 pt-8 text-center text-sm text-slate-500">
