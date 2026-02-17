@@ -1,0 +1,32 @@
+{
+  "id": "german-shepherd",
+  "name": "German Shepherd",
+  "aliases": ["GSD", "Alsatian", "German Shepherd Dog"],
+  "group": "herding",
+  "origin": "Germany",
+  "lifespan": "9-13 years",
+  "size": { "height_cm": "55-65", "weight_kg": "22-40", "category": "large" },
+  "ratings": {
+    "size": 4, "energy": 4, "grooming": 3, "sociability": 3,
+    "trainability": 5, "barking": 4, "kid_friendly": 4, "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Double coat, medium length",
+    "coat_colors": ["black and tan", "sable", "all black", "black and red"],
+    "shedding": "heavy", "hypoallergenic": false
+  },
+  "temperament": ["confident", "courageous", "smart", "loyal", "protective", "obedient"],
+  "description": {
+    "overview": "German Shepherds are working dogs developed for herding sheep. Because of their strength, intelligence, trainability, and obedience, they're often preferred for many types of work including police, military, and search-and-rescue.",
+    "history": "Developed in Germany in the late 1800s by Captain Max von Stephanitz, who wanted to create the ideal herding dog. The breed quickly proved versatile and became popular worldwide for various working roles.",
+    "temperament": "GSDs are confident, courageous, and smart. They're willing to put their life on the line for loved ones. They can be aloof with strangers but are loyal and loving with family.",
+    "health": "Prone to hip and elbow dysplasia, degenerative myelopathy, and bloat. Regular vet checkups are important. Buy from reputable breeders who test for genetic conditions.",
+    "grooming": "Heavy shedders—brush several times a week. They 'blow' their coat twice a year when daily brushing is needed. Regular nail, ear, and dental care.",
+    "exercise": "High exercise needs. At least 2 hours daily of physical and mental stimulation. Excel at obedience, agility, tracking, and protection sports."
+  },
+  "verdict": {
+    "best_for": ["Experienced dog owners", "Active families", "Those wanting a protective dog", "People with time for training", "Homes with yards"],
+    "not_for": ["First-time owners", "Sedentary lifestyles", "Those away from home often", "Small apartments"],
+    "summary": "The German Shepherd is a loyal, intelligent, and versatile working dog. Best suited for experienced owners who can provide firm leadership, consistent training, and plenty of exercise. Not ideal for first-time owners or apartment living."
+  }
+}

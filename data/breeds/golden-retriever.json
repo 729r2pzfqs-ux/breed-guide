@@ -1,0 +1,32 @@
+{
+  "id": "golden-retriever",
+  "name": "Golden Retriever",
+  "aliases": ["Golden"],
+  "group": "sporting",
+  "origin": "Scotland",
+  "lifespan": "10-12 years",
+  "size": { "height_cm": "51-61", "weight_kg": "25-34", "category": "large" },
+  "ratings": {
+    "size": 4, "energy": 4, "grooming": 3, "sociability": 5,
+    "trainability": 5, "barking": 2, "kid_friendly": 5, "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Dense, water-repellent double coat",
+    "coat_colors": ["golden", "light golden", "dark golden"],
+    "shedding": "heavy", "hypoallergenic": false
+  },
+  "temperament": ["intelligent", "friendly", "devoted", "reliable", "trustworthy", "kind"],
+  "description": {
+    "overview": "The Golden Retriever is one of the most popular dog breeds. Their friendly, tolerant attitude makes them fabulous family pets, and their intelligence makes them highly capable working dogs.",
+    "history": "Developed in Scotland during the mid-19th century by Lord Tweedmouth, who crossed a yellow retriever with a Tweed Water Spaniel to create the perfect gundog for retrieving waterfowl.",
+    "temperament": "Goldens are outgoing, trustworthy, and eager to please. They're wonderful with children and other pets. Their patient, gentle nature makes them excellent therapy dogs.",
+    "health": "Prone to cancer, hip dysplasia, elbow dysplasia, and heart conditions. Regular vet visits and buying from health-tested breeders is important.",
+    "grooming": "Heavy shedders requiring regular brushing (daily during shedding season). Their feathered coat needs attention to prevent matting.",
+    "exercise": "Active dogs needing 1-2 hours of exercise daily. Love swimming, fetch, and any activity with their family. Excel at obedience and agility."
+  },
+  "verdict": {
+    "best_for": ["Families with children", "First-time dog owners", "Active households", "Those wanting a therapy/service dog", "Homes with yards"],
+    "not_for": ["Those wanting a guard dog", "Allergy sufferers", "Those who dislike dog hair", "Very small living spaces"],
+    "summary": "The Golden Retriever is the quintessential family dog—friendly, patient, and eager to please. Perfect for first-time owners and families. They need regular exercise and grooming but reward you with unwavering loyalty and love."
+  }
+}

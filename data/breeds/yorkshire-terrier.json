@@ -1,0 +1,32 @@
+{
+  "id": "yorkshire-terrier",
+  "name": "Yorkshire Terrier",
+  "aliases": ["Yorkie"],
+  "group": "toy",
+  "origin": "England",
+  "lifespan": "13-16 years",
+  "size": { "height_cm": "18-23", "weight_kg": "2-3", "category": "tiny" },
+  "ratings": {
+    "size": 1, "energy": 3, "grooming": 5, "sociability": 3,
+    "trainability": 3, "barking": 4, "kid_friendly": 2, "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Long, silky, human-like hair",
+    "coat_colors": ["blue and tan", "black and tan", "black and gold"],
+    "shedding": "minimal", "hypoallergenic": true
+  },
+  "temperament": ["affectionate", "spirited", "tomboyish", "feisty", "brave", "confident"],
+  "description": {
+    "overview": "Yorkies pack a lot of personality into a tiny package. They're feisty, bossy, and full of terrier spirit—don't let their small size fool you.",
+    "history": "Developed in Yorkshire, England during the 1800s by Scottish weavers who brought terriers south. Originally used to catch rats in textile mills.",
+    "temperament": "Yorkies are affectionate with their owners but can be suspicious of strangers. They have big personalities and don't know they're small. Can be barky.",
+    "health": "Prone to dental issues, hypoglycemia, luxating patella, and collapsed trachea. Regular dental care and careful handling important.",
+    "grooming": "High maintenance coat requiring daily brushing and regular professional grooming. Many owners opt for shorter 'puppy cuts.'",
+    "exercise": "Low to moderate exercise needs. Short walks and indoor play. Good for apartments but still need daily activity."
+  },
+  "verdict": {
+    "best_for": ["Apartment dwellers", "Singles and couples", "Seniors", "Those wanting a portable companion", "Allergy sufferers"],
+    "not_for": ["Families with small children", "Those wanting a rugged outdoor dog", "People who dislike grooming", "Those wanting a quiet dog"],
+    "summary": "Yorkies are feisty, portable companions perfect for city living. They need regular grooming but don't shed much. Best for adults without young children who enjoy pampering a tiny but spirited companion."
+  }
+}

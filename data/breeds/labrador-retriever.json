@@ -1,0 +1,32 @@
+{
+  "id": "labrador-retriever",
+  "name": "Labrador Retriever",
+  "aliases": ["Lab", "Labrador"],
+  "group": "sporting",
+  "origin": "Canada (Newfoundland)",
+  "lifespan": "10-12 years",
+  "size": { "height_cm": "55-62", "weight_kg": "25-36", "category": "large" },
+  "ratings": {
+    "size": 4, "energy": 5, "grooming": 2, "sociability": 5,
+    "trainability": 5, "barking": 3, "kid_friendly": 5, "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, dense, water-resistant double coat",
+    "coat_colors": ["black", "yellow", "chocolate"],
+    "shedding": "high", "hypoallergenic": false
+  },
+  "temperament": ["friendly", "outgoing", "active", "gentle", "intelligent", "trusting"],
+  "description": {
+    "overview": "The Labrador Retriever is America's most popular dog breed for good reason. They're friendly, outgoing, and high-spirited companions who have more than enough affection to go around for a family looking for a medium-to-large dog.",
+    "history": "Despite the name, Labrador Retrievers actually originated in Newfoundland, Canada, where they helped fishermen retrieve nets and catch escaping fish. British nobles visiting Canada fell in love with the breed and brought them to England.",
+    "temperament": "Labs are famously friendly. They are companionable housemates who bond with the whole family, and they socialize well with neighbor dogs and humans alike. But don't mistake their easygoing personality for low energy.",
+    "health": "Generally healthy, but prone to hip and elbow dysplasia, heart disorders, eye conditions, and exercise-induced collapse. Obesity is common, so watch their diet.",
+    "grooming": "Weekly brushing keeps the coat healthy. They shed heavily, especially during seasonal changes. Regular nail trimming and ear cleaning needed.",
+    "exercise": "High energy dogs that need lots of exercise—at least an hour daily. They love swimming, fetch, and any activity with their humans."
+  },
+  "verdict": {
+    "best_for": ["Families with children", "Active individuals", "First-time dog owners", "Homes with yards", "People who enjoy outdoor activities"],
+    "not_for": ["Sedentary lifestyles", "Those away from home often", "Allergy sufferers", "Small apartment dwellers"],
+    "summary": "The ultimate family dog. Labrador Retrievers are friendly, patient, and trainable—perfect for first-time owners and families with kids. They need plenty of exercise and shed a lot, but their loving nature makes them worth it."
+  }
+}

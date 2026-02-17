@@ -1,0 +1,32 @@
+{
+  "id": "rottweiler",
+  "name": "Rottweiler",
+  "aliases": ["Rottie", "Rott"],
+  "group": "working",
+  "origin": "Germany",
+  "lifespan": "8-10 years",
+  "size": { "height_cm": "56-69", "weight_kg": "36-60", "category": "large" },
+  "ratings": {
+    "size": 5, "energy": 4, "grooming": 2, "sociability": 3,
+    "trainability": 4, "barking": 3, "kid_friendly": 3, "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, dense double coat",
+    "coat_colors": ["black with tan/mahogany markings"],
+    "shedding": "moderate", "hypoallergenic": false
+  },
+  "temperament": ["loyal", "confident", "courageous", "calm", "protective", "good-natured"],
+  "description": {
+    "overview": "The Rottweiler is a robust working breed of great strength. A gentle playmate and protector within the family circle, they observe the outside world with a self-assured aloofness.",
+    "history": "Descended from Roman drover dogs, Rottweilers were used to herd livestock and pull carts in the German town of Rottweil. They later became police, military, and guard dogs.",
+    "temperament": "Rottweilers are calm, confident, and courageous. They're devoted to their family but can be aloof with strangers. Early socialization is essential.",
+    "health": "Prone to hip and elbow dysplasia, heart conditions, and cancer. Regular vet checkups and buying from health-tested breeders is important.",
+    "grooming": "Easy to groom. Weekly brushing. Moderate shedding with heavier periods twice a year.",
+    "exercise": "Moderate to high exercise needs. Daily walks and mental stimulation. Excel at obedience, tracking, and carting."
+  },
+  "verdict": {
+    "best_for": ["Experienced dog owners", "Those wanting a protective dog", "Active individuals/families", "People with time for training", "Homes with secure yards"],
+    "not_for": ["First-time owners", "Apartment dwellers", "Those who can't commit to training", "Areas with breed restrictions"],
+    "summary": "Rottweilers are powerful, loyal protectors. Best for experienced owners who can provide leadership, training, and socialization. Not ideal for first-time owners or apartments. A well-trained Rottie is a wonderful companion."
+  }
+}
