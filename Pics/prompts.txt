@@ -1,0 +1,157 @@
+# Dog Breed Image Prompts for BreedFinder.org
+# Format: 1200 × 1500 px (4:5 portrait)
+# Base prompt template applied to each breed
+
+=== ALREADY DONE ===
+1. Labrador Retriever ✅
+2. (check which breeds you did - likely German Shepherd, Golden Retriever?)
+
+=== REMAINING PROMPTS ===
+
+## 4. French Bulldog
+Ultra realistic studio photograph of a French Bulldog dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 5. Bulldog
+Ultra realistic studio photograph of a Bulldog dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 6. Poodle (Standard)
+Ultra realistic studio photograph of a Standard Poodle dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 7. Beagle
+Ultra realistic studio photograph of a Beagle dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 8. Rottweiler
+Ultra realistic studio photograph of a Rottweiler dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 9. German Shorthaired Pointer
+Ultra realistic studio photograph of a German Shorthaired Pointer dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 10. Dachshund
+Ultra realistic studio photograph of a Dachshund dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 11. Pembroke Welsh Corgi
+Ultra realistic studio photograph of a Pembroke Welsh Corgi dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 12. Yorkshire Terrier
+Ultra realistic studio photograph of a Yorkshire Terrier dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 13. Boxer
+Ultra realistic studio photograph of a Boxer dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 14. Siberian Husky
+Ultra realistic studio photograph of a Siberian Husky dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 15. Australian Shepherd
+Ultra realistic studio photograph of an Australian Shepherd dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 16. Great Dane
+Ultra realistic studio photograph of a Great Dane dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 17. Doberman Pinscher
+Ultra realistic studio photograph of a Doberman Pinscher dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 18. Cavalier King Charles Spaniel
+Ultra realistic studio photograph of a Cavalier King Charles Spaniel dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 19. Miniature Schnauzer
+Ultra realistic studio photograph of a Miniature Schnauzer dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 20. Shih Tzu
+Ultra realistic studio photograph of a Shih Tzu dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 21. Boston Terrier
+Ultra realistic studio photograph of a Boston Terrier dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 22. Bernese Mountain Dog
+Ultra realistic studio photograph of a Bernese Mountain Dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 23. Pomeranian
+Ultra realistic studio photograph of a Pomeranian dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 24. Havanese
+Ultra realistic studio photograph of a Havanese dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 25. Shetland Sheepdog
+Ultra realistic studio photograph of a Shetland Sheepdog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 26. Brittany
+Ultra realistic studio photograph of a Brittany dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 27. English Springer Spaniel
+Ultra realistic studio photograph of an English Springer Spaniel dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 28. Cocker Spaniel
+Ultra realistic studio photograph of a Cocker Spaniel dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 29. Chihuahua
+Ultra realistic studio photograph of a Chihuahua dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 30. Border Collie
+Ultra realistic studio photograph of a Border Collie dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 31. Vizsla
+Ultra realistic studio photograph of a Vizsla dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 32. Pug
+Ultra realistic studio photograph of a Pug dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 33. Weimaraner
+Ultra realistic studio photograph of a Weimaraner dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 34. Belgian Malinois
+Ultra realistic studio photograph of a Belgian Malinois dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 35. Maltese
+Ultra realistic studio photograph of a Maltese dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 36. Collie
+Ultra realistic studio photograph of a Rough Collie dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 37. Basset Hound
+Ultra realistic studio photograph of a Basset Hound dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 38. Newfoundland
+Ultra realistic studio photograph of a Newfoundland dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 39. Rhodesian Ridgeback
+Ultra realistic studio photograph of a Rhodesian Ridgeback dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 40. Shiba Inu
+Ultra realistic studio photograph of a Shiba Inu dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 41. West Highland White Terrier
+Ultra realistic studio photograph of a West Highland White Terrier dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 42. Bichon Frise
+Ultra realistic studio photograph of a Bichon Frise dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 43. Akita
+Ultra realistic studio photograph of an Akita dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 44. Samoyed
+Ultra realistic studio photograph of a Samoyed dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 45. Portuguese Water Dog
+Ultra realistic studio photograph of a Portuguese Water Dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 46. St. Bernard
+Ultra realistic studio photograph of a St. Bernard dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 47. Bull Terrier
+Ultra realistic studio photograph of a Bull Terrier dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 48. Miniature American Shepherd
+Ultra realistic studio photograph of a Miniature American Shepherd dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 49. Australian Cattle Dog
+Ultra realistic studio photograph of an Australian Cattle Dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+## 50. Alaskan Malamute
+Ultra realistic studio photograph of an Alaskan Malamute dog, sitting and facing camera, eye level perspective, neutral attentive expression, adult dog, ideal breed standard appearance, soft diffused studio lighting, 85mm lens look, shallow depth of field, seamless light grey studio background, centered composition, camera positioned farther back, consistent head size across breeds, top of ears near top margin, cropped at mid chest, paws not visible, subtle natural shadow under dog for separation, professional kennel club catalog photography style, no collar, no accessories, no text
+
+=== NAMING CONVENTION ===
+Save as: [breed-slug].png (e.g., labrador-retriever.png, french-bulldog.png)
+This matches the JSON data file names for easy mapping.
+
+=== IMAGE SIZE ===
+1200 × 1500 px (4:5 portrait)
