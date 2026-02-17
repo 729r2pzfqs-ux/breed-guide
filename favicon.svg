@@ -6,5 +6,23 @@
     </linearGradient>
   </defs>
   <rect width="100" height="100" rx="20" fill="url(#grad)"/>
-  <text x="50" y="68" font-size="50" text-anchor="middle" fill="white">🐕</text>
+  <!-- Sheltie-style dog face -->
+  <ellipse cx="50" cy="58" rx="28" ry="24" fill="#D4A574"/>
+  <!-- White blaze -->
+  <path d="M50 35 L42 58 L50 72 L58 58 Z" fill="white"/>
+  <!-- Ears -->
+  <path d="M22 30 Q18 45 28 55 Q35 48 32 38 Z" fill="#8B6914"/>
+  <path d="M78 30 Q82 45 72 55 Q65 48 68 38 Z" fill="#8B6914"/>
+  <!-- Ear tips folded -->
+  <path d="M22 30 Q25 38 32 38" fill="none" stroke="#D4A574" stroke-width="4"/>
+  <path d="M78 30 Q75 38 68 38" fill="none" stroke="#D4A574" stroke-width="4"/>
+  <!-- Eyes -->
+  <ellipse cx="38" cy="52" rx="5" ry="6" fill="#2C1810"/>
+  <ellipse cx="62" cy="52" rx="5" ry="6" fill="#2C1810"/>
+  <circle cx="40" cy="50" r="2" fill="white"/>
+  <circle cx="64" cy="50" r="2" fill="white"/>
+  <!-- Nose -->
+  <ellipse cx="50" cy="65" rx="6" ry="4" fill="#2C1810"/>
+  <!-- Muzzle fur -->
+  <path d="M35 62 Q50 75 65 62" fill="none" stroke="white" stroke-width="2"/>
 </svg>
