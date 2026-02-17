@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dog Breed",
+  "type": "object",
+  "required": ["id", "name", "group", "origin", "ratings", "verdict"],
+  "properties": {
+    "id": { "type": "string", "description": "URL slug, e.g. alaskan-malamute" },
+    "name": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "group": { 
+      "type": "string",
+      "enum": ["sporting", "hound", "working", "terrier", "toy", "non-sporting", "herding", "miscellaneous"]
+    },
+    "origin": { "type": "string" },
+    "lifespan": { "type": "string", "description": "e.g. 10-14 years" },
+    "size": {
+      "type": "object",
+      "properties": {
+        "height_cm": { "type": "string", "description": "e.g. 58-64" },
+        "weight_kg": { "type": "string", "description": "e.g. 25-38" },
+        "category": { "type": "string", "enum": ["tiny", "small", "medium", "large", "giant"] }
+      }
+    },
+    "ratings": {
+      "type": "object",
+      "description": "1-5 scale",
+      "properties": {
+        "size": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "energy": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "grooming": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "sociability": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "trainability": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "barking": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "kid_friendly": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "apartment_ok": { "type": "integer", "minimum": 1, "maximum": 5 }
+      }
+    },
+    "characteristics": {
+      "type": "object",
+      "properties": {
+        "coat_type": { "type": "string" },
+        "coat_colors": { "type": "array", "items": { "type": "string" } },
+        "shedding": { "type": "string", "enum": ["minimal", "low", "moderate", "high", "heavy"] },
+        "hypoallergenic": { "type": "boolean" }
+      }
+    },
+    "temperament": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "e.g. ['loyal', 'playful', 'independent']"
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "overview": { "type": "string" },
+        "history": { "type": "string" },
+        "temperament": { "type": "string" },
+        "health": { "type": "string" },
+        "grooming": { "type": "string" },
+        "exercise": { "type": "string" }
+      }
+    },
+    "verdict": {
+      "type": "object",
+      "properties": {
+        "best_for": { "type": "array", "items": { "type": "string" } },
+        "not_for": { "type": "array", "items": { "type": "string" } },
+        "summary": { "type": "string" }
+      }
+    },
+    "images": {
+      "type": "object",
+      "properties": {
+        "main": { "type": "string" },
+        "gallery": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}
