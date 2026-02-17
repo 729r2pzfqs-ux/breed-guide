@@ -19,11 +19,13 @@ def rating_to_paws(rating):
     """Convert 1-5 rating to paw icons HTML"""
     filled = int(rating)
     empty = 5 - filled
+    paw_filled = '<svg class="w-6 h-6 inline-block" fill="#f59e0b" viewBox="0 0 24 24"><path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 6c-2.2 0-4 1.8-4 4h8c0-2.2-1.8-4-4-4zm-3-12c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>'
+    paw_empty = '<svg class="w-6 h-6 inline-block" fill="#d1d5db" viewBox="0 0 24 24"><path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 6c-2.2 0-4 1.8-4 4h8c0-2.2-1.8-4-4-4zm-3-12c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>'
     paws = ''
     for _ in range(filled):
-        paws += '<span class="text-amber-500">🐾</span>'
+        paws += paw_filled
     for _ in range(empty):
-        paws += '<span class="text-slate-300">🐾</span>'
+        paws += paw_empty
     return paws
 
 def rating_to_percent(rating):
