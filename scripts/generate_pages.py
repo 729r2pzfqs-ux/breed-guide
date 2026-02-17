@@ -15,6 +15,17 @@ def rating_to_text(rating):
     if rating == 4: return "High"
     return "Very High"
 
+def rating_to_paws(rating):
+    """Convert 1-5 rating to paw icons HTML"""
+    filled = int(rating)
+    empty = 5 - filled
+    paws = ''
+    for _ in range(filled):
+        paws += '<span class="text-amber-500">🐾</span>'
+    for _ in range(empty):
+        paws += '<span class="text-slate-300">🐾</span>'
+    return paws
+
 def rating_to_percent(rating):
     """Convert 1-5 rating to percentage"""
     return rating * 20
@@ -203,52 +214,34 @@ def generate_breed_page(data):
         <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-slate-100">
             <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
                 <span class="w-10 h-10 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center text-white shadow-lg shadow-amber-500/20">
-                    <i data-lucide="bar-chart-3" class="w-5 h-5"></i>
+                    🐾
                 </span>
                 Breed Ratings
             </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                    <div class="flex justify-between text-sm mb-2">
-                        <span class="font-medium text-slate-700 flex items-center gap-2"><i data-lucide="zap" class="w-4 h-4 text-slate-400"></i> Energy Level</span>
-                        <span class="font-semibold text-{rating_to_color(ratings.get("energy", 3))}">{rating_to_text(ratings.get("energy", 3))}</span>
-                    </div>
-                    <div class="h-3 rounded-full rating-bar" style="--rating: {rating_to_percent(ratings.get("energy", 3))}%"></div>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="text-center p-4 bg-slate-50 rounded-xl">
+                    <div class="text-sm font-medium text-slate-600 mb-2">Energy Level</div>
+                    <div class="text-xl tracking-wider">{rating_to_paws(ratings.get("energy", 3))}</div>
                 </div>
-                <div>
-                    <div class="flex justify-between text-sm mb-2">
-                        <span class="font-medium text-slate-700 flex items-center gap-2"><i data-lucide="scissors" class="w-4 h-4 text-slate-400"></i> Grooming Needs</span>
-                        <span class="font-semibold text-{rating_to_color(ratings.get("grooming", 3))}">{rating_to_text(ratings.get("grooming", 3))}</span>
-                    </div>
-                    <div class="h-3 rounded-full rating-bar" style="--rating: {rating_to_percent(ratings.get("grooming", 3))}%"></div>
+                <div class="text-center p-4 bg-slate-50 rounded-xl">
+                    <div class="text-sm font-medium text-slate-600 mb-2">Grooming</div>
+                    <div class="text-xl tracking-wider">{rating_to_paws(ratings.get("grooming", 3))}</div>
                 </div>
-                <div>
-                    <div class="flex justify-between text-sm mb-2">
-                        <span class="font-medium text-slate-700 flex items-center gap-2"><i data-lucide="users" class="w-4 h-4 text-slate-400"></i> Sociability</span>
-                        <span class="font-semibold text-{rating_to_color(ratings.get("sociability", 3))}">{rating_to_text(ratings.get("sociability", 3))}</span>
-                    </div>
-                    <div class="h-3 rounded-full rating-bar" style="--rating: {rating_to_percent(ratings.get("sociability", 3))}%"></div>
+                <div class="text-center p-4 bg-slate-50 rounded-xl">
+                    <div class="text-sm font-medium text-slate-600 mb-2">Sociability</div>
+                    <div class="text-xl tracking-wider">{rating_to_paws(ratings.get("sociability", 3))}</div>
                 </div>
-                <div>
-                    <div class="flex justify-between text-sm mb-2">
-                        <span class="font-medium text-slate-700 flex items-center gap-2"><i data-lucide="graduation-cap" class="w-4 h-4 text-slate-400"></i> Trainability</span>
-                        <span class="font-semibold text-{rating_to_color(ratings.get("trainability", 3))}">{rating_to_text(ratings.get("trainability", 3))}</span>
-                    </div>
-                    <div class="h-3 rounded-full rating-bar" style="--rating: {rating_to_percent(ratings.get("trainability", 3))}%"></div>
+                <div class="text-center p-4 bg-slate-50 rounded-xl">
+                    <div class="text-sm font-medium text-slate-600 mb-2">Trainability</div>
+                    <div class="text-xl tracking-wider">{rating_to_paws(ratings.get("trainability", 3))}</div>
                 </div>
-                <div>
-                    <div class="flex justify-between text-sm mb-2">
-                        <span class="font-medium text-slate-700 flex items-center gap-2"><i data-lucide="baby" class="w-4 h-4 text-slate-400"></i> Kid Friendly</span>
-                        <span class="font-semibold text-{rating_to_color(ratings.get("kid_friendly", 3))}">{rating_to_text(ratings.get("kid_friendly", 3))}</span>
-                    </div>
-                    <div class="h-3 rounded-full rating-bar" style="--rating: {rating_to_percent(ratings.get("kid_friendly", 3))}%"></div>
+                <div class="text-center p-4 bg-slate-50 rounded-xl">
+                    <div class="text-sm font-medium text-slate-600 mb-2">Kid Friendly</div>
+                    <div class="text-xl tracking-wider">{rating_to_paws(ratings.get("kid_friendly", 3))}</div>
                 </div>
-                <div>
-                    <div class="flex justify-between text-sm mb-2">
-                        <span class="font-medium text-slate-700 flex items-center gap-2"><i data-lucide="building" class="w-4 h-4 text-slate-400"></i> Apartment Suitable</span>
-                        <span class="font-semibold text-{rating_to_color(ratings.get("apartment_ok", 3))}">{rating_to_text(ratings.get("apartment_ok", 3))}</span>
-                    </div>
-                    <div class="h-3 rounded-full rating-bar" style="--rating: {rating_to_percent(ratings.get("apartment_ok", 3))}%"></div>
+                <div class="text-center p-4 bg-slate-50 rounded-xl">
+                    <div class="text-sm font-medium text-slate-600 mb-2">Apartment OK</div>
+                    <div class="text-xl tracking-wider">{rating_to_paws(ratings.get("apartment_ok", 3))}</div>
                 </div>
             </div>
         </div>
