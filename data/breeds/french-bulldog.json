@@ -1,0 +1,32 @@
+{
+  "id": "french-bulldog",
+  "name": "French Bulldog",
+  "aliases": ["Frenchie"],
+  "group": "non-sporting",
+  "origin": "France/England",
+  "lifespan": "10-12 years",
+  "size": { "height_cm": "28-33", "weight_kg": "8-14", "category": "small" },
+  "ratings": {
+    "size": 2, "energy": 2, "grooming": 1, "sociability": 5,
+    "trainability": 3, "barking": 2, "kid_friendly": 4, "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Short, smooth, fine coat",
+    "coat_colors": ["brindle", "fawn", "white", "cream", "brindle and white"],
+    "shedding": "moderate", "hypoallergenic": false
+  },
+  "temperament": ["adaptable", "playful", "smart", "affectionate", "alert", "easygoing"],
+  "description": {
+    "overview": "The French Bulldog has enjoyed a surge in popularity. The adaptable Frenchie is the ideal companion for city dwellers—they don't need a lot of space and are content with short walks and indoor play.",
+    "history": "Descended from English Bulldogs brought to France by lace workers. French breeders developed the distinctive bat ears and compact size that define the breed today.",
+    "temperament": "Frenchies are charming, adaptable, and make excellent companions. They're playful but not overly energetic. They love human contact and get along well with other pets.",
+    "health": "Brachycephalic breed prone to breathing issues, overheating, spinal disorders, and eye problems. Choose breeders who prioritize health over extreme features.",
+    "grooming": "Easy to groom—weekly brushing and regular facial fold cleaning. Keep wrinkles dry to prevent infections.",
+    "exercise": "Low to moderate exercise needs. Short walks and indoor play are sufficient. Avoid strenuous exercise, especially in hot weather."
+  },
+  "verdict": {
+    "best_for": ["Apartment dwellers", "City living", "Seniors", "Singles and couples", "Those wanting a low-exercise dog"],
+    "not_for": ["Hot climates", "Those wanting a jogging partner", "Budget-conscious (vet bills)", "Families wanting a very active dog"],
+    "summary": "The perfect apartment dog. French Bulldogs are affectionate, adaptable, and don't need much exercise. Be prepared for potential health issues and vet costs. Ideal for city dwellers and those wanting a charming, low-maintenance companion."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "german-shorthaired-pointer",
+  "name": "German Shorthaired Pointer",
+  "aliases": ["GSP"],
+  "group": "sporting",
+  "origin": "Germany",
+  "lifespan": "12-14 years",
+  "size": { "height_cm": "53-64", "weight_kg": "20-32", "category": "large" },
+  "ratings": {
+    "size": 4, "energy": 5, "grooming": 1, "sociability": 4,
+    "trainability": 5, "barking": 3, "kid_friendly": 4, "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Short, thick, water-resistant coat",
+    "coat_colors": ["liver", "liver and white", "liver roan"],
+    "shedding": "moderate", "hypoallergenic": false
+  },
+  "temperament": ["friendly", "smart", "willing", "enthusiastic", "bold", "cooperative"],
+  "description": {
+    "overview": "The German Shorthaired Pointer is a versatile hunting dog and all-purpose gun dog. They're known for their power, speed, agility, and endurance—plus a striking appearance.",
+    "history": "Developed in 19th century Germany by crossing various breeds to create the ideal versatile hunting dog that could point, retrieve, and track on both land and water.",
+    "temperament": "GSPs are friendly, smart, and enthusiastic. They're eager to please and bond closely with their family. They can be boisterous, especially when young.",
+    "health": "Generally healthy but prone to hip dysplasia, bloat, and some eye conditions. Responsible breeding is important.",
+    "grooming": "Very easy to groom. Weekly brushing and occasional baths. Low maintenance coat.",
+    "exercise": "Very high exercise needs—at least 2 hours daily. Need vigorous activity. Not suited for sedentary lifestyles."
+  },
+  "verdict": {
+    "best_for": ["Active outdoor enthusiasts", "Hunters", "Runners and cyclists", "Families who love hiking", "Those with large yards"],
+    "not_for": ["Apartment dwellers", "Sedentary lifestyles", "First-time owners", "Those without time for exercise"],
+    "summary": "The ultimate athlete. GSPs need extensive daily exercise and are perfect for active owners who run, hike, or hunt. They're friendly and trainable but will become destructive without enough activity. Not for couch potatoes."
+  }
+}

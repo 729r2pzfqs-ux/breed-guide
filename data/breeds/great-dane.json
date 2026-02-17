@@ -1,0 +1,23 @@
+{
+  "id": "great-dane",
+  "name": "Great Dane",
+  "aliases": ["German Mastiff", "Deutsche Dogge"],
+  "group": "working",
+  "origin": "Germany",
+  "lifespan": "7-10 years",
+  "size": { "height_cm": "71-86", "weight_kg": "45-90", "category": "giant" },
+  "ratings": { "size": 5, "energy": 3, "grooming": 1, "sociability": 5, "trainability": 4, "barking": 2, "kid_friendly": 4, "apartment_ok": 2 },
+  "characteristics": { "coat_type": "Short, smooth coat", "coat_colors": ["fawn", "brindle", "blue", "black", "harlequin", "mantle"], "shedding": "moderate", "hypoallergenic": false },
+  "temperament": ["friendly", "patient", "dependable", "gentle", "loving", "confident"],
+  "description": {
+    "overview": "Great Danes are gentle giants. Despite their imposing size, they're affectionate, patient, and make wonderful family companions. They think they're lap dogs.",
+    "temperament": "Danes are friendly and patient. They're great with children and other pets. Despite their size, they're often called 'gentle giants.'",
+    "health": "Shorter lifespan due to size. Prone to bloat, heart disease, hip dysplasia, and bone cancer. Bloat is a medical emergency.",
+    "exercise": "Moderate exercise needs. Daily walks but avoid strenuous exercise while growing. Joint-friendly activities preferred."
+  },
+  "verdict": {
+    "best_for": ["Those wanting a gentle giant", "Families with space", "People who can handle large dogs", "Those wanting a friendly companion"],
+    "not_for": ["Small apartments", "Those on tight budgets (food/vet costs)", "Those wanting long-lived breeds", "First-time giant breed owners"],
+    "summary": "Gentle giants with hearts as big as their bodies. Great Danes are patient and loving but have shorter lifespans and high costs. Best for those with space and budget for a giant breed."
+  }
+}

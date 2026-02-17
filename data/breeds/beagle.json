@@ -1,0 +1,32 @@
+{
+  "id": "beagle",
+  "name": "Beagle",
+  "aliases": [],
+  "group": "hound",
+  "origin": "England",
+  "lifespan": "12-15 years",
+  "size": { "height_cm": "33-41", "weight_kg": "9-11", "category": "small" },
+  "ratings": {
+    "size": 2, "energy": 4, "grooming": 2, "sociability": 5,
+    "trainability": 3, "barking": 5, "kid_friendly": 5, "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Short, dense, weather-resistant double coat",
+    "coat_colors": ["tricolor", "red and white", "lemon and white"],
+    "shedding": "moderate", "hypoallergenic": false
+  },
+  "temperament": ["merry", "friendly", "curious", "determined", "amiable", "gentle"],
+  "description": {
+    "overview": "Small, compact, and hardy, Beagles are active companions for kids and adults alike. Their convenient size, adaptable nature, and joyful personality make them one of the most popular family dogs.",
+    "history": "Ancient breed developed in England for hunting rabbits. Their excellent sense of smell made them valuable hunting companions. Today they're also used as detection dogs at airports.",
+    "temperament": "Beagles are happy-go-lucky and friendly. They love company and don't like being left alone. They can be vocal and have a distinctive bay.",
+    "health": "Generally healthy but prone to epilepsy, hypothyroidism, hip dysplasia, and eye conditions. Watch their weight—they love food.",
+    "grooming": "Easy to maintain. Weekly brushing and occasional baths. Regular ear cleaning is important due to their floppy ears.",
+    "exercise": "Moderate to high exercise needs. Need daily walks and playtime. Their nose can lead them astray—always use a leash or fenced area."
+  },
+  "verdict": {
+    "best_for": ["Families with children", "Active households", "Those wanting a friendly companion", "Homes with other dogs", "First-time owners"],
+    "not_for": ["Apartment dwellers (barking)", "Those away from home often", "Those wanting a quiet dog", "Off-leash hiking (will follow scents)"],
+    "summary": "Beagles are friendly, curious, and great with kids. Perfect for active families who don't mind some barking. They hate being alone and will follow their nose anywhere. Best with company and secure fencing."
+  }
+}

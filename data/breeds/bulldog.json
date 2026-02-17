@@ -1,0 +1,32 @@
+{
+  "id": "bulldog",
+  "name": "Bulldog",
+  "aliases": ["English Bulldog", "British Bulldog"],
+  "group": "non-sporting",
+  "origin": "England",
+  "lifespan": "8-10 years",
+  "size": { "height_cm": "31-40", "weight_kg": "18-25", "category": "medium" },
+  "ratings": {
+    "size": 3, "energy": 2, "grooming": 2, "sociability": 4,
+    "trainability": 3, "barking": 2, "kid_friendly": 4, "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Short, flat, sleek coat",
+    "coat_colors": ["brindle", "white", "fawn", "red", "piebald"],
+    "shedding": "moderate", "hypoallergenic": false
+  },
+  "temperament": ["docile", "willful", "friendly", "calm", "courageous", "dignified"],
+  "description": {
+    "overview": "The Bulldog is a thick-set, low-slung, well-muscled dog with a wrinkled face and a distinctive pushed-in nose. Despite their grumpy expression, Bulldogs are gentle and make excellent family companions.",
+    "history": "Originally bred for bull-baiting in England. When the sport was banned in 1835, breeders worked to transform the aggressive fighter into a gentle companion.",
+    "temperament": "Bulldogs are calm, courageous, and friendly. They form strong bonds with children and are known for their patience. They can be stubborn but respond well to patient training.",
+    "health": "Prone to many health issues including breathing problems, hip dysplasia, skin infections, and overheating. Regular vet care and choosing healthy bloodlines is essential.",
+    "grooming": "Weekly brushing. Daily wrinkle cleaning to prevent infections. Keep facial folds dry and clean.",
+    "exercise": "Low exercise needs. Short walks in cool weather are best. Prone to overheating—avoid exercise in hot weather."
+  },
+  "verdict": {
+    "best_for": ["Apartment living", "Families with children", "Those wanting a calm dog", "Seniors", "First-time owners wanting a mellow pet"],
+    "not_for": ["Hot climates", "Active/athletic owners", "Budget-conscious (high vet costs)", "Those wanting a long-lived breed"],
+    "summary": "Bulldogs are gentle, calm companions perfect for relaxed households. Great with kids and apartment-friendly. However, expect significant health issues and vet bills. Best for those who can handle their special health needs."
+  }
+}

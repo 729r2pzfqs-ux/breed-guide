@@ -1,0 +1,23 @@
+{
+  "id": "doberman-pinscher",
+  "name": "Doberman Pinscher",
+  "aliases": ["Doberman", "Dobie"],
+  "group": "working",
+  "origin": "Germany",
+  "lifespan": "10-12 years",
+  "size": { "height_cm": "61-72", "weight_kg": "27-45", "category": "large" },
+  "ratings": { "size": 4, "energy": 4, "grooming": 1, "sociability": 3, "trainability": 5, "barking": 3, "kid_friendly": 4, "apartment_ok": 2 },
+  "characteristics": { "coat_type": "Short, smooth, hard coat", "coat_colors": ["black and rust", "red and rust", "blue and rust", "fawn and rust"], "shedding": "low", "hypoallergenic": false },
+  "temperament": ["loyal", "fearless", "alert", "intelligent", "obedient", "energetic"],
+  "description": {
+    "overview": "Dobermans are sleek, powerful, and among the most intelligent breeds. They're loyal protectors and excellent family dogs when properly trained and socialized.",
+    "temperament": "Dobermans are loyal, fearless, and highly trainable. They bond closely with their families and are natural protectors. Need early socialization.",
+    "health": "Prone to dilated cardiomyopathy, von Willebrand's disease, hip dysplasia, and wobbler syndrome. Regular cardiac screening important.",
+    "exercise": "High exercise needs. Need daily vigorous activity and mental stimulation. Excel at obedience and protection sports."
+  },
+  "verdict": {
+    "best_for": ["Experienced dog owners", "Those wanting a loyal protector", "Active families", "People with time for training", "Security-conscious owners"],
+    "not_for": ["First-time owners", "Those who can't commit to training", "Sedentary lifestyles", "Areas with breed restrictions"],
+    "summary": "Elegant, intelligent, and fiercely loyal. Dobermans need experienced owners who can provide training, exercise, and socialization. Excellent family protectors when raised right."
+  }
+}

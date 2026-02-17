@@ -1,0 +1,32 @@
+{
+  "id": "dachshund",
+  "name": "Dachshund",
+  "aliases": ["Wiener Dog", "Sausage Dog", "Doxie"],
+  "group": "hound",
+  "origin": "Germany",
+  "lifespan": "12-16 years",
+  "size": { "height_cm": "13-23", "weight_kg": "5-15", "category": "small" },
+  "ratings": {
+    "size": 1, "energy": 3, "grooming": 2, "sociability": 3,
+    "trainability": 3, "barking": 4, "kid_friendly": 3, "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Smooth, wirehaired, or longhaired",
+    "coat_colors": ["red", "black and tan", "chocolate", "cream", "dapple"],
+    "shedding": "low to moderate", "hypoallergenic": false
+  },
+  "temperament": ["clever", "stubborn", "devoted", "lively", "playful", "courageous"],
+  "description": {
+    "overview": "The iconic 'wiener dog' is famously long and low. Curious, lively, and charming with a big-dog bark, Dachshunds are clever and courageous, sometimes to the point of rashness.",
+    "history": "Developed in Germany to hunt badgers—'dachshund' means 'badger dog.' Their unique shape allowed them to dig into burrows and confront prey underground.",
+    "temperament": "Dachshunds are bold and curious with a stubborn streak. They bond closely with their owners but can be suspicious of strangers. They have a surprisingly loud bark.",
+    "health": "Prone to back problems (IVDD) due to their long spine. Also watch for obesity, dental issues, and eye conditions. Avoid jumping and stairs.",
+    "grooming": "Depends on coat type. Smooth coats need minimal care. Wirehaired need stripping. Longhaired need regular brushing.",
+    "exercise": "Moderate exercise needs. Daily walks but avoid activities that strain the back. Keep them lean to protect their spine."
+  },
+  "verdict": {
+    "best_for": ["Apartment dwellers", "Singles and couples", "Those wanting a small but bold dog", "Seniors", "People who enjoy a dog with personality"],
+    "not_for": ["Families with small children", "Those wanting easy training", "Active runners/hikers", "Homes with many stairs"],
+    "summary": "Dachshunds pack huge personality into a small, unique package. Great for apartments and city living. They can be stubborn and prone to back problems. Best for owners who appreciate their independent spirit."
+  }
+}

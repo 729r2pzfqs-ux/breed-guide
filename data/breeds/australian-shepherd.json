@@ -1,0 +1,23 @@
+{
+  "id": "australian-shepherd",
+  "name": "Australian Shepherd",
+  "aliases": ["Aussie"],
+  "group": "herding",
+  "origin": "United States",
+  "lifespan": "12-15 years",
+  "size": { "height_cm": "46-58", "weight_kg": "18-29", "category": "medium" },
+  "ratings": { "size": 3, "energy": 5, "grooming": 3, "sociability": 4, "trainability": 5, "barking": 3, "kid_friendly": 4, "apartment_ok": 1 },
+  "characteristics": { "coat_type": "Medium-length double coat", "coat_colors": ["blue merle", "red merle", "black", "red", "tricolor"], "shedding": "heavy", "hypoallergenic": false },
+  "temperament": ["smart", "work-oriented", "exuberant", "good-natured", "loyal", "protective"],
+  "description": {
+    "overview": "Despite the name, Australian Shepherds were developed in the American West. They're intelligent, work-oriented dogs with beautiful coats and often striking blue or multicolored eyes.",
+    "temperament": "Aussies are extremely smart and eager to please. They need jobs to do or they'll create their own. May try to herd children and pets.",
+    "health": "Prone to hip dysplasia, epilepsy, and eye problems. Merle-to-merle breeding can cause deafness and blindness.",
+    "exercise": "Very high exercise and mental stimulation needs. Excel at agility, herding trials, and dog sports."
+  },
+  "verdict": {
+    "best_for": ["Active owners", "Dog sport enthusiasts", "Farms and ranches", "Families who can provide jobs/activities", "Experienced owners"],
+    "not_for": ["Sedentary lifestyles", "Apartment dwellers", "Those without time for training", "First-time owners"],
+    "summary": "Brilliant, athletic dogs that need extensive exercise and mental challenges. Perfect for active owners interested in dog sports. Will become destructive if bored."
+  }
+}

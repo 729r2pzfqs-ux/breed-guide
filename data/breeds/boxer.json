@@ -1,0 +1,23 @@
+{
+  "id": "boxer",
+  "name": "Boxer",
+  "aliases": ["German Boxer", "Deutscher Boxer"],
+  "group": "working",
+  "origin": "Germany",
+  "lifespan": "10-12 years",
+  "size": { "height_cm": "53-63", "weight_kg": "25-32", "category": "large" },
+  "ratings": { "size": 4, "energy": 5, "grooming": 1, "sociability": 5, "trainability": 4, "barking": 3, "kid_friendly": 5, "apartment_ok": 2 },
+  "characteristics": { "coat_type": "Short, shiny, smooth coat", "coat_colors": ["fawn", "brindle", "white markings"], "shedding": "moderate", "hypoallergenic": false },
+  "temperament": ["fun-loving", "bright", "active", "loyal", "playful", "patient"],
+  "description": {
+    "overview": "Boxers are bright, fun-loving, and active dogs. They're patient with children and make excellent family dogs. Their expressive faces and playful nature make them irresistible.",
+    "temperament": "Boxers are patient, protective, and playful. They mature slowly and maintain puppy-like energy well into adulthood. Great with kids and loyal to family.",
+    "health": "Prone to cancer, heart conditions, hip dysplasia, and bloat. They can overheat easily. Regular vet checkups important.",
+    "exercise": "High exercise needs. At least 2 hours daily of activity. They need mental stimulation too."
+  },
+  "verdict": {
+    "best_for": ["Active families with children", "Those wanting a playful companion", "People with yards", "First-time owners willing to exercise"],
+    "not_for": ["Sedentary lifestyles", "Very hot climates", "Those wanting a calm dog", "Small apartments"],
+    "summary": "Boxers are playful, patient family dogs that stay puppy-like for years. Great with kids but need lots of exercise. Watch for health issues common to the breed."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "cavalier-king-charles-spaniel",
+  "name": "Cavalier King Charles Spaniel",
+  "aliases": ["Cavalier", "CKCS"],
+  "group": "toy",
+  "origin": "England",
+  "lifespan": "12-15 years",
+  "size": { "height_cm": "30-33", "weight_kg": "5-8", "category": "small" },
+  "ratings": { "size": 2, "energy": 2, "grooming": 3, "sociability": 5, "trainability": 4, "barking": 2, "kid_friendly": 5, "apartment_ok": 5 },
+  "characteristics": { "coat_type": "Medium-length silky coat", "coat_colors": ["Blenheim", "tricolor", "black and tan", "ruby"], "shedding": "moderate", "hypoallergenic": false },
+  "temperament": ["affectionate", "gentle", "graceful", "adaptable", "patient", "playful"],
+  "description": {
+    "overview": "Cavaliers are the ideal companion dogs. They combine the gentleness of a toy breed with the athleticism of a spaniel. Sweet-natured and adaptable.",
+    "temperament": "Cavaliers are affectionate and adaptable. They love everyone—people, dogs, even cats. They're equally happy on a lap or on a hike.",
+    "health": "Prone to heart disease (mitral valve disease) and syringomyelia. Buy only from health-tested breeders. Regular cardiac screening important.",
+    "exercise": "Moderate exercise needs. Adaptable to owner's lifestyle. Happy with walks or more active pursuits."
+  },
+  "verdict": {
+    "best_for": ["Families", "Seniors", "Apartment dwellers", "First-time owners", "Those wanting an affectionate companion", "Therapy dog prospects"],
+    "not_for": ["Those wanting a guard dog", "Budget-conscious (health issues)", "Those who want minimal grooming"],
+    "summary": "The ideal companion dog—adaptable, affectionate, and gentle. Great for families, seniors, and apartments. Be aware of serious health issues in the breed and buy from health-tested breeders."
+  }
+}

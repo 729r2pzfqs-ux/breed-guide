@@ -1,0 +1,32 @@
+{
+  "id": "pembroke-welsh-corgi",
+  "name": "Pembroke Welsh Corgi",
+  "aliases": ["Corgi", "PWC"],
+  "group": "herding",
+  "origin": "Wales",
+  "lifespan": "12-15 years",
+  "size": { "height_cm": "25-30", "weight_kg": "10-14", "category": "small" },
+  "ratings": {
+    "size": 2, "energy": 4, "grooming": 3, "sociability": 4,
+    "trainability": 4, "barking": 4, "kid_friendly": 4, "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Thick, medium-length double coat",
+    "coat_colors": ["red", "sable", "fawn", "black and tan", "with white markings"],
+    "shedding": "heavy", "hypoallergenic": false
+  },
+  "temperament": ["affectionate", "smart", "alert", "active", "playful", "bold"],
+  "description": {
+    "overview": "The Pembroke Welsh Corgi is a strong, athletic little dog. They're one of the world's most popular herding breeds and have been favored by British royalty for decades.",
+    "history": "Brought to Wales by Flemish weavers around 1100 AD. Bred to herd cattle by nipping at their heels—their low stature helped them avoid kicks.",
+    "temperament": "Corgis are smart, affectionate, and surprisingly athletic. They have big-dog personalities in compact bodies. Can be vocal and may try to herd children.",
+    "health": "Prone to hip dysplasia, eye problems, and degenerative myelopathy. Keep them lean—obesity worsens joint problems.",
+    "grooming": "Heavy shedders requiring regular brushing. They 'blow' their coat seasonally. Weekly brushing minimum, daily during shedding.",
+    "exercise": "Moderate to high exercise needs despite size. Daily walks and play sessions. They're more athletic than they look."
+  },
+  "verdict": {
+    "best_for": ["Active owners", "Families with older children", "Those wanting a small but sturdy dog", "People who enjoy training", "Corgi enthusiasts"],
+    "not_for": ["Those who dislike barking", "Allergy sufferers", "Those wanting a quiet lapdog", "Families with toddlers (herding instinct)"],
+    "summary": "Corgis are smart, athletic, and full of personality. Perfect for active owners who want a small but capable dog. Heavy shedders and can be vocal. Great for families with older children."
+  }
+}

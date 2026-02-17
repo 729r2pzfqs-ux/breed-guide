@@ -1,0 +1,23 @@
+{
+  "id": "siberian-husky",
+  "name": "Siberian Husky",
+  "aliases": ["Husky"],
+  "group": "working",
+  "origin": "Siberia, Russia",
+  "lifespan": "12-14 years",
+  "size": { "height_cm": "50-60", "weight_kg": "16-27", "category": "medium" },
+  "ratings": { "size": 3, "energy": 5, "grooming": 4, "sociability": 5, "trainability": 2, "barking": 5, "kid_friendly": 4, "apartment_ok": 1 },
+  "characteristics": { "coat_type": "Thick double coat", "coat_colors": ["black and white", "gray and white", "red and white", "all white", "agouti"], "shedding": "heavy", "hypoallergenic": false },
+  "temperament": ["outgoing", "mischievous", "loyal", "friendly", "gentle", "alert"],
+  "description": {
+    "overview": "Siberian Huskies are beautiful, athletic dogs bred to run. They're friendly, outgoing, and mischievous. Known for their striking blue eyes and wolf-like appearance.",
+    "temperament": "Huskies are pack dogs who love company. They're friendly with everyone, making them poor guard dogs. They're independent and can be stubborn.",
+    "health": "Generally healthy but prone to eye problems and hip dysplasia. Need protection from heat.",
+    "exercise": "Very high exercise needs—bred to run for miles. At least 2 hours daily. Escape artists—need secure fencing."
+  },
+  "verdict": {
+    "best_for": ["Active owners who run/bike", "Cold climates", "Those with secure fenced yards", "Multi-dog households", "Experienced owners"],
+    "not_for": ["Hot climates", "Apartment dwellers", "First-time owners", "Those wanting a guard dog", "Off-leash enthusiasts"],
+    "summary": "Beautiful but challenging. Huskies need extensive exercise, secure fencing, and experienced handling. They're friendly and loving but independent. Best for active owners in cool climates."
+  }
+}
