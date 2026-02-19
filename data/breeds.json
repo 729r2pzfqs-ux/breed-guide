@@ -1,0 +1,3318 @@
+[
+  {
+    "id": "akita",
+    "name": "Akita",
+    "aliases": [
+      "Akita Inu",
+      "Japanese Akita",
+      "American Akita"
+    ],
+    "group": "working",
+    "origin": "Japan",
+    "lifespan": "10-13 years",
+    "size": {
+      "height_cm": "61-71",
+      "weight_kg": "32-59",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 5,
+      "energy": 3,
+      "grooming": 3,
+      "sociability": 2,
+      "trainability": 3,
+      "barking": 2,
+      "kid_friendly": 3,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Thick double coat",
+      "coat_colors": [
+        "various including white, brindle, pinto"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "courageous",
+      "dignified",
+      "profoundly loyal",
+      "alert",
+      "protective",
+      "reserved"
+    ],
+    "description": {
+      "overview": "Akitas are large, powerful dogs from Japan known for their dignity and fierce loyalty. They're symbols of good health, happiness, and long life in Japan.",
+      "temperament": "Akitas are loyal and protective, devoted to family but wary of strangers. They can be aggressive toward other dogs, especially same sex.",
+      "health": "Prone to hip dysplasia, autoimmune disorders, and bloat. Regular vet checkups important.",
+      "exercise": "Moderate exercise needs. Daily activity required. Mental stimulation important."
+    },
+    "verdict": {
+      "best_for": [
+        "Experienced dog owners",
+        "Those wanting a loyal protector",
+        "Single-dog households",
+        "People who can provide firm leadership"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Multi-dog households",
+        "Those wanting a social dog",
+        "Apartment dwellers",
+        "Areas with breed restrictions"
+      ],
+      "summary": "Dignified, fiercely loyal protectors best for experienced owners. Akitas are devoted to family but wary of strangers and may be aggressive with other dogs. Need confident leadership and early socialization."
+    }
+  },
+  {
+    "id": "alaskan-malamute",
+    "name": "Alaskan Malamute",
+    "aliases": [
+      "Malamute",
+      "Mal"
+    ],
+    "group": "working",
+    "origin": "United States (Alaska)",
+    "lifespan": "10-14 years",
+    "size": {
+      "height_cm": "58-64",
+      "weight_kg": "34-39",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 5,
+      "energy": 4,
+      "grooming": 4,
+      "sociability": 4,
+      "trainability": 2,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Double coat, thick and plush",
+      "coat_colors": [
+        "gray and white",
+        "black and white",
+        "sable and white",
+        "red and white",
+        "solid white"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "loyal",
+      "playful",
+      "affectionate",
+      "independent",
+      "dignified",
+      "friendly"
+    ],
+    "description": {
+      "overview": "The Alaskan Malamute is one of the oldest Arctic sled dogs, originally bred for hauling heavy freight. They're powerful, substantial dogs with a deep chest and strong, well-muscled body. Despite their wolf-like appearance, they're friendly and affectionate with people.",
+      "history": "Developed by the Mahlemut Inuit people of Alaska's Norton Sound region, Malamutes were essential for survival in the harsh Arctic environment. They pulled heavy sleds, hunted seals, and protected their families from polar bears. Unlike some breeds created for speed, Malamutes were bred for strength and endurance.",
+      "temperament": "Malamutes are friendly and outgoing with people, including strangers—they make poor guard dogs. They're loyal and devoted to their families but have an independent streak. They can be challenging to train due to their stubbornness, but they're highly intelligent. They may be aggressive toward other dogs, especially same-sex dogs.",
+      "health": "Generally healthy breed. Watch for hip dysplasia, cataracts, chondrodysplasia (dwarfism), hypothyroidism, and inherited polyneuropathy. Regular vet checkups and health screenings are recommended.",
+      "grooming": "Heavy shedders, especially twice a year during 'coat blow' season. Regular brushing (2-3 times per week, daily during shedding season) is essential. They're relatively clean dogs and typically don't have a strong odor.",
+      "exercise": "High exercise needs—at least 2 hours daily. They excel at hiking, backpacking, sledding, and weight pulling. Without adequate exercise, they can become destructive. They love cold weather and may struggle in hot climates."
+    },
+    "verdict": {
+      "best_for": [
+        "Active individuals and families",
+        "People who enjoy outdoor activities (hiking, camping)",
+        "Cold climate residents",
+        "Experienced dog owners",
+        "Those with large, fenced yards"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "First-time dog owners",
+        "Hot climate residents",
+        "Those wanting an easy-to-train dog",
+        "Homes with small pets (high prey drive)"
+      ],
+      "summary": "The Alaskan Malamute is perfect for active, experienced dog owners who love the outdoors and can provide firm, consistent leadership. They need space to run, plenty of exercise, and thrive in cold climates. Not recommended for apartments, hot climates, or first-time owners."
+    },
+    "images": {
+      "main": "/images/breeds/alaskan-malamute.jpg",
+      "gallery": []
+    }
+  },
+  {
+    "id": "australian-cattle-dog",
+    "name": "Australian Cattle Dog",
+    "aliases": [
+      "ACD",
+      "Blue Heeler",
+      "Red Heeler",
+      "Queensland Heeler"
+    ],
+    "group": "herding",
+    "origin": "Australia",
+    "lifespan": "12-16 years",
+    "size": {
+      "height_cm": "43-51",
+      "weight_kg": "14-22",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 5,
+      "grooming": 2,
+      "sociability": 3,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 3,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Short, dense double coat",
+      "coat_colors": [
+        "blue",
+        "blue mottled",
+        "blue speckled",
+        "red mottled",
+        "red speckled"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "alert",
+      "curious",
+      "pleasant",
+      "loyal",
+      "protective",
+      "intelligent"
+    ],
+    "description": {
+      "overview": "Australian Cattle Dogs are tough, compact herding dogs bred to drive cattle across rough terrain. They're incredibly intelligent and hardworking.",
+      "temperament": "ACDs are loyal, protective, and wary of strangers. They're devoted to their owners and need jobs to do. May nip at heels (herding instinct).",
+      "health": "Generally very healthy and long-lived. Watch for hip dysplasia, deafness, and eye problems.",
+      "exercise": "Very high exercise needs. Need vigorous daily activity and mental challenges. Excel at herding and dog sports."
+    },
+    "verdict": {
+      "best_for": [
+        "Farms and ranches",
+        "Very active owners",
+        "Dog sport enthusiasts",
+        "Those who can provide jobs/activities"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Sedentary lifestyles",
+        "First-time owners",
+        "Families with very young children"
+      ],
+      "summary": "Tough, intelligent working dogs that need extensive exercise and mental challenges. ACDs are loyal and protective but need experienced owners. Best for active rural/suburban living with jobs to do."
+    }
+  },
+  {
+    "id": "australian-shepherd",
+    "name": "Australian Shepherd",
+    "aliases": [
+      "Aussie"
+    ],
+    "group": "herding",
+    "origin": "United States",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "46-58",
+      "weight_kg": "18-29",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 5,
+      "grooming": 3,
+      "sociability": 4,
+      "trainability": 5,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Medium-length double coat",
+      "coat_colors": [
+        "blue merle",
+        "red merle",
+        "black",
+        "red",
+        "tricolor"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "smart",
+      "work-oriented",
+      "exuberant",
+      "good-natured",
+      "loyal",
+      "protective"
+    ],
+    "description": {
+      "overview": "Despite the name, Australian Shepherds were developed in the American West. They're intelligent, work-oriented dogs with beautiful coats and often striking blue or multicolored eyes.",
+      "temperament": "Aussies are extremely smart and eager to please. They need jobs to do or they'll create their own. May try to herd children and pets.",
+      "health": "Prone to hip dysplasia, epilepsy, and eye problems. Merle-to-merle breeding can cause deafness and blindness.",
+      "exercise": "Very high exercise and mental stimulation needs. Excel at agility, herding trials, and dog sports."
+    },
+    "verdict": {
+      "best_for": [
+        "Active owners",
+        "Dog sport enthusiasts",
+        "Farms and ranches",
+        "Families who can provide jobs/activities",
+        "Experienced owners"
+      ],
+      "not_for": [
+        "Sedentary lifestyles",
+        "Apartment dwellers",
+        "Those without time for training",
+        "First-time owners"
+      ],
+      "summary": "Brilliant, athletic dogs that need extensive exercise and mental challenges. Perfect for active owners interested in dog sports. Will become destructive if bored."
+    }
+  },
+  {
+    "id": "basset-hound",
+    "name": "Basset Hound",
+    "aliases": [
+      "Basset"
+    ],
+    "group": "hound",
+    "origin": "France",
+    "lifespan": "12-13 years",
+    "size": {
+      "height_cm": "30-38",
+      "weight_kg": "20-29",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 2,
+      "grooming": 2,
+      "sociability": 5,
+      "trainability": 2,
+      "barking": 4,
+      "kid_friendly": 5,
+      "apartment_ok": 4
+    },
+    "characteristics": {
+      "coat_type": "Short, smooth coat",
+      "coat_colors": [
+        "tricolor",
+        "red and white",
+        "lemon and white"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "charming",
+      "patient",
+      "low-key",
+      "devoted",
+      "tenacious",
+      "friendly"
+    ],
+    "description": {
+      "overview": "Basset Hounds are low-slung, long-eared dogs with incredible noses. They're laid-back companions with stubborn streaks and distinctive bays.",
+      "temperament": "Bassets are patient, good-natured, and friendly with everyone. They can be stubborn and will follow their noses anywhere.",
+      "health": "Prone to obesity, ear infections, back problems, and bloat. Keep them lean and clean their ears regularly.",
+      "exercise": "Low to moderate exercise needs. Daily walks but at their own pace. Watch their weight."
+    },
+    "verdict": {
+      "best_for": [
+        "Laid-back families",
+        "Those wanting a calm companion",
+        "Apartment dwellers (if tolerate baying)",
+        "Seniors",
+        "People who enjoy a unique personality"
+      ],
+      "not_for": [
+        "Those wanting an obedient dog",
+        "Neat freaks (drooling)",
+        "Off-leash enthusiasts",
+        "People wanting a quiet dog"
+      ],
+      "summary": "Lovably stubborn couch companions. Basset Hounds are patient and friendly but follow their noses and can be loud. Best for patient owners who appreciate their unique charm."
+    }
+  },
+  {
+    "id": "beagle",
+    "name": "Beagle",
+    "aliases": [],
+    "group": "hound",
+    "origin": "England",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "33-41",
+      "weight_kg": "9-11",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 4,
+      "grooming": 2,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 5,
+      "kid_friendly": 5,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Short, dense, weather-resistant double coat",
+      "coat_colors": [
+        "tricolor",
+        "red and white",
+        "lemon and white"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "merry",
+      "friendly",
+      "curious",
+      "determined",
+      "amiable",
+      "gentle"
+    ],
+    "description": {
+      "overview": "Small, compact, and hardy, Beagles are active companions for kids and adults alike. Their convenient size, adaptable nature, and joyful personality make them one of the most popular family dogs.",
+      "history": "Ancient breed developed in England for hunting rabbits. Their excellent sense of smell made them valuable hunting companions. Today they're also used as detection dogs at airports.",
+      "temperament": "Beagles are happy-go-lucky and friendly. They love company and don't like being left alone. They can be vocal and have a distinctive bay.",
+      "health": "Generally healthy but prone to epilepsy, hypothyroidism, hip dysplasia, and eye conditions. Watch their weight—they love food.",
+      "grooming": "Easy to maintain. Weekly brushing and occasional baths. Regular ear cleaning is important due to their floppy ears.",
+      "exercise": "Moderate to high exercise needs. Need daily walks and playtime. Their nose can lead them astray—always use a leash or fenced area."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with children",
+        "Active households",
+        "Those wanting a friendly companion",
+        "Homes with other dogs",
+        "First-time owners"
+      ],
+      "not_for": [
+        "Apartment dwellers (barking)",
+        "Those away from home often",
+        "Those wanting a quiet dog",
+        "Off-leash hiking (will follow scents)"
+      ],
+      "summary": "Beagles are friendly, curious, and great with kids. Perfect for active families who don't mind some barking. They hate being alone and will follow their nose anywhere. Best with company and secure fencing."
+    }
+  },
+  {
+    "id": "belgian-malinois",
+    "name": "Belgian Malinois",
+    "aliases": [
+      "Malinois",
+      "Mal"
+    ],
+    "group": "herding",
+    "origin": "Belgium",
+    "lifespan": "14-16 years",
+    "size": {
+      "height_cm": "56-66",
+      "weight_kg": "20-30",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 5,
+      "grooming": 2,
+      "sociability": 3,
+      "trainability": 5,
+      "barking": 4,
+      "kid_friendly": 3,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Short, straight, hard coat",
+      "coat_colors": [
+        "fawn to mahogany with black mask and ears"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "confident",
+      "smart",
+      "hardworking",
+      "protective",
+      "alert",
+      "loyal"
+    ],
+    "description": {
+      "overview": "Belgian Malinois are elite working dogs used by military and police worldwide. They're intelligent, driven, and need experienced handling.",
+      "temperament": "Malinois are confident, protective, and extremely work-oriented. They bond closely with handlers and need constant mental and physical challenges.",
+      "health": "Generally healthy and athletic. Watch for hip/elbow dysplasia and eye problems.",
+      "exercise": "Extremely high exercise and work needs. Need jobs to do. Not pets for casual owners."
+    },
+    "verdict": {
+      "best_for": [
+        "Experienced dog handlers",
+        "Police/military/protection work",
+        "Elite dog sport competitors",
+        "Those who can provide full-time engagement"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Casual pet owners",
+        "Families wanting an easy dog",
+        "Apartment dwellers",
+        "Those without extensive dog experience"
+      ],
+      "summary": "Elite working dogs—NOT family pets for average owners. Malinois need professional-level handling, extensive exercise, and constant work. Only for experienced handlers who understand working dogs."
+    }
+  },
+  {
+    "id": "bernese-mountain-dog",
+    "name": "Bernese Mountain Dog",
+    "aliases": [
+      "Berner",
+      "BMD"
+    ],
+    "group": "working",
+    "origin": "Switzerland",
+    "lifespan": "7-10 years",
+    "size": {
+      "height_cm": "58-70",
+      "weight_kg": "32-52",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 5,
+      "energy": 3,
+      "grooming": 4,
+      "sociability": 5,
+      "trainability": 4,
+      "barking": 2,
+      "kid_friendly": 5,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Thick, long double coat",
+      "coat_colors": [
+        "tricolor: black with white and rust"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "good-natured",
+      "calm",
+      "strong",
+      "affectionate",
+      "loyal",
+      "intelligent"
+    ],
+    "description": {
+      "overview": "Bernese Mountain Dogs are big, beautiful, and gentle. Originally farm dogs in Switzerland, they're now beloved family companions known for their calm demeanor.",
+      "temperament": "Berners are good-natured and calm. They're devoted to family and gentle with children. Can be reserved with strangers but not aggressive.",
+      "health": "Unfortunately prone to cancer and have shorter lifespans. Also watch for hip/elbow dysplasia and bloat.",
+      "exercise": "Moderate exercise needs. Daily walks and activities. Enjoy pulling carts and drafting work."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with children",
+        "Those wanting a gentle giant",
+        "Cold climates",
+        "Homes with yards",
+        "Those who can handle shedding"
+      ],
+      "not_for": [
+        "Hot climates",
+        "Those wanting a long-lived breed",
+        "Small apartments",
+        "Those on tight budgets"
+      ],
+      "summary": "Beautiful, gentle family dogs with unfortunately short lifespans. Berners are wonderful with children and devoted to family. Need space and shed heavily. Best for those prepared for potential health issues."
+    }
+  },
+  {
+    "id": "bichon-frise",
+    "name": "Bichon Frise",
+    "aliases": [
+      "Bichon"
+    ],
+    "group": "non-sporting",
+    "origin": "Spain/France",
+    "lifespan": "14-15 years",
+    "size": {
+      "height_cm": "23-30",
+      "weight_kg": "3-6",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 1,
+      "energy": 3,
+      "grooming": 5,
+      "sociability": 5,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 5,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Curly, plush double coat",
+      "coat_colors": [
+        "white",
+        "white with buff/cream/apricot markings"
+      ],
+      "shedding": "minimal",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "playful",
+      "curious",
+      "peppy",
+      "gentle",
+      "affectionate",
+      "cheerful"
+    ],
+    "description": {
+      "overview": "Bichon Frises are cheerful, small dogs with powder-puff appearances. They're playful, gentle companions that love everyone they meet.",
+      "temperament": "Bichons are happy, playful, and gentle. They love people and get along with everyone—kids, strangers, and other pets.",
+      "health": "Generally healthy. Watch for allergies, bladder issues, luxating patella, and dental problems.",
+      "exercise": "Moderate exercise needs. Daily walks and play sessions. Good for apartments."
+    },
+    "verdict": {
+      "best_for": [
+        "Apartment dwellers",
+        "Families with children",
+        "Allergy sufferers",
+        "Seniors",
+        "Those wanting a cheerful companion"
+      ],
+      "not_for": [
+        "Those who dislike grooming",
+        "People away from home often",
+        "Those wanting a low-maintenance dog"
+      ],
+      "summary": "Cheerful, hypoallergenic companions perfect for families and apartments. Bichons need regular grooming but reward you with endless affection. Great for first-time owners and allergy sufferers."
+    }
+  },
+  {
+    "id": "border-collie",
+    "name": "Border Collie",
+    "aliases": [],
+    "group": "herding",
+    "origin": "Scotland/England",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "46-56",
+      "weight_kg": "14-20",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 5,
+      "grooming": 3,
+      "sociability": 3,
+      "trainability": 5,
+      "barking": 4,
+      "kid_friendly": 3,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Rough or smooth double coat",
+      "coat_colors": [
+        "black and white",
+        "tricolor",
+        "red and white",
+        "blue merle",
+        "others"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "smart",
+      "workaholic",
+      "energetic",
+      "alert",
+      "tenacious",
+      "responsive"
+    ],
+    "description": {
+      "overview": "Border Collies are considered the most intelligent dog breed. They were developed for herding sheep and have incredible work ethic and energy.",
+      "temperament": "Border Collies are intensely focused and work-driven. They need mental and physical challenges. May try to herd children and pets.",
+      "health": "Generally healthy but prone to hip dysplasia, epilepsy, and eye problems. CEA testing recommended.",
+      "exercise": "Extremely high exercise and mental stimulation needs. Need jobs to do. Excel at all dog sports."
+    },
+    "verdict": {
+      "best_for": [
+        "Farms and ranches",
+        "Dog sport enthusiasts",
+        "Highly active owners",
+        "Those who can provide mental challenges",
+        "Experienced owners"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "First-time owners",
+        "Sedentary lifestyles",
+        "Those without time for training",
+        "Families wanting a calm pet"
+      ],
+      "summary": "The Einstein of dogs. Border Collies are brilliant but demanding—they need hours of activity and mental stimulation daily. Best for experienced, active owners. Will become destructive if bored."
+    }
+  },
+  {
+    "id": "boston-terrier",
+    "name": "Boston Terrier",
+    "aliases": [
+      "American Gentleman"
+    ],
+    "group": "non-sporting",
+    "origin": "United States",
+    "lifespan": "11-13 years",
+    "size": {
+      "height_cm": "38-43",
+      "weight_kg": "5-11",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 3,
+      "grooming": 1,
+      "sociability": 5,
+      "trainability": 4,
+      "barking": 2,
+      "kid_friendly": 5,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Short, smooth coat",
+      "coat_colors": [
+        "black and white",
+        "brindle and white",
+        "seal and white"
+      ],
+      "shedding": "low",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "friendly",
+      "bright",
+      "amusing",
+      "gentle",
+      "adaptable",
+      "lively"
+    ],
+    "description": {
+      "overview": "Boston Terriers are compact, friendly dogs with tuxedo-like markings. Known as the 'American Gentleman,' they're charming and adaptable companions.",
+      "temperament": "Bostons are friendly and adaptable. They get along with everyone—people, kids, and other pets. Lively but not hyperactive.",
+      "health": "Brachycephalic breed prone to breathing issues, eye problems, and overheating. Choose breeders who prioritize health.",
+      "exercise": "Moderate exercise needs. Short walks and play sessions. Avoid strenuous activity in heat."
+    },
+    "verdict": {
+      "best_for": [
+        "Apartment dwellers",
+        "Families",
+        "First-time owners",
+        "Seniors",
+        "Those wanting an easy-care dog"
+      ],
+      "not_for": [
+        "Very hot climates",
+        "Those wanting a running partner",
+        "Budget-conscious (potential vet bills)"
+      ],
+      "summary": "The perfect city dog. Boston Terriers are friendly, low-maintenance, and adaptable to apartment living. Watch for breathing issues common to flat-faced breeds. Great for first-time owners."
+    }
+  },
+  {
+    "id": "boxer",
+    "name": "Boxer",
+    "aliases": [
+      "German Boxer",
+      "Deutscher Boxer"
+    ],
+    "group": "working",
+    "origin": "Germany",
+    "lifespan": "10-12 years",
+    "size": {
+      "height_cm": "53-63",
+      "weight_kg": "25-32",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 5,
+      "grooming": 1,
+      "sociability": 5,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 5,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Short, shiny, smooth coat",
+      "coat_colors": [
+        "fawn",
+        "brindle",
+        "white markings"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "fun-loving",
+      "bright",
+      "active",
+      "loyal",
+      "playful",
+      "patient"
+    ],
+    "description": {
+      "overview": "Boxers are bright, fun-loving, and active dogs. They're patient with children and make excellent family dogs. Their expressive faces and playful nature make them irresistible.",
+      "temperament": "Boxers are patient, protective, and playful. They mature slowly and maintain puppy-like energy well into adulthood. Great with kids and loyal to family.",
+      "health": "Prone to cancer, heart conditions, hip dysplasia, and bloat. They can overheat easily. Regular vet checkups important.",
+      "exercise": "High exercise needs. At least 2 hours daily of activity. They need mental stimulation too."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families with children",
+        "Those wanting a playful companion",
+        "People with yards",
+        "First-time owners willing to exercise"
+      ],
+      "not_for": [
+        "Sedentary lifestyles",
+        "Very hot climates",
+        "Those wanting a calm dog",
+        "Small apartments"
+      ],
+      "summary": "Boxers are playful, patient family dogs that stay puppy-like for years. Great with kids but need lots of exercise. Watch for health issues common to the breed."
+    }
+  },
+  {
+    "id": "brittany",
+    "name": "Brittany",
+    "aliases": [
+      "Brittany Spaniel",
+      "Epagneul Breton"
+    ],
+    "group": "sporting",
+    "origin": "France",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "44-52",
+      "weight_kg": "14-18",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 5,
+      "grooming": 2,
+      "sociability": 4,
+      "trainability": 5,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Medium-length, wavy coat",
+      "coat_colors": [
+        "orange and white",
+        "liver and white",
+        "tricolor"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "bright",
+      "fun-loving",
+      "upbeat",
+      "agile",
+      "adaptable",
+      "eager"
+    ],
+    "description": {
+      "overview": "Brittanys are versatile hunting dogs and excellent family companions. They're energetic, friendly, and eager to please.",
+      "temperament": "Brittanys are bright, eager, and sensitive. They respond well to positive training and love being with their families.",
+      "health": "Generally healthy. Watch for hip dysplasia and epilepsy. Regular vet checkups recommended.",
+      "exercise": "Very high exercise needs. Need vigorous daily activity. Excel at field trials and hunt tests."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families",
+        "Hunters",
+        "Dog sport enthusiasts",
+        "Rural/suburban living",
+        "Those with yards"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Sedentary lifestyles",
+        "First-time owners unprepared for high energy",
+        "Those away from home often"
+      ],
+      "summary": "High-energy hunting dogs that need lots of exercise and activity. Brittanys are sweet, eager to please, and great family dogs—if you can keep up with them."
+    }
+  },
+  {
+    "id": "bull-terrier",
+    "name": "Bull Terrier",
+    "aliases": [
+      "English Bull Terrier",
+      "Bully"
+    ],
+    "group": "terrier",
+    "origin": "England",
+    "lifespan": "12-13 years",
+    "size": {
+      "height_cm": "53-56",
+      "weight_kg": "23-32",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 4,
+      "grooming": 1,
+      "sociability": 3,
+      "trainability": 3,
+      "barking": 2,
+      "kid_friendly": 4,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Short, flat, harsh coat",
+      "coat_colors": [
+        "white",
+        "brindle",
+        "red",
+        "fawn",
+        "tricolor"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "playful",
+      "charming",
+      "mischievous",
+      "sweet-tempered",
+      "courageous",
+      "active"
+    ],
+    "description": {
+      "overview": "Bull Terriers are unique dogs with egg-shaped heads and playful personalities. They're muscular, mischievous, and full of personality.",
+      "temperament": "Bull Terriers are playful, charming, and mischievous. They're devoted to their families and can be clownish. Need firm, consistent training.",
+      "health": "Prone to deafness (especially white dogs), heart problems, skin allergies, and kidney issues.",
+      "exercise": "High exercise needs. Need vigorous daily activity and mental stimulation to prevent destructive behavior."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families with older children",
+        "Those who enjoy a unique-looking dog",
+        "Experienced owners",
+        "People with sense of humor"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Families with small children or pets",
+        "Those wanting an easy dog",
+        "Apartment dwellers"
+      ],
+      "summary": "Unique, mischievous clowns that need experienced owners. Bull Terriers are devoted and entertaining but require firm training and lots of exercise. Best for active owners who appreciate their quirky personalities."
+    }
+  },
+  {
+    "id": "bulldog",
+    "name": "Bulldog",
+    "aliases": [
+      "English Bulldog",
+      "British Bulldog"
+    ],
+    "group": "non-sporting",
+    "origin": "England",
+    "lifespan": "8-10 years",
+    "size": {
+      "height_cm": "31-40",
+      "weight_kg": "18-25",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 2,
+      "grooming": 2,
+      "sociability": 4,
+      "trainability": 3,
+      "barking": 2,
+      "kid_friendly": 4,
+      "apartment_ok": 4
+    },
+    "characteristics": {
+      "coat_type": "Short, flat, sleek coat",
+      "coat_colors": [
+        "brindle",
+        "white",
+        "fawn",
+        "red",
+        "piebald"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "docile",
+      "willful",
+      "friendly",
+      "calm",
+      "courageous",
+      "dignified"
+    ],
+    "description": {
+      "overview": "The Bulldog is a thick-set, low-slung, well-muscled dog with a wrinkled face and a distinctive pushed-in nose. Despite their grumpy expression, Bulldogs are gentle and make excellent family companions.",
+      "history": "Originally bred for bull-baiting in England. When the sport was banned in 1835, breeders worked to transform the aggressive fighter into a gentle companion.",
+      "temperament": "Bulldogs are calm, courageous, and friendly. They form strong bonds with children and are known for their patience. They can be stubborn but respond well to patient training.",
+      "health": "Prone to many health issues including breathing problems, hip dysplasia, skin infections, and overheating. Regular vet care and choosing healthy bloodlines is essential.",
+      "grooming": "Weekly brushing. Daily wrinkle cleaning to prevent infections. Keep facial folds dry and clean.",
+      "exercise": "Low exercise needs. Short walks in cool weather are best. Prone to overheating—avoid exercise in hot weather."
+    },
+    "verdict": {
+      "best_for": [
+        "Apartment living",
+        "Families with children",
+        "Those wanting a calm dog",
+        "Seniors",
+        "First-time owners wanting a mellow pet"
+      ],
+      "not_for": [
+        "Hot climates",
+        "Active/athletic owners",
+        "Budget-conscious (high vet costs)",
+        "Those wanting a long-lived breed"
+      ],
+      "summary": "Bulldogs are gentle, calm companions perfect for relaxed households. Great with kids and apartment-friendly. However, expect significant health issues and vet bills. Best for those who can handle their special health needs."
+    }
+  },
+  {
+    "id": "cavalier-king-charles-spaniel",
+    "name": "Cavalier King Charles Spaniel",
+    "aliases": [
+      "Cavalier",
+      "CKCS"
+    ],
+    "group": "toy",
+    "origin": "England",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "30-33",
+      "weight_kg": "5-8",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 2,
+      "grooming": 3,
+      "sociability": 5,
+      "trainability": 4,
+      "barking": 2,
+      "kid_friendly": 5,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Medium-length silky coat",
+      "coat_colors": [
+        "Blenheim",
+        "tricolor",
+        "black and tan",
+        "ruby"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "affectionate",
+      "gentle",
+      "graceful",
+      "adaptable",
+      "patient",
+      "playful"
+    ],
+    "description": {
+      "overview": "Cavaliers are the ideal companion dogs. They combine the gentleness of a toy breed with the athleticism of a spaniel. Sweet-natured and adaptable.",
+      "temperament": "Cavaliers are affectionate and adaptable. They love everyone—people, dogs, even cats. They're equally happy on a lap or on a hike.",
+      "health": "Prone to heart disease (mitral valve disease) and syringomyelia. Buy only from health-tested breeders. Regular cardiac screening important.",
+      "exercise": "Moderate exercise needs. Adaptable to owner's lifestyle. Happy with walks or more active pursuits."
+    },
+    "verdict": {
+      "best_for": [
+        "Families",
+        "Seniors",
+        "Apartment dwellers",
+        "First-time owners",
+        "Those wanting an affectionate companion",
+        "Therapy dog prospects"
+      ],
+      "not_for": [
+        "Those wanting a guard dog",
+        "Budget-conscious (health issues)",
+        "Those who want minimal grooming"
+      ],
+      "summary": "The ideal companion dog—adaptable, affectionate, and gentle. Great for families, seniors, and apartments. Be aware of serious health issues in the breed and buy from health-tested breeders."
+    }
+  },
+  {
+    "id": "chihuahua",
+    "name": "Chihuahua",
+    "aliases": [],
+    "group": "toy",
+    "origin": "Mexico",
+    "lifespan": "14-16 years",
+    "size": {
+      "height_cm": "15-23",
+      "weight_kg": "1.5-3",
+      "category": "tiny"
+    },
+    "ratings": {
+      "size": 1,
+      "energy": 3,
+      "grooming": 1,
+      "sociability": 2,
+      "trainability": 3,
+      "barking": 5,
+      "kid_friendly": 2,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Smooth or long coat",
+      "coat_colors": [
+        "fawn",
+        "black",
+        "white",
+        "chocolate",
+        "cream",
+        "many others"
+      ],
+      "shedding": "low",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "charming",
+      "graceful",
+      "sassy",
+      "devoted",
+      "alert",
+      "quick"
+    ],
+    "description": {
+      "overview": "Chihuahuas are the smallest dog breed but have huge personalities. They're loyal to their owners and can be feisty despite their tiny size.",
+      "temperament": "Chihuahuas are loyal and devoted to their owners. They can be suspicious of strangers and may not tolerate rough handling.",
+      "health": "Prone to heart problems, luxating patella, hypoglycemia, and dental issues. Handle with care.",
+      "exercise": "Low exercise needs. Short walks and indoor play. Sensitive to cold."
+    },
+    "verdict": {
+      "best_for": [
+        "Adults without young children",
+        "Apartment dwellers",
+        "Seniors",
+        "Those wanting a loyal tiny companion",
+        "Travel companions"
+      ],
+      "not_for": [
+        "Families with small children",
+        "Cold climates",
+        "Those who dislike barking",
+        "People wanting a social dog"
+      ],
+      "summary": "Tiny but mighty. Chihuahuas are loyal and devoted to their owners but can be suspicious of others. Best for adults in apartments. Not ideal for families with young children."
+    }
+  },
+  {
+    "id": "cocker-spaniel",
+    "name": "Cocker Spaniel",
+    "aliases": [
+      "American Cocker Spaniel"
+    ],
+    "group": "sporting",
+    "origin": "United States/England",
+    "lifespan": "10-14 years",
+    "size": {
+      "height_cm": "34-39",
+      "weight_kg": "11-14",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 3,
+      "grooming": 5,
+      "sociability": 5,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 5,
+      "apartment_ok": 4
+    },
+    "characteristics": {
+      "coat_type": "Long, silky, wavy coat",
+      "coat_colors": [
+        "black",
+        "buff",
+        "chocolate",
+        "parti-color",
+        "tricolor"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "gentle",
+      "smart",
+      "happy",
+      "merry",
+      "trusting",
+      "even-tempered"
+    ],
+    "description": {
+      "overview": "Cocker Spaniels are happy, gentle dogs with beautiful long ears and silky coats. They're excellent family companions and the smallest of the sporting breeds.",
+      "temperament": "Cockers are happy and gentle. They love people and are eager to please. Generally good with children and other pets.",
+      "health": "Prone to ear infections, eye problems, and hip dysplasia. Keep ears clean and dry.",
+      "exercise": "Moderate exercise needs. Daily walks and playtime. Enjoy activities but adaptable to calmer lifestyles."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with children",
+        "Those wanting a gentle companion",
+        "First-time owners",
+        "Apartment dwellers (with walks)",
+        "Seniors"
+      ],
+      "not_for": [
+        "Those who dislike grooming",
+        "People wanting minimal maintenance",
+        "Those away from home often"
+      ],
+      "summary": "Happy, gentle family dogs with beautiful coats. Cockers need regular grooming but reward you with loyal, loving companionship. Great for families and first-time owners."
+    }
+  },
+  {
+    "id": "collie",
+    "name": "Collie",
+    "aliases": [
+      "Rough Collie",
+      "Lassie Dog"
+    ],
+    "group": "herding",
+    "origin": "Scotland",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "51-61",
+      "weight_kg": "18-34",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 3,
+      "grooming": 4,
+      "sociability": 5,
+      "trainability": 5,
+      "barking": 4,
+      "kid_friendly": 5,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Rough (long) or Smooth (short)",
+      "coat_colors": [
+        "sable and white",
+        "tricolor",
+        "blue merle",
+        "white"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "devoted",
+      "graceful",
+      "proud",
+      "friendly",
+      "loyal",
+      "intelligent"
+    ],
+    "description": {
+      "overview": "Collies are the graceful, devoted dogs immortalized by Lassie. They're intelligent, loyal family companions known for their devotion to children.",
+      "temperament": "Collies are gentle, devoted, and highly attuned to their family's emotions. They're excellent with children and protective without aggression.",
+      "health": "Prone to eye problems (CEA), MDR1 gene (drug sensitivity), and hip dysplasia. Get eyes and MDR1 tested.",
+      "exercise": "Moderate exercise needs. Daily walks and play. Enjoy herding activities and dog sports."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with children",
+        "Those wanting a loyal companion",
+        "People who enjoy grooming",
+        "Suburban/rural living"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Those who dislike barking or grooming",
+        "People wanting a guard dog",
+        "Those allergic to shedding"
+      ],
+      "summary": "The ultimate family dog—loyal, gentle, and wonderful with children. Collies need regular grooming and space but reward you with unwavering devotion. Perfect for families."
+    }
+  },
+  {
+    "id": "dachshund",
+    "name": "Dachshund",
+    "aliases": [
+      "Wiener Dog",
+      "Sausage Dog",
+      "Doxie"
+    ],
+    "group": "hound",
+    "origin": "Germany",
+    "lifespan": "12-16 years",
+    "size": {
+      "height_cm": "13-23",
+      "weight_kg": "5-15",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 1,
+      "energy": 3,
+      "grooming": 2,
+      "sociability": 3,
+      "trainability": 3,
+      "barking": 4,
+      "kid_friendly": 3,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Smooth, wirehaired, or longhaired",
+      "coat_colors": [
+        "red",
+        "black and tan",
+        "chocolate",
+        "cream",
+        "dapple"
+      ],
+      "shedding": "low to moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "clever",
+      "stubborn",
+      "devoted",
+      "lively",
+      "playful",
+      "courageous"
+    ],
+    "description": {
+      "overview": "The iconic 'wiener dog' is famously long and low. Curious, lively, and charming with a big-dog bark, Dachshunds are clever and courageous, sometimes to the point of rashness.",
+      "history": "Developed in Germany to hunt badgers—'dachshund' means 'badger dog.' Their unique shape allowed them to dig into burrows and confront prey underground.",
+      "temperament": "Dachshunds are bold and curious with a stubborn streak. They bond closely with their owners but can be suspicious of strangers. They have a surprisingly loud bark.",
+      "health": "Prone to back problems (IVDD) due to their long spine. Also watch for obesity, dental issues, and eye conditions. Avoid jumping and stairs.",
+      "grooming": "Depends on coat type. Smooth coats need minimal care. Wirehaired need stripping. Longhaired need regular brushing.",
+      "exercise": "Moderate exercise needs. Daily walks but avoid activities that strain the back. Keep them lean to protect their spine."
+    },
+    "verdict": {
+      "best_for": [
+        "Apartment dwellers",
+        "Singles and couples",
+        "Those wanting a small but bold dog",
+        "Seniors",
+        "People who enjoy a dog with personality"
+      ],
+      "not_for": [
+        "Families with small children",
+        "Those wanting easy training",
+        "Active runners/hikers",
+        "Homes with many stairs"
+      ],
+      "summary": "Dachshunds pack huge personality into a small, unique package. Great for apartments and city living. They can be stubborn and prone to back problems. Best for owners who appreciate their independent spirit."
+    }
+  },
+  {
+    "id": "doberman-pinscher",
+    "name": "Doberman Pinscher",
+    "aliases": [
+      "Doberman",
+      "Dobie"
+    ],
+    "group": "working",
+    "origin": "Germany",
+    "lifespan": "10-12 years",
+    "size": {
+      "height_cm": "61-72",
+      "weight_kg": "27-45",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 4,
+      "grooming": 1,
+      "sociability": 3,
+      "trainability": 5,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Short, smooth, hard coat",
+      "coat_colors": [
+        "black and rust",
+        "red and rust",
+        "blue and rust",
+        "fawn and rust"
+      ],
+      "shedding": "low",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "loyal",
+      "fearless",
+      "alert",
+      "intelligent",
+      "obedient",
+      "energetic"
+    ],
+    "description": {
+      "overview": "Dobermans are sleek, powerful, and among the most intelligent breeds. They're loyal protectors and excellent family dogs when properly trained and socialized.",
+      "temperament": "Dobermans are loyal, fearless, and highly trainable. They bond closely with their families and are natural protectors. Need early socialization.",
+      "health": "Prone to dilated cardiomyopathy, von Willebrand's disease, hip dysplasia, and wobbler syndrome. Regular cardiac screening important.",
+      "exercise": "High exercise needs. Need daily vigorous activity and mental stimulation. Excel at obedience and protection sports."
+    },
+    "verdict": {
+      "best_for": [
+        "Experienced dog owners",
+        "Those wanting a loyal protector",
+        "Active families",
+        "People with time for training",
+        "Security-conscious owners"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Those who can't commit to training",
+        "Sedentary lifestyles",
+        "Areas with breed restrictions"
+      ],
+      "summary": "Elegant, intelligent, and fiercely loyal. Dobermans need experienced owners who can provide training, exercise, and socialization. Excellent family protectors when raised right."
+    }
+  },
+  {
+    "id": "english-springer-spaniel",
+    "name": "English Springer Spaniel",
+    "aliases": [
+      "Springer Spaniel"
+    ],
+    "group": "sporting",
+    "origin": "England",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "46-51",
+      "weight_kg": "18-25",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 4,
+      "grooming": 3,
+      "sociability": 5,
+      "trainability": 5,
+      "barking": 3,
+      "kid_friendly": 5,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Medium-length, feathered coat",
+      "coat_colors": [
+        "black and white",
+        "liver and white",
+        "tricolor"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "friendly",
+      "playful",
+      "obedient",
+      "alert",
+      "active",
+      "affectionate"
+    ],
+    "description": {
+      "overview": "English Springer Spaniels are friendly, athletic dogs bred to 'spring' game for hunters. They're excellent family companions and versatile sporting dogs.",
+      "temperament": "Springers are friendly, eager to please, and playful. They love people and are great with children. Active and need engagement.",
+      "health": "Generally healthy but prone to hip dysplasia, eye problems, and ear infections. Clean ears regularly.",
+      "exercise": "High exercise needs. Daily vigorous activity, swimming, and field work."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families with children",
+        "Hunters",
+        "Those wanting a friendly companion",
+        "Homes with yards",
+        "Dog sport enthusiasts"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Sedentary lifestyles",
+        "Those away from home often"
+      ],
+      "summary": "Friendly, athletic family dogs that love children and activities. Springers need regular exercise and engagement. Great for active families who want a loving, playful companion."
+    }
+  },
+  {
+    "id": "french-bulldog",
+    "name": "French Bulldog",
+    "aliases": [
+      "Frenchie"
+    ],
+    "group": "non-sporting",
+    "origin": "France/England",
+    "lifespan": "10-12 years",
+    "size": {
+      "height_cm": "28-33",
+      "weight_kg": "8-14",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 2,
+      "grooming": 1,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 2,
+      "kid_friendly": 4,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Short, smooth, fine coat",
+      "coat_colors": [
+        "brindle",
+        "fawn",
+        "white",
+        "cream",
+        "brindle and white"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "adaptable",
+      "playful",
+      "smart",
+      "affectionate",
+      "alert",
+      "easygoing"
+    ],
+    "description": {
+      "overview": "The French Bulldog has enjoyed a surge in popularity. The adaptable Frenchie is the ideal companion for city dwellers—they don't need a lot of space and are content with short walks and indoor play.",
+      "history": "Descended from English Bulldogs brought to France by lace workers. French breeders developed the distinctive bat ears and compact size that define the breed today.",
+      "temperament": "Frenchies are charming, adaptable, and make excellent companions. They're playful but not overly energetic. They love human contact and get along well with other pets.",
+      "health": "Brachycephalic breed prone to breathing issues, overheating, spinal disorders, and eye problems. Choose breeders who prioritize health over extreme features.",
+      "grooming": "Easy to groom—weekly brushing and regular facial fold cleaning. Keep wrinkles dry to prevent infections.",
+      "exercise": "Low to moderate exercise needs. Short walks and indoor play are sufficient. Avoid strenuous exercise, especially in hot weather."
+    },
+    "verdict": {
+      "best_for": [
+        "Apartment dwellers",
+        "City living",
+        "Seniors",
+        "Singles and couples",
+        "Those wanting a low-exercise dog"
+      ],
+      "not_for": [
+        "Hot climates",
+        "Those wanting a jogging partner",
+        "Budget-conscious (vet bills)",
+        "Families wanting a very active dog"
+      ],
+      "summary": "The perfect apartment dog. French Bulldogs are affectionate, adaptable, and don't need much exercise. Be prepared for potential health issues and vet costs. Ideal for city dwellers and those wanting a charming, low-maintenance companion."
+    }
+  },
+  {
+    "id": "german-shepherd",
+    "name": "German Shepherd",
+    "aliases": [
+      "GSD",
+      "Alsatian",
+      "German Shepherd Dog"
+    ],
+    "group": "herding",
+    "origin": "Germany",
+    "lifespan": "9-13 years",
+    "size": {
+      "height_cm": "55-65",
+      "weight_kg": "22-40",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 4,
+      "grooming": 3,
+      "sociability": 3,
+      "trainability": 5,
+      "barking": 4,
+      "kid_friendly": 4,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Double coat, medium length",
+      "coat_colors": [
+        "black and tan",
+        "sable",
+        "all black",
+        "black and red"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "confident",
+      "courageous",
+      "smart",
+      "loyal",
+      "protective",
+      "obedient"
+    ],
+    "description": {
+      "overview": "German Shepherds are working dogs developed for herding sheep. Because of their strength, intelligence, trainability, and obedience, they're often preferred for many types of work including police, military, and search-and-rescue.",
+      "history": "Developed in Germany in the late 1800s by Captain Max von Stephanitz, who wanted to create the ideal herding dog. The breed quickly proved versatile and became popular worldwide for various working roles.",
+      "temperament": "GSDs are confident, courageous, and smart. They're willing to put their life on the line for loved ones. They can be aloof with strangers but are loyal and loving with family.",
+      "health": "Prone to hip and elbow dysplasia, degenerative myelopathy, and bloat. Regular vet checkups are important. Buy from reputable breeders who test for genetic conditions.",
+      "grooming": "Heavy shedders—brush several times a week. They 'blow' their coat twice a year when daily brushing is needed. Regular nail, ear, and dental care.",
+      "exercise": "High exercise needs. At least 2 hours daily of physical and mental stimulation. Excel at obedience, agility, tracking, and protection sports."
+    },
+    "verdict": {
+      "best_for": [
+        "Experienced dog owners",
+        "Active families",
+        "Those wanting a protective dog",
+        "People with time for training",
+        "Homes with yards"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Sedentary lifestyles",
+        "Those away from home often",
+        "Small apartments"
+      ],
+      "summary": "The German Shepherd is a loyal, intelligent, and versatile working dog. Best suited for experienced owners who can provide firm leadership, consistent training, and plenty of exercise. Not ideal for first-time owners or apartment living."
+    }
+  },
+  {
+    "id": "german-shorthaired-pointer",
+    "name": "German Shorthaired Pointer",
+    "aliases": [
+      "GSP"
+    ],
+    "group": "sporting",
+    "origin": "Germany",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "53-64",
+      "weight_kg": "20-32",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 5,
+      "grooming": 1,
+      "sociability": 4,
+      "trainability": 5,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Short, thick, water-resistant coat",
+      "coat_colors": [
+        "liver",
+        "liver and white",
+        "liver roan"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "friendly",
+      "smart",
+      "willing",
+      "enthusiastic",
+      "bold",
+      "cooperative"
+    ],
+    "description": {
+      "overview": "The German Shorthaired Pointer is a versatile hunting dog and all-purpose gun dog. They're known for their power, speed, agility, and endurance—plus a striking appearance.",
+      "history": "Developed in 19th century Germany by crossing various breeds to create the ideal versatile hunting dog that could point, retrieve, and track on both land and water.",
+      "temperament": "GSPs are friendly, smart, and enthusiastic. They're eager to please and bond closely with their family. They can be boisterous, especially when young.",
+      "health": "Generally healthy but prone to hip dysplasia, bloat, and some eye conditions. Responsible breeding is important.",
+      "grooming": "Very easy to groom. Weekly brushing and occasional baths. Low maintenance coat.",
+      "exercise": "Very high exercise needs—at least 2 hours daily. Need vigorous activity. Not suited for sedentary lifestyles."
+    },
+    "verdict": {
+      "best_for": [
+        "Active outdoor enthusiasts",
+        "Hunters",
+        "Runners and cyclists",
+        "Families who love hiking",
+        "Those with large yards"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Sedentary lifestyles",
+        "First-time owners",
+        "Those without time for exercise"
+      ],
+      "summary": "The ultimate athlete. GSPs need extensive daily exercise and are perfect for active owners who run, hike, or hunt. They're friendly and trainable but will become destructive without enough activity. Not for couch potatoes."
+    }
+  },
+  {
+    "id": "golden-retriever",
+    "name": "Golden Retriever",
+    "aliases": [
+      "Golden"
+    ],
+    "group": "sporting",
+    "origin": "Scotland",
+    "lifespan": "10-12 years",
+    "size": {
+      "height_cm": "51-61",
+      "weight_kg": "25-34",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 4,
+      "grooming": 3,
+      "sociability": 5,
+      "trainability": 5,
+      "barking": 2,
+      "kid_friendly": 5,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Dense, water-repellent double coat",
+      "coat_colors": [
+        "golden",
+        "light golden",
+        "dark golden"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "intelligent",
+      "friendly",
+      "devoted",
+      "reliable",
+      "trustworthy",
+      "kind"
+    ],
+    "description": {
+      "overview": "The Golden Retriever is one of the most popular dog breeds. Their friendly, tolerant attitude makes them fabulous family pets, and their intelligence makes them highly capable working dogs.",
+      "history": "Developed in Scotland during the mid-19th century by Lord Tweedmouth, who crossed a yellow retriever with a Tweed Water Spaniel to create the perfect gundog for retrieving waterfowl.",
+      "temperament": "Goldens are outgoing, trustworthy, and eager to please. They're wonderful with children and other pets. Their patient, gentle nature makes them excellent therapy dogs.",
+      "health": "Prone to cancer, hip dysplasia, elbow dysplasia, and heart conditions. Regular vet visits and buying from health-tested breeders is important.",
+      "grooming": "Heavy shedders requiring regular brushing (daily during shedding season). Their feathered coat needs attention to prevent matting.",
+      "exercise": "Active dogs needing 1-2 hours of exercise daily. Love swimming, fetch, and any activity with their family. Excel at obedience and agility."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with children",
+        "First-time dog owners",
+        "Active households",
+        "Those wanting a therapy/service dog",
+        "Homes with yards"
+      ],
+      "not_for": [
+        "Those wanting a guard dog",
+        "Allergy sufferers",
+        "Those who dislike dog hair",
+        "Very small living spaces"
+      ],
+      "summary": "The Golden Retriever is the quintessential family dog—friendly, patient, and eager to please. Perfect for first-time owners and families. They need regular exercise and grooming but reward you with unwavering loyalty and love."
+    }
+  },
+  {
+    "id": "great-dane",
+    "name": "Great Dane",
+    "aliases": [
+      "German Mastiff",
+      "Deutsche Dogge"
+    ],
+    "group": "working",
+    "origin": "Germany",
+    "lifespan": "7-10 years",
+    "size": {
+      "height_cm": "71-86",
+      "weight_kg": "45-90",
+      "category": "giant"
+    },
+    "ratings": {
+      "size": 5,
+      "energy": 3,
+      "grooming": 1,
+      "sociability": 5,
+      "trainability": 4,
+      "barking": 2,
+      "kid_friendly": 4,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Short, smooth coat",
+      "coat_colors": [
+        "fawn",
+        "brindle",
+        "blue",
+        "black",
+        "harlequin",
+        "mantle"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "friendly",
+      "patient",
+      "dependable",
+      "gentle",
+      "loving",
+      "confident"
+    ],
+    "description": {
+      "overview": "Great Danes are gentle giants. Despite their imposing size, they're affectionate, patient, and make wonderful family companions. They think they're lap dogs.",
+      "temperament": "Danes are friendly and patient. They're great with children and other pets. Despite their size, they're often called 'gentle giants.'",
+      "health": "Shorter lifespan due to size. Prone to bloat, heart disease, hip dysplasia, and bone cancer. Bloat is a medical emergency.",
+      "exercise": "Moderate exercise needs. Daily walks but avoid strenuous exercise while growing. Joint-friendly activities preferred."
+    },
+    "verdict": {
+      "best_for": [
+        "Those wanting a gentle giant",
+        "Families with space",
+        "People who can handle large dogs",
+        "Those wanting a friendly companion"
+      ],
+      "not_for": [
+        "Small apartments",
+        "Those on tight budgets (food/vet costs)",
+        "Those wanting long-lived breeds",
+        "First-time giant breed owners"
+      ],
+      "summary": "Gentle giants with hearts as big as their bodies. Great Danes are patient and loving but have shorter lifespans and high costs. Best for those with space and budget for a giant breed."
+    }
+  },
+  {
+    "id": "havanese",
+    "name": "Havanese",
+    "aliases": [
+      "Havana Silk Dog"
+    ],
+    "group": "toy",
+    "origin": "Cuba",
+    "lifespan": "14-16 years",
+    "size": {
+      "height_cm": "21-29",
+      "weight_kg": "3-6",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 1,
+      "energy": 3,
+      "grooming": 4,
+      "sociability": 5,
+      "trainability": 4,
+      "barking": 2,
+      "kid_friendly": 5,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Long, silky, wavy coat",
+      "coat_colors": [
+        "all colors"
+      ],
+      "shedding": "minimal",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "intelligent",
+      "outgoing",
+      "funny",
+      "happy",
+      "affectionate",
+      "playful"
+    ],
+    "description": {
+      "overview": "The Havanese is Cuba's national dog. They're cheerful, intelligent, and make wonderful companions. Known for their springy gait and silky coat.",
+      "temperament": "Havanese are happy, outgoing dogs who love everyone. They're intelligent and eager to please. Great with children and other pets.",
+      "health": "Generally healthy but watch for eye problems, luxating patella, and hip dysplasia.",
+      "exercise": "Moderate exercise needs. Playful and enjoy activities with their owners. Good for apartment living."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with children",
+        "Apartment dwellers",
+        "Allergy sufferers",
+        "First-time owners",
+        "Those wanting a cheerful companion"
+      ],
+      "not_for": [
+        "Those who dislike grooming",
+        "People away from home often",
+        "Those wanting a guard dog"
+      ],
+      "summary": "Cheerful, intelligent, and hypoallergenic. Havanese are wonderful family dogs that do well in apartments. Need regular grooming but don't shed much. Great first-time dog."
+    }
+  },
+  {
+    "id": "labrador-retriever",
+    "name": "Labrador Retriever",
+    "aliases": [
+      "Lab",
+      "Labrador"
+    ],
+    "group": "sporting",
+    "origin": "Canada (Newfoundland)",
+    "lifespan": "10-12 years",
+    "size": {
+      "height_cm": "55-62",
+      "weight_kg": "25-36",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 5,
+      "grooming": 2,
+      "sociability": 5,
+      "trainability": 5,
+      "barking": 3,
+      "kid_friendly": 5,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Short, dense, water-resistant double coat",
+      "coat_colors": [
+        "black",
+        "yellow",
+        "chocolate"
+      ],
+      "shedding": "high",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "friendly",
+      "outgoing",
+      "active",
+      "gentle",
+      "intelligent",
+      "trusting"
+    ],
+    "description": {
+      "overview": "The Labrador Retriever is America's most popular dog breed for good reason. They're friendly, outgoing, and high-spirited companions who have more than enough affection to go around for a family looking for a medium-to-large dog.",
+      "history": "Despite the name, Labrador Retrievers actually originated in Newfoundland, Canada, where they helped fishermen retrieve nets and catch escaping fish. British nobles visiting Canada fell in love with the breed and brought them to England.",
+      "temperament": "Labs are famously friendly. They are companionable housemates who bond with the whole family, and they socialize well with neighbor dogs and humans alike. But don't mistake their easygoing personality for low energy.",
+      "health": "Generally healthy, but prone to hip and elbow dysplasia, heart disorders, eye conditions, and exercise-induced collapse. Obesity is common, so watch their diet.",
+      "grooming": "Weekly brushing keeps the coat healthy. They shed heavily, especially during seasonal changes. Regular nail trimming and ear cleaning needed.",
+      "exercise": "High energy dogs that need lots of exercise—at least an hour daily. They love swimming, fetch, and any activity with their humans."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with children",
+        "Active individuals",
+        "First-time dog owners",
+        "Homes with yards",
+        "People who enjoy outdoor activities"
+      ],
+      "not_for": [
+        "Sedentary lifestyles",
+        "Those away from home often",
+        "Allergy sufferers",
+        "Small apartment dwellers"
+      ],
+      "summary": "The ultimate family dog. Labrador Retrievers are friendly, patient, and trainable—perfect for first-time owners and families with kids. They need plenty of exercise and shed a lot, but their loving nature makes them worth it."
+    }
+  },
+  {
+    "id": "maltese",
+    "name": "Maltese",
+    "aliases": [],
+    "group": "toy",
+    "origin": "Malta",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "20-25",
+      "weight_kg": "2-4",
+      "category": "tiny"
+    },
+    "ratings": {
+      "size": 1,
+      "energy": 3,
+      "grooming": 5,
+      "sociability": 4,
+      "trainability": 3,
+      "barking": 4,
+      "kid_friendly": 3,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Long, silky, white coat",
+      "coat_colors": [
+        "white"
+      ],
+      "shedding": "minimal",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "gentle",
+      "playful",
+      "affectionate",
+      "charming",
+      "fearless",
+      "trusting"
+    ],
+    "description": {
+      "overview": "Maltese are elegant toy dogs with flowing white coats. They've been lap dogs of royalty for centuries and remain popular companions today.",
+      "temperament": "Maltese are gentle and affectionate but surprisingly fearless. They love their people and enjoy being pampered.",
+      "health": "Prone to dental issues, luxating patella, liver shunts, and collapsed trachea. Regular dental care essential.",
+      "exercise": "Low to moderate exercise needs. Short walks and indoor play. Good for apartments."
+    },
+    "verdict": {
+      "best_for": [
+        "Apartment dwellers",
+        "Seniors",
+        "Those wanting a glamorous small dog",
+        "Allergy sufferers",
+        "People who enjoy grooming"
+      ],
+      "not_for": [
+        "Families with small children",
+        "Those who dislike grooming",
+        "Outdoor enthusiasts",
+        "People wanting a rugged dog"
+      ],
+      "summary": "Elegant, affectionate lap dogs perfect for apartment living. Maltese need daily grooming but are hypoallergenic. Best for adults who can handle them gently and enjoy pampering."
+    }
+  },
+  {
+    "id": "miniature-american-shepherd",
+    "name": "Miniature American Shepherd",
+    "aliases": [
+      "Mini Aussie",
+      "MAS"
+    ],
+    "group": "herding",
+    "origin": "United States",
+    "lifespan": "12-13 years",
+    "size": {
+      "height_cm": "33-46",
+      "weight_kg": "9-18",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 5,
+      "grooming": 3,
+      "sociability": 4,
+      "trainability": 5,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Medium-length double coat",
+      "coat_colors": [
+        "black",
+        "blue merle",
+        "red",
+        "red merle"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "intelligent",
+      "good-natured",
+      "devoted",
+      "versatile",
+      "energetic",
+      "loyal"
+    ],
+    "description": {
+      "overview": "Mini American Shepherds are smaller versions of Australian Shepherds—smart, athletic, and versatile. Perfect for those who want Aussie traits in a smaller package.",
+      "temperament": "MAS are intelligent, loyal, and eager to please. They bond closely with their families and need mental stimulation.",
+      "health": "Generally healthy. Watch for eye problems and hip dysplasia. MDR1 gene testing recommended.",
+      "exercise": "High exercise and mental stimulation needs. Excel at agility and other dog sports."
+    },
+    "verdict": {
+      "best_for": [
+        "Active owners",
+        "Dog sport enthusiasts",
+        "Those wanting a smart, portable companion",
+        "Families with time for training"
+      ],
+      "not_for": [
+        "Sedentary lifestyles",
+        "Those without time for exercise and training",
+        "First-time owners unprepared for high energy"
+      ],
+      "summary": "All the brains and drive of an Aussie in a portable package. MAS need lots of exercise and mental challenges. Perfect for active owners who want a trainable, devoted smaller companion."
+    }
+  },
+  {
+    "id": "miniature-schnauzer",
+    "name": "Miniature Schnauzer",
+    "aliases": [
+      "Mini Schnauzer"
+    ],
+    "group": "terrier",
+    "origin": "Germany",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "30-36",
+      "weight_kg": "5-9",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 4,
+      "grooming": 4,
+      "sociability": 4,
+      "trainability": 4,
+      "barking": 4,
+      "kid_friendly": 4,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Wiry double coat",
+      "coat_colors": [
+        "salt and pepper",
+        "black",
+        "black and silver",
+        "white"
+      ],
+      "shedding": "minimal",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "friendly",
+      "smart",
+      "obedient",
+      "alert",
+      "spirited",
+      "fearless"
+    ],
+    "description": {
+      "overview": "Miniature Schnauzers are friendly, intelligent dogs with distinctive beards. They're the most popular of the three Schnauzer sizes and make excellent family companions.",
+      "temperament": "Friendly and obedient but with terrier spirit. They're alert watchdogs with a tendency to bark. Good with children and other dogs.",
+      "health": "Generally healthy but prone to pancreatitis, diabetes, and eye problems. Keep them on a healthy diet.",
+      "exercise": "Moderate exercise needs. Daily walks and play sessions. Enjoy dog sports and training."
+    },
+    "verdict": {
+      "best_for": [
+        "Apartment dwellers",
+        "Allergy sufferers",
+        "Families with children",
+        "Those wanting a small watchdog",
+        "Active seniors"
+      ],
+      "not_for": [
+        "Those who dislike barking",
+        "People wanting minimal grooming",
+        "Those who prefer very calm dogs"
+      ],
+      "summary": "Friendly, smart, and hypoallergenic. Mini Schnauzers make great apartment dogs and family companions. They need regular grooming and can be barky but are loyal and fun."
+    }
+  },
+  {
+    "id": "newfoundland",
+    "name": "Newfoundland",
+    "aliases": [
+      "Newfie",
+      "Newf"
+    ],
+    "group": "working",
+    "origin": "Canada (Newfoundland)",
+    "lifespan": "9-10 years",
+    "size": {
+      "height_cm": "63-74",
+      "weight_kg": "45-68",
+      "category": "giant"
+    },
+    "ratings": {
+      "size": 5,
+      "energy": 3,
+      "grooming": 4,
+      "sociability": 5,
+      "trainability": 4,
+      "barking": 2,
+      "kid_friendly": 5,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Thick, long, water-resistant double coat",
+      "coat_colors": [
+        "black",
+        "brown",
+        "gray",
+        "Landseer (black and white)"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "sweet",
+      "patient",
+      "devoted",
+      "gentle",
+      "watchful",
+      "calm"
+    ],
+    "description": {
+      "overview": "Newfoundlands are gentle giants famous for water rescues. They're sweet-tempered, devoted dogs that are exceptional with children.",
+      "temperament": "Newfies are sweet, patient, and devoted. They're natural guardians of children and known for their calm, gentle nature.",
+      "health": "Prone to hip/elbow dysplasia, heart conditions, and bloat. Shorter lifespan due to size. Regular cardiac screening important.",
+      "exercise": "Moderate exercise needs. Enjoy swimming. Avoid strenuous activity in heat—they overheat easily."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with children",
+        "Those wanting a gentle giant",
+        "Homes with yards",
+        "Water enthusiasts",
+        "Patient owners who can handle drool and hair"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Hot climates",
+        "Neat freaks (drool and shedding)",
+        "Those wanting a long-lived breed",
+        "Budget-conscious"
+      ],
+      "summary": "The ultimate nanny dog—Newfies are sweet, gentle giants that adore children. They need space, tolerate drool and shedding, and have shorter lifespans. Perfect for families who want a devoted gentle giant."
+    }
+  },
+  {
+    "id": "pembroke-welsh-corgi",
+    "name": "Pembroke Welsh Corgi",
+    "aliases": [
+      "Corgi",
+      "PWC"
+    ],
+    "group": "herding",
+    "origin": "Wales",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "25-30",
+      "weight_kg": "10-14",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 4,
+      "grooming": 3,
+      "sociability": 4,
+      "trainability": 4,
+      "barking": 4,
+      "kid_friendly": 4,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Thick, medium-length double coat",
+      "coat_colors": [
+        "red",
+        "sable",
+        "fawn",
+        "black and tan",
+        "with white markings"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "affectionate",
+      "smart",
+      "alert",
+      "active",
+      "playful",
+      "bold"
+    ],
+    "description": {
+      "overview": "The Pembroke Welsh Corgi is a strong, athletic little dog. They're one of the world's most popular herding breeds and have been favored by British royalty for decades.",
+      "history": "Brought to Wales by Flemish weavers around 1100 AD. Bred to herd cattle by nipping at their heels—their low stature helped them avoid kicks.",
+      "temperament": "Corgis are smart, affectionate, and surprisingly athletic. They have big-dog personalities in compact bodies. Can be vocal and may try to herd children.",
+      "health": "Prone to hip dysplasia, eye problems, and degenerative myelopathy. Keep them lean—obesity worsens joint problems.",
+      "grooming": "Heavy shedders requiring regular brushing. They 'blow' their coat seasonally. Weekly brushing minimum, daily during shedding.",
+      "exercise": "Moderate to high exercise needs despite size. Daily walks and play sessions. They're more athletic than they look."
+    },
+    "verdict": {
+      "best_for": [
+        "Active owners",
+        "Families with older children",
+        "Those wanting a small but sturdy dog",
+        "People who enjoy training",
+        "Corgi enthusiasts"
+      ],
+      "not_for": [
+        "Those who dislike barking",
+        "Allergy sufferers",
+        "Those wanting a quiet lapdog",
+        "Families with toddlers (herding instinct)"
+      ],
+      "summary": "Corgis are smart, athletic, and full of personality. Perfect for active owners who want a small but capable dog. Heavy shedders and can be vocal. Great for families with older children."
+    }
+  },
+  {
+    "id": "pomeranian",
+    "name": "Pomeranian",
+    "aliases": [
+      "Pom"
+    ],
+    "group": "toy",
+    "origin": "Germany/Poland",
+    "lifespan": "12-16 years",
+    "size": {
+      "height_cm": "18-24",
+      "weight_kg": "1.4-3",
+      "category": "tiny"
+    },
+    "ratings": {
+      "size": 1,
+      "energy": 3,
+      "grooming": 4,
+      "sociability": 3,
+      "trainability": 3,
+      "barking": 5,
+      "kid_friendly": 2,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Fluffy double coat",
+      "coat_colors": [
+        "orange",
+        "black",
+        "white",
+        "cream",
+        "sable",
+        "many others"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "lively",
+      "bold",
+      "inquisitive",
+      "playful",
+      "extroverted",
+      "feisty"
+    ],
+    "description": {
+      "overview": "Pomeranians are tiny dogs with big personalities. They're lively, bold, and full of energy despite their small size. Famous for their fluffy coats and foxy faces.",
+      "temperament": "Poms are bold and lively. They often don't realize they're small and may challenge larger dogs. Loyal to their owners but can be suspicious of strangers.",
+      "health": "Prone to luxating patella, collapsed trachea, dental issues, and hair loss. Handle gently due to small size.",
+      "exercise": "Low to moderate exercise needs. Short walks and indoor play. Good for apartments."
+    },
+    "verdict": {
+      "best_for": [
+        "Apartment dwellers",
+        "Singles and couples",
+        "Seniors",
+        "Those wanting a bold tiny companion"
+      ],
+      "not_for": [
+        "Families with small children",
+        "Those who dislike barking",
+        "People wanting a quiet dog",
+        "Those who prefer low-maintenance grooming"
+      ],
+      "summary": "Big personality in a tiny, fluffy package. Pomeranians are bold and lively but can be barky. Great for apartments and adults. Not ideal for families with young children due to their delicate size."
+    }
+  },
+  {
+    "id": "poodle",
+    "name": "Poodle",
+    "aliases": [
+      "Standard Poodle",
+      "Miniature Poodle",
+      "Toy Poodle"
+    ],
+    "group": "non-sporting",
+    "origin": "Germany/France",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "24-60",
+      "weight_kg": "3-32",
+      "category": "varies"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 4,
+      "grooming": 5,
+      "sociability": 4,
+      "trainability": 5,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 4
+    },
+    "characteristics": {
+      "coat_type": "Curly, dense, hypoallergenic coat",
+      "coat_colors": [
+        "black",
+        "white",
+        "apricot",
+        "brown",
+        "gray",
+        "cream",
+        "red"
+      ],
+      "shedding": "minimal",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "intelligent",
+      "active",
+      "alert",
+      "faithful",
+      "trainable",
+      "proud"
+    ],
+    "description": {
+      "overview": "Poodles are among the most intelligent dog breeds. They come in three sizes (Standard, Miniature, Toy) and are known for their curly, hypoallergenic coat and elegant appearance.",
+      "history": "Originally bred in Germany as water retrievers. The breed became associated with France where it was refined and became the national dog. The elaborate clips were functional—designed to protect joints and organs in cold water.",
+      "temperament": "Poodles are extremely smart, active, and excel at obedience training. They're eager to please and good with families. They can be reserved with strangers but aren't aggressive.",
+      "health": "Generally healthy but prone to hip dysplasia, epilepsy, progressive retinal atrophy, and Addison's disease. Regular health screenings recommended.",
+      "grooming": "High maintenance coat requiring professional grooming every 4-6 weeks. Daily brushing to prevent matting. The trade-off is minimal shedding.",
+      "exercise": "Active dogs needing daily exercise. Standards need more than Toys. They excel at agility, obedience, and retriever activities."
+    },
+    "verdict": {
+      "best_for": [
+        "Allergy sufferers",
+        "Those wanting a highly trainable dog",
+        "Active families",
+        "People who enjoy grooming",
+        "Various living situations (size options)"
+      ],
+      "not_for": [
+        "Those who dislike grooming",
+        "Budget-conscious (grooming costs)",
+        "Those wanting a low-maintenance dog"
+      ],
+      "summary": "Poodles are intelligent, elegant, and hypoallergenic—perfect for allergy sufferers. Available in three sizes to suit different lifestyles. High grooming needs but minimal shedding. Excellent for training enthusiasts and active families."
+    }
+  },
+  {
+    "id": "portuguese-water-dog",
+    "name": "Portuguese Water Dog",
+    "aliases": [
+      "PWD",
+      "Portie"
+    ],
+    "group": "working",
+    "origin": "Portugal",
+    "lifespan": "11-13 years",
+    "size": {
+      "height_cm": "43-57",
+      "weight_kg": "16-27",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 4,
+      "grooming": 4,
+      "sociability": 4,
+      "trainability": 5,
+      "barking": 3,
+      "kid_friendly": 5,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Curly or wavy, single coat",
+      "coat_colors": [
+        "black",
+        "white",
+        "brown",
+        "black and white",
+        "brown and white"
+      ],
+      "shedding": "minimal",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "affectionate",
+      "adventurous",
+      "athletic",
+      "obedient",
+      "intelligent",
+      "eager"
+    ],
+    "description": {
+      "overview": "Portuguese Water Dogs are athletic, intelligent dogs bred to help fishermen. They're energetic, love water, and became famous as the Obama family dogs.",
+      "temperament": "Porties are affectionate, smart, and eager to please. They love water and need plenty of activity. Bond closely with families.",
+      "health": "Generally healthy. Watch for hip dysplasia, eye problems, and GM1 storage disease. Get health testing.",
+      "exercise": "High exercise needs. Love swimming and need daily vigorous activity."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families",
+        "Allergy sufferers",
+        "Water enthusiasts",
+        "Those who enjoy training",
+        "Homes near water"
+      ],
+      "not_for": [
+        "Sedentary lifestyles",
+        "Those who dislike grooming",
+        "People away from home often"
+      ],
+      "summary": "Athletic, intelligent, hypoallergenic companions. PWDs love water and need lots of exercise. Great for active families, especially those who enjoy swimming and water activities."
+    }
+  },
+  {
+    "id": "pug",
+    "name": "Pug",
+    "aliases": [],
+    "group": "toy",
+    "origin": "China",
+    "lifespan": "13-15 years",
+    "size": {
+      "height_cm": "25-33",
+      "weight_kg": "6-8",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 1,
+      "energy": 2,
+      "grooming": 2,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 2,
+      "kid_friendly": 5,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Short, smooth, glossy coat",
+      "coat_colors": [
+        "fawn",
+        "black",
+        "silver",
+        "apricot"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "charming",
+      "mischievous",
+      "loving",
+      "even-tempered",
+      "playful",
+      "sociable"
+    ],
+    "description": {
+      "overview": "Pugs are charming, mischievous dogs with expressive faces. They were bred to be companions and excel at the job. They're known for their motto: 'multum in parvo' (much in little).",
+      "temperament": "Pugs are playful, charming, and love attention. They're great with children and other pets. They live to love and be loved.",
+      "health": "Brachycephalic breed prone to breathing issues, eye problems, skin infections, and overheating. Regular vet care important.",
+      "exercise": "Low exercise needs. Short walks and indoor play. Avoid heat and strenuous activity."
+    },
+    "verdict": {
+      "best_for": [
+        "Apartment dwellers",
+        "Families with children",
+        "Seniors",
+        "Those wanting a loving companion",
+        "First-time owners"
+      ],
+      "not_for": [
+        "Hot climates",
+        "Active outdoor enthusiasts",
+        "Those wanting minimal shedding",
+        "Budget-conscious (vet costs)"
+      ],
+      "summary": "Lovable clowns that live to make you smile. Pugs are great family dogs but have health challenges. Best for apartment living and those who can handle potential breathing issues and vet bills."
+    }
+  },
+  {
+    "id": "rhodesian-ridgeback",
+    "name": "Rhodesian Ridgeback",
+    "aliases": [
+      "African Lion Dog",
+      "Ridgeback"
+    ],
+    "group": "hound",
+    "origin": "Southern Africa",
+    "lifespan": "10-12 years",
+    "size": {
+      "height_cm": "61-69",
+      "weight_kg": "32-41",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 4,
+      "grooming": 1,
+      "sociability": 3,
+      "trainability": 3,
+      "barking": 2,
+      "kid_friendly": 4,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Short, dense, sleek coat",
+      "coat_colors": [
+        "light wheaten to red wheaten"
+      ],
+      "shedding": "low",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "affectionate",
+      "dignified",
+      "even-tempered",
+      "loyal",
+      "protective",
+      "athletic"
+    ],
+    "description": {
+      "overview": "Rhodesian Ridgebacks are dignified, athletic dogs known for the distinctive ridge of hair along their backs. They were bred to hunt lions in Africa.",
+      "temperament": "Ridgebacks are loyal, dignified, and protective. They're reserved with strangers but devoted to family. Need confident handling.",
+      "health": "Generally healthy. Watch for hip/elbow dysplasia, dermoid sinus, and thyroid issues.",
+      "exercise": "High exercise needs. Need daily vigorous activity. Athletic and enjoy running."
+    },
+    "verdict": {
+      "best_for": [
+        "Experienced dog owners",
+        "Active families",
+        "Those wanting a dignified protector",
+        "Homes with yards",
+        "Confident handlers"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Apartment dwellers",
+        "Timid owners",
+        "Those wanting a very social dog"
+      ],
+      "summary": "Dignified, loyal athletes that need experienced handling. Ridgebacks are devoted to family but reserved with strangers. Best for confident owners who can provide leadership and exercise."
+    }
+  },
+  {
+    "id": "rottweiler",
+    "name": "Rottweiler",
+    "aliases": [
+      "Rottie",
+      "Rott"
+    ],
+    "group": "working",
+    "origin": "Germany",
+    "lifespan": "8-10 years",
+    "size": {
+      "height_cm": "56-69",
+      "weight_kg": "36-60",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 5,
+      "energy": 4,
+      "grooming": 2,
+      "sociability": 3,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 3,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Short, dense double coat",
+      "coat_colors": [
+        "black with tan/mahogany markings"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "loyal",
+      "confident",
+      "courageous",
+      "calm",
+      "protective",
+      "good-natured"
+    ],
+    "description": {
+      "overview": "The Rottweiler is a robust working breed of great strength. A gentle playmate and protector within the family circle, they observe the outside world with a self-assured aloofness.",
+      "history": "Descended from Roman drover dogs, Rottweilers were used to herd livestock and pull carts in the German town of Rottweil. They later became police, military, and guard dogs.",
+      "temperament": "Rottweilers are calm, confident, and courageous. They're devoted to their family but can be aloof with strangers. Early socialization is essential.",
+      "health": "Prone to hip and elbow dysplasia, heart conditions, and cancer. Regular vet checkups and buying from health-tested breeders is important.",
+      "grooming": "Easy to groom. Weekly brushing. Moderate shedding with heavier periods twice a year.",
+      "exercise": "Moderate to high exercise needs. Daily walks and mental stimulation. Excel at obedience, tracking, and carting."
+    },
+    "verdict": {
+      "best_for": [
+        "Experienced dog owners",
+        "Those wanting a protective dog",
+        "Active individuals/families",
+        "People with time for training",
+        "Homes with secure yards"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Apartment dwellers",
+        "Those who can't commit to training",
+        "Areas with breed restrictions"
+      ],
+      "summary": "Rottweilers are powerful, loyal protectors. Best for experienced owners who can provide leadership, training, and socialization. Not ideal for first-time owners or apartments. A well-trained Rottie is a wonderful companion."
+    }
+  },
+  {
+    "id": "samoyed",
+    "name": "Samoyed",
+    "aliases": [
+      "Sammy",
+      "Smiley Dog"
+    ],
+    "group": "working",
+    "origin": "Siberia, Russia",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "48-60",
+      "weight_kg": "16-30",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 4,
+      "grooming": 5,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 4,
+      "kid_friendly": 5,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Thick, fluffy white double coat",
+      "coat_colors": [
+        "white",
+        "cream",
+        "white and biscuit"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "friendly",
+      "gentle",
+      "adaptable",
+      "alert",
+      "playful",
+      "eager"
+    ],
+    "description": {
+      "overview": "Samoyeds are beautiful white dogs known for their 'Sammy smile' and friendly nature. Originally bred to herd reindeer and pull sleds in Siberia.",
+      "temperament": "Sammies are friendly, gentle, and love everyone. They're great with children and other pets. Known for their constant smile.",
+      "health": "Prone to hip dysplasia, eye problems, and cardiac issues. Regular health screening recommended.",
+      "exercise": "High exercise needs. Need daily activity and mental stimulation. Love cold weather."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families with children",
+        "Cold climates",
+        "Those wanting a friendly companion",
+        "People who enjoy grooming",
+        "Social households"
+      ],
+      "not_for": [
+        "Hot climates",
+        "Those who dislike grooming",
+        "Apartment dwellers",
+        "People wanting a guard dog"
+      ],
+      "summary": "Beautiful, friendly 'smiling' dogs that love everyone. Samoyeds need extensive grooming and exercise but reward you with endless affection. Best for cold climates and families."
+    }
+  },
+  {
+    "id": "shetland-sheepdog",
+    "name": "Shetland Sheepdog",
+    "aliases": [
+      "Sheltie"
+    ],
+    "group": "herding",
+    "origin": "Scotland (Shetland Islands)",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "33-41",
+      "weight_kg": "6-12",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 4,
+      "grooming": 4,
+      "sociability": 4,
+      "trainability": 5,
+      "barking": 5,
+      "kid_friendly": 4,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Long, double coat with mane",
+      "coat_colors": [
+        "sable",
+        "tricolor",
+        "blue merle",
+        "bi-black",
+        "bi-blue"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "playful",
+      "energetic",
+      "bright",
+      "obedient",
+      "quick",
+      "alert"
+    ],
+    "description": {
+      "overview": "Shelties are small herding dogs that look like miniature Rough Collies. They're intelligent, eager to please, and excel at obedience and agility.",
+      "temperament": "Shelties are bright and eager to please. They're sensitive and responsive to training. Can be reserved with strangers and vocal.",
+      "health": "Prone to eye problems, hip dysplasia, and dermatomyositis. Sensitive to certain medications.",
+      "exercise": "Moderate to high exercise needs. Excel at dog sports like agility and obedience."
+    },
+    "verdict": {
+      "best_for": [
+        "Dog sport enthusiasts",
+        "Active families",
+        "Those wanting a trainable companion",
+        "Experienced owners",
+        "Homes with yards"
+      ],
+      "not_for": [
+        "Those who dislike barking",
+        "Apartment dwellers (noise)",
+        "People wanting a quiet dog",
+        "Those who dislike grooming"
+      ],
+      "summary": "Brilliant, eager-to-please dogs that excel at training and dog sports. Shelties are loyal family companions but can be vocal. Heavy shedders who need regular grooming."
+    }
+  },
+  {
+    "id": "shiba-inu",
+    "name": "Shiba Inu",
+    "aliases": [
+      "Shiba"
+    ],
+    "group": "non-sporting",
+    "origin": "Japan",
+    "lifespan": "13-16 years",
+    "size": {
+      "height_cm": "33-43",
+      "weight_kg": "8-11",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 4,
+      "grooming": 3,
+      "sociability": 2,
+      "trainability": 2,
+      "barking": 3,
+      "kid_friendly": 3,
+      "apartment_ok": 4
+    },
+    "characteristics": {
+      "coat_type": "Thick double coat",
+      "coat_colors": [
+        "red",
+        "sesame",
+        "black and tan",
+        "cream"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "alert",
+      "active",
+      "attentive",
+      "charming",
+      "confident",
+      "independent"
+    ],
+    "description": {
+      "overview": "Shiba Inus are ancient Japanese dogs known for their fox-like appearance and cat-like independence. They're bold, confident, and popular worldwide.",
+      "temperament": "Shibas are independent and cat-like. They're loyal but not clingy. Can be aloof with strangers and don't always get along with other dogs.",
+      "health": "Generally healthy. Watch for allergies, hip dysplasia, and eye problems.",
+      "exercise": "Moderate to high exercise needs. Need daily activity but aren't as demanding as some breeds."
+    },
+    "verdict": {
+      "best_for": [
+        "Those who appreciate independence",
+        "Apartment dwellers who exercise them",
+        "Experienced dog owners",
+        "Those wanting a clean, cat-like dog"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Those wanting a clingy dog",
+        "Multi-dog households",
+        "Off-leash enthusiasts"
+      ],
+      "summary": "Independent, fox-like dogs with cat-like personalities. Shibas are clean and charming but stubborn. Best for experienced owners who appreciate their independent nature. Not cuddly lap dogs."
+    }
+  },
+  {
+    "id": "shih-tzu",
+    "name": "Shih Tzu",
+    "aliases": [
+      "Lion Dog",
+      "Chrysanthemum Dog"
+    ],
+    "group": "toy",
+    "origin": "Tibet/China",
+    "lifespan": "10-18 years",
+    "size": {
+      "height_cm": "20-28",
+      "weight_kg": "4-7",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 1,
+      "energy": 2,
+      "grooming": 5,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Long, flowing double coat",
+      "coat_colors": [
+        "various colors and patterns"
+      ],
+      "shedding": "minimal",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "affectionate",
+      "playful",
+      "outgoing",
+      "loyal",
+      "gentle",
+      "happy"
+    ],
+    "description": {
+      "overview": "Shih Tzus were bred to be companion dogs for Chinese royalty. They're affectionate, outgoing, and want nothing more than to be with their people.",
+      "temperament": "Shih Tzus are friendly and outgoing. They love everyone and make friends easily. They're playful but not hyperactive.",
+      "health": "Prone to eye problems, breathing issues, hip dysplasia, and dental problems. Regular vet care important.",
+      "exercise": "Low exercise needs. Short walks and indoor play. Sensitive to heat due to flat face."
+    },
+    "verdict": {
+      "best_for": [
+        "Apartment dwellers",
+        "Seniors",
+        "Those wanting a lap dog",
+        "Allergy sufferers",
+        "Families with gentle children"
+      ],
+      "not_for": [
+        "Those who dislike grooming",
+        "Very active owners",
+        "Hot climates",
+        "Rough play households"
+      ],
+      "summary": "The ultimate lap dog. Shih Tzus are affectionate and adaptable, perfect for apartments and seniors. High grooming needs but minimal shedding. Avoid heat and rough handling."
+    }
+  },
+  {
+    "id": "siberian-husky",
+    "name": "Siberian Husky",
+    "aliases": [
+      "Husky"
+    ],
+    "group": "working",
+    "origin": "Siberia, Russia",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "50-60",
+      "weight_kg": "16-27",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 5,
+      "grooming": 4,
+      "sociability": 5,
+      "trainability": 2,
+      "barking": 5,
+      "kid_friendly": 4,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Thick double coat",
+      "coat_colors": [
+        "black and white",
+        "gray and white",
+        "red and white",
+        "all white",
+        "agouti"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "outgoing",
+      "mischievous",
+      "loyal",
+      "friendly",
+      "gentle",
+      "alert"
+    ],
+    "description": {
+      "overview": "Siberian Huskies are beautiful, athletic dogs bred to run. They're friendly, outgoing, and mischievous. Known for their striking blue eyes and wolf-like appearance.",
+      "temperament": "Huskies are pack dogs who love company. They're friendly with everyone, making them poor guard dogs. They're independent and can be stubborn.",
+      "health": "Generally healthy but prone to eye problems and hip dysplasia. Need protection from heat.",
+      "exercise": "Very high exercise needs—bred to run for miles. At least 2 hours daily. Escape artists—need secure fencing."
+    },
+    "verdict": {
+      "best_for": [
+        "Active owners who run/bike",
+        "Cold climates",
+        "Those with secure fenced yards",
+        "Multi-dog households",
+        "Experienced owners"
+      ],
+      "not_for": [
+        "Hot climates",
+        "Apartment dwellers",
+        "First-time owners",
+        "Those wanting a guard dog",
+        "Off-leash enthusiasts"
+      ],
+      "summary": "Beautiful but challenging. Huskies need extensive exercise, secure fencing, and experienced handling. They're friendly and loving but independent. Best for active owners in cool climates."
+    }
+  },
+  {
+    "id": "st-bernard",
+    "name": "St. Bernard",
+    "aliases": [
+      "Saint Bernard"
+    ],
+    "group": "working",
+    "origin": "Switzerland",
+    "lifespan": "8-10 years",
+    "size": {
+      "height_cm": "65-90",
+      "weight_kg": "54-91",
+      "category": "giant"
+    },
+    "ratings": {
+      "size": 5,
+      "energy": 2,
+      "grooming": 3,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 2,
+      "kid_friendly": 5,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Rough (long) or Smooth (short)",
+      "coat_colors": [
+        "red and white",
+        "brindle and white"
+      ],
+      "shedding": "heavy",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "playful",
+      "charming",
+      "inquisitive",
+      "gentle",
+      "watchful",
+      "patient"
+    ],
+    "description": {
+      "overview": "St. Bernards are massive, gentle giants famous for Alpine rescues. They're patient, loving dogs that adore children despite their imposing size.",
+      "temperament": "Saints are patient, gentle, and wonderful with children. They're not aggressive but make good watchdogs due to size alone.",
+      "health": "Prone to hip/elbow dysplasia, bloat, heart problems, and bone cancer. Shorter lifespan due to size.",
+      "exercise": "Low to moderate exercise needs. Daily walks but avoid strenuous activity, especially while growing."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with children",
+        "Those wanting a gentle giant",
+        "Homes with space",
+        "Cold climates",
+        "Patient owners (drool/shedding)"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Hot climates",
+        "Neat freaks",
+        "Those wanting a long-lived breed",
+        "Budget-conscious"
+      ],
+      "summary": "Massive, gentle giants that adore children. St. Bernards are patient and loving but drool heavily and have shorter lifespans. Best for families with space who can handle the mess and costs."
+    }
+  },
+  {
+    "id": "vizsla",
+    "name": "Vizsla",
+    "aliases": [
+      "Hungarian Vizsla",
+      "Hungarian Pointer"
+    ],
+    "group": "sporting",
+    "origin": "Hungary",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "53-64",
+      "weight_kg": "20-30",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 5,
+      "grooming": 1,
+      "sociability": 5,
+      "trainability": 5,
+      "barking": 3,
+      "kid_friendly": 5,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Short, smooth coat",
+      "coat_colors": [
+        "golden rust"
+      ],
+      "shedding": "low",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "affectionate",
+      "energetic",
+      "loyal",
+      "gentle",
+      "sensitive",
+      "eager"
+    ],
+    "description": {
+      "overview": "Vizslas are athletic Hungarian hunting dogs known as 'Velcro dogs' for their attachment to their owners. They're versatile hunters and loving companions.",
+      "temperament": "Vizslas are extremely affectionate and attached to their families. They don't like being alone and thrive on companionship.",
+      "health": "Generally healthy but prone to epilepsy, hip dysplasia, and eye conditions.",
+      "exercise": "Very high exercise needs. Need vigorous daily activity. Excellent running and hiking partners."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families",
+        "Runners and hikers",
+        "Those wanting an affectionate dog",
+        "Hunters",
+        "People home often"
+      ],
+      "not_for": [
+        "Sedentary lifestyles",
+        "Those away from home often",
+        "Apartment dwellers",
+        "First-time owners unprepared for high energy"
+      ],
+      "summary": "Affectionate athletes that want to be with you always. Vizslas need lots of exercise and don't like being alone. Perfect for active owners who want a constant companion."
+    }
+  },
+  {
+    "id": "weimaraner",
+    "name": "Weimaraner",
+    "aliases": [
+      "Gray Ghost",
+      "Weim"
+    ],
+    "group": "sporting",
+    "origin": "Germany",
+    "lifespan": "10-13 years",
+    "size": {
+      "height_cm": "56-69",
+      "weight_kg": "25-40",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 5,
+      "grooming": 1,
+      "sociability": 4,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Short, sleek coat",
+      "coat_colors": [
+        "gray",
+        "silver-gray",
+        "mouse-gray"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "friendly",
+      "fearless",
+      "alert",
+      "obedient",
+      "energetic",
+      "intelligent"
+    ],
+    "description": {
+      "overview": "Weimaraners are elegant, athletic dogs with distinctive gray coats. Originally bred for hunting large game, they're now popular family companions for active owners.",
+      "temperament": "Weimaraners are friendly, fearless, and energetic. They bond closely with their families and can suffer separation anxiety.",
+      "health": "Prone to bloat, hip dysplasia, and gastric issues. Deep-chested breed—learn bloat symptoms.",
+      "exercise": "Very high exercise needs. Need vigorous daily activity. Excellent hiking and running partners."
+    },
+    "verdict": {
+      "best_for": [
+        "Very active families",
+        "Hunters",
+        "Runners and athletes",
+        "Those with large yards",
+        "Experienced owners"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Sedentary lifestyles",
+        "Those away from home often",
+        "First-time owners"
+      ],
+      "summary": "Beautiful, athletic dogs that need extensive exercise. Weimaraners are loyal companions for active owners but can develop separation anxiety. Not for couch potatoes or those who work long hours."
+    }
+  },
+  {
+    "id": "west-highland-white-terrier",
+    "name": "West Highland White Terrier",
+    "aliases": [
+      "Westie"
+    ],
+    "group": "terrier",
+    "origin": "Scotland",
+    "lifespan": "13-15 years",
+    "size": {
+      "height_cm": "23-28",
+      "weight_kg": "6-10",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 4,
+      "grooming": 3,
+      "sociability": 4,
+      "trainability": 3,
+      "barking": 4,
+      "kid_friendly": 4,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Hard, wiry double coat",
+      "coat_colors": [
+        "white only"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "happy",
+      "loyal",
+      "entertaining",
+      "courageous",
+      "independent",
+      "alert"
+    ],
+    "description": {
+      "overview": "Westies are cheerful, sturdy little terriers with distinctive white coats. They're confident, entertaining companions with big personalities.",
+      "temperament": "Westies are happy, confident, and entertaining. They have typical terrier independence and can be stubborn. Good watchdogs.",
+      "health": "Prone to skin allergies, Legg-Calve-Perthes disease, and jaw problems. Regular grooming helps with skin health.",
+      "exercise": "Moderate exercise needs. Daily walks and playtime. Enjoy activities but adaptable."
+    },
+    "verdict": {
+      "best_for": [
+        "Apartment dwellers",
+        "Allergy sufferers",
+        "Those wanting a cheerful companion",
+        "Active seniors",
+        "Families with older children"
+      ],
+      "not_for": [
+        "Those wanting a very obedient dog",
+        "Homes with small pets (prey drive)",
+        "Those who dislike barking"
+      ],
+      "summary": "Cheerful, sturdy terriers with big personalities. Westies are hypoallergenic and apartment-friendly. They're independent and can be stubborn but reward you with endless entertainment."
+    }
+  },
+  {
+    "id": "yorkshire-terrier",
+    "name": "Yorkshire Terrier",
+    "aliases": [
+      "Yorkie"
+    ],
+    "group": "toy",
+    "origin": "England",
+    "lifespan": "13-16 years",
+    "size": {
+      "height_cm": "18-23",
+      "weight_kg": "2-3",
+      "category": "tiny"
+    },
+    "ratings": {
+      "size": 1,
+      "energy": 3,
+      "grooming": 5,
+      "sociability": 3,
+      "trainability": 3,
+      "barking": 4,
+      "kid_friendly": 2,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Long, silky, human-like hair",
+      "coat_colors": [
+        "blue and tan",
+        "black and tan",
+        "black and gold"
+      ],
+      "shedding": "minimal",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "affectionate",
+      "spirited",
+      "tomboyish",
+      "feisty",
+      "brave",
+      "confident"
+    ],
+    "description": {
+      "overview": "Yorkies pack a lot of personality into a tiny package. They're feisty, bossy, and full of terrier spirit—don't let their small size fool you.",
+      "history": "Developed in Yorkshire, England during the 1800s by Scottish weavers who brought terriers south. Originally used to catch rats in textile mills.",
+      "temperament": "Yorkies are affectionate with their owners but can be suspicious of strangers. They have big personalities and don't know they're small. Can be barky.",
+      "health": "Prone to dental issues, hypoglycemia, luxating patella, and collapsed trachea. Regular dental care and careful handling important.",
+      "grooming": "High maintenance coat requiring daily brushing and regular professional grooming. Many owners opt for shorter 'puppy cuts.'",
+      "exercise": "Low to moderate exercise needs. Short walks and indoor play. Good for apartments but still need daily activity."
+    },
+    "verdict": {
+      "best_for": [
+        "Apartment dwellers",
+        "Singles and couples",
+        "Seniors",
+        "Those wanting a portable companion",
+        "Allergy sufferers"
+      ],
+      "not_for": [
+        "Families with small children",
+        "Those wanting a rugged outdoor dog",
+        "People who dislike grooming",
+        "Those wanting a quiet dog"
+      ],
+      "summary": "Yorkies are feisty, portable companions perfect for city living. They need regular grooming but don't shed much. Best for adults without young children who enjoy pampering a tiny but spirited companion."
+    }
+  }
+]
