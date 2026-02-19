@@ -228,8 +228,6 @@
                     threshold: 0.4,
                     includeScore: true
                 });
-                
-                applyFilters();
             } catch (error) {
                 console.error('Error loading breeds:', error);
             }
@@ -402,8 +400,45 @@
         document.getElementById('resetFilters').addEventListener('click', resetFilters);
         document.querySelectorAll('.size-filter, .shed-filter').forEach(cb => cb.addEventListener('change', applyFilters));
 
+        // Read URL parameters and apply filters
+        function applyUrlParams() {
+            const params = new URLSearchParams(window.location.search);
+            
+            // Size filter
+            const size = params.get('size');
+            if (size) {
+                const checkbox = document.querySelector(`.size-filter[value="${size}"]`);
+                if (checkbox) checkbox.checked = true;
+            }
+            
+            // Apartment friendly
+            if (params.get('apartment') === '1') {
+                document.getElementById('apartmentOk').checked = true;
+            }
+            
+            // Kid friendly
+            if (params.get('kids') === '1') {
+                document.getElementById('kidFriendly').checked = true;
+            }
+            
+            // Easy to train
+            if (params.get('train') === '1') {
+                document.getElementById('easyTrain').checked = true;
+            }
+            
+            // Low shedding
+            const shedding = params.get('shedding');
+            if (shedding) {
+                const checkbox = document.querySelector(`.shed-filter[value="${shedding}"]`);
+                if (checkbox) checkbox.checked = true;
+            }
+        }
+
         // Initialize
-        loadBreeds();
+        loadBreeds().then(() => {
+            applyUrlParams();
+            applyFilters();
+        });
     </script>
 </body>
 </html>
