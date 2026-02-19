@@ -1,0 +1,63 @@
+{
+  "id": "dandie-dinmont-terrier",
+  "name": "Dandie Dinmont Terrier",
+  "aliases": [
+    "Dandie"
+  ],
+  "group": "terrier",
+  "origin": "Scotland",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "20-28",
+    "weight_kg": "8-11",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 3,
+    "grooming": 3,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Crisp outer coat with soft undercoat",
+    "coat_colors": [
+      "pepper (bluish-black to silver)",
+      "mustard (reddish-brown to fawn)"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "independent",
+    "determined",
+    "dignified",
+    "affectionate",
+    "fun",
+    "intelligent"
+  ],
+  "description": {
+    "overview": "The Dandie Dinmont is a rare Scottish terrier, the only breed named after a fictional character (from a Sir Walter Scott novel).",
+    "temperament": "Dandies are independent but affectionate. They're dignified and less hyperactive than many terriers.",
+    "health": "Prone to intervertebral disc disease (due to long back) and glaucoma.",
+    "exercise": "Moderate exercise needs. Daily walks and play sessions."
+  },
+  "verdict": {
+    "best_for": [
+      "Apartment dwellers",
+      "Those wanting a unique terrier",
+      "Calm households",
+      "Allergy sufferers"
+    ],
+    "not_for": [
+      "Those wanting a highly active dog",
+      "Rough-play households (back issues)",
+      "Those wanting a common breed",
+      "Off-leash environments"
+    ],
+    "summary": "Unique, dignified terriers with a literary heritage. Dandies are calmer than most terriers and adapt well to apartment life."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "beauceron",
+  "name": "Beauceron",
+  "aliases": [
+    "Berger de Beauce",
+    "French Shorthaired Shepherd",
+    "Bas Rouge"
+  ],
+  "group": "herding",
+  "origin": "France",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "61-70",
+    "weight_kg": "30-45",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, dense double coat",
+    "coat_colors": [
+      "black and tan",
+      "harlequin"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "intelligent",
+    "loyal",
+    "protective",
+    "versatile",
+    "confident",
+    "gentle"
+  ],
+  "description": {
+    "overview": "The Beauceron is France's largest sheepdog, known for double dewclaws and versatile working ability.",
+    "temperament": "Beaucerons are intelligent, loyal, and protective. They're versatile workers and devoted family dogs.",
+    "health": "Prone to hip dysplasia and bloat.",
+    "exercise": "High energy. Need vigorous daily exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Active families",
+      "Those interested in working dogs",
+      "Rural or suburban homes with yards"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Apartment dwellers",
+      "Sedentary households",
+      "Those wanting a low-energy dog"
+    ],
+    "summary": "France's versatile, powerful sheepdogs. Beaucerons are intelligent and loyal but need experienced owners and plenty of activity."
+  }
+}

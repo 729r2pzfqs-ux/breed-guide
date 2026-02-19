@@ -1,0 +1,66 @@
+{
+  "id": "skye-terrier",
+  "name": "Skye Terrier",
+  "aliases": [
+    "Skye"
+  ],
+  "group": "terrier",
+  "origin": "Scotland",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "24-27",
+    "weight_kg": "16-20",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 3,
+    "grooming": 5,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 3,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Long, straight, flat",
+    "coat_colors": [
+      "black",
+      "blue",
+      "gray",
+      "cream",
+      "fawn"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "loyal",
+    "good-tempered",
+    "canny",
+    "dignified",
+    "fearless",
+    "reserved"
+  ],
+  "description": {
+    "overview": "The Skye Terrier is a rare Scottish breed known for its long, flowing coat and devotion to one person.",
+    "temperament": "Skyes are loyal and devoted to their person but reserved with strangers. They're dignified and fearless.",
+    "health": "Prone to orthopedic problems (don't let puppies jump) and certain cancers.",
+    "exercise": "Moderate exercise needs. Daily walks but not highly active."
+  },
+  "verdict": {
+    "best_for": [
+      "Singles or couples",
+      "Those wanting a loyal one-person dog",
+      "Owners committed to grooming",
+      "Quiet households"
+    ],
+    "not_for": [
+      "Families with young children",
+      "Multi-dog households",
+      "Those wanting a social dog",
+      "Active households"
+    ],
+    "summary": "Rare, dignified terriers devoted to one person. Skye Terriers are loyal but reserved - perfect for quiet homes with dedicated owners."
+  }
+}

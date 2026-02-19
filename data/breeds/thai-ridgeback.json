@@ -1,0 +1,66 @@
+{
+  "id": "thai-ridgeback",
+  "name": "Thai Ridgeback",
+  "aliases": [
+    "TRD",
+    "Mah Thai Lang Ahn"
+  ],
+  "group": "hound",
+  "origin": "Thailand",
+  "lifespan": "12-13 years",
+  "size": {
+    "height_cm": "51-61",
+    "weight_kg": "16-34",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 3,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, smooth with distinctive ridge",
+    "coat_colors": [
+      "solid red",
+      "black",
+      "blue",
+      "fawn"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "loyal",
+    "independent",
+    "intelligent",
+    "protective",
+    "athletic",
+    "aloof"
+  ],
+  "description": {
+    "overview": "The Thai Ridgeback is an ancient pariah dog with a distinctive hair ridge running along its back.",
+    "temperament": "TRDs are loyal and protective but independent and reserved. They bond closely with one person or family.",
+    "health": "Generally healthy. May be prone to dermoid sinus.",
+    "exercise": "High energy. Need daily vigorous exercise and secure areas."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced dog owners",
+      "Those wanting a unique breed",
+      "Active individuals",
+      "Warm climates"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Multi-pet households",
+      "Cold climates",
+      "Those wanting an outgoing dog"
+    ],
+    "summary": "Ancient Thai dogs with distinctive ridges and independent spirits. Thai Ridgebacks are loyal but need experienced, patient owners."
+  }
+}

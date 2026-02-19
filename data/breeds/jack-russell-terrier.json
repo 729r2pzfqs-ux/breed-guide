@@ -1,0 +1,65 @@
+{
+  "id": "jack-russell-terrier",
+  "name": "Jack Russell Terrier",
+  "aliases": [
+    "JRT",
+    "Jack Russell"
+  ],
+  "group": "terrier",
+  "origin": "England",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "25-30",
+    "weight_kg": "6-8",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 5,
+    "grooming": 1,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 3,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Smooth, rough, or broken",
+    "coat_colors": [
+      "white with black",
+      "tan",
+      "or both"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "energetic",
+    "clever",
+    "athletic",
+    "fearless",
+    "vocal",
+    "stubborn"
+  ],
+  "description": {
+    "overview": "The Jack Russell Terrier is a small but mighty hunting terrier with boundless energy and fearless spirit.",
+    "temperament": "JRTs are incredibly energetic, clever, and fearless. They're athletic and need lots of mental and physical stimulation.",
+    "health": "Generally healthy. May be prone to patellar luxation and eye problems.",
+    "exercise": "Extremely high energy. Need extensive daily exercise and mental challenges."
+  },
+  "verdict": {
+    "best_for": [
+      "Very active owners",
+      "Those wanting a spirited companion",
+      "Experienced terrier owners",
+      "Homes without small pets"
+    ],
+    "not_for": [
+      "Sedentary households",
+      "First-time owners",
+      "Homes with small pets",
+      "Those wanting a calm lap dog"
+    ],
+    "summary": "Small dogs with huge personalities and endless energy. JRTs are clever and athletic but need experienced owners and extensive exercise."
+  }
+}

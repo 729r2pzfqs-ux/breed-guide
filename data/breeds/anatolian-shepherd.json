@@ -1,0 +1,67 @@
+{
+  "id": "anatolian-shepherd",
+  "name": "Anatolian Shepherd",
+  "aliases": [
+    "Kangal Dog",
+    "Karabash",
+    "Anatolian Karabash"
+  ],
+  "group": "working",
+  "origin": "Turkey",
+  "lifespan": "11-13 years",
+  "size": {
+    "height_cm": "71-81",
+    "weight_kg": "41-68",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 3,
+    "grooming": 2,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 3,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Short to medium, dense",
+    "coat_colors": [
+      "fawn with black mask",
+      "brindle",
+      "white",
+      "pinto"
+    ],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "independent",
+    "protective",
+    "loyal",
+    "intelligent",
+    "patient",
+    "territorial"
+  ],
+  "description": {
+    "overview": "The Anatolian Shepherd is an ancient Turkish breed used to protect livestock from predators like wolves and bears.",
+    "temperament": "Anatolians are independent, protective guardians. Loyal to family but territorial with strangers.",
+    "health": "Generally healthy. May be prone to hip dysplasia and entropion.",
+    "exercise": "Moderate exercise needs. Need space to patrol and protect."
+  },
+  "verdict": {
+    "best_for": [
+      "Rural properties",
+      "Livestock owners",
+      "Experienced large breed owners",
+      "Those wanting a working guardian"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "First-time owners",
+      "Urban environments",
+      "Those wanting a social dog"
+    ],
+    "summary": "Powerful Turkish guardians bred to protect livestock. Anatolians are independent and territorial - best for rural properties with experienced owners."
+  }
+}

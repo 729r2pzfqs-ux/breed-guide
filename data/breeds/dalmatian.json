@@ -1,0 +1,65 @@
+{
+  "id": "dalmatian",
+  "name": "Dalmatian",
+  "aliases": [
+    "Dal",
+    "Spotted Coach Dog",
+    "Firehouse Dog"
+  ],
+  "group": "non-sporting",
+  "origin": "Croatia",
+  "lifespan": "11-13 years",
+  "size": {
+    "height_cm": "48-61",
+    "weight_kg": "20-32",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, dense, fine",
+    "coat_colors": [
+      "white with black spots",
+      "white with liver spots"
+    ],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "outgoing",
+    "playful",
+    "dignified",
+    "intelligent",
+    "energetic",
+    "sensitive"
+  ],
+  "description": {
+    "overview": "The Dalmatian is known worldwide for its unique spotted coat and association with firehouses.",
+    "temperament": "Dalmatians are energetic, playful, and sensitive. They bond closely with family and need plenty of activity.",
+    "health": "Prone to deafness (8% deaf in both ears), urinary stones, and skin allergies.",
+    "exercise": "Very high energy. Need extensive daily exercise - running, hiking, or vigorous play."
+  },
+  "verdict": {
+    "best_for": [
+      "Very active families",
+      "Runners and hikers",
+      "Homes with yards",
+      "Those with time for extensive exercise"
+    ],
+    "not_for": [
+      "Sedentary households",
+      "Apartment dwellers",
+      "Those away from home often",
+      "First-time owners"
+    ],
+    "summary": "Energetic, athletic dogs with iconic spotted coats. Dalmatians need very active owners who can provide extensive daily exercise."
+  }
+}

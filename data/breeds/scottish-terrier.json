@@ -1,0 +1,65 @@
+{
+  "id": "scottish-terrier",
+  "name": "Scottish Terrier",
+  "aliases": [
+    "Scottie",
+    "Aberdeen Terrier"
+  ],
+  "group": "terrier",
+  "origin": "Scotland",
+  "lifespan": "12 years",
+  "size": {
+    "height_cm": "25-28",
+    "weight_kg": "8-10",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 3,
+    "grooming": 3,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 3,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Hard, wiry outer coat with soft undercoat",
+    "coat_colors": [
+      "black",
+      "wheaten",
+      "brindle"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "confident",
+    "independent",
+    "spirited",
+    "dignified",
+    "loyal",
+    "feisty"
+  ],
+  "description": {
+    "overview": "The Scottish Terrier is a small but confident terrier with a distinctive silhouette and independent spirit.",
+    "temperament": "Scotties are independent, dignified, and sometimes stubborn. Loyal to family but reserved with strangers.",
+    "health": "Prone to von Willebrand's disease, craniomandibular osteopathy, and certain cancers.",
+    "exercise": "Moderate exercise needs. Daily walks and play sessions. Love to dig."
+  },
+  "verdict": {
+    "best_for": [
+      "Apartment dwellers",
+      "Those wanting a dignified companion",
+      "Owners who respect independence",
+      "Singles or couples"
+    ],
+    "not_for": [
+      "Families with young children",
+      "Those wanting an eager-to-please dog",
+      "Multi-dog households",
+      "First-time owners"
+    ],
+    "summary": "Dignified, independent terriers with distinctive looks. Scotties are loyal but stubborn. Perfect for apartments and owners who appreciate their spirit."
+  }
+}

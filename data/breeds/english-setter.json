@@ -1,0 +1,66 @@
+{
+  "id": "english-setter",
+  "name": "English Setter",
+  "aliases": [
+    "Laverack Setter",
+    "Llewellin Setter"
+  ],
+  "group": "sporting",
+  "origin": "England",
+  "lifespan": "12 years",
+  "size": {
+    "height_cm": "61-69",
+    "weight_kg": "20-36",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 5,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Long, flat, silky with feathering",
+    "coat_colors": [
+      "white with blue",
+      "lemon",
+      "orange",
+      "liver belton"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "gentle",
+    "friendly",
+    "merry",
+    "affectionate",
+    "willing to please",
+    "calm"
+  ],
+  "description": {
+    "overview": "The English Setter is an elegant bird dog known for its gentle temperament and beautiful speckled coat.",
+    "temperament": "English Setters are gentle, friendly, and wonderful with children. They're people-oriented and aim to please.",
+    "health": "Prone to hip dysplasia, deafness, and thyroid issues.",
+    "exercise": "High energy dogs needing regular exercise. Love running and outdoor activities."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with children",
+      "Active households",
+      "Those wanting a gentle companion",
+      "Hunters and outdoor enthusiasts"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Sedentary households",
+      "Those wanting a guard dog",
+      "Owners gone for long periods"
+    ],
+    "summary": "Gentle, elegant bird dogs with beautiful coats. English Setters are wonderful family companions who need regular exercise and human companionship."
+  }
+}

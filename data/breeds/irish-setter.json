@@ -1,0 +1,64 @@
+{
+  "id": "irish-setter",
+  "name": "Irish Setter",
+  "aliases": [
+    "Red Setter",
+    "Irish Red Setter"
+  ],
+  "group": "sporting",
+  "origin": "Ireland",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "64-69",
+    "weight_kg": "27-32",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 4,
+    "sociability": 5,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Long, silky, feathered",
+    "coat_colors": [
+      "mahogany red",
+      "chestnut red"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "outgoing",
+    "sweet-natured",
+    "active",
+    "playful",
+    "loving",
+    "friendly"
+  ],
+  "description": {
+    "overview": "The Irish Setter is a beautiful, athletic sporting dog with a stunning mahogany coat and outgoing personality.",
+    "temperament": "Irish Setters are famously friendly and outgoing. They love everyone and are great with children.",
+    "health": "Prone to hip dysplasia, epilepsy, and bloat. Regular vet care important.",
+    "exercise": "Very high energy. Need extensive daily exercise - at least 2 hours of activity."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Homes with children",
+      "Those wanting a social, friendly dog",
+      "Runners and outdoor enthusiasts"
+    ],
+    "not_for": [
+      "Sedentary households",
+      "Those wanting a guard dog",
+      "Apartment dwellers",
+      "Those away from home often"
+    ],
+    "summary": "Gorgeous, outgoing athletes with hearts of gold. Irish Setters are fantastic family dogs but need extensive exercise and companionship."
+  }
+}

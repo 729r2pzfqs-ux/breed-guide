@@ -1,0 +1,64 @@
+{
+  "id": "italian-greyhound",
+  "name": "Italian Greyhound",
+  "aliases": [
+    "Iggy",
+    "IG",
+    "Piccolo Levriero Italiano"
+  ],
+  "group": "toy",
+  "origin": "Italy",
+  "lifespan": "14-15 years",
+  "size": {
+    "height_cm": "33-38",
+    "weight_kg": "3-5",
+    "category": "tiny"
+  },
+  "ratings": {
+    "size": 1,
+    "energy": 3,
+    "grooming": 1,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 2,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Short, glossy, soft",
+    "coat_colors": [
+      "any color except brindle or tan markings"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "affectionate",
+    "playful",
+    "alert",
+    "sensitive",
+    "athletic",
+    "mischievous"
+  ],
+  "description": {
+    "overview": "The Italian Greyhound is a miniature sighthound that combines elegance with a playful, affectionate personality.",
+    "temperament": "IGs are affectionate and playful but sensitive. They bond closely with owners and can be mischievous.",
+    "health": "Prone to dental issues, leg fractures, and eye problems. Fragile bones.",
+    "exercise": "Moderate exercise needs. Short bursts of speed but also love lounging."
+  },
+  "verdict": {
+    "best_for": [
+      "Apartment dwellers",
+      "Those wanting an elegant companion",
+      "Singles or couples",
+      "Owners who can provide warmth (coats/blankets)"
+    ],
+    "not_for": [
+      "Families with young children",
+      "Cold climates without protection",
+      "Rough households",
+      "Those wanting a sturdy dog"
+    ],
+    "summary": "Elegant miniature sighthounds with big personalities. IGs are affectionate but fragile. Perfect for gentle owners in apartments."
+  }
+}

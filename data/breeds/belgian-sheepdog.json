@@ -1,0 +1,63 @@
+{
+  "id": "belgian-sheepdog",
+  "name": "Belgian Sheepdog",
+  "aliases": [
+    "Groenendael",
+    "Belgian Groenendael"
+  ],
+  "group": "herding",
+  "origin": "Belgium",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "56-66",
+    "weight_kg": "20-30",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 4,
+    "sociability": 3,
+    "trainability": 5,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Long, straight, abundant",
+    "coat_colors": [
+      "solid black"
+    ],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "intelligent",
+    "devoted",
+    "alert",
+    "versatile",
+    "hardworking",
+    "protective"
+  ],
+  "description": {
+    "overview": "The Belgian Sheepdog (Groenendael) is an elegant, all-black herding dog known for its intelligence and versatility.",
+    "temperament": "Belgian Sheepdogs are devoted, intelligent, and versatile. They bond closely with family and excel at various tasks.",
+    "health": "Prone to hip dysplasia, epilepsy, and eye problems.",
+    "exercise": "Very high energy. Need extensive daily exercise and mental challenges."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Active families",
+      "Those interested in dog sports",
+      "People wanting a devoted companion"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Sedentary households",
+      "Apartment dwellers",
+      "Those without time for training"
+    ],
+    "summary": "Striking black herding dogs with exceptional intelligence. Belgian Sheepdogs are devoted and versatile but need experienced, active owners."
+  }
+}

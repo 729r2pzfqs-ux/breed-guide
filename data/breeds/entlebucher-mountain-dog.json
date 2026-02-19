@@ -1,0 +1,64 @@
+{
+  "id": "entlebucher-mountain-dog",
+  "name": "Entlebucher Mountain Dog",
+  "aliases": [
+    "Entlebucher",
+    "Entlebucher Sennenhund",
+    "Entle"
+  ],
+  "group": "herding",
+  "origin": "Switzerland",
+  "lifespan": "11-13 years",
+  "size": {
+    "height_cm": "42-52",
+    "weight_kg": "20-30",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Short, dense, harsh",
+    "coat_colors": [
+      "tricolor - black with tan and white markings"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "loyal",
+    "smart",
+    "enthusiastic",
+    "independent",
+    "self-assured",
+    "agile"
+  ],
+  "description": {
+    "overview": "The Entlebucher is the smallest of the four Swiss Mountain Dogs, bred for herding cattle in the Alps.",
+    "temperament": "Entles are loyal, smart, and enthusiastic. They're devoted to family and excel at various dog sports.",
+    "health": "Prone to hip dysplasia and eye problems (PRA).",
+    "exercise": "High energy. Need vigorous daily exercise and mental challenges."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Those interested in dog sports",
+      "Experienced herding breed owners",
+      "Homes with yards"
+    ],
+    "not_for": [
+      "Sedentary households",
+      "Apartment dwellers without exercise plan",
+      "First-time owners",
+      "Those wanting a low-energy dog"
+    ],
+    "summary": "The smallest Swiss Mountain Dog with big energy and loyalty. Entles are smart, athletic, and devoted - perfect for active families."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "whippet",
+  "name": "Whippet",
+  "aliases": [
+    "English Whippet",
+    "Snap Dog"
+  ],
+  "group": "hound",
+  "origin": "England",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "44-51",
+    "weight_kg": "11-21",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 3,
+    "grooming": 1,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 1,
+    "kid_friendly": 4,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Short, smooth, fine",
+    "coat_colors": [
+      "any color"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "affectionate",
+    "playful",
+    "calm",
+    "gentle",
+    "athletic",
+    "quiet"
+  ],
+  "description": {
+    "overview": "The Whippet is a medium-sized sighthound that combines elegance with athleticism and a sweet temperament.",
+    "temperament": "Whippets are gentle, affectionate couch potatoes indoors but lightning-fast athletes outside.",
+    "health": "Generally healthy. May be prone to eye problems and heart conditions.",
+    "exercise": "Need daily exercise but are calm indoors. Love to run in secure areas."
+  },
+  "verdict": {
+    "best_for": [
+      "Apartment dwellers",
+      "Those wanting a quiet dog",
+      "Families with older children",
+      "Owners who can provide running time"
+    ],
+    "not_for": [
+      "Homes with small pets",
+      "Cold climates without coat",
+      "Those wanting off-leash reliability",
+      "Very young children"
+    ],
+    "summary": "Elegant, gentle sighthounds perfect for apartments. Whippets are calm indoors but need secure areas to run. Quiet and affectionate."
+  }
+}

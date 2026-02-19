@@ -1,0 +1,65 @@
+{
+  "id": "norfolk-terrier",
+  "name": "Norfolk Terrier",
+  "aliases": [
+    "Norfolk"
+  ],
+  "group": "terrier",
+  "origin": "England",
+  "lifespan": "12-16 years",
+  "size": {
+    "height_cm": "23-25",
+    "weight_kg": "5-6",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 1,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 5,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Hard, wiry, straight",
+    "coat_colors": [
+      "red",
+      "wheaten",
+      "black and tan",
+      "grizzle"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "alert",
+    "fearless",
+    "fun-loving",
+    "loyal",
+    "confident",
+    "affectionate"
+  ],
+  "description": {
+    "overview": "The Norfolk Terrier is one of the smallest working terriers, with folded ears distinguishing it from the Norwich.",
+    "temperament": "Norfolks are friendly, confident, and love everyone. Less scrappy than many terriers.",
+    "health": "Generally healthy. May be prone to hip dysplasia and heart problems.",
+    "exercise": "Moderate energy. Daily walks and play sessions."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with children",
+      "Apartment dwellers",
+      "First-time terrier owners",
+      "Active seniors"
+    ],
+    "not_for": [
+      "Homes with small pets",
+      "Those wanting an independent dog",
+      "Those unwilling to groom",
+      "Sedentary households"
+    ],
+    "summary": "Friendly, portable terriers perfect for families. Norfolk Terriers are less scrappy than many terriers and great with kids."
+  }
+}

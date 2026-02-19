@@ -1,0 +1,67 @@
+{
+  "id": "cane-corso",
+  "name": "Cane Corso",
+  "aliases": [
+    "Italian Mastiff",
+    "Cane Corso Italiano"
+  ],
+  "group": "working",
+  "origin": "Italy",
+  "lifespan": "9-12 years",
+  "size": {
+    "height_cm": "60-70",
+    "weight_kg": "40-50",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 3,
+    "grooming": 2,
+    "sociability": 2,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 3,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Short, stiff, dense",
+    "coat_colors": [
+      "black",
+      "gray",
+      "fawn",
+      "red",
+      "brindle"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "intelligent",
+    "loyal",
+    "protective",
+    "noble",
+    "confident",
+    "trainable"
+  ],
+  "description": {
+    "overview": "The Cane Corso is a large Italian mastiff breed known for its protective instincts and impressive physique.",
+    "temperament": "Corsos are intelligent and trainable but need experienced handling. Loyal and protective of family.",
+    "health": "Prone to hip dysplasia, bloat, and eye problems. Regular health screening important.",
+    "exercise": "Moderate exercise needs but requires mental stimulation. Daily walks and play sessions."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced dog owners",
+      "Those wanting a protective companion",
+      "Rural homes with space",
+      "Active individuals"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Apartment dwellers",
+      "Families with very young children",
+      "Those unable to provide training"
+    ],
+    "summary": "A noble Italian guardian breed. Cane Corsos are intelligent and loyal but need experienced owners who can provide firm, consistent training."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "keeshond",
+  "name": "Keeshond",
+  "aliases": [
+    "Dutch Barge Dog",
+    "Smiling Dutchman",
+    "Wolfspitz"
+  ],
+  "group": "non-sporting",
+  "origin": "Netherlands",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "43-46",
+    "weight_kg": "16-20",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 3,
+    "grooming": 4,
+    "sociability": 5,
+    "trainability": 4,
+    "barking": 4,
+    "kid_friendly": 5,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Long, straight, harsh outer coat with thick undercoat",
+    "coat_colors": [
+      "mixture of gray, black, and cream"
+    ],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "friendly",
+    "lively",
+    "outgoing",
+    "intelligent",
+    "alert",
+    "affectionate"
+  ],
+  "description": {
+    "overview": "The Keeshond is known as the 'smiling Dutchman' for its distinctive facial markings and friendly expression.",
+    "temperament": "Keeshonden are outgoing, friendly, and excellent with everyone. They're nicknamed 'velcro dogs' for their devotion.",
+    "health": "Prone to hip dysplasia, heart problems, and thyroid issues.",
+    "exercise": "Moderate exercise needs. Daily walks and play sessions."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with children",
+      "Those wanting a friendly companion",
+      "Apartment dwellers (with exercise)",
+      "First-time owners"
+    ],
+    "not_for": [
+      "Those wanting a guard dog",
+      "Owners disliking barking",
+      "Those unwilling to groom",
+      "Hot climates"
+    ],
+    "summary": "The smiling, friendly spitz that loves everyone. Keeshonden are excellent family dogs but need regular grooming and can be vocal."
+  }
+}

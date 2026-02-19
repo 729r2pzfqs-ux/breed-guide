@@ -1,0 +1,66 @@
+{
+  "id": "american-staffordshire-terrier",
+  "name": "American Staffordshire Terrier",
+  "aliases": [
+    "AmStaff",
+    "Staffie"
+  ],
+  "group": "terrier",
+  "origin": "United States",
+  "lifespan": "12-16 years",
+  "size": {
+    "height_cm": "43-48",
+    "weight_kg": "25-32",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Short, stiff, glossy",
+    "coat_colors": [
+      "any color",
+      "solid",
+      "parti",
+      "patched"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "confident",
+    "smart",
+    "good-natured",
+    "loyal",
+    "courageous",
+    "affectionate"
+  ],
+  "description": {
+    "overview": "The American Staffordshire Terrier is a muscular, stocky dog with a confident disposition. Despite their tough appearance, they're affectionate family companions.",
+    "temperament": "AmStaffs are loyal, trustworthy, and good with children when properly trained. They're intelligent and eager to please.",
+    "health": "Prone to hip dysplasia, heart disease, and skin allergies. Regular vet checkups recommended.",
+    "exercise": "High energy dogs needing vigorous daily exercise. Love interactive play and mental challenges."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Experienced dog owners",
+      "Those wanting a loyal companion",
+      "Homes with yards"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Areas with breed restrictions",
+      "Those away from home often",
+      "Multi-pet households without proper introduction"
+    ],
+    "summary": "Loyal, affectionate family dogs with a muscular build. AmStaffs need experienced owners, proper training, and plenty of exercise."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "cairn-terrier",
+  "name": "Cairn Terrier",
+  "aliases": [
+    "Cairn"
+  ],
+  "group": "terrier",
+  "origin": "Scotland",
+  "lifespan": "13-15 years",
+  "size": {
+    "height_cm": "23-33",
+    "weight_kg": "6-8",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Harsh, weather-resistant double coat",
+    "coat_colors": [
+      "cream",
+      "wheaten",
+      "red",
+      "gray",
+      "nearly black"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "alert",
+    "cheerful",
+    "busy",
+    "independent",
+    "hardy",
+    "fearless"
+  ],
+  "description": {
+    "overview": "The Cairn Terrier is one of Scotland's oldest terriers, made famous by Toto in The Wizard of Oz.",
+    "temperament": "Cairns are cheerful, busy little dogs with typical terrier spirit. They're friendly but independent.",
+    "health": "Prone to liver shunt, eye problems, and hip dysplasia.",
+    "exercise": "Moderate to high energy. Need daily walks and play."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Apartment dwellers",
+      "Those wanting a spirited companion",
+      "Active seniors"
+    ],
+    "not_for": [
+      "Those wanting a calm lap dog",
+      "Homes with small pets",
+      "Those bothered by digging",
+      "First-time owners wanting easy training"
+    ],
+    "summary": "Cheerful Scottish terriers with big personalities. Cairns are friendly and adaptable but have typical terrier independence."
+  }
+}

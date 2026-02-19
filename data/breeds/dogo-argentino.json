@@ -1,0 +1,63 @@
+{
+  "id": "dogo-argentino",
+  "name": "Dogo Argentino",
+  "aliases": [
+    "Argentine Dogo",
+    "Argentine Mastiff"
+  ],
+  "group": "working",
+  "origin": "Argentina",
+  "lifespan": "9-15 years",
+  "size": {
+    "height_cm": "60-68",
+    "weight_kg": "35-45",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 2,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 3,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Short, smooth",
+    "coat_colors": [
+      "white (small dark patch near eye allowed)"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "loyal",
+    "courageous",
+    "protective",
+    "friendly",
+    "cheerful",
+    "athletic"
+  ],
+  "description": {
+    "overview": "The Dogo Argentino was bred in Argentina for big-game hunting, including wild boar and puma.",
+    "temperament": "Dogos are loyal, courageous, and protective. They're friendly with family but need early socialization.",
+    "health": "Prone to deafness (especially pigment-related) and hip dysplasia.",
+    "exercise": "High energy. Need vigorous daily exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced large breed owners",
+      "Active households",
+      "Those wanting a loyal protector",
+      "Homes with secure yards"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Apartment dwellers",
+      "Multi-dog households",
+      "Areas with breed restrictions"
+    ],
+    "summary": "Powerful Argentine hunting dogs with loyal hearts. Dogos are athletic and protective but need experienced owners and proper socialization."
+  }
+}

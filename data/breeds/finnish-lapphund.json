@@ -1,0 +1,63 @@
+{
+  "id": "finnish-lapphund",
+  "name": "Finnish Lapphund",
+  "aliases": [
+    "Lapinkoira",
+    "Lappie"
+  ],
+  "group": "herding",
+  "origin": "Finland",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "41-52",
+    "weight_kg": "15-24",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 4,
+    "kid_friendly": 5,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Long, straight, dense double coat",
+    "coat_colors": [
+      "all colors allowed"
+    ],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "friendly",
+    "calm",
+    "faithful",
+    "courageous",
+    "keen",
+    "gentle"
+  ],
+  "description": {
+    "overview": "The Finnish Lapphund was bred by the Sami people to herd reindeer in the harsh Arctic climate.",
+    "temperament": "Lappies are friendly, calm, and excellent with children. They're eager to please and adaptable.",
+    "health": "Generally healthy. May be prone to hip dysplasia and eye problems.",
+    "exercise": "Moderate to high exercise needs. Love outdoor activities, especially in cold weather."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with children",
+      "Active households",
+      "Cold climates",
+      "Those wanting a friendly, trainable dog"
+    ],
+    "not_for": [
+      "Hot climates",
+      "Those unwilling to groom",
+      "Owners bothered by barking",
+      "Sedentary households"
+    ],
+    "summary": "Friendly Arctic herders perfect for families. Finnish Lapphunds are gentle, trainable, and great with kids. Need grooming and tolerate cold well."
+  }
+}

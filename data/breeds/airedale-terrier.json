@@ -1,0 +1,64 @@
+{
+  "id": "airedale-terrier",
+  "name": "Airedale Terrier",
+  "aliases": [
+    "King of Terriers",
+    "Bingley Terrier",
+    "Waterside Terrier"
+  ],
+  "group": "terrier",
+  "origin": "England",
+  "lifespan": "11-14 years",
+  "size": {
+    "height_cm": "56-61",
+    "weight_kg": "20-30",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Dense, wiry",
+    "coat_colors": [
+      "tan with black saddle"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "confident",
+    "courageous",
+    "friendly",
+    "intelligent",
+    "outgoing",
+    "versatile"
+  ],
+  "description": {
+    "overview": "The Airedale is the largest terrier breed, earning the nickname 'King of Terriers' for its size and versatility.",
+    "temperament": "Airedales are confident, intelligent, and versatile. They're good with children and make excellent family dogs.",
+    "health": "Prone to hip dysplasia and skin allergies.",
+    "exercise": "High energy. Need daily vigorous exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Those wanting a versatile dog",
+      "Homes with yards",
+      "Experienced dog owners"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Sedentary households",
+      "Multi-dog homes (may be dog-aggressive)",
+      "First-time owners"
+    ],
+    "summary": "The King of Terriers - versatile, intelligent, and confident. Airedales are great family dogs but need exercise and experienced handling."
+  }
+}

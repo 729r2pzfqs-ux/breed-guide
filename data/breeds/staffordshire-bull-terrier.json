@@ -1,0 +1,69 @@
+{
+  "id": "staffordshire-bull-terrier",
+  "name": "Staffordshire Bull Terrier",
+  "aliases": [
+    "Staffie",
+    "Staffy",
+    "SBT"
+  ],
+  "group": "terrier",
+  "origin": "England",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "36-41",
+    "weight_kg": "11-17",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 5,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Smooth, short, close",
+    "coat_colors": [
+      "red",
+      "fawn",
+      "white",
+      "black",
+      "blue",
+      "brindle"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "clever",
+    "brave",
+    "tenacious",
+    "affectionate",
+    "loyal",
+    "playful"
+  ],
+  "description": {
+    "overview": "Known as the 'nanny dog' in England, the Staffordshire Bull Terrier is beloved for its affection toward children and family.",
+    "temperament": "Staffies are incredibly people-oriented, especially with children. They're brave but not aggressive toward people.",
+    "health": "Generally healthy but prone to hip dysplasia and certain eye conditions.",
+    "exercise": "Energetic dogs needing regular exercise. Love interactive play and short training sessions."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with children",
+      "Active households",
+      "Those wanting an affectionate companion",
+      "Apartment dwellers with exercise commitment"
+    ],
+    "not_for": [
+      "Those wanting a guard dog",
+      "Homes with small pets",
+      "Sedentary lifestyles",
+      "Areas with breed restrictions"
+    ],
+    "summary": "The ultimate 'nanny dog' - incredibly affectionate with children and family. Staffies are brave, loyal, and love being part of family activities."
+  }
+}

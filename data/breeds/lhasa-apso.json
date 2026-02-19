@@ -1,0 +1,63 @@
+{
+  "id": "lhasa-apso",
+  "name": "Lhasa Apso",
+  "aliases": [
+    "Lhasa",
+    "Bark Lion Sentinel Dog"
+  ],
+  "group": "non-sporting",
+  "origin": "Tibet",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "25-28",
+    "weight_kg": "5-8",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 3,
+    "grooming": 5,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 2,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Long, heavy, straight",
+    "coat_colors": [
+      "all colors"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "confident",
+    "smart",
+    "comical",
+    "aloof",
+    "loyal",
+    "stubborn"
+  ],
+  "description": {
+    "overview": "The Lhasa Apso served as sentinels in Tibetan monasteries and palaces for over a thousand years.",
+    "temperament": "Lhasas are confident, sometimes stubborn, and loyal to family. Reserved with strangers.",
+    "health": "Prone to eye problems, kidney issues, and hip dysplasia.",
+    "exercise": "Moderate exercise needs. Daily walks and play sessions."
+  },
+  "verdict": {
+    "best_for": [
+      "Apartment dwellers",
+      "Those wanting a loyal watchdog",
+      "Owners committed to grooming",
+      "Adults and older children"
+    ],
+    "not_for": [
+      "Families with young children",
+      "Those wanting an eager-to-please dog",
+      "Owners unwilling to groom",
+      "First-time owners"
+    ],
+    "summary": "Confident Tibetan sentinels in a small package. Lhasas are loyal and make good watchdogs but need extensive grooming and patient training."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "soft-coated-wheaten-terrier",
+  "name": "Soft Coated Wheaten Terrier",
+  "aliases": [
+    "Wheaten",
+    "Irish Soft-Coated Wheaten Terrier"
+  ],
+  "group": "terrier",
+  "origin": "Ireland",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "43-48",
+    "weight_kg": "14-20",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 5,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Soft, silky, wavy",
+    "coat_colors": [
+      "wheaten (pale beige to shimmering gold)"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "happy",
+    "friendly",
+    "deeply devoted",
+    "spirited",
+    "playful",
+    "affectionate"
+  ],
+  "description": {
+    "overview": "The Wheaten is an Irish farm dog known for its soft, silky coat and exuberant 'Wheaten greeting' (jumping).",
+    "temperament": "Wheatens are friendly, happy dogs that love everyone. They're enthusiastic greeters and devoted companions.",
+    "health": "Prone to protein-losing diseases, hip dysplasia, and allergies.",
+    "exercise": "Moderate to high energy. Need daily exercise and play."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with children",
+      "Those wanting a friendly companion",
+      "Allergy sufferers",
+      "Active households"
+    ],
+    "not_for": [
+      "Those bothered by jumping",
+      "Owners wanting a calm dog",
+      "Those unwilling to groom",
+      "Very young children (due to exuberance)"
+    ],
+    "summary": "Happy, friendly Irish terriers with signature soft coats. Wheatens love everyone and make great family dogs but can be exuberant greeters."
+  }
+}

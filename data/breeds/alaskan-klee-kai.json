@@ -1,0 +1,65 @@
+{
+  "id": "alaskan-klee-kai",
+  "name": "Alaskan Klee Kai",
+  "aliases": [
+    "Klee Kai",
+    "Mini Husky"
+  ],
+  "group": "non-sporting",
+  "origin": "United States",
+  "lifespan": "12-16 years",
+  "size": {
+    "height_cm": "33-43",
+    "weight_kg": "4-10",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 2,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 3,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Double coat, medium length",
+    "coat_colors": [
+      "black and white",
+      "gray and white",
+      "red and white"
+    ],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "intelligent",
+    "curious",
+    "alert",
+    "loyal",
+    "reserved",
+    "energetic"
+  ],
+  "description": {
+    "overview": "The Alaskan Klee Kai looks like a miniature Husky but is a distinct breed developed in Alaska in the 1970s.",
+    "temperament": "Klee Kai are intelligent and loyal to family but reserved with strangers. They can be vocal.",
+    "health": "Generally healthy. May be prone to heart problems and thyroid issues.",
+    "exercise": "Moderate to high energy. Need daily exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Those wanting a small, Husky-like dog",
+      "Active individuals",
+      "Homes without small children"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Those wanting a social dog",
+      "Families with very young children",
+      "Those bothered by shedding"
+    ],
+    "summary": "Mini Husky look-alikes with big personalities. Klee Kai are loyal and intelligent but reserved with strangers. Need experienced owners."
+  }
+}
