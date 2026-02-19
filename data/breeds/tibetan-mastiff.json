@@ -1,0 +1,66 @@
+{
+  "id": "tibetan-mastiff",
+  "name": "Tibetan Mastiff",
+  "aliases": [
+    "TM",
+    "Do-Khyi"
+  ],
+  "group": "working",
+  "origin": "Tibet",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "61-76",
+    "weight_kg": "34-73",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 2,
+    "grooming": 4,
+    "sociability": 1,
+    "trainability": 2,
+    "barking": 4,
+    "kid_friendly": 3,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Long, thick double coat",
+    "coat_colors": [
+      "black",
+      "brown",
+      "blue/gray",
+      "gold"
+    ],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "independent",
+    "reserved",
+    "protective",
+    "intelligent",
+    "stubborn",
+    "loyal"
+  ],
+  "description": {
+    "overview": "The Tibetan Mastiff is an ancient guardian breed that protected Himalayan monasteries and nomadic camps.",
+    "temperament": "TMs are independent, protective, and reserved with strangers. Loyal but can be stubborn.",
+    "health": "Prone to hip dysplasia, thyroid issues, and eye problems.",
+    "exercise": "Moderate exercise needs. More active at night due to guardian instincts."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced large breed owners",
+      "Rural properties",
+      "Those wanting a guardian",
+      "Cold climates"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Apartment dwellers",
+      "Hot climates",
+      "Those wanting an obedient, social dog"
+    ],
+    "summary": "Majestic Himalayan guardians with independent spirits. Tibetan Mastiffs need experienced owners, space, and respect for their protective nature."
+  }
+}

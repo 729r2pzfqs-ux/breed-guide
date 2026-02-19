@@ -1,0 +1,66 @@
+{
+  "id": "shikoku",
+  "name": "Shikoku",
+  "aliases": [
+    "Shikoku Ken",
+    "Kochi Ken",
+    "Japanese Wolfdog"
+  ],
+  "group": "hound",
+  "origin": "Japan",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "43-55",
+    "weight_kg": "16-25",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 3,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Double coat, harsh outer, soft under",
+    "coat_colors": [
+      "sesame",
+      "black sesame",
+      "red sesame"
+    ],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "loyal",
+    "alert",
+    "cautious",
+    "brave",
+    "agile",
+    "intelligent"
+  ],
+  "description": {
+    "overview": "The Shikoku is a rare Japanese hunting dog from the mountains of Shikoku island, used to hunt wild boar.",
+    "temperament": "Shikoku are loyal, alert, and cautious with strangers. They're brave hunters and devoted companions.",
+    "health": "Generally healthy. May be prone to hip dysplasia and allergies.",
+    "exercise": "High energy. Need vigorous daily exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced dog owners",
+      "Active households",
+      "Those appreciating rare breeds",
+      "Homes with secure yards"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Apartment dwellers",
+      "Multi-pet households",
+      "Those wanting a social dog"
+    ],
+    "summary": "Rare Japanese hunting dogs with wolf-like appearance. Shikoku are loyal and agile but need experienced owners and plenty of exercise."
+  }
+}

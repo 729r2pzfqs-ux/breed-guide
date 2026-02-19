@@ -1,0 +1,62 @@
+{
+  "id": "kuvasz",
+  "name": "Kuvasz",
+  "aliases": [
+    "Hungarian Kuvasz"
+  ],
+  "group": "working",
+  "origin": "Hungary",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "66-76",
+    "weight_kg": "32-52",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 3,
+    "grooming": 3,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 3,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Medium length, wavy to straight double coat",
+    "coat_colors": [
+      "white"
+    ],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "loyal",
+    "protective",
+    "patient",
+    "independent",
+    "intelligent",
+    "courageous"
+  ],
+  "description": {
+    "overview": "The Kuvasz is an ancient Hungarian flock guardian known for its striking white coat and fierce loyalty.",
+    "temperament": "Kuvasz are loyal and protective but independent. They're patient with family but wary of strangers.",
+    "health": "Prone to hip dysplasia, osteochondritis, and thyroid issues.",
+    "exercise": "Moderate exercise needs. Need space and a job to do."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced large breed owners",
+      "Rural properties",
+      "Those wanting a guardian",
+      "Active families with older children"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Apartment dwellers",
+      "Urban environments",
+      "Those wanting an easy-to-train dog"
+    ],
+    "summary": "Majestic white Hungarian guardians. Kuvasz are fiercely loyal and protective but need experienced owners who understand livestock guardians."
+  }
+}

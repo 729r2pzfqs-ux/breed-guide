@@ -1,0 +1,63 @@
+{
+  "id": "welsh-terrier",
+  "name": "Welsh Terrier",
+  "aliases": [
+    "Welshie"
+  ],
+  "group": "terrier",
+  "origin": "Wales",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "36-39",
+    "weight_kg": "9-10",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Dense, wiry double coat",
+    "coat_colors": [
+      "black and tan",
+      "grizzle and tan"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "friendly",
+    "spirited",
+    "alert",
+    "intelligent",
+    "game",
+    "cheerful"
+  ],
+  "description": {
+    "overview": "The Welsh Terrier is one of the oldest terrier breeds, resembling a smaller Airedale.",
+    "temperament": "Welsh Terriers are friendly, spirited, and intelligent. They're more easygoing than many terriers.",
+    "health": "Generally healthy. May be prone to eye problems and allergies.",
+    "exercise": "Moderate to high energy. Need daily exercise and play."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Apartment dwellers",
+      "First-time terrier owners",
+      "Active households"
+    ],
+    "not_for": [
+      "Homes with small pets",
+      "Sedentary households",
+      "Those wanting a calm dog",
+      "Off-leash environments"
+    ],
+    "summary": "Friendly Welsh terriers that are more easygoing than most. Welsh Terriers are great family dogs with typical terrier spirit."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "chinese-crested",
+  "name": "Chinese Crested",
+  "aliases": [
+    "Crested",
+    "Puff"
+  ],
+  "group": "toy",
+  "origin": "China/Africa",
+  "lifespan": "13-18 years",
+  "size": {
+    "height_cm": "28-33",
+    "weight_kg": "2-5",
+    "category": "tiny"
+  },
+  "ratings": {
+    "size": 1,
+    "energy": 2,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 3,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Hairless variety or Powderpuff with soft double coat",
+    "coat_colors": [
+      "any color or combination"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "affectionate",
+    "playful",
+    "alert",
+    "lively",
+    "devoted",
+    "happy"
+  ],
+  "description": {
+    "overview": "Chinese Crested come in two varieties: Hairless (with hair on head, feet, and tail) and Powderpuff (fully coated).",
+    "temperament": "Chinese Crested are affectionate, playful, and devoted. They love being with their people.",
+    "health": "Hairless variety prone to skin issues and dental problems. Need sun protection.",
+    "exercise": "Low to moderate exercise needs. Short walks and indoor play."
+  },
+  "verdict": {
+    "best_for": [
+      "Apartment dwellers",
+      "Allergy sufferers (hairless)",
+      "Those wanting a devoted lap dog",
+      "Owners who enjoy grooming/skincare"
+    ],
+    "not_for": [
+      "Outdoor-focused owners",
+      "Very cold climates (without protection)",
+      "Rough households",
+      "Those wanting a sturdy dog"
+    ],
+    "summary": "Unique, devoted companions in hairless or fluffy varieties. Chinese Crested are affectionate and apartment-perfect but need skin/dental care."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "puli",
+  "name": "Puli",
+  "aliases": [
+    "Hungarian Puli",
+    "Pulik (plural)"
+  ],
+  "group": "herding",
+  "origin": "Hungary",
+  "lifespan": "10-15 years",
+  "size": {
+    "height_cm": "36-45",
+    "weight_kg": "10-15",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 5,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Long, corded",
+    "coat_colors": [
+      "black",
+      "white",
+      "gray",
+      "cream"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "intelligent",
+    "agile",
+    "loyal",
+    "energetic",
+    "alert",
+    "playful"
+  ],
+  "description": {
+    "overview": "The Puli is a small Hungarian herding dog with a distinctive corded coat, often described as a 'mop on springs.'",
+    "temperament": "Pulik are intelligent, energetic, and playful. They're quick learners but can be independent.",
+    "health": "Generally healthy. May be prone to hip dysplasia and eye problems.",
+    "exercise": "High energy. Need daily exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Those interested in dog sports",
+      "Owners dedicated to coat care",
+      "Allergy sufferers"
+    ],
+    "not_for": [
+      "Those wanting low-maintenance grooming",
+      "Sedentary households",
+      "Owners bothered by barking",
+      "First-time owners"
+    ],
+    "summary": "Energetic Hungarian herders with iconic corded coats. Pulik are intelligent and playful but require dedicated coat maintenance."
+  }
+}

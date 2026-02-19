@@ -1,0 +1,63 @@
+{
+  "id": "belgian-laekenois",
+  "name": "Belgian Laekenois",
+  "aliases": [
+    "Laeken",
+    "Belgian Shepherd Laekenois"
+  ],
+  "group": "herding",
+  "origin": "Belgium",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "56-66",
+    "weight_kg": "20-30",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 3,
+    "sociability": 3,
+    "trainability": 5,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Rough, wiry, tousled",
+    "coat_colors": [
+      "fawn to mahogany with black shading"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "intelligent",
+    "alert",
+    "protective",
+    "devoted",
+    "hardworking",
+    "watchful"
+  ],
+  "description": {
+    "overview": "The Belgian Laekenois is the rarest of the four Belgian Shepherd varieties, with a distinctive rough, wiry coat.",
+    "temperament": "Laekenois are intelligent, protective, and devoted. They're slightly more reserved than other Belgian varieties.",
+    "health": "Prone to hip dysplasia, epilepsy, and eye problems.",
+    "exercise": "Very high energy. Need extensive daily exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Active households",
+      "Those wanting a unique breed",
+      "People interested in dog sports"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Sedentary households",
+      "Apartment dwellers",
+      "Those wanting an outgoing dog"
+    ],
+    "summary": "The rarest Belgian Shepherd with a unique wiry coat. Laekenois are intelligent and devoted but need experienced, active owners."
+  }
+}

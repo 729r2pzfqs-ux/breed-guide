@@ -1,0 +1,63 @@
+{
+  "id": "afghan-hound",
+  "name": "Afghan Hound",
+  "aliases": [
+    "Tazi",
+    "Baluchi Hound"
+  ],
+  "group": "hound",
+  "origin": "Afghanistan",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "63-74",
+    "weight_kg": "23-27",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 5,
+    "sociability": 2,
+    "trainability": 2,
+    "barking": 2,
+    "kid_friendly": 3,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Long, thick, silky",
+    "coat_colors": [
+      "all colors"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "dignified",
+    "aloof",
+    "independent",
+    "sweet",
+    "clownish",
+    "loyal"
+  ],
+  "description": {
+    "overview": "The Afghan Hound is an ancient, elegant sighthound known for its stunning flowing coat and aristocratic bearing.",
+    "temperament": "Afghans are dignified and aloof but can be clownish at home. They're independent and sometimes stubborn.",
+    "health": "Prone to hip dysplasia, cataracts, and hypothyroidism. Sensitive to anesthesia.",
+    "exercise": "Need daily exercise and room to run. Love to sprint in safe, enclosed areas."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Those appreciating elegant, independent dogs",
+      "Owners committed to grooming",
+      "Homes with secure yards"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Those wanting an obedient dog",
+      "Owners unwilling to groom regularly",
+      "Off-leash situations"
+    ],
+    "summary": "Elegant, aristocratic sighthounds with stunning coats. Afghans are independent and aloof but loyal to family. Require extensive grooming."
+  }
+}

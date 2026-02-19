@@ -1,0 +1,65 @@
+{
+  "id": "wire-fox-terrier",
+  "name": "Wire Fox Terrier",
+  "aliases": [
+    "Wire",
+    "WFT"
+  ],
+  "group": "terrier",
+  "origin": "England",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "36-41",
+    "weight_kg": "7-9",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 5,
+    "grooming": 4,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Dense, wiry",
+    "coat_colors": [
+      "white with black",
+      "tan",
+      "or both"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "alert",
+    "confident",
+    "fearless",
+    "friendly",
+    "energetic",
+    "keen"
+  ],
+  "description": {
+    "overview": "The Wire Fox Terrier is a classic British terrier that has won more Best in Show titles at Westminster than any other breed.",
+    "temperament": "Wire Fox Terriers are confident, fearless, and full of energy. They're friendly but independent.",
+    "health": "Prone to eye problems, hip dysplasia, and skin allergies.",
+    "exercise": "Very high energy. Need extensive daily exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Those wanting a show-quality terrier",
+      "Experienced terrier owners",
+      "Homes with secure yards"
+    ],
+    "not_for": [
+      "Sedentary households",
+      "Homes with small pets",
+      "First-time owners",
+      "Those wanting a quiet dog"
+    ],
+    "summary": "Classic show-ring champions with terrier spirit. Wire Fox Terriers are confident and energetic - perfect for active, experienced owners."
+  }
+}

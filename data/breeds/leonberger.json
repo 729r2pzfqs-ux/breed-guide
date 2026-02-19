@@ -1,0 +1,66 @@
+{
+  "id": "leonberger",
+  "name": "Leonberger",
+  "aliases": [
+    "Leo",
+    "Gentle Giant"
+  ],
+  "group": "working",
+  "origin": "Germany",
+  "lifespan": "9 years",
+  "size": {
+    "height_cm": "65-80",
+    "weight_kg": "41-77",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 3,
+    "grooming": 4,
+    "sociability": 5,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 5,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Medium to long, water-resistant double coat",
+    "coat_colors": [
+      "lion-yellow",
+      "golden",
+      "red-brown",
+      "sand"
+    ],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "friendly",
+    "playful",
+    "gentle",
+    "loyal",
+    "patient",
+    "confident"
+  ],
+  "description": {
+    "overview": "The Leonberger was bred to resemble a lion and serve as a versatile working dog and family companion.",
+    "temperament": "Leos are gentle giants - friendly, patient, and wonderful with children. They love water.",
+    "health": "Prone to hip dysplasia, bloat, and some heart conditions. Shorter lifespan.",
+    "exercise": "Moderate exercise needs. Love swimming and family activities."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with children",
+      "Those with space for a giant breed",
+      "Water enthusiasts",
+      "Those wanting a gentle giant"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Those wanting a long-lived dog",
+      "Neat freaks (drool and shedding)",
+      "Hot climates"
+    ],
+    "summary": "Majestic, lion-like gentle giants. Leonbergers are patient, friendly family dogs but need space and have shorter lifespans."
+  }
+}

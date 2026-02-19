@@ -1,0 +1,67 @@
+{
+  "id": "american-bulldog",
+  "name": "American Bulldog",
+  "aliases": [
+    "AmBull",
+    "Old Country Bulldog"
+  ],
+  "group": "working",
+  "origin": "United States",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "52-70",
+    "weight_kg": "27-54",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, harsh",
+    "coat_colors": [
+      "white",
+      "white with patches of red",
+      "brown",
+      "brindle",
+      "fawn"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "loyal",
+    "confident",
+    "friendly",
+    "assertive",
+    "energetic",
+    "protective"
+  ],
+  "description": {
+    "overview": "The American Bulldog is a powerful, athletic breed that descended from working bulldogs brought to America by immigrants.",
+    "temperament": "American Bulldogs are loyal, confident, and protective. Good with children but need socialization.",
+    "health": "Prone to hip dysplasia, elbow dysplasia, and cherry eye.",
+    "exercise": "High energy. Need vigorous daily exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Active families",
+      "Those wanting a protective companion",
+      "Homes with yards"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Apartment dwellers",
+      "Sedentary households",
+      "Areas with breed restrictions"
+    ],
+    "summary": "Powerful, loyal working dogs with a friendly disposition. American Bulldogs need experienced owners, proper training, and plenty of exercise."
+  }
+}

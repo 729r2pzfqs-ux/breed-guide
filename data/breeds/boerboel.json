@@ -1,0 +1,66 @@
+{
+  "id": "boerboel",
+  "name": "Boerboel",
+  "aliases": [
+    "South African Mastiff",
+    "South African Boerboel"
+  ],
+  "group": "working",
+  "origin": "South Africa",
+  "lifespan": "9-11 years",
+  "size": {
+    "height_cm": "59-70",
+    "weight_kg": "50-90",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 3,
+    "grooming": 1,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Short, dense, smooth",
+    "coat_colors": [
+      "brown",
+      "red",
+      "fawn",
+      "brindle"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "confident",
+    "intelligent",
+    "calm",
+    "protective",
+    "loyal",
+    "obedient"
+  ],
+  "description": {
+    "overview": "The Boerboel is a powerful South African mastiff bred to protect homesteads from predators.",
+    "temperament": "Boerboels are confident, calm, and deeply protective. They're gentle with family but formidable guardians.",
+    "health": "Prone to hip dysplasia, elbow dysplasia, and heart problems.",
+    "exercise": "Moderate exercise needs. Daily walks and play but not highly active."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced large breed owners",
+      "Rural properties",
+      "Those wanting a guardian",
+      "Families with older children"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Apartment dwellers",
+      "Novice large breed handlers",
+      "Areas with breed restrictions"
+    ],
+    "summary": "Powerful South African guardians with calm confidence. Boerboels are protective and loyal but need experienced handlers and space."
+  }
+}

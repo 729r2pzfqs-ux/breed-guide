@@ -1,0 +1,67 @@
+{
+  "id": "chow-chow",
+  "name": "Chow Chow",
+  "aliases": [
+    "Chow",
+    "Songshi Quan"
+  ],
+  "group": "non-sporting",
+  "origin": "China",
+  "lifespan": "8-12 years",
+  "size": {
+    "height_cm": "46-56",
+    "weight_kg": "20-32",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 2,
+    "grooming": 4,
+    "sociability": 1,
+    "trainability": 2,
+    "barking": 2,
+    "kid_friendly": 2,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Dense double coat, rough or smooth",
+    "coat_colors": [
+      "red",
+      "black",
+      "blue",
+      "cinnamon",
+      "cream"
+    ],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "dignified",
+    "aloof",
+    "loyal",
+    "independent",
+    "quiet",
+    "serious"
+  ],
+  "description": {
+    "overview": "The Chow Chow is an ancient breed from China, known for its lion-like mane and blue-black tongue.",
+    "temperament": "Chows are fiercely loyal to family but aloof with strangers. They're independent and cat-like in personality.",
+    "health": "Prone to hip dysplasia, eye problems, and skin issues. Heat sensitive due to thick coat.",
+    "exercise": "Moderate exercise needs. Short daily walks. Avoid exercise in hot weather."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Those wanting a quiet, dignified companion",
+      "People who respect independence",
+      "Cool climates"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Families with young children",
+      "Hot climates",
+      "Those wanting an outgoing, social dog"
+    ],
+    "summary": "A dignified, ancient breed with a cat-like personality. Chows are loyal to family but independent and aloof. Best for experienced owners."
+  }
+}

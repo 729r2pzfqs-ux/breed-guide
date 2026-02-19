@@ -1,0 +1,65 @@
+{
+  "id": "sealyham-terrier",
+  "name": "Sealyham Terrier",
+  "aliases": [
+    "Sealy"
+  ],
+  "group": "terrier",
+  "origin": "Wales",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "27-30",
+    "weight_kg": "8-11",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 3,
+    "grooming": 4,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Long, hard, wiry outer coat",
+    "coat_colors": [
+      "all white",
+      "white with lemon",
+      "tan",
+      "or badger markings"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "outgoing",
+    "calm",
+    "fearless",
+    "adaptable",
+    "friendly",
+    "alert"
+  ],
+  "description": {
+    "overview": "The Sealyham Terrier is a rare Welsh breed that was once the darling of Hollywood celebrities.",
+    "temperament": "Sealyhams are calmer than most terriers. They're friendly, adaptable, and make excellent companions.",
+    "health": "Prone to eye problems (lens luxation) and deafness.",
+    "exercise": "Moderate exercise needs. Daily walks and play."
+  },
+  "verdict": {
+    "best_for": [
+      "Apartment dwellers",
+      "Those wanting a calmer terrier",
+      "Allergy sufferers",
+      "Families"
+    ],
+    "not_for": [
+      "Those wanting a highly active dog",
+      "Homes with small pets",
+      "Owners unwilling to groom",
+      "Those wanting a common breed"
+    ],
+    "summary": "Rare, calm terriers perfect for apartments. Sealyhams are friendlier and more adaptable than most terriers."
+  }
+}

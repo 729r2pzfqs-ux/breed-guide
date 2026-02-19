@@ -1,0 +1,65 @@
+{
+  "id": "parson-russell-terrier",
+  "name": "Parson Russell Terrier",
+  "aliases": [
+    "PRT",
+    "Parson Jack Russell"
+  ],
+  "group": "terrier",
+  "origin": "England",
+  "lifespan": "13-15 years",
+  "size": {
+    "height_cm": "33-36",
+    "weight_kg": "6-8",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 5,
+    "grooming": 1,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 3,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Smooth or broken",
+    "coat_colors": [
+      "white with tan",
+      "black",
+      "or both"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "bold",
+    "friendly",
+    "athletic",
+    "clever",
+    "tenacious",
+    "independent"
+  ],
+  "description": {
+    "overview": "The Parson Russell is slightly larger and more square than the Jack Russell, bred to the original breed standard.",
+    "temperament": "PRTs are bold, athletic, and clever. They're friendly but independent and need confident handling.",
+    "health": "Generally healthy. May be prone to eye problems and deafness.",
+    "exercise": "Extremely high energy. Need extensive daily exercise and activities."
+  },
+  "verdict": {
+    "best_for": [
+      "Very active owners",
+      "Those interested in terrier sports",
+      "Experienced owners",
+      "Homes without small pets"
+    ],
+    "not_for": [
+      "Sedentary households",
+      "First-time owners",
+      "Homes with small pets",
+      "Those wanting a calm dog"
+    ],
+    "summary": "Athletic, bold terriers with endless energy. Parson Russells are clever and tenacious - perfect for active, experienced terrier enthusiasts."
+  }
+}

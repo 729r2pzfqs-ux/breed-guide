@@ -1,0 +1,65 @@
+{
+  "id": "bloodhound",
+  "name": "Bloodhound",
+  "aliases": [
+    "St. Hubert Hound",
+    "Chien de Saint-Hubert"
+  ],
+  "group": "hound",
+  "origin": "Belgium/France",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "58-69",
+    "weight_kg": "36-50",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 3,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Short, dense",
+    "coat_colors": [
+      "black and tan",
+      "liver and tan",
+      "red"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "gentle",
+    "patient",
+    "noble",
+    "affectionate",
+    "stubborn",
+    "inquisitive"
+  ],
+  "description": {
+    "overview": "The Bloodhound has the most powerful nose of any dog breed, able to follow trails over 300 hours old.",
+    "temperament": "Bloodhounds are gentle, patient, and affectionate but can be stubborn when on a scent.",
+    "health": "Prone to bloat, hip dysplasia, and ear infections. Drool significantly.",
+    "exercise": "Moderate exercise needs but need secure areas - will follow scents."
+  },
+  "verdict": {
+    "best_for": [
+      "Families wanting a gentle giant",
+      "Those with secure, fenced yards",
+      "Patient owners",
+      "Search and rescue enthusiasts"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Neat freaks (they drool)",
+      "Those wanting off-leash reliability",
+      "Owners wanting an obedient dog"
+    ],
+    "summary": "Gentle giants with legendary noses. Bloodhounds are patient and affectionate but stubborn when tracking. Need secure yards and patient owners."
+  }
+}

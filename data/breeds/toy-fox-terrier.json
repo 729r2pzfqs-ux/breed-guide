@@ -1,0 +1,67 @@
+{
+  "id": "toy-fox-terrier",
+  "name": "Toy Fox Terrier",
+  "aliases": [
+    "TFT",
+    "American Toy Terrier",
+    "Amertoy"
+  ],
+  "group": "toy",
+  "origin": "United States",
+  "lifespan": "13-15 years",
+  "size": {
+    "height_cm": "22-29",
+    "weight_kg": "1.5-3",
+    "category": "tiny"
+  },
+  "ratings": {
+    "size": 1,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 4,
+    "trainability": 5,
+    "barking": 3,
+    "kid_friendly": 3,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Short, fine, smooth",
+    "coat_colors": [
+      "tri-color",
+      "white and black",
+      "white and tan",
+      "white, chocolate and tan"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "intelligent",
+    "alert",
+    "friendly",
+    "loyal",
+    "spirited",
+    "athletic"
+  ],
+  "description": {
+    "overview": "The Toy Fox Terrier is a true American breed that combines terrier tenacity with toy-dog charm.",
+    "temperament": "TFTs are intelligent, loyal, and spirited. They're athletic for their size and excel at tricks and agility.",
+    "health": "Prone to patellar luxation and Legg-Calve-Perthes disease.",
+    "exercise": "Moderate energy for a terrier. Need daily play and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Apartment dwellers",
+      "Those wanting a trainable toy dog",
+      "Active seniors",
+      "Owners interested in tricks and agility"
+    ],
+    "not_for": [
+      "Families with young children",
+      "Those wanting a cuddly lap dog only",
+      "Cold climates without protection",
+      "Rough households"
+    ],
+    "summary": "Tiny athletes with big terrier personalities. Toy Fox Terriers are intelligent, trainable, and perfect for apartments."
+  }
+}

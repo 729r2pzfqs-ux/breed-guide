@@ -1,0 +1,64 @@
+{
+  "id": "tibetan-terrier",
+  "name": "Tibetan Terrier",
+  "aliases": [
+    "TT",
+    "Tsang Apso",
+    "Holy Dog of Tibet"
+  ],
+  "group": "non-sporting",
+  "origin": "Tibet",
+  "lifespan": "15-16 years",
+  "size": {
+    "height_cm": "36-43",
+    "weight_kg": "8-14",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 3,
+    "grooming": 5,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Long, fine, double coat",
+    "coat_colors": [
+      "all colors except chocolate or liver"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "affectionate",
+    "sensitive",
+    "clever",
+    "loyal",
+    "gentle",
+    "playful"
+  ],
+  "description": {
+    "overview": "Despite its name, the Tibetan Terrier is not a terrier but a herding breed kept as good luck charms in Tibet.",
+    "temperament": "TTs are affectionate, clever, and adaptable. They bond closely with family.",
+    "health": "Prone to hip dysplasia, eye problems, and some neurological conditions.",
+    "exercise": "Moderate exercise needs. Enjoy walks and playtime."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Apartment dwellers (with exercise)",
+      "Those wanting a devoted companion",
+      "Allergy sufferers"
+    ],
+    "not_for": [
+      "Those unwilling to groom regularly",
+      "Owners wanting a low-maintenance dog",
+      "Very active households",
+      "Those wanting an independent dog"
+    ],
+    "summary": "Gentle, devoted 'good luck' dogs from Tibet. Tibetan Terriers are affectionate family companions but require extensive grooming."
+  }
+}

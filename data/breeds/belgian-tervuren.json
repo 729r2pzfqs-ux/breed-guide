@@ -1,0 +1,63 @@
+{
+  "id": "belgian-tervuren",
+  "name": "Belgian Tervuren",
+  "aliases": [
+    "Tervuren",
+    "Terv"
+  ],
+  "group": "herding",
+  "origin": "Belgium",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "56-66",
+    "weight_kg": "20-30",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 4,
+    "sociability": 3,
+    "trainability": 5,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Long, straight, abundant",
+    "coat_colors": [
+      "fawn to mahogany with black overlay"
+    ],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "intelligent",
+    "alert",
+    "protective",
+    "confident",
+    "hardworking",
+    "devoted"
+  ],
+  "description": {
+    "overview": "The Belgian Tervuren is an elegant herding dog with a long mahogany coat and exceptional intelligence.",
+    "temperament": "Tervurens are highly intelligent, protective, and devoted to family. They excel in obedience and herding.",
+    "health": "Prone to hip dysplasia, epilepsy, and eye problems.",
+    "exercise": "Very high energy. Need extensive daily exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Active households",
+      "Those interested in dog sports",
+      "Homes with secure yards"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Sedentary households",
+      "Apartment dwellers",
+      "Those away from home often"
+    ],
+    "summary": "Elegant, highly intelligent herding dogs. Tervurens excel at work and sports but need experienced owners and extensive exercise."
+  }
+}

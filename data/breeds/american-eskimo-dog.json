@@ -1,0 +1,64 @@
+{
+  "id": "american-eskimo-dog",
+  "name": "American Eskimo Dog",
+  "aliases": [
+    "Eskie",
+    "American Spitz"
+  ],
+  "group": "non-sporting",
+  "origin": "Germany/United States",
+  "lifespan": "13-15 years",
+  "size": {
+    "height_cm": "38-48",
+    "weight_kg": "8-16",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 4,
+    "trainability": 5,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Dense, fluffy double coat",
+    "coat_colors": [
+      "white",
+      "white and biscuit"
+    ],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "intelligent",
+    "alert",
+    "friendly",
+    "eager to please",
+    "playful",
+    "protective"
+  ],
+  "description": {
+    "overview": "Despite its name, the American Eskimo Dog descended from German Spitz dogs and was popular in circus acts.",
+    "temperament": "Eskies are intelligent, eager to please, and love to perform. They're friendly but alert watchdogs.",
+    "health": "Prone to hip dysplasia, eye problems, and patellar luxation.",
+    "exercise": "Moderate to high energy. Need daily exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Those wanting a trainable companion",
+      "Trick and agility enthusiasts",
+      "First-time owners"
+    ],
+    "not_for": [
+      "Those bothered by shedding or barking",
+      "Owners away from home often",
+      "Hot climates",
+      "Those wanting a quiet dog"
+    ],
+    "summary": "Brilliant, fluffy performers that love to learn. American Eskimo Dogs are highly trainable and friendly but shed heavily and can be vocal."
+  }
+}

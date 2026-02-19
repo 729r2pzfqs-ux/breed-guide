@@ -1,0 +1,65 @@
+{
+  "id": "briard",
+  "name": "Briard",
+  "aliases": [
+    "Berger de Brie",
+    "Chien Berger de Brie"
+  ],
+  "group": "herding",
+  "origin": "France",
+  "lifespan": "12 years",
+  "size": {
+    "height_cm": "56-68",
+    "weight_kg": "25-45",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 5,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Long, wavy, dry",
+    "coat_colors": [
+      "black",
+      "gray",
+      "tawny"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "loyal",
+    "protective",
+    "intelligent",
+    "obedient",
+    "fearless",
+    "gentle"
+  ],
+  "description": {
+    "overview": "The Briard is a French herding breed known for its long, flowing coat and devotion to family.",
+    "temperament": "Briards are loyal protectors with gentle hearts. They're intelligent and devoted to their families.",
+    "health": "Prone to hip dysplasia, bloat, and eye problems.",
+    "exercise": "High energy. Need daily exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Those wanting a protective companion",
+      "Owners committed to grooming",
+      "Homes with yards"
+    ],
+    "not_for": [
+      "Those unwilling to groom extensively",
+      "Apartment dwellers",
+      "Sedentary households",
+      "First-time owners"
+    ],
+    "summary": "Loyal French sheepdogs with flowing coats and protective hearts. Briards are devoted family dogs but need extensive grooming and exercise."
+  }
+}

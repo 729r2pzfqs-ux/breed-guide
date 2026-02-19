@@ -1,0 +1,67 @@
+{
+  "id": "xoloitzcuintli",
+  "name": "Xoloitzcuintli",
+  "aliases": [
+    "Xolo",
+    "Mexican Hairless Dog"
+  ],
+  "group": "non-sporting",
+  "origin": "Mexico",
+  "lifespan": "13-18 years",
+  "size": {
+    "height_cm": "25-60",
+    "weight_kg": "4-25",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 3,
+    "grooming": 2,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Hairless or coated variety",
+    "coat_colors": [
+      "black",
+      "gray",
+      "bronze",
+      "red",
+      "liver"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "loyal",
+    "alert",
+    "calm",
+    "intelligent",
+    "affectionate",
+    "attentive"
+  ],
+  "description": {
+    "overview": "The Xoloitzcuintli is an ancient Mexican breed dating back 3,000 years, considered sacred by the Aztecs.",
+    "temperament": "Xolos are loyal, calm, and affectionate with family. They're alert watchdogs but not aggressive.",
+    "health": "Generally healthy. Hairless variety needs skin protection.",
+    "exercise": "Moderate exercise needs. Daily walks and play sessions."
+  },
+  "verdict": {
+    "best_for": [
+      "Those wanting a unique, ancient breed",
+      "Allergy sufferers (hairless)",
+      "Apartment dwellers",
+      "Warm climates"
+    ],
+    "not_for": [
+      "Cold climates without protection",
+      "Those wanting a fluffy dog",
+      "Outdoor-focused owners",
+      "Those unwanting skincare routine"
+    ],
+    "summary": "Ancient Aztec dogs in hairless or coated varieties. Xolos are loyal, calm companions perfect for apartments but need skin care."
+  }
+}

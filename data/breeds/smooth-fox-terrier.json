@@ -1,0 +1,65 @@
+{
+  "id": "smooth-fox-terrier",
+  "name": "Smooth Fox Terrier",
+  "aliases": [
+    "Smooth",
+    "SFT"
+  ],
+  "group": "terrier",
+  "origin": "England",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "36-41",
+    "weight_kg": "7-9",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 5,
+    "grooming": 1,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Smooth, flat, dense",
+    "coat_colors": [
+      "white with black",
+      "tan",
+      "or both"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "alert",
+    "fearless",
+    "friendly",
+    "energetic",
+    "playful",
+    "independent"
+  ],
+  "description": {
+    "overview": "The Smooth Fox Terrier is the older of the two Fox Terrier varieties, with a sleek, easy-care coat.",
+    "temperament": "Smooth Fox Terriers are fearless, energetic, and playful. They're friendly but have strong hunting instincts.",
+    "health": "Prone to deafness, eye problems, and patellar luxation.",
+    "exercise": "Very high energy. Need extensive daily exercise and activities."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Those wanting a lower-maintenance coat",
+      "Experienced terrier owners",
+      "Homes with yards"
+    ],
+    "not_for": [
+      "Sedentary households",
+      "Homes with small pets",
+      "Those wanting a quiet dog",
+      "First-time owners"
+    ],
+    "summary": "Sleek, athletic terriers with boundless energy. Smooth Fox Terriers are easier to groom than Wires but equally spirited."
+  }
+}

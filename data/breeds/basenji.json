@@ -1,0 +1,66 @@
+{
+  "id": "basenji",
+  "name": "Basenji",
+  "aliases": [
+    "African Barkless Dog",
+    "Congo Dog"
+  ],
+  "group": "hound",
+  "origin": "Central Africa",
+  "lifespan": "13-14 years",
+  "size": {
+    "height_cm": "41-43",
+    "weight_kg": "9-11",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 2,
+    "trainability": 2,
+    "barking": 1,
+    "kid_friendly": 3,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Short, fine",
+    "coat_colors": [
+      "red",
+      "black",
+      "tricolor",
+      "brindle"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "independent",
+    "intelligent",
+    "alert",
+    "curious",
+    "affectionate",
+    "energetic"
+  ],
+  "description": {
+    "overview": "The Basenji is an ancient African breed known for being 'barkless' - instead they make a unique yodel-like sound.",
+    "temperament": "Basenjis are independent and cat-like. They're intelligent but can be stubborn and mischievous.",
+    "health": "Prone to Fanconi syndrome, hip dysplasia, and eye problems. Health testing important.",
+    "exercise": "High energy dogs needing daily exercise. Love to run and explore but should be kept on leash."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced dog owners",
+      "Those wanting a unique, quiet dog",
+      "Active individuals",
+      "Apartments (due to minimal barking)"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Those wanting an obedient dog",
+      "Homes with small pets",
+      "Those who want off-leash reliability"
+    ],
+    "summary": "A unique, ancient breed that doesn't bark but yodels. Basenjis are intelligent and cat-like in independence. Best for experienced owners."
+  }
+}

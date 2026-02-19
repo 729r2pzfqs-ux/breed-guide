@@ -1,0 +1,64 @@
+{
+  "id": "peruvian-inca-orchid",
+  "name": "Peruvian Inca Orchid",
+  "aliases": [
+    "PIO",
+    "Peruvian Hairless Dog",
+    "Perro Sin Pelo del Per\u00fa"
+  ],
+  "group": "hound",
+  "origin": "Peru",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "25-65",
+    "weight_kg": "4-25",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 3,
+    "grooming": 2,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 3,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Hairless or coated",
+    "coat_colors": [
+      "all colors including mottled"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "affectionate",
+    "loyal",
+    "alert",
+    "lively",
+    "protective",
+    "intelligent"
+  ],
+  "description": {
+    "overview": "The Peruvian Inca Orchid is an ancient sighthound that comes in hairless and coated varieties.",
+    "temperament": "PIOs are affectionate with family but wary of strangers. They're loyal and make good watchdogs.",
+    "health": "Generally healthy. Hairless variety prone to skin issues and dental problems.",
+    "exercise": "Moderate energy. Need daily exercise and enjoy running."
+  },
+  "verdict": {
+    "best_for": [
+      "Those wanting a unique breed",
+      "Allergy sufferers",
+      "Apartment dwellers",
+      "Warm climates"
+    ],
+    "not_for": [
+      "Cold climates",
+      "Very social households",
+      "Those wanting low-maintenance",
+      "Rough play environments"
+    ],
+    "summary": "Elegant Peruvian sighthounds in hairless or coated varieties. PIOs are loyal and affectionate but need skin care and sun protection."
+  }
+}

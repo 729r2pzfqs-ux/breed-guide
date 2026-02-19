@@ -1,0 +1,69 @@
+{
+  "id": "saluki",
+  "name": "Saluki",
+  "aliases": [
+    "Persian Greyhound",
+    "Royal Dog of Egypt"
+  ],
+  "group": "hound",
+  "origin": "Middle East",
+  "lifespan": "10-17 years",
+  "size": {
+    "height_cm": "58-71",
+    "weight_kg": "18-27",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 2,
+    "trainability": 2,
+    "barking": 1,
+    "kid_friendly": 3,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Smooth or feathered, silky",
+    "coat_colors": [
+      "white",
+      "cream",
+      "fawn",
+      "red",
+      "grizzle",
+      "black and tan",
+      "tricolor"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "gentle",
+    "dignified",
+    "independent",
+    "aloof",
+    "devoted",
+    "quiet"
+  ],
+  "description": {
+    "overview": "The Saluki is one of the oldest dog breeds, treasured by pharaohs and nomadic tribes for thousands of years.",
+    "temperament": "Salukis are gentle and devoted to family but aloof with strangers. Independent and cat-like.",
+    "health": "Generally healthy but prone to heart conditions and certain cancers.",
+    "exercise": "Need daily exercise and secure areas to run. Strong prey drive."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Those appreciating elegant, independent dogs",
+      "Runners (with leash)",
+      "Quiet households"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Homes with small pets",
+      "Those wanting an obedient dog",
+      "Off-leash environments"
+    ],
+    "summary": "Ancient, elegant sighthounds with independent spirits. Salukis are gentle and devoted but aloof. Need experienced owners and secure running areas."
+  }
+}

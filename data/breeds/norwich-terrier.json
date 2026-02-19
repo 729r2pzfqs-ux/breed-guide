@@ -1,0 +1,65 @@
+{
+  "id": "norwich-terrier",
+  "name": "Norwich Terrier",
+  "aliases": [
+    "Norwich"
+  ],
+  "group": "terrier",
+  "origin": "England",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "24-25",
+    "weight_kg": "5-6",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 1,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Hard, wiry, straight",
+    "coat_colors": [
+      "red",
+      "wheaten",
+      "black and tan",
+      "grizzle"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "alert",
+    "curious",
+    "fearless",
+    "loyal",
+    "affectionate",
+    "spirited"
+  ],
+  "description": {
+    "overview": "The Norwich Terrier has pricked ears (unlike the folded-ear Norfolk) and was bred to hunt vermin.",
+    "temperament": "Norwich are alert, curious, and affectionate. They're spirited but generally good-natured.",
+    "health": "Generally healthy. May be prone to upper airway syndrome and hip dysplasia.",
+    "exercise": "Moderate energy. Need daily walks and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Apartment dwellers",
+      "Families",
+      "Those wanting a small, spirited dog",
+      "Active individuals"
+    ],
+    "not_for": [
+      "Homes with small pets",
+      "Those wanting a quiet dog",
+      "Sedentary households",
+      "Very young children"
+    ],
+    "summary": "Small but mighty terriers with pricked ears. Norwich are curious, affectionate, and adapt well to various living situations."
+  }
+}

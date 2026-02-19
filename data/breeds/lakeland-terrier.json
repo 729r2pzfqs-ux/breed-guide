@@ -1,0 +1,66 @@
+{
+  "id": "lakeland-terrier",
+  "name": "Lakeland Terrier",
+  "aliases": [
+    "Lakie"
+  ],
+  "group": "terrier",
+  "origin": "England",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "33-38",
+    "weight_kg": "7-8",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Dense, wiry double coat",
+    "coat_colors": [
+      "black and tan",
+      "blue and tan",
+      "red",
+      "wheaten",
+      "grizzle"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "bold",
+    "confident",
+    "friendly",
+    "independent",
+    "intelligent",
+    "tenacious"
+  ],
+  "description": {
+    "overview": "The Lakeland Terrier was bred to protect sheep from foxes in England's Lake District.",
+    "temperament": "Lakelands are bold, confident, and friendly. They're independent but less scrappy than some terriers.",
+    "health": "Generally healthy. May be prone to eye problems and Legg-Calve-Perthes disease.",
+    "exercise": "Moderate to high energy. Need daily exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Apartment dwellers (with exercise)",
+      "Allergy sufferers",
+      "Experienced terrier owners"
+    ],
+    "not_for": [
+      "Homes with small pets",
+      "Those wanting an eager-to-please dog",
+      "Sedentary households",
+      "First-time owners"
+    ],
+    "summary": "Bold, confident terriers from England's Lake District. Lakelands are friendly and hypoallergenic but have typical terrier independence."
+  }
+}

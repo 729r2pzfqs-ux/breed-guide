@@ -1,0 +1,63 @@
+{
+  "id": "rat-terrier",
+  "name": "Rat Terrier",
+  "aliases": [
+    "Ratting Terrier",
+    "Decker Giant"
+  ],
+  "group": "terrier",
+  "origin": "United States",
+  "lifespan": "12-18 years",
+  "size": {
+    "height_cm": "25-46",
+    "weight_kg": "4-11",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Short, smooth, dense",
+    "coat_colors": [
+      "any variation of pied patterning"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "intelligent",
+    "alert",
+    "loving",
+    "inquisitive",
+    "lively",
+    "fearless"
+  ],
+  "description": {
+    "overview": "The Rat Terrier is an American farm dog bred to control vermin, valued for its intelligence and versatility.",
+    "temperament": "Rat Terriers are intelligent, loving, and lively. They bond closely with family and are good with children.",
+    "health": "Generally healthy. May be prone to patellar luxation and hip dysplasia.",
+    "exercise": "Moderate to high energy. Need daily exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Active households",
+      "Those wanting a versatile companion",
+      "Farm and rural homes"
+    ],
+    "not_for": [
+      "Homes with small pets",
+      "Those wanting a calm lap dog",
+      "Owners away from home often",
+      "First-time owners wanting an easy dog"
+    ],
+    "summary": "Versatile American farm dogs with loving personalities. Rat Terriers are intelligent, family-friendly, and adaptable to various living situations."
+  }
+}

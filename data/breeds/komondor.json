@@ -1,0 +1,63 @@
+{
+  "id": "komondor",
+  "name": "Komondor",
+  "aliases": [
+    "Hungarian Komondor",
+    "Mop Dog"
+  ],
+  "group": "working",
+  "origin": "Hungary",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "64-76",
+    "weight_kg": "36-61",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 2,
+    "grooming": 5,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 3,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Long, corded (natural cords)",
+    "coat_colors": [
+      "white"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "loyal",
+    "dignified",
+    "protective",
+    "independent",
+    "calm",
+    "fearless"
+  ],
+  "description": {
+    "overview": "The Komondor's distinctive corded coat helped it blend in with sheep and protected it from predators and weather.",
+    "temperament": "Komondorok are calm, dignified guardians. Protective and loyal but independent.",
+    "health": "Prone to hip dysplasia and bloat. Coat requires special care.",
+    "exercise": "Moderate exercise needs. Need space to guard and patrol."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced large breed owners",
+      "Rural properties",
+      "Those dedicated to coat care",
+      "Livestock owners"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Apartment dwellers",
+      "Those unwilling to maintain cords",
+      "Urban environments"
+    ],
+    "summary": "The iconic corded Hungarian guardian. Komondorok are loyal protectors but their unique coat requires dedicated care."
+  }
+}

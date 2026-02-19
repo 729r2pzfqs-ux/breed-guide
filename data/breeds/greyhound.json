@@ -1,0 +1,62 @@
+{
+  "id": "greyhound",
+  "name": "Greyhound",
+  "aliases": [
+    "English Greyhound"
+  ],
+  "group": "hound",
+  "origin": "England/Egypt",
+  "lifespan": "10-13 years",
+  "size": {
+    "height_cm": "68-76",
+    "weight_kg": "27-40",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 2,
+    "grooming": 1,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 1,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Short, smooth",
+    "coat_colors": [
+      "any color"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "gentle",
+    "independent",
+    "noble",
+    "affectionate",
+    "calm",
+    "quiet"
+  ],
+  "description": {
+    "overview": "The Greyhound is the fastest dog breed, capable of reaching 45 mph, yet surprisingly calm and gentle at home.",
+    "temperament": "Greyhounds are gentle, quiet couch potatoes. Despite their racing heritage, they're calm indoors.",
+    "health": "Prone to bloat, dental issues, and sensitivity to anesthesia.",
+    "exercise": "Surprisingly low exercise needs. Short daily walks and occasional sprints."
+  },
+  "verdict": {
+    "best_for": [
+      "Apartment dwellers",
+      "Those wanting a quiet dog",
+      "Families",
+      "Those interested in adopting retired racers"
+    ],
+    "not_for": [
+      "Homes with small pets",
+      "Those wanting off-leash reliability",
+      "Very cold climates",
+      "Those wanting an active outdoor companion"
+    ],
+    "summary": "The world's fastest couch potato. Greyhounds are gentle, quiet, and surprisingly apartment-friendly. Many retired racers need homes."
+  }
+}

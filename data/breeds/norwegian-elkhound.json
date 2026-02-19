@@ -1,0 +1,63 @@
+{
+  "id": "norwegian-elkhound",
+  "name": "Norwegian Elkhound",
+  "aliases": [
+    "Norsk Elghund",
+    "Elkhound"
+  ],
+  "group": "hound",
+  "origin": "Norway",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "49-52",
+    "weight_kg": "20-23",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Thick, hard outer coat with soft undercoat",
+    "coat_colors": [
+      "gray with black tips"
+    ],
+    "shedding": "heavy",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "bold",
+    "playful",
+    "loyal",
+    "alert",
+    "independent",
+    "friendly"
+  ],
+  "description": {
+    "overview": "The Norwegian Elkhound is an ancient spitz breed that hunted moose and bears alongside Vikings.",
+    "temperament": "Elkhounds are bold, loyal, and playful. They're good watchdogs and family companions.",
+    "health": "Prone to hip dysplasia, kidney problems, and eye issues.",
+    "exercise": "High energy. Need vigorous daily exercise and mental stimulation."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Those wanting a loyal companion",
+      "Cold climates",
+      "Homes with secure yards"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Hot climates",
+      "Those bothered by barking",
+      "Sedentary households"
+    ],
+    "summary": "Bold Viking hunting dogs with loyal hearts. Norwegian Elkhounds are great family dogs but need exercise and can be vocal."
+  }
+}

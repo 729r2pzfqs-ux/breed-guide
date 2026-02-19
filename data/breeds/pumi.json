@@ -1,0 +1,65 @@
+{
+  "id": "pumi",
+  "name": "Pumi",
+  "aliases": [
+    "Hungarian Pumi"
+  ],
+  "group": "herding",
+  "origin": "Hungary",
+  "lifespan": "12-13 years",
+  "size": {
+    "height_cm": "38-47",
+    "weight_kg": "8-15",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 5,
+    "grooming": 3,
+    "sociability": 3,
+    "trainability": 5,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Medium length, curly, wavy",
+    "coat_colors": [
+      "black",
+      "white",
+      "gray",
+      "fawn"
+    ],
+    "shedding": "minimal",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "intelligent",
+    "active",
+    "lively",
+    "alert",
+    "vocal",
+    "ready to work"
+  ],
+  "description": {
+    "overview": "The Pumi is an energetic Hungarian herding breed known for its corkscrew curls and terrier-like ears.",
+    "temperament": "Pumik are highly intelligent, energetic, and vocal. They excel at herding and dog sports.",
+    "health": "Generally healthy. May be prone to hip dysplasia and patellar luxation.",
+    "exercise": "Very high energy. Need extensive daily exercise and mental challenges."
+  },
+  "verdict": {
+    "best_for": [
+      "Active owners",
+      "Those interested in dog sports",
+      "Experienced dog owners",
+      "Rural or suburban homes"
+    ],
+    "not_for": [
+      "Sedentary households",
+      "Those bothered by barking",
+      "Apartment dwellers without exercise plan",
+      "First-time owners"
+    ],
+    "summary": "Energetic Hungarian herders with distinctive curly coats. Pumik are intelligent and excel at sports but need lots of exercise and bark readily."
+  }
+}
