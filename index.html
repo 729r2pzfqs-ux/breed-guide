@@ -227,40 +227,79 @@
                 <p class="text-slate-500 mb-8">Find breeds that fit your living space</p>
                 
                 <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
-                    <a href="breeds/?size=tiny" class="bg-gradient-to-br from-pink-50 to-rose-50 hover:from-pink-100 hover:to-rose-100 rounded-2xl p-6 text-center transition border border-pink-100 group">
+                    <a href="search/?size=tiny" class="bg-gradient-to-br from-pink-50 to-rose-50 hover:from-pink-100 hover:to-rose-100 rounded-2xl p-6 text-center transition border border-pink-100 group">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="images/heads/chihuahua.webp" alt="Chihuahua" class="w-full h-full object-cover">
                         </div>
                         <div class="font-semibold text-slate-800">Tiny</div>
                         <div class="text-sm text-slate-500">Under 5 kg</div>
                     </a>
-                    <a href="breeds/?size=small" class="bg-gradient-to-br from-amber-50 to-yellow-50 hover:from-amber-100 hover:to-yellow-100 rounded-2xl p-6 text-center transition border border-amber-100 group">
+                    <a href="search/?size=small" class="bg-gradient-to-br from-amber-50 to-yellow-50 hover:from-amber-100 hover:to-yellow-100 rounded-2xl p-6 text-center transition border border-amber-100 group">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="images/heads/beagle.webp" alt="Beagle" class="w-full h-full object-cover">
                         </div>
                         <div class="font-semibold text-slate-800">Small</div>
                         <div class="text-sm text-slate-500">5–10 kg</div>
                     </a>
-                    <a href="breeds/?size=medium" class="bg-gradient-to-br from-emerald-50 to-teal-50 hover:from-emerald-100 hover:to-teal-100 rounded-2xl p-6 text-center transition border border-emerald-100 group">
+                    <a href="search/?size=medium" class="bg-gradient-to-br from-emerald-50 to-teal-50 hover:from-emerald-100 hover:to-teal-100 rounded-2xl p-6 text-center transition border border-emerald-100 group">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="images/heads/border-collie.webp" alt="Border Collie" class="w-full h-full object-cover">
                         </div>
                         <div class="font-semibold text-slate-800">Medium</div>
                         <div class="text-sm text-slate-500">10–25 kg</div>
                     </a>
-                    <a href="breeds/?size=large" class="bg-gradient-to-br from-sky-50 to-blue-50 hover:from-sky-100 hover:to-blue-100 rounded-2xl p-6 text-center transition border border-sky-100 group">
+                    <a href="search/?size=large" class="bg-gradient-to-br from-sky-50 to-blue-50 hover:from-sky-100 hover:to-blue-100 rounded-2xl p-6 text-center transition border border-sky-100 group">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="images/heads/german-shepherd.webp" alt="German Shepherd" class="w-full h-full object-cover">
                         </div>
                         <div class="font-semibold text-slate-800">Large</div>
                         <div class="text-sm text-slate-500">25–45 kg</div>
                     </a>
-                    <a href="breeds/?size=giant" class="bg-gradient-to-br from-violet-50 to-purple-50 hover:from-violet-100 hover:to-purple-100 rounded-2xl p-6 text-center transition border border-violet-100 group">
+                    <a href="search/?size=giant" class="bg-gradient-to-br from-violet-50 to-purple-50 hover:from-violet-100 hover:to-purple-100 rounded-2xl p-6 text-center transition border border-violet-100 group">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="images/heads/great-dane.webp" alt="Great Dane" class="w-full h-full object-cover">
                         </div>
                         <div class="font-semibold text-slate-800">Giant</div>
                         <div class="text-sm text-slate-500">Over 45 kg</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Find by Lifestyle -->
+        <section class="py-16 px-4">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-2xl font-bold text-slate-900 mb-2">Find by Lifestyle</h2>
+                <p class="text-slate-500 mb-8">Quick filters for your needs</p>
+                
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <a href="search/?apartment=1" class="bg-gradient-to-br from-blue-50 to-indigo-50 hover:from-blue-100 hover:to-indigo-100 rounded-2xl p-6 text-center transition border border-blue-100 group">
+                        <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
+                            <i data-lucide="building-2" class="w-6 h-6 text-blue-500"></i>
+                        </div>
+                        <div class="font-semibold text-slate-800">Apartment Friendly</div>
+                        <div class="text-sm text-slate-500">Perfect for flats</div>
+                    </a>
+                    <a href="search/?kids=1" class="bg-gradient-to-br from-green-50 to-emerald-50 hover:from-green-100 hover:to-emerald-100 rounded-2xl p-6 text-center transition border border-green-100 group">
+                        <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
+                            <i data-lucide="heart" class="w-6 h-6 text-green-500"></i>
+                        </div>
+                        <div class="font-semibold text-slate-800">Great with Kids</div>
+                        <div class="text-sm text-slate-500">Family friendly</div>
+                    </a>
+                    <a href="search/?shedding=minimal" class="bg-gradient-to-br from-purple-50 to-violet-50 hover:from-purple-100 hover:to-violet-100 rounded-2xl p-6 text-center transition border border-purple-100 group">
+                        <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
+                            <i data-lucide="sparkles" class="w-6 h-6 text-purple-500"></i>
+                        </div>
+                        <div class="font-semibold text-slate-800">Low Shedding</div>
+                        <div class="text-sm text-slate-500">Less fur, less mess</div>
+                    </a>
+                    <a href="search/?train=1" class="bg-gradient-to-br from-orange-50 to-amber-50 hover:from-orange-100 hover:to-amber-100 rounded-2xl p-6 text-center transition border border-orange-100 group">
+                        <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
+                            <i data-lucide="graduation-cap" class="w-6 h-6 text-orange-500"></i>
+                        </div>
+                        <div class="font-semibold text-slate-800">Easy to Train</div>
+                        <div class="text-sm text-slate-500">Quick learners</div>
                     </a>
                 </div>
             </div>
