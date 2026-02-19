@@ -4,13 +4,14 @@
 from PIL import Image
 import os
 
-INPUT_DIR = "images/breeds"
-OUTPUT_DIR = "images/heads"
+INPUT_DIR = "/Users/juhaporraskorpi/clawd/dog-breed-guide/images/breeds"
+OUTPUT_DIR = "/Users/juhaporraskorpi/clawd/dog-breed-guide/images/heads"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+count = 0
 for img_file in sorted(os.listdir(INPUT_DIR)):
-    if not img_file.endswith('.png'):
+    if not img_file.endswith(('.webp', '.png', '.jpg', '.jpeg')):
         continue
     
     img_path = os.path.join(INPUT_DIR, img_file)
@@ -28,8 +29,11 @@ for img_file in sorted(os.listdir(INPUT_DIR)):
     # Resize to consistent 400x400
     img_cropped = img_cropped.resize((400, 400), Image.LANCZOS)
     
-    output_path = os.path.join(OUTPUT_DIR, img_file)
-    img_cropped.save(output_path, quality=90)
-    print(f"✓ {img_file}")
+    # Save as webp for consistency
+    base_name = os.path.splitext(img_file)[0]
+    output_path = os.path.join(OUTPUT_DIR, f"{base_name}.webp")
+    img_cropped.save(output_path, 'WEBP', quality=85)
+    print(f"✓ {base_name}.webp")
+    count += 1
 
-print(f"\nDone! Cropped {len(os.listdir(OUTPUT_DIR))} images to {OUTPUT_DIR}/")
+print(f"\nDone! Cropped {count} images to {OUTPUT_DIR}/")
