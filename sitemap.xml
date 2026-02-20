@@ -105,4 +105,11 @@
   <url><loc>https://breedfinder.org/breeds/whippet</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/breeds/xoloitzcuintli</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/breeds/yorkshire-terrier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+
+  <!-- Articles -->
+  <url><loc>https://breedfinder.org/articles/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://breedfinder.org/articles/best-dogs-for-apartments/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://breedfinder.org/articles/best-dogs-for-families/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://breedfinder.org/articles/low-shedding-dogs/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
