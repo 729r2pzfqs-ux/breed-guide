@@ -41,6 +41,54 @@
       }
     }
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I choose the right dog breed for my lifestyle?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consider your living space, activity level, time for grooming, and family situation. Our Breed Quiz asks these questions and matches you with compatible breeds based on your answers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the best dog breeds for apartments?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "French Bulldogs, Cavalier King Charles Spaniels, Pugs, and Boston Terriers adapt well to apartment living. Size isn't everything—some large breeds like Greyhounds are surprisingly calm indoors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which breeds are best for families with children?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Labrador Retrievers, Golden Retrievers, Beagles, and Collies are known for being patient and gentle with kids. Always supervise interactions between dogs and young children."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What dogs shed the least?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Poodles, Bichon Frises, Portuguese Water Dogs, and Schnauzers are low-shedding breeds. Note that hypoallergenic doesn't mean allergy-free."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much exercise do different breeds need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "High-energy breeds like Border Collies need 2+ hours daily. Moderate breeds like Labradors need about 1 hour. Low-energy breeds like Bulldogs are happy with 30 minutes."
+          }
+        }
+      ]
+    }
+    </script>
     
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -339,6 +387,39 @@
             </div>
         </section>
     </main>
+
+    <!-- FAQ Section -->
+    <section class="py-16 px-4 bg-slate-50">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-bold text-slate-900 mb-8 text-center">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <div class="bg-white rounded-xl p-6 shadow-sm">
+                    <h3 class="font-semibold text-slate-900 text-lg">How do I choose the right dog breed for my lifestyle?</h3>
+                    <p class="text-slate-600 mt-2">Consider your living space, activity level, time for grooming, and family situation. Our <a href="quiz" class="text-sky-600 hover:underline">Breed Quiz</a> asks these questions and matches you with compatible breeds based on your answers.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-sm">
+                    <h3 class="font-semibold text-slate-900 text-lg">What are the best dog breeds for apartments?</h3>
+                    <p class="text-slate-600 mt-2">French Bulldogs, Cavalier King Charles Spaniels, Pugs, and Boston Terriers adapt well to apartment living. Size isn't everything—some large breeds like Greyhounds are surprisingly calm indoors, while small breeds like Jack Russells need lots of space to run.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-sm">
+                    <h3 class="font-semibold text-slate-900 text-lg">Which breeds are best for families with children?</h3>
+                    <p class="text-slate-600 mt-2">Labrador Retrievers, Golden Retrievers, Beagles, and Collies are known for being patient and gentle with kids. Always supervise interactions between dogs and young children, regardless of breed.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-sm">
+                    <h3 class="font-semibold text-slate-900 text-lg">What dogs shed the least?</h3>
+                    <p class="text-slate-600 mt-2">Poodles, Bichon Frises, Portuguese Water Dogs, and Schnauzers are low-shedding breeds. Note that "hypoallergenic" doesn't mean allergy-free—all dogs produce some allergens through skin and saliva.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-sm">
+                    <h3 class="font-semibold text-slate-900 text-lg">How much exercise do different breeds need?</h3>
+                    <p class="text-slate-600 mt-2">High-energy breeds like Border Collies and Huskies need 2+ hours daily. Moderate breeds like Labradors need about 1 hour. Low-energy breeds like Bulldogs and Basset Hounds are happy with 30 minutes. Check each breed's page for specific needs.</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 shadow-sm">
+                    <h3 class="font-semibold text-slate-900 text-lg">What's the difference between the Compare tool and the Quiz?</h3>
+                    <p class="text-slate-600 mt-2">The <a href="quiz" class="text-sky-600 hover:underline">Quiz</a> helps you discover breeds based on your lifestyle. The <a href="compare" class="text-sky-600 hover:underline">Compare tool</a> lets you view two specific breeds side-by-side to compare size, temperament, grooming needs, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="bg-slate-900 text-white py-12 px-4">
