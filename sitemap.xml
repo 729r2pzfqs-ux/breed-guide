@@ -155,4 +155,17 @@
   <url><loc>https://breedfinder.org/breeds/landseer</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/breeds/greater-swiss-mountain-dog</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/breeds/appenzeller-sennenhund</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+
+  <!-- Breeds 101-110 (Terriers) -->
+  <url><loc>https://breedfinder.org/breeds/cairn-terrier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/breeds/norfolk-terrier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/breeds/norwich-terrier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/breeds/wire-fox-terrier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/breeds/smooth-fox-terrier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/breeds/lakeland-terrier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/breeds/welsh-terrier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/breeds/skye-terrier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/breeds/sealyham-terrier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/breeds/dandie-dinmont-terrier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
