@@ -107,6 +107,7 @@ T = {
         'guide1_title': 'Parhaat Kerrostalokoirat', 'guide1_desc': '15 rotua jotka viihtyvät pienissä tiloissa',
         'guide2_title': 'Parhaat Perhekoirat', 'guide2_desc': '12 kärsivällistä, lempeää rotua lapsille',
         'guide3_title': 'Vähän Karvaavat Rodut', 'guide3_desc': '20 rotua puhtaampaan kotiin',
+        'article1_slug': 'parhaat-kerrostalokoirat', 'article2_slug': 'parhaat-perhekoirat', 'article3_slug': 'vahan-karvaavat-koirat',
         'faq_title': 'Usein Kysytyt Kysymykset',
         'faq1_q': 'Miten valitsen oikean koirarodun elämäntyyliini?',
         'faq1_a': 'Harkitse asuintilaasi, aktiivisuustasoasi, aikaa turkinhoitoon ja perhettäsi. Rotatestiemme kysyy nämä ja yhdistää sinut sopiviin rotuihin.',
@@ -156,6 +157,7 @@ T = {
         'guide1_title': 'Beste Wohnungshunde', 'guide1_desc': '15 Rassen für kleine Räume',
         'guide2_title': 'Beste Familienhunde', 'guide2_desc': '12 geduldige Rassen für Kinder',
         'guide3_title': 'Wenig Haarende Rassen', 'guide3_desc': '20 Rassen für ein sauberes Zuhause',
+        'article1_slug': 'beste-hunde-fuer-wohnungen', 'article2_slug': 'beste-hunde-fuer-familien', 'article3_slug': 'wenig-haarende-hunde',
         'faq_title': 'Häufig Gestellte Fragen',
         'faq1_q': 'Wie wähle ich die richtige Hunderasse?',
         'faq1_a': 'Berücksichtige deinen Wohnraum, Aktivitätslevel und Familie. Unser Quiz hilft dir dabei.',
@@ -205,6 +207,7 @@ T = {
         'guide1_title': 'Mejores Perros para Apartamentos', 'guide1_desc': '15 razas para espacios pequeños',
         'guide2_title': 'Mejores Perros para Familias', 'guide2_desc': '12 razas gentiles para niños',
         'guide3_title': 'Razas que No Sueltan Pelo', 'guide3_desc': '20 razas para un hogar limpio',
+        'article1_slug': 'best-dogs-for-apartments', 'article2_slug': 'best-dogs-for-families', 'article3_slug': 'low-shedding-dogs',
         'faq_title': 'Preguntas Frecuentes',
         'faq1_q': '¿Cómo elijo la raza correcta para mi estilo de vida?',
         'faq1_a': 'Considera tu espacio, nivel de actividad y familia. Nuestro Quiz te ayuda con esto.',
@@ -254,6 +257,7 @@ T = {
         'guide1_title': 'Meilleurs Chiens d\'Appartement', 'guide1_desc': '15 races pour petits espaces',
         'guide2_title': 'Meilleurs Chiens pour Familles', 'guide2_desc': '12 races douces pour les enfants',
         'guide3_title': 'Races à Faible Perte de Poils', 'guide3_desc': '20 races pour une maison propre',
+        'article1_slug': 'best-dogs-for-apartments', 'article2_slug': 'best-dogs-for-families', 'article3_slug': 'low-shedding-dogs',
         'faq_title': 'Questions Fréquentes',
         'faq1_q': 'Comment choisir la bonne race pour mon style de vie?',
         'faq1_a': 'Considérez votre espace, niveau d\'activité et famille. Notre Quiz vous aide.',
@@ -311,6 +315,7 @@ T['it'] = {
     'guide1_title': 'Migliori Cani da Appartamento', 'guide1_desc': '15 razze per piccoli spazi',
     'guide2_title': 'Migliori Cani per Famiglie', 'guide2_desc': '12 razze gentili per bambini',
     'guide3_title': 'Razze che Perdono Poco Pelo', 'guide3_desc': '20 razze per una casa pulita',
+    'article1_slug': 'best-dogs-for-apartments', 'article2_slug': 'best-dogs-for-families', 'article3_slug': 'low-shedding-dogs',
     'faq_title': 'Domande Frequenti',
     'faq1_q': 'Come scelgo la razza giusta per il mio stile di vita?',
     'faq1_a': 'Considera il tuo spazio, livello di attività e famiglia. Il nostro Quiz ti aiuta.',
@@ -642,17 +647,17 @@ def generate_homepage(lang, base_dir):
             <h2 class="text-2xl font-bold text-slate-900 mb-2">{t['guides_title']}</h2>
             <p class="text-slate-600 mb-6">{t['guides_subtitle']}</p>
             <div class="grid md:grid-cols-3 gap-4">
-                <a href="../articles/best-dogs-for-apartments/" class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition border border-slate-100">
+                <a href="articles/{t.get('article1_slug', 'best-dogs-for-apartments')}/" class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition border border-slate-100">
                     <span class="text-3xl">🏢</span>
                     <h3 class="font-bold text-slate-900 mt-3 mb-1">{t['guide1_title']}</h3>
                     <p class="text-slate-600 text-sm">{t['guide1_desc']}</p>
                 </a>
-                <a href="../articles/best-dogs-for-families/" class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition border border-slate-100">
+                <a href="articles/{t.get('article2_slug', 'best-dogs-for-families')}/" class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition border border-slate-100">
                     <span class="text-3xl">👨‍👩‍👧‍👦</span>
                     <h3 class="font-bold text-slate-900 mt-3 mb-1">{t['guide2_title']}</h3>
                     <p class="text-slate-600 text-sm">{t['guide2_desc']}</p>
                 </a>
-                <a href="../articles/low-shedding-dogs/" class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition border border-slate-100">
+                <a href="articles/{t.get('article3_slug', 'low-shedding-dogs')}/" class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition border border-slate-100">
                     <span class="text-3xl">✨</span>
                     <h3 class="font-bold text-slate-900 mt-3 mb-1">{t['guide3_title']}</h3>
                     <p class="text-slate-600 text-sm">{t['guide3_desc']}</p>
