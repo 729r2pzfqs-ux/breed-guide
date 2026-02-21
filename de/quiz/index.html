@@ -20,14 +20,13 @@
             </a>
             <nav class="flex items-center gap-4 text-sm font-medium">
                 <a href="../search/" class="text-slate-600 hover:text-sky-600">Rassen Durchsuchen</a>
-                <a href="./" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-4 py-2 rounded-xl">Quiz Starten</a>
+                <a href="./" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-4 py-2 rounded-xl">Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="max-w-2xl mx-auto px-4 py-12">
         <div id="quiz-container">
-            <!-- Intro -->
             <div id="quiz-intro" class="text-center">
                 <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm border text-sm text-slate-600 mb-6">
                     <span>🎯</span>
@@ -36,126 +35,330 @@
                 <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
                     <span class="bg-gradient-to-r from-sky-500 to-violet-500 bg-clip-text text-transparent">Finde Deinen Perfekten Hund</span>
                 </h1>
-                <p class="text-lg text-slate-600 mb-8">Beantworte ein paar Fragen über deinen Lebensstil und wir finden passende Rassen.</p>
+                <p class="text-lg text-slate-600 mb-8">Beantworte ein paar Fragen zu deinem Lebensstil und wir finden passende Rassen.</p>
                 <button onclick="startQuiz()" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:shadow-xl transition">
                     Quiz Starten →
                 </button>
             </div>
 
-            <!-- Questions -->
             <div id="quiz-questions" class="hidden">
                 <div class="bg-white rounded-3xl shadow-xl p-8">
                     <div class="mb-8">
                         <div class="flex justify-between text-sm text-slate-500 mb-2">
                             <span>Frage <span id="current-q">1</span> von 5</span>
-                            <span id="progress-pct">20%</span>
+                            <span id="progress-text">20%</span>
                         </div>
                         <div class="h-2 bg-slate-100 rounded-full overflow-hidden">
-                            <div id="progress-bar" class="h-full bg-gradient-to-r from-sky-500 to-violet-500 transition-all" style="width: 20%"></div>
+                            <div id="progress-bar" class="h-full bg-gradient-to-r from-sky-500 to-violet-500 transition-all duration-300" style="width: 20%"></div>
                         </div>
                     </div>
                     <h2 id="question-text" class="text-2xl font-bold mb-6"></h2>
-                    <div id="options-container" class="space-y-3"></div>
+                    <div id="answers" class="space-y-3"></div>
+                    <div class="flex justify-between mt-8">
+                        <button id="back-btn" onclick="prevQuestion()" class="px-6 py-3 text-slate-600 hover:text-slate-800 hidden">Zurück</button>
+                        <button id="next-btn" onclick="nextQuestion()" class="ml-auto bg-gradient-to-r from-sky-500 to-violet-500 text-white px-6 py-3 rounded-xl font-semibold disabled:opacity-50" disabled>Weiter</button>
+                    </div>
                 </div>
             </div>
 
-            <!-- Results -->
-            <div id="quiz-results" class="hidden text-center">
-                <h2 class="text-3xl font-bold mb-8">Deine Perfekten Treffer!</h2>
-                <div id="results-container" class="space-y-4"></div>
-                <button onclick="location.reload()" class="mt-8 text-sky-600 font-semibold hover:text-sky-700">
-                    Quiz Wiederholen
-                </button>
+            <div id="quiz-results" class="hidden">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl font-extrabold mb-2">Deine Perfekten Matches</h2>
+                    <p class="text-slate-600">Basierend auf deinen Antworten sind diese Rassen ideal für dich</p>
+                </div>
+                <div id="results-list" class="space-y-4"></div>
+                <div class="flex justify-center gap-4 mt-8">
+                    <button onclick="location.reload()" class="px-6 py-3 border border-slate-200 rounded-xl hover:bg-slate-50">← Quiz Wiederholen</button>
+                    <a href="../compare/" id="compare-link" class="px-6 py-3 bg-gradient-to-r from-sky-500 to-violet-500 text-white rounded-xl font-semibold">Top 2 Vergleichen</a>
+                </div>
             </div>
         </div>
     </main>
 
     <script>
         const questions = [
-            {
-                q: "Wie ist deine Wohnsituation?",
-                opts: [
-                    { text: "Wohnung / Kleiner Raum", scores: { apartment: 5, size: 'small' } },
-                    { text: "Haus mit kleinem Garten", scores: { apartment: 3, size: 'medium' } },
-                    { text: "Haus mit großem Garten", scores: { apartment: 1, size: 'large' } },
-                    { text: "Ländlich / Bauernhof", scores: { apartment: 0, size: 'giant' } }
-                ]
-            },
-            {
-                q: "Wie aktiv bist du?",
-                opts: [
-                    { text: "Entspannt — kurze Spaziergänge reichen", scores: { energy: 1 } },
-                    { text: "Moderat — tägliche Spaziergänge", scores: { energy: 3 } },
-                    { text: "Aktiv — ich jogge oder wandere regelmäßig", scores: { energy: 4 } },
-                    { text: "Sehr aktiv — ich brauche einen Trainingspartner", scores: { energy: 5 } }
-                ]
-            },
-            {
-                q: "Hast du Kinder?",
-                opts: [
-                    { text: "Keine Kinder", scores: { kids: 0 } },
-                    { text: "Ältere Kinder (10+)", scores: { kids: 3 } },
-                    { text: "Kleine Kinder (unter 10)", scores: { kids: 5 } },
-                    { text: "Planen Kinder", scores: { kids: 4 } }
-                ]
-            },
-            {
-                q: "Wie viel Pflege bist du bereit zu machen?",
-                opts: [
-                    { text: "Minimal — pflegeleicht bitte", scores: { grooming: 1 } },
-                    { text: "Etwas — wöchentliches Bürsten ok", scores: { grooming: 2 } },
-                    { text: "Regelmäßig — ich pflege gerne", scores: { grooming: 4 } },
-                    { text: "Viel — ich liebe flauschige Hunde", scores: { grooming: 5 } }
-                ]
-            },
-            {
-                q: "Welche Größe bevorzugst du?",
-                opts: [
-                    { text: "Winzig (unter 5 kg)", scores: { preferSize: 'tiny' } },
-                    { text: "Klein (5-10 kg)", scores: { preferSize: 'small' } },
-                    { text: "Mittel (10-25 kg)", scores: { preferSize: 'medium' } },
-                    { text: "Groß (25-45 kg)", scores: { preferSize: 'large' } },
-                    { text: "Riesig (über 45 kg)", scores: { preferSize: 'giant' } }
-                ]
-            }
+            { q: "Wie aktiv ist dein Lebensstil?", answers: ["🛋️ Entspannt — Ich mag ruhige Abende", "🚶 Moderat — Tägliche Spaziergänge sind ok", "🏃 Aktiv — Ich trainiere regelmäßig", "⚡ Sehr Aktiv — Draußen ist mein Leben"], tags: [["low-energy"], ["moderate-energy"], ["high-energy"], ["high-energy"]] },
+            { q: "Wie viel Platz hast du?", answers: ["🏢 Kleine Wohnung", "🏠 Haus / größere Wohnung", "🏡 Haus mit Garten", "🌳 Großes Grundstück / ländlich"], tags: [["apartment", "small"], ["medium"], ["large"], ["large"]] },
+            { q: "Mit wem wird der Hund leben?", answers: ["👤 Nur ich", "👫 Ich und Partner", "👨‍👩‍👧 Familie mit älteren Kindern", "👶 Familie mit kleinen Kindern"], tags: [[], [], ["family-friendly"], ["family-friendly"]] },
+            { q: "Wie viel Pflege kannst du bewältigen?", answers: ["✨ Minimal — pflegeleicht bitte", "🪥 Etwas — wöchentliches Bürsten ok", "💇 Regelmäßig — ich kann mich zur Pflege verpflichten", "🐩 Viel — ich genieße die Pflege"], tags: [["low-grooming"], [], [], ["high-grooming"]] },
+            { q: "Welche Größe bevorzugst du?", answers: ["🐕 Klein (unter 10 kg)", "🐕 Mittel (10-25 kg)", "🐕 Groß (25-45 kg)", "🐕 Riesig (über 45 kg)"], tags: [["small"], ["medium"], ["large"], ["large"]] }
+        ];
+
+        const breeds = [
+            { name: "Affenpinscher", slug: "affenpinscher", tags: ["moderate-energy", "small", "apartment"] },
+            { name: "Afghan Hound", slug: "afghan-hound", tags: ["high-energy", "large", "high-grooming"] },
+            { name: "Airedale Terrier", slug: "airedale-terrier", tags: ["high-energy", "large", "family-friendly"] },
+            { name: "Akita", slug: "akita", tags: ["moderate-energy", "large"] },
+            { name: "Alaskan Klee Kai", slug: "alaskan-klee-kai", tags: ["high-energy", "small", "apartment"] },
+            { name: "Alaskan Malamute", slug: "alaskan-malamute", tags: ["high-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "American Bulldog", slug: "american-bulldog", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "American English Coonhound", slug: "american-english-coonhound", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "American Eskimo Dog", slug: "american-eskimo-dog", tags: ["high-energy", "medium", "family-friendly", "apartment", "high-grooming"] },
+            { name: "American Foxhound", slug: "american-foxhound", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "American Hairless Terrier", slug: "american-hairless-terrier", tags: ["high-energy", "small", "family-friendly", "apartment", "low-grooming"] },
+            { name: "American Staffordshire Terrier", slug: "american-staffordshire-terrier", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "American Water Spaniel", slug: "american-water-spaniel", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Anatolian Shepherd", slug: "anatolian-shepherd", tags: ["moderate-energy", "large", "low-grooming"] },
+            { name: "Appenzeller Sennenhund", slug: "appenzeller-sennenhund", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Australian Cattle Dog", slug: "australian-cattle-dog", tags: ["high-energy", "medium", "low-grooming"] },
+            { name: "Australian Shepherd", slug: "australian-shepherd", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Australian Terrier", slug: "australian-terrier", tags: ["high-energy", "small", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Azawakh", slug: "azawakh", tags: ["high-energy", "large", "low-grooming"] },
+            { name: "Barbet", slug: "barbet", tags: ["high-energy", "medium", "family-friendly", "high-grooming"] },
+            { name: "Basenji", slug: "basenji", tags: ["high-energy", "small", "apartment", "low-grooming"] },
+            { name: "Basset Hound", slug: "basset-hound", tags: ["low-energy", "medium", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Beagle", slug: "beagle", tags: ["high-energy", "small", "family-friendly", "low-grooming"] },
+            { name: "Beauceron", slug: "beauceron", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Bedlington Terrier", slug: "bedlington-terrier", tags: ["high-energy", "small", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Belgian Laekenois", slug: "belgian-laekenois", tags: ["high-energy", "large", "family-friendly"] },
+            { name: "Belgian Malinois", slug: "belgian-malinois", tags: ["high-energy", "large", "low-grooming"] },
+            { name: "Belgian Sheepdog", slug: "belgian-sheepdog", tags: ["high-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "Belgian Tervuren", slug: "belgian-tervuren", tags: ["high-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "Bergamasco Sheepdog", slug: "bergamasco-sheepdog", tags: ["moderate-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Berger Picard", slug: "berger-picard", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Bernese Mountain Dog", slug: "bernese-mountain-dog", tags: ["moderate-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "Bichon Frise", slug: "bichon-frise", tags: ["moderate-energy", "small", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Biewer Terrier", slug: "biewer-terrier", tags: ["moderate-energy", "small", "apartment", "high-grooming"] },
+            { name: "Black and Tan Coonhound", slug: "black-and-tan-coonhound", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Black Russian Terrier", slug: "black-russian-terrier", tags: ["high-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "Bloodhound", slug: "bloodhound", tags: ["moderate-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Bluetick Coonhound", slug: "bluetick-coonhound", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Boerboel", slug: "boerboel", tags: ["moderate-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Bolognese", slug: "bolognese", tags: ["low-energy", "small", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Border Collie", slug: "border-collie", tags: ["high-energy", "medium"] },
+            { name: "Border Terrier", slug: "border-terrier", tags: ["high-energy", "small", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Borzoi", slug: "borzoi", tags: ["moderate-energy", "large"] },
+            { name: "Boston Terrier", slug: "boston-terrier", tags: ["moderate-energy", "small", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Bouvier des Flandres", slug: "bouvier-des-flandres", tags: ["high-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "Boxer", slug: "boxer", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Boykin Spaniel", slug: "boykin-spaniel", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Bracco Italiano", slug: "bracco-italiano", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Briard", slug: "briard", tags: ["high-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "Brittany", slug: "brittany", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Brussels Griffon", slug: "brussels-griffon", tags: ["moderate-energy", "small", "apartment"] },
+            { name: "Bull Terrier", slug: "bull-terrier", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Bulldog", slug: "bulldog", tags: ["low-energy", "medium", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Bullmastiff", slug: "bullmastiff", tags: ["low-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Cairn Terrier", slug: "cairn-terrier", tags: ["high-energy", "small", "family-friendly", "apartment"] },
+            { name: "Canaan Dog", slug: "canaan-dog", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Cane Corso", slug: "cane-corso", tags: ["moderate-energy", "large", "low-grooming"] },
+            { name: "Cardigan Welsh Corgi", slug: "cardigan-welsh-corgi", tags: ["high-energy", "medium", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Cavalier King Charles Spaniel", slug: "cavalier-king-charles-spaniel", tags: ["low-energy", "small", "family-friendly", "apartment"] },
+            { name: "Cesky Terrier", slug: "cesky-terrier", tags: ["moderate-energy", "small", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Chesapeake Bay Retriever", slug: "chesapeake-bay-retriever", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Chihuahua", slug: "chihuahua", tags: ["moderate-energy", "small", "apartment", "low-grooming"] },
+            { name: "Chinese Crested", slug: "chinese-crested", tags: ["low-energy", "small", "apartment"] },
+            { name: "Chinook", slug: "chinook", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Chow Chow", slug: "chow-chow", tags: ["low-energy", "medium", "high-grooming"] },
+            { name: "Cirneco dell'Etna", slug: "cirneco-delletna", tags: ["high-energy", "medium", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Clumber Spaniel", slug: "clumber-spaniel", tags: ["low-energy", "large", "family-friendly"] },
+            { name: "Cocker Spaniel", slug: "cocker-spaniel", tags: ["moderate-energy", "medium", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Collie", slug: "collie", tags: ["moderate-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "Coton de Tulear", slug: "coton-de-tulear", tags: ["moderate-energy", "small", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Curly-Coated Retriever", slug: "curly-coated-retriever", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Dachshund", slug: "dachshund", tags: ["moderate-energy", "small", "apartment", "low-grooming"] },
+            { name: "Dalmatian", slug: "dalmatian", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Dandie Dinmont Terrier", slug: "dandie-dinmont-terrier", tags: ["moderate-energy", "small", "family-friendly", "apartment"] },
+            { name: "Deutscher Wachtelhund", slug: "deutscher-wachtelhund", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Doberman Pinscher", slug: "doberman-pinscher", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Dogo Argentino", slug: "dogo-argentino", tags: ["high-energy", "large", "low-grooming"] },
+            { name: "Dogue de Bordeaux", slug: "dogue-de-bordeaux", tags: ["low-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Drentse Patrijshond", slug: "drentse-patrijshond", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Dutch Shepherd", slug: "dutch-shepherd", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "English Cocker Spaniel", slug: "english-cocker-spaniel", tags: ["high-energy", "medium", "family-friendly", "apartment", "high-grooming"] },
+            { name: "English Foxhound", slug: "english-foxhound", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "English Pointer", slug: "english-pointer", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "English Setter", slug: "english-setter", tags: ["high-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "English Springer Spaniel", slug: "english-springer-spaniel", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "English Toy Spaniel", slug: "english-toy-spaniel", tags: ["low-energy", "small", "family-friendly", "apartment"] },
+            { name: "Entlebucher Mountain Dog", slug: "entlebucher-mountain-dog", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Eurasier", slug: "eurasier", tags: ["moderate-energy", "medium", "family-friendly"] },
+            { name: "Field Spaniel", slug: "field-spaniel", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Finnish Lapphund", slug: "finnish-lapphund", tags: ["high-energy", "medium", "family-friendly", "high-grooming"] },
+            { name: "Finnish Spitz", slug: "finnish-spitz", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Flat-Coated Retriever", slug: "flat-coated-retriever", tags: ["high-energy", "large", "family-friendly"] },
+            { name: "French Bulldog", slug: "french-bulldog", tags: ["low-energy", "small", "family-friendly", "apartment", "low-grooming"] },
+            { name: "German Shepherd", slug: "german-shepherd", tags: ["high-energy", "large", "family-friendly"] },
+            { name: "German Shorthaired Pointer", slug: "german-shorthaired-pointer", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "German Spitz", slug: "german-spitz", tags: ["high-energy", "small", "family-friendly", "apartment", "high-grooming"] },
+            { name: "German Wirehaired Pointer", slug: "german-wirehaired-pointer", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Giant Schnauzer", slug: "giant-schnauzer", tags: ["high-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "Glen of Imaal Terrier", slug: "glen-of-imaal-terrier", tags: ["moderate-energy", "medium", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Golden Retriever", slug: "golden-retriever", tags: ["high-energy", "large", "family-friendly"] },
+            { name: "Gordon Setter", slug: "gordon-setter", tags: ["high-energy", "large", "family-friendly"] },
+            { name: "Grand Basset Griffon Vendéen", slug: "grand-basset-griffon-vendeen", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Great Dane", slug: "great-dane", tags: ["moderate-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Great Pyrenees", slug: "great-pyrenees", tags: ["low-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "Greater Swiss Mountain Dog", slug: "greater-swiss-mountain-dog", tags: ["moderate-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Greyhound", slug: "greyhound", tags: ["low-energy", "large", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Harrier", slug: "harrier", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Havanese", slug: "havanese", tags: ["moderate-energy", "small", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Hokkaido", slug: "hokkaido", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Hovawart", slug: "hovawart", tags: ["high-energy", "large", "family-friendly"] },
+            { name: "Ibizan Hound", slug: "ibizan-hound", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Icelandic Sheepdog", slug: "icelandic-sheepdog", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Irish Red and White Setter", slug: "irish-red-and-white-setter", tags: ["high-energy", "large", "family-friendly"] },
+            { name: "Irish Setter", slug: "irish-setter", tags: ["high-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "Irish Water Spaniel", slug: "irish-water-spaniel", tags: ["high-energy", "medium", "family-friendly", "high-grooming"] },
+            { name: "Irish Wolfhound", slug: "irish-wolfhound", tags: ["moderate-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Italian Greyhound", slug: "italian-greyhound", tags: ["moderate-energy", "small", "apartment", "low-grooming"] },
+            { name: "Jack Russell Terrier", slug: "jack-russell-terrier", tags: ["high-energy", "small", "low-grooming"] },
+            { name: "Japanese Chin", slug: "japanese-chin", tags: ["low-energy", "small", "apartment"] },
+            { name: "Japanese Spitz", slug: "japanese-spitz", tags: ["high-energy", "small", "family-friendly", "apartment"] },
+            { name: "Kai Ken", slug: "kai-ken", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Keeshond", slug: "keeshond", tags: ["moderate-energy", "medium", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Kerry Blue Terrier", slug: "kerry-blue-terrier", tags: ["high-energy", "medium", "family-friendly", "high-grooming"] },
+            { name: "Kishu Ken", slug: "kishu-ken", tags: ["high-energy", "medium", "low-grooming"] },
+            { name: "Komondor", slug: "komondor", tags: ["low-energy", "large", "high-grooming"] },
+            { name: "Korean Jindo", slug: "korean-jindo", tags: ["high-energy", "medium", "low-grooming"] },
+            { name: "Kuvasz", slug: "kuvasz", tags: ["moderate-energy", "large"] },
+            { name: "Labrador Retriever", slug: "labrador-retriever", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Lagotto Romagnolo", slug: "lagotto-romagnolo", tags: ["high-energy", "medium", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Lakeland Terrier", slug: "lakeland-terrier", tags: ["high-energy", "small", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Landseer", slug: "landseer", tags: ["moderate-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "Large Münsterländer", slug: "large-munsterlander", tags: ["high-energy", "large", "family-friendly"] },
+            { name: "Leonberger", slug: "leonberger", tags: ["moderate-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "Lhasa Apso", slug: "lhasa-apso", tags: ["moderate-energy", "small", "apartment", "high-grooming"] },
+            { name: "Löwchen", slug: "lowchen", tags: ["moderate-energy", "small", "family-friendly", "apartment"] },
+            { name: "Maltese", slug: "maltese", tags: ["moderate-energy", "small", "apartment", "high-grooming"] },
+            { name: "Manchester Terrier", slug: "manchester-terrier", tags: ["high-energy", "small", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Mastiff", slug: "mastiff", tags: ["low-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Miniature American Shepherd", slug: "miniature-american-shepherd", tags: ["high-energy", "small", "family-friendly"] },
+            { name: "Miniature Pinscher", slug: "miniature-pinscher", tags: ["high-energy", "small", "apartment", "low-grooming"] },
+            { name: "Miniature Schnauzer", slug: "miniature-schnauzer", tags: ["high-energy", "small", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Mudi", slug: "mudi", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Neapolitan Mastiff", slug: "neapolitan-mastiff", tags: ["low-energy", "large", "low-grooming"] },
+            { name: "Nederlandse Kooikerhondje", slug: "nederlandse-kooikerhondje", tags: ["high-energy", "small", "family-friendly", "apartment"] },
+            { name: "Newfoundland", slug: "newfoundland", tags: ["moderate-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "Norfolk Terrier", slug: "norfolk-terrier", tags: ["high-energy", "small", "family-friendly", "apartment"] },
+            { name: "Norwegian Buhund", slug: "norwegian-buhund", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Norwegian Elkhound", slug: "norwegian-elkhound", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Norwegian Lundehund", slug: "norwegian-lundehund", tags: ["high-energy", "small", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Norwich Terrier", slug: "norwich-terrier", tags: ["high-energy", "small", "family-friendly", "apartment"] },
+            { name: "Nova Scotia Duck Tolling Retriever", slug: "nova-scotia-duck-tolling-retriever", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Old English Sheepdog", slug: "old-english-sheepdog", tags: ["moderate-energy", "large", "family-friendly", "high-grooming"] },
+            { name: "Otterhound", slug: "otterhound", tags: ["high-energy", "large", "family-friendly"] },
+            { name: "Papillon", slug: "papillon", tags: ["high-energy", "small", "apartment"] },
+            { name: "Parson Russell Terrier", slug: "parson-russell-terrier", tags: ["high-energy", "small", "low-grooming"] },
+            { name: "Pekingese", slug: "pekingese", tags: ["low-energy", "small", "apartment", "high-grooming"] },
+            { name: "Pembroke Welsh Corgi", slug: "pembroke-welsh-corgi", tags: ["high-energy", "small", "family-friendly"] },
+            { name: "Peruvian Inca Orchid", slug: "peruvian-inca-orchid", tags: ["moderate-energy", "medium", "apartment", "low-grooming"] },
+            { name: "Petit Basset Griffon Vendéen", slug: "petit-basset-griffon-vendeen", tags: ["high-energy", "small", "family-friendly"] },
+            { name: "Pharaoh Hound", slug: "pharaoh-hound", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Plott Hound", slug: "plott-hound", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Polish Lowland Sheepdog", slug: "polish-lowland-sheepdog", tags: ["high-energy", "medium", "family-friendly", "high-grooming"] },
+            { name: "Pomeranian", slug: "pomeranian", tags: ["moderate-energy", "small", "apartment", "high-grooming"] },
+            { name: "Poodle", slug: "poodle", tags: ["high-energy", "large", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Portuguese Podengo Pequeno", slug: "portuguese-podengo-pequeno", tags: ["high-energy", "small", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Portuguese Water Dog", slug: "portuguese-water-dog", tags: ["high-energy", "medium", "family-friendly", "high-grooming"] },
+            { name: "Pudelpointer", slug: "pudelpointer", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Pug", slug: "pug", tags: ["low-energy", "small", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Puli", slug: "puli", tags: ["high-energy", "medium", "family-friendly", "high-grooming"] },
+            { name: "Pumi", slug: "pumi", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Pyrenean Shepherd", slug: "pyrenean-shepherd", tags: ["high-energy", "small", "family-friendly"] },
+            { name: "Rat Terrier", slug: "rat-terrier", tags: ["high-energy", "small", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Redbone Coonhound", slug: "redbone-coonhound", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Rhodesian Ridgeback", slug: "rhodesian-ridgeback", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Rottweiler", slug: "rottweiler", tags: ["high-energy", "large", "low-grooming"] },
+            { name: "Russell Terrier", slug: "russell-terrier", tags: ["high-energy", "small", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Russian Toy", slug: "russian-toy", tags: ["high-energy", "small", "apartment", "low-grooming"] },
+            { name: "Saluki", slug: "saluki", tags: ["high-energy", "large", "low-grooming"] },
+            { name: "Samoyed", slug: "samoyed", tags: ["high-energy", "medium", "family-friendly", "high-grooming"] },
+            { name: "Schipperke", slug: "schipperke", tags: ["high-energy", "small", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Scottish Deerhound", slug: "scottish-deerhound", tags: ["moderate-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Scottish Terrier", slug: "scottish-terrier", tags: ["moderate-energy", "small", "apartment"] },
+            { name: "Sealyham Terrier", slug: "sealyham-terrier", tags: ["moderate-energy", "small", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Shar-Pei", slug: "shar-pei", tags: ["low-energy", "medium", "apartment", "low-grooming"] },
+            { name: "Shetland Sheepdog", slug: "shetland-sheepdog", tags: ["high-energy", "small", "family-friendly", "high-grooming"] },
+            { name: "Shiba Inu", slug: "shiba-inu", tags: ["high-energy", "small", "apartment"] },
+            { name: "Shih Tzu", slug: "shih-tzu", tags: ["low-energy", "small", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Shikoku", slug: "shikoku", tags: ["high-energy", "medium"] },
+            { name: "Siberian Husky", slug: "siberian-husky", tags: ["high-energy", "medium", "family-friendly", "high-grooming"] },
+            { name: "Silky Terrier", slug: "silky-terrier", tags: ["high-energy", "small", "apartment", "high-grooming"] },
+            { name: "Skye Terrier", slug: "skye-terrier", tags: ["moderate-energy", "small", "apartment", "high-grooming"] },
+            { name: "Sloughi", slug: "sloughi", tags: ["high-energy", "large", "low-grooming"] },
+            { name: "Small Münsterländer", slug: "small-munsterlander", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Smooth Fox Terrier", slug: "smooth-fox-terrier", tags: ["high-energy", "small", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Soft Coated Wheaten Terrier", slug: "soft-coated-wheaten-terrier", tags: ["high-energy", "medium", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Spanish Water Dog", slug: "spanish-water-dog", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Spinone Italiano", slug: "spinone-italiano", tags: ["moderate-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "St. Bernard", slug: "st-bernard", tags: ["low-energy", "large", "family-friendly"] },
+            { name: "Staffordshire Bull Terrier", slug: "staffordshire-bull-terrier", tags: ["high-energy", "medium", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Standard Schnauzer", slug: "standard-schnauzer", tags: ["high-energy", "medium", "family-friendly", "high-grooming"] },
+            { name: "Sussex Spaniel", slug: "sussex-spaniel", tags: ["moderate-energy", "medium", "family-friendly"] },
+            { name: "Swedish Vallhund", slug: "swedish-vallhund", tags: ["high-energy", "small", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Thai Ridgeback", slug: "thai-ridgeback", tags: ["high-energy", "medium", "low-grooming"] },
+            { name: "Tibetan Mastiff", slug: "tibetan-mastiff", tags: ["low-energy", "large", "high-grooming"] },
+            { name: "Tibetan Spaniel", slug: "tibetan-spaniel", tags: ["moderate-energy", "small", "family-friendly", "apartment"] },
+            { name: "Tibetan Terrier", slug: "tibetan-terrier", tags: ["moderate-energy", "medium", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Toy Fox Terrier", slug: "toy-fox-terrier", tags: ["high-energy", "small", "apartment", "low-grooming"] },
+            { name: "Treeing Walker Coonhound", slug: "treeing-walker-coonhound", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Vizsla", slug: "vizsla", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Weimaraner", slug: "weimaraner", tags: ["high-energy", "large", "family-friendly", "low-grooming"] },
+            { name: "Welsh Springer Spaniel", slug: "welsh-springer-spaniel", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Welsh Terrier", slug: "welsh-terrier", tags: ["high-energy", "small", "family-friendly", "apartment"] },
+            { name: "West Highland White Terrier", slug: "west-highland-white-terrier", tags: ["high-energy", "small", "family-friendly", "apartment"] },
+            { name: "Whippet", slug: "whippet", tags: ["moderate-energy", "medium", "family-friendly", "apartment", "low-grooming"] },
+            { name: "White Swiss Shepherd", slug: "white-swiss-shepherd", tags: ["high-energy", "large", "family-friendly"] },
+            { name: "Wire Fox Terrier", slug: "wire-fox-terrier", tags: ["high-energy", "small", "family-friendly", "apartment", "high-grooming"] },
+            { name: "Wirehaired Pointing Griffon", slug: "wirehaired-pointing-griffon", tags: ["high-energy", "medium", "family-friendly"] },
+            { name: "Wirehaired Vizsla", slug: "wirehaired-vizsla", tags: ["high-energy", "medium", "family-friendly", "low-grooming"] },
+            { name: "Xoloitzcuintli", slug: "xoloitzcuintli", tags: ["moderate-energy", "medium", "family-friendly", "apartment", "low-grooming"] },
+            { name: "Yorkshire Terrier", slug: "yorkshire-terrier", tags: ["moderate-energy", "small", "apartment", "high-grooming"] }
         ];
 
         let currentQ = 0;
-        let answers = {};
-        let breeds = [];
-
-        fetch('../../data/breeds.json').then(r => r.json()).then(d => breeds = d);
+        let answers = [];
+        let selectedTags = [];
 
         function startQuiz() {
             document.getElementById('quiz-intro').classList.add('hidden');
             document.getElementById('quiz-questions').classList.remove('hidden');
-            showQuestion();
+            showQuestion(0);
         }
 
-        function showQuestion() {
-            const q = questions[currentQ];
+        function showQuestion(idx) {
+            const q = questions[idx];
             document.getElementById('question-text').textContent = q.q;
-            document.getElementById('current-q').textContent = currentQ + 1;
-            document.getElementById('progress-pct').textContent = ((currentQ + 1) * 20) + '%';
-            document.getElementById('progress-bar').style.width = ((currentQ + 1) * 20) + '%';
+            document.getElementById('current-q').textContent = idx + 1;
+            document.getElementById('progress-bar').style.width = ((idx + 1) * 20) + '%';
+            document.getElementById('progress-text').textContent = ((idx + 1) * 20) + '%';
             
-            const container = document.getElementById('options-container');
-            container.innerHTML = q.opts.map((opt, i) => `
-                <button onclick="selectOption(${i})" class="w-full p-4 text-left bg-slate-50 hover:bg-sky-50 border-2 border-transparent hover:border-sky-200 rounded-xl transition">
-                    ${opt.text}
+            const answersDiv = document.getElementById('answers');
+            answersDiv.innerHTML = q.answers.map((a, i) => `
+                <button onclick="selectAnswer(${i})" class="answer-btn w-full text-left p-4 rounded-xl border-2 border-slate-200 hover:border-sky-400 transition ${answers[idx] === i ? 'border-sky-500 bg-sky-50' : ''}">
+                    ${a}
                 </button>
             `).join('');
+            
+            document.getElementById('back-btn').classList.toggle('hidden', idx === 0);
+            document.getElementById('next-btn').textContent = idx === 4 ? 'Ergebnisse Anzeigen' : 'Weiter';
+            document.getElementById('next-btn').disabled = answers[idx] === undefined;
         }
 
-        function selectOption(idx) {
-            const scores = questions[currentQ].opts[idx].scores;
-            Object.assign(answers, scores);
-            
-            currentQ++;
-            if (currentQ < questions.length) {
-                showQuestion();
+        function selectAnswer(idx) {
+            answers[currentQ] = idx;
+            selectedTags[currentQ] = questions[currentQ].tags[idx];
+            document.querySelectorAll('.answer-btn').forEach((btn, i) => {
+                btn.classList.toggle('border-sky-500', i === idx);
+                btn.classList.toggle('bg-sky-50', i === idx);
+            });
+            document.getElementById('next-btn').disabled = false;
+        }
+
+        function nextQuestion() {
+            if (currentQ < 4) {
+                currentQ++;
+                showQuestion(currentQ);
             } else {
                 showResults();
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQ > 0) {
+                currentQ--;
+                showQuestion(currentQ);
             }
         }
 
@@ -163,28 +366,29 @@
             document.getElementById('quiz-questions').classList.add('hidden');
             document.getElementById('quiz-results').classList.remove('hidden');
             
+            const userTags = selectedTags.flat();
             const scored = breeds.map(b => {
-                let score = 0;
-                if (answers.energy) score += (5 - Math.abs(b.ratings.energy - answers.energy)) * 2;
-                if (answers.grooming) score += (5 - Math.abs(b.ratings.grooming - answers.grooming));
-                if (answers.kids >= 4) score += b.ratings.kid_friendly * 2;
-                if (answers.apartment >= 4) score += b.ratings.apartment_ok * 2;
-                if (answers.preferSize === b.size.category) score += 10;
-                return { breed: b, score };
+                const matches = b.tags.filter(t => userTags.includes(t)).length;
+                return { ...b, score: matches, pct: Math.round((matches / Math.max(userTags.length, 1)) * 100) };
             }).sort((a, b) => b.score - a.score).slice(0, 5);
             
-            document.getElementById('results-container').innerHTML = scored.map((s, i) => `
-                <a href="../breeds/${s.breed.id}.html" class="block bg-white rounded-2xl p-4 shadow-md hover:shadow-lg transition">
-                    <div class="flex items-center gap-4">
-                        <img src="../../images/heads/${s.breed.id}.webp" class="w-16 h-16 rounded-xl object-cover">
-                        <div class="flex-1 text-left">
-                            <div class="font-bold text-lg">${s.breed.name}</div>
-                            <div class="text-sm text-slate-500">${s.breed.origin} · ${s.breed.lifespan}</div>
+            document.getElementById('results-list').innerHTML = scored.map((b, i) => `
+                <div class="bg-white rounded-2xl p-6 shadow-sm border flex gap-4 items-center">
+                    <img src="../../images/heads/${b.slug}.webp" class="w-20 h-20 rounded-xl object-cover" alt="${b.name}">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-2 mb-1">
+                            <span class="text-xl font-bold">${b.name}</span>
+                            <span class="bg-gradient-to-r from-sky-500 to-violet-500 text-white text-xs px-2 py-1 rounded-full">${b.pct}% Match</span>
                         </div>
-                        <div class="text-sky-600 font-semibold">#${i + 1}</div>
+                        <p class="text-sm text-slate-600">Warum das zu dir passt: ${b.tags.filter(t => userTags.includes(t)).join(', ')}</p>
                     </div>
-                </a>
+                    <a href="../breeds/${b.slug}.html" class="text-sky-600 hover:text-sky-700 font-semibold text-sm">Profil Ansehen →</a>
+                </div>
             `).join('');
+            
+            if (scored.length >= 2) {
+                document.getElementById('compare-link').href = `../compare/?breed1=${scored[0].slug}&breed2=${scored[1].slug}`;
+            }
         }
     </script>
 </body>
