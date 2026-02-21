@@ -37,33 +37,48 @@
             <span class="text-slate-700 font-medium">White Swiss Shepherd</span>
         </nav>
 
-        <div class="bg-white rounded-3xl p-8 mb-8 shadow-sm border border-slate-100">
+        <!-- Hero Card -->
+        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-slate-100">
             <div class="flex flex-col md:flex-row gap-8">
+                <!-- Image -->
                 <div class="md:w-2/5">
-                    <img src="../images/breeds/white-swiss-shepherd.webp" alt="White Swiss Shepherd" class="rounded-2xl w-full aspect-[4/5] object-cover border border-slate-200/50">
+                    <img src="../images/breeds/white-swiss-shepherd.webp" alt="White Swiss Shepherd" class="rounded-2xl w-full aspect-[4/5] object-cover border border-slate-200/50" onerror="this.onerror=null; this.parentElement.innerHTML='<div class=\'bg-gradient-to-br from-slate-100 to-slate-50 rounded-2xl aspect-[4/5] flex items-center justify-center border border-slate-200/50\'><i data-lucide=\'dog\' class=\'w-24 h-24 text-slate-300\'></i></div>'; lucide.createIcons();">
                 </div>
+                
+                <!-- Info -->
                 <div class="md:w-3/5">
-                    <div class="flex items-center gap-2 mb-2">
-                        <span class="bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-sm">Herding</span>
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="bg-sky-100 text-sky-700 text-xs font-semibold px-3 py-1 rounded-full">Herding</span>
+                        <span class="bg-violet-100 text-violet-700 text-xs font-semibold px-3 py-1 rounded-full">Large</span>
                     </div>
-                    <h1 class="text-4xl font-bold mb-3">White Swiss Shepherd</h1>
-                    <p class="text-slate-600 mb-6">A white-coated cousin of the German Shepherd, known for a gentler temperament.</p>
                     
-                    <div class="grid grid-cols-3 gap-4 mb-6">
-                        <div class="text-center p-3 bg-slate-50 rounded-xl">
-                            <div class="text-2xl mb-1">📏</div>
-                            <div class="text-sm text-slate-500">Height</div>
-                            <div class="font-semibold">55-66 cm</div>
+                    <h1 class="text-4xl font-bold text-slate-900 mb-3">White Swiss Shepherd</h1>
+                    <p class="text-lg text-slate-600 mb-6 leading-relaxed">A white variant developed from German Shepherds, the White Swiss Shepherd is gentle, intelligent, and eager to please. They're wonderful family dogs.</p>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-slate-50 rounded-xl p-4">
+                            <div class="text-xs font-medium text-slate-500 uppercase tracking-wide mb-1 flex items-center gap-1">
+                                <i data-lucide="map-pin" class="w-3 h-3"></i> Origin
+                            </div>
+                            <div class="text-slate-800 font-semibold">Switzerland</div>
                         </div>
-                        <div class="text-center p-3 bg-slate-50 rounded-xl">
-                            <div class="text-2xl mb-1">⚖️</div>
-                            <div class="text-sm text-slate-500">Weight</div>
-                            <div class="font-semibold">25-40 kg</div>
+                        <div class="bg-slate-50 rounded-xl p-4">
+                            <div class="text-xs font-medium text-slate-500 uppercase tracking-wide mb-1 flex items-center gap-1">
+                                <i data-lucide="heart" class="w-3 h-3"></i> Lifespan
+                            </div>
+                            <div class="text-slate-800 font-semibold">12-14 years</div>
                         </div>
-                        <div class="text-center p-3 bg-slate-50 rounded-xl">
-                            <div class="text-2xl mb-1">❤️</div>
-                            <div class="text-sm text-slate-500">Lifespan</div>
-                            <div class="font-semibold">12-14 years</div>
+                        <div class="bg-slate-50 rounded-xl p-4">
+                            <div class="text-xs font-medium text-slate-500 uppercase tracking-wide mb-1 flex items-center gap-1">
+                                <i data-lucide="ruler" class="w-3 h-3"></i> Height
+                            </div>
+                            <div class="text-slate-800 font-semibold">55-66 cm</div>
+                        </div>
+                        <div class="bg-slate-50 rounded-xl p-4">
+                            <div class="text-xs font-medium text-slate-500 uppercase tracking-wide mb-1 flex items-center gap-1">
+                                <i data-lucide="scale" class="w-3 h-3"></i> Weight
+                            </div>
+                            <div class="text-slate-800 font-semibold">25-40 kg</div>
                         </div>
                     </div>
                 </div>
