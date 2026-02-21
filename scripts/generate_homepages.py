@@ -405,7 +405,10 @@ def generate_homepage(lang, base_dir):
                 <span class="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-4 md:gap-6 text-sm font-medium">
-                <a href="search/" class="hidden md:block text-slate-600 hover:text-sky-600 transition">{t['browse_breeds']}</a>
+                <a href="search/" class="text-slate-600 hover:text-sky-600 transition flex items-center">
+                    <i data-lucide="search" class="w-5 h-5 md:hidden"></i>
+                    <span class="hidden md:inline">{t['browse_breeds']}</span>
+                </a>
                 <a href="quiz/" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg transition">{t['quiz']}</a>
                 <div class="relative group">
                     <button class="flex items-center gap-1 text-slate-600 hover:text-sky-600 py-2">
