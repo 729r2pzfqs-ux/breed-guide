@@ -8,6 +8,234 @@ import os
 import re
 from pathlib import Path
 
+# German breed names
+BREED_NAMES_DE = {
+    'Affenpinscher': 'Affenpinscher',
+    'Afghan Hound': 'Afghanischer Windhund',
+    'Airedale Terrier': 'Airedale Terrier',
+    'Akita': 'Akita',
+    'Alaskan Klee Kai': 'Alaskan Klee Kai',
+    'Alaskan Malamute': 'Alaskan Malamute',
+    'American Bulldog': 'Amerikanische Bulldogge',
+    'American English Coonhound': 'American English Coonhound',
+    'American Eskimo Dog': 'Amerikanischer Eskimohund',
+    'American Foxhound': 'Amerikanischer Foxhound',
+    'American Hairless Terrier': 'Amerikanischer Haarloser Terrier',
+    'American Staffordshire Terrier': 'American Staffordshire Terrier',
+    'American Water Spaniel': 'Amerikanischer Wasserspaniel',
+    'Anatolian Shepherd': 'Anatolischer Hirtenhund',
+    'Appenzeller Sennenhund': 'Appenzeller Sennenhund',
+    'Australian Cattle Dog': 'Australian Cattle Dog',
+    'Australian Shepherd': 'Australian Shepherd',
+    'Australian Terrier': 'Australian Terrier',
+    'Azawakh': 'Azawakh',
+    'Barbet': 'Barbet',
+    'Basenji': 'Basenji',
+    'Basset Hound': 'Basset Hound',
+    'Beagle': 'Beagle',
+    'Beauceron': 'Beauceron',
+    'Bedlington Terrier': 'Bedlington Terrier',
+    'Belgian Laekenois': 'Belgischer Schäferhund (Laekenois)',
+    'Belgian Malinois': 'Belgischer Schäferhund (Malinois)',
+    'Belgian Sheepdog': 'Belgischer Schäferhund (Groenendael)',
+    'Belgian Tervuren': 'Belgischer Schäferhund (Tervueren)',
+    'Bergamasco Sheepdog': 'Bergamasker Hirtenhund',
+    'Berger Picard': 'Berger Picard',
+    'Bernese Mountain Dog': 'Berner Sennenhund',
+    'Bichon Frise': 'Bichon Frisé',
+    'Biewer Terrier': 'Biewer Terrier',
+    'Black and Tan Coonhound': 'Black and Tan Coonhound',
+    'Black Russian Terrier': 'Schwarzer Russischer Terrier',
+    'Bloodhound': 'Bluthund',
+    'Bluetick Coonhound': 'Bluetick Coonhound',
+    'Boerboel': 'Boerboel',
+    'Bolognese': 'Bologneser',
+    'Border Collie': 'Border Collie',
+    'Border Terrier': 'Border Terrier',
+    'Borzoi': 'Barsoi',
+    'Boston Terrier': 'Boston Terrier',
+    'Bouvier des Flandres': 'Bouvier des Flandres',
+    'Boxer': 'Boxer',
+    'Boykin Spaniel': 'Boykin Spaniel',
+    'Bracco Italiano': 'Bracco Italiano',
+    'Briard': 'Briard',
+    'Brittany': 'Epagneul Breton',
+    'Brussels Griffon': 'Brüsseler Griffon',
+    'Bull Terrier': 'Bullterrier',
+    'Bulldog': 'Englische Bulldogge',
+    'Bullmastiff': 'Bullmastiff',
+    'Cairn Terrier': 'Cairn Terrier',
+    'Canaan Dog': 'Kanaan-Hund',
+    'Cane Corso': 'Cane Corso',
+    'Cardigan Welsh Corgi': 'Welsh Corgi Cardigan',
+    'Cavalier King Charles Spaniel': 'Cavalier King Charles Spaniel',
+    'Cesky Terrier': 'Tschechischer Terrier',
+    'Chesapeake Bay Retriever': 'Chesapeake Bay Retriever',
+    'Chihuahua': 'Chihuahua',
+    'Chinese Crested': 'Chinesischer Schopfhund',
+    'Chinook': 'Chinook',
+    'Chow Chow': 'Chow-Chow',
+    "Cirneco dell'Etna": 'Cirneco dell\'Etna',
+    'Clumber Spaniel': 'Clumber Spaniel',
+    'Cocker Spaniel': 'Amerikanischer Cocker Spaniel',
+    'Collie': 'Langhaarcollie',
+    'Coton de Tulear': 'Coton de Tuléar',
+    'Curly-Coated Retriever': 'Curly Coated Retriever',
+    'Dachshund': 'Dackel',
+    'Dalmatian': 'Dalmatiner',
+    'Dandie Dinmont Terrier': 'Dandie Dinmont Terrier',
+    'Deutscher Wachtelhund': 'Deutscher Wachtelhund',
+    'Doberman Pinscher': 'Dobermann',
+    'Dogo Argentino': 'Dogo Argentino',
+    'Dogue de Bordeaux': 'Bordeauxdogge',
+    'Drentse Patrijshond': 'Drentse Patrijshond',
+    'Dutch Shepherd': 'Holländischer Schäferhund',
+    'English Cocker Spaniel': 'Englischer Cocker Spaniel',
+    'English Foxhound': 'Englischer Foxhound',
+    'English Pointer': 'Englischer Pointer',
+    'English Setter': 'Englischer Setter',
+    'English Springer Spaniel': 'Englischer Springer Spaniel',
+    'English Toy Spaniel': 'King Charles Spaniel',
+    'Entlebucher Mountain Dog': 'Entlebucher Sennenhund',
+    'Eurasier': 'Eurasier',
+    'Field Spaniel': 'Field Spaniel',
+    'Finnish Lapphund': 'Finnischer Lapphund',
+    'Finnish Spitz': 'Finnischer Spitz',
+    'Flat-Coated Retriever': 'Flat Coated Retriever',
+    'French Bulldog': 'Französische Bulldogge',
+    'German Shepherd': 'Deutscher Schäferhund',
+    'German Shorthaired Pointer': 'Deutsch Kurzhaar',
+    'German Spitz': 'Deutscher Spitz',
+    'German Wirehaired Pointer': 'Deutsch Drahthaar',
+    'Giant Schnauzer': 'Riesenschnauzer',
+    'Glen of Imaal Terrier': 'Glen of Imaal Terrier',
+    'Golden Retriever': 'Golden Retriever',
+    'Gordon Setter': 'Gordon Setter',
+    'Grand Basset Griffon Vendéen': 'Grand Basset Griffon Vendéen',
+    'Great Dane': 'Deutsche Dogge',
+    'Great Pyrenees': 'Pyrenäenberghund',
+    'Greater Swiss Mountain Dog': 'Großer Schweizer Sennenhund',
+    'Greyhound': 'Greyhound',
+    'Harrier': 'Harrier',
+    'Havanese': 'Havaneser',
+    'Hokkaido': 'Hokkaido',
+    'Hovawart': 'Hovawart',
+    'Ibizan Hound': 'Podenco Ibicenco',
+    'Icelandic Sheepdog': 'Islandhund',
+    'Irish Red and White Setter': 'Irischer Rot-Weißer Setter',
+    'Irish Setter': 'Irischer Setter',
+    'Irish Water Spaniel': 'Irischer Wasserspaniel',
+    'Irish Wolfhound': 'Irischer Wolfshund',
+    'Italian Greyhound': 'Italienisches Windspiel',
+    'Jack Russell Terrier': 'Jack Russell Terrier',
+    'Japanese Chin': 'Japan Chin',
+    'Japanese Spitz': 'Japanischer Spitz',
+    'Kai Ken': 'Kai',
+    'Keeshond': 'Keeshond',
+    'Kerry Blue Terrier': 'Kerry Blue Terrier',
+    'Kishu Ken': 'Kishu',
+    'Komondor': 'Komondor',
+    'Korean Jindo': 'Korea Jindo Dog',
+    'Kuvasz': 'Kuvasz',
+    'Labrador Retriever': 'Labrador Retriever',
+    'Lagotto Romagnolo': 'Lagotto Romagnolo',
+    'Lakeland Terrier': 'Lakeland Terrier',
+    'Landseer': 'Landseer',
+    'Large Münsterländer': 'Großer Münsterländer',
+    'Leonberger': 'Leonberger',
+    'Lhasa Apso': 'Lhasa Apso',
+    'Löwchen': 'Löwchen',
+    'Maltese': 'Malteser',
+    'Manchester Terrier': 'Manchester Terrier',
+    'Mastiff': 'Englischer Mastiff',
+    'Miniature American Shepherd': 'Miniatur Amerikanischer Schäferhund',
+    'Miniature Pinscher': 'Zwergpinscher',
+    'Miniature Schnauzer': 'Zwergschnauzer',
+    'Mudi': 'Mudi',
+    'Neapolitan Mastiff': 'Mastino Napoletano',
+    'Nederlandse Kooikerhondje': 'Kooikerhondje',
+    'Newfoundland': 'Neufundländer',
+    'Norfolk Terrier': 'Norfolk Terrier',
+    'Norwegian Buhund': 'Norwegischer Buhund',
+    'Norwegian Elkhound': 'Norwegischer Elchhund',
+    'Norwegian Lundehund': 'Norwegischer Lundehund',
+    'Norwich Terrier': 'Norwich Terrier',
+    'Nova Scotia Duck Tolling Retriever': 'Nova Scotia Duck Tolling Retriever',
+    'Old English Sheepdog': 'Bobtail',
+    'Otterhound': 'Otterhund',
+    'Papillon': 'Papillon',
+    'Parson Russell Terrier': 'Parson Russell Terrier',
+    'Pekingese': 'Pekinese',
+    'Pembroke Welsh Corgi': 'Welsh Corgi Pembroke',
+    'Peruvian Inca Orchid': 'Peruanischer Nackthund',
+    'Petit Basset Griffon Vendéen': 'Petit Basset Griffon Vendéen',
+    'Pharaoh Hound': 'Pharaonenhund',
+    'Plott Hound': 'Plott Hound',
+    'Polish Lowland Sheepdog': 'Polnischer Niederungshütehund',
+    'Pomeranian': 'Zwergspitz',
+    'Poodle': 'Pudel',
+    'Portuguese Podengo Pequeno': 'Podengo Português Pequeno',
+    'Portuguese Water Dog': 'Portugiesischer Wasserhund',
+    'Pudelpointer': 'Pudelpointer',
+    'Pug': 'Mops',
+    'Puli': 'Puli',
+    'Pumi': 'Pumi',
+    'Pyrenean Shepherd': 'Pyrenäenschäferhund',
+    'Rat Terrier': 'Rat Terrier',
+    'Redbone Coonhound': 'Redbone Coonhound',
+    'Rhodesian Ridgeback': 'Rhodesian Ridgeback',
+    'Rottweiler': 'Rottweiler',
+    'Russell Terrier': 'Russell Terrier',
+    'Russian Toy': 'Russischer Toy',
+    'Saluki': 'Saluki',
+    'Samoyed': 'Samojede',
+    'Schipperke': 'Schipperke',
+    'Scottish Deerhound': 'Schottischer Hirschhund',
+    'Scottish Terrier': 'Scottish Terrier',
+    'Sealyham Terrier': 'Sealyham Terrier',
+    'Shar-Pei': 'Shar-Pei',
+    'Shetland Sheepdog': 'Shetland Sheepdog',
+    'Shiba Inu': 'Shiba Inu',
+    'Shih Tzu': 'Shih Tzu',
+    'Shikoku': 'Shikoku',
+    'Siberian Husky': 'Siberian Husky',
+    'Silky Terrier': 'Australian Silky Terrier',
+    'Skye Terrier': 'Skye Terrier',
+    'Sloughi': 'Sloughi',
+    'Small Münsterländer': 'Kleiner Münsterländer',
+    'Smooth Fox Terrier': 'Glatthaar-Foxterrier',
+    'Soft Coated Wheaten Terrier': 'Irish Soft Coated Wheaten Terrier',
+    'Spanish Water Dog': 'Spanischer Wasserhund',
+    'Spinone Italiano': 'Spinone Italiano',
+    'St. Bernard': 'Bernhardiner',
+    'Staffordshire Bull Terrier': 'Staffordshire Bullterrier',
+    'Standard Schnauzer': 'Mittelschnauzer',
+    'Sussex Spaniel': 'Sussex Spaniel',
+    'Swedish Vallhund': 'Schwedischer Vallhund',
+    'Thai Ridgeback': 'Thai Ridgeback',
+    'Tibetan Mastiff': 'Tibet-Dogge',
+    'Tibetan Spaniel': 'Tibet-Spaniel',
+    'Tibetan Terrier': 'Tibet Terrier',
+    'Toy Fox Terrier': 'Toy Fox Terrier',
+    'Treeing Walker Coonhound': 'Treeing Walker Coonhound',
+    'Vizsla': 'Magyar Vizsla',
+    'Weimaraner': 'Weimaraner',
+    'Welsh Springer Spaniel': 'Welsh Springer Spaniel',
+    'Welsh Terrier': 'Welsh Terrier',
+    'West Highland White Terrier': 'West Highland White Terrier',
+    'Whippet': 'Whippet',
+    'White Swiss Shepherd': 'Weißer Schweizer Schäferhund',
+    'Wire Fox Terrier': 'Drahthaar-Foxterrier',
+    'Wirehaired Pointing Griffon': 'Griffon Korthals',
+    'Wirehaired Vizsla': 'Drahthaariger Ungarischer Vorstehhund',
+    'Xoloitzcuintli': 'Xoloitzcuintle',
+    'Yorkshire Terrier': 'Yorkshire Terrier',
+}
+
+def get_german_name(english_name):
+    """Get German breed name, fallback to English if not found"""
+    return BREED_NAMES_DE.get(english_name, english_name)
+
 # German translations for UI elements
 UI = {
     'origin': 'Herkunft',
@@ -221,7 +449,7 @@ def translate_size(size):
 
 def generate_german_overview(breed):
     """Generate German overview text"""
-    name = breed['name']
+    name = get_german_name(breed['name'])
     group = translate_group(breed.get('group', 'miscellaneous'))
     size = translate_size(breed['size']['category'])
     
@@ -243,7 +471,7 @@ def generate_german_overview(breed):
 
 def generate_german_temperament(breed):
     """Generate German temperament description"""
-    name = breed['name']
+    name = get_german_name(breed['name'])
     traits = breed.get('temperament', [])
     traits_de = [translate_trait(t) for t in traits[:4]]
     
@@ -253,7 +481,7 @@ def generate_german_temperament(breed):
 
 def generate_german_health(breed):
     """Generate German health description"""
-    name = breed['name']
+    name = get_german_name(breed['name'])
     lifespan = breed.get('lifespan', '10-12 years').replace(' years', ' Jahre').replace(' year', ' Jahr')
     size_cat = breed['size']['category']
     
@@ -270,7 +498,7 @@ def generate_german_health(breed):
 
 def generate_german_exercise(breed):
     """Generate German exercise description"""
-    name = breed['name']
+    name = get_german_name(breed['name'])
     energy = breed.get('ratings', {}).get('energy', 3)
     
     if energy >= 4:
@@ -282,7 +510,7 @@ def generate_german_exercise(breed):
 
 def generate_german_verdict(breed):
     """Generate German verdict summary"""
-    name = breed['name']
+    name = get_german_name(breed['name'])
     traits = breed.get('temperament', [])[:2]
     traits_de = [translate_trait(t) for t in traits]
     traits_str = ' und '.join(traits_de) if traits_de else 'vielseitig'
@@ -300,7 +528,8 @@ def generate_german_verdict(breed):
 
 def generate_breed_html(breed):
     """Generate complete German HTML for a breed"""
-    name = breed['name']
+    name_en = breed['name']
+    name = get_german_name(name_en)  # German name for display
     slug = breed['id']
     group = breed.get('group', 'miscellaneous')
     origin = breed.get('origin', 'Unknown')
