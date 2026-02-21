@@ -1,0 +1,59 @@
+{
+  "id": "giant-schnauzer",
+  "name": "Giant Schnauzer",
+  "aliases": [],
+  "group": "working",
+  "origin": "Germany",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "60-70",
+    "weight_kg": "25-48",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 4,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Dense, wiry, harsh",
+    "coat_colors": [
+      "black",
+      "salt and pepper"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "loyal",
+    "alert",
+    "trainable",
+    "powerful",
+    "intelligent"
+  ],
+  "description": {
+    "overview": "The largest of the three Schnauzer breeds, Giants are powerful, intelligent working dogs. They're loyal guardians and versatile workers.",
+    "history": "The Giant Schnauzer originated in Germany.",
+    "temperament": "Known for being loyal, alert, trainable.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their dense, wiry, harsh coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Active families",
+      "Those wanting a guardian"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Sedentary owners"
+    ],
+    "summary": "The largest of the three Schnauzer breeds, Giants are powerful, intelligent working dogs. They're loyal guardians and versatile workers."
+  }
+}

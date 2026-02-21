@@ -1,0 +1,61 @@
+{
+  "id": "lagotto-romagnolo",
+  "name": "Lagotto Romagnolo",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Italy",
+  "lifespan": "15-17 years",
+  "size": {
+    "height_cm": "41-48",
+    "weight_kg": "11-16",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Dense, curly, woolly",
+    "coat_colors": [
+      "off-white",
+      "brown",
+      "orange",
+      "roan"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "keen",
+    "loving",
+    "undemanding",
+    "loyal",
+    "active"
+  ],
+  "description": {
+    "overview": "Italy's truffle-hunting dog, the Lagotto has a distinctive curly coat and keen nose. They're loving, active companions with a hypoallergenic coat.",
+    "history": "The Lagotto Romagnolo originated in Italy.",
+    "temperament": "Known for being keen, loving, undemanding.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their dense, curly, woolly coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Allergy sufferers",
+      "Active owners"
+    ],
+    "not_for": [
+      "Those avoiding grooming",
+      "Very sedentary owners"
+    ],
+    "summary": "Italy's truffle-hunting dog, the Lagotto has a distinctive curly coat and keen nose. They're loving, active companions with a hypoallergenic coat."
+  }
+}

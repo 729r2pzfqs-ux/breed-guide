@@ -1,0 +1,59 @@
+{
+  "id": "chinook",
+  "name": "Chinook",
+  "aliases": [],
+  "group": "working",
+  "origin": "United States",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "53-69",
+    "weight_kg": "25-41",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 5,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Double coat, medium-length",
+    "coat_colors": [
+      "tawny",
+      "honey"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "smart",
+    "patient",
+    "devoted",
+    "friendly",
+    "calm"
+  ],
+  "description": {
+    "overview": "New Hampshire's state dog, the Chinook is a rare American sled dog. They're calm, devoted family dogs with a gentle nature.",
+    "history": "The Chinook originated in United States.",
+    "temperament": "Known for being smart, patient, devoted.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their double coat, medium-length coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with children",
+      "Those wanting a rare breed",
+      "Active owners"
+    ],
+    "not_for": [
+      "Very hot climates",
+      "Those wanting a guard dog"
+    ],
+    "summary": "New Hampshire's state dog, the Chinook is a rare American sled dog. They're calm, devoted family dogs with a gentle nature."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "bouvier-des-flandres",
+  "name": "Bouvier des Flandres",
+  "aliases": [],
+  "group": "herding",
+  "origin": "Belgium/France",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "59-68",
+    "weight_kg": "27-40",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Rough, tousled, double coat",
+    "coat_colors": [
+      "fawn",
+      "black",
+      "gray",
+      "brindle"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "loyal",
+    "protective",
+    "strong-willed",
+    "gentle",
+    "rational"
+  ],
+  "description": {
+    "overview": "A powerful Belgian farm dog, the Bouvier is a loyal, protective companion. They're gentle with family but can be reserved with strangers.",
+    "history": "The Bouvier des Flandres originated in Belgium/France.",
+    "temperament": "Known for being loyal, protective, strong-willed.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their rough, tousled, double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Those wanting a guardian",
+      "Active families"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Those avoiding grooming"
+    ],
+    "summary": "A powerful Belgian farm dog, the Bouvier is a loyal, protective companion. They're gentle with family but can be reserved with strangers."
+  }
+}

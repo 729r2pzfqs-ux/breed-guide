@@ -1,0 +1,58 @@
+{
+  "id": "harrier",
+  "name": "Harrier",
+  "aliases": [],
+  "group": "hound",
+  "origin": "England",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "48-53",
+    "weight_kg": "18-27",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 5,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, dense, glossy",
+    "coat_colors": [
+      "any hound color"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "friendly",
+    "outgoing",
+    "active",
+    "people-oriented",
+    "playful"
+  ],
+  "description": {
+    "overview": "Often described as a Beagle on steroids, Harriers are friendly, outgoing pack hounds who love company and activity.",
+    "history": "The Harrier originated in England.",
+    "temperament": "Known for being friendly, outgoing, active.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, dense, glossy coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Multi-dog homes",
+      "Runners"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Those wanting a quiet dog"
+    ],
+    "summary": "Often described as a Beagle on steroids, Harriers are friendly, outgoing pack hounds who love company and activity."
+  }
+}

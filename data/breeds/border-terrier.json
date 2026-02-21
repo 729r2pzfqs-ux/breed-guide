@@ -1,0 +1,61 @@
+{
+  "id": "border-terrier",
+  "name": "Border Terrier",
+  "aliases": [],
+  "group": "terrier",
+  "origin": "England/Scotland",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "28-40",
+    "weight_kg": "5-7",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 5,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Wiry, dense double coat",
+    "coat_colors": [
+      "red",
+      "grizzle and tan",
+      "blue and tan",
+      "wheaten"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "affectionate",
+    "happy",
+    "plucky",
+    "alert",
+    "obedient"
+  ],
+  "description": {
+    "overview": "One of Britain's oldest terriers, Border Terriers are happy, affectionate dogs who get along well with people and other dogs.",
+    "history": "The Border Terrier originated in England/Scotland.",
+    "temperament": "Known for being affectionate, happy, plucky.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their wiry, dense double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with children",
+      "Active owners",
+      "Multi-pet homes"
+    ],
+    "not_for": [
+      "Homes with small pets",
+      "Those wanting a guard dog"
+    ],
+    "summary": "One of Britain's oldest terriers, Border Terriers are happy, affectionate dogs who get along well with people and other dogs."
+  }
+}

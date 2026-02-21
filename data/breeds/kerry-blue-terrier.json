@@ -1,0 +1,58 @@
+{
+  "id": "kerry-blue-terrier",
+  "name": "Kerry Blue Terrier",
+  "aliases": [],
+  "group": "terrier",
+  "origin": "Ireland",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "44-51",
+    "weight_kg": "15-18",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Soft, wavy, dense",
+    "coat_colors": [
+      "blue-gray"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "alert",
+    "spirited",
+    "loyal",
+    "intelligent",
+    "strong-willed"
+  ],
+  "description": {
+    "overview": "Ireland's national terrier, the Kerry Blue has a distinctive soft, wavy blue-gray coat. They're versatile working dogs and loyal companions.",
+    "history": "The Kerry Blue Terrier originated in Ireland.",
+    "temperament": "Known for being alert, spirited, loyal.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their soft, wavy, dense coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Those wanting a unique breed",
+      "Experienced owners"
+    ],
+    "not_for": [
+      "Multi-dog homes",
+      "First-time owners"
+    ],
+    "summary": "Ireland's national terrier, the Kerry Blue has a distinctive soft, wavy blue-gray coat. They're versatile working dogs and loyal companions."
+  }
+}

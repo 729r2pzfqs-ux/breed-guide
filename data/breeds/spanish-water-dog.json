@@ -1,0 +1,62 @@
+{
+  "id": "spanish-water-dog",
+  "name": "Spanish Water Dog",
+  "aliases": [],
+  "group": "herding",
+  "origin": "Spain",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "40-50",
+    "weight_kg": "14-22",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Curly, woolly (cords when long)",
+    "coat_colors": [
+      "black",
+      "brown",
+      "beige",
+      "white",
+      "bicolor"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "diligent",
+    "affectionate",
+    "loyal",
+    "athletic",
+    "intelligent"
+  ],
+  "description": {
+    "overview": "A versatile Spanish breed used for herding and water retrieval, the Spanish Water Dog has a distinctive curly coat and loyal personality.",
+    "history": "The Spanish Water Dog originated in Spain.",
+    "temperament": "Known for being diligent, affectionate, loyal.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their curly, woolly (cords when long) coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Water enthusiasts",
+      "Allergy sufferers"
+    ],
+    "not_for": [
+      "Those wanting a fluffy-looking dog",
+      "Sedentary owners"
+    ],
+    "summary": "A versatile Spanish breed used for herding and water retrieval, the Spanish Water Dog has a distinctive curly coat and loyal personality."
+  }
+}

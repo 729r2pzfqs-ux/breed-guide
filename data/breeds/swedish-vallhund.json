@@ -1,0 +1,60 @@
+{
+  "id": "swedish-vallhund",
+  "name": "Swedish Vallhund",
+  "aliases": [],
+  "group": "herding",
+  "origin": "Sweden",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "30-35",
+    "weight_kg": "9-14",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Medium-length double coat",
+    "coat_colors": [
+      "gray",
+      "red-brown",
+      "grayish-yellow"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "friendly",
+    "energetic",
+    "alert",
+    "intelligent",
+    "fearless"
+  ],
+  "description": {
+    "overview": "A Viking-era cattle dog, the Swedish Vallhund looks like a wolf-gray Corgi. They're energetic, intelligent dogs with a fearless attitude.",
+    "history": "The Swedish Vallhund originated in Sweden.",
+    "temperament": "Known for being friendly, energetic, alert.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their medium-length double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Dog sports enthusiasts",
+      "Apartment dwellers"
+    ],
+    "not_for": [
+      "Those wanting a quiet dog",
+      "Sedentary owners"
+    ],
+    "summary": "A Viking-era cattle dog, the Swedish Vallhund looks like a wolf-gray Corgi. They're energetic, intelligent dogs with a fearless attitude."
+  }
+}

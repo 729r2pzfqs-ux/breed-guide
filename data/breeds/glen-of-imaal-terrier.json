@@ -1,0 +1,60 @@
+{
+  "id": "glen-of-imaal-terrier",
+  "name": "Glen of Imaal Terrier",
+  "aliases": [],
+  "group": "terrier",
+  "origin": "Ireland",
+  "lifespan": "10-15 years",
+  "size": {
+    "height_cm": "32-36",
+    "weight_kg": "14-18",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 3,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Medium-length, harsh",
+    "coat_colors": [
+      "wheaten",
+      "blue",
+      "brindle"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "gentle",
+    "spirited",
+    "brave",
+    "loyal",
+    "patient"
+  ],
+  "description": {
+    "overview": "A sturdy Irish terrier bred for hunting badgers and foxes. Glens are gentle, patient dogs with a big heart despite their medium size.",
+    "history": "The Glen of Imaal Terrier originated in Ireland.",
+    "temperament": "Known for being gentle, spirited, brave.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their medium-length, harsh coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Those wanting a calm terrier",
+      "Apartment dwellers"
+    ],
+    "not_for": [
+      "Those with small pets",
+      "Wanting a high-energy dog"
+    ],
+    "summary": "A sturdy Irish terrier bred for hunting badgers and foxes. Glens are gentle, patient dogs with a big heart despite their medium size."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "greater-swiss-mountain-dog",
+  "name": "Greater Swiss Mountain Dog",
+  "aliases": [],
+  "group": "working",
+  "origin": "Switzerland",
+  "lifespan": "8-11 years",
+  "size": {
+    "height_cm": "60-72",
+    "weight_kg": "45-64",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 3,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, dense double coat",
+    "coat_colors": [
+      "tricolor (black, rust, white)"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "faithful",
+    "dependable",
+    "alert",
+    "gentle",
+    "family-oriented"
+  ],
+  "description": {
+    "overview": "The largest Swiss Mountain Dog, Swissies are faithful, dependable companions. They're gentle giants who excel as family dogs.",
+    "history": "The Greater Swiss Mountain Dog originated in Switzerland.",
+    "temperament": "Known for being faithful, dependable, alert.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, dense double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with space",
+      "Those wanting a guardian",
+      "Active homes"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Hot climates"
+    ],
+    "summary": "The largest Swiss Mountain Dog, Swissies are faithful, dependable companions. They're gentle giants who excel as family dogs."
+  }
+}

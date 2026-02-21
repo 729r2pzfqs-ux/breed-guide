@@ -1,0 +1,58 @@
+{
+  "id": "borzoi",
+  "name": "Borzoi",
+  "aliases": [],
+  "group": "hound",
+  "origin": "Russia",
+  "lifespan": "9-14 years",
+  "size": {
+    "height_cm": "68-85",
+    "weight_kg": "27-48",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 3,
+    "grooming": 3,
+    "sociability": 3,
+    "trainability": 2,
+    "barking": 1,
+    "kid_friendly": 3,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Long, silky, wavy or curly",
+    "coat_colors": [
+      "any color"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "graceful",
+    "quiet",
+    "independent",
+    "athletic",
+    "gentle"
+  ],
+  "description": {
+    "overview": "The aristocratic Russian wolfhound, Borzoi are graceful, quiet dogs with a gentle demeanor. They're independent but devoted to their families.",
+    "history": "The Borzoi originated in Russia.",
+    "temperament": "Known for being graceful, quiet, independent.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, silky, wavy or curly coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Quiet households",
+      "Those wanting an elegant breed",
+      "Experienced sighthound owners"
+    ],
+    "not_for": [
+      "Homes with small pets",
+      "Those wanting an obedient dog"
+    ],
+    "summary": "The aristocratic Russian wolfhound, Borzoi are graceful, quiet dogs with a gentle demeanor. They're independent but devoted to their families."
+  }
+}

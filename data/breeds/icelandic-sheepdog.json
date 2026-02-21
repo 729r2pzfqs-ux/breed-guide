@@ -1,0 +1,61 @@
+{
+  "id": "icelandic-sheepdog",
+  "name": "Icelandic Sheepdog",
+  "aliases": [],
+  "group": "herding",
+  "origin": "Iceland",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "42-46",
+    "weight_kg": "9-14",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 5,
+    "trainability": 4,
+    "barking": 4,
+    "kid_friendly": 5,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Double coat, long or short",
+    "coat_colors": [
+      "tan",
+      "chocolate",
+      "gray",
+      "black"
+    ],
+    "shedding": "high",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "cheerful",
+    "friendly",
+    "inquisitive",
+    "playful",
+    "alert"
+  ],
+  "description": {
+    "overview": "Iceland's only native dog, this cheerful spitz-type breed is friendly and playful. They're excellent family companions with a love for their people.",
+    "history": "The Icelandic Sheepdog originated in Iceland.",
+    "temperament": "Known for being cheerful, friendly, inquisitive.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their double coat, long or short coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Active owners",
+      "Those wanting a cheerful breed"
+    ],
+    "not_for": [
+      "Those wanting a quiet dog",
+      "Those who dislike shedding"
+    ],
+    "summary": "Iceland's only native dog, this cheerful spitz-type breed is friendly and playful. They're excellent family companions with a love for their people."
+  }
+}

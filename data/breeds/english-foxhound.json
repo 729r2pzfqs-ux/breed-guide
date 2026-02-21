@@ -1,0 +1,59 @@
+{
+  "id": "english-foxhound",
+  "name": "English Foxhound",
+  "aliases": [],
+  "group": "hound",
+  "origin": "England",
+  "lifespan": "10-13 years",
+  "size": {
+    "height_cm": "53-64",
+    "weight_kg": "25-34",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 1,
+    "sociability": 5,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 5,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Short, dense, hard",
+    "coat_colors": [
+      "tricolor",
+      "bicolor"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "friendly",
+    "gentle",
+    "sociable",
+    "tolerant",
+    "active"
+  ],
+  "description": {
+    "overview": "Bred for fox hunting in packs, English Foxhounds are gentle, sociable dogs who thrive with company. They're rarely kept as pets.",
+    "history": "The English Foxhound originated in England.",
+    "temperament": "Known for being friendly, gentle, sociable.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, dense, hard coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Very active owners",
+      "Multi-dog homes",
+      "Rural settings"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Single-dog homes"
+    ],
+    "summary": "Bred for fox hunting in packs, English Foxhounds are gentle, sociable dogs who thrive with company. They're rarely kept as pets."
+  }
+}
