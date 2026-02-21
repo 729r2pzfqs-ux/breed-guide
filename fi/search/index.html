@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selaa Rotuja | BreedFinder</title>
-    <meta name="description" content="Selvitä, mikä koirarotu sopii elämäntyyliisi täydellisesti. Vertaa ominaisuuksia, tee testi ja löydä ihanteellinen karvainen kumppanisi.">
+    <meta name="description" content="Suodata koon, energiatason, turkinhoitotarpeen ja muiden mukaan">
     <link rel="canonical" href="https://breedfinder.org/fi/search/">
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
@@ -15,75 +16,241 @@
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
         .breed-card { transition: transform 0.2s, box-shadow 0.2s; }
         .breed-card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.1); }
+        .filter-section { border-bottom: 1px solid #e2e8f0; }
+        .filter-section:last-child { border-bottom: none; }
+        input[type="range"] { -webkit-appearance: none; height: 6px; border-radius: 3px; background: #e2e8f0; }
+        input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%; background: #0ea5e9; cursor: pointer; }
         .tag { display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 12px; font-weight: 500; }
     </style>
 </head>
 <body class="bg-slate-50 min-h-screen">
     <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="../" class="flex items-center gap-2">
-                <img src="../../logo-192.png" class="w-10 h-10" alt="BreedFinder">
-                <span class="font-bold text-xl text-slate-800">BreedFinder</span>
-            </a>
-            <nav class="flex items-center gap-4 text-sm font-medium">
-                <a href="../" class="text-slate-600 hover:text-sky-600">Etusivu</a>
-                <a href="./" class="text-sky-600 font-semibold">Selaa Rotuja</a>
-                <a href="../quiz/" class="text-slate-600 hover:text-sky-600">Tee Testi</a>
-                <div class="relative group">
-                    <button class="flex items-center gap-1 text-slate-600"><i data-lucide="globe" class="w-4 h-4"></i><span class="hidden md:inline">FI</span></button>
-                    <div class="absolute right-0 top-full bg-white border rounded-xl shadow-xl hidden group-hover:block before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent min-w-[140px] py-2 z-50">
-                        <a href="../../search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a>
-                        <a href="../../es/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="../../de/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a><a href="../../fr/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a><a href="../../it/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="../../pt/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Português</a><a href="../../nl/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a><a href="../../pl/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Polski</a><a href="../../zh/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a><a href="../../ja/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="../../fi/search/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-sky-600">Suomi</a><a href="../../sv/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a><a href="../../no/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="../../da/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a><a href="../../ru/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a>
+        <div class="max-w-7xl mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <a href="../" class="flex items-center gap-2">
+                    <img src="../../logo-192.png" class="w-10 h-10" alt="BreedFinder">
+                    <span class="font-bold text-xl text-slate-800">BreedFinder</span>
+                </a>
+                <nav class="hidden md:flex items-center gap-6">
+                    <a href="../" class="text-slate-600 hover:text-slate-900">Etusivu</a>
+                    <a href="./" class="text-sky-600 font-medium">Selaa Rotuja</a>
+                    <a href="../quiz/" class="text-slate-600 hover:text-slate-900">Testi</a>
+                    <a href="../compare/" class="text-slate-600 hover:text-slate-900">Vertaile</a>
+                    <div class="relative group">
+                        <button class="flex items-center gap-1 text-slate-600 hover:text-sky-600 py-2">
+                            <i data-lucide="globe" class="w-4 h-4"></i>
+                            <span>FI</span>
+                        </button>
+                        <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
+                            <a href="../../search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a><a href="../../es/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="../../de/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a><a href="../../fr/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a><a href="../../it/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="../../pt/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Português</a><a href="../../nl/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a><a href="../../pl/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Polski</a><a href="../../zh/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a><a href="../../ja/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="../../fi/search/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-sky-600">Suomi</a><a href="../../sv/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a><a href="../../no/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="../../da/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a><a href="../../ru/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
     </header>
 
     <main class="max-w-7xl mx-auto px-4 py-8">
         <div class="text-center mb-8">
             <h1 class="text-3xl md:text-4xl font-bold text-slate-800 mb-3">Löydä Täydellinen Koirarotusi</h1>
-            <p class="text-slate-600 text-lg">Löydä rotuja, jotka sopivat asuintilaasi</p>
+            <p class="text-slate-600 text-lg">Suodata koon, energiatason, turkinhoitotarpeen ja muiden mukaan</p>
         </div>
 
         <div class="max-w-2xl mx-auto mb-8">
             <div class="relative">
                 <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400"></i>
-                <input type="text" id="searchInput" placeholder="Etsi rotuja..." class="w-full pl-12 pr-4 py-4 rounded-xl border border-slate-200 bg-white shadow-sm focus:ring-2 focus:ring-sky-500 text-lg" autocomplete="off">
-                <div id="search-dropdown" class="absolute top-full left-0 right-0 mt-2 bg-white border rounded-2xl shadow-xl z-50 hidden max-h-80 overflow-y-auto"></div>
+                <input type="text" id="searchInput" placeholder="Etsi rotuja... (esim. kultainennoutaja, pieni, ystävällinen)" 
+                    class="w-full pl-12 pr-4 py-4 rounded-xl border border-slate-200 bg-white shadow-sm focus:ring-2 focus:ring-sky-500 focus:border-sky-500 text-lg" autocomplete="off">
+                <button id="clearSearch" class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 hidden">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+                <div id="search-dropdown" class="absolute top-full left-0 right-0 mt-2 bg-white border border-slate-200 rounded-2xl shadow-xl z-50 hidden max-h-80 overflow-y-auto"></div>
             </div>
         </div>
 
-        <div class="flex items-center justify-between mb-6">
-            <div class="flex items-center gap-4">
-                <button id="resetFilters" class="text-sm text-sky-600 hover:text-sky-700">Reset</button>
-                <span id="breedCount" class="text-slate-500 text-sm">220 breeds</span>
-            </div>
-            <select id="sortBy" class="border border-slate-200 rounded-lg px-3 py-2 text-sm">
-                <option value="name">A-Z</option>
-                <option value="popularity">Popularity</option>
-            </select>
-        </div>
+        <div class="flex flex-col lg:flex-row gap-8">
+            <aside class="lg:w-72 flex-shrink-0">
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5">
+                    <div class="flex items-center justify-between mb-4">
+                        <h2 class="font-semibold text-slate-800 flex items-center gap-2">
+                            <i data-lucide="sliders-horizontal" class="w-5 h-5"></i>
+                            Suodattimet
+                        </h2>
+                        <button id="resetFilters" class="text-sm text-sky-600 hover:text-sky-700">Nollaa</button>
+                    </div>
 
-        <div id="breedsGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            <!-- Breeds loaded via JS -->
+                    <div class="filter-section py-4">
+                        <h3 class="font-medium text-slate-700 mb-3">Koko</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="tiny" class="size-filter rounded text-sky-600">
+                                <span class="text-slate-600">Pienoinen</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="small" class="size-filter rounded text-sky-600">
+                                <span class="text-slate-600">Pieni</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="medium" class="size-filter rounded text-sky-600">
+                                <span class="text-slate-600">Keskikokoinen</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="large" class="size-filter rounded text-sky-600">
+                                <span class="text-slate-600">Suuri</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="giant" class="size-filter rounded text-sky-600">
+                                <span class="text-slate-600">Jättiläinen</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="filter-section py-4">
+                        <label class="flex items-center justify-between mb-3 cursor-pointer">
+                            <h3 class="font-medium text-slate-700">Energiataso</h3>
+                            <input type="checkbox" id="energyEnabled" class="rounded text-sky-600">
+                        </label>
+                        <div id="energyControls" class="hidden">
+                            <div class="flex items-center gap-3">
+                                <span class="text-xs text-slate-500">Matala</span>
+                                <input type="range" id="energyFilter" min="1" max="5" value="3" class="flex-1">
+                                <span class="text-xs text-slate-500">Korkea</span>
+                            </div>
+                            <div class="text-center text-sm text-slate-600 mt-1"><span id="energyValue">3</span>+</div>
+                        </div>
+                    </div>
+
+                    <div class="filter-section py-4">
+                        <label class="flex items-center justify-between mb-3 cursor-pointer">
+                            <h3 class="font-medium text-slate-700">Turkinhoitotarve</h3>
+                            <input type="checkbox" id="groomingEnabled" class="rounded text-sky-600">
+                        </label>
+                        <div id="groomingControls" class="hidden">
+                            <div class="flex items-center gap-3">
+                                <span class="text-xs text-slate-500">Matala</span>
+                                <input type="range" id="groomingFilter" min="1" max="5" value="3" class="flex-1">
+                                <span class="text-xs text-slate-500">Korkea</span>
+                            </div>
+                            <div class="text-center text-sm text-slate-600 mt-1"><span id="groomingValue">3</span> tai vähemmän</div>
+                        </div>
+                    </div>
+
+                    <div class="filter-section py-4">
+                        <label class="flex items-center justify-between mb-3 cursor-pointer">
+                            <h3 class="font-medium text-slate-700">Koulutettavuus</h3>
+                            <input type="checkbox" id="trainabilityEnabled" class="rounded text-sky-600">
+                        </label>
+                        <div id="trainabilityControls" class="hidden">
+                            <div class="flex items-center gap-3">
+                                <span class="text-xs text-slate-500">Matala</span>
+                                <input type="range" id="trainabilityFilter" min="1" max="5" value="3" class="flex-1">
+                                <span class="text-xs text-slate-500">Korkea</span>
+                            </div>
+                            <div class="text-center text-sm text-slate-600 mt-1"><span id="trainabilityValue">3</span>+</div>
+                        </div>
+                    </div>
+
+                    <div class="filter-section py-4">
+                        <label class="flex items-center justify-between mb-3 cursor-pointer">
+                            <h3 class="font-medium text-slate-700">Haukkumistaso</h3>
+                            <input type="checkbox" id="barkingEnabled" class="rounded text-sky-600">
+                        </label>
+                        <div id="barkingControls" class="hidden">
+                            <div class="flex items-center gap-3">
+                                <span class="text-xs text-slate-500">Hiljainen</span>
+                                <input type="range" id="barkingFilter" min="1" max="5" value="3" class="flex-1">
+                                <span class="text-xs text-slate-500">Äänekäs</span>
+                            </div>
+                            <div class="text-center text-sm text-slate-600 mt-1"><span id="barkingValue">3</span> tai vähemmän</div>
+                        </div>
+                    </div>
+
+                    <div class="filter-section py-4">
+                        <h3 class="font-medium text-slate-700 mb-3">Sopii</h3>
+                        <div class="space-y-3">
+                            <label class="flex items-center justify-between cursor-pointer">
+                                <span class="text-slate-600">Lapset</span>
+                                <input type="checkbox" id="kidFriendly" class="toggle-filter rounded text-sky-600">
+                            </label>
+                            <label class="flex items-center justify-between cursor-pointer">
+                                <span class="text-slate-600">Kerrostalot</span>
+                                <input type="checkbox" id="apartmentOk" class="toggle-filter rounded text-sky-600">
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="py-4">
+                        <h3 class="font-medium text-slate-700 mb-3">Karvanlähtö</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="minimal" class="shed-filter rounded text-sky-600">
+                                <span class="text-slate-600">Vähäinen</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="moderate" class="shed-filter rounded text-sky-600">
+                                <span class="text-slate-600">Kohtalainen</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="heavy" class="shed-filter rounded text-sky-600">
+                                <span class="text-slate-600">Runsas</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="flex-1">
+                <div class="flex items-center justify-between mb-4">
+                    <p class="text-slate-600"><span id="resultCount">0</span> rotua löydetty</p>
+                    <select id="sortBy" class="px-3 py-2 rounded-lg border border-slate-200 bg-white text-sm">
+                        <option value="name">Järjestä nimen mukaan</option>
+                        <option value="size">Järjestä koon mukaan</option>
+                        <option value="energy">Järjestä energian mukaan</option>
+                        <option value="trainability">Järjestä koulutettavuuden mukaan</option>
+                    </select>
+                </div>
+
+                <div id="resultsGrid" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5"></div>
+
+                <div id="noResults" class="hidden text-center py-16">
+                    <i data-lucide="search-x" class="w-16 h-16 text-slate-300 mx-auto mb-4"></i>
+                    <h3 class="text-xl font-semibold text-slate-700 mb-2">Rotuja ei löytynyt</h3>
+                    <p class="text-slate-500">Kokeile muuttaa suodattimia tai hakusanoja</p>
+                </div>
+            </div>
         </div>
     </main>
+
+    <footer class="bg-slate-800 text-white py-8 mt-16">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="flex items-center justify-center gap-2 mb-4">
+                <img src="../../logo-192.png" class="w-8 h-8 rounded-lg" alt="BreedFinder">
+                <span class="font-semibold">BreedFinder</span>
+            </div>
+            <p class="text-slate-400 text-sm">Find your perfect dog breed match</p>
+            <p class="text-slate-500 text-xs mt-6">© 2026 BreedFinder</p>
+        </div>
+    </footer>
 
     <script>
         lucide.createIcons();
         let allBreeds = [];
-        
+        let fuse = null;
+
         async function loadBreeds() {
             const response = await fetch('../../data/breeds.json');
             allBreeds = await response.json();
-            renderBreeds(allBreeds);
+            fuse = new Fuse(allBreeds, {
+                keys: ['name', 'aliases', 'temperament', 'group', 'description.overview'],
+                threshold: 0.4,
+                includeScore: true
+            });
+            applyFilters();
         }
-        
-        function renderBreeds(breeds) {
-            const grid = document.getElementById('breedsGrid');
-            document.getElementById('breedCount').textContent = breeds.length + ' breeds';
-            
+
+        function renderBreedCard(breed) {
+            const imageUrl = `../../images/breeds/${breed.id}.webp`;
+            const fallbackUrl = `../../images/heads/${breed.id}.webp`;
             const sizeColors = {
                 tiny: 'bg-purple-100 text-purple-700',
                 small: 'bg-blue-100 text-blue-700',
@@ -91,69 +258,176 @@
                 large: 'bg-orange-100 text-orange-700',
                 giant: 'bg-red-100 text-red-700'
             };
-            
-            grid.innerHTML = breeds.map(breed => `
-                <a href="../breeds/${breed.id}.html" class="breed-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+            const temperamentTags = breed.temperament.slice(0, 3).map(t => 
+                `<span class="tag bg-slate-100 text-slate-600">${t}</span>`
+            ).join('');
+
+            return `
+                <a href="../breeds/${breed.id}.html" class="breed-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden block">
                     <div class="aspect-[4/5] bg-slate-100 relative overflow-hidden">
-                        <img src="../../images/breeds/${breed.id}.webp" alt="${breed.name}" class="w-full h-full object-cover object-top" onerror="this.src='../../images/heads/${breed.id}.webp'">
-                        <span class="absolute top-2 right-2 tag ${sizeColors[breed.size.category] || 'bg-slate-100'}">${breed.size.category}</span>
+                        <img src="${imageUrl}" alt="${breed.name}" 
+                            class="w-full h-full object-cover object-top"
+                            onerror="this.onerror=null; this.src='${fallbackUrl}';">
+                        <span class="absolute top-2 right-2 tag ${sizeColors[breed.size.category] || 'bg-slate-100 text-slate-600'}">
+                            ${breed.size.category}
+                        </span>
                     </div>
                     <div class="p-4">
                         <h3 class="font-semibold text-slate-800 text-lg mb-1">${breed.name}</h3>
-                        <p class="text-slate-500 text-sm">${breed.origin} · ${breed.lifespan}</p>
+                        <p class="text-slate-500 text-sm mb-3">${breed.origin} · ${breed.lifespan}</p>
+                        <div class="flex flex-wrap gap-1 mb-3">${temperamentTags}</div>
+                        <div class="grid grid-cols-3 gap-2 text-center text-xs">
+                            <div class="bg-slate-50 rounded-lg py-2">
+                                <div class="text-slate-500">Energy</div>
+                                <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.energy)}${'○'.repeat(5-breed.ratings.energy)}</div>
+                            </div>
+                            <div class="bg-slate-50 rounded-lg py-2">
+                                <div class="text-slate-500">Groom</div>
+                                <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.grooming)}${'○'.repeat(5-breed.ratings.grooming)}</div>
+                            </div>
+                            <div class="bg-slate-50 rounded-lg py-2">
+                                <div class="text-slate-500">Train</div>
+                                <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.trainability)}${'○'.repeat(5-breed.ratings.trainability)}</div>
+                            </div>
+                        </div>
                     </div>
                 </a>
-            `).join('');
+            `;
         }
+
+        function applyFilters() {
+            const searchQuery = document.getElementById('searchInput').value.trim();
+            const energyEnabled = document.getElementById('energyEnabled').checked;
+            const groomingEnabled = document.getElementById('groomingEnabled').checked;
+            const trainabilityEnabled = document.getElementById('trainabilityEnabled').checked;
+            const barkingEnabled = document.getElementById('barkingEnabled').checked;
+            const energyMin = parseInt(document.getElementById('energyFilter').value);
+            const groomingMax = parseInt(document.getElementById('groomingFilter').value);
+            const trainabilityMin = parseInt(document.getElementById('trainabilityFilter').value);
+            const barkingMax = parseInt(document.getElementById('barkingFilter').value);
+            const kidFriendly = document.getElementById('kidFriendly').checked;
+            const apartmentOk = document.getElementById('apartmentOk').checked;
+            const sortBy = document.getElementById('sortBy').value;
+            const selectedSizes = Array.from(document.querySelectorAll('.size-filter:checked')).map(cb => cb.value);
+            const selectedShedding = Array.from(document.querySelectorAll('.shed-filter:checked')).map(cb => cb.value);
+
+            let results = searchQuery && fuse 
+                ? fuse.search(searchQuery).map(r => r.item)
+                : [...allBreeds];
+
+            results = results.filter(breed => {
+                if (selectedSizes.length > 0 && !selectedSizes.includes(breed.size.category)) return false;
+                if (energyEnabled && breed.ratings.energy < energyMin) return false;
+                if (groomingEnabled && breed.ratings.grooming > groomingMax) return false;
+                if (trainabilityEnabled && breed.ratings.trainability < trainabilityMin) return false;
+                if (barkingEnabled && breed.ratings.barking > barkingMax) return false;
+                if (kidFriendly && breed.ratings.kid_friendly < 4) return false;
+                if (apartmentOk && breed.ratings.apartment_ok < 3) return false;
+                if (selectedShedding.length > 0 && !selectedShedding.includes(breed.characteristics.shedding)) return false;
+                return true;
+            });
+
+            results.sort((a, b) => {
+                switch (sortBy) {
+                    case 'size': return (a.ratings.size || 3) - (b.ratings.size || 3);
+                    case 'energy': return b.ratings.energy - a.ratings.energy;
+                    case 'trainability': return b.ratings.trainability - a.ratings.trainability;
+                    default: return a.name.localeCompare(b.name);
+                }
+            });
+
+            const grid = document.getElementById('resultsGrid');
+            const noResults = document.getElementById('noResults');
+            document.getElementById('resultCount').textContent = results.length;
+
+            if (results.length === 0) {
+                grid.innerHTML = '';
+                noResults.classList.remove('hidden');
+            } else {
+                noResults.classList.add('hidden');
+                grid.innerHTML = results.map(renderBreedCard).join('');
+                lucide.createIcons();
+            }
+            document.getElementById('clearSearch').classList.toggle('hidden', !searchQuery);
+        }
+
+        function toggleFilterControls() {
+            document.getElementById('energyControls').classList.toggle('hidden', !document.getElementById('energyEnabled').checked);
+            document.getElementById('groomingControls').classList.toggle('hidden', !document.getElementById('groomingEnabled').checked);
+            document.getElementById('trainabilityControls').classList.toggle('hidden', !document.getElementById('trainabilityEnabled').checked);
+            document.getElementById('barkingControls').classList.toggle('hidden', !document.getElementById('barkingEnabled').checked);
+        }
+
+        function updateSliderLabels() {
+            document.getElementById('energyValue').textContent = document.getElementById('energyFilter').value;
+            document.getElementById('groomingValue').textContent = document.getElementById('groomingFilter').value;
+            document.getElementById('trainabilityValue').textContent = document.getElementById('trainabilityFilter').value;
+            document.getElementById('barkingValue').textContent = document.getElementById('barkingFilter').value;
+        }
+
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('energyEnabled').checked = false;
+            document.getElementById('groomingEnabled').checked = false;
+            document.getElementById('trainabilityEnabled').checked = false;
+            document.getElementById('barkingEnabled').checked = false;
+            document.getElementById('energyFilter').value = 3;
+            document.getElementById('groomingFilter').value = 3;
+            document.getElementById('trainabilityFilter').value = 3;
+            document.getElementById('barkingFilter').value = 3;
+            document.getElementById('kidFriendly').checked = false;
+            document.getElementById('apartmentOk').checked = false;
+            document.querySelectorAll('.size-filter, .shed-filter').forEach(cb => cb.checked = false);
+            document.getElementById('sortBy').value = 'name';
+            toggleFilterControls();
+            updateSliderLabels();
+            applyFilters();
+        }
+
+        // Autocomplete
+        const searchInput = document.getElementById('searchInput');
+        const searchDropdown = document.getElementById('search-dropdown');
         
-        document.getElementById('searchInput').addEventListener('input', function() {
-            const query = this.value.trim().toLowerCase();
-            if (!query) {
-                renderBreeds(allBreeds);
-                document.getElementById('search-dropdown').classList.add('hidden');
+        function showAutocomplete(query) {
+            if (!query || allBreeds.length === 0) {
+                searchDropdown.classList.add('hidden');
                 return;
             }
-            
-            const matches = allBreeds.filter(b => 
-                b.name.toLowerCase().includes(query) || 
-                b.temperament.some(t => t.toLowerCase().includes(query))
-            );
-            renderBreeds(matches);
-            
-            // Show dropdown
-            const dropdown = document.getElementById('search-dropdown');
-            const topMatches = matches.slice(0, 6);
-            if (topMatches.length > 0) {
-                dropdown.innerHTML = topMatches.map(b => `
-                    <a href="../breeds/${b.id}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 border-b last:border-0">
-                        <img src="../../images/heads/${b.id}.webp" class="w-10 h-10 rounded-xl object-cover">
-                        <div><div class="font-medium text-slate-800">${b.name}</div><div class="text-sm text-slate-500">${b.group}</div></div>
-                    </a>
-                `).join('');
-                dropdown.classList.remove('hidden');
-            } else {
-                dropdown.classList.add('hidden');
+            const matches = allBreeds.filter(b => b.name.toLowerCase().includes(query.toLowerCase())).slice(0, 8);
+            if (matches.length === 0) {
+                searchDropdown.classList.add('hidden');
+                return;
             }
-        });
-        
-        document.getElementById('resetFilters').addEventListener('click', () => {
-            document.getElementById('searchInput').value = '';
-            renderBreeds(allBreeds);
-        });
-        
-        document.getElementById('sortBy').addEventListener('change', function() {
-            const sorted = [...allBreeds].sort((a, b) => a.name.localeCompare(b.name));
-            renderBreeds(sorted);
-        });
-        
+            searchDropdown.innerHTML = matches.map(b => `
+                <a href="../breeds/${b.id}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition border-b border-slate-100 last:border-0">
+                    <img src="../../images/heads/${b.id}.webp" alt="${b.name}" class="w-10 h-10 rounded-xl object-cover">
+                    <div><div class="font-medium text-slate-800">${b.name}</div><div class="text-sm text-slate-500">${b.group} · ${b.size.category}</div></div>
+                </a>
+            `).join('');
+            searchDropdown.classList.remove('hidden');
+        }
+
         document.addEventListener('click', (e) => {
-            const input = document.getElementById('searchInput');
-            const dropdown = document.getElementById('search-dropdown');
-            if (!input.contains(e.target) && !dropdown.contains(e.target)) {
-                dropdown.classList.add('hidden');
-            }
+            if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) searchDropdown.classList.add('hidden');
         });
-        
+
+        searchInput.addEventListener('input', function() { showAutocomplete(this.value.trim()); applyFilters(); });
+        searchInput.addEventListener('focus', function() { if (this.value.trim()) showAutocomplete(this.value.trim()); });
+        document.getElementById('clearSearch').addEventListener('click', () => { searchInput.value = ''; searchDropdown.classList.add('hidden'); applyFilters(); });
+        document.getElementById('energyEnabled').addEventListener('change', () => { toggleFilterControls(); applyFilters(); });
+        document.getElementById('groomingEnabled').addEventListener('change', () => { toggleFilterControls(); applyFilters(); });
+        document.getElementById('trainabilityEnabled').addEventListener('change', () => { toggleFilterControls(); applyFilters(); });
+        document.getElementById('barkingEnabled').addEventListener('change', () => { toggleFilterControls(); applyFilters(); });
+        document.getElementById('energyFilter').addEventListener('input', () => { updateSliderLabels(); applyFilters(); });
+        document.getElementById('groomingFilter').addEventListener('input', () => { updateSliderLabels(); applyFilters(); });
+        document.getElementById('trainabilityFilter').addEventListener('input', () => { updateSliderLabels(); applyFilters(); });
+        document.getElementById('barkingFilter').addEventListener('input', () => { updateSliderLabels(); applyFilters(); });
+        document.getElementById('kidFriendly').addEventListener('change', applyFilters);
+        document.getElementById('apartmentOk').addEventListener('change', applyFilters);
+        document.getElementById('sortBy').addEventListener('change', applyFilters);
+        document.getElementById('resetFilters').addEventListener('click', resetFilters);
+        document.querySelectorAll('.size-filter, .shed-filter').forEach(cb => cb.addEventListener('change', applyFilters));
+
         loadBreeds();
     </script>
 </body>
