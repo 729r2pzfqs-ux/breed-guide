@@ -11,6 +11,24 @@
     <link rel="canonical" href="https://breedfinder.org/">
     
     <!-- Favicon -->
+    <!-- Hreflang -->
+    <link rel="alternate" hreflang="en" href="https://breedfinder.org/">
+    <link rel="alternate" hreflang="es" href="https://breedfinder.org/es/">
+    <link rel="alternate" hreflang="de" href="https://breedfinder.org/de/">
+    <link rel="alternate" hreflang="fr" href="https://breedfinder.org/fr/">
+    <link rel="alternate" hreflang="it" href="https://breedfinder.org/it/">
+    <link rel="alternate" hreflang="pt" href="https://breedfinder.org/pt/">
+    <link rel="alternate" hreflang="nl" href="https://breedfinder.org/nl/">
+    <link rel="alternate" hreflang="pl" href="https://breedfinder.org/pl/">
+    <link rel="alternate" hreflang="zh" href="https://breedfinder.org/zh/">
+    <link rel="alternate" hreflang="ja" href="https://breedfinder.org/ja/">
+    <link rel="alternate" hreflang="fi" href="https://breedfinder.org/fi/">
+    <link rel="alternate" hreflang="sv" href="https://breedfinder.org/sv/">
+    <link rel="alternate" hreflang="no" href="https://breedfinder.org/no/">
+    <link rel="alternate" hreflang="da" href="https://breedfinder.org/da/">
+    <link rel="alternate" hreflang="ru" href="https://breedfinder.org/ru/">
+    <link rel="alternate" hreflang="x-default" href="https://breedfinder.org/">
+    
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
@@ -136,6 +154,30 @@
                 <a href="search/" class="text-slate-600 hover:text-sky-600 transition ml-2 md:ml-0">Browse Breeds</a>
                 <!-- Dark mode removed -->
                 <a href="quiz" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-sky-500/25 transition">Take Quiz</a>
+                <!-- Language selector -->
+                <div class="relative group">
+                    <button class="flex items-center gap-1 text-slate-600 hover:text-sky-600">
+                        <i data-lucide="globe" class="w-4 h-4"></i>
+                        <span class="hidden md:inline">EN</span>
+                    </button>
+                    <div class="absolute right-0 top-full mt-2 bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50">
+                        <a href="./" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-sky-600">English</a>
+                        <a href="es/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a>
+                        <a href="de/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a>
+                        <a href="fr/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a>
+                        <a href="it/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a>
+                        <a href="pt/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Português</a>
+                        <a href="nl/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a>
+                        <a href="pl/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Polski</a>
+                        <a href="zh/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a>
+                        <a href="ja/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a>
+                        <a href="fi/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Suomi</a>
+                        <a href="sv/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a>
+                        <a href="no/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a>
+                        <a href="da/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a>
+                        <a href="ru/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
