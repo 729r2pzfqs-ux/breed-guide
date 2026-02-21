@@ -93,7 +93,7 @@
             };
             
             grid.innerHTML = breeds.map(breed => `
-                <a href="../../breeds/${breed.id}.html" class="breed-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+                <a href="../breeds/${breed.id}.html" class="breed-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
                     <div class="aspect-[4/5] bg-slate-100 relative overflow-hidden">
                         <img src="../../images/breeds/${breed.id}.webp" alt="${breed.name}" class="w-full h-full object-cover object-top" onerror="this.src='../../images/heads/${breed.id}.webp'">
                         <span class="absolute top-2 right-2 tag ${sizeColors[breed.size.category] || 'bg-slate-100'}">${breed.size.category}</span>
@@ -125,7 +125,7 @@
             const topMatches = matches.slice(0, 6);
             if (topMatches.length > 0) {
                 dropdown.innerHTML = topMatches.map(b => `
-                    <a href="../../breeds/${b.id}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 border-b last:border-0">
+                    <a href="../breeds/${b.id}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 border-b last:border-0">
                         <img src="../../images/heads/${b.id}.webp" class="w-10 h-10 rounded-xl object-cover">
                         <div><div class="font-medium text-slate-800">${b.name}</div><div class="text-sm text-slate-500">${b.group}</div></div>
                     </a>
