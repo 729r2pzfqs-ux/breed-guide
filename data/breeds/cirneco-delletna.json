@@ -1,0 +1,59 @@
+{
+  "id": "cirneco-delletna",
+  "name": "Cirneco dell'Etna",
+  "aliases": [],
+  "group": "hound",
+  "origin": "Italy (Sicily)",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "42-52",
+    "weight_kg": "8-12",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Short, sleek",
+    "coat_colors": [
+      "tan",
+      "chestnut"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "affectionate",
+    "friendly",
+    "independent",
+    "alert",
+    "gentle"
+  ],
+  "description": {
+    "overview": "An ancient Sicilian sighthound, the Cirneco is a small, elegant dog with low grooming needs. They're affectionate, gentle companions.",
+    "history": "The Cirneco dell'Etna originated in Italy (Sicily).",
+    "temperament": "Known for being affectionate, friendly, independent.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, sleek coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active owners",
+      "Apartment dwellers",
+      "Warm climates"
+    ],
+    "not_for": [
+      "Cold climates",
+      "Off-leash areas with small animals"
+    ],
+    "summary": "An ancient Sicilian sighthound, the Cirneco is a small, elegant dog with low grooming needs. They're affectionate, gentle companions."
+  }
+}

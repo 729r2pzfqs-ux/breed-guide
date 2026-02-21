@@ -1,0 +1,58 @@
+{
+  "id": "plott-hound",
+  "name": "Plott Hound",
+  "aliases": [],
+  "group": "hound",
+  "origin": "United States",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "51-64",
+    "weight_kg": "18-27",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 5,
+    "grooming": 1,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, smooth, glossy",
+    "coat_colors": [
+      "brindle"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "bold",
+    "loyal",
+    "alert",
+    "intelligent",
+    "confident"
+  ],
+  "description": {
+    "overview": "North Carolina's state dog, the Plott Hound is a bold, loyal pack hunter. They're intelligent, confident dogs who bond closely with family.",
+    "history": "The Plott Hound originated in United States.",
+    "temperament": "Known for being bold, loyal, alert.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, smooth, glossy coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Hunters",
+      "Active families",
+      "Those wanting a loyal companion"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "First-time owners"
+    ],
+    "summary": "North Carolina's state dog, the Plott Hound is a bold, loyal pack hunter. They're intelligent, confident dogs who bond closely with family."
+  }
+}

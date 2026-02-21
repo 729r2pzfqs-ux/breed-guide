@@ -1,0 +1,61 @@
+{
+  "id": "scottish-deerhound",
+  "name": "Scottish Deerhound",
+  "aliases": [],
+  "group": "hound",
+  "origin": "Scotland",
+  "lifespan": "8-11 years",
+  "size": {
+    "height_cm": "71-81",
+    "weight_kg": "34-50",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 3,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Harsh, wiry",
+    "coat_colors": [
+      "dark blue-gray",
+      "gray",
+      "brindle",
+      "fawn"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "gentle",
+    "dignified",
+    "polite",
+    "friendly",
+    "docile"
+  ],
+  "description": {
+    "overview": "The Royal Dog of Scotland, Deerhounds are gentle, dignified sighthounds. They're quiet, polite house dogs despite their impressive size.",
+    "history": "The Scottish Deerhound originated in Scotland.",
+    "temperament": "Known for being gentle, dignified, polite.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their harsh, wiry coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Those wanting a gentle giant",
+      "Quiet households",
+      "Rural homes"
+    ],
+    "not_for": [
+      "Small spaces",
+      "Homes with small pets"
+    ],
+    "summary": "The Royal Dog of Scotland, Deerhounds are gentle, dignified sighthounds. They're quiet, polite house dogs despite their impressive size."
+  }
+}

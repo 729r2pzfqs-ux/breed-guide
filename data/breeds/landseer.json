@@ -1,0 +1,58 @@
+{
+  "id": "landseer",
+  "name": "Landseer",
+  "aliases": [],
+  "group": "working",
+  "origin": "Germany/Canada",
+  "lifespan": "8-10 years",
+  "size": {
+    "height_cm": "67-80",
+    "weight_kg": "50-68",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 3,
+    "grooming": 4,
+    "sociability": 5,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 5,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Long, flat, dense",
+    "coat_colors": [
+      "white with black patches"
+    ],
+    "shedding": "high",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "gentle",
+    "patient",
+    "calm",
+    "noble",
+    "generous"
+  ],
+  "description": {
+    "overview": "Related to the Newfoundland, the Landseer is a gentle giant with a distinctive black and white coat. They're patient, noble dogs who love children.",
+    "history": "The Landseer originated in Germany/Canada.",
+    "temperament": "Known for being gentle, patient, calm.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, flat, dense coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with space",
+      "Those wanting a gentle giant",
+      "Water enthusiasts"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Those who dislike drool/shedding"
+    ],
+    "summary": "Related to the Newfoundland, the Landseer is a gentle giant with a distinctive black and white coat. They're patient, noble dogs who love children."
+  }
+}

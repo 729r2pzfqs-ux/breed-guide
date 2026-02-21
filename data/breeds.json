@@ -585,6 +585,64 @@
     }
   },
   {
+    "id": "american-foxhound",
+    "name": "American Foxhound",
+    "aliases": [],
+    "group": "hound",
+    "origin": "United States",
+    "lifespan": "11-13 years",
+    "size": {
+      "height_cm": "53-64",
+      "weight_kg": "25-32",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 5,
+      "grooming": 1,
+      "sociability": 5,
+      "trainability": 2,
+      "barking": 5,
+      "kid_friendly": 5,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Medium-length, hard",
+      "coat_colors": [
+        "any color"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "sweet",
+      "independent",
+      "easygoing",
+      "loyal",
+      "kind"
+    ],
+    "description": {
+      "overview": "Virginia's state dog, the American Foxhound is a sweet, easygoing breed with a musical bay. They're independent but loving companions.",
+      "history": "The American Foxhound originated in United States.",
+      "temperament": "Known for being sweet, independent, easygoing.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their medium-length, hard coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Rural homes",
+        "Very active owners",
+        "Multi-dog homes"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Those wanting an obedient dog"
+      ],
+      "summary": "Virginia's state dog, the American Foxhound is a sweet, easygoing breed with a musical bay. They're independent but loving companions."
+    }
+  },
+  {
     "id": "american-hairless-terrier",
     "name": "American Hairless Terrier",
     "aliases": [],
@@ -833,6 +891,64 @@
         "Those wanting a social dog"
       ],
       "summary": "Powerful Turkish guardians bred to protect livestock. Anatolians are independent and territorial - best for rural properties with experienced owners."
+    }
+  },
+  {
+    "id": "appenzeller-sennenhund",
+    "name": "Appenzeller Sennenhund",
+    "aliases": [],
+    "group": "herding",
+    "origin": "Switzerland",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "47-58",
+      "weight_kg": "22-32",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 5,
+      "grooming": 2,
+      "sociability": 3,
+      "trainability": 4,
+      "barking": 4,
+      "kid_friendly": 4,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Double coat, short",
+      "coat_colors": [
+        "tricolor (black, tan, white)"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "reliable",
+      "fearless",
+      "energetic",
+      "lively",
+      "self-assured"
+    ],
+    "description": {
+      "overview": "The most energetic of the Swiss Mountain Dogs, Appenzellers are reliable, fearless herding dogs. They're lively, active companions.",
+      "history": "The Appenzeller Sennenhund originated in Switzerland.",
+      "temperament": "Known for being reliable, fearless, energetic.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their double coat, short coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Very active owners",
+        "Farms",
+        "Dog sports enthusiasts"
+      ],
+      "not_for": [
+        "Sedentary owners",
+        "Apartment dwellers"
+      ],
+      "summary": "The most energetic of the Swiss Mountain Dogs, Appenzellers are reliable, fearless herding dogs. They're lively, active companions."
     }
   },
   {
@@ -1418,6 +1534,66 @@
     }
   },
   {
+    "id": "bedlington-terrier",
+    "name": "Bedlington Terrier",
+    "aliases": [],
+    "group": "terrier",
+    "origin": "England",
+    "lifespan": "11-16 years",
+    "size": {
+      "height_cm": "38-44",
+      "weight_kg": "8-10",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 4,
+      "grooming": 4,
+      "sociability": 4,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 4
+    },
+    "characteristics": {
+      "coat_type": "Crisp, curly, linty",
+      "coat_colors": [
+        "blue",
+        "liver",
+        "sandy"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "loyal",
+      "charming",
+      "spirited",
+      "intelligent",
+      "affectionate"
+    ],
+    "description": {
+      "overview": "With their lamb-like appearance, Bedlingtons are deceptively gentle-looking but retain true terrier spirit. They're loyal, charming companions.",
+      "history": "The Bedlington Terrier originated in England.",
+      "temperament": "Known for being loyal, charming, spirited.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their crisp, curly, linty coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Families",
+        "Allergy sufferers",
+        "Those wanting a unique breed"
+      ],
+      "not_for": [
+        "Those avoiding grooming",
+        "Homes with small pets"
+      ],
+      "summary": "With their lamb-like appearance, Bedlingtons are deceptively gentle-looking but retain true terrier spirit. They're loyal, charming companions."
+    }
+  },
+  {
     "id": "belgian-laekenois",
     "name": "Belgian Laekenois",
     "aliases": [
@@ -1671,6 +1847,65 @@
     }
   },
   {
+    "id": "bergamasco-sheepdog",
+    "name": "Bergamasco Sheepdog",
+    "aliases": [],
+    "group": "herding",
+    "origin": "Italy",
+    "lifespan": "13-15 years",
+    "size": {
+      "height_cm": "54-62",
+      "weight_kg": "26-38",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 3,
+      "grooming": 2,
+      "sociability": 4,
+      "trainability": 4,
+      "barking": 2,
+      "kid_friendly": 5,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Matted flocks (unique)",
+      "coat_colors": [
+        "gray",
+        "black"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "patient",
+      "intelligent",
+      "eager",
+      "protective",
+      "sociable"
+    ],
+    "description": {
+      "overview": "Known for their unique felted coat that forms natural mats called flocks, Bergamascos are patient, intelligent herding dogs.",
+      "history": "The Bergamasco Sheepdog originated in Italy.",
+      "temperament": "Known for being patient, intelligent, eager.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their matted flocks (unique) coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with children",
+        "Those wanting a unique breed",
+        "Patient owners"
+      ],
+      "not_for": [
+        "Hot climates",
+        "Those wanting a neat-looking dog"
+      ],
+      "summary": "Known for their unique felted coat that forms natural mats called flocks, Bergamascos are patient, intelligent herding dogs."
+    }
+  },
+  {
     "id": "berger-picard",
     "name": "Berger Picard",
     "aliases": [],
@@ -1915,6 +2150,64 @@
     }
   },
   {
+    "id": "black-and-tan-coonhound",
+    "name": "Black and Tan Coonhound",
+    "aliases": [],
+    "group": "hound",
+    "origin": "United States",
+    "lifespan": "10-12 years",
+    "size": {
+      "height_cm": "58-69",
+      "weight_kg": "29-50",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 4,
+      "grooming": 1,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 5,
+      "kid_friendly": 5,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Short, dense",
+      "coat_colors": [
+        "black and tan"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "easygoing",
+      "friendly",
+      "alert",
+      "trusting",
+      "gentle"
+    ],
+    "description": {
+      "overview": "A true American breed, the Black and Tan Coonhound is an easygoing, friendly dog with a melodious voice. They're excellent family companions.",
+      "history": "The Black and Tan Coonhound originated in United States.",
+      "temperament": "Known for being easygoing, friendly, alert.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their short, dense coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Rural families",
+        "Hunters",
+        "Those who don't mind barking"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Those wanting a quiet dog"
+      ],
+      "summary": "A true American breed, the Black and Tan Coonhound is an easygoing, friendly dog with a melodious voice. They're excellent family companions."
+    }
+  },
+  {
     "id": "black-russian-terrier",
     "name": "Black Russian Terrier",
     "aliases": [],
@@ -2035,6 +2328,64 @@
         "Owners wanting an obedient dog"
       ],
       "summary": "Gentle giants with legendary noses. Bloodhounds are patient and affectionate but stubborn when tracking. Need secure yards and patient owners."
+    }
+  },
+  {
+    "id": "bluetick-coonhound",
+    "name": "Bluetick Coonhound",
+    "aliases": [],
+    "group": "hound",
+    "origin": "United States",
+    "lifespan": "11-12 years",
+    "size": {
+      "height_cm": "53-69",
+      "weight_kg": "20-36",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 4,
+      "grooming": 1,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 5,
+      "kid_friendly": 5,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Short, glossy, dense",
+      "coat_colors": [
+        "blue ticked with tan"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "friendly",
+      "intelligent",
+      "devoted",
+      "athletic",
+      "tenacious"
+    ],
+    "description": {
+      "overview": "Named for their beautiful mottled blue coat, Blueticks are devoted, athletic hunting dogs who make loving family companions.",
+      "history": "The Bluetick Coonhound originated in United States.",
+      "temperament": "Known for being friendly, intelligent, devoted.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their short, glossy, dense coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Hunters",
+        "Active rural families",
+        "Those who appreciate their voice"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Those wanting a quiet dog"
+      ],
+      "summary": "Named for their beautiful mottled blue coat, Blueticks are devoted, athletic hunting dogs who make loving family companions."
     }
   },
   {
@@ -2228,6 +2579,125 @@
     }
   },
   {
+    "id": "border-terrier",
+    "name": "Border Terrier",
+    "aliases": [],
+    "group": "terrier",
+    "origin": "England/Scotland",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "28-40",
+      "weight_kg": "5-7",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 4,
+      "grooming": 2,
+      "sociability": 5,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 5,
+      "apartment_ok": 4
+    },
+    "characteristics": {
+      "coat_type": "Wiry, dense double coat",
+      "coat_colors": [
+        "red",
+        "grizzle and tan",
+        "blue and tan",
+        "wheaten"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "affectionate",
+      "happy",
+      "plucky",
+      "alert",
+      "obedient"
+    ],
+    "description": {
+      "overview": "One of Britain's oldest terriers, Border Terriers are happy, affectionate dogs who get along well with people and other dogs.",
+      "history": "The Border Terrier originated in England/Scotland.",
+      "temperament": "Known for being affectionate, happy, plucky.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their wiry, dense double coat coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with children",
+        "Active owners",
+        "Multi-pet homes"
+      ],
+      "not_for": [
+        "Homes with small pets",
+        "Those wanting a guard dog"
+      ],
+      "summary": "One of Britain's oldest terriers, Border Terriers are happy, affectionate dogs who get along well with people and other dogs."
+    }
+  },
+  {
+    "id": "borzoi",
+    "name": "Borzoi",
+    "aliases": [],
+    "group": "hound",
+    "origin": "Russia",
+    "lifespan": "9-14 years",
+    "size": {
+      "height_cm": "68-85",
+      "weight_kg": "27-48",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 3,
+      "grooming": 3,
+      "sociability": 3,
+      "trainability": 2,
+      "barking": 1,
+      "kid_friendly": 3,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Long, silky, wavy or curly",
+      "coat_colors": [
+        "any color"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "graceful",
+      "quiet",
+      "independent",
+      "athletic",
+      "gentle"
+    ],
+    "description": {
+      "overview": "The aristocratic Russian wolfhound, Borzoi are graceful, quiet dogs with a gentle demeanor. They're independent but devoted to their families.",
+      "history": "The Borzoi originated in Russia.",
+      "temperament": "Known for being graceful, quiet, independent.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their long, silky, wavy or curly coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Quiet households",
+        "Those wanting an elegant breed",
+        "Experienced sighthound owners"
+      ],
+      "not_for": [
+        "Homes with small pets",
+        "Those wanting an obedient dog"
+      ],
+      "summary": "The aristocratic Russian wolfhound, Borzoi are graceful, quiet dogs with a gentle demeanor. They're independent but devoted to their families."
+    }
+  },
+  {
     "id": "boston-terrier",
     "name": "Boston Terrier",
     "aliases": [
@@ -2289,6 +2759,67 @@
         "Budget-conscious (potential vet bills)"
       ],
       "summary": "The perfect city dog. Boston Terriers are friendly, low-maintenance, and adaptable to apartment living. Watch for breathing issues common to flat-faced breeds. Great for first-time owners."
+    }
+  },
+  {
+    "id": "bouvier-des-flandres",
+    "name": "Bouvier des Flandres",
+    "aliases": [],
+    "group": "herding",
+    "origin": "Belgium/France",
+    "lifespan": "10-12 years",
+    "size": {
+      "height_cm": "59-68",
+      "weight_kg": "27-40",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 4,
+      "grooming": 4,
+      "sociability": 3,
+      "trainability": 4,
+      "barking": 2,
+      "kid_friendly": 4,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Rough, tousled, double coat",
+      "coat_colors": [
+        "fawn",
+        "black",
+        "gray",
+        "brindle"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "loyal",
+      "protective",
+      "strong-willed",
+      "gentle",
+      "rational"
+    ],
+    "description": {
+      "overview": "A powerful Belgian farm dog, the Bouvier is a loyal, protective companion. They're gentle with family but can be reserved with strangers.",
+      "history": "The Bouvier des Flandres originated in Belgium/France.",
+      "temperament": "Known for being loyal, protective, strong-willed.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their rough, tousled, double coat coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Experienced owners",
+        "Those wanting a guardian",
+        "Active families"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Those avoiding grooming"
+      ],
+      "summary": "A powerful Belgian farm dog, the Bouvier is a loyal, protective companion. They're gentle with family but can be reserved with strangers."
     }
   },
   {
@@ -2931,6 +3462,65 @@
     }
   },
   {
+    "id": "canaan-dog",
+    "name": "Canaan Dog",
+    "aliases": [],
+    "group": "herding",
+    "origin": "Israel",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "48-61",
+      "weight_kg": "16-25",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 4,
+      "grooming": 2,
+      "sociability": 3,
+      "trainability": 3,
+      "barking": 4,
+      "kid_friendly": 4,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Double coat, harsh outer",
+      "coat_colors": [
+        "white with patches",
+        "solid colors"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "alert",
+      "vigilant",
+      "devoted",
+      "docile",
+      "territorial"
+    ],
+    "description": {
+      "overview": "Israel's national dog, the Canaan is an ancient, primitive breed. They're alert, devoted dogs who bond closely with family.",
+      "history": "The Canaan Dog originated in Israel.",
+      "temperament": "Known for being alert, vigilant, devoted.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their double coat, harsh outer coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Experienced owners",
+        "Those wanting a watchdog",
+        "Active families"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Multi-dog homes"
+      ],
+      "summary": "Israel's national dog, the Canaan is an ancient, primitive breed. They're alert, devoted dogs who bond closely with family."
+    }
+  },
+  {
     "id": "cane-corso",
     "name": "Cane Corso",
     "aliases": [
@@ -3371,6 +3961,65 @@
     }
   },
   {
+    "id": "chinook",
+    "name": "Chinook",
+    "aliases": [],
+    "group": "working",
+    "origin": "United States",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "53-69",
+      "weight_kg": "25-41",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 4,
+      "grooming": 2,
+      "sociability": 5,
+      "trainability": 4,
+      "barking": 2,
+      "kid_friendly": 5,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Double coat, medium-length",
+      "coat_colors": [
+        "tawny",
+        "honey"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "smart",
+      "patient",
+      "devoted",
+      "friendly",
+      "calm"
+    ],
+    "description": {
+      "overview": "New Hampshire's state dog, the Chinook is a rare American sled dog. They're calm, devoted family dogs with a gentle nature.",
+      "history": "The Chinook originated in United States.",
+      "temperament": "Known for being smart, patient, devoted.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their double coat, medium-length coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with children",
+        "Those wanting a rare breed",
+        "Active owners"
+      ],
+      "not_for": [
+        "Very hot climates",
+        "Those wanting a guard dog"
+      ],
+      "summary": "New Hampshire's state dog, the Chinook is a rare American sled dog. They're calm, devoted family dogs with a gentle nature."
+    }
+  },
+  {
     "id": "chow-chow",
     "name": "Chow Chow",
     "aliases": [
@@ -3435,6 +4084,65 @@
         "Those wanting an outgoing, social dog"
       ],
       "summary": "A dignified, ancient breed with a cat-like personality. Chows are loyal to family but independent and aloof. Best for experienced owners."
+    }
+  },
+  {
+    "id": "cirneco-delletna",
+    "name": "Cirneco dell'Etna",
+    "aliases": [],
+    "group": "hound",
+    "origin": "Italy (Sicily)",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "42-52",
+      "weight_kg": "8-12",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 4,
+      "grooming": 1,
+      "sociability": 4,
+      "trainability": 3,
+      "barking": 2,
+      "kid_friendly": 4,
+      "apartment_ok": 4
+    },
+    "characteristics": {
+      "coat_type": "Short, sleek",
+      "coat_colors": [
+        "tan",
+        "chestnut"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "affectionate",
+      "friendly",
+      "independent",
+      "alert",
+      "gentle"
+    ],
+    "description": {
+      "overview": "An ancient Sicilian sighthound, the Cirneco is a small, elegant dog with low grooming needs. They're affectionate, gentle companions.",
+      "history": "The Cirneco dell'Etna originated in Italy (Sicily).",
+      "temperament": "Known for being affectionate, friendly, independent.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their short, sleek coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Active owners",
+        "Apartment dwellers",
+        "Warm climates"
+      ],
+      "not_for": [
+        "Cold climates",
+        "Off-leash areas with small animals"
+      ],
+      "summary": "An ancient Sicilian sighthound, the Cirneco is a small, elegant dog with low grooming needs. They're affectionate, gentle companions."
     }
   },
   {
@@ -4255,6 +4963,64 @@
     }
   },
   {
+    "id": "dutch-shepherd",
+    "name": "Dutch Shepherd",
+    "aliases": [],
+    "group": "herding",
+    "origin": "Netherlands",
+    "lifespan": "11-14 years",
+    "size": {
+      "height_cm": "55-62",
+      "weight_kg": "23-32",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 5,
+      "grooming": 2,
+      "sociability": 3,
+      "trainability": 5,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Short, long, or wire",
+      "coat_colors": [
+        "brindle"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "reliable",
+      "alert",
+      "obedient",
+      "affectionate",
+      "athletic"
+    ],
+    "description": {
+      "overview": "A versatile Dutch herding breed distinguished by their brindle coat. Dutch Shepherds are reliable, athletic dogs who excel at many tasks.",
+      "history": "The Dutch Shepherd originated in Netherlands.",
+      "temperament": "Known for being reliable, alert, obedient.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their short, long, or wire coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Experienced owners",
+        "Dog sports enthusiasts",
+        "Active families"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Sedentary owners"
+      ],
+      "summary": "A versatile Dutch herding breed distinguished by their brindle coat. Dutch Shepherds are reliable, athletic dogs who excel at many tasks."
+    }
+  },
+  {
     "id": "english-cocker-spaniel",
     "name": "English Cocker Spaniel",
     "aliases": [],
@@ -4310,6 +5076,65 @@
         "Sedentary owners"
       ],
       "summary": "Slightly larger than their American cousins, English Cockers are merry, active sporting dogs. They're excellent family companions known for their happy, wagging tails."
+    }
+  },
+  {
+    "id": "english-foxhound",
+    "name": "English Foxhound",
+    "aliases": [],
+    "group": "hound",
+    "origin": "England",
+    "lifespan": "10-13 years",
+    "size": {
+      "height_cm": "53-64",
+      "weight_kg": "25-34",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 5,
+      "grooming": 1,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 4,
+      "kid_friendly": 5,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Short, dense, hard",
+      "coat_colors": [
+        "tricolor",
+        "bicolor"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "friendly",
+      "gentle",
+      "sociable",
+      "tolerant",
+      "active"
+    ],
+    "description": {
+      "overview": "Bred for fox hunting in packs, English Foxhounds are gentle, sociable dogs who thrive with company. They're rarely kept as pets.",
+      "history": "The English Foxhound originated in England.",
+      "temperament": "Known for being friendly, gentle, sociable.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their short, dense, hard coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Very active owners",
+        "Multi-dog homes",
+        "Rural settings"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Single-dog homes"
+      ],
+      "summary": "Bred for fox hunting in packs, English Foxhounds are gentle, sociable dogs who thrive with company. They're rarely kept as pets."
     }
   },
   {
@@ -4626,6 +5451,64 @@
         "Those wanting a low-energy dog"
       ],
       "summary": "The smallest Swiss Mountain Dog with big energy and loyalty. Entles are smart, athletic, and devoted - perfect for active families."
+    }
+  },
+  {
+    "id": "eurasier",
+    "name": "Eurasier",
+    "aliases": [],
+    "group": "non-sporting",
+    "origin": "Germany",
+    "lifespan": "12-16 years",
+    "size": {
+      "height_cm": "48-60",
+      "weight_kg": "18-32",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 3,
+      "grooming": 3,
+      "sociability": 3,
+      "trainability": 4,
+      "barking": 2,
+      "kid_friendly": 5,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Medium-length double coat",
+      "coat_colors": [
+        "all colors except white and liver"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "confident",
+      "calm",
+      "intelligent",
+      "even-tempered",
+      "reserved"
+    ],
+    "description": {
+      "overview": "A modern German breed mixing Chow Chow, Wolfspitz, and Samoyed. Eurasiers are calm, confident dogs who are devoted to family but reserved with strangers.",
+      "history": "The Eurasier originated in Germany.",
+      "temperament": "Known for being confident, calm, intelligent.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their medium-length double coat coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Families",
+        "Those wanting a calm breed",
+        "Patient owners"
+      ],
+      "not_for": [
+        "Those wanting an outgoing dog",
+        "Those away from home often"
+      ],
+      "summary": "A modern German breed mixing Chow Chow, Wolfspitz, and Samoyed. Eurasiers are calm, confident dogs who are devoted to family but reserved with strangers."
     }
   },
   {
@@ -5197,6 +6080,125 @@
     }
   },
   {
+    "id": "giant-schnauzer",
+    "name": "Giant Schnauzer",
+    "aliases": [],
+    "group": "working",
+    "origin": "Germany",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "60-70",
+      "weight_kg": "25-48",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 5,
+      "grooming": 4,
+      "sociability": 3,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Dense, wiry, harsh",
+      "coat_colors": [
+        "black",
+        "salt and pepper"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "loyal",
+      "alert",
+      "trainable",
+      "powerful",
+      "intelligent"
+    ],
+    "description": {
+      "overview": "The largest of the three Schnauzer breeds, Giants are powerful, intelligent working dogs. They're loyal guardians and versatile workers.",
+      "history": "The Giant Schnauzer originated in Germany.",
+      "temperament": "Known for being loyal, alert, trainable.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their dense, wiry, harsh coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Experienced owners",
+        "Active families",
+        "Those wanting a guardian"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Sedentary owners"
+      ],
+      "summary": "The largest of the three Schnauzer breeds, Giants are powerful, intelligent working dogs. They're loyal guardians and versatile workers."
+    }
+  },
+  {
+    "id": "glen-of-imaal-terrier",
+    "name": "Glen of Imaal Terrier",
+    "aliases": [],
+    "group": "terrier",
+    "origin": "Ireland",
+    "lifespan": "10-15 years",
+    "size": {
+      "height_cm": "32-36",
+      "weight_kg": "14-18",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 3,
+      "grooming": 2,
+      "sociability": 4,
+      "trainability": 3,
+      "barking": 2,
+      "kid_friendly": 4,
+      "apartment_ok": 4
+    },
+    "characteristics": {
+      "coat_type": "Medium-length, harsh",
+      "coat_colors": [
+        "wheaten",
+        "blue",
+        "brindle"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "gentle",
+      "spirited",
+      "brave",
+      "loyal",
+      "patient"
+    ],
+    "description": {
+      "overview": "A sturdy Irish terrier bred for hunting badgers and foxes. Glens are gentle, patient dogs with a big heart despite their medium size.",
+      "history": "The Glen of Imaal Terrier originated in Ireland.",
+      "temperament": "Known for being gentle, spirited, brave.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their medium-length, harsh coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Families",
+        "Those wanting a calm terrier",
+        "Apartment dwellers"
+      ],
+      "not_for": [
+        "Those with small pets",
+        "Wanting a high-energy dog"
+      ],
+      "summary": "A sturdy Irish terrier bred for hunting badgers and foxes. Glens are gentle, patient dogs with a big heart despite their medium size."
+    }
+  },
+  {
     "id": "golden-retriever",
     "name": "Golden Retriever",
     "aliases": [
@@ -5509,6 +6511,64 @@
     }
   },
   {
+    "id": "greater-swiss-mountain-dog",
+    "name": "Greater Swiss Mountain Dog",
+    "aliases": [],
+    "group": "working",
+    "origin": "Switzerland",
+    "lifespan": "8-11 years",
+    "size": {
+      "height_cm": "60-72",
+      "weight_kg": "45-64",
+      "category": "giant"
+    },
+    "ratings": {
+      "size": 5,
+      "energy": 3,
+      "grooming": 2,
+      "sociability": 4,
+      "trainability": 3,
+      "barking": 3,
+      "kid_friendly": 5,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Short, dense double coat",
+      "coat_colors": [
+        "tricolor (black, rust, white)"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "faithful",
+      "dependable",
+      "alert",
+      "gentle",
+      "family-oriented"
+    ],
+    "description": {
+      "overview": "The largest Swiss Mountain Dog, Swissies are faithful, dependable companions. They're gentle giants who excel as family dogs.",
+      "history": "The Greater Swiss Mountain Dog originated in Switzerland.",
+      "temperament": "Known for being faithful, dependable, alert.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their short, dense double coat coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with space",
+        "Those wanting a guardian",
+        "Active homes"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Hot climates"
+      ],
+      "summary": "The largest Swiss Mountain Dog, Swissies are faithful, dependable companions. They're gentle giants who excel as family dogs."
+    }
+  },
+  {
     "id": "greyhound",
     "name": "Greyhound",
     "aliases": [
@@ -5568,6 +6628,64 @@
         "Those wanting an active outdoor companion"
       ],
       "summary": "The world's fastest couch potato. Greyhounds are gentle, quiet, and surprisingly apartment-friendly. Many retired racers need homes."
+    }
+  },
+  {
+    "id": "harrier",
+    "name": "Harrier",
+    "aliases": [],
+    "group": "hound",
+    "origin": "England",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "48-53",
+      "weight_kg": "18-27",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 4,
+      "grooming": 1,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 4,
+      "kid_friendly": 5,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Short, dense, glossy",
+      "coat_colors": [
+        "any hound color"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "friendly",
+      "outgoing",
+      "active",
+      "people-oriented",
+      "playful"
+    ],
+    "description": {
+      "overview": "Often described as a Beagle on steroids, Harriers are friendly, outgoing pack hounds who love company and activity.",
+      "history": "The Harrier originated in England.",
+      "temperament": "Known for being friendly, outgoing, active.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their short, dense, glossy coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families",
+        "Multi-dog homes",
+        "Runners"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Those wanting a quiet dog"
+      ],
+      "summary": "Often described as a Beagle on steroids, Harriers are friendly, outgoing pack hounds who love company and activity."
     }
   },
   {
@@ -5693,6 +6811,187 @@
         "Apartments"
       ],
       "summary": "One of Japan's oldest breeds, the Hokkaido is a brave, devoted hunting dog capable of working in harsh winter conditions. They're loyal family companions."
+    }
+  },
+  {
+    "id": "hovawart",
+    "name": "Hovawart",
+    "aliases": [],
+    "group": "working",
+    "origin": "Germany",
+    "lifespan": "10-14 years",
+    "size": {
+      "height_cm": "58-70",
+      "weight_kg": "25-45",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 4,
+      "grooming": 3,
+      "sociability": 3,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Long, slightly wavy",
+      "coat_colors": [
+        "black and gold",
+        "black",
+        "blond"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "alert",
+      "faithful",
+      "familial",
+      "reserved",
+      "even-tempered"
+    ],
+    "description": {
+      "overview": "An ancient German guardian breed, Hovawarts are faithful, even-tempered dogs. They're devoted to family and naturally protective.",
+      "history": "The Hovawart originated in Germany.",
+      "temperament": "Known for being alert, faithful, familial.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their long, slightly wavy coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Experienced owners",
+        "Families wanting a guardian",
+        "Active homes"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Apartments"
+      ],
+      "summary": "An ancient German guardian breed, Hovawarts are faithful, even-tempered dogs. They're devoted to family and naturally protective."
+    }
+  },
+  {
+    "id": "ibizan-hound",
+    "name": "Ibizan Hound",
+    "aliases": [],
+    "group": "hound",
+    "origin": "Spain (Ibiza)",
+    "lifespan": "11-14 years",
+    "size": {
+      "height_cm": "56-74",
+      "weight_kg": "20-29",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 4,
+      "grooming": 1,
+      "sociability": 4,
+      "trainability": 3,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Smooth or wire",
+      "coat_colors": [
+        "white",
+        "red",
+        "white and red"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "clownish",
+      "family-oriented",
+      "even-tempered",
+      "polite",
+      "independent"
+    ],
+    "description": {
+      "overview": "An ancient breed from the Balearic Islands, Ibizans are elegant, athletic sighthounds with a clownish personality. They're wonderful family dogs.",
+      "history": "The Ibizan Hound originated in Spain (Ibiza).",
+      "temperament": "Known for being clownish, family-oriented, even-tempered.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their smooth or wire coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families",
+        "Those wanting a unique breed",
+        "Warm climates"
+      ],
+      "not_for": [
+        "Homes with small pets",
+        "Cold climates"
+      ],
+      "summary": "An ancient breed from the Balearic Islands, Ibizans are elegant, athletic sighthounds with a clownish personality. They're wonderful family dogs."
+    }
+  },
+  {
+    "id": "icelandic-sheepdog",
+    "name": "Icelandic Sheepdog",
+    "aliases": [],
+    "group": "herding",
+    "origin": "Iceland",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "42-46",
+      "weight_kg": "9-14",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 4,
+      "grooming": 3,
+      "sociability": 5,
+      "trainability": 4,
+      "barking": 4,
+      "kid_friendly": 5,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Double coat, long or short",
+      "coat_colors": [
+        "tan",
+        "chocolate",
+        "gray",
+        "black"
+      ],
+      "shedding": "high",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "cheerful",
+      "friendly",
+      "inquisitive",
+      "playful",
+      "alert"
+    ],
+    "description": {
+      "overview": "Iceland's only native dog, this cheerful spitz-type breed is friendly and playful. They're excellent family companions with a love for their people.",
+      "history": "The Icelandic Sheepdog originated in Iceland.",
+      "temperament": "Known for being cheerful, friendly, inquisitive.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their double coat, long or short coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Families",
+        "Active owners",
+        "Those wanting a cheerful breed"
+      ],
+      "not_for": [
+        "Those wanting a quiet dog",
+        "Those who dislike shedding"
+      ],
+      "summary": "Iceland's only native dog, this cheerful spitz-type breed is friendly and playful. They're excellent family companions with a love for their people."
     }
   },
   {
@@ -5873,6 +7172,70 @@
         "Novice owners"
       ],
       "summary": "The tallest spaniel, the Irish Water Spaniel is known for their distinctive rat tail and curly liver-colored coat. They're natural clowns with a love for water."
+    }
+  },
+  {
+    "id": "irish-wolfhound",
+    "name": "Irish Wolfhound",
+    "aliases": [],
+    "group": "hound",
+    "origin": "Ireland",
+    "lifespan": "6-8 years",
+    "size": {
+      "height_cm": "76-90",
+      "weight_kg": "48-70",
+      "category": "giant"
+    },
+    "ratings": {
+      "size": 5,
+      "energy": 3,
+      "grooming": 2,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 2,
+      "kid_friendly": 5,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Rough, wiry",
+      "coat_colors": [
+        "gray",
+        "brindle",
+        "red",
+        "black",
+        "white",
+        "fawn"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "courageous",
+      "dignified",
+      "calm",
+      "gentle",
+      "patient"
+    ],
+    "description": {
+      "overview": "The tallest of all dog breeds, Irish Wolfhounds are gentle giants with patient, dignified personalities. Despite their size, they're calm house dogs.",
+      "history": "The Irish Wolfhound originated in Ireland.",
+      "temperament": "Known for being courageous, dignified, calm.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their rough, wiry coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with space",
+        "Those wanting a gentle giant",
+        "Patient owners"
+      ],
+      "not_for": [
+        "Small homes",
+        "Those on tight budgets",
+        "Very long lifespans"
+      ],
+      "summary": "The tallest of all dog breeds, Irish Wolfhounds are gentle giants with patient, dignified personalities. Despite their size, they're calm house dogs."
     }
   },
   {
@@ -6245,6 +7608,64 @@
     }
   },
   {
+    "id": "kerry-blue-terrier",
+    "name": "Kerry Blue Terrier",
+    "aliases": [],
+    "group": "terrier",
+    "origin": "Ireland",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "44-51",
+      "weight_kg": "15-18",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 4,
+      "grooming": 4,
+      "sociability": 3,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Soft, wavy, dense",
+      "coat_colors": [
+        "blue-gray"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "alert",
+      "spirited",
+      "loyal",
+      "intelligent",
+      "strong-willed"
+    ],
+    "description": {
+      "overview": "Ireland's national terrier, the Kerry Blue has a distinctive soft, wavy blue-gray coat. They're versatile working dogs and loyal companions.",
+      "history": "The Kerry Blue Terrier originated in Ireland.",
+      "temperament": "Known for being alert, spirited, loyal.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their soft, wavy, dense coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families",
+        "Those wanting a unique breed",
+        "Experienced owners"
+      ],
+      "not_for": [
+        "Multi-dog homes",
+        "First-time owners"
+      ],
+      "summary": "Ireland's national terrier, the Kerry Blue has a distinctive soft, wavy blue-gray coat. They're versatile working dogs and loyal companions."
+    }
+  },
+  {
     "id": "kishu-ken",
     "name": "Kishu Ken",
     "aliases": [],
@@ -6561,6 +7982,67 @@
     }
   },
   {
+    "id": "lagotto-romagnolo",
+    "name": "Lagotto Romagnolo",
+    "aliases": [],
+    "group": "sporting",
+    "origin": "Italy",
+    "lifespan": "15-17 years",
+    "size": {
+      "height_cm": "41-48",
+      "weight_kg": "11-16",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 4,
+      "grooming": 4,
+      "sociability": 4,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 5,
+      "apartment_ok": 4
+    },
+    "characteristics": {
+      "coat_type": "Dense, curly, woolly",
+      "coat_colors": [
+        "off-white",
+        "brown",
+        "orange",
+        "roan"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "keen",
+      "loving",
+      "undemanding",
+      "loyal",
+      "active"
+    ],
+    "description": {
+      "overview": "Italy's truffle-hunting dog, the Lagotto has a distinctive curly coat and keen nose. They're loving, active companions with a hypoallergenic coat.",
+      "history": "The Lagotto Romagnolo originated in Italy.",
+      "temperament": "Known for being keen, loving, undemanding.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their dense, curly, woolly coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Families",
+        "Allergy sufferers",
+        "Active owners"
+      ],
+      "not_for": [
+        "Those avoiding grooming",
+        "Very sedentary owners"
+      ],
+      "summary": "Italy's truffle-hunting dog, the Lagotto has a distinctive curly coat and keen nose. They're loving, active companions with a hypoallergenic coat."
+    }
+  },
+  {
     "id": "lakeland-terrier",
     "name": "Lakeland Terrier",
     "aliases": [
@@ -6624,6 +8106,64 @@
         "First-time owners"
       ],
       "summary": "Bold, confident terriers from England's Lake District. Lakelands are friendly and hypoallergenic but have typical terrier independence."
+    }
+  },
+  {
+    "id": "landseer",
+    "name": "Landseer",
+    "aliases": [],
+    "group": "working",
+    "origin": "Germany/Canada",
+    "lifespan": "8-10 years",
+    "size": {
+      "height_cm": "67-80",
+      "weight_kg": "50-68",
+      "category": "giant"
+    },
+    "ratings": {
+      "size": 5,
+      "energy": 3,
+      "grooming": 4,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 2,
+      "kid_friendly": 5,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Long, flat, dense",
+      "coat_colors": [
+        "white with black patches"
+      ],
+      "shedding": "high",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "gentle",
+      "patient",
+      "calm",
+      "noble",
+      "generous"
+    ],
+    "description": {
+      "overview": "Related to the Newfoundland, the Landseer is a gentle giant with a distinctive black and white coat. They're patient, noble dogs who love children.",
+      "history": "The Landseer originated in Germany/Canada.",
+      "temperament": "Known for being gentle, patient, calm.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their long, flat, dense coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with space",
+        "Those wanting a gentle giant",
+        "Water enthusiasts"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Those who dislike drool/shedding"
+      ],
+      "summary": "Related to the Newfoundland, the Landseer is a gentle giant with a distinctive black and white coat. They're patient, noble dogs who love children."
     }
   },
   {
@@ -6933,6 +8473,64 @@
     }
   },
   {
+    "id": "manchester-terrier",
+    "name": "Manchester Terrier",
+    "aliases": [],
+    "group": "terrier",
+    "origin": "England",
+    "lifespan": "15-17 years",
+    "size": {
+      "height_cm": "38-41",
+      "weight_kg": "5-10",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 4,
+      "grooming": 1,
+      "sociability": 3,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 5
+    },
+    "characteristics": {
+      "coat_type": "Short, smooth, glossy",
+      "coat_colors": [
+        "black and tan"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "spirited",
+      "alert",
+      "keen",
+      "devoted",
+      "athletic"
+    ],
+    "description": {
+      "overview": "A sleek, athletic terrier bred for ratting and rabbit coursing. Manchesters are devoted, spirited companions with low grooming needs.",
+      "history": "The Manchester Terrier originated in England.",
+      "temperament": "Known for being spirited, alert, keen.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their short, smooth, glossy coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Active owners",
+        "Apartment dwellers",
+        "Those wanting low grooming"
+      ],
+      "not_for": [
+        "Homes with small pets",
+        "Very cold climates"
+      ],
+      "summary": "A sleek, athletic terrier bred for ratting and rabbit coursing. Manchesters are devoted, spirited companions with low grooming needs."
+    }
+  },
+  {
     "id": "mastiff",
     "name": "Mastiff",
     "aliases": [],
@@ -7180,6 +8778,69 @@
         "Those who prefer very calm dogs"
       ],
       "summary": "Friendly, smart, and hypoallergenic. Mini Schnauzers make great apartment dogs and family companions. They need regular grooming and can be barky but are loyal and fun."
+    }
+  },
+  {
+    "id": "mudi",
+    "name": "Mudi",
+    "aliases": [],
+    "group": "herding",
+    "origin": "Hungary",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "36-47",
+      "weight_kg": "8-13",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 5,
+      "grooming": 2,
+      "sociability": 3,
+      "trainability": 5,
+      "barking": 4,
+      "kid_friendly": 4,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Wavy or curly",
+      "coat_colors": [
+        "black",
+        "white",
+        "fawn",
+        "gray",
+        "brown",
+        "merle"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "intelligent",
+      "alert",
+      "versatile",
+      "energetic",
+      "biddable"
+    ],
+    "description": {
+      "overview": "A rare Hungarian herding breed, the Mudi is extremely versatile and intelligent. They excel at many dog sports and make loyal companions.",
+      "history": "The Mudi originated in Hungary.",
+      "temperament": "Known for being intelligent, alert, versatile.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their wavy or curly coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Dog sports enthusiasts",
+        "Experienced owners",
+        "Active families"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Sedentary owners"
+      ],
+      "summary": "A rare Hungarian herding breed, the Mudi is extremely versatile and intelligent. They excel at many dog sports and make loyal companions."
     }
   },
   {
@@ -7740,6 +9401,123 @@
     }
   },
   {
+    "id": "old-english-sheepdog",
+    "name": "Old English Sheepdog",
+    "aliases": [],
+    "group": "herding",
+    "origin": "England",
+    "lifespan": "10-12 years",
+    "size": {
+      "height_cm": "54-61",
+      "weight_kg": "27-45",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 3,
+      "grooming": 5,
+      "sociability": 5,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 5,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Profuse, shaggy double coat",
+      "coat_colors": [
+        "gray and white",
+        "blue and white"
+      ],
+      "shedding": "high",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "adaptable",
+      "gentle",
+      "intelligent",
+      "playful",
+      "sociable"
+    ],
+    "description": {
+      "overview": "The iconic shaggy dog, Old English Sheepdogs are gentle, playful companions. Their distinctive coat requires significant maintenance.",
+      "history": "The Old English Sheepdog originated in England.",
+      "temperament": "Known for being adaptable, gentle, intelligent.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their profuse, shaggy double coat coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Families with children",
+        "Those who enjoy grooming",
+        "Homes with space"
+      ],
+      "not_for": [
+        "Those avoiding grooming",
+        "Neat freaks"
+      ],
+      "summary": "The iconic shaggy dog, Old English Sheepdogs are gentle, playful companions. Their distinctive coat requires significant maintenance."
+    }
+  },
+  {
+    "id": "otterhound",
+    "name": "Otterhound",
+    "aliases": [],
+    "group": "hound",
+    "origin": "England",
+    "lifespan": "10-13 years",
+    "size": {
+      "height_cm": "61-69",
+      "weight_kg": "36-54",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 4,
+      "grooming": 3,
+      "sociability": 5,
+      "trainability": 2,
+      "barking": 4,
+      "kid_friendly": 5,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Rough, dense, double coat",
+      "coat_colors": [
+        "any color"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "amiable",
+      "boisterous",
+      "even-tempered",
+      "friendly",
+      "independent"
+    ],
+    "description": {
+      "overview": "One of the rarest breeds, Otterhounds are friendly, boisterous dogs with webbed feet and a love of water. They're gentle family companions.",
+      "history": "The Otterhound originated in England.",
+      "temperament": "Known for being amiable, boisterous, even-tempered.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their rough, dense, double coat coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families",
+        "Those wanting a rare breed",
+        "Water enthusiasts"
+      ],
+      "not_for": [
+        "Those wanting an obedient dog",
+        "Neat freaks"
+      ],
+      "summary": "One of the rarest breeds, Otterhounds are friendly, boisterous dogs with webbed feet and a love of water. They're gentle family companions."
+    }
+  },
+  {
     "id": "papillon",
     "name": "Papillon",
     "aliases": [],
@@ -8055,6 +9833,64 @@
     }
   },
   {
+    "id": "petit-basset-griffon-vendeen",
+    "name": "Petit Basset Griffon Vend\u00e9en",
+    "aliases": [],
+    "group": "hound",
+    "origin": "France",
+    "lifespan": "14-16 years",
+    "size": {
+      "height_cm": "32-38",
+      "weight_kg": "14-18",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 4,
+      "grooming": 3,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 4,
+      "kid_friendly": 5,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Rough, harsh",
+      "coat_colors": [
+        "white with any combination"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "happy",
+      "extroverted",
+      "independent",
+      "alert",
+      "vivacious"
+    ],
+    "description": {
+      "overview": "The PBGV is a happy, extroverted French scent hound. Their cheerful personality and shaggy appearance make them delightful companions.",
+      "history": "The Petit Basset Griffon Vend\u00e9en originated in France.",
+      "temperament": "Known for being happy, extroverted, independent.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their rough, harsh coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families",
+        "Multi-dog homes",
+        "Those wanting a happy breed"
+      ],
+      "not_for": [
+        "Those wanting a quiet dog",
+        "Off-leash reliability"
+      ],
+      "summary": "The PBGV is a happy, extroverted French scent hound. Their cheerful personality and shaggy appearance make them delightful companions."
+    }
+  },
+  {
     "id": "pharaoh-hound",
     "name": "Pharaoh Hound",
     "aliases": [
@@ -8117,6 +9953,122 @@
         "Sedentary households"
       ],
       "summary": "Elegant, friendly sighthounds that actually blush! Pharaoh Hounds are playful and affectionate. Need active owners and secure running space."
+    }
+  },
+  {
+    "id": "plott-hound",
+    "name": "Plott Hound",
+    "aliases": [],
+    "group": "hound",
+    "origin": "United States",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "51-64",
+      "weight_kg": "18-27",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 5,
+      "grooming": 1,
+      "sociability": 4,
+      "trainability": 3,
+      "barking": 4,
+      "kid_friendly": 4,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Short, smooth, glossy",
+      "coat_colors": [
+        "brindle"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "bold",
+      "loyal",
+      "alert",
+      "intelligent",
+      "confident"
+    ],
+    "description": {
+      "overview": "North Carolina's state dog, the Plott Hound is a bold, loyal pack hunter. They're intelligent, confident dogs who bond closely with family.",
+      "history": "The Plott Hound originated in United States.",
+      "temperament": "Known for being bold, loyal, alert.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their short, smooth, glossy coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Hunters",
+        "Active families",
+        "Those wanting a loyal companion"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "First-time owners"
+      ],
+      "summary": "North Carolina's state dog, the Plott Hound is a bold, loyal pack hunter. They're intelligent, confident dogs who bond closely with family."
+    }
+  },
+  {
+    "id": "polish-lowland-sheepdog",
+    "name": "Polish Lowland Sheepdog",
+    "aliases": [],
+    "group": "herding",
+    "origin": "Poland",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "42-52",
+      "weight_kg": "14-23",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 4,
+      "grooming": 4,
+      "sociability": 3,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Long, thick, shaggy",
+      "coat_colors": [
+        "any color"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "confident",
+      "clever",
+      "perceptive",
+      "even-tempered",
+      "self-confident"
+    ],
+    "description": {
+      "overview": "Known as PON in Poland, this shaggy herding dog is confident and clever. They're excellent watchdogs and loyal family companions.",
+      "history": "The Polish Lowland Sheepdog originated in Poland.",
+      "temperament": "Known for being confident, clever, perceptive.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their long, thick, shaggy coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Experienced owners",
+        "Active families",
+        "Those wanting a watchdog"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Those avoiding grooming"
+      ],
+      "summary": "Known as PON in Poland, this shaggy herding dog is confident and clever. They're excellent watchdogs and loyal family companions."
     }
   },
   {
@@ -8765,6 +10717,64 @@
     }
   },
   {
+    "id": "redbone-coonhound",
+    "name": "Redbone Coonhound",
+    "aliases": [],
+    "group": "hound",
+    "origin": "United States",
+    "lifespan": "11-12 years",
+    "size": {
+      "height_cm": "53-69",
+      "weight_kg": "20-32",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 4,
+      "grooming": 1,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 5,
+      "kid_friendly": 5,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Short, smooth",
+      "coat_colors": [
+        "red"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "even-tempered",
+      "amiable",
+      "eager",
+      "mellow",
+      "loving"
+    ],
+    "description": {
+      "overview": "The Redbone Coonhound is an even-tempered, mellow dog with a stunning red coat. They're versatile hunters and loving family dogs.",
+      "history": "The Redbone Coonhound originated in United States.",
+      "temperament": "Known for being even-tempered, amiable, eager.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their short, smooth coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families",
+        "Hunters",
+        "Multi-pet homes"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Those wanting a quiet dog"
+      ],
+      "summary": "The Redbone Coonhound is an even-tempered, mellow dog with a stunning red coat. They're versatile hunters and loving family dogs."
+    }
+  },
+  {
     "id": "rhodesian-ridgeback",
     "name": "Rhodesian Ridgeback",
     "aliases": [
@@ -9204,6 +11214,67 @@
         "Novice owners"
       ],
       "summary": "The 'Little Black Devil' is a small Belgian breed known for their curious, mischievous nature. They're excellent watchdogs with a distinctive ruff and tailless appearance."
+    }
+  },
+  {
+    "id": "scottish-deerhound",
+    "name": "Scottish Deerhound",
+    "aliases": [],
+    "group": "hound",
+    "origin": "Scotland",
+    "lifespan": "8-11 years",
+    "size": {
+      "height_cm": "71-81",
+      "weight_kg": "34-50",
+      "category": "giant"
+    },
+    "ratings": {
+      "size": 5,
+      "energy": 3,
+      "grooming": 2,
+      "sociability": 4,
+      "trainability": 3,
+      "barking": 2,
+      "kid_friendly": 4,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Harsh, wiry",
+      "coat_colors": [
+        "dark blue-gray",
+        "gray",
+        "brindle",
+        "fawn"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "gentle",
+      "dignified",
+      "polite",
+      "friendly",
+      "docile"
+    ],
+    "description": {
+      "overview": "The Royal Dog of Scotland, Deerhounds are gentle, dignified sighthounds. They're quiet, polite house dogs despite their impressive size.",
+      "history": "The Scottish Deerhound originated in Scotland.",
+      "temperament": "Known for being gentle, dignified, polite.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their harsh, wiry coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Those wanting a gentle giant",
+        "Quiet households",
+        "Rural homes"
+      ],
+      "not_for": [
+        "Small spaces",
+        "Homes with small pets"
+      ],
+      "summary": "The Royal Dog of Scotland, Deerhounds are gentle, dignified sighthounds. They're quiet, polite house dogs despite their impressive size."
     }
   },
   {
@@ -10102,6 +12173,68 @@
     }
   },
   {
+    "id": "spanish-water-dog",
+    "name": "Spanish Water Dog",
+    "aliases": [],
+    "group": "herding",
+    "origin": "Spain",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "40-50",
+      "weight_kg": "14-22",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 4,
+      "grooming": 2,
+      "sociability": 4,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Curly, woolly (cords when long)",
+      "coat_colors": [
+        "black",
+        "brown",
+        "beige",
+        "white",
+        "bicolor"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "diligent",
+      "affectionate",
+      "loyal",
+      "athletic",
+      "intelligent"
+    ],
+    "description": {
+      "overview": "A versatile Spanish breed used for herding and water retrieval, the Spanish Water Dog has a distinctive curly coat and loyal personality.",
+      "history": "The Spanish Water Dog originated in Spain.",
+      "temperament": "Known for being diligent, affectionate, loyal.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their curly, woolly (cords when long) coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families",
+        "Water enthusiasts",
+        "Allergy sufferers"
+      ],
+      "not_for": [
+        "Those wanting a fluffy-looking dog",
+        "Sedentary owners"
+      ],
+      "summary": "A versatile Spanish breed used for herding and water retrieval, the Spanish Water Dog has a distinctive curly coat and loyal personality."
+    }
+  },
+  {
     "id": "spinone-italiano",
     "name": "Spinone Italiano",
     "aliases": [],
@@ -10296,6 +12429,65 @@
     }
   },
   {
+    "id": "standard-schnauzer",
+    "name": "Standard Schnauzer",
+    "aliases": [],
+    "group": "working",
+    "origin": "Germany",
+    "lifespan": "13-16 years",
+    "size": {
+      "height_cm": "44-50",
+      "weight_kg": "14-20",
+      "category": "medium"
+    },
+    "ratings": {
+      "size": 3,
+      "energy": 4,
+      "grooming": 4,
+      "sociability": 4,
+      "trainability": 4,
+      "barking": 3,
+      "kid_friendly": 4,
+      "apartment_ok": 3
+    },
+    "characteristics": {
+      "coat_type": "Dense, wiry, harsh",
+      "coat_colors": [
+        "black",
+        "salt and pepper"
+      ],
+      "shedding": "low",
+      "hypoallergenic": true
+    },
+    "temperament": [
+      "fearless",
+      "smart",
+      "spirited",
+      "reliable",
+      "good-natured"
+    ],
+    "description": {
+      "overview": "The original Schnauzer, Standards are versatile, intelligent dogs. They're spirited but reliable, making excellent family companions and watchdogs.",
+      "history": "The Standard Schnauzer originated in Germany.",
+      "temperament": "Known for being fearless, smart, spirited.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their dense, wiry, harsh coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families",
+        "Those wanting a versatile breed",
+        "Experienced owners"
+      ],
+      "not_for": [
+        "First-time owners",
+        "Those avoiding grooming"
+      ],
+      "summary": "The original Schnauzer, Standards are versatile, intelligent dogs. They're spirited but reliable, making excellent family companions and watchdogs."
+    }
+  },
+  {
     "id": "sussex-spaniel",
     "name": "Sussex Spaniel",
     "aliases": [],
@@ -10351,6 +12543,66 @@
         "High-energy activities"
       ],
       "summary": "One of the rarest spaniel breeds, the Sussex has a unique golden liver coat and a surprisingly deep bark. They're slower-paced but determined hunters."
+    }
+  },
+  {
+    "id": "swedish-vallhund",
+    "name": "Swedish Vallhund",
+    "aliases": [],
+    "group": "herding",
+    "origin": "Sweden",
+    "lifespan": "12-15 years",
+    "size": {
+      "height_cm": "30-35",
+      "weight_kg": "9-14",
+      "category": "small"
+    },
+    "ratings": {
+      "size": 2,
+      "energy": 4,
+      "grooming": 2,
+      "sociability": 4,
+      "trainability": 4,
+      "barking": 4,
+      "kid_friendly": 4,
+      "apartment_ok": 4
+    },
+    "characteristics": {
+      "coat_type": "Medium-length double coat",
+      "coat_colors": [
+        "gray",
+        "red-brown",
+        "grayish-yellow"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "friendly",
+      "energetic",
+      "alert",
+      "intelligent",
+      "fearless"
+    ],
+    "description": {
+      "overview": "A Viking-era cattle dog, the Swedish Vallhund looks like a wolf-gray Corgi. They're energetic, intelligent dogs with a fearless attitude.",
+      "history": "The Swedish Vallhund originated in Sweden.",
+      "temperament": "Known for being friendly, energetic, alert.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their medium-length double coat coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Active families",
+        "Dog sports enthusiasts",
+        "Apartment dwellers"
+      ],
+      "not_for": [
+        "Those wanting a quiet dog",
+        "Sedentary owners"
+      ],
+      "summary": "A Viking-era cattle dog, the Swedish Vallhund looks like a wolf-gray Corgi. They're energetic, intelligent dogs with a fearless attitude."
     }
   },
   {
@@ -10672,6 +12924,64 @@
         "Rough households"
       ],
       "summary": "Tiny athletes with big terrier personalities. Toy Fox Terriers are intelligent, trainable, and perfect for apartments."
+    }
+  },
+  {
+    "id": "treeing-walker-coonhound",
+    "name": "Treeing Walker Coonhound",
+    "aliases": [],
+    "group": "hound",
+    "origin": "United States",
+    "lifespan": "12-13 years",
+    "size": {
+      "height_cm": "51-69",
+      "weight_kg": "20-32",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 5,
+      "grooming": 1,
+      "sociability": 5,
+      "trainability": 3,
+      "barking": 5,
+      "kid_friendly": 5,
+      "apartment_ok": 1
+    },
+    "characteristics": {
+      "coat_type": "Short, smooth, glossy",
+      "coat_colors": [
+        "tricolor"
+      ],
+      "shedding": "moderate",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "smart",
+      "brave",
+      "courteous",
+      "loving",
+      "confident"
+    ],
+    "description": {
+      "overview": "A fast, athletic coonhound known for their speed and endurance. Treeing Walkers are smart, loving dogs with a competitive spirit.",
+      "history": "The Treeing Walker Coonhound originated in United States.",
+      "temperament": "Known for being smart, brave, courteous.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their short, smooth, glossy coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Hunters",
+        "Very active families",
+        "Rural homes"
+      ],
+      "not_for": [
+        "Apartment dwellers",
+        "Sedentary owners"
+      ],
+      "summary": "A fast, athletic coonhound known for their speed and endurance. Treeing Walkers are smart, loving dogs with a competitive spirit."
     }
   },
   {
@@ -11048,6 +13358,64 @@
         "Very young children"
       ],
       "summary": "Elegant, gentle sighthounds perfect for apartments. Whippets are calm indoors but need secure areas to run. Quiet and affectionate."
+    }
+  },
+  {
+    "id": "white-swiss-shepherd",
+    "name": "White Swiss Shepherd",
+    "aliases": [],
+    "group": "herding",
+    "origin": "Switzerland",
+    "lifespan": "12-14 years",
+    "size": {
+      "height_cm": "55-66",
+      "weight_kg": "25-40",
+      "category": "large"
+    },
+    "ratings": {
+      "size": 4,
+      "energy": 4,
+      "grooming": 3,
+      "sociability": 4,
+      "trainability": 5,
+      "barking": 3,
+      "kid_friendly": 5,
+      "apartment_ok": 2
+    },
+    "characteristics": {
+      "coat_type": "Medium or long double coat",
+      "coat_colors": [
+        "white"
+      ],
+      "shedding": "high",
+      "hypoallergenic": false
+    },
+    "temperament": [
+      "gentle",
+      "intelligent",
+      "loyal",
+      "eager",
+      "friendly"
+    ],
+    "description": {
+      "overview": "A white variant developed from German Shepherds, the White Swiss Shepherd is gentle, intelligent, and eager to please. They're wonderful family dogs.",
+      "history": "The White Swiss Shepherd originated in Switzerland.",
+      "temperament": "Known for being gentle, intelligent, loyal.",
+      "health": "Generally healthy with breed-typical considerations.",
+      "grooming": "Requires regular grooming appropriate for their medium or long double coat coat.",
+      "exercise": "Exercise needs match their energy level."
+    },
+    "verdict": {
+      "best_for": [
+        "Families",
+        "Active owners",
+        "Those wanting a loyal companion"
+      ],
+      "not_for": [
+        "Those who dislike shedding",
+        "Very hot climates"
+      ],
+      "summary": "A white variant developed from German Shepherds, the White Swiss Shepherd is gentle, intelligent, and eager to please. They're wonderful family dogs."
     }
   },
   {

@@ -1,0 +1,58 @@
+{
+  "id": "dutch-shepherd",
+  "name": "Dutch Shepherd",
+  "aliases": [],
+  "group": "herding",
+  "origin": "Netherlands",
+  "lifespan": "11-14 years",
+  "size": {
+    "height_cm": "55-62",
+    "weight_kg": "23-32",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 2,
+    "sociability": 3,
+    "trainability": 5,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, long, or wire",
+    "coat_colors": [
+      "brindle"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "reliable",
+    "alert",
+    "obedient",
+    "affectionate",
+    "athletic"
+  ],
+  "description": {
+    "overview": "A versatile Dutch herding breed distinguished by their brindle coat. Dutch Shepherds are reliable, athletic dogs who excel at many tasks.",
+    "history": "The Dutch Shepherd originated in Netherlands.",
+    "temperament": "Known for being reliable, alert, obedient.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, long, or wire coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Dog sports enthusiasts",
+      "Active families"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Sedentary owners"
+    ],
+    "summary": "A versatile Dutch herding breed distinguished by their brindle coat. Dutch Shepherds are reliable, athletic dogs who excel at many tasks."
+  }
+}

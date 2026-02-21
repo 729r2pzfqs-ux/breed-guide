@@ -1,0 +1,58 @@
+{
+  "id": "petit-basset-griffon-vendeen",
+  "name": "Petit Basset Griffon Vend\u00e9en",
+  "aliases": [],
+  "group": "hound",
+  "origin": "France",
+  "lifespan": "14-16 years",
+  "size": {
+    "height_cm": "32-38",
+    "weight_kg": "14-18",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 5,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 5,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Rough, harsh",
+    "coat_colors": [
+      "white with any combination"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "happy",
+    "extroverted",
+    "independent",
+    "alert",
+    "vivacious"
+  ],
+  "description": {
+    "overview": "The PBGV is a happy, extroverted French scent hound. Their cheerful personality and shaggy appearance make them delightful companions.",
+    "history": "The Petit Basset Griffon Vend\u00e9en originated in France.",
+    "temperament": "Known for being happy, extroverted, independent.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their rough, harsh coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Multi-dog homes",
+      "Those wanting a happy breed"
+    ],
+    "not_for": [
+      "Those wanting a quiet dog",
+      "Off-leash reliability"
+    ],
+    "summary": "The PBGV is a happy, extroverted French scent hound. Their cheerful personality and shaggy appearance make them delightful companions."
+  }
+}

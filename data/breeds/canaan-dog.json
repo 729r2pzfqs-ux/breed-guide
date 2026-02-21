@@ -1,0 +1,59 @@
+{
+  "id": "canaan-dog",
+  "name": "Canaan Dog",
+  "aliases": [],
+  "group": "herding",
+  "origin": "Israel",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "48-61",
+    "weight_kg": "16-25",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Double coat, harsh outer",
+    "coat_colors": [
+      "white with patches",
+      "solid colors"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "alert",
+    "vigilant",
+    "devoted",
+    "docile",
+    "territorial"
+  ],
+  "description": {
+    "overview": "Israel's national dog, the Canaan is an ancient, primitive breed. They're alert, devoted dogs who bond closely with family.",
+    "history": "The Canaan Dog originated in Israel.",
+    "temperament": "Known for being alert, vigilant, devoted.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their double coat, harsh outer coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Those wanting a watchdog",
+      "Active families"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Multi-dog homes"
+    ],
+    "summary": "Israel's national dog, the Canaan is an ancient, primitive breed. They're alert, devoted dogs who bond closely with family."
+  }
+}

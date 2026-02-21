@@ -1,0 +1,60 @@
+{
+  "id": "bedlington-terrier",
+  "name": "Bedlington Terrier",
+  "aliases": [],
+  "group": "terrier",
+  "origin": "England",
+  "lifespan": "11-16 years",
+  "size": {
+    "height_cm": "38-44",
+    "weight_kg": "8-10",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Crisp, curly, linty",
+    "coat_colors": [
+      "blue",
+      "liver",
+      "sandy"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "loyal",
+    "charming",
+    "spirited",
+    "intelligent",
+    "affectionate"
+  ],
+  "description": {
+    "overview": "With their lamb-like appearance, Bedlingtons are deceptively gentle-looking but retain true terrier spirit. They're loyal, charming companions.",
+    "history": "The Bedlington Terrier originated in England.",
+    "temperament": "Known for being loyal, charming, spirited.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their crisp, curly, linty coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Allergy sufferers",
+      "Those wanting a unique breed"
+    ],
+    "not_for": [
+      "Those avoiding grooming",
+      "Homes with small pets"
+    ],
+    "summary": "With their lamb-like appearance, Bedlingtons are deceptively gentle-looking but retain true terrier spirit. They're loyal, charming companions."
+  }
+}

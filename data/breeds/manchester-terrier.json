@@ -1,0 +1,58 @@
+{
+  "id": "manchester-terrier",
+  "name": "Manchester Terrier",
+  "aliases": [],
+  "group": "terrier",
+  "origin": "England",
+  "lifespan": "15-17 years",
+  "size": {
+    "height_cm": "38-41",
+    "weight_kg": "5-10",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Short, smooth, glossy",
+    "coat_colors": [
+      "black and tan"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "spirited",
+    "alert",
+    "keen",
+    "devoted",
+    "athletic"
+  ],
+  "description": {
+    "overview": "A sleek, athletic terrier bred for ratting and rabbit coursing. Manchesters are devoted, spirited companions with low grooming needs.",
+    "history": "The Manchester Terrier originated in England.",
+    "temperament": "Known for being spirited, alert, keen.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, smooth, glossy coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active owners",
+      "Apartment dwellers",
+      "Those wanting low grooming"
+    ],
+    "not_for": [
+      "Homes with small pets",
+      "Very cold climates"
+    ],
+    "summary": "A sleek, athletic terrier bred for ratting and rabbit coursing. Manchesters are devoted, spirited companions with low grooming needs."
+  }
+}

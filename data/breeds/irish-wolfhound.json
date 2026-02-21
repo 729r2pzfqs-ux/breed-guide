@@ -1,0 +1,64 @@
+{
+  "id": "irish-wolfhound",
+  "name": "Irish Wolfhound",
+  "aliases": [],
+  "group": "hound",
+  "origin": "Ireland",
+  "lifespan": "6-8 years",
+  "size": {
+    "height_cm": "76-90",
+    "weight_kg": "48-70",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 3,
+    "grooming": 2,
+    "sociability": 5,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Rough, wiry",
+    "coat_colors": [
+      "gray",
+      "brindle",
+      "red",
+      "black",
+      "white",
+      "fawn"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "courageous",
+    "dignified",
+    "calm",
+    "gentle",
+    "patient"
+  ],
+  "description": {
+    "overview": "The tallest of all dog breeds, Irish Wolfhounds are gentle giants with patient, dignified personalities. Despite their size, they're calm house dogs.",
+    "history": "The Irish Wolfhound originated in Ireland.",
+    "temperament": "Known for being courageous, dignified, calm.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their rough, wiry coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with space",
+      "Those wanting a gentle giant",
+      "Patient owners"
+    ],
+    "not_for": [
+      "Small homes",
+      "Those on tight budgets",
+      "Very long lifespans"
+    ],
+    "summary": "The tallest of all dog breeds, Irish Wolfhounds are gentle giants with patient, dignified personalities. Despite their size, they're calm house dogs."
+  }
+}

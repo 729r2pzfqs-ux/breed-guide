@@ -1,0 +1,58 @@
+{
+  "id": "otterhound",
+  "name": "Otterhound",
+  "aliases": [],
+  "group": "hound",
+  "origin": "England",
+  "lifespan": "10-13 years",
+  "size": {
+    "height_cm": "61-69",
+    "weight_kg": "36-54",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 5,
+    "trainability": 2,
+    "barking": 4,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Rough, dense, double coat",
+    "coat_colors": [
+      "any color"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "amiable",
+    "boisterous",
+    "even-tempered",
+    "friendly",
+    "independent"
+  ],
+  "description": {
+    "overview": "One of the rarest breeds, Otterhounds are friendly, boisterous dogs with webbed feet and a love of water. They're gentle family companions.",
+    "history": "The Otterhound originated in England.",
+    "temperament": "Known for being amiable, boisterous, even-tempered.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their rough, dense, double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Those wanting a rare breed",
+      "Water enthusiasts"
+    ],
+    "not_for": [
+      "Those wanting an obedient dog",
+      "Neat freaks"
+    ],
+    "summary": "One of the rarest breeds, Otterhounds are friendly, boisterous dogs with webbed feet and a love of water. They're gentle family companions."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "eurasier",
+  "name": "Eurasier",
+  "aliases": [],
+  "group": "non-sporting",
+  "origin": "Germany",
+  "lifespan": "12-16 years",
+  "size": {
+    "height_cm": "48-60",
+    "weight_kg": "18-32",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 3,
+    "grooming": 3,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 5,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Medium-length double coat",
+    "coat_colors": [
+      "all colors except white and liver"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "confident",
+    "calm",
+    "intelligent",
+    "even-tempered",
+    "reserved"
+  ],
+  "description": {
+    "overview": "A modern German breed mixing Chow Chow, Wolfspitz, and Samoyed. Eurasiers are calm, confident dogs who are devoted to family but reserved with strangers.",
+    "history": "The Eurasier originated in Germany.",
+    "temperament": "Known for being confident, calm, intelligent.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their medium-length double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Those wanting a calm breed",
+      "Patient owners"
+    ],
+    "not_for": [
+      "Those wanting an outgoing dog",
+      "Those away from home often"
+    ],
+    "summary": "A modern German breed mixing Chow Chow, Wolfspitz, and Samoyed. Eurasiers are calm, confident dogs who are devoted to family but reserved with strangers."
+  }
+}

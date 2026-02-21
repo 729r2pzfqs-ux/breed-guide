@@ -1,0 +1,58 @@
+{
+  "id": "polish-lowland-sheepdog",
+  "name": "Polish Lowland Sheepdog",
+  "aliases": [],
+  "group": "herding",
+  "origin": "Poland",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "42-52",
+    "weight_kg": "14-23",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Long, thick, shaggy",
+    "coat_colors": [
+      "any color"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "confident",
+    "clever",
+    "perceptive",
+    "even-tempered",
+    "self-confident"
+  ],
+  "description": {
+    "overview": "Known as PON in Poland, this shaggy herding dog is confident and clever. They're excellent watchdogs and loyal family companions.",
+    "history": "The Polish Lowland Sheepdog originated in Poland.",
+    "temperament": "Known for being confident, clever, perceptive.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, thick, shaggy coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Active families",
+      "Those wanting a watchdog"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Those avoiding grooming"
+    ],
+    "summary": "Known as PON in Poland, this shaggy herding dog is confident and clever. They're excellent watchdogs and loyal family companions."
+  }
+}

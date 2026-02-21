@@ -1,0 +1,60 @@
+{
+  "id": "ibizan-hound",
+  "name": "Ibizan Hound",
+  "aliases": [],
+  "group": "hound",
+  "origin": "Spain (Ibiza)",
+  "lifespan": "11-14 years",
+  "size": {
+    "height_cm": "56-74",
+    "weight_kg": "20-29",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Smooth or wire",
+    "coat_colors": [
+      "white",
+      "red",
+      "white and red"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "clownish",
+    "family-oriented",
+    "even-tempered",
+    "polite",
+    "independent"
+  ],
+  "description": {
+    "overview": "An ancient breed from the Balearic Islands, Ibizans are elegant, athletic sighthounds with a clownish personality. They're wonderful family dogs.",
+    "history": "The Ibizan Hound originated in Spain (Ibiza).",
+    "temperament": "Known for being clownish, family-oriented, even-tempered.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their smooth or wire coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Those wanting a unique breed",
+      "Warm climates"
+    ],
+    "not_for": [
+      "Homes with small pets",
+      "Cold climates"
+    ],
+    "summary": "An ancient breed from the Balearic Islands, Ibizans are elegant, athletic sighthounds with a clownish personality. They're wonderful family dogs."
+  }
+}

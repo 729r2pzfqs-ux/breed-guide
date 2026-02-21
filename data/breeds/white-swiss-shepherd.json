@@ -1,0 +1,58 @@
+{
+  "id": "white-swiss-shepherd",
+  "name": "White Swiss Shepherd",
+  "aliases": [],
+  "group": "herding",
+  "origin": "Switzerland",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "55-66",
+    "weight_kg": "25-40",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 5,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Medium or long double coat",
+    "coat_colors": [
+      "white"
+    ],
+    "shedding": "high",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "gentle",
+    "intelligent",
+    "loyal",
+    "eager",
+    "friendly"
+  ],
+  "description": {
+    "overview": "A white variant developed from German Shepherds, the White Swiss Shepherd is gentle, intelligent, and eager to please. They're wonderful family dogs.",
+    "history": "The White Swiss Shepherd originated in Switzerland.",
+    "temperament": "Known for being gentle, intelligent, loyal.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their medium or long double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Active owners",
+      "Those wanting a loyal companion"
+    ],
+    "not_for": [
+      "Those who dislike shedding",
+      "Very hot climates"
+    ],
+    "summary": "A white variant developed from German Shepherds, the White Swiss Shepherd is gentle, intelligent, and eager to please. They're wonderful family dogs."
+  }
+}

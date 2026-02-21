@@ -1,0 +1,60 @@
+{
+  "id": "hovawart",
+  "name": "Hovawart",
+  "aliases": [],
+  "group": "working",
+  "origin": "Germany",
+  "lifespan": "10-14 years",
+  "size": {
+    "height_cm": "58-70",
+    "weight_kg": "25-45",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Long, slightly wavy",
+    "coat_colors": [
+      "black and gold",
+      "black",
+      "blond"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "alert",
+    "faithful",
+    "familial",
+    "reserved",
+    "even-tempered"
+  ],
+  "description": {
+    "overview": "An ancient German guardian breed, Hovawarts are faithful, even-tempered dogs. They're devoted to family and naturally protective.",
+    "history": "The Hovawart originated in Germany.",
+    "temperament": "Known for being alert, faithful, familial.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, slightly wavy coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Families wanting a guardian",
+      "Active homes"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Apartments"
+    ],
+    "summary": "An ancient German guardian breed, Hovawarts are faithful, even-tempered dogs. They're devoted to family and naturally protective."
+  }
+}

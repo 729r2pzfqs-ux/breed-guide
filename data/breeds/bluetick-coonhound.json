@@ -1,0 +1,58 @@
+{
+  "id": "bluetick-coonhound",
+  "name": "Bluetick Coonhound",
+  "aliases": [],
+  "group": "hound",
+  "origin": "United States",
+  "lifespan": "11-12 years",
+  "size": {
+    "height_cm": "53-69",
+    "weight_kg": "20-36",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 5,
+    "trainability": 3,
+    "barking": 5,
+    "kid_friendly": 5,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Short, glossy, dense",
+    "coat_colors": [
+      "blue ticked with tan"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "friendly",
+    "intelligent",
+    "devoted",
+    "athletic",
+    "tenacious"
+  ],
+  "description": {
+    "overview": "Named for their beautiful mottled blue coat, Blueticks are devoted, athletic hunting dogs who make loving family companions.",
+    "history": "The Bluetick Coonhound originated in United States.",
+    "temperament": "Known for being friendly, intelligent, devoted.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, glossy, dense coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Hunters",
+      "Active rural families",
+      "Those who appreciate their voice"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Those wanting a quiet dog"
+    ],
+    "summary": "Named for their beautiful mottled blue coat, Blueticks are devoted, athletic hunting dogs who make loving family companions."
+  }
+}

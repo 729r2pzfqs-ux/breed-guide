@@ -1,0 +1,59 @@
+{
+  "id": "bergamasco-sheepdog",
+  "name": "Bergamasco Sheepdog",
+  "aliases": [],
+  "group": "herding",
+  "origin": "Italy",
+  "lifespan": "13-15 years",
+  "size": {
+    "height_cm": "54-62",
+    "weight_kg": "26-38",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 3,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Matted flocks (unique)",
+    "coat_colors": [
+      "gray",
+      "black"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "patient",
+    "intelligent",
+    "eager",
+    "protective",
+    "sociable"
+  ],
+  "description": {
+    "overview": "Known for their unique felted coat that forms natural mats called flocks, Bergamascos are patient, intelligent herding dogs.",
+    "history": "The Bergamasco Sheepdog originated in Italy.",
+    "temperament": "Known for being patient, intelligent, eager.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their matted flocks (unique) coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with children",
+      "Those wanting a unique breed",
+      "Patient owners"
+    ],
+    "not_for": [
+      "Hot climates",
+      "Those wanting a neat-looking dog"
+    ],
+    "summary": "Known for their unique felted coat that forms natural mats called flocks, Bergamascos are patient, intelligent herding dogs."
+  }
+}

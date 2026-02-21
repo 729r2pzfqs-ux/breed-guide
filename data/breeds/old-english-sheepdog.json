@@ -1,0 +1,59 @@
+{
+  "id": "old-english-sheepdog",
+  "name": "Old English Sheepdog",
+  "aliases": [],
+  "group": "herding",
+  "origin": "England",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "54-61",
+    "weight_kg": "27-45",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 3,
+    "grooming": 5,
+    "sociability": 5,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Profuse, shaggy double coat",
+    "coat_colors": [
+      "gray and white",
+      "blue and white"
+    ],
+    "shedding": "high",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "adaptable",
+    "gentle",
+    "intelligent",
+    "playful",
+    "sociable"
+  ],
+  "description": {
+    "overview": "The iconic shaggy dog, Old English Sheepdogs are gentle, playful companions. Their distinctive coat requires significant maintenance.",
+    "history": "The Old English Sheepdog originated in England.",
+    "temperament": "Known for being adaptable, gentle, intelligent.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their profuse, shaggy double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with children",
+      "Those who enjoy grooming",
+      "Homes with space"
+    ],
+    "not_for": [
+      "Those avoiding grooming",
+      "Neat freaks"
+    ],
+    "summary": "The iconic shaggy dog, Old English Sheepdogs are gentle, playful companions. Their distinctive coat requires significant maintenance."
+  }
+}

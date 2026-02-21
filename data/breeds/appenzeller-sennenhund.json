@@ -1,0 +1,58 @@
+{
+  "id": "appenzeller-sennenhund",
+  "name": "Appenzeller Sennenhund",
+  "aliases": [],
+  "group": "herding",
+  "origin": "Switzerland",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "47-58",
+    "weight_kg": "22-32",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 5,
+    "grooming": 2,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Double coat, short",
+    "coat_colors": [
+      "tricolor (black, tan, white)"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "reliable",
+    "fearless",
+    "energetic",
+    "lively",
+    "self-assured"
+  ],
+  "description": {
+    "overview": "The most energetic of the Swiss Mountain Dogs, Appenzellers are reliable, fearless herding dogs. They're lively, active companions.",
+    "history": "The Appenzeller Sennenhund originated in Switzerland.",
+    "temperament": "Known for being reliable, fearless, energetic.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their double coat, short coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Very active owners",
+      "Farms",
+      "Dog sports enthusiasts"
+    ],
+    "not_for": [
+      "Sedentary owners",
+      "Apartment dwellers"
+    ],
+    "summary": "The most energetic of the Swiss Mountain Dogs, Appenzellers are reliable, fearless herding dogs. They're lively, active companions."
+  }
+}

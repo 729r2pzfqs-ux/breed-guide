@@ -1,0 +1,58 @@
+{
+  "id": "american-foxhound",
+  "name": "American Foxhound",
+  "aliases": [],
+  "group": "hound",
+  "origin": "United States",
+  "lifespan": "11-13 years",
+  "size": {
+    "height_cm": "53-64",
+    "weight_kg": "25-32",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 1,
+    "sociability": 5,
+    "trainability": 2,
+    "barking": 5,
+    "kid_friendly": 5,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Medium-length, hard",
+    "coat_colors": [
+      "any color"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "sweet",
+    "independent",
+    "easygoing",
+    "loyal",
+    "kind"
+  ],
+  "description": {
+    "overview": "Virginia's state dog, the American Foxhound is a sweet, easygoing breed with a musical bay. They're independent but loving companions.",
+    "history": "The American Foxhound originated in United States.",
+    "temperament": "Known for being sweet, independent, easygoing.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their medium-length, hard coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Rural homes",
+      "Very active owners",
+      "Multi-dog homes"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Those wanting an obedient dog"
+    ],
+    "summary": "Virginia's state dog, the American Foxhound is a sweet, easygoing breed with a musical bay. They're independent but loving companions."
+  }
+}

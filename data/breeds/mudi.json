@@ -1,0 +1,63 @@
+{
+  "id": "mudi",
+  "name": "Mudi",
+  "aliases": [],
+  "group": "herding",
+  "origin": "Hungary",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "36-47",
+    "weight_kg": "8-13",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 5,
+    "grooming": 2,
+    "sociability": 3,
+    "trainability": 5,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Wavy or curly",
+    "coat_colors": [
+      "black",
+      "white",
+      "fawn",
+      "gray",
+      "brown",
+      "merle"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "intelligent",
+    "alert",
+    "versatile",
+    "energetic",
+    "biddable"
+  ],
+  "description": {
+    "overview": "A rare Hungarian herding breed, the Mudi is extremely versatile and intelligent. They excel at many dog sports and make loyal companions.",
+    "history": "The Mudi originated in Hungary.",
+    "temperament": "Known for being intelligent, alert, versatile.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their wavy or curly coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Dog sports enthusiasts",
+      "Experienced owners",
+      "Active families"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Sedentary owners"
+    ],
+    "summary": "A rare Hungarian herding breed, the Mudi is extremely versatile and intelligent. They excel at many dog sports and make loyal companions."
+  }
+}

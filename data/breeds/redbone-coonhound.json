@@ -1,0 +1,58 @@
+{
+  "id": "redbone-coonhound",
+  "name": "Redbone Coonhound",
+  "aliases": [],
+  "group": "hound",
+  "origin": "United States",
+  "lifespan": "11-12 years",
+  "size": {
+    "height_cm": "53-69",
+    "weight_kg": "20-32",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 5,
+    "trainability": 3,
+    "barking": 5,
+    "kid_friendly": 5,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Short, smooth",
+    "coat_colors": [
+      "red"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "even-tempered",
+    "amiable",
+    "eager",
+    "mellow",
+    "loving"
+  ],
+  "description": {
+    "overview": "The Redbone Coonhound is an even-tempered, mellow dog with a stunning red coat. They're versatile hunters and loving family dogs.",
+    "history": "The Redbone Coonhound originated in United States.",
+    "temperament": "Known for being even-tempered, amiable, eager.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, smooth coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Hunters",
+      "Multi-pet homes"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Those wanting a quiet dog"
+    ],
+    "summary": "The Redbone Coonhound is an even-tempered, mellow dog with a stunning red coat. They're versatile hunters and loving family dogs."
+  }
+}
