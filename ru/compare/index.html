@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сравнить Породы | BreedFinder</title>
+    <meta name="description" content="Выберите до 3 пород для сравнения бок о бок">
+    <link rel="canonical" href="https://breedfinder.org/ru/compare/">
+    
+    <link rel="alternate" hreflang="en" href="https://breedfinder.org/compare/">
+    <link rel="alternate" hreflang="es" href="https://breedfinder.org/es/compare/">
+    <link rel="alternate" hreflang="de" href="https://breedfinder.org/de/compare/">
+    <link rel="alternate" hreflang="fr" href="https://breedfinder.org/fr/compare/">
+    <link rel="alternate" hreflang="it" href="https://breedfinder.org/it/compare/">
+    <link rel="alternate" hreflang="pt" href="https://breedfinder.org/pt/compare/">
+    <link rel="alternate" hreflang="nl" href="https://breedfinder.org/nl/compare/">
+    <link rel="alternate" hreflang="pl" href="https://breedfinder.org/pl/compare/">
+    <link rel="alternate" hreflang="zh" href="https://breedfinder.org/zh/compare/">
+    <link rel="alternate" hreflang="ja" href="https://breedfinder.org/ja/compare/">
+    <link rel="alternate" hreflang="fi" href="https://breedfinder.org/fi/compare/">
+    <link rel="alternate" hreflang="sv" href="https://breedfinder.org/sv/compare/">
+    <link rel="alternate" hreflang="no" href="https://breedfinder.org/no/compare/">
+    <link rel="alternate" hreflang="da" href="https://breedfinder.org/da/compare/">
+    <link rel="alternate" hreflang="ru" href="https://breedfinder.org/ru/compare/">
+    <link rel="alternate" hreflang="x-default" href="https://breedfinder.org/compare/">
+    
+    <link rel="icon" href="../../favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://breedfinder.org/ru/compare/">
+    <meta property="og:title" content="Сравнить Породы">
+    <meta property="og:description" content="Выберите до 3 пород для сравнения бок о бок">
+    <meta property="og:site_name" content="BreedFinder">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+
+    <style>
+        .dark { color-scheme: dark; }
+        .dark body { background: linear-gradient(to bottom, #0f172a, #1e293b); color: #e2e8f0; }
+        .dark header { background: rgba(15, 23, 42, 0.8); border-color: rgba(51, 65, 85, 0.5); }
+        .dark .bg-white { background: #1e293b !important; }
+        .dark .bg-white\/80 { background: rgba(30, 41, 59, 0.8) !important; }
+        .dark .text-slate-800, .dark .text-slate-900 { color: #f1f5f9 !important; }
+        .dark .text-slate-600, .dark .text-slate-500 { color: #94a3b8 !important; }
+        .dark .border-slate-100, .dark .border-slate-200 { border-color: #334155 !important; }
+        .dark .bg-slate-50, .dark .bg-slate-100 { background: #334155 !important; }
+        .dark .card-shadow { box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+        .dark input, .dark select { background: #1e293b; color: #f1f5f9; border-color: #475569; }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-sky-50 via-white to-violet-50 min-h-screen text-slate-800">
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="../" class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-violet-500 rounded-xl flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
+                    <img src="../../logo-192.png" class="w-10 h-10" alt="BreedFinder">
+                </div>
+                <span class="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">BreedFinder</span>
+            </a>
+            <nav class="flex items-center gap-4 text-sm font-medium">
+                <a href="../search/" class="text-slate-600 hover:text-sky-600 transition hidden md:inline">All Breeds</a>
+                <div class="relative">
+                    <select onchange="if(this.value) window.location.href=this.value" class="appearance-none bg-transparent border border-slate-200 rounded-lg px-3 py-2 pr-8 text-sm cursor-pointer hover:border-sky-400 focus:outline-none focus:border-sky-400">
+                        <option value="../../compare/">English</option>
+                        <option value="../es/compare/" >Español</option>
+                        <option value="../de/compare/" >Deutsch</option>
+                        <option value="../fr/compare/" >Français</option>
+                        <option value="../it/compare/" >Italiano</option>
+                        <option value="../pt/compare/" >Português</option>
+                        <option value="../nl/compare/" >Nederlands</option>
+                        <option value="../pl/compare/" >Polski</option>
+                        <option value="../zh/compare/" >中文</option>
+                        <option value="../ja/compare/" >日本語</option>
+                        <option value="../fi/compare/" >Suomi</option>
+                        <option value="../sv/compare/" >Svenska</option>
+                        <option value="../no/compare/" >Norsk</option>
+                        <option value="../da/compare/" >Dansk</option>
+                        <option value="../ru/compare/" selected>Русский</option>
+                    </select>
+                    <svg class="w-4 h-4 absolute right-2 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </div>
+                <button onclick="toggleDark()" class="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700 transition" title="Toggle dark mode">
+                    <svg class="w-5 h-5 text-slate-600 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    <svg class="w-5 h-5 text-slate-600 dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                </button>
+                <a href="../quiz/" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-sky-500/25 transition hidden md:inline">Take Quiz</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        <!-- Header -->
+        <div class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
+                Сравнить
+                <span class="bg-gradient-to-r from-sky-500 to-violet-500 bg-clip-text text-transparent">Породы</span>
+            </h1>
+            <p class="text-lg text-slate-600">Выберите до 3 пород для сравнения бок о бок</p>
+        </div>
+
+        <!-- Breed Selectors -->
+        <div class="grid md:grid-cols-3 gap-4 mb-10">
+            <div>
+                <label class="block text-sm font-medium text-slate-600 mb-2">Порода 1</label>
+                <select id="breed1" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-sky-400 focus:outline-none bg-white">
+                    <option value="">Выберите породу...</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-slate-600 mb-2">Порода 2</label>
+                <select id="breed2" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-sky-400 focus:outline-none bg-white">
+                    <option value="">Выберите породу...</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-slate-600 mb-2">Порода 3 (опционально)</label>
+                <select id="breed3" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-sky-400 focus:outline-none bg-white">
+                    <option value="">Выберите породу...</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Comparison Table -->
+        <div id="comparison-container" class="hidden">
+            <div class="bg-white rounded-3xl shadow-xl shadow-slate-200/50 overflow-hidden">
+                <table class="w-full">
+                    <thead id="comparison-header">
+                    </thead>
+                    <tbody id="comparison-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Empty State -->
+        <div id="empty-state" class="text-center py-20">
+            <div class="text-6xl mb-4">🐕</div>
+            <h3 class="text-xl font-bold text-slate-700 mb-2">Выберите породы для сравнения</h3>
+            <p class="text-slate-500">Выберите минимум 2 породы из выпадающих списков выше</p>
+        </div>
+
+        <!-- Popular Comparisons -->
+        <div class="mt-16">
+            <h2 class="text-2xl font-bold mb-6">Популярные Сравнения</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <button onclick="setBreeds('labrador-retriever', 'golden-retriever')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
+                    <span class="font-semibold">Labrador vs Golden Retriever</span>
+                    <p class="text-sm text-slate-500">Два американских фаворита</p>
+                </button>
+                <button onclick="setBreeds('french-bulldog', 'bulldog')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
+                    <span class="font-semibold">French Bulldog vs Bulldog</span>
+                    <p class="text-sm text-slate-500">Компактные компаньоны</p>
+                </button>
+                <button onclick="setBreeds('german-shepherd', 'belgian-malinois')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
+                    <span class="font-semibold">German Shepherd vs Malinois</span>
+                    <p class="text-sm text-slate-500">Поединок рабочих собак</p>
+                </button>
+                <button onclick="setBreeds('siberian-husky', 'alaskan-malamute')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
+                    <span class="font-semibold">Husky vs Malamute</span>
+                    <p class="text-sm text-slate-500">Битва арктических пород</p>
+                </button>
+                <button onclick="setBreeds('shih-tzu', 'maltese')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
+                    <span class="font-semibold">Shih Tzu vs Maltese</span>
+                    <p class="text-sm text-slate-500">Легенды декоративных собак</p>
+                </button>
+                <button onclick="setBreeds('poodle', 'bichon-frise')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
+                    <span class="font-semibold">Poodle vs Bichon Frise</span>
+                    <p class="text-sm text-slate-500">Гипоаллергенные варианты</p>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-100 mt-16 py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center text-slate-500 text-sm">
+            <p>© 2026 BreedFinder. Helping you find your perfect companion.</p>
+        </div>
+    </footer>
+
+    <script src="../../data/breeds-compare.js"></script>
+    <script>
+        // Dark mode toggle
+        function toggleDark() {
+            document.documentElement.classList.toggle('dark');
+            localStorage.setItem('darkMode', document.documentElement.classList.contains('dark'));
+        }
+        
+        if (localStorage.getItem('darkMode') === 'true') {
+            document.documentElement.classList.add('dark');
+        }
+        
+        // Populate breed selectors
+        const selects = ['breed1', 'breed2', 'breed3'];
+        selects.forEach(id => {
+            const select = document.getElementById(id);
+            breeds.forEach(breed => {
+                const option = document.createElement('option');
+                option.value = breed.slug;
+                option.textContent = breed.name;
+                select.appendChild(option);
+            });
+        });
+        
+        function setBreeds(slug1, slug2) {
+            document.getElementById('breed1').value = slug1;
+            document.getElementById('breed2').value = slug2;
+            document.getElementById('breed3').value = '';
+            updateComparison();
+        }
+        
+        function updateComparison() {
+            const selected = selects
+                .map(id => document.getElementById(id).value)
+                .filter(v => v)
+                .map(slug => breeds.find(b => b.slug === slug))
+                .filter(b => b);
+            
+            if (selected.length < 2) {
+                document.getElementById('comparison-container').classList.add('hidden');
+                document.getElementById('empty-state').classList.remove('hidden');
+                return;
+            }
+            
+            document.getElementById('comparison-container').classList.remove('hidden');
+            document.getElementById('empty-state').classList.add('hidden');
+            
+            // Build header
+            const header = document.getElementById('comparison-header');
+            header.innerHTML = `
+                <tr class="bg-gradient-to-r from-sky-500 to-violet-500 text-white">
+                    <th class="p-4 text-left font-semibold">Attribute</th>
+                    ${selected.map(b => `
+                        <th class="p-4 text-center">
+                            <img src="${b.image}" alt="${b.name}" class="w-16 h-16 rounded-full mx-auto mb-2 object-cover bg-white">
+                            <div class="font-bold">${b.name}</div>
+                        </th>
+                    `).join('')}
+                </tr>
+            `;
+            
+            // Build comparison rows
+            const attrs = [
+                ['Size', 'size'],
+                ['Height', 'height'],
+                ['Weight', 'weight'],
+                ['Lifespan', 'lifespan'],
+                ['Origin', 'origin'],
+                ['Energy', 'energy', true],
+                ['Grooming', 'grooming', true],
+                ['Trainability', 'trainability', true],
+                ['Kid Friendly', 'kidFriendly', true],
+                ['Apartment', 'apartment', true],
+            ];
+            
+            const body = document.getElementById('comparison-body');
+            body.innerHTML = attrs.map(([label, key, isRating], i) => `
+                <tr class="${i % 2 === 0 ? 'bg-slate-50' : 'bg-white'}">
+                    <td class="p-4 font-medium text-slate-700">${label}</td>
+                    ${selected.map(b => `
+                        <td class="p-4 text-center">
+                            ${isRating ? `
+                                <div class="flex justify-center gap-0.5">
+                                    ${[1,2,3,4,5].map(n => `
+                                        <div class="w-2 h-6 rounded-full ${n <= b[key] ? 'bg-gradient-to-t from-sky-500 to-violet-500' : 'bg-slate-200'}"></div>
+                                    `).join('')}
+                                </div>
+                            ` : b[key]}
+                        </td>
+                    `).join('')}
+                </tr>
+            `).join('');
+        }
+    </script>
+</body>
+</html>
