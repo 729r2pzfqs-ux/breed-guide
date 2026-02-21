@@ -4,6 +4,7 @@
   <url><loc>https://breedfinder.org/breeds/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://breedfinder.org/quiz/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://breedfinder.org/compare/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://breedfinder.org/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/breeds/akita</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
