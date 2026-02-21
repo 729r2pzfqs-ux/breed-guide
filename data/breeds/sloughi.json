@@ -1,0 +1,62 @@
+{
+  "id": "sloughi",
+  "name": "Sloughi",
+  "aliases": [],
+  "group": "hound",
+  "origin": "North Africa",
+  "lifespan": "10-15 years",
+  "size": {
+    "height_cm": "61-72",
+    "weight_kg": "18-28",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 1,
+    "kid_friendly": 3,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Short, smooth, fine",
+    "coat_colors": [
+      "cream",
+      "fawn",
+      "red",
+      "brindle"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "reserved",
+    "faithful",
+    "sensitive",
+    "noble",
+    "graceful"
+  ],
+  "description": {
+    "overview": "An ancient North African sighthound, the Sloughi is elegant and reserved. They're deeply devoted to their families but aloof with strangers.",
+    "history": "The Sloughi originated in North Africa.",
+    "temperament": "Known for being reserved, faithful, sensitive.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, smooth, fine coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced sighthound owners",
+      "Quiet households",
+      "Warm climates"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Cold climates",
+      "Busy households"
+    ],
+    "summary": "An ancient North African sighthound, the Sloughi is elegant and reserved. They're deeply devoted to their families but aloof with strangers."
+  }
+}

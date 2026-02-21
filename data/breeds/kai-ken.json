@@ -1,0 +1,58 @@
+{
+  "id": "kai-ken",
+  "name": "Kai Ken",
+  "aliases": [],
+  "group": "non-sporting",
+  "origin": "Japan",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "46-56",
+    "weight_kg": "11-18",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Medium-length double coat",
+    "coat_colors": [
+      "brindle (black, red, or gray)"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "intelligent",
+    "loyal",
+    "reserved",
+    "athletic",
+    "devoted"
+  ],
+  "description": {
+    "overview": "A rare Japanese breed known for their distinctive brindle coat. Kai Ken are devoted to their families but reserved with strangers, making them excellent watchdogs.",
+    "history": "The Kai Ken originated in Japan.",
+    "temperament": "Known for being intelligent, loyal, reserved.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their medium-length double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Those wanting a devoted companion",
+      "Active families"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Those wanting an outgoing dog"
+    ],
+    "summary": "A rare Japanese breed known for their distinctive brindle coat. Kai Ken are devoted to their families but reserved with strangers, making them excellent watchdogs."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "chesapeake-bay-retriever",
+  "name": "Chesapeake Bay Retriever",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "United States",
+  "lifespan": "10-13 years",
+  "size": {
+    "height_cm": "53-66",
+    "weight_kg": "25-36",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 2,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Wavy, oily double coat",
+    "coat_colors": [
+      "brown",
+      "sedge",
+      "deadgrass"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "affectionate",
+    "bright",
+    "sensitive",
+    "protective",
+    "athletic"
+  ],
+  "description": {
+    "overview": "The Chesapeake Bay Retriever is the toughest of all retrievers, bred to retrieve ducks in the icy waters of Chesapeake Bay. They're loyal and protective.",
+    "history": "The Chesapeake Bay Retriever originated in United States.",
+    "temperament": "Known for being affectionate, bright, sensitive.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their wavy, oily double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Hunters",
+      "Active families",
+      "Those wanting a protective dog"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Multi-pet homes"
+    ],
+    "summary": "The Chesapeake Bay Retriever is the toughest of all retrievers, bred to retrieve ducks in the icy waters of Chesapeake Bay. They're loyal and protective."
+  }
+}

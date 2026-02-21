@@ -1,0 +1,58 @@
+{
+  "id": "lowchen",
+  "name": "L\u00f6wchen",
+  "aliases": [],
+  "group": "toy",
+  "origin": "France/Germany",
+  "lifespan": "13-15 years",
+  "size": {
+    "height_cm": "30-36",
+    "weight_kg": "4-8",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 3,
+    "grooming": 3,
+    "sociability": 5,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Long, wavy, soft",
+    "coat_colors": [
+      "any color"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "playful",
+    "friendly",
+    "active",
+    "outgoing",
+    "positive"
+  ],
+  "description": {
+    "overview": "The 'Little Lion Dog' gets its name from its traditional lion-like trim. Once one of the rarest breeds, they're now prized for their cheerful, friendly nature.",
+    "history": "The L\u00f6wchen originated in France/Germany.",
+    "temperament": "Known for being playful, friendly, active.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, wavy, soft coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Apartment dwellers",
+      "Those wanting a friendly breed"
+    ],
+    "not_for": [
+      "Those wanting a guard dog",
+      "Very active outdoor families"
+    ],
+    "summary": "The 'Little Lion Dog' gets its name from its traditional lion-like trim. Once one of the rarest breeds, they're now prized for their cheerful, friendly nature."
+  }
+}

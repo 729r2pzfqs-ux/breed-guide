@@ -1,0 +1,60 @@
+{
+  "id": "dogue-de-bordeaux",
+  "name": "Dogue de Bordeaux",
+  "aliases": [],
+  "group": "working",
+  "origin": "France",
+  "lifespan": "5-8 years",
+  "size": {
+    "height_cm": "58-68",
+    "weight_kg": "45-68",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 2,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, fine, soft",
+    "coat_colors": [
+      "fawn",
+      "mahogany",
+      "red"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "loyal",
+    "devoted",
+    "vigilant",
+    "courageous",
+    "affectionate"
+  ],
+  "description": {
+    "overview": "Also known as the French Mastiff, this ancient breed has a massive head and devoted nature. They're loyal companions who drool considerably.",
+    "history": "The Dogue de Bordeaux originated in France.",
+    "temperament": "Known for being loyal, devoted, vigilant.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, fine, soft coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with space",
+      "Those wanting a devoted guardian",
+      "Experienced owners"
+    ],
+    "not_for": [
+      "Neat freaks",
+      "First-time owners"
+    ],
+    "summary": "Also known as the French Mastiff, this ancient breed has a massive head and devoted nature. They're loyal companions who drool considerably."
+  }
+}

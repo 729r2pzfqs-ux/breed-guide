@@ -1,0 +1,60 @@
+{
+  "id": "spinone-italiano",
+  "name": "Spinone Italiano",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Italy",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "58-70",
+    "weight_kg": "29-39",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 3,
+    "grooming": 2,
+    "sociability": 5,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Wiry, dense, coarse",
+    "coat_colors": [
+      "white",
+      "white and orange",
+      "brown roan"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "docile",
+    "friendly",
+    "patient",
+    "loyal",
+    "gentle"
+  ],
+  "description": {
+    "overview": "An ancient Italian breed, the Spinone is one of the most gentle and patient pointing breeds. Their wiry coat and soulful expression are distinctive.",
+    "history": "The Spinone Italiano originated in Italy.",
+    "temperament": "Known for being docile, friendly, patient.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their wiry, dense, coarse coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with children",
+      "Those wanting a gentle giant",
+      "Patient trainers"
+    ],
+    "not_for": [
+      "Those wanting a fast-paced dog",
+      "Neat freaks (they drool)"
+    ],
+    "summary": "An ancient Italian breed, the Spinone is one of the most gentle and patient pointing breeds. Their wiry coat and soulful expression are distinctive."
+  }
+}

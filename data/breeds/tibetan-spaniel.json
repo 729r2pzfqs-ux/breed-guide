@@ -1,0 +1,58 @@
+{
+  "id": "tibetan-spaniel",
+  "name": "Tibetan Spaniel",
+  "aliases": [],
+  "group": "toy",
+  "origin": "Tibet",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "25-27",
+    "weight_kg": "4-7",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 3,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Double coat, silky, moderate length",
+    "coat_colors": [
+      "all colors and mixtures"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "assertive",
+    "alert",
+    "intelligent",
+    "aloof",
+    "independent"
+  ],
+  "description": {
+    "overview": "Not actually a spaniel, this ancient breed served as watchdogs in Tibetan monasteries. They're alert, independent dogs who bond closely with their families.",
+    "history": "The Tibetan Spaniel originated in Tibet.",
+    "temperament": "Known for being assertive, alert, intelligent.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their double coat, silky, moderate length coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Apartment dwellers",
+      "Those wanting an alert companion",
+      "Families"
+    ],
+    "not_for": [
+      "Those wanting an eager-to-please dog",
+      "Very active owners"
+    ],
+    "summary": "Not actually a spaniel, this ancient breed served as watchdogs in Tibetan monasteries. They're alert, independent dogs who bond closely with their families."
+  }
+}

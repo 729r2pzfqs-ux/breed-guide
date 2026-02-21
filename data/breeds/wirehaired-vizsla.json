@@ -1,0 +1,58 @@
+{
+  "id": "wirehaired-vizsla",
+  "name": "Wirehaired Vizsla",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Hungary",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "54-64",
+    "weight_kg": "20-30",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 5,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 5,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Dense, wiry",
+    "coat_colors": [
+      "golden rust"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "gentle",
+    "loyal",
+    "trainable",
+    "affectionate",
+    "sensitive"
+  ],
+  "description": {
+    "overview": "A close cousin to the smooth Vizsla but with a protective wiry coat. They're equally affectionate and athletic, with better protection from cold weather.",
+    "history": "The Wirehaired Vizsla originated in Hungary.",
+    "temperament": "Known for being gentle, loyal, trainable.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their dense, wiry coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Hunters",
+      "Those wanting a loyal companion"
+    ],
+    "not_for": [
+      "Those away from home often",
+      "Sedentary owners"
+    ],
+    "summary": "A close cousin to the smooth Vizsla but with a protective wiry coat. They're equally affectionate and athletic, with better protection from cold weather."
+  }
+}

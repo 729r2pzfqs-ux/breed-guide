@@ -1,0 +1,58 @@
+{
+  "id": "sussex-spaniel",
+  "name": "Sussex Spaniel",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "England",
+  "lifespan": "13-15 years",
+  "size": {
+    "height_cm": "33-38",
+    "weight_kg": "16-20",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 3,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Flat or wavy, abundant",
+    "coat_colors": [
+      "golden liver"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "friendly",
+    "cheerful",
+    "calm",
+    "steady",
+    "vocal"
+  ],
+  "description": {
+    "overview": "One of the rarest spaniel breeds, the Sussex has a unique golden liver coat and a surprisingly deep bark. They're slower-paced but determined hunters.",
+    "history": "The Sussex Spaniel originated in England.",
+    "temperament": "Known for being friendly, cheerful, calm.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their flat or wavy, abundant coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Those wanting a rare breed",
+      "Calm households",
+      "Spaniel enthusiasts"
+    ],
+    "not_for": [
+      "Those wanting a quiet dog",
+      "High-energy activities"
+    ],
+    "summary": "One of the rarest spaniel breeds, the Sussex has a unique golden liver coat and a surprisingly deep bark. They're slower-paced but determined hunters."
+  }
+}

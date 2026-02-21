@@ -1,0 +1,63 @@
+{
+  "id": "azawakh",
+  "name": "Azawakh",
+  "aliases": [],
+  "group": "hound",
+  "origin": "West Africa (Mali, Niger, Burkina Faso)",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "60-74",
+    "weight_kg": "15-25",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 3,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Short, fine",
+    "coat_colors": [
+      "fawn",
+      "brindle",
+      "blue",
+      "black",
+      "brown"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "aloof",
+    "attentive",
+    "loyal",
+    "rugged",
+    "fierce"
+  ],
+  "description": {
+    "overview": "An ancient African sighthound bred by nomads, the Azawakh is elegant yet rugged. They're deeply loyal to their families but aloof with strangers.",
+    "history": "The Azawakh originated in West Africa (Mali, Niger, Burkina Faso).",
+    "temperament": "Known for being aloof, attentive, loyal.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, fine coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced sighthound owners",
+      "Active runners",
+      "Warm climates"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Cold climates",
+      "Multi-pet homes"
+    ],
+    "summary": "An ancient African sighthound bred by nomads, the Azawakh is elegant yet rugged. They're deeply loyal to their families but aloof with strangers."
+  }
+}

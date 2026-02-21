@@ -1,0 +1,58 @@
+{
+  "id": "cardigan-welsh-corgi",
+  "name": "Cardigan Welsh Corgi",
+  "aliases": [],
+  "group": "herding",
+  "origin": "Wales",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "27-32",
+    "weight_kg": "11-17",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 4,
+    "kid_friendly": 5,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Medium-length double coat",
+    "coat_colors": [
+      "all shades of red, sable, brindle, blue merle, black"
+    ],
+    "shedding": "high",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "affectionate",
+    "loyal",
+    "smart",
+    "alert",
+    "active"
+  ],
+  "description": {
+    "overview": "The older of the two Corgi breeds, Cardigans have a tail and rounder ears. They're versatile, affectionate dogs who were bred to herd cattle by nipping at heels.",
+    "history": "The Cardigan Welsh Corgi originated in Wales.",
+    "temperament": "Known for being affectionate, loyal, smart.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their medium-length double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Active owners",
+      "Those wanting a medium-small dog"
+    ],
+    "not_for": [
+      "Those wanting a quiet dog",
+      "Those who dislike shedding"
+    ],
+    "summary": "The older of the two Corgi breeds, Cardigans have a tail and rounder ears. They're versatile, affectionate dogs who were bred to herd cattle by nipping at heels."
+  }
+}

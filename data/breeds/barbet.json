@@ -1,0 +1,62 @@
+{
+  "id": "barbet",
+  "name": "Barbet",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "France",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "53-65",
+    "weight_kg": "17-28",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 5,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 5,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Long, woolly, curly",
+    "coat_colors": [
+      "black",
+      "brown",
+      "fawn",
+      "gray",
+      "white"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "friendly",
+    "joyful",
+    "obedient",
+    "intelligent",
+    "social"
+  ],
+  "description": {
+    "overview": "The Barbet is an ancient French water dog with a distinctive curly coat. They're cheerful, social dogs who love water and make excellent family companions.",
+    "history": "The Barbet originated in France.",
+    "temperament": "Known for being friendly, joyful, obedient.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, woolly, curly coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Allergy sufferers",
+      "Water enthusiasts"
+    ],
+    "not_for": [
+      "Those wanting low grooming",
+      "Hot climates"
+    ],
+    "summary": "The Barbet is an ancient French water dog with a distinctive curly coat. They're cheerful, social dogs who love water and make excellent family companions."
+  }
+}

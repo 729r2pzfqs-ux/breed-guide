@@ -1,0 +1,58 @@
+{
+  "id": "finnish-spitz",
+  "name": "Finnish Spitz",
+  "aliases": [],
+  "group": "non-sporting",
+  "origin": "Finland",
+  "lifespan": "13-15 years",
+  "size": {
+    "height_cm": "39-50",
+    "weight_kg": "9-14",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 5,
+    "kid_friendly": 5,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Dense double coat",
+    "coat_colors": [
+      "golden-red"
+    ],
+    "shedding": "high",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "friendly",
+    "active",
+    "lively",
+    "independent",
+    "brave"
+  ],
+  "description": {
+    "overview": "Finland's national dog, the Finnish Spitz is known for their fox-like appearance and unique 'yodel-bark' used to point game birds. They're lively family companions.",
+    "history": "The Finnish Spitz originated in Finland.",
+    "temperament": "Known for being friendly, active, lively.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their dense double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Those who don't mind barking",
+      "Rural areas"
+    ],
+    "not_for": [
+      "Those wanting a quiet dog",
+      "Apartment dwellers"
+    ],
+    "summary": "Finland's national dog, the Finnish Spitz is known for their fox-like appearance and unique 'yodel-bark' used to point game birds. They're lively family companions."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "nova-scotia-duck-tolling-retriever",
+  "name": "Nova Scotia Duck Tolling Retriever",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Canada",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "43-53",
+    "weight_kg": "17-23",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 5,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 5,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Medium-length double coat",
+    "coat_colors": [
+      "red",
+      "orange"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "intelligent",
+    "alert",
+    "affectionate",
+    "patient",
+    "playful"
+  ],
+  "description": {
+    "overview": "The 'Toller' is the smallest retriever but packed with energy and intelligence. They were bred to lure and retrieve waterfowl with their playful antics.",
+    "history": "The Nova Scotia Duck Tolling Retriever originated in Canada.",
+    "temperament": "Known for being intelligent, alert, affectionate.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their medium-length double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Dog sports enthusiasts",
+      "Hunters"
+    ],
+    "not_for": [
+      "Sedentary owners",
+      "Those wanting a quiet dog"
+    ],
+    "summary": "The 'Toller' is the smallest retriever but packed with energy and intelligence. They were bred to lure and retrieve waterfowl with their playful antics."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "clumber-spaniel",
+  "name": "Clumber Spaniel",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "England",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "43-51",
+    "weight_kg": "25-39",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 2,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 5,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Dense, straight, flat",
+    "coat_colors": [
+      "white with lemon",
+      "white with orange"
+    ],
+    "shedding": "high",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "gentle",
+    "loyal",
+    "affectionate",
+    "dignified",
+    "mellow"
+  ],
+  "description": {
+    "overview": "The heaviest spaniel, Clumbers are dignified, mellow dogs who make excellent family companions. They're less energetic than other spaniels but still enjoy hunting.",
+    "history": "The Clumber Spaniel originated in England.",
+    "temperament": "Known for being gentle, loyal, affectionate.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their dense, straight, flat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families wanting a calm spaniel",
+      "Seniors",
+      "Those who appreciate a dignified dog"
+    ],
+    "not_for": [
+      "Neat freaks (they drool)",
+      "Those wanting high energy"
+    ],
+    "summary": "The heaviest spaniel, Clumbers are dignified, mellow dogs who make excellent family companions. They're less energetic than other spaniels but still enjoy hunting."
+  }
+}

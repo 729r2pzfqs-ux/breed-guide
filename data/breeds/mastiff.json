@@ -1,0 +1,60 @@
+{
+  "id": "mastiff",
+  "name": "Mastiff",
+  "aliases": [],
+  "group": "working",
+  "origin": "England",
+  "lifespan": "6-10 years",
+  "size": {
+    "height_cm": "70-91",
+    "weight_kg": "54-104",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 2,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, dense",
+    "coat_colors": [
+      "fawn",
+      "apricot",
+      "brindle"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "courageous",
+    "dignified",
+    "good-natured",
+    "calm",
+    "protective"
+  ],
+  "description": {
+    "overview": "One of the largest dog breeds, the Mastiff is a gentle giant with ancient roots. They're calm, dignified dogs who are devoted protectors of their families.",
+    "history": "The Mastiff originated in England.",
+    "temperament": "Known for being courageous, dignified, good-natured.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, dense coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with space",
+      "Those wanting a protective dog",
+      "Patient owners"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Those on tight budgets"
+    ],
+    "summary": "One of the largest dog breeds, the Mastiff is a gentle giant with ancient roots. They're calm, dignified dogs who are devoted protectors of their families."
+  }
+}

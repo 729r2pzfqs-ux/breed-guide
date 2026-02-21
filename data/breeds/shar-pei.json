@@ -1,0 +1,62 @@
+{
+  "id": "shar-pei",
+  "name": "Shar-Pei",
+  "aliases": [],
+  "group": "non-sporting",
+  "origin": "China",
+  "lifespan": "8-12 years",
+  "size": {
+    "height_cm": "46-51",
+    "weight_kg": "18-25",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 2,
+    "grooming": 2,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 3,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Short, harsh, bristly",
+    "coat_colors": [
+      "fawn",
+      "cream",
+      "red",
+      "black",
+      "blue"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "loyal",
+    "independent",
+    "calm",
+    "devoted",
+    "protective"
+  ],
+  "description": {
+    "overview": "Known for their distinctive wrinkles and blue-black tongue, Shar-Pei are devoted, protective dogs who bond closely with their family but can be aloof with strangers.",
+    "history": "The Shar-Pei originated in China.",
+    "temperament": "Known for being loyal, independent, calm.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, harsh, bristly coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Those wanting a protective dog",
+      "Adult households"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Multi-dog homes"
+    ],
+    "summary": "Known for their distinctive wrinkles and blue-black tongue, Shar-Pei are devoted, protective dogs who bond closely with their family but can be aloof with strangers."
+  }
+}

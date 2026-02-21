@@ -1,0 +1,58 @@
+{
+  "id": "silky-terrier",
+  "name": "Silky Terrier",
+  "aliases": [],
+  "group": "toy",
+  "origin": "Australia",
+  "lifespan": "13-15 years",
+  "size": {
+    "height_cm": "23-26",
+    "weight_kg": "4-5",
+    "category": "tiny"
+  },
+  "ratings": {
+    "size": 1,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 4,
+    "kid_friendly": 3,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Long, silky, straight",
+    "coat_colors": [
+      "blue and tan"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "friendly",
+    "alert",
+    "spirited",
+    "confident",
+    "feisty"
+  ],
+  "description": {
+    "overview": "Often confused with Yorkies, Silky Terriers are slightly larger with a more terrier-like personality. They're spirited, alert watchdogs in a small package.",
+    "history": "The Silky Terrier originated in Australia.",
+    "temperament": "Known for being friendly, alert, spirited.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, silky, straight coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active singles or couples",
+      "Apartment dwellers",
+      "Those wanting a small watchdog"
+    ],
+    "not_for": [
+      "Families with young children",
+      "Those wanting a calm dog"
+    ],
+    "summary": "Often confused with Yorkies, Silky Terriers are slightly larger with a more terrier-like personality. They're spirited, alert watchdogs in a small package."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "australian-terrier",
+  "name": "Australian Terrier",
+  "aliases": [],
+  "group": "terrier",
+  "origin": "Australia",
+  "lifespan": "11-15 years",
+  "size": {
+    "height_cm": "23-28",
+    "weight_kg": "5.5-6.5",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Harsh, straight, dense",
+    "coat_colors": [
+      "blue and tan",
+      "sandy",
+      "red"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "spirited",
+    "alert",
+    "courageous",
+    "affectionate",
+    "companionable"
+  ],
+  "description": {
+    "overview": "One of the smallest working terriers, Australian Terriers are spirited, courageous dogs who make excellent companions. They're affectionate but maintain typical terrier spunk.",
+    "history": "The Australian Terrier originated in Australia.",
+    "temperament": "Known for being spirited, alert, courageous.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their harsh, straight, dense coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Apartment dwellers",
+      "Those wanting a small watchdog"
+    ],
+    "not_for": [
+      "Those with small pets",
+      "Wanting a calm dog"
+    ],
+    "summary": "One of the smallest working terriers, Australian Terriers are spirited, courageous dogs who make excellent companions. They're affectionate but maintain typical terrier spunk."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "korean-jindo",
+  "name": "Korean Jindo",
+  "aliases": [],
+  "group": "non-sporting",
+  "origin": "South Korea",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "45-55",
+    "weight_kg": "15-23",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 3,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Dense double coat",
+    "coat_colors": [
+      "white",
+      "fawn",
+      "red",
+      "brindle",
+      "black and tan"
+    ],
+    "shedding": "high",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "loyal",
+    "intelligent",
+    "bold",
+    "alert",
+    "independent"
+  ],
+  "description": {
+    "overview": "South Korea's national dog, the Jindo is fiercely loyal to their family. They're independent thinkers with strong prey drive and deep bonds with their owners.",
+    "history": "The Korean Jindo originated in South Korea.",
+    "temperament": "Known for being loyal, intelligent, bold.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their dense double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Single-pet homes",
+      "Those wanting a loyal companion"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Multi-pet homes",
+      "Apartments"
+    ],
+    "summary": "South Korea's national dog, the Jindo is fiercely loyal to their family. They're independent thinkers with strong prey drive and deep bonds with their owners."
+  }
+}

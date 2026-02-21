@@ -1,0 +1,61 @@
+{
+  "id": "great-pyrenees",
+  "name": "Great Pyrenees",
+  "aliases": [],
+  "group": "working",
+  "origin": "France/Spain",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "65-81",
+    "weight_kg": "36-54",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 2,
+    "grooming": 4,
+    "sociability": 4,
+    "trainability": 2,
+    "barking": 4,
+    "kid_friendly": 5,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Long, thick double coat",
+    "coat_colors": [
+      "white",
+      "white with gray",
+      "white with tan",
+      "white with badger"
+    ],
+    "shedding": "high",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "patient",
+    "calm",
+    "gentle",
+    "strong-willed",
+    "protective"
+  ],
+  "description": {
+    "overview": "The majestic Great Pyrenees was bred to guard sheep in the mountains. They're gentle giants with a calm demeanor but strong guardian instincts.",
+    "history": "The Great Pyrenees originated in France/Spain.",
+    "temperament": "Known for being patient, calm, gentle.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, thick double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Rural homes",
+      "Those with livestock",
+      "Families with space"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Those wanting an obedient dog"
+    ],
+    "summary": "The majestic Great Pyrenees was bred to guard sheep in the mountains. They're gentle giants with a calm demeanor but strong guardian instincts."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "english-pointer",
+  "name": "English Pointer",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "England",
+  "lifespan": "12-17 years",
+  "size": {
+    "height_cm": "58-71",
+    "weight_kg": "20-34",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 1,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Short, dense, smooth",
+    "coat_colors": [
+      "lemon and white",
+      "orange and white",
+      "liver and white",
+      "black and white"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "loyal",
+    "hardworking",
+    "even-tempered",
+    "kind",
+    "athletic"
+  ],
+  "description": {
+    "overview": "The quintessential bird dog, the English Pointer is bred for speed and endurance in the field. At home, they're calm, dignified companions.",
+    "history": "The English Pointer originated in England.",
+    "temperament": "Known for being loyal, hardworking, even-tempered.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, dense, smooth coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Hunters",
+      "Active families",
+      "Those with large yards"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Sedentary owners"
+    ],
+    "summary": "The quintessential bird dog, the English Pointer is bred for speed and endurance in the field. At home, they're calm, dignified companions."
+  }
+}

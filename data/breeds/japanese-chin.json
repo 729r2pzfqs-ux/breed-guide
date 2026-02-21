@@ -1,0 +1,60 @@
+{
+  "id": "japanese-chin",
+  "name": "Japanese Chin",
+  "aliases": [],
+  "group": "toy",
+  "origin": "Japan/China",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "20-27",
+    "weight_kg": "2-5",
+    "category": "tiny"
+  },
+  "ratings": {
+    "size": 1,
+    "energy": 2,
+    "grooming": 3,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 3,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Long, silky, single coat",
+    "coat_colors": [
+      "black and white",
+      "red and white",
+      "lemon and white"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "charming",
+    "noble",
+    "loving",
+    "cat-like",
+    "loyal"
+  ],
+  "description": {
+    "overview": "The Japanese Chin is often described as cat-like in their fastidious nature and preference for high perches. They're elegant, quiet companions fit for royalty.",
+    "history": "The Japanese Chin originated in Japan/China.",
+    "temperament": "Known for being charming, noble, loving.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, silky, single coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Apartment dwellers",
+      "Seniors",
+      "Those wanting a quiet toy breed"
+    ],
+    "not_for": [
+      "Active families",
+      "Homes with rough children"
+    ],
+    "summary": "The Japanese Chin is often described as cat-like in their fastidious nature and preference for high perches. They're elegant, quiet companions fit for royalty."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "german-spitz",
+  "name": "German Spitz",
+  "aliases": [],
+  "group": "non-sporting",
+  "origin": "Germany",
+  "lifespan": "13-15 years",
+  "size": {
+    "height_cm": "24-38",
+    "weight_kg": "5-11",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 5,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Long, stand-off double coat",
+    "coat_colors": [
+      "white",
+      "black",
+      "cream",
+      "orange",
+      "brown"
+    ],
+    "shedding": "high",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "attentive",
+    "lively",
+    "devoted",
+    "trainable",
+    "alert"
+  ],
+  "description": {
+    "overview": "An ancient breed that comes in multiple sizes (Klein and Mittel), German Spitz are alert watchdogs with a foxlike face and fluffy coat.",
+    "history": "The German Spitz originated in Germany.",
+    "temperament": "Known for being attentive, lively, devoted.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, stand-off double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Those wanting a watchdog",
+      "Families",
+      "Apartment dwellers"
+    ],
+    "not_for": [
+      "Those wanting a quiet dog",
+      "Those disliking grooming"
+    ],
+    "summary": "An ancient breed that comes in multiple sizes (Klein and Mittel), German Spitz are alert watchdogs with a foxlike face and fluffy coat."
+  }
+}

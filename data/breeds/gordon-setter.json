@@ -1,0 +1,58 @@
+{
+  "id": "gordon-setter",
+  "name": "Gordon Setter",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Scotland",
+  "lifespan": "12-13 years",
+  "size": {
+    "height_cm": "58-69",
+    "weight_kg": "20-36",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Soft, shiny, slightly wavy",
+    "coat_colors": [
+      "black and tan"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "alert",
+    "confident",
+    "fearless",
+    "loyal",
+    "affectionate"
+  ],
+  "description": {
+    "overview": "The largest and most substantial of all setters, Gordons are loyal, devoted dogs with striking black and tan coats. They're excellent hunters and family companions.",
+    "history": "The Gordon Setter originated in Scotland.",
+    "temperament": "Known for being alert, confident, fearless.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their soft, shiny, slightly wavy coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Hunters",
+      "Those wanting a loyal companion"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "First-time owners"
+    ],
+    "summary": "The largest and most substantial of all setters, Gordons are loyal, devoted dogs with striking black and tan coats. They're excellent hunters and family companions."
+  }
+}

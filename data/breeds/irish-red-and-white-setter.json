@@ -1,0 +1,58 @@
+{
+  "id": "irish-red-and-white-setter",
+  "name": "Irish Red and White Setter",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Ireland",
+  "lifespan": "11-15 years",
+  "size": {
+    "height_cm": "57-66",
+    "weight_kg": "25-34",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 3,
+    "sociability": 5,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Fine, silky with feathering",
+    "coat_colors": [
+      "white with red patches"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "friendly",
+    "spirited",
+    "determined",
+    "loyal",
+    "playful"
+  ],
+  "description": {
+    "overview": "The original Irish setter, predating the all-red variety. They're athletic, friendly dogs with a distinctive parti-color coat of white with red patches.",
+    "history": "The Irish Red and White Setter originated in Ireland.",
+    "temperament": "Known for being friendly, spirited, determined.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their fine, silky with feathering coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Hunters",
+      "Those wanting a friendly breed"
+    ],
+    "not_for": [
+      "Sedentary owners",
+      "Small living spaces"
+    ],
+    "summary": "The original Irish setter, predating the all-red variety. They're athletic, friendly dogs with a distinctive parti-color coat of white with red patches."
+  }
+}

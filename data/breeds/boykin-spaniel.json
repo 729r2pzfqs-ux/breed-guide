@@ -1,0 +1,59 @@
+{
+  "id": "boykin-spaniel",
+  "name": "Boykin Spaniel",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "United States",
+  "lifespan": "10-15 years",
+  "size": {
+    "height_cm": "36-46",
+    "weight_kg": "11-18",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 5,
+    "trainability": 5,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Wavy or curly, medium-length",
+    "coat_colors": [
+      "liver",
+      "brown"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "friendly",
+    "eager",
+    "lovable",
+    "versatile",
+    "trainable"
+  ],
+  "description": {
+    "overview": "South Carolina's state dog, the Boykin Spaniel is a friendly, energetic companion bred for hunting wild turkeys and waterfowl from boats.",
+    "history": "The Boykin Spaniel originated in United States.",
+    "temperament": "Known for being friendly, eager, lovable.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their wavy or curly, medium-length coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Hunters",
+      "Active households"
+    ],
+    "not_for": [
+      "Those wanting a guard dog",
+      "Very small spaces"
+    ],
+    "summary": "South Carolina's state dog, the Boykin Spaniel is a friendly, energetic companion bred for hunting wild turkeys and waterfowl from boats."
+  }
+}

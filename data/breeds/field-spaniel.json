@@ -1,0 +1,60 @@
+{
+  "id": "field-spaniel",
+  "name": "Field Spaniel",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "England",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "43-46",
+    "weight_kg": "16-23",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 5,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Single coat, silky, moderately long",
+    "coat_colors": [
+      "black",
+      "liver",
+      "roan"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "sensitive",
+    "docile",
+    "affectionate",
+    "fun-loving",
+    "independent"
+  ],
+  "description": {
+    "overview": "A rare breed, the Field Spaniel is a sensitive, sweet-natured dog who bonds closely with their family. They're calmer than Cockers but still playful.",
+    "history": "The Field Spaniel originated in England.",
+    "temperament": "Known for being sensitive, docile, affectionate.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their single coat, silky, moderately long coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Those wanting a rare breed",
+      "Gentle handlers"
+    ],
+    "not_for": [
+      "Harsh trainers",
+      "Those away often"
+    ],
+    "summary": "A rare breed, the Field Spaniel is a sensitive, sweet-natured dog who bonds closely with their family. They're calmer than Cockers but still playful."
+  }
+}

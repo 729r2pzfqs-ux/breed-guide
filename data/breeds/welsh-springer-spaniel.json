@@ -1,0 +1,58 @@
+{
+  "id": "welsh-springer-spaniel",
+  "name": "Welsh Springer Spaniel",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Wales",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "43-48",
+    "weight_kg": "16-20",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Straight, flat, silky",
+    "coat_colors": [
+      "red and white"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "happy",
+    "loyal",
+    "active",
+    "reserved",
+    "affectionate"
+  ],
+  "description": {
+    "overview": "Often confused with English Springers, the Welsh Springer is slightly smaller with a distinctive red and white coat. They're devoted family dogs.",
+    "history": "The Welsh Springer Spaniel originated in Wales.",
+    "temperament": "Known for being happy, loyal, active.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their straight, flat, silky coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Hunters",
+      "Those wanting a loyal companion"
+    ],
+    "not_for": [
+      "Those wanting an outgoing dog with strangers",
+      "Very small spaces"
+    ],
+    "summary": "Often confused with English Springers, the Welsh Springer is slightly smaller with a distinctive red and white coat. They're devoted family dogs."
+  }
+}

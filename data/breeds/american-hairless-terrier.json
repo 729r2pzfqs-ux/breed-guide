@@ -1,0 +1,58 @@
+{
+  "id": "american-hairless-terrier",
+  "name": "American Hairless Terrier",
+  "aliases": [],
+  "group": "terrier",
+  "origin": "United States",
+  "lifespan": "14-16 years",
+  "size": {
+    "height_cm": "30-41",
+    "weight_kg": "5-7",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Hairless (or coated variety)",
+    "coat_colors": [
+      "pink skin with spots of gray, black, red, or brown"
+    ],
+    "shedding": "none",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "energetic",
+    "alert",
+    "curious",
+    "intelligent",
+    "playful"
+  ],
+  "description": {
+    "overview": "A truly hypoallergenic breed, the American Hairless Terrier is a lively, intelligent companion. They require skin protection from sun and cold but are easy to maintain.",
+    "history": "The American Hairless Terrier originated in United States.",
+    "temperament": "Known for being energetic, alert, curious.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their hairless (or coated variety) coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Allergy sufferers",
+      "Active families",
+      "Apartment dwellers"
+    ],
+    "not_for": [
+      "Extreme climates",
+      "Outdoor-only situations"
+    ],
+    "summary": "A truly hypoallergenic breed, the American Hairless Terrier is a lively, intelligent companion. They require skin protection from sun and cold but are easy to maintain."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "biewer-terrier",
+  "name": "Biewer Terrier",
+  "aliases": [],
+  "group": "toy",
+  "origin": "Germany",
+  "lifespan": "16 years",
+  "size": {
+    "height_cm": "18-28",
+    "weight_kg": "2-3.5",
+    "category": "tiny"
+  },
+  "ratings": {
+    "size": 1,
+    "energy": 3,
+    "grooming": 4,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 3,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Long, silky, flowing",
+    "coat_colors": [
+      "tricolor: white, black, and tan"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "playful",
+    "lighthearted",
+    "amusing",
+    "childlike",
+    "devoted"
+  ],
+  "description": {
+    "overview": "A rare piebald (tricolor) Yorkshire Terrier variety, the Biewer is a charming, playful companion. Their flowing tricolor coat and cheerful nature make them delightful pets.",
+    "history": "The Biewer Terrier originated in Germany.",
+    "temperament": "Known for being playful, lighthearted, amusing.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, silky, flowing coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Apartment dwellers",
+      "Seniors",
+      "Those wanting a charming companion"
+    ],
+    "not_for": [
+      "Families with young children",
+      "Those avoiding grooming"
+    ],
+    "summary": "A rare piebald (tricolor) Yorkshire Terrier variety, the Biewer is a charming, playful companion. Their flowing tricolor coat and cheerful nature make them delightful pets."
+  }
+}

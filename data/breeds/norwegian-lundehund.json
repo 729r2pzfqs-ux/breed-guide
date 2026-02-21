@@ -1,0 +1,58 @@
+{
+  "id": "norwegian-lundehund",
+  "name": "Norwegian Lundehund",
+  "aliases": [],
+  "group": "non-sporting",
+  "origin": "Norway",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "32-38",
+    "weight_kg": "6-7",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Dense double coat",
+    "coat_colors": [
+      "fallow to reddish brown with white"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "alert",
+    "energetic",
+    "loyal",
+    "protective",
+    "playful"
+  ],
+  "description": {
+    "overview": "A unique breed with six toes on each foot and extreme flexibility, bred to hunt puffins on Norwegian cliffs. They're rare, primitive dogs with special needs.",
+    "history": "The Norwegian Lundehund originated in Norway.",
+    "temperament": "Known for being alert, energetic, loyal.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their dense double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Those interested in rare breeds",
+      "Patient trainers"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Those wanting easy trainability"
+    ],
+    "summary": "A unique breed with six toes on each foot and extreme flexibility, bred to hunt puffins on Norwegian cliffs. They're rare, primitive dogs with special needs."
+  }
+}
