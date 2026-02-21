@@ -81,25 +81,25 @@
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-2xl font-bold text-slate-900 mb-8">Razas Populares</h2>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
-                    <a href="../breeds/labrador-retriever.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition">
+                    <a href="breeds/labrador-retriever.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/labrador-retriever.webp" alt="Labrador Retriever" class="w-full h-full object-cover object-top">
                         </div>
                         <div class="font-semibold text-slate-800 text-center">Labrador Retriever</div>
                     </a>
-                    <a href="../breeds/german-shepherd.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition">
+                    <a href="breeds/german-shepherd.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/german-shepherd.webp" alt="German Shepherd" class="w-full h-full object-cover object-top">
                         </div>
                         <div class="font-semibold text-slate-800 text-center">German Shepherd</div>
                     </a>
-                    <a href="../breeds/golden-retriever.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition">
+                    <a href="breeds/golden-retriever.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/golden-retriever.webp" alt="Golden Retriever" class="w-full h-full object-cover object-top">
                         </div>
                         <div class="font-semibold text-slate-800 text-center">Golden Retriever</div>
                     </a>
-                    <a href="../breeds/french-bulldog.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition">
+                    <a href="breeds/french-bulldog.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/french-bulldog.webp" alt="French Bulldog" class="w-full h-full object-cover object-top">
                         </div>
@@ -201,21 +201,21 @@
                 <h2 class="text-2xl font-bold text-slate-900 mb-2">Guías de Razas</h2>
                 <p class="text-slate-500 mb-8">Información detallada sobre razas populares</p>
                 <div class="grid md:grid-cols-3 gap-6">
-                    <a href="../breeds/poodle.html" class="bg-white rounded-2xl overflow-hidden card-shadow border border-slate-100 hover:border-sky-200 transition">
+                    <a href="breeds/poodle.html" class="bg-white rounded-2xl overflow-hidden card-shadow border border-slate-100 hover:border-sky-200 transition">
                         <div class="aspect-video bg-slate-100"><img src="../images/breeds/poodle.webp" alt="Poodle" class="w-full h-full object-cover"></div>
                         <div class="p-5">
                             <h3 class="font-bold text-lg text-slate-800 mb-2">Poodle</h3>
                             <span class="text-sky-600 font-medium text-sm">Leer Guía →</span>
                         </div>
                     </a>
-                    <a href="../breeds/siberian-husky.html" class="bg-white rounded-2xl overflow-hidden card-shadow border border-slate-100 hover:border-sky-200 transition">
+                    <a href="breeds/siberian-husky.html" class="bg-white rounded-2xl overflow-hidden card-shadow border border-slate-100 hover:border-sky-200 transition">
                         <div class="aspect-video bg-slate-100"><img src="../images/breeds/siberian-husky.webp" alt="Siberian Husky" class="w-full h-full object-cover"></div>
                         <div class="p-5">
                             <h3 class="font-bold text-lg text-slate-800 mb-2">Siberian Husky</h3>
                             <span class="text-sky-600 font-medium text-sm">Leer Guía →</span>
                         </div>
                     </a>
-                    <a href="../breeds/dachshund.html" class="bg-white rounded-2xl overflow-hidden card-shadow border border-slate-100 hover:border-sky-200 transition">
+                    <a href="breeds/dachshund.html" class="bg-white rounded-2xl overflow-hidden card-shadow border border-slate-100 hover:border-sky-200 transition">
                         <div class="aspect-video bg-slate-100"><img src="../images/breeds/dachshund.webp" alt="Dachshund" class="w-full h-full object-cover"></div>
                         <div class="p-5">
                             <h3 class="font-bold text-lg text-slate-800 mb-2">Dachshund</h3>
@@ -275,7 +275,7 @@
                 if (query.length < 1) { dropdown.classList.add('hidden'); return; }
                 const matches = breeds.filter(b => b.name.toLowerCase().includes(query)).slice(0, 8);
                 if (matches.length === 0) { dropdown.classList.add('hidden'); return; }
-                dropdown.innerHTML = matches.map(b => `<a href="../breeds/${b.slug}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50"><img src="../images/heads/${b.slug}.webp" class="w-10 h-10 rounded-xl object-cover object-top"><div><div class="font-medium text-slate-800">${b.name}</div><div class="text-sm text-slate-500">${b.group}</div></div></a>`).join('');
+                dropdown.innerHTML = matches.map(b => `<a href="breeds/${b.slug}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50"><img src="../images/heads/${b.slug}.webp" class="w-10 h-10 rounded-xl object-cover object-top"><div><div class="font-medium text-slate-800">${b.name}</div><div class="text-sm text-slate-500">${b.group}</div></div></a>`).join('');
                 dropdown.classList.remove('hidden');
             });
             document.addEventListener('click', (e) => { if (!homeSearch.contains(e.target) && !dropdown.contains(e.target)) dropdown.classList.add('hidden'); });

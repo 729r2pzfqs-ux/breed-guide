@@ -174,7 +174,7 @@
             }).sort((a, b) => b.score - a.score).slice(0, 5);
             
             document.getElementById('results-container').innerHTML = scored.map((s, i) => `
-                <a href="../../breeds/${s.breed.id}.html" class="block bg-white rounded-2xl p-4 shadow-md hover:shadow-lg transition">
+                <a href="../breeds/${s.breed.id}.html" class="block bg-white rounded-2xl p-4 shadow-md hover:shadow-lg transition">
                     <div class="flex items-center gap-4">
                         <img src="../../images/heads/${s.breed.id}.webp" class="w-16 h-16 rounded-xl object-cover">
                         <div class="flex-1 text-left">
