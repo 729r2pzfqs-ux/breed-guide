@@ -136,7 +136,43 @@
                         </div>
                     </div>
 
-                    <!-- Toggles -->
+                    <!-- Trainability -->
+                    <div class="filter-section py-4">
+                        <label class="flex items-center justify-between mb-3 cursor-pointer">
+                            <h3 class="font-medium text-slate-700">Trainability</h3>
+                            <input type="checkbox" id="trainabilityEnabled" class="rounded text-blue-600">
+                        </label>
+                        <div id="trainabilityControls" class="hidden">
+                            <div class="flex items-center gap-3">
+                                <span class="text-xs text-slate-500">Low</span>
+                                <input type="range" id="trainabilityFilter" min="1" max="5" value="3" class="flex-1">
+                                <span class="text-xs text-slate-500">High</span>
+                            </div>
+                            <div class="text-center text-sm text-slate-600 mt-1">
+                                <span id="trainabilityValue">3</span>+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Barking Level -->
+                    <div class="filter-section py-4">
+                        <label class="flex items-center justify-between mb-3 cursor-pointer">
+                            <h3 class="font-medium text-slate-700">Barking Level</h3>
+                            <input type="checkbox" id="barkingEnabled" class="rounded text-blue-600">
+                        </label>
+                        <div id="barkingControls" class="hidden">
+                            <div class="flex items-center gap-3">
+                                <span class="text-xs text-slate-500">Quiet</span>
+                                <input type="range" id="barkingFilter" min="1" max="5" value="3" class="flex-1">
+                                <span class="text-xs text-slate-500">Vocal</span>
+                            </div>
+                            <div class="text-center text-sm text-slate-600 mt-1">
+                                <span id="barkingValue">3</span> or less
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Good For -->
                     <div class="filter-section py-4">
                         <h3 class="font-medium text-slate-700 mb-3">Good For</h3>
                         <div class="space-y-3">
@@ -147,10 +183,6 @@
                             <label class="flex items-center justify-between cursor-pointer">
                                 <span class="text-slate-600">Apartments</span>
                                 <input type="checkbox" id="apartmentOk" class="toggle-filter rounded text-blue-600">
-                            </label>
-                            <label class="flex items-center justify-between cursor-pointer">
-                                <span class="text-slate-600">Easy to Train</span>
-                                <input type="checkbox" id="easyTrain" class="toggle-filter rounded text-blue-600">
                             </label>
                         </div>
                     </div>
@@ -300,11 +332,14 @@
             const searchQuery = document.getElementById('searchInput').value.trim();
             const energyEnabled = document.getElementById('energyEnabled').checked;
             const groomingEnabled = document.getElementById('groomingEnabled').checked;
+            const trainabilityEnabled = document.getElementById('trainabilityEnabled').checked;
+            const barkingEnabled = document.getElementById('barkingEnabled').checked;
             const energyMin = parseInt(document.getElementById('energyFilter').value);
             const groomingMax = parseInt(document.getElementById('groomingFilter').value);
+            const trainabilityMin = parseInt(document.getElementById('trainabilityFilter').value);
+            const barkingMax = parseInt(document.getElementById('barkingFilter').value);
             const kidFriendly = document.getElementById('kidFriendly').checked;
             const apartmentOk = document.getElementById('apartmentOk').checked;
-            const easyTrain = document.getElementById('easyTrain').checked;
             const sortBy = document.getElementById('sortBy').value;
 
             // Get selected sizes
@@ -329,6 +364,12 @@
                 // Grooming filter (maximum) - only if enabled
                 if (groomingEnabled && breed.ratings.grooming > groomingMax) return false;
                 
+                // Trainability filter (minimum) - only if enabled
+                if (trainabilityEnabled && breed.ratings.trainability < trainabilityMin) return false;
+                
+                // Barking filter (maximum) - only if enabled
+                if (barkingEnabled && breed.ratings.barking > barkingMax) return false;
+                
                 // Kid friendly
                 if (kidFriendly && breed.ratings.kid_friendly < 4) return false;
                 
@@ -336,7 +377,6 @@
                 if (apartmentOk && breed.ratings.apartment_ok < 3) return false;
                 
                 // Easy to train
-                if (easyTrain && breed.ratings.trainability < 4) return false;
                 
                 // Shedding
                 if (selectedShedding.length > 0 && !selectedShedding.includes(breed.characteristics.shedding)) return false;
@@ -374,22 +414,25 @@
             document.getElementById('clearSearch').classList.toggle('hidden', !searchQuery);
         }
 
-        // Update slider labels
-        function updateSliderLabels() {
-            const energyVal = document.getElementById('energyFilter').value;
-            const groomingVal = document.getElementById('groomingFilter').value;
-            
-            document.getElementById('energyValue').textContent = energyVal;
-            document.getElementById('groomingValue').textContent = groomingVal;
-        }
-
         // Toggle filter controls visibility
         function toggleFilterControls() {
             const energyEnabled = document.getElementById('energyEnabled').checked;
             const groomingEnabled = document.getElementById('groomingEnabled').checked;
+            const trainabilityEnabled = document.getElementById('trainabilityEnabled').checked;
+            const barkingEnabled = document.getElementById('barkingEnabled').checked;
             
             document.getElementById('energyControls').classList.toggle('hidden', !energyEnabled);
             document.getElementById('groomingControls').classList.toggle('hidden', !groomingEnabled);
+            document.getElementById('trainabilityControls').classList.toggle('hidden', !trainabilityEnabled);
+            document.getElementById('barkingControls').classList.toggle('hidden', !barkingEnabled);
+        }
+        
+        // Update all slider labels
+        function updateSliderLabels() {
+            document.getElementById('energyValue').textContent = document.getElementById('energyFilter').value;
+            document.getElementById('groomingValue').textContent = document.getElementById('groomingFilter').value;
+            document.getElementById('trainabilityValue').textContent = document.getElementById('trainabilityFilter').value;
+            document.getElementById('barkingValue').textContent = document.getElementById('barkingFilter').value;
         }
 
         // Reset filters
@@ -397,11 +440,14 @@
             document.getElementById('searchInput').value = '';
             document.getElementById('energyEnabled').checked = false;
             document.getElementById('groomingEnabled').checked = false;
+            document.getElementById('trainabilityEnabled').checked = false;
+            document.getElementById('barkingEnabled').checked = false;
             document.getElementById('energyFilter').value = 3;
             document.getElementById('groomingFilter').value = 3;
+            document.getElementById('trainabilityFilter').value = 3;
+            document.getElementById('barkingFilter').value = 3;
             document.getElementById('kidFriendly').checked = false;
             document.getElementById('apartmentOk').checked = false;
-            document.getElementById('easyTrain').checked = false;
             document.querySelectorAll('.size-filter, .shed-filter').forEach(cb => cb.checked = false);
             document.getElementById('sortBy').value = 'name';
             toggleFilterControls();
@@ -417,11 +463,14 @@
         });
         document.getElementById('energyEnabled').addEventListener('change', () => { toggleFilterControls(); applyFilters(); });
         document.getElementById('groomingEnabled').addEventListener('change', () => { toggleFilterControls(); applyFilters(); });
+        document.getElementById('trainabilityEnabled').addEventListener('change', () => { toggleFilterControls(); applyFilters(); });
+        document.getElementById('barkingEnabled').addEventListener('change', () => { toggleFilterControls(); applyFilters(); });
         document.getElementById('energyFilter').addEventListener('input', () => { updateSliderLabels(); applyFilters(); });
         document.getElementById('groomingFilter').addEventListener('input', () => { updateSliderLabels(); applyFilters(); });
+        document.getElementById('trainabilityFilter').addEventListener('input', () => { updateSliderLabels(); applyFilters(); });
+        document.getElementById('barkingFilter').addEventListener('input', () => { updateSliderLabels(); applyFilters(); });
         document.getElementById('kidFriendly').addEventListener('change', applyFilters);
         document.getElementById('apartmentOk').addEventListener('change', applyFilters);
-        document.getElementById('easyTrain').addEventListener('change', applyFilters);
         document.getElementById('sortBy').addEventListener('change', applyFilters);
         document.getElementById('resetFilters').addEventListener('click', resetFilters);
         document.querySelectorAll('.size-filter, .shed-filter').forEach(cb => cb.addEventListener('change', applyFilters));
@@ -449,7 +498,6 @@
             
             // Easy to train
             if (params.get('train') === '1') {
-                document.getElementById('easyTrain').checked = true;
             }
             
             // Low shedding
