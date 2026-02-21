@@ -549,7 +549,7 @@ def generate_quiz_html(lang, t, breeds_js):
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-4 text-sm font-medium">
-                <a href="../search/" class="text-slate-600 hover:text-sky-600">{t['browse']}</a>
+                <a href="../search/" class="hidden md:block text-slate-600 hover:text-sky-600">{t['browse']}</a>
                 <a href="./" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-4 py-2 rounded-xl">{t['quiz']}</a>
             </nav>
         </div>
