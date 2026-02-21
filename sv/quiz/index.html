@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find Your Perfect Dog | BreedFinder</title>
+    <title>Hitta Din Perfekta Hund | BreedFinder</title>
     <link rel="icon" href="../../favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -19,7 +19,7 @@
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-4 text-sm font-medium">
-                <a href="../search/" class="text-slate-600 hover:text-sky-600">Browse Breeds</a>
+                <a href="../search/" class="text-slate-600 hover:text-sky-600">Bläddra Raser</a>
                 <a href="./" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-4 py-2 rounded-xl">Quiz</a>
             </nav>
         </div>
@@ -30,14 +30,14 @@
             <div id="quiz-intro" class="text-center">
                 <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm border text-sm text-slate-600 mb-6">
                     <span>🎯</span>
-                    <span>5 quick questions</span>
+                    <span>5 snabba frågor</span>
                 </div>
                 <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
-                    <span class="bg-gradient-to-r from-sky-500 to-violet-500 bg-clip-text text-transparent">Find Your Perfect Dog</span>
+                    <span class="bg-gradient-to-r from-sky-500 to-violet-500 bg-clip-text text-transparent">Hitta Din Perfekta Hund</span>
                 </h1>
-                <p class="text-lg text-slate-600 mb-8">Answer a few questions about your lifestyle and we'll match you with ideal breeds.</p>
+                <p class="text-lg text-slate-600 mb-8">Svara på några frågor om din livsstil så hittar vi de ideala raserna.</p>
                 <button onclick="startQuiz()" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:shadow-xl transition">
-                    Start Quiz →
+                    Starta Quiz →
                 </button>
             </div>
 
@@ -45,7 +45,7 @@
                 <div class="bg-white rounded-3xl shadow-xl p-8">
                     <div class="mb-8">
                         <div class="flex justify-between text-sm text-slate-500 mb-2">
-                            <span>Question <span id="current-q">1</span> of 5</span>
+                            <span>Fråga <span id="current-q">1</span> av 5</span>
                             <span id="progress-text">20%</span>
                         </div>
                         <div class="h-2 bg-slate-100 rounded-full overflow-hidden">
@@ -55,21 +55,21 @@
                     <h2 id="question-text" class="text-2xl font-bold mb-6"></h2>
                     <div id="answers" class="space-y-3"></div>
                     <div class="flex justify-between mt-8">
-                        <button id="back-btn" onclick="prevQuestion()" class="px-6 py-3 text-slate-600 hover:text-slate-800 hidden">Back</button>
-                        <button id="next-btn" onclick="nextQuestion()" class="ml-auto bg-gradient-to-r from-sky-500 to-violet-500 text-white px-6 py-3 rounded-xl font-semibold disabled:opacity-50" disabled>Next</button>
+                        <button id="back-btn" onclick="prevQuestion()" class="px-6 py-3 text-slate-600 hover:text-slate-800 hidden">Tillbaka</button>
+                        <button id="next-btn" onclick="nextQuestion()" class="ml-auto bg-gradient-to-r from-sky-500 to-violet-500 text-white px-6 py-3 rounded-xl font-semibold disabled:opacity-50" disabled>Nästa</button>
                     </div>
                 </div>
             </div>
 
             <div id="quiz-results" class="hidden">
                 <div class="text-center mb-8">
-                    <h2 class="text-3xl font-extrabold mb-2">Your Perfect Matches</h2>
-                    <p class="text-slate-600">Based on your answers, these breeds are ideal for you</p>
+                    <h2 class="text-3xl font-extrabold mb-2">Dina Perfekta Matcher</h2>
+                    <p class="text-slate-600">Baserat på dina svar är dessa raser ideala för dig</p>
                 </div>
                 <div id="results-list" class="space-y-4"></div>
                 <div class="flex justify-center gap-4 mt-8">
-                    <button onclick="location.reload()" class="px-6 py-3 border border-slate-200 rounded-xl hover:bg-slate-50">← Retake Quiz</button>
-                    <a href="../compare/" id="compare-link" class="px-6 py-3 bg-gradient-to-r from-sky-500 to-violet-500 text-white rounded-xl font-semibold">Compare Top 2</a>
+                    <button onclick="location.reload()" class="px-6 py-3 border border-slate-200 rounded-xl hover:bg-slate-50">← Gör Om Quiz</button>
+                    <a href="../compare/" id="compare-link" class="px-6 py-3 bg-gradient-to-r from-sky-500 to-violet-500 text-white rounded-xl font-semibold">Jämför Top 2</a>
                 </div>
             </div>
         </div>
@@ -77,11 +77,11 @@
 
     <script>
         const questions = [
-            { q: "How active is your lifestyle?", answers: ["🛋️ Relaxed — I prefer quiet evenings", "🚶 Moderate — Daily walks are fine", "🏃 Active — I exercise regularly", "⚡ Very Active — Outdoors is my life"], tags: [["low-energy"], ["moderate-energy"], ["high-energy"], ["high-energy"]] },
-            { q: "How much space do you have?", answers: ["🏢 Small apartment", "🏠 House/larger apartment", "🏡 House with yard", "🌳 Large property / rural"], tags: [["apartment", "small"], ["medium"], ["large"], ["large"]] },
-            { q: "Who will the dog live with?", answers: ["👤 Just me", "👫 Me and partner", "👨‍👩‍👧 Family with older kids", "👶 Family with young children"], tags: [[], [], ["family-friendly"], ["family-friendly"]] },
-            { q: "How much grooming can you handle?", answers: ["✨ Minimal — low maintenance please", "🪥 Some — weekly brushing is ok", "💇 Regular — I can commit to grooming", "🐩 High — I enjoy grooming"], tags: [["low-grooming"], [], [], ["high-grooming"]] },
-            { q: "What size dog do you prefer?", answers: ["🐕 Small (under 10 kg)", "🐕 Medium (10-25 kg)", "🐕 Large (25-45 kg)", "🐕 Giant (over 45 kg)"], tags: [["small"], ["medium"], ["large"], ["large"]] }
+            { q: "Hur aktiv är din livsstil?", answers: ["🛋️ Avslappnad — Jag föredrar lugna kvällar", "🚶 Måttlig — Dagliga promenader är ok", "🏃 Aktiv — Jag tränar regelbundet", "⚡ Mycket Aktiv — Utomhus är mitt liv"], tags: [["low-energy"], ["moderate-energy"], ["high-energy"], ["high-energy"]] },
+            { q: "Hur mycket utrymme har du?", answers: ["🏢 Liten lägenhet", "🏠 Hus / stor lägenhet", "🏡 Hus med trädgård", "🌳 Stor tomt / lantligt"], tags: [["apartment", "small"], ["medium"], ["large"], ["large"]] },
+            { q: "Vem kommer hunden bo med?", answers: ["👤 Bara jag", "👫 Jag och partner", "👨‍👩‍👧 Familj med äldre barn", "👶 Familj med små barn"], tags: [[], [], ["family-friendly"], ["family-friendly"]] },
+            { q: "Hur mycket pälsvård klarar du?", answers: ["✨ Minimal — lågunderhåll tack", "🪥 Lite — veckovis borstning ok", "💇 Regelbunden — jag kan engagera mig", "🐩 Mycket — jag gillar pälsvård"], tags: [["low-grooming"], [], [], ["high-grooming"]] },
+            { q: "Vilken storlek hund föredrar du?", answers: ["🐕 Liten (under 10 kg)", "🐕 Medel (10-25 kg)", "🐕 Stor (25-45 kg)", "🐕 Jätte (över 45 kg)"], tags: [["small"], ["medium"], ["large"], ["large"]] }
         ];
 
         const breeds = [
@@ -332,7 +332,7 @@
             `).join('');
             
             document.getElementById('back-btn').classList.toggle('hidden', idx === 0);
-            document.getElementById('next-btn').textContent = idx === 4 ? 'See My Matches' : 'Next';
+            document.getElementById('next-btn').textContent = idx === 4 ? 'Se Resultat' : 'Nästa';
             document.getElementById('next-btn').disabled = answers[idx] === undefined;
         }
 
@@ -380,9 +380,9 @@
                             <span class="text-xl font-bold">${b.name}</span>
                             <span class="bg-gradient-to-r from-sky-500 to-violet-500 text-white text-xs px-2 py-1 rounded-full">${b.pct}% Match</span>
                         </div>
-                        <p class="text-sm text-slate-600">Why this matches you: ${b.tags.filter(t => userTags.includes(t)).join(', ')}</p>
+                        <p class="text-sm text-slate-600">Varför detta passar dig: ${b.tags.filter(t => userTags.includes(t)).join(', ')}</p>
                     </div>
-                    <a href="../breeds/${b.slug}.html" class="text-sky-600 hover:text-sky-700 font-semibold text-sm">View Profile →</a>
+                    <a href="../breeds/${b.slug}.html" class="text-sky-600 hover:text-sky-700 font-semibold text-sm">Se Profil →</a>
                 </div>
             `).join('');
             

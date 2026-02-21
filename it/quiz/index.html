@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find Your Perfect Dog | BreedFinder</title>
+    <title>Trova il Tuo Cane Perfetto | BreedFinder</title>
     <link rel="icon" href="../../favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -19,7 +19,7 @@
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-4 text-sm font-medium">
-                <a href="../search/" class="text-slate-600 hover:text-sky-600">Browse Breeds</a>
+                <a href="../search/" class="text-slate-600 hover:text-sky-600">Esplora Razze</a>
                 <a href="./" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-4 py-2 rounded-xl">Quiz</a>
             </nav>
         </div>
@@ -30,14 +30,14 @@
             <div id="quiz-intro" class="text-center">
                 <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm border text-sm text-slate-600 mb-6">
                     <span>🎯</span>
-                    <span>5 quick questions</span>
+                    <span>5 domande veloci</span>
                 </div>
                 <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
-                    <span class="bg-gradient-to-r from-sky-500 to-violet-500 bg-clip-text text-transparent">Find Your Perfect Dog</span>
+                    <span class="bg-gradient-to-r from-sky-500 to-violet-500 bg-clip-text text-transparent">Trova il Tuo Cane Perfetto</span>
                 </h1>
-                <p class="text-lg text-slate-600 mb-8">Answer a few questions about your lifestyle and we'll match you with ideal breeds.</p>
+                <p class="text-lg text-slate-600 mb-8">Rispondi a qualche domanda sul tuo stile di vita e troveremo le razze ideali.</p>
                 <button onclick="startQuiz()" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:shadow-xl transition">
-                    Start Quiz →
+                    Inizia il Quiz →
                 </button>
             </div>
 
@@ -45,7 +45,7 @@
                 <div class="bg-white rounded-3xl shadow-xl p-8">
                     <div class="mb-8">
                         <div class="flex justify-between text-sm text-slate-500 mb-2">
-                            <span>Question <span id="current-q">1</span> of 5</span>
+                            <span>Domanda <span id="current-q">1</span> di 5</span>
                             <span id="progress-text">20%</span>
                         </div>
                         <div class="h-2 bg-slate-100 rounded-full overflow-hidden">
@@ -55,21 +55,21 @@
                     <h2 id="question-text" class="text-2xl font-bold mb-6"></h2>
                     <div id="answers" class="space-y-3"></div>
                     <div class="flex justify-between mt-8">
-                        <button id="back-btn" onclick="prevQuestion()" class="px-6 py-3 text-slate-600 hover:text-slate-800 hidden">Back</button>
-                        <button id="next-btn" onclick="nextQuestion()" class="ml-auto bg-gradient-to-r from-sky-500 to-violet-500 text-white px-6 py-3 rounded-xl font-semibold disabled:opacity-50" disabled>Next</button>
+                        <button id="back-btn" onclick="prevQuestion()" class="px-6 py-3 text-slate-600 hover:text-slate-800 hidden">Indietro</button>
+                        <button id="next-btn" onclick="nextQuestion()" class="ml-auto bg-gradient-to-r from-sky-500 to-violet-500 text-white px-6 py-3 rounded-xl font-semibold disabled:opacity-50" disabled>Avanti</button>
                     </div>
                 </div>
             </div>
 
             <div id="quiz-results" class="hidden">
                 <div class="text-center mb-8">
-                    <h2 class="text-3xl font-extrabold mb-2">Your Perfect Matches</h2>
-                    <p class="text-slate-600">Based on your answers, these breeds are ideal for you</p>
+                    <h2 class="text-3xl font-extrabold mb-2">Le Tue Razze Perfette</h2>
+                    <p class="text-slate-600">In base alle tue risposte, queste razze sono ideali per te</p>
                 </div>
                 <div id="results-list" class="space-y-4"></div>
                 <div class="flex justify-center gap-4 mt-8">
-                    <button onclick="location.reload()" class="px-6 py-3 border border-slate-200 rounded-xl hover:bg-slate-50">← Retake Quiz</button>
-                    <a href="../compare/" id="compare-link" class="px-6 py-3 bg-gradient-to-r from-sky-500 to-violet-500 text-white rounded-xl font-semibold">Compare Top 2</a>
+                    <button onclick="location.reload()" class="px-6 py-3 border border-slate-200 rounded-xl hover:bg-slate-50">← Ripeti Quiz</button>
+                    <a href="../compare/" id="compare-link" class="px-6 py-3 bg-gradient-to-r from-sky-500 to-violet-500 text-white rounded-xl font-semibold">Confronta Top 2</a>
                 </div>
             </div>
         </div>
@@ -77,11 +77,11 @@
 
     <script>
         const questions = [
-            { q: "How active is your lifestyle?", answers: ["🛋️ Relaxed — I prefer quiet evenings", "🚶 Moderate — Daily walks are fine", "🏃 Active — I exercise regularly", "⚡ Very Active — Outdoors is my life"], tags: [["low-energy"], ["moderate-energy"], ["high-energy"], ["high-energy"]] },
-            { q: "How much space do you have?", answers: ["🏢 Small apartment", "🏠 House/larger apartment", "🏡 House with yard", "🌳 Large property / rural"], tags: [["apartment", "small"], ["medium"], ["large"], ["large"]] },
-            { q: "Who will the dog live with?", answers: ["👤 Just me", "👫 Me and partner", "👨‍👩‍👧 Family with older kids", "👶 Family with young children"], tags: [[], [], ["family-friendly"], ["family-friendly"]] },
-            { q: "How much grooming can you handle?", answers: ["✨ Minimal — low maintenance please", "🪥 Some — weekly brushing is ok", "💇 Regular — I can commit to grooming", "🐩 High — I enjoy grooming"], tags: [["low-grooming"], [], [], ["high-grooming"]] },
-            { q: "What size dog do you prefer?", answers: ["🐕 Small (under 10 kg)", "🐕 Medium (10-25 kg)", "🐕 Large (25-45 kg)", "🐕 Giant (over 45 kg)"], tags: [["small"], ["medium"], ["large"], ["large"]] }
+            { q: "Quanto è attivo il tuo stile di vita?", answers: ["🛋️ Rilassato — Preferisco serate tranquille", "🚶 Moderato — Passeggiate quotidiane vanno bene", "🏃 Attivo — Mi alleno regolarmente", "⚡ Molto Attivo — Vivo all'aria aperta"], tags: [["low-energy"], ["moderate-energy"], ["high-energy"], ["high-energy"]] },
+            { q: "Quanto spazio hai?", answers: ["🏢 Piccolo appartamento", "🏠 Casa / appartamento grande", "🏡 Casa con giardino", "🌳 Grande proprietà / rurale"], tags: [["apartment", "small"], ["medium"], ["large"], ["large"]] },
+            { q: "Con chi vivrà il cane?", answers: ["👤 Solo io", "👫 Io e partner", "👨‍👩‍👧 Famiglia con figli grandi", "👶 Famiglia con bambini piccoli"], tags: [[], [], ["family-friendly"], ["family-friendly"]] },
+            { q: "Quanta toelettatura puoi gestire?", answers: ["✨ Minima — poca manutenzione per favore", "🪥 Un po' — spazzolatura settimanale ok", "💇 Regolare — posso impegnarmi", "🐩 Molta — mi piace la toelettatura"], tags: [["low-grooming"], [], [], ["high-grooming"]] },
+            { q: "Che taglia di cane preferisci?", answers: ["🐕 Piccolo (sotto 10 kg)", "🐕 Medio (10-25 kg)", "🐕 Grande (25-45 kg)", "🐕 Gigante (oltre 45 kg)"], tags: [["small"], ["medium"], ["large"], ["large"]] }
         ];
 
         const breeds = [
@@ -332,7 +332,7 @@
             `).join('');
             
             document.getElementById('back-btn').classList.toggle('hidden', idx === 0);
-            document.getElementById('next-btn').textContent = idx === 4 ? 'See My Matches' : 'Next';
+            document.getElementById('next-btn').textContent = idx === 4 ? 'Vedi Risultati' : 'Avanti';
             document.getElementById('next-btn').disabled = answers[idx] === undefined;
         }
 
@@ -378,11 +378,11 @@
                     <div class="flex-1">
                         <div class="flex items-center gap-2 mb-1">
                             <span class="text-xl font-bold">${b.name}</span>
-                            <span class="bg-gradient-to-r from-sky-500 to-violet-500 text-white text-xs px-2 py-1 rounded-full">${b.pct}% Match</span>
+                            <span class="bg-gradient-to-r from-sky-500 to-violet-500 text-white text-xs px-2 py-1 rounded-full">${b.pct}% Compatibilità</span>
                         </div>
-                        <p class="text-sm text-slate-600">Why this matches you: ${b.tags.filter(t => userTags.includes(t)).join(', ')}</p>
+                        <p class="text-sm text-slate-600">Perché fa per te: ${b.tags.filter(t => userTags.includes(t)).join(', ')}</p>
                     </div>
-                    <a href="../breeds/${b.slug}.html" class="text-sky-600 hover:text-sky-700 font-semibold text-sm">View Profile →</a>
+                    <a href="../breeds/${b.slug}.html" class="text-sky-600 hover:text-sky-700 font-semibold text-sm">Vedi Profilo →</a>
                 </div>
             `).join('');
             
