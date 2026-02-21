@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Perfect Dog | BreedFinder</title>
+    <link rel="icon" href="../../favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-sky-50 via-white to-violet-50 min-h-screen text-slate-800">
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="../" class="flex items-center gap-3">
+                <img src="../../logo-192.png" class="w-10 h-10" alt="BreedFinder">
+                <span class="text-xl font-bold text-slate-800">BreedFinder</span>
+            </a>
+            <nav class="flex items-center gap-4 text-sm font-medium">
+                <a href="../search/" class="text-slate-600 hover:text-sky-600">浏览品种</a>
+                <a href="./" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-4 py-2 rounded-xl">参加测验</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-2xl mx-auto px-4 py-12">
+        <div id="quiz-container">
+            <!-- Intro -->
+            <div id="quiz-intro" class="text-center">
+                <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm border text-sm text-slate-600 mb-6">
+                    <span>🎯</span>
+                    <span>5 quick questions</span>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
+                    <span class="bg-gradient-to-r from-sky-500 to-violet-500 bg-clip-text text-transparent">Find Your Perfect Dog</span>
+                </h1>
+                <p class="text-lg text-slate-600 mb-8">Answer a few questions about your lifestyle and we'll match you with ideal breeds.</p>
+                <button onclick="startQuiz()" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:shadow-xl transition">
+                    Start Quiz →
+                </button>
+            </div>
+
+            <!-- Questions -->
+            <div id="quiz-questions" class="hidden">
+                <div class="bg-white rounded-3xl shadow-xl p-8">
+                    <div class="mb-8">
+                        <div class="flex justify-between text-sm text-slate-500 mb-2">
+                            <span>Question <span id="current-q">1</span> of 5</span>
+                            <span id="progress-pct">20%</span>
+                        </div>
+                        <div class="h-2 bg-slate-100 rounded-full overflow-hidden">
+                            <div id="progress-bar" class="h-full bg-gradient-to-r from-sky-500 to-violet-500 transition-all" style="width: 20%"></div>
+                        </div>
+                    </div>
+                    <h2 id="question-text" class="text-2xl font-bold mb-6"></h2>
+                    <div id="options-container" class="space-y-3"></div>
+                </div>
+            </div>
+
+            <!-- Results -->
+            <div id="quiz-results" class="hidden text-center">
+                <h2 class="text-3xl font-bold mb-8">Your Perfect Matches!</h2>
+                <div id="results-container" class="space-y-4"></div>
+                <button onclick="location.reload()" class="mt-8 text-sky-600 font-semibold hover:text-sky-700">
+                    Retake Quiz
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const questions = [
+            {
+                q: "What's your living situation?",
+                opts: [
+                    { text: "Apartment / Small space", scores: { apartment: 5, size: 'small' } },
+                    { text: "House with small yard", scores: { apartment: 3, size: 'medium' } },
+                    { text: "House with large yard", scores: { apartment: 1, size: 'large' } },
+                    { text: "Rural / Farm property", scores: { apartment: 0, size: 'giant' } }
+                ]
+            },
+            {
+                q: "How active is your lifestyle?",
+                opts: [
+                    { text: "Relaxed — short walks are fine", scores: { energy: 1 } },
+                    { text: "Moderate — daily walks", scores: { energy: 3 } },
+                    { text: "Active — I jog or hike regularly", scores: { energy: 4 } },
+                    { text: "Very active — I need a workout buddy", scores: { energy: 5 } }
+                ]
+            },
+            {
+                q: "Do you have children?",
+                opts: [
+                    { text: "No children", scores: { kids: 0 } },
+                    { text: "Older children (10+)", scores: { kids: 3 } },
+                    { text: "Young children (under 10)", scores: { kids: 5 } },
+                    { text: "Planning to have children", scores: { kids: 4 } }
+                ]
+            },
+            {
+                q: "How much grooming are you willing to do?",
+                opts: [
+                    { text: "Minimal — low maintenance please", scores: { grooming: 1 } },
+                    { text: "Some — weekly brushing is fine", scores: { grooming: 2 } },
+                    { text: "Regular — I enjoy grooming", scores: { grooming: 4 } },
+                    { text: "Extensive — I love fluffy dogs", scores: { grooming: 5 } }
+                ]
+            },
+            {
+                q: "What size dog do you prefer?",
+                opts: [
+                    { text: "Tiny (under 5 kg)", scores: { preferSize: 'tiny' } },
+                    { text: "Small (5-10 kg)", scores: { preferSize: 'small' } },
+                    { text: "Medium (10-25 kg)", scores: { preferSize: 'medium' } },
+                    { text: "Large (25-45 kg)", scores: { preferSize: 'large' } },
+                    { text: "Giant (over 45 kg)", scores: { preferSize: 'giant' } }
+                ]
+            }
+        ];
+
+        let currentQ = 0;
+        let answers = {};
+        let breeds = [];
+
+        fetch('../../data/breeds.json').then(r => r.json()).then(d => breeds = d);
+
+        function startQuiz() {
+            document.getElementById('quiz-intro').classList.add('hidden');
+            document.getElementById('quiz-questions').classList.remove('hidden');
+            showQuestion();
+        }
+
+        function showQuestion() {
+            const q = questions[currentQ];
+            document.getElementById('question-text').textContent = q.q;
+            document.getElementById('current-q').textContent = currentQ + 1;
+            document.getElementById('progress-pct').textContent = ((currentQ + 1) * 20) + '%';
+            document.getElementById('progress-bar').style.width = ((currentQ + 1) * 20) + '%';
+            
+            const container = document.getElementById('options-container');
+            container.innerHTML = q.opts.map((opt, i) => `
+                <button onclick="selectOption(${i})" class="w-full p-4 text-left bg-slate-50 hover:bg-sky-50 border-2 border-transparent hover:border-sky-200 rounded-xl transition">
+                    ${opt.text}
+                </button>
+            `).join('');
+        }
+
+        function selectOption(idx) {
+            const scores = questions[currentQ].opts[idx].scores;
+            Object.assign(answers, scores);
+            
+            currentQ++;
+            if (currentQ < questions.length) {
+                showQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        function showResults() {
+            document.getElementById('quiz-questions').classList.add('hidden');
+            document.getElementById('quiz-results').classList.remove('hidden');
+            
+            const scored = breeds.map(b => {
+                let score = 0;
+                if (answers.energy) score += (5 - Math.abs(b.ratings.energy - answers.energy)) * 2;
+                if (answers.grooming) score += (5 - Math.abs(b.ratings.grooming - answers.grooming));
+                if (answers.kids >= 4) score += b.ratings.kid_friendly * 2;
+                if (answers.apartment >= 4) score += b.ratings.apartment_ok * 2;
+                if (answers.preferSize === b.size.category) score += 10;
+                return { breed: b, score };
+            }).sort((a, b) => b.score - a.score).slice(0, 5);
+            
+            document.getElementById('results-container').innerHTML = scored.map((s, i) => `
+                <a href="../../breeds/${s.breed.id}.html" class="block bg-white rounded-2xl p-4 shadow-md hover:shadow-lg transition">
+                    <div class="flex items-center gap-4">
+                        <img src="../../images/heads/${s.breed.id}.webp" class="w-16 h-16 rounded-xl object-cover">
+                        <div class="flex-1 text-left">
+                            <div class="font-bold text-lg">${s.breed.name}</div>
+                            <div class="text-sm text-slate-500">${s.breed.origin} · ${s.breed.lifespan}</div>
+                        </div>
+                        <div class="text-sky-600 font-semibold">#${i + 1}</div>
+                    </div>
+                </a>
+            `).join('');
+        }
+    </script>
+</body>
+</html>
