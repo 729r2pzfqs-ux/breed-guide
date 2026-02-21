@@ -254,7 +254,7 @@
                 <a href="../breeds/${breed.id}.html" class="breed-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden block">
                     <div class="aspect-[4/3] bg-slate-100 relative overflow-hidden">
                         <img src="${imageUrl}" alt="${breed.name}" 
-                            class="w-full h-full object-cover object-top"
+                            class="w-full h-full object-contain"
                             onerror="this.onerror=null; this.src='${fallbackUrl}'; this.onerror=function(){this.parentElement.innerHTML='<div class=\\'w-full h-full flex items-center justify-center\\'><i data-lucide=\\'dog\\' class=\\'w-16 h-16 text-slate-300\\'></i></div>'; lucide.createIcons();}">
                         <span class="absolute top-2 right-2 tag ${sizeColors[breed.size.category] || 'bg-slate-100 text-slate-600'}">
                             ${breed.size.category}
