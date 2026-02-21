@@ -102,27 +102,37 @@
 
                     <!-- Energy Level -->
                     <div class="filter-section py-4">
-                        <h3 class="font-medium text-slate-700 mb-3">Energy Level</h3>
-                        <div class="flex items-center gap-3">
-                            <span class="text-xs text-slate-500">Low</span>
-                            <input type="range" id="energyFilter" min="1" max="5" value="1" class="flex-1">
-                            <span class="text-xs text-slate-500">High</span>
-                        </div>
-                        <div class="text-center text-sm text-slate-600 mt-1">
-                            <span id="energyValue">Any</span>+
+                        <label class="flex items-center justify-between mb-3 cursor-pointer">
+                            <h3 class="font-medium text-slate-700">Energy Level</h3>
+                            <input type="checkbox" id="energyEnabled" class="rounded text-blue-600">
+                        </label>
+                        <div id="energyControls" class="hidden">
+                            <div class="flex items-center gap-3">
+                                <span class="text-xs text-slate-500">Low</span>
+                                <input type="range" id="energyFilter" min="1" max="5" value="3" class="flex-1">
+                                <span class="text-xs text-slate-500">High</span>
+                            </div>
+                            <div class="text-center text-sm text-slate-600 mt-1">
+                                <span id="energyValue">3</span>+
+                            </div>
                         </div>
                     </div>
 
                     <!-- Grooming Needs -->
                     <div class="filter-section py-4">
-                        <h3 class="font-medium text-slate-700 mb-3">Grooming Needs</h3>
-                        <div class="flex items-center gap-3">
-                            <span class="text-xs text-slate-500">Low</span>
-                            <input type="range" id="groomingFilter" min="1" max="5" value="5" class="flex-1">
-                            <span class="text-xs text-slate-500">High</span>
-                        </div>
-                        <div class="text-center text-sm text-slate-600 mt-1">
-                            <span id="groomingValue">Any</span> or less
+                        <label class="flex items-center justify-between mb-3 cursor-pointer">
+                            <h3 class="font-medium text-slate-700">Grooming Needs</h3>
+                            <input type="checkbox" id="groomingEnabled" class="rounded text-blue-600">
+                        </label>
+                        <div id="groomingControls" class="hidden">
+                            <div class="flex items-center gap-3">
+                                <span class="text-xs text-slate-500">Low</span>
+                                <input type="range" id="groomingFilter" min="1" max="5" value="3" class="flex-1">
+                                <span class="text-xs text-slate-500">High</span>
+                            </div>
+                            <div class="text-center text-sm text-slate-600 mt-1">
+                                <span id="groomingValue">3</span> or less
+                            </div>
                         </div>
                     </div>
 
@@ -288,6 +298,8 @@
         // Apply all filters
         function applyFilters() {
             const searchQuery = document.getElementById('searchInput').value.trim();
+            const energyEnabled = document.getElementById('energyEnabled').checked;
+            const groomingEnabled = document.getElementById('groomingEnabled').checked;
             const energyMin = parseInt(document.getElementById('energyFilter').value);
             const groomingMax = parseInt(document.getElementById('groomingFilter').value);
             const kidFriendly = document.getElementById('kidFriendly').checked;
@@ -311,11 +323,11 @@
                 // Size filter
                 if (selectedSizes.length > 0 && !selectedSizes.includes(breed.size.category)) return false;
                 
-                // Energy filter (minimum)
-                if (energyMin > 1 && breed.ratings.energy < energyMin) return false;
+                // Energy filter (minimum) - only if enabled
+                if (energyEnabled && breed.ratings.energy < energyMin) return false;
                 
-                // Grooming filter (maximum)
-                if (groomingMax < 5 && breed.ratings.grooming > groomingMax) return false;
+                // Grooming filter (maximum) - only if enabled
+                if (groomingEnabled && breed.ratings.grooming > groomingMax) return false;
                 
                 // Kid friendly
                 if (kidFriendly && breed.ratings.kid_friendly < 4) return false;
@@ -367,20 +379,32 @@
             const energyVal = document.getElementById('energyFilter').value;
             const groomingVal = document.getElementById('groomingFilter').value;
             
-            document.getElementById('energyValue').textContent = energyVal === '1' ? 'Any' : energyVal;
-            document.getElementById('groomingValue').textContent = groomingVal === '5' ? 'Any' : groomingVal;
+            document.getElementById('energyValue').textContent = energyVal;
+            document.getElementById('groomingValue').textContent = groomingVal;
+        }
+
+        // Toggle filter controls visibility
+        function toggleFilterControls() {
+            const energyEnabled = document.getElementById('energyEnabled').checked;
+            const groomingEnabled = document.getElementById('groomingEnabled').checked;
+            
+            document.getElementById('energyControls').classList.toggle('hidden', !energyEnabled);
+            document.getElementById('groomingControls').classList.toggle('hidden', !groomingEnabled);
         }
 
         // Reset filters
         function resetFilters() {
             document.getElementById('searchInput').value = '';
-            document.getElementById('energyFilter').value = 1;
-            document.getElementById('groomingFilter').value = 5;
+            document.getElementById('energyEnabled').checked = false;
+            document.getElementById('groomingEnabled').checked = false;
+            document.getElementById('energyFilter').value = 3;
+            document.getElementById('groomingFilter').value = 3;
             document.getElementById('kidFriendly').checked = false;
             document.getElementById('apartmentOk').checked = false;
             document.getElementById('easyTrain').checked = false;
             document.querySelectorAll('.size-filter, .shed-filter').forEach(cb => cb.checked = false);
             document.getElementById('sortBy').value = 'name';
+            toggleFilterControls();
             updateSliderLabels();
             applyFilters();
         }
@@ -391,6 +415,8 @@
             document.getElementById('searchInput').value = '';
             applyFilters();
         });
+        document.getElementById('energyEnabled').addEventListener('change', () => { toggleFilterControls(); applyFilters(); });
+        document.getElementById('groomingEnabled').addEventListener('change', () => { toggleFilterControls(); applyFilters(); });
         document.getElementById('energyFilter').addEventListener('input', () => { updateSliderLabels(); applyFilters(); });
         document.getElementById('groomingFilter').addEventListener('input', () => { updateSliderLabels(); applyFilters(); });
         document.getElementById('kidFriendly').addEventListener('change', applyFilters);
