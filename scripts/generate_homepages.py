@@ -413,7 +413,7 @@ def generate_homepage(lang, base_dir):
                 <div class="relative group">
                     <button class="flex items-center gap-1 text-slate-600 hover:text-sky-600 py-2">
                         <i data-lucide="globe" class="w-4 h-4"></i>
-                        <span class="hidden md:inline">{lang_info['code']}</span>
+                        <span>{lang_info['code']}</span>
                     </button>
                     <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
                         {lang_dropdown}
