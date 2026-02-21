@@ -1,0 +1,59 @@
+{
+  "id": "flat-coated-retriever",
+  "name": "Flat-Coated Retriever",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "England",
+  "lifespan": "8-10 years",
+  "size": {
+    "height_cm": "56-62",
+    "weight_kg": "25-36",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 3,
+    "sociability": 5,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Flat, dense, medium-length",
+    "coat_colors": [
+      "black",
+      "liver"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "cheerful",
+    "optimistic",
+    "friendly",
+    "confident",
+    "devoted"
+  ],
+  "description": {
+    "overview": "The Flat-Coated Retriever is the Peter Pan of retrievers\u2014they never seem to grow up. These cheerful, optimistic dogs maintain their puppy-like enthusiasm well into adulthood.",
+    "history": "The Flat-Coated Retriever originated in England.",
+    "temperament": "Known for being cheerful, optimistic, friendly.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their flat, dense, medium-length coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Hunters",
+      "Those wanting a happy companion"
+    ],
+    "not_for": [
+      "Those wanting a calm dog",
+      "Small living spaces"
+    ],
+    "summary": "The Flat-Coated Retriever is the Peter Pan of retrievers\u2014they never seem to grow up. These cheerful, optimistic dogs maintain their puppy-like enthusiasm well into adulthood."
+  }
+}

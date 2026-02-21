@@ -1,0 +1,60 @@
+{
+  "id": "german-wirehaired-pointer",
+  "name": "German Wirehaired Pointer",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Germany",
+  "lifespan": "14-16 years",
+  "size": {
+    "height_cm": "57-68",
+    "weight_kg": "27-32",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 2,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Wiry, weather-resistant",
+    "coat_colors": [
+      "liver and white",
+      "liver roan",
+      "solid liver"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "affectionate",
+    "eager",
+    "enthusiastic",
+    "determined",
+    "loyal"
+  ],
+  "description": {
+    "overview": "A versatile hunter's companion, the German Wirehaired Pointer can point, retrieve, and track in any terrain. Their distinctive beard and eyebrows add character.",
+    "history": "The German Wirehaired Pointer originated in Germany.",
+    "temperament": "Known for being affectionate, eager, enthusiastic.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their wiry, weather-resistant coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Hunters",
+      "Very active owners",
+      "Rural living"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Inactive families"
+    ],
+    "summary": "A versatile hunter's companion, the German Wirehaired Pointer can point, retrieve, and track in any terrain. Their distinctive beard and eyebrows add character."
+  }
+}

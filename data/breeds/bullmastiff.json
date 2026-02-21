@@ -1,0 +1,60 @@
+{
+  "id": "bullmastiff",
+  "name": "Bullmastiff",
+  "aliases": [],
+  "group": "working",
+  "origin": "England",
+  "lifespan": "7-9 years",
+  "size": {
+    "height_cm": "61-69",
+    "weight_kg": "45-59",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 2,
+    "grooming": 1,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, dense",
+    "coat_colors": [
+      "fawn",
+      "red",
+      "brindle"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "affectionate",
+    "loyal",
+    "brave",
+    "alert",
+    "docile"
+  ],
+  "description": {
+    "overview": "Bred as a gamekeeper's dog to catch poachers, the Bullmastiff is a powerful but gentle guardian. They're devoted family dogs who are naturally protective.",
+    "history": "The Bullmastiff originated in England.",
+    "temperament": "Known for being affectionate, loyal, brave.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, dense coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families wanting protection",
+      "Experienced large-breed owners",
+      "Homes with yards"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Apartment dwellers"
+    ],
+    "summary": "Bred as a gamekeeper's dog to catch poachers, the Bullmastiff is a powerful but gentle guardian. They're devoted family dogs who are naturally protective."
+  }
+}

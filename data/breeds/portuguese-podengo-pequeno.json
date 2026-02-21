@@ -1,0 +1,59 @@
+{
+  "id": "portuguese-podengo-pequeno",
+  "name": "Portuguese Podengo Pequeno",
+  "aliases": [],
+  "group": "hound",
+  "origin": "Portugal",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "20-30",
+    "weight_kg": "4-6",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Smooth or wire",
+    "coat_colors": [
+      "yellow",
+      "fawn"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "lively",
+    "alert",
+    "playful",
+    "intelligent",
+    "charming"
+  ],
+  "description": {
+    "overview": "The smallest of the Portuguese Podengos, these rabbit-hunting dogs are lively, alert companions. They're charming, playful dogs with a primitive appearance.",
+    "history": "The Portuguese Podengo Pequeno originated in Portugal.",
+    "temperament": "Known for being lively, alert, playful.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their smooth or wire coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active owners",
+      "Those wanting a unique small breed",
+      "Families"
+    ],
+    "not_for": [
+      "Those wanting a quiet dog",
+      "Off-leash reliability"
+    ],
+    "summary": "The smallest of the Portuguese Podengos, these rabbit-hunting dogs are lively, alert companions. They're charming, playful dogs with a primitive appearance."
+  }
+}

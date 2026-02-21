@@ -1,0 +1,58 @@
+{
+  "id": "pekingese",
+  "name": "Pekingese",
+  "aliases": [],
+  "group": "toy",
+  "origin": "China",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "15-23",
+    "weight_kg": "3.5-6",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 2,
+    "grooming": 5,
+    "sociability": 3,
+    "trainability": 2,
+    "barking": 3,
+    "kid_friendly": 2,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Long, thick double coat",
+    "coat_colors": [
+      "all colors and patterns"
+    ],
+    "shedding": "high",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "affectionate",
+    "loyal",
+    "regal",
+    "independent",
+    "stubborn"
+  ],
+  "description": {
+    "overview": "An ancient breed developed for Chinese royalty, the Pekingese maintains their dignified, independent nature. They're devoted to their owners but can be aloof with strangers.",
+    "history": "The Pekingese originated in China.",
+    "temperament": "Known for being affectionate, loyal, regal.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, thick double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Singles",
+      "Seniors",
+      "Those appreciating an independent dog"
+    ],
+    "not_for": [
+      "Families with young children",
+      "First-time owners"
+    ],
+    "summary": "An ancient breed developed for Chinese royalty, the Pekingese maintains their dignified, independent nature. They're devoted to their owners but can be aloof with strangers."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "drentse-patrijshond",
+  "name": "Drentse Patrijshond",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Netherlands",
+  "lifespan": "11-14 years",
+  "size": {
+    "height_cm": "55-63",
+    "weight_kg": "21-23",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Medium-length, dense, slightly wavy",
+    "coat_colors": [
+      "white with brown",
+      "white with orange"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "loyal",
+    "intelligent",
+    "sensitive",
+    "adaptable",
+    "devoted"
+  ],
+  "description": {
+    "overview": "An old Dutch breed known for their versatility and gentle nature. They're excellent family dogs who also perform well in the field.",
+    "history": "The Drentse Patrijshond originated in Netherlands.",
+    "temperament": "Known for being loyal, intelligent, sensitive.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their medium-length, dense, slightly wavy coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Hunters",
+      "Those wanting a loyal companion"
+    ],
+    "not_for": [
+      "Harsh trainers",
+      "Very small spaces"
+    ],
+    "summary": "An old Dutch breed known for their versatility and gentle nature. They're excellent family dogs who also perform well in the field."
+  }
+}

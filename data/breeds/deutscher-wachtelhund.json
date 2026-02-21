@@ -1,0 +1,59 @@
+{
+  "id": "deutscher-wachtelhund",
+  "name": "Deutscher Wachtelhund",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Germany",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "45-54",
+    "weight_kg": "18-25",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 5,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 5,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Dense, wavy, medium-length",
+    "coat_colors": [
+      "brown",
+      "brown roan"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "versatile",
+    "friendly",
+    "determined",
+    "adaptable",
+    "passionate"
+  ],
+  "description": {
+    "overview": "Germany's versatile hunting dog, the Deutscher Wachtelhund (German Spaniel) is a passionate hunter and friendly companion. They're rarely kept as pets outside hunting circles.",
+    "history": "The Deutscher Wachtelhund originated in Germany.",
+    "temperament": "Known for being versatile, friendly, determined.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their dense, wavy, medium-length coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Hunters",
+      "Active rural families",
+      "Experienced sporting dog owners"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Non-hunters"
+    ],
+    "summary": "Germany's versatile hunting dog, the Deutscher Wachtelhund (German Spaniel) is a passionate hunter and friendly companion. They're rarely kept as pets outside hunting circles."
+  }
+}

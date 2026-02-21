@@ -1,0 +1,61 @@
+{
+  "id": "brussels-griffon",
+  "name": "Brussels Griffon",
+  "aliases": [],
+  "group": "toy",
+  "origin": "Belgium",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "18-20",
+    "weight_kg": "3.5-6",
+    "category": "tiny"
+  },
+  "ratings": {
+    "size": 1,
+    "energy": 3,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 3,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Rough or smooth coat",
+    "coat_colors": [
+      "red",
+      "black and tan",
+      "black",
+      "belge"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "alert",
+    "curious",
+    "loyal",
+    "sensitive",
+    "comical"
+  ],
+  "description": {
+    "overview": "With their almost human-like expressions and big personality, Brussels Griffons are charming companions. They bond closely with their owners and can be quite comical.",
+    "history": "The Brussels Griffon originated in Belgium.",
+    "temperament": "Known for being alert, curious, loyal.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their rough or smooth coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Singles",
+      "Seniors",
+      "Those wanting a devoted companion"
+    ],
+    "not_for": [
+      "Homes with young children",
+      "Those away often"
+    ],
+    "summary": "With their almost human-like expressions and big personality, Brussels Griffons are charming companions. They bond closely with their owners and can be quite comical."
+  }
+}

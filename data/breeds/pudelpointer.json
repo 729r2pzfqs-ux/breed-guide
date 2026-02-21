@@ -1,0 +1,60 @@
+{
+  "id": "pudelpointer",
+  "name": "Pudelpointer",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Germany",
+  "lifespan": "11-14 years",
+  "size": {
+    "height_cm": "55-68",
+    "weight_kg": "20-30",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 5,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Harsh, wiry, medium-length",
+    "coat_colors": [
+      "liver",
+      "brown",
+      "black"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "calm",
+    "self-controlled",
+    "versatile",
+    "intelligent",
+    "willing"
+  ],
+  "description": {
+    "overview": "A Poodle-Pointer cross developed for versatile hunting. The Pudelpointer combines the Poodle's intelligence and love of water with the Pointer's hunting instincts.",
+    "history": "The Pudelpointer originated in Germany.",
+    "temperament": "Known for being calm, self-controlled, versatile.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their harsh, wiry, medium-length coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Hunters",
+      "Active owners",
+      "Those wanting a versatile dog"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Inactive families"
+    ],
+    "summary": "A Poodle-Pointer cross developed for versatile hunting. The Pudelpointer combines the Poodle's intelligence and love of water with the Pointer's hunting instincts."
+  }
+}

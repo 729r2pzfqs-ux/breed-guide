@@ -1,0 +1,58 @@
+{
+  "id": "large-munsterlander",
+  "name": "Large M\u00fcnsterl\u00e4nder",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Germany",
+  "lifespan": "11-13 years",
+  "size": {
+    "height_cm": "58-65",
+    "weight_kg": "27-32",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 5,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Long, dense, with feathering",
+    "coat_colors": [
+      "black and white"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "intelligent",
+    "loyal",
+    "cheerful",
+    "trainable",
+    "versatile"
+  ],
+  "description": {
+    "overview": "A striking black and white setter-type, the Large M\u00fcnsterl\u00e4nder is a versatile hunting dog that excels at pointing and retrieving. They're devoted family dogs.",
+    "history": "The Large M\u00fcnsterl\u00e4nder originated in Germany.",
+    "temperament": "Known for being intelligent, loyal, cheerful.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, dense, with feathering coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Hunters",
+      "Active families",
+      "Those wanting a trainable breed"
+    ],
+    "not_for": [
+      "Sedentary owners",
+      "Small living spaces"
+    ],
+    "summary": "A striking black and white setter-type, the Large M\u00fcnsterl\u00e4nder is a versatile hunting dog that excels at pointing and retrieving. They're devoted family dogs."
+  }
+}

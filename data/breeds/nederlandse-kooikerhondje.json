@@ -1,0 +1,58 @@
+{
+  "id": "nederlandse-kooikerhondje",
+  "name": "Nederlandse Kooikerhondje",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Netherlands",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "36-41",
+    "weight_kg": "9-11",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Medium-length, slightly wavy",
+    "coat_colors": [
+      "orange-red and white"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "cheerful",
+    "alert",
+    "friendly",
+    "agile",
+    "intelligent"
+  ],
+  "description": {
+    "overview": "This charming Dutch breed was used to lure ducks into traps. Their flowing coat and happy demeanor make them attractive companions and agility dogs.",
+    "history": "The Nederlandse Kooikerhondje originated in Netherlands.",
+    "temperament": "Known for being cheerful, alert, friendly.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their medium-length, slightly wavy coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active owners",
+      "Dog sports enthusiasts",
+      "Families"
+    ],
+    "not_for": [
+      "Very busy households",
+      "Those wanting an outgoing dog"
+    ],
+    "summary": "This charming Dutch breed was used to lure ducks into traps. Their flowing coat and happy demeanor make them attractive companions and agility dogs."
+  }
+}

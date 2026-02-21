@@ -1,0 +1,58 @@
+{
+  "id": "bolognese",
+  "name": "Bolognese",
+  "aliases": [],
+  "group": "toy",
+  "origin": "Italy",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "25-30",
+    "weight_kg": "2.5-4",
+    "category": "tiny"
+  },
+  "ratings": {
+    "size": 1,
+    "energy": 2,
+    "grooming": 4,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Long, fluffy, cotton-like",
+    "coat_colors": [
+      "white"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "devoted",
+    "playful",
+    "calm",
+    "intelligent",
+    "loyal"
+  ],
+  "description": {
+    "overview": "A true companion breed from Italy, the Bolognese is a calm, devoted little dog with a fluffy white coat. They're less yappy than many toy breeds.",
+    "history": "The Bolognese originated in Italy.",
+    "temperament": "Known for being devoted, playful, calm.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, fluffy, cotton-like coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Seniors",
+      "Apartment dwellers",
+      "Those wanting a devoted companion"
+    ],
+    "not_for": [
+      "Those away from home often",
+      "Those wanting a low-grooming dog"
+    ],
+    "summary": "A true companion breed from Italy, the Bolognese is a calm, devoted little dog with a fluffy white coat. They're less yappy than many toy breeds."
+  }
+}

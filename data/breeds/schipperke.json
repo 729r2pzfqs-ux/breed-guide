@@ -1,0 +1,58 @@
+{
+  "id": "schipperke",
+  "name": "Schipperke",
+  "aliases": [],
+  "group": "non-sporting",
+  "origin": "Belgium",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "26-33",
+    "weight_kg": "3-9",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 5,
+    "grooming": 2,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Dense double coat with ruff",
+    "coat_colors": [
+      "black"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "curious",
+    "fearless",
+    "confident",
+    "faithful",
+    "mischievous"
+  ],
+  "description": {
+    "overview": "The 'Little Black Devil' is a small Belgian breed known for their curious, mischievous nature. They're excellent watchdogs with a distinctive ruff and tailless appearance.",
+    "history": "The Schipperke originated in Belgium.",
+    "temperament": "Known for being curious, fearless, confident.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their dense double coat with ruff coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active owners",
+      "Those wanting a watchdog",
+      "Experienced small-dog owners"
+    ],
+    "not_for": [
+      "Those wanting a calm dog",
+      "Novice owners"
+    ],
+    "summary": "The 'Little Black Devil' is a small Belgian breed known for their curious, mischievous nature. They're excellent watchdogs with a distinctive ruff and tailless appearance."
+  }
+}

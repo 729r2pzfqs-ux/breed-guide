@@ -1,0 +1,60 @@
+{
+  "id": "miniature-pinscher",
+  "name": "Miniature Pinscher",
+  "aliases": [],
+  "group": "toy",
+  "origin": "Germany",
+  "lifespan": "12-16 years",
+  "size": {
+    "height_cm": "25-30",
+    "weight_kg": "3.5-5",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 5,
+    "grooming": 1,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 4,
+    "kid_friendly": 3,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Short, smooth, hard",
+    "coat_colors": [
+      "red",
+      "black and tan",
+      "chocolate and tan"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "fearless",
+    "energetic",
+    "alert",
+    "proud",
+    "spirited"
+  ],
+  "description": {
+    "overview": "The 'King of Toys' is a small dog with a huge personality. Their hackney-like gait and fearless nature make them entertaining and assertive companions.",
+    "history": "The Miniature Pinscher originated in Germany.",
+    "temperament": "Known for being fearless, energetic, alert.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, smooth, hard coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active owners",
+      "Those wanting a watchdog",
+      "Experienced owners"
+    ],
+    "not_for": [
+      "Families with young children",
+      "Those wanting a calm lap dog"
+    ],
+    "summary": "The 'King of Toys' is a small dog with a huge personality. Their hackney-like gait and fearless nature make them entertaining and assertive companions."
+  }
+}

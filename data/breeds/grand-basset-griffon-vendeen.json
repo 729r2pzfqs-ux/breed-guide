@@ -1,0 +1,58 @@
+{
+  "id": "grand-basset-griffon-vendeen",
+  "name": "Grand Basset Griffon Vend\u00e9en",
+  "aliases": [],
+  "group": "hound",
+  "origin": "France",
+  "lifespan": "13-15 years",
+  "size": {
+    "height_cm": "40-44",
+    "weight_kg": "18-20",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 5,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 5,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Rough, harsh",
+    "coat_colors": [
+      "white with any combination of lemon, orange, black, or tricolor"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "happy",
+    "outgoing",
+    "independent",
+    "curious",
+    "friendly"
+  ],
+  "description": {
+    "overview": "The GBGV is a happy, extroverted French hound bred to hunt rabbits. They're friendly, outgoing dogs with a shaggy coat and independent streak.",
+    "history": "The Grand Basset Griffon Vend\u00e9en originated in France.",
+    "temperament": "Known for being happy, outgoing, independent.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their rough, harsh coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Those wanting a happy breed",
+      "Multi-dog homes"
+    ],
+    "not_for": [
+      "Those wanting an obedient dog",
+      "Off-leash reliability"
+    ],
+    "summary": "The GBGV is a happy, extroverted French hound bred to hunt rabbits. They're friendly, outgoing dogs with a shaggy coat and independent streak."
+  }
+}

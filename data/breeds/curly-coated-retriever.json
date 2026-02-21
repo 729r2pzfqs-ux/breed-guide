@@ -1,0 +1,59 @@
+{
+  "id": "curly-coated-retriever",
+  "name": "Curly-Coated Retriever",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "England",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "58-69",
+    "weight_kg": "25-41",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Tight, crisp curls",
+    "coat_colors": [
+      "black",
+      "liver"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "intelligent",
+    "independent",
+    "confident",
+    "gentle",
+    "loyal"
+  ],
+  "description": {
+    "overview": "The Curly-Coated Retriever is the most elegant and graceful of all retrievers. Their distinctive curly coat and proud bearing set them apart.",
+    "history": "The Curly-Coated Retriever originated in England.",
+    "temperament": "Known for being intelligent, independent, confident.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their tight, crisp curls coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Active families",
+      "Hunters"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Those wanting an eager-to-please dog"
+    ],
+    "summary": "The Curly-Coated Retriever is the most elegant and graceful of all retrievers. Their distinctive curly coat and proud bearing set them apart."
+  }
+}

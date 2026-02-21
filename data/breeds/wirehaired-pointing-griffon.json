@@ -1,0 +1,60 @@
+{
+  "id": "wirehaired-pointing-griffon",
+  "name": "Wirehaired Pointing Griffon",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Netherlands/France",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "51-61",
+    "weight_kg": "23-27",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Harsh, wiry double coat",
+    "coat_colors": [
+      "steel gray with brown",
+      "chestnut",
+      "roan"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "friendly",
+    "devoted",
+    "trainable",
+    "proud",
+    "eager"
+  ],
+  "description": {
+    "overview": "Known as the 'supreme gundog,' the Wirehaired Pointing Griffon excels at pointing and retrieving. Their rough coat protects them in harsh terrain.",
+    "history": "The Wirehaired Pointing Griffon originated in Netherlands/France.",
+    "temperament": "Known for being friendly, devoted, trainable.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their harsh, wiry double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Hunters",
+      "Active families",
+      "Those wanting a versatile dog"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Inactive owners"
+    ],
+    "summary": "Known as the 'supreme gundog,' the Wirehaired Pointing Griffon excels at pointing and retrieving. Their rough coat protects them in harsh terrain."
+  }
+}

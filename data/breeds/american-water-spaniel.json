@@ -1,0 +1,60 @@
+{
+  "id": "american-water-spaniel",
+  "name": "American Water Spaniel",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "United States",
+  "lifespan": "10-14 years",
+  "size": {
+    "height_cm": "38-46",
+    "weight_kg": "11-20",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Wavy or curly double coat",
+    "coat_colors": [
+      "liver",
+      "brown",
+      "chocolate"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "happy",
+    "eager",
+    "charming",
+    "versatile",
+    "energetic"
+  ],
+  "description": {
+    "overview": "Wisconsin's state dog, the American Water Spaniel is a versatile hunter developed in the Great Lakes region. They're excellent swimmers and enthusiastic workers.",
+    "history": "The American Water Spaniel originated in United States.",
+    "temperament": "Known for being happy, eager, charming.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their wavy or curly double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Hunters",
+      "Active families",
+      "Those wanting a versatile dog"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Inactive owners"
+    ],
+    "summary": "Wisconsin's state dog, the American Water Spaniel is a versatile hunter developed in the Great Lakes region. They're excellent swimmers and enthusiastic workers."
+  }
+}

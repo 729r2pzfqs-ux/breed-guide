@@ -1,0 +1,58 @@
+{
+  "id": "papillon",
+  "name": "Papillon",
+  "aliases": [],
+  "group": "toy",
+  "origin": "France/Belgium",
+  "lifespan": "14-16 years",
+  "size": {
+    "height_cm": "20-28",
+    "weight_kg": "3-5",
+    "category": "tiny"
+  },
+  "ratings": {
+    "size": 1,
+    "energy": 4,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 5,
+    "barking": 4,
+    "kid_friendly": 3,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Long, fine, silky, single coat",
+    "coat_colors": [
+      "white with patches of any color"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "alert",
+    "friendly",
+    "happy",
+    "intelligent",
+    "athletic"
+  ],
+  "description": {
+    "overview": "Named for their butterfly-like ears (papillon means butterfly in French), these tiny dogs are surprisingly athletic and intelligent. They excel in agility and obedience.",
+    "history": "The Papillon originated in France/Belgium.",
+    "temperament": "Known for being alert, friendly, happy.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, fine, silky, single coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Apartment dwellers",
+      "Seniors",
+      "Dog sports enthusiasts"
+    ],
+    "not_for": [
+      "Homes with toddlers",
+      "Those wanting a lap dog only"
+    ],
+    "summary": "Named for their butterfly-like ears (papillon means butterfly in French), these tiny dogs are surprisingly athletic and intelligent. They excel in agility and obedience."
+  }
+}

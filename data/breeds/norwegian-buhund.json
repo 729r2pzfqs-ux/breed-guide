@@ -1,0 +1,59 @@
+{
+  "id": "norwegian-buhund",
+  "name": "Norwegian Buhund",
+  "aliases": [],
+  "group": "herding",
+  "origin": "Norway",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "41-47",
+    "weight_kg": "12-18",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 5,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 5,
+    "barking": 4,
+    "kid_friendly": 5,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Dense double coat",
+    "coat_colors": [
+      "wheaten",
+      "black"
+    ],
+    "shedding": "high",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "agile",
+    "alert",
+    "cheerful",
+    "intelligent",
+    "friendly"
+  ],
+  "description": {
+    "overview": "An ancient Viking dog, the Norwegian Buhund is an all-purpose farm dog known for their cheerful nature and trainability. They excel in herding and agility.",
+    "history": "The Norwegian Buhund originated in Norway.",
+    "temperament": "Known for being agile, alert, cheerful.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their dense double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Dog sports enthusiasts",
+      "Farms"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Those wanting a quiet dog"
+    ],
+    "summary": "An ancient Viking dog, the Norwegian Buhund is an all-purpose farm dog known for their cheerful nature and trainability. They excel in herding and agility."
+  }
+}

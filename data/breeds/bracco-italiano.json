@@ -1,0 +1,60 @@
+{
+  "id": "bracco-italiano",
+  "name": "Bracco Italiano",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Italy",
+  "lifespan": "10-14 years",
+  "size": {
+    "height_cm": "55-67",
+    "weight_kg": "25-40",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 1,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 2,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, dense, glossy",
+    "coat_colors": [
+      "white",
+      "white and orange",
+      "white and chestnut"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "affectionate",
+    "intelligent",
+    "docile",
+    "loyal",
+    "playful"
+  ],
+  "description": {
+    "overview": "One of the oldest pointing breeds, the Bracco Italiano is an elegant, athletic dog with a gentle disposition. They're affectionate family members and capable hunters.",
+    "history": "The Bracco Italiano originated in Italy.",
+    "temperament": "Known for being affectionate, intelligent, docile.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, dense, glossy coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Hunters",
+      "Those wanting a gentle breed"
+    ],
+    "not_for": [
+      "Very small spaces",
+      "Those wanting a guard dog"
+    ],
+    "summary": "One of the oldest pointing breeds, the Bracco Italiano is an elegant, athletic dog with a gentle disposition. They're affectionate family members and capable hunters."
+  }
+}

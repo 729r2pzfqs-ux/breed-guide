@@ -1,0 +1,61 @@
+{
+  "id": "russian-toy",
+  "name": "Russian Toy",
+  "aliases": [],
+  "group": "toy",
+  "origin": "Russia",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "20-28",
+    "weight_kg": "1.3-3",
+    "category": "tiny"
+  },
+  "ratings": {
+    "size": 1,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 4,
+    "kid_friendly": 2,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Smooth or long-haired",
+    "coat_colors": [
+      "black and tan",
+      "brown and tan",
+      "blue and tan",
+      "red"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "active",
+    "cheerful",
+    "devoted",
+    "intelligent",
+    "loyal"
+  ],
+  "description": {
+    "overview": "One of the smallest breeds in the world, Russian Toys are lively, devoted companions. They come in smooth and long-haired varieties.",
+    "history": "The Russian Toy originated in Russia.",
+    "temperament": "Known for being active, cheerful, devoted.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their smooth or long-haired coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Adults",
+      "Apartment dwellers",
+      "Those wanting a tiny companion"
+    ],
+    "not_for": [
+      "Families with young children",
+      "Cold climates"
+    ],
+    "summary": "One of the smallest breeds in the world, Russian Toys are lively, devoted companions. They come in smooth and long-haired varieties."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "american-english-coonhound",
+  "name": "American English Coonhound",
+  "aliases": [],
+  "group": "hound",
+  "origin": "United States",
+  "lifespan": "11-12 years",
+  "size": {
+    "height_cm": "58-69",
+    "weight_kg": "20-30",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 5,
+    "grooming": 1,
+    "sociability": 5,
+    "trainability": 3,
+    "barking": 5,
+    "kid_friendly": 5,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Short, hard, protective",
+    "coat_colors": [
+      "red and white ticked",
+      "blue and white ticked",
+      "tricolor with ticking"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "pleasant",
+    "alert",
+    "confident",
+    "sociable",
+    "energetic"
+  ],
+  "description": {
+    "overview": "Bred to hunt raccoons, the American English Coonhound is a versatile, athletic hound with a melodious voice. They're friendly, energetic dogs who need plenty of exercise.",
+    "history": "The American English Coonhound originated in United States.",
+    "temperament": "Known for being pleasant, alert, confident.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, hard, protective coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Hunters",
+      "Active rural families",
+      "Those who don't mind barking"
+    ],
+    "not_for": [
+      "Apartment dwellers",
+      "Those wanting a quiet dog"
+    ],
+    "summary": "Bred to hunt raccoons, the American English Coonhound is a versatile, athletic hound with a melodious voice. They're friendly, energetic dogs who need plenty of exercise."
+  }
+}

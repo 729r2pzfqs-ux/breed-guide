@@ -1,0 +1,62 @@
+{
+  "id": "neapolitan-mastiff",
+  "name": "Neapolitan Mastiff",
+  "aliases": [],
+  "group": "working",
+  "origin": "Italy",
+  "lifespan": "7-9 years",
+  "size": {
+    "height_cm": "60-75",
+    "weight_kg": "50-70",
+    "category": "giant"
+  },
+  "ratings": {
+    "size": 5,
+    "energy": 2,
+    "grooming": 2,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 3,
+    "apartment_ok": 1
+  },
+  "characteristics": {
+    "coat_type": "Short, dense, hard",
+    "coat_colors": [
+      "gray",
+      "black",
+      "mahogany",
+      "tawny"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "loyal",
+    "dignified",
+    "watchful",
+    "protective",
+    "steady"
+  ],
+  "description": {
+    "overview": "An ancient Italian guardian breed with dramatic loose skin and wrinkles. Neapolitan Mastiffs are devoted protectors who are calm but always alert.",
+    "history": "The Neapolitan Mastiff originated in Italy.",
+    "temperament": "Known for being loyal, dignified, watchful.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, dense, hard coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Those wanting a guardian",
+      "Homes with space"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Neat freaks",
+      "Hot climates"
+    ],
+    "summary": "An ancient Italian guardian breed with dramatic loose skin and wrinkles. Neapolitan Mastiffs are devoted protectors who are calm but always alert."
+  }
+}

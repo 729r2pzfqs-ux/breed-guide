@@ -1,0 +1,59 @@
+{
+  "id": "small-munsterlander",
+  "name": "Small M\u00fcnsterl\u00e4nder",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Germany",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "50-56",
+    "weight_kg": "18-27",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 5,
+    "grooming": 3,
+    "sociability": 4,
+    "trainability": 5,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Medium-length, dense, sleek",
+    "coat_colors": [
+      "brown and white",
+      "brown roan"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "intelligent",
+    "trainable",
+    "versatile",
+    "affectionate",
+    "eager"
+  ],
+  "description": {
+    "overview": "Despite the name, the Small M\u00fcnsterl\u00e4nder is a medium-sized versatile hunting dog. They're highly trainable and make excellent family companions.",
+    "history": "The Small M\u00fcnsterl\u00e4nder originated in Germany.",
+    "temperament": "Known for being intelligent, trainable, versatile.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their medium-length, dense, sleek coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Hunters",
+      "Active families",
+      "Dog sports enthusiasts"
+    ],
+    "not_for": [
+      "Sedentary owners",
+      "Apartment dwellers"
+    ],
+    "summary": "Despite the name, the Small M\u00fcnsterl\u00e4nder is a medium-sized versatile hunting dog. They're highly trainable and make excellent family companions."
+  }
+}

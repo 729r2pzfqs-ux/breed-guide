@@ -1,0 +1,63 @@
+{
+  "id": "hokkaido",
+  "name": "Hokkaido",
+  "aliases": [],
+  "group": "non-sporting",
+  "origin": "Japan",
+  "lifespan": "11-13 years",
+  "size": {
+    "height_cm": "46-56",
+    "weight_kg": "20-30",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Dense double coat",
+    "coat_colors": [
+      "white",
+      "red",
+      "black",
+      "brindle",
+      "sesame"
+    ],
+    "shedding": "high",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "faithful",
+    "brave",
+    "dignified",
+    "alert",
+    "docile"
+  ],
+  "description": {
+    "overview": "One of Japan's oldest breeds, the Hokkaido is a brave, devoted hunting dog capable of working in harsh winter conditions. They're loyal family companions.",
+    "history": "The Hokkaido originated in Japan.",
+    "temperament": "Known for being faithful, brave, dignified.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their dense double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Active families",
+      "Cold climates"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Hot climates",
+      "Apartments"
+    ],
+    "summary": "One of Japan's oldest breeds, the Hokkaido is a brave, devoted hunting dog capable of working in harsh winter conditions. They're loyal family companions."
+  }
+}

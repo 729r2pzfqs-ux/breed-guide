@@ -1,0 +1,59 @@
+{
+  "id": "berger-picard",
+  "name": "Berger Picard",
+  "aliases": [],
+  "group": "herding",
+  "origin": "France",
+  "lifespan": "12-13 years",
+  "size": {
+    "height_cm": "55-65",
+    "weight_kg": "23-32",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Rough, tousled, medium-length",
+    "coat_colors": [
+      "fawn",
+      "brindle"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "loyal",
+    "good-natured",
+    "observant",
+    "assertive",
+    "spirited"
+  ],
+  "description": {
+    "overview": "France's oldest sheepdog, the Berger Picard is known for their scruffy appearance and expressive ears. They're loyal, hardworking dogs with a great sense of humor.",
+    "history": "The Berger Picard originated in France.",
+    "temperament": "Known for being loyal, good-natured, observant.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their rough, tousled, medium-length coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active families",
+      "Those wanting a unique breed",
+      "Rural homes"
+    ],
+    "not_for": [
+      "Sedentary owners",
+      "Those wanting a groomed look"
+    ],
+    "summary": "France's oldest sheepdog, the Berger Picard is known for their scruffy appearance and expressive ears. They're loyal, hardworking dogs with a great sense of humor."
+  }
+}

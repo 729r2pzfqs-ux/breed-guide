@@ -1,0 +1,58 @@
+{
+  "id": "irish-water-spaniel",
+  "name": "Irish Water Spaniel",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "Ireland",
+  "lifespan": "12-13 years",
+  "size": {
+    "height_cm": "51-59",
+    "weight_kg": "20-30",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Dense, tight curls",
+    "coat_colors": [
+      "liver"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "playful",
+    "hardworking",
+    "alert",
+    "inquisitive",
+    "brave"
+  ],
+  "description": {
+    "overview": "The tallest spaniel, the Irish Water Spaniel is known for their distinctive rat tail and curly liver-colored coat. They're natural clowns with a love for water.",
+    "history": "The Irish Water Spaniel originated in Ireland.",
+    "temperament": "Known for being playful, hardworking, alert.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their dense, tight curls coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Active owners",
+      "Those wanting a unique breed",
+      "Water enthusiasts"
+    ],
+    "not_for": [
+      "Those wanting low grooming",
+      "Novice owners"
+    ],
+    "summary": "The tallest spaniel, the Irish Water Spaniel is known for their distinctive rat tail and curly liver-colored coat. They're natural clowns with a love for water."
+  }
+}

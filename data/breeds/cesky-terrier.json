@@ -1,0 +1,59 @@
+{
+  "id": "cesky-terrier",
+  "name": "Cesky Terrier",
+  "aliases": [],
+  "group": "terrier",
+  "origin": "Czech Republic",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "25-32",
+    "weight_kg": "6-10",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 3,
+    "grooming": 4,
+    "sociability": 4,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Silky, wavy, long",
+    "coat_colors": [
+      "gray-blue",
+      "light brown"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "calm",
+    "clever",
+    "adventurous",
+    "cheerful",
+    "trainable"
+  ],
+  "description": {
+    "overview": "Created by crossing Scottish and Sealyham Terriers, the Cesky is a calmer, gentler terrier. They're excellent family dogs with a distinctive silky coat.",
+    "history": "The Cesky Terrier originated in Czech Republic.",
+    "temperament": "Known for being calm, clever, adventurous.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their silky, wavy, long coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families with children",
+      "Apartment dwellers",
+      "Those wanting a calm terrier"
+    ],
+    "not_for": [
+      "Those avoiding grooming",
+      "Those wanting a high-energy dog"
+    ],
+    "summary": "Created by crossing Scottish and Sealyham Terriers, the Cesky is a calmer, gentler terrier. They're excellent family dogs with a distinctive silky coat."
+  }
+}

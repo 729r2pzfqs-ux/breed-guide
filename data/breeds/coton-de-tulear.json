@@ -1,0 +1,60 @@
+{
+  "id": "coton-de-tulear",
+  "name": "Coton de Tulear",
+  "aliases": [],
+  "group": "toy",
+  "origin": "Madagascar",
+  "lifespan": "15-19 years",
+  "size": {
+    "height_cm": "23-27",
+    "weight_kg": "4-6",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 3,
+    "grooming": 4,
+    "sociability": 5,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Long, cotton-like, fluffy",
+    "coat_colors": [
+      "white",
+      "white with gray",
+      "white with tan"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "happy",
+    "playful",
+    "affectionate",
+    "intelligent",
+    "charming"
+  ],
+  "description": {
+    "overview": "Named for their cotton-like coat and the port city of Tulear, these charming dogs are known for their clownish personality and love of their families.",
+    "history": "The Coton de Tulear originated in Madagascar.",
+    "temperament": "Known for being happy, playful, affectionate.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their long, cotton-like, fluffy coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Seniors",
+      "Those wanting a happy companion"
+    ],
+    "not_for": [
+      "Those wanting low grooming",
+      "Those away often"
+    ],
+    "summary": "Named for their cotton-like coat and the port city of Tulear, these charming dogs are known for their clownish personality and love of their families."
+  }
+}

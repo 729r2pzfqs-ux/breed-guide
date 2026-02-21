@@ -1,0 +1,58 @@
+{
+  "id": "english-cocker-spaniel",
+  "name": "English Cocker Spaniel",
+  "aliases": [],
+  "group": "sporting",
+  "origin": "England",
+  "lifespan": "12-14 years",
+  "size": {
+    "height_cm": "38-43",
+    "weight_kg": "12-15",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 5,
+    "trainability": 5,
+    "barking": 3,
+    "kid_friendly": 5,
+    "apartment_ok": 4
+  },
+  "characteristics": {
+    "coat_type": "Silky, medium-length with feathering",
+    "coat_colors": [
+      "solid colors or parti-colors: black, liver, red, golden, and more"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "merry",
+    "affectionate",
+    "trainable",
+    "playful",
+    "faithful"
+  ],
+  "description": {
+    "overview": "Slightly larger than their American cousins, English Cockers are merry, active sporting dogs. They're excellent family companions known for their happy, wagging tails.",
+    "history": "The English Cocker Spaniel originated in England.",
+    "temperament": "Known for being merry, affectionate, trainable.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their silky, medium-length with feathering coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Families",
+      "Active owners",
+      "First-time dog owners"
+    ],
+    "not_for": [
+      "Those wanting low grooming",
+      "Sedentary owners"
+    ],
+    "summary": "Slightly larger than their American cousins, English Cockers are merry, active sporting dogs. They're excellent family companions known for their happy, wagging tails."
+  }
+}

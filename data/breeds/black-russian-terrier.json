@@ -1,0 +1,58 @@
+{
+  "id": "black-russian-terrier",
+  "name": "Black Russian Terrier",
+  "aliases": [],
+  "group": "working",
+  "origin": "Russia",
+  "lifespan": "10-12 years",
+  "size": {
+    "height_cm": "66-78",
+    "weight_kg": "36-68",
+    "category": "large"
+  },
+  "ratings": {
+    "size": 4,
+    "energy": 4,
+    "grooming": 4,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 3,
+    "kid_friendly": 4,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Coarse, dense, wavy",
+    "coat_colors": [
+      "black"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "confident",
+    "calm",
+    "courageous",
+    "intelligent",
+    "protective"
+  ],
+  "description": {
+    "overview": "Developed by the Soviet military, the Black Russian Terrier is a powerful, intelligent guardian. They're confident, trainable dogs who bond closely with their families.",
+    "history": "The Black Russian Terrier originated in Russia.",
+    "temperament": "Known for being confident, calm, courageous.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their coarse, dense, wavy coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Those wanting a protective dog",
+      "Active families"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Apartment dwellers"
+    ],
+    "summary": "Developed by the Soviet military, the Black Russian Terrier is a powerful, intelligent guardian. They're confident, trainable dogs who bond closely with their families."
+  }
+}

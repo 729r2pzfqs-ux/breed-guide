@@ -1,0 +1,62 @@
+{
+  "id": "pyrenean-shepherd",
+  "name": "Pyrenean Shepherd",
+  "aliases": [],
+  "group": "herding",
+  "origin": "France",
+  "lifespan": "15-17 years",
+  "size": {
+    "height_cm": "38-48",
+    "weight_kg": "7-15",
+    "category": "small"
+  },
+  "ratings": {
+    "size": 2,
+    "energy": 5,
+    "grooming": 3,
+    "sociability": 3,
+    "trainability": 4,
+    "barking": 4,
+    "kid_friendly": 4,
+    "apartment_ok": 3
+  },
+  "characteristics": {
+    "coat_type": "Rough-faced or smooth-faced",
+    "coat_colors": [
+      "fawn",
+      "brindle",
+      "gray",
+      "black",
+      "merle"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "active",
+    "enthusiastic",
+    "mischievous",
+    "intelligent",
+    "devoted"
+  ],
+  "description": {
+    "overview": "A small but incredibly energetic herding dog from the Pyrenees mountains. They're enthusiastic workers with endless energy and a mischievous streak.",
+    "history": "The Pyrenean Shepherd originated in France.",
+    "temperament": "Known for being active, enthusiastic, mischievous.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their rough-faced or smooth-faced coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Very active owners",
+      "Dog sports enthusiasts",
+      "Experienced herding-breed owners"
+    ],
+    "not_for": [
+      "Sedentary owners",
+      "First-time owners"
+    ],
+    "summary": "A small but incredibly energetic herding dog from the Pyrenees mountains. They're enthusiastic workers with endless energy and a mischievous streak."
+  }
+}

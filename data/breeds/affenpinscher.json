@@ -1,0 +1,62 @@
+{
+  "id": "affenpinscher",
+  "name": "Affenpinscher",
+  "aliases": [],
+  "group": "toy",
+  "origin": "Germany",
+  "lifespan": "12-15 years",
+  "size": {
+    "height_cm": "23-30",
+    "weight_kg": "3-6",
+    "category": "tiny"
+  },
+  "ratings": {
+    "size": 1,
+    "energy": 3,
+    "grooming": 3,
+    "sociability": 3,
+    "trainability": 3,
+    "barking": 4,
+    "kid_friendly": 2,
+    "apartment_ok": 5
+  },
+  "characteristics": {
+    "coat_type": "Rough, harsh, wiry",
+    "coat_colors": [
+      "black",
+      "gray",
+      "silver",
+      "red",
+      "beige"
+    ],
+    "shedding": "low",
+    "hypoallergenic": true
+  },
+  "temperament": [
+    "confident",
+    "fearless",
+    "funny",
+    "stubborn",
+    "curious"
+  ],
+  "description": {
+    "overview": "The 'monkey dog' (Affen means monkey in German) is a fearless little terrier with a big personality. They're curious, playful, and always entertaining.",
+    "history": "The Affenpinscher originated in Germany.",
+    "temperament": "Known for being confident, fearless, funny.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their rough, harsh, wiry coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Adults only",
+      "Those wanting a character",
+      "Apartment dwellers"
+    ],
+    "not_for": [
+      "Families with young children",
+      "First-time owners"
+    ],
+    "summary": "The 'monkey dog' (Affen means monkey in German) is a fearless little terrier with a big personality. They're curious, playful, and always entertaining."
+  }
+}

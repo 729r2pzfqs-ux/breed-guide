@@ -1,0 +1,60 @@
+{
+  "id": "kishu-ken",
+  "name": "Kishu Ken",
+  "aliases": [],
+  "group": "non-sporting",
+  "origin": "Japan",
+  "lifespan": "11-13 years",
+  "size": {
+    "height_cm": "43-55",
+    "weight_kg": "14-27",
+    "category": "medium"
+  },
+  "ratings": {
+    "size": 3,
+    "energy": 4,
+    "grooming": 2,
+    "sociability": 2,
+    "trainability": 3,
+    "barking": 2,
+    "kid_friendly": 3,
+    "apartment_ok": 2
+  },
+  "characteristics": {
+    "coat_type": "Short, dense double coat",
+    "coat_colors": [
+      "white",
+      "red",
+      "sesame"
+    ],
+    "shedding": "moderate",
+    "hypoallergenic": false
+  },
+  "temperament": [
+    "loyal",
+    "docile",
+    "alert",
+    "brave",
+    "noble"
+  ],
+  "description": {
+    "overview": "An ancient Japanese hunting breed, the Kishu Ken is a dignified, loyal dog. They're quiet, clean, and devoted to their families but can be reserved with strangers.",
+    "history": "The Kishu Ken originated in Japan.",
+    "temperament": "Known for being loyal, docile, alert.",
+    "health": "Generally healthy with breed-typical considerations.",
+    "grooming": "Requires regular grooming appropriate for their short, dense double coat coat.",
+    "exercise": "Exercise needs match their energy level."
+  },
+  "verdict": {
+    "best_for": [
+      "Experienced owners",
+      "Hunters",
+      "Those wanting a calm Japanese breed"
+    ],
+    "not_for": [
+      "First-time owners",
+      "Multi-pet homes"
+    ],
+    "summary": "An ancient Japanese hunting breed, the Kishu Ken is a dignified, loyal dog. They're quiet, clean, and devoted to their families but can be reserved with strangers."
+  }
+}
