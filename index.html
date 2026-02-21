@@ -161,10 +161,13 @@
                 <!-- Search -->
                 <div class="max-w-xl mx-auto mb-8">
                     <div class="relative">
-                        <input type="text" id="home-search" placeholder="Search breeds..." class="w-full bg-white border border-slate-200 rounded-2xl px-6 py-4 text-lg focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:border-sky-400 shadow-sm">
+                        <input type="text" id="home-search" placeholder="Search breeds..." autocomplete="off" class="w-full bg-white border border-slate-200 rounded-2xl px-6 py-4 text-lg focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:border-sky-400 shadow-sm">
                         <button class="absolute right-2 top-1/2 -translate-y-1/2 bg-slate-100 hover:bg-slate-200 p-3 rounded-xl transition">
                             <i data-lucide="search" class="w-5 h-5 text-slate-500"></i>
                         </button>
+                        <!-- Autocomplete dropdown -->
+                        <div id="search-dropdown" class="absolute top-full left-0 right-0 mt-2 bg-white border border-slate-200 rounded-2xl shadow-xl z-50 hidden max-h-80 overflow-y-auto">
+                        </div>
                     </div>
                 </div>
 
@@ -460,12 +463,186 @@
     <script>
         lucide.createIcons();
         
-        // Home search - redirect to breeds page
+        // Breed data for autocomplete
+        const breeds = [
+            {name: "Labrador Retriever", slug: "labrador-retriever"},
+            {name: "German Shepherd", slug: "german-shepherd"},
+            {name: "Golden Retriever", slug: "golden-retriever"},
+            {name: "French Bulldog", slug: "french-bulldog"},
+            {name: "Bulldog", slug: "bulldog"},
+            {name: "Poodle", slug: "poodle"},
+            {name: "Beagle", slug: "beagle"},
+            {name: "Rottweiler", slug: "rottweiler"},
+            {name: "German Shorthaired Pointer", slug: "german-shorthaired-pointer"},
+            {name: "Dachshund", slug: "dachshund"},
+            {name: "Pembroke Welsh Corgi", slug: "pembroke-welsh-corgi"},
+            {name: "Yorkshire Terrier", slug: "yorkshire-terrier"},
+            {name: "Boxer", slug: "boxer"},
+            {name: "Siberian Husky", slug: "siberian-husky"},
+            {name: "Australian Shepherd", slug: "australian-shepherd"},
+            {name: "Great Dane", slug: "great-dane"},
+            {name: "Doberman Pinscher", slug: "doberman-pinscher"},
+            {name: "Cavalier King Charles Spaniel", slug: "cavalier-king-charles-spaniel"},
+            {name: "Miniature Schnauzer", slug: "miniature-schnauzer"},
+            {name: "Shih Tzu", slug: "shih-tzu"},
+            {name: "Boston Terrier", slug: "boston-terrier"},
+            {name: "Bernese Mountain Dog", slug: "bernese-mountain-dog"},
+            {name: "Pomeranian", slug: "pomeranian"},
+            {name: "Havanese", slug: "havanese"},
+            {name: "Shetland Sheepdog", slug: "shetland-sheepdog"},
+            {name: "Brittany", slug: "brittany"},
+            {name: "English Springer Spaniel", slug: "english-springer-spaniel"},
+            {name: "Cocker Spaniel", slug: "cocker-spaniel"},
+            {name: "Chihuahua", slug: "chihuahua"},
+            {name: "Border Collie", slug: "border-collie"},
+            {name: "Vizsla", slug: "vizsla"},
+            {name: "Pug", slug: "pug"},
+            {name: "Weimaraner", slug: "weimaraner"},
+            {name: "Belgian Malinois", slug: "belgian-malinois"},
+            {name: "Maltese", slug: "maltese"},
+            {name: "Collie", slug: "collie"},
+            {name: "Basset Hound", slug: "basset-hound"},
+            {name: "Newfoundland", slug: "newfoundland"},
+            {name: "Rhodesian Ridgeback", slug: "rhodesian-ridgeback"},
+            {name: "Shiba Inu", slug: "shiba-inu"},
+            {name: "West Highland White Terrier", slug: "west-highland-white-terrier"},
+            {name: "Bichon Frise", slug: "bichon-frise"},
+            {name: "Akita", slug: "akita"},
+            {name: "Samoyed", slug: "samoyed"},
+            {name: "Portuguese Water Dog", slug: "portuguese-water-dog"},
+            {name: "St. Bernard", slug: "st-bernard"},
+            {name: "Bull Terrier", slug: "bull-terrier"},
+            {name: "Miniature American Shepherd", slug: "miniature-american-shepherd"},
+            {name: "Australian Cattle Dog", slug: "australian-cattle-dog"},
+            {name: "Alaskan Malamute", slug: "alaskan-malamute"},
+            {name: "Maine Coon", slug: "maine-coon"},
+            {name: "Persian", slug: "persian"},
+            {name: "Ragdoll", slug: "ragdoll"},
+            {name: "Bengal", slug: "bengal"},
+            {name: "Sphynx", slug: "sphynx"},
+            {name: "Scottish Fold", slug: "scottish-fold"},
+            {name: "Russian Blue", slug: "russian-blue"},
+            {name: "Siamese", slug: "siamese"},
+            {name: "American Staffordshire Terrier", slug: "american-staffordshire-terrier"},
+            {name: "Staffordshire Bull Terrier", slug: "staffordshire-bull-terrier"},
+            {name: "Cane Corso", slug: "cane-corso"},
+            {name: "Chow Chow", slug: "chow-chow"},
+            {name: "Dalmatian", slug: "dalmatian"},
+            {name: "Basenji", slug: "basenji"},
+            {name: "Irish Setter", slug: "irish-setter"},
+            {name: "English Setter", slug: "english-setter"},
+            {name: "Afghan Hound", slug: "afghan-hound"},
+            {name: "Scottish Terrier", slug: "scottish-terrier"},
+            {name: "American Bulldog", slug: "american-bulldog"},
+            {name: "Belgian Tervuren", slug: "belgian-tervuren"},
+            {name: "Belgian Sheepdog", slug: "belgian-sheepdog"},
+            {name: "Belgian Laekenois", slug: "belgian-laekenois"},
+            {name: "Bloodhound", slug: "bloodhound"},
+            {name: "Whippet", slug: "whippet"},
+            {name: "Italian Greyhound", slug: "italian-greyhound"},
+            {name: "Greyhound", slug: "greyhound"},
+            {name: "Saluki", slug: "saluki"},
+            {name: "Pharaoh Hound", slug: "pharaoh-hound"},
+            {name: "Keeshond", slug: "keeshond"},
+            {name: "Finnish Lapphund", slug: "finnish-lapphund"},
+            {name: "Norwegian Elkhound", slug: "norwegian-elkhound"},
+            {name: "Alaskan Klee Kai", slug: "alaskan-klee-kai"},
+            {name: "Chinese Crested", slug: "chinese-crested"},
+            {name: "Lhasa Apso", slug: "lhasa-apso"},
+            {name: "Tibetan Terrier", slug: "tibetan-terrier"},
+            {name: "Tibetan Mastiff", slug: "tibetan-mastiff"},
+            {name: "Leonberger", slug: "leonberger"},
+            {name: "Anatolian Shepherd", slug: "anatolian-shepherd"},
+            {name: "Kuvasz", slug: "kuvasz"},
+            {name: "Komondor", slug: "komondor"},
+            {name: "Puli", slug: "puli"},
+            {name: "Pumi", slug: "pumi"},
+            {name: "Beauceron", slug: "beauceron"},
+            {name: "Briard", slug: "briard"},
+            {name: "Airedale Terrier", slug: "airedale-terrier"},
+            {name: "Soft Coated Wheaten Terrier", slug: "soft-coated-wheaten-terrier"},
+            {name: "Jack Russell Terrier", slug: "jack-russell-terrier"},
+            {name: "Parson Russell Terrier", slug: "parson-russell-terrier"},
+            {name: "Toy Fox Terrier", slug: "toy-fox-terrier"},
+            {name: "Rat Terrier", slug: "rat-terrier"},
+            {name: "Dogo Argentino", slug: "dogo-argentino"},
+            {name: "Boerboel", slug: "boerboel"},
+            {name: "American Eskimo Dog", slug: "american-eskimo-dog"},
+            {name: "Mastiff", slug: "mastiff"},
+            {name: "Bullmastiff", slug: "bullmastiff"},
+            {name: "Great Pyrenees", slug: "great-pyrenees"},
+            {name: "Dogue de Bordeaux", slug: "dogue-de-bordeaux"},
+            {name: "Neapolitan Mastiff", slug: "neapolitan-mastiff"},
+            {name: "Black Russian Terrier", slug: "black-russian-terrier"},
+            {name: "Papillon", slug: "papillon"},
+            {name: "Japanese Chin", slug: "japanese-chin"},
+            {name: "Brussels Griffon", slug: "brussels-griffon"},
+            {name: "Affenpinscher", slug: "affenpinscher"},
+            {name: "English Toy Spaniel", slug: "english-toy-spaniel"},
+            {name: "Silky Terrier", slug: "silky-terrier"},
+            {name: "Bolognese", slug: "bolognese"},
+            {name: "Coton de Tulear", slug: "coton-de-tulear"},
+            {name: "Löwchen", slug: "lowchen"},
+            {name: "Russian Toy", slug: "russian-toy"},
+            {name: "Pekingese", slug: "pekingese"},
+            {name: "Miniature Pinscher", slug: "miniature-pinscher"},
+            {name: "Tibetan Spaniel", slug: "tibetan-spaniel"},
+            {name: "Norwegian Forest Cat", slug: "norwegian-forest-cat"},
+            {name: "Abyssinian", slug: "abyssinian"},
+            {name: "Birman", slug: "birman"},
+            {name: "Burmese", slug: "burmese"},
+            {name: "Oriental Shorthair", slug: "oriental-shorthair"},
+            {name: "Devon Rex", slug: "devon-rex"},
+            {name: "Cornish Rex", slug: "cornish-rex"},
+            {name: "Exotic Shorthair", slug: "exotic-shorthair"}
+        ];
+        
         const homeSearch = document.getElementById('home-search');
-        if (homeSearch) {
+        const dropdown = document.getElementById('search-dropdown');
+        
+        if (homeSearch && dropdown) {
+            // Show suggestions on input
+            homeSearch.addEventListener('input', function() {
+                const query = this.value.trim().toLowerCase();
+                if (query.length < 1) {
+                    dropdown.classList.add('hidden');
+                    return;
+                }
+                
+                const matches = breeds.filter(b => 
+                    b.name.toLowerCase().includes(query)
+                ).slice(0, 8);
+                
+                if (matches.length === 0) {
+                    dropdown.classList.add('hidden');
+                    return;
+                }
+                
+                dropdown.innerHTML = matches.map(b => `
+                    <a href="breeds/${b.slug}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition first:rounded-t-2xl last:rounded-b-2xl">
+                        <img src="images/heads/${b.slug}.webp" alt="${b.name}" class="w-10 h-10 rounded-xl object-cover" onerror="this.style.display='none'">
+                        <span class="font-medium text-slate-800">${b.name}</span>
+                    </a>
+                `).join('');
+                dropdown.classList.remove('hidden');
+            });
+            
+            // Hide on blur (with delay for click)
+            homeSearch.addEventListener('blur', function() {
+                setTimeout(() => dropdown.classList.add('hidden'), 200);
+            });
+            
+            // Show on focus if has value
+            homeSearch.addEventListener('focus', function() {
+                if (this.value.trim().length >= 1) {
+                    this.dispatchEvent(new Event('input'));
+                }
+            });
+            
+            // Enter to search
             homeSearch.addEventListener('keypress', function(e) {
                 if (e.key === 'Enter' && this.value.trim()) {
-                    window.location.href = 'breeds/?search=' + encodeURIComponent(this.value.trim());
+                    window.location.href = 'search/?q=' + encodeURIComponent(this.value.trim());
                 }
             });
         }
