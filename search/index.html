@@ -546,6 +546,14 @@
             
             // Easy to train
             if (params.get('train') === '1') {
+                document.getElementById('trainabilityEnabled').checked = true;
+                document.getElementById('trainabilityFilter').value = 4;
+            }
+            
+            // Search query
+            const q = params.get('q');
+            if (q) {
+                document.getElementById('searchInput').value = q;
             }
             
             // Low shedding
@@ -554,6 +562,9 @@
                 const checkbox = document.querySelector(`.shed-filter[value="${shedding}"]`);
                 if (checkbox) checkbox.checked = true;
             }
+            
+            toggleFilterControls();
+            updateSliderLabels();
         }
 
         // Initialize
