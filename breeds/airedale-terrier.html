@@ -45,6 +45,48 @@
         .rating-bar { background: #e2e8f0; position: relative; overflow: hidden; }
         .rating-bar::after { content: ''; position: absolute; left: 0; top: 0; height: 100%; width: var(--rating); background: linear-gradient(90deg, #0ea5e9, #8b5cf6); border-radius: 9999px; }
     </style>
+
+    <!-- Schema.org Breed Markup -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://breedfinder.org/breeds/airedale-terrier"
+    },
+    "headline": "Airedale Terrier: Breed Guide, Temperament & Care",
+    "description": "Complete guide to the Airedale Terrier: temperament, exercise needs, grooming, and care tips.",
+    "image": "https://breedfinder.org/images/breeds/airedale-terrier.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "BreedFinder"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "BreedFinder",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://breedfinder.org/logo-192.png"
+        }
+    },
+    "about": {
+        "@type": "Animal",
+        "name": "Airedale Terrier",
+        "description": {
+            "overview": "The Airedale is the largest terrier breed, earning the nickname 'King of Terriers' for its size and versatility.",
+            "temperament": "Airedales are confident, intelligent, and versatile working dogs. They're excellent with children and make loyal family guardians. Their terrier tenacity combined with trainability has earned them the title 'King of Terriers.'",
+            "health": "Generally robust with 11-14 year lifespan. Watch for hip dysplasia, allergies, and hypothyroidism. Some lines are prone to gastric torsion (bloat). Regular grooming helps detect skin issues early.",
+            "exercise": "High energy requiring vigorous daily exercise\u2014at least an hour of activity. They excel at swimming, hiking, and dog sports. Mental challenges are equally important; they thrive with jobs to do. Without adequate exercise, they may become destructive."
+        }
+    }
+}
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/"}, {"@type": "ListItem", "position": 2, "name": "Dog Breeds", "item": "https://breedfinder.org/breeds/"}, {"@type": "ListItem", "position": 3, "name": "Airedale Terrier"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-slate-800">
     <!-- Header -->

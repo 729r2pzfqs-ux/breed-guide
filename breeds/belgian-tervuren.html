@@ -45,6 +45,48 @@
         .rating-bar { background: #e2e8f0; position: relative; overflow: hidden; }
         .rating-bar::after { content: ''; position: absolute; left: 0; top: 0; height: 100%; width: var(--rating); background: linear-gradient(90deg, #0ea5e9, #8b5cf6); border-radius: 9999px; }
     </style>
+
+    <!-- Schema.org Breed Markup -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://breedfinder.org/breeds/belgian-tervuren"
+    },
+    "headline": "Belgian Tervuren: Breed Guide, Temperament & Care",
+    "description": "Complete guide to the Belgian Tervuren: temperament, exercise needs, grooming, and care tips.",
+    "image": "https://breedfinder.org/images/breeds/belgian-tervuren.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "BreedFinder"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "BreedFinder",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://breedfinder.org/logo-192.png"
+        }
+    },
+    "about": {
+        "@type": "Animal",
+        "name": "Belgian Tervuren",
+        "description": {
+            "overview": "The Belgian Tervuren is an elegant herding dog with a long mahogany coat and exceptional intelligence.",
+            "temperament": "The Belgian Tervuren is known for being intelligent, alert, protective. They're excellent with children and make wonderful family pets. Their intelligence and eagerness to please make training enjoyable. Early socialization helps them develop into well-rounded companions.",
+            "health": "Generally healthy with a lifespan of 12-14 years. Common concerns include hip dysplasia and bloat and skin conditions. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
+            "exercise": "High energy breed requiring vigorous daily exercise\u2014at least an hour of activity. They thrive with active families who enjoy outdoor activities. Mental stimulation through training and puzzle toys is equally important. Without adequate exercise, they may develop behavioral issues."
+        }
+    }
+}
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/"}, {"@type": "ListItem", "position": 2, "name": "Dog Breeds", "item": "https://breedfinder.org/breeds/"}, {"@type": "ListItem", "position": 3, "name": "Belgian Tervuren"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-slate-800">
     <!-- Header -->
