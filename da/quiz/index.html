@@ -11,7 +11,7 @@
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
     </style>
 </head>
-<body class="bg-gradient-to-br from-sky-50 via-white to-violet-50 min-h-screen text-slate-800">
+<body class="bg-gradient-to-br from-sky-50 via-white to-blue-50 min-h-screen text-slate-800">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="../" class="flex items-center gap-3">
@@ -23,7 +23,7 @@
                     <i data-lucide="search" class="w-5 h-5 md:hidden"></i>
                     <span class="hidden md:inline">Gennemse Racer</span>
                 </a>
-                <a href="./" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-4 py-2 rounded-xl">Quiz</a>
+                <a href="./" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-4 py-2 rounded-xl">Quiz</a>
             </nav>
         </div>
     </header>
@@ -36,10 +36,10 @@
                     <span>5 hurtige spørgsmål</span>
                 </div>
                 <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
-                    <span class="bg-gradient-to-r from-sky-500 to-violet-500 bg-clip-text text-transparent">Find Din Perfekte Hund</span>
+                    <span class="bg-gradient-to-r from-sky-500 to-blue-600 bg-clip-text text-transparent">Find Din Perfekte Hund</span>
                 </h1>
                 <p class="text-lg text-slate-600 mb-8">Besvar et par spørgsmål om din livsstil, og vi finder de ideelle racer.</p>
-                <button onclick="startQuiz()" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:shadow-xl transition">
+                <button onclick="startQuiz()" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:shadow-xl transition">
                     Start Quiz →
                 </button>
             </div>
@@ -52,14 +52,14 @@
                             <span id="progress-text">20%</span>
                         </div>
                         <div class="h-2 bg-slate-100 rounded-full overflow-hidden">
-                            <div id="progress-bar" class="h-full bg-gradient-to-r from-sky-500 to-violet-500 transition-all duration-300" style="width: 20%"></div>
+                            <div id="progress-bar" class="h-full bg-gradient-to-r from-sky-500 to-blue-600 transition-all duration-300" style="width: 20%"></div>
                         </div>
                     </div>
                     <h2 id="question-text" class="text-2xl font-bold mb-6"></h2>
                     <div id="answers" class="space-y-3"></div>
                     <div class="flex justify-between mt-8">
                         <button id="back-btn" onclick="prevQuestion()" class="px-6 py-3 text-slate-600 hover:text-slate-800 hidden">Tilbage</button>
-                        <button id="next-btn" onclick="nextQuestion()" class="ml-auto bg-gradient-to-r from-sky-500 to-violet-500 text-white px-6 py-3 rounded-xl font-semibold disabled:opacity-50" disabled>Næste</button>
+                        <button id="next-btn" onclick="nextQuestion()" class="ml-auto bg-gradient-to-r from-sky-500 to-blue-600 text-white px-6 py-3 rounded-xl font-semibold disabled:opacity-50" disabled>Næste</button>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                 <div id="results-list" class="space-y-4"></div>
                 <div class="flex justify-center gap-4 mt-8">
                     <button onclick="location.reload()" class="px-6 py-3 border border-slate-200 rounded-xl hover:bg-slate-50">← Tag Quiz Igen</button>
-                    <a href="../compare/" id="compare-link" class="px-6 py-3 bg-gradient-to-r from-sky-500 to-violet-500 text-white rounded-xl font-semibold">Sammenlign Top 2</a>
+                    <a href="../compare/" id="compare-link" class="px-6 py-3 bg-gradient-to-r from-sky-500 to-blue-600 text-white rounded-xl font-semibold">Sammenlign Top 2</a>
                 </div>
             </div>
         </div>
@@ -381,7 +381,7 @@
                     <div class="flex-1">
                         <div class="flex items-center gap-2 mb-1">
                             <span class="text-xl font-bold">${b.name}</span>
-                            <span class="bg-gradient-to-r from-sky-500 to-violet-500 text-white text-xs px-2 py-1 rounded-full">${b.pct}% Match</span>
+                            <span class="bg-gradient-to-r from-sky-500 to-blue-600 text-white text-xs px-2 py-1 rounded-full">${b.pct}% Match</span>
                         </div>
                         <p class="text-sm text-slate-600">Hvorfor dette passer dig: ${b.tags.filter(t => userTags.includes(t)).join(', ')}</p>
                     </div>
