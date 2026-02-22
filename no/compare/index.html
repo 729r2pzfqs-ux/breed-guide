@@ -44,12 +44,12 @@
     <style>
     </style>
 </head>
-<body class="bg-gradient-to-br from-sky-50 via-white to-violet-50 min-h-screen text-slate-800">
+<body class="bg-gradient-to-br from-sky-50 via-white to-blue-50 min-h-screen text-slate-800">
     <!-- Header -->
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="../" class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-violet-500 rounded-xl flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
+                <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
                     <img src="../../logo-192.png" class="w-10 h-10" alt="BreedFinder">
                 </div>
                 <span class="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">BreedFinder</span>
@@ -76,7 +76,7 @@
                     </select>
                     <svg class="w-4 h-4 absolute right-2 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </div>
-                <a href="../quiz/" class="bg-gradient-to-r from-sky-500 to-violet-500 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-sky-500/25 transition hidden md:inline">Take Quiz</a>
+                <a href="../quiz/" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-sky-500/25 transition hidden md:inline">Take Quiz</a>
             </nav>
         </div>
     </header>
@@ -86,7 +86,7 @@
         <div class="text-center mb-10">
             <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
                 Sammenlign
-                <span class="bg-gradient-to-r from-sky-500 to-violet-500 bg-clip-text text-transparent">Raser</span>
+                <span class="bg-gradient-to-r from-sky-500 to-blue-600 bg-clip-text text-transparent">Raser</span>
             </h1>
             <p class="text-lg text-slate-600">Velg opptil 3 raser å sammenligne side om side</p>
         </div>
@@ -214,7 +214,7 @@
             // Build header
             const header = document.getElementById('comparison-header');
             header.innerHTML = `
-                <tr class="bg-gradient-to-r from-sky-500 to-violet-500 text-white">
+                <tr class="bg-gradient-to-r from-sky-500 to-blue-600 text-white">
                     <th class="p-4 text-left font-semibold">Attribute</th>
                     ${selected.map(b => `
                         <th class="p-4 text-center">
@@ -248,7 +248,7 @@
                             ${isRating ? `
                                 <div class="flex justify-center gap-0.5">
                                     ${[1,2,3,4,5].map(n => `
-                                        <div class="w-2 h-6 rounded-full ${n <= b[key] ? 'bg-gradient-to-t from-sky-500 to-violet-500' : 'bg-slate-200'}"></div>
+                                        <div class="w-2 h-6 rounded-full ${n <= b[key] ? 'bg-gradient-to-t from-sky-500 to-blue-600' : 'bg-slate-200'}"></div>
                                     `).join('')}
                                 </div>
                             ` : b[key]}
