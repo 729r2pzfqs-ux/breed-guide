@@ -19,7 +19,7 @@
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-4 text-sm font-medium">
-                <a href="../search/" class="text-slate-600 hover:text-sky-600 flex items-center">
+                <a href="../search/" class="text-slate-600 hover:text-sky-700 flex items-center">
                     <i data-lucide="search" class="w-5 h-5 md:hidden"></i>
                     <span class="hidden md:inline">Bläddra Raser</span>
                 </a>
@@ -47,7 +47,7 @@
             <div id="quiz-questions" class="hidden">
                 <div class="bg-white rounded-3xl shadow-xl p-8">
                     <div class="mb-8">
-                        <div class="flex justify-between text-sm text-slate-500 mb-2">
+                        <div class="flex justify-between text-sm text-slate-600 mb-2">
                             <span>Fråga <span id="current-q">1</span> av 5</span>
                             <span id="progress-text">20%</span>
                         </div>
@@ -385,7 +385,7 @@
                         </div>
                         <p class="text-sm text-slate-600">Varför detta passar dig: ${b.tags.filter(t => userTags.includes(t)).join(', ')}</p>
                     </div>
-                    <a href="../breeds/${b.slug}.html" class="text-sky-600 hover:text-sky-700 font-semibold text-sm">Se Profil →</a>
+                    <a href="../breeds/${b.slug}.html" class="text-sky-700 hover:text-sky-700 font-semibold text-sm">Se Profil →</a>
                 </div>
             `).join('');
             
