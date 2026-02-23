@@ -58,10 +58,10 @@
 
         <div class="max-w-2xl mx-auto mb-8">
             <div class="relative">
-                <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-300"></i>
+                <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-500"></i>
                 <input type="text" id="searchInput" placeholder="Buscar razas... (ej. Golden Retriever, Caniche)" 
                     class="w-full pl-12 pr-4 py-4 rounded-xl border border-slate-200 bg-white shadow-sm focus:ring-2 focus:ring-sky-500 focus:border-sky-500 text-lg" autocomplete="off">
-                <button id="clearSearch" class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-300 hover:text-slate-600 hidden">
+                <button id="clearSearch" class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-600 hidden">
                     <i data-lucide="x" class="w-5 h-5"></i>
                 </button>
                 <div id="search-dropdown" class="absolute top-full left-0 right-0 mt-2 bg-white border border-slate-200 rounded-2xl shadow-xl z-50 hidden max-h-80 overflow-y-auto"></div>
@@ -112,9 +112,9 @@
                         </label>
                         <div id="energyControls" class="hidden">
                             <div class="flex items-center gap-3">
-                                <span class="text-xs text-slate-300">Bajo</span>
+                                <span class="text-xs text-slate-500">Bajo</span>
                                 <input type="range" id="energyFilter" min="1" max="5" value="3" class="flex-1">
-                                <span class="text-xs text-slate-300">Alto</span>
+                                <span class="text-xs text-slate-500">Alto</span>
                             </div>
                             <div class="text-center text-sm text-slate-600 mt-1"><span id="energyValue">3</span>+</div>
                         </div>
@@ -127,9 +127,9 @@
                         </label>
                         <div id="groomingControls" class="hidden">
                             <div class="flex items-center gap-3">
-                                <span class="text-xs text-slate-300">Bajo</span>
+                                <span class="text-xs text-slate-500">Bajo</span>
                                 <input type="range" id="groomingFilter" min="1" max="5" value="3" class="flex-1">
-                                <span class="text-xs text-slate-300">Alto</span>
+                                <span class="text-xs text-slate-500">Alto</span>
                             </div>
                             <div class="text-center text-sm text-slate-600 mt-1"><span id="groomingValue">3</span> o menos</div>
                         </div>
@@ -142,9 +142,9 @@
                         </label>
                         <div id="trainabilityControls" class="hidden">
                             <div class="flex items-center gap-3">
-                                <span class="text-xs text-slate-300">Bajo</span>
+                                <span class="text-xs text-slate-500">Bajo</span>
                                 <input type="range" id="trainabilityFilter" min="1" max="5" value="3" class="flex-1">
-                                <span class="text-xs text-slate-300">Alto</span>
+                                <span class="text-xs text-slate-500">Alto</span>
                             </div>
                             <div class="text-center text-sm text-slate-600 mt-1"><span id="trainabilityValue">3</span>+</div>
                         </div>
@@ -157,9 +157,9 @@
                         </label>
                         <div id="barkingControls" class="hidden">
                             <div class="flex items-center gap-3">
-                                <span class="text-xs text-slate-300">Silencioso</span>
+                                <span class="text-xs text-slate-500">Silencioso</span>
                                 <input type="range" id="barkingFilter" min="1" max="5" value="3" class="flex-1">
-                                <span class="text-xs text-slate-300">Ruidoso</span>
+                                <span class="text-xs text-slate-500">Ruidoso</span>
                             </div>
                             <div class="text-center text-sm text-slate-600 mt-1"><span id="barkingValue">3</span> o menos</div>
                         </div>
@@ -213,9 +213,9 @@
                 <div id="resultsGrid" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5"></div>
 
                 <div id="noResults" class="hidden text-center py-16">
-                    <i data-lucide="search-x" class="w-16 h-16 text-slate-300 mx-auto mb-4"></i>
+                    <i data-lucide="search-x" class="w-16 h-16 text-slate-500 mx-auto mb-4"></i>
                     <h3 class="text-xl font-semibold text-slate-700 mb-2">No se encontraron razas</h3>
-                    <p class="text-slate-300">Intenta ajustar los filtros o términos de búsqueda</p>
+                    <p class="text-slate-500">Intenta ajustar los filtros o términos de búsqueda</p>
                 </div>
             </div>
         </div>
@@ -227,8 +227,8 @@
                 <img src="../../logo-192.png" class="w-8 h-8 rounded-lg" alt="BreedFinder">
                 <span class="font-semibold">BreedFinder</span>
             </div>
-            <p class="text-slate-300 text-sm">Find your perfect dog breed match</p>
-            <p class="text-slate-300 text-xs mt-6">© 2026 BreedFinder</p>
+            <p class="text-slate-500 text-sm">Find your perfect dog breed match</p>
+            <p class="text-slate-500 text-xs mt-6">© 2026 BreedFinder</p>
         </div>
     </footer>
 
@@ -274,19 +274,19 @@
                     </div>
                     <div class="p-4">
                         <h3 class="font-semibold text-slate-800 text-lg mb-1">${breed.name}</h3>
-                        <p class="text-slate-300 text-sm mb-3">${breed.origin} · ${breed.lifespan}</p>
+                        <p class="text-slate-500 text-sm mb-3">${breed.origin} · ${breed.lifespan}</p>
                         <div class="flex flex-wrap gap-1 mb-3">${temperamentTags}</div>
                         <div class="grid grid-cols-3 gap-2 text-center text-xs">
                             <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-300">Energy</div>
+                                <div class="text-slate-500">Energy</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.energy)}${'○'.repeat(5-breed.ratings.energy)}</div>
                             </div>
                             <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-300">Groom</div>
+                                <div class="text-slate-500">Groom</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.grooming)}${'○'.repeat(5-breed.ratings.grooming)}</div>
                             </div>
                             <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-300">Train</div>
+                                <div class="text-slate-500">Train</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.trainability)}${'○'.repeat(5-breed.ratings.trainability)}</div>
                             </div>
                         </div>
@@ -401,7 +401,7 @@
             searchDropdown.innerHTML = matches.map(b => `
                 <a href="../breeds/${b.id}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition border-b border-slate-100 last:border-0">
                     <img src="../../images/heads/${b.id}.webp" alt="${b.name}" class="w-10 h-10 rounded-xl object-cover">
-                    <div><div class="font-medium text-slate-800">${b.name}</div><div class="text-sm text-slate-300">${b.group} · ${b.size.category}</div></div>
+                    <div><div class="font-medium text-slate-800">${b.name}</div><div class="text-sm text-slate-500">${b.group} · ${b.size.category}</div></div>
                 </a>
             `).join('');
             searchDropdown.classList.remove('hidden');
