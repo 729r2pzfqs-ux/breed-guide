@@ -214,7 +214,7 @@
             const header = document.getElementById('comparison-header');
             header.innerHTML = `
                 <tr class="bg-gradient-to-r from-sky-500 to-blue-600 text-white">
-                    <th class="p-4 text-left font-semibold">Attribute</th>
+                    <th class="p-4 text-left font-semibold">Attributo</th>
                     ${selected.map(b => `
                         <th class="p-4 text-center">
                             <img src="${b.image}" alt="${b.name}" class="w-16 h-16 rounded-full mx-auto mb-2 object-cover bg-white">
@@ -226,16 +226,16 @@
             
             // Build comparison rows
             const attrs = [
-                ['Size', 'size'],
-                ['Height', 'height'],
-                ['Weight', 'weight'],
-                ['Lifespan', 'lifespan'],
-                ['Origin', 'origin'],
-                ['Energy', 'energy', true],
-                ['Grooming', 'grooming', true],
-                ['Trainability', 'trainability', true],
-                ['Kid Friendly', 'kidFriendly', true],
-                ['Apartment', 'apartment', true],
+                ['Taglia', 'size'],
+                ['Altezza', 'height'],
+                ['Peso', 'weight'],
+                ['Aspettativa di vita', 'lifespan'],
+                ['Origine', 'origin'],
+                ['Energia', 'energy', true],
+                ['Toelettatura', 'grooming', true],
+                ['Addestrabilità', 'trainability', true],
+                ['Adatto ai bambini', 'kidFriendly', true],
+                ['Appartamento', 'apartment', true],
             ];
             
             const body = document.getElementById('comparison-body');
