@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# Block malformed URLs from JS template extraction
+Disallow: /*${
+Disallow: /*%24%7B
+
 Sitemap: https://breedfinder.org/sitemap.xml
