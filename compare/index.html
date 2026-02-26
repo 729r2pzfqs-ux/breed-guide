@@ -4160,8 +4160,8 @@
         ];
 
         // Populate dropdowns
+        const selects = ['breed1', 'breed2', 'breed3'];
         function populateDropdowns() {
-            const selects = ['breed1', 'breed2', 'breed3'];
             selects.forEach(id => {
                 const select = document.getElementById(id);
                 breeds.forEach(breed => {
@@ -4181,64 +4181,66 @@
         }
 
         function updateComparison() {
-            const slugs = [
-                document.getElementById('breed1').value,
-                document.getElementById('breed2').value,
-                document.getElementById('breed3').value
-            ].filter(s => s);
-
-            if (slugs.length < 2) {
+            const selected = selects
+                .map(id => document.getElementById(id).value)
+                .filter(v => v)
+                .map(slug => breeds.find(b => b.slug === slug))
+                .filter(b => b);
+            
+            if (selected.length < 2) {
                 document.getElementById('comparison-container').classList.add('hidden');
                 document.getElementById('empty-state').classList.remove('hidden');
                 return;
             }
-
+            
             document.getElementById('comparison-container').classList.remove('hidden');
             document.getElementById('empty-state').classList.add('hidden');
-
-            const selected = slugs.map(s => breeds.find(b => b.slug === s));
-
+            
             // Build header
             const header = document.getElementById('comparison-header');
             header.innerHTML = `
-                <tr class="bg-gradient-to-r from-sky-50 to-sky-50">
-                    <th class="p-4 text-left font-semibold text-slate-600">Trait</th>
+                <tr class="bg-gradient-to-r from-sky-500 to-blue-600 text-white">
+                    <th class="p-4 text-left font-semibold">Attribute</th>
                     ${selected.map(b => `
                         <th class="p-4 text-center">
-                            <a href="../breeds/${b.slug}.html" class="font-bold text-lg hover:text-sky-700 transition">${b.name}</a>
+                            <img src="${b.image}" alt="${b.name}" class="w-16 h-16 rounded-full mx-auto mb-2 object-cover bg-white">
+                            <div class="font-bold">${b.name}</div>
                         </th>
                     `).join('')}
                 </tr>
             `;
-
-            // Build body
-            const traits = [
-                { label: "Size", key: "size" },
-                { label: "Weight", key: "weight" },
-                { label: "Lifespan", key: "lifespan" },
-                { label: "Energy Level", key: "energy", isRating: true },
-                { label: "Grooming Needs", key: "grooming", isRating: true },
-                { label: "Family Friendly", key: "family", isRating: true },
-                { label: "Trainability", key: "trainability", isRating: true }
+            
+            // Build comparison rows
+            const attrs = [
+                ['Size', 'size'],
+                ['Height', 'height'],
+                ['Weight', 'weight'],
+                ['Lifespan', 'lifespan'],
+                ['Origin', 'origin'],
+                ['Energy', 'energy', true],
+                ['Grooming', 'grooming', true],
+                ['Trainability', 'trainability', true],
+                ['Kid Friendly', 'kidFriendly', true],
+                ['Apartment', 'apartment', true],
             ];
-
+            
             const body = document.getElementById('comparison-body');
-            body.innerHTML = traits.map((trait, i) => `
-                <tr class="${i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}">
-                    <td class="p-4 font-medium text-slate-700">${trait.label}</td>
+            body.innerHTML = attrs.map(([label, key, isRating], i) => `
+                <tr class="${i % 2 === 0 ? 'bg-slate-50' : 'bg-white'}">
+                    <td class="p-4 font-medium text-slate-700">${label}</td>
                     ${selected.map(b => `
                         <td class="p-4 text-center">
-                            ${trait.isRating ? renderRating(b[trait.key]) : b[trait.key]}
+                            ${isRating ? `
+                                <div class="flex justify-center gap-0.5">
+                                    ${[1,2,3,4,5].map(n => `
+                                        <div class="w-2 h-6 rounded-full ${n <= b[key] ? 'bg-gradient-to-t from-sky-500 to-blue-600' : 'bg-slate-200'}"></div>
+                                    `).join('')}
+                                </div>
+                            ` : b[key]}
                         </td>
                     `).join('')}
                 </tr>
             `).join('');
-        }
-
-        function renderRating(value) {
-            const filled = '★'.repeat(value);
-            const empty = '☆'.repeat(5 - value);
-            return `<span class="text-amber-400">${filled}</span><span class="text-slate-600">${empty}</span>`;
         }
 
         // Init
