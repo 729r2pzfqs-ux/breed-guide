@@ -1,25 +1,57 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en" class="">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shetland Sheepdog | BreedFinder</title>
-    <meta name="description" content="Il Pastore delle Shetland è un cane elegante e intelligente, simile a un Collie in miniatura. Devoto, dolce e addestrabile.">
-    <link rel="canonical" href="https://breedfinder.org/it/breeds/shetland-sheepdog.html">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+    <title>Shetland Sheepdog: Breed Guide, Temperament & Care | BreedFinder</title>
+    <meta name="description" content="Complete guide to the Shetland Sheepdog: temperament, exercise needs, grooming, health issues, and whether this breed is right for you.">
+    <link rel="canonical" href="https://breedfinder.org/breeds/shetland-sheepdog">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
-        body { font-family: 'Plus Jakarta Sans', sans-serif; }
-        .card-shadow { box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
-        .rating-bar { background: #e2e8f0; position: relative; overflow: hidden; }
-        .rating-bar::after { content: ''; position: absolute; left: 0; top: 0; height: 100%; width: var(--rating); background: linear-gradient(90deg, #0ea5e9, #2563eb); border-radius: 9999px; }
+        .rating-bar { 
+            background: #e2e8f0;
+            position: relative;
+            overflow: hidden;
+        }
+        .rating-bar::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: var(--rating);
+            background: linear-gradient(90deg, #0ea5e9, #2563eb);
+            border-radius: 9999px;
+        }
+        .card-shadow {
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 4px 12px rgba(0,0,0,0.04);
+        }
     </style>
+
+    <style>
+        </style>
 
     <!-- Open Graph -->
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://breedfinder.org/it/breeds/shetland-sheepdog">
+    <meta property="og:url" content="https://breedfinder.org/breeds/shetland-sheepdog">
     <meta property="og:title" content="Shetland Sheepdog - Complete Breed Guide | BreedFinder">
     <meta property="og:description" content="Everything you need to know about the Shetland Sheepdog: temperament, care, exercise needs, and more.">
     <meta property="og:image" content="https://breedfinder.org/images/breeds/shetland-sheepdog.webp">
@@ -37,7 +69,7 @@
     "@type": "Article",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://breedfinder.org/it/breeds/shetland-sheepdog"
+        "@id": "https://breedfinder.org/breeds/shetland-sheepdog"
     },
     "headline": "Shetland Sheepdog: Breed Guide, Temperament & Care",
     "description": "Complete guide to the Shetland Sheepdog: temperament, exercise needs, grooming, and care tips.",
@@ -69,69 +101,77 @@
 
     <!-- Breadcrumb Schema -->
     <script type="application/ld+json">
-    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/it/"}, {"@type": "ListItem", "position": 2, "name": "Breeds", "item": "https://breedfinder.org/it/breeds/"}, {"@type": "ListItem", "position": 3, "name": "Shetland Sheepdog"}]}
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/"}, {"@type": "ListItem", "position": 2, "name": "Dog Breeds", "item": "https://breedfinder.org/breeds/"}, {"@type": "ListItem", "position": 3, "name": "Shetland Sheepdog"}]}
     </script>
 </head>
-<body class="bg-slate-50 min-h-screen">
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+<body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-slate-800">
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="../" class="flex items-center gap-2">
-                <img src="../../logo-192.png" class="w-10 h-10" alt="BreedFinder">
-                <span class="font-audace text-xl text-slate-800">BreedFinder</span>
+            <a href="../" class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
+                    <img src="../logo-192.png" class="w-10 h-10" alt="BreedFinder">
+                </div>
+                <span class="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">BreedFinder</span>
             </a>
-            <nav class="flex items-center gap-4 text-sm">
-                <a href="../search/" class="text-slate-600 hover:text-sky-700">Esplora le Razze</a>
-                <a href="../quiz/" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-4 py-2 rounded-xl">Fai il Quiz</a>
-            </nav>
+            <nav class="flex items-center gap-6 text-sm font-medium">
+                <a href="../breeds/" class="text-slate-600 hover:text-sky-700 transition">All Breeds</a>
+                <a href="../quiz" class="text-slate-600 hover:text-sky-700 transition">Breed Quiz</a></nav>
         </div>
     </header>
 
     <main class="max-w-5xl mx-auto px-4 py-8">
+        <!-- Breadcrumb -->
         <nav class="text-sm text-slate-600 mb-6 flex items-center gap-2">
-            <a href="../" class="hover:text-sky-700">Home</a>
-            <i data-lucide="chevron-right" class="w-4 h-4"></i>
-            <a href="../search/" class="hover:text-sky-700">Esplora le Razze</a>
-            <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            <a href="../" class="hover:text-sky-700 transition">Home</a>
+            <i data-lucide="chevron-right" class="w-4 h-4 text-slate-600"></i>
+            <a href="../breeds/" class="hover:text-sky-700 transition">Breeds</a>
+            <i data-lucide="chevron-right" class="w-4 h-4 text-slate-600"></i>
             <span class="text-slate-700 font-medium">Shetland Sheepdog</span>
         </nav>
 
         <!-- Hero Card -->
         <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-slate-100">
             <div class="flex flex-col md:flex-row gap-8">
+                <!-- Image -->
                 <div class="md:w-2/5">
-                    <img src="../../images/breeds/shetland-sheepdog.webp" alt="Shetland Sheepdog" class="rounded-2xl w-full aspect-[4/5] object-cover border border-slate-200/50" onerror="this.src='../../images/heads/shetland-sheepdog.webp'">
+                    <img src="../images/breeds/shetland-sheepdog.webp" alt="Shetland Sheepdog" class="rounded-2xl w-full aspect-[4/5] object-cover border border-slate-200/50" onerror="this.onerror=null; this.src=''; this.parentElement.innerHTML='<div class=\'bg-gradient-to-br from-slate-100 to-slate-50 rounded-2xl aspect-[4/5] flex items-center justify-center border border-slate-200/50\'><i data-lucide=\'dog\' class=\'w-24 h-24 text-slate-600\'></i></div>'; lucide.createIcons();">
                 </div>
+                
+                <!-- Info -->
                 <div class="md:w-3/5">
                     <div class="flex items-center gap-2 mb-3">
-                        <span class="bg-sky-100 text-sky-700 text-xs font-semiaudace px-3 py-1 rounded-full">Herding</span>
-                        <span class="bg-sky-100 text-sky-700 text-xs font-semiaudace px-3 py-1 rounded-full">Small</span>
+                        <span class="bg-sky-100 text-sky-700 text-xs font-semibold px-3 py-1 rounded-full">Herding</span>
+                        <span class="bg-sky-100 text-sky-700 text-xs font-semibold px-3 py-1 rounded-full">Small</span>
                     </div>
-                    <h1 class="text-4xl font-audace text-slate-900 mb-3">Shetland Sheepdog</h1>
-                    <p class="text-lg text-slate-600 mb-6">Il Pastore delle Shetland è un cane elegante e intelligente, amato per la sua bellezza, dolcezza e incredibile addestrabilità.</p>
+                    
+                    <h1 class="text-4xl font-bold text-slate-900 mb-3">Shetland Sheepdog</h1>
+                    <p class="text-lg text-slate-600 mb-6 leading-relaxed">Shelties are small herding dogs that look like miniature Rough Collies. They're intelligent, eager to please, and excel at obedience and agility....</p>
+                    
                     <div class="grid grid-cols-2 gap-4">
                         <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
-                                <i data-lucide="map-pin" class="w-3 h-3"></i> Origine
+                            <div class="text-xs font-medium text-slate-600 uppercase tracking-wide mb-1 flex items-center gap-1">
+                                <i data-lucide="map-pin" class="w-3 h-3"></i> Origin
                             </div>
-                            <div class="text-slate-800 font-semiaudace">Scotland (Shetland Islands)</div>
+                            <div class="text-slate-800 font-semibold">Scotland (Shetland Islands)</div>
                         </div>
                         <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
-                                <i data-lucide="heart" class="w-3 h-3"></i> Aspettativa di vita
+                            <div class="text-xs font-medium text-slate-600 uppercase tracking-wide mb-1 flex items-center gap-1">
+                                <i data-lucide="heart" class="w-3 h-3"></i> Lifespan
                             </div>
-                            <div class="text-slate-800 font-semiaudace">12-14 anni</div>
+                            <div class="text-slate-800 font-semibold">12-14 years</div>
                         </div>
                         <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
-                                <i data-lucide="ruler" class="w-3 h-3"></i> Altezza
+                            <div class="text-xs font-medium text-slate-600 uppercase tracking-wide mb-1 flex items-center gap-1">
+                                <i data-lucide="ruler" class="w-3 h-3"></i> Height
                             </div>
-                            <div class="text-slate-800 font-semiaudace">33-41 cm<br><span class="text-sm font-normal text-slate-500">13-16 in</span></div>
+                            <div class="text-slate-800 font-semibold">33-41 cm<br><span class="text-sm font-normal text-slate-500">13-16 in</span></div>
                         </div>
                         <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
-                                <i data-lucide="scale" class="w-3 h-3"></i> Peso
+                            <div class="text-xs font-medium text-slate-600 uppercase tracking-wide mb-1 flex items-center gap-1">
+                                <i data-lucide="scale" class="w-3 h-3"></i> Weight
                             </div>
-                            <div class="text-slate-800 font-semiaudace">6-12 kg<br><span class="text-sm font-normal text-slate-500">13-26 lbs</span></div>
+                            <div class="text-slate-800 font-semibold">6-12 kg<br><span class="text-sm font-normal text-slate-500">13-26 lbs</span></div>
                         </div>
                     </div>
                 </div>
@@ -140,121 +180,204 @@
 
         <!-- Ratings -->
         <div class="bg-white rounded-2xl p-6 mb-8 shadow-sm border border-slate-100">
-            <h2 class="text-xl font-audace mb-4">Valutazioni della Razza</h2>
+            <h2 class="text-xl font-bold mb-4">Breed Ratings</h2>
             <div class="grid md:grid-cols-2 gap-4">
                 <div>
-                    <div class="flex justify-between text-sm mb-1"><span>Livello di Energia</span><span>4/5</span></div>
+                    <div class="flex justify-between text-sm mb-1"><span>Energy Level</span><span>4/5</span></div>
                     <div class="rating-bar h-2 rounded-full" style="--rating: 80%"></div>
                 </div>
                 <div>
-                    <div class="flex justify-between text-sm mb-1"><span>Esigenze di Toelettatura</span><span>4/5</span></div>
+                    <div class="flex justify-between text-sm mb-1"><span>Grooming Needs</span><span>4/5</span></div>
                     <div class="rating-bar h-2 rounded-full" style="--rating: 80%"></div>
                 </div>
                 <div>
-                    <div class="flex justify-between text-sm mb-1"><span>Addestrabilità</span><span>5/5</span></div>
+                    <div class="flex justify-between text-sm mb-1"><span>Trainability</span><span>5/5</span></div>
                     <div class="rating-bar h-2 rounded-full" style="--rating: 100%"></div>
                 </div>
                 <div>
-                    <div class="flex justify-between text-sm mb-1"><span>Adatto ai Bambini</span><span>4/5</span></div>
+                    <div class="flex justify-between text-sm mb-1"><span>Kid Friendly</span><span>4/5</span></div>
                     <div class="rating-bar h-2 rounded-full" style="--rating: 80%"></div>
                 </div>
                 <div>
-                    <div class="flex justify-between text-sm mb-1"><span>Adatto all'Appartamento</span><span>3/5</span></div>
+                    <div class="flex justify-between text-sm mb-1"><span>Apartment Friendly</span><span>3/5</span></div>
                     <div class="rating-bar h-2 rounded-full" style="--rating: 60%"></div>
                 </div>
                 <div>
-                    <div class="flex justify-between text-sm mb-1"><span>Livello di Abbaiamento</span><span>5/5</span></div>
+                    <div class="flex justify-between text-sm mb-1"><span>Barking Level</span><span>5/5</span></div>
                     <div class="rating-bar h-2 rounded-full" style="--rating: 100%"></div>
+                </div>
+                <div>
+                    <div class="flex justify-between text-sm mb-1"><span>Sociability</span><span>4/5</span></div>
+                    <div class="rating-bar h-2 rounded-full" style="--rating: 80%"></div>
                 </div>
             </div>
         </div>
 
         <!-- Temperament -->
-        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-slate-100">
-            <h2 class="text-2xl font-audace text-slate-900 mb-6">Temperamento</h2>
-            <div class="flex flex-wrap gap-2"><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">giocherellone</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">energico</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">bright</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">obbediente</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">quick</span></div>
+        <div class="mb-8">
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">Temperament</h2>
+            <div class="flex flex-wrap gap-2">
+                <span class="bg-emerald-50 text-emerald-700 border border-emerald-200 px-4 py-2 rounded-full text-sm font-medium">Playful</span>
+                <span class="bg-emerald-50 text-emerald-700 border border-emerald-200 px-4 py-2 rounded-full text-sm font-medium">Energetic</span>
+                <span class="bg-emerald-50 text-emerald-700 border border-emerald-200 px-4 py-2 rounded-full text-sm font-medium">Bright</span>
+                <span class="bg-emerald-50 text-emerald-700 border border-emerald-200 px-4 py-2 rounded-full text-sm font-medium">Obedient</span>
+                <span class="bg-emerald-50 text-emerald-700 border border-emerald-200 px-4 py-2 rounded-full text-sm font-medium">Quick</span>
+                <span class="bg-emerald-50 text-emerald-700 border border-emerald-200 px-4 py-2 rounded-full text-sm font-medium">Alert</span>
+                
+            </div>
         </div>
 
         <!-- Content Sections -->
-        <div class="space-y-4 mb-8">
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group" open>
+        <div class="space-y-6">
+            <details class="bg-white rounded-2xl card-shadow border border-slate-100 group" open>
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-audace flex items-center gap-3">
-                        <i data-lucide="book-open" class="w-5 h-5 text-sky-500"></i> Panoramica
+                    <h2 class="text-xl font-bold text-slate-900 flex items-center gap-3">
+                        <i data-lucide="book-open" class="w-5 h-5 text-sky-500"></i> Overview
                     </h2>
                     <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">Il Pastore delle Shetland, o Sheltie, è originario delle Isole Shetland in Scozia. Era usato per la conduzione del gregge in terreni difficili. Non è un Collie in miniatura, ma una razza distinta.</p></div>
+                <div class="px-6 pb-6">
+                    <p class="text-slate-600 leading-relaxed">Shelties are small herding dogs that look like miniature Rough Collies. They're intelligent, eager to please, and excel at obedience and agility.</p>
+                </div>
             </details>
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group">
+
+            <details class="bg-white rounded-2xl card-shadow border border-slate-100 group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-audace flex items-center gap-3">
-                        <i data-lucide="heart" class="w-5 h-5 text-sky-500"></i> Temperamento
+                    <h2 class="text-xl font-bold text-slate-900 flex items-center gap-3">
+                        <i data-lucide="heart" class="w-5 h-5 text-sky-500"></i> Temperament
                     </h2>
                     <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">Gli Sheltie sono intelligenti, sensibili e devoti. Sono ottimi cani da famiglia ma possono essere riservati con gli estranei. Amano imparare e piacere.</p></div>
+                <div class="px-6 pb-6">
+                    <p class="text-slate-600 leading-relaxed">The Shetland Sheepdog is known for being playful, energetic, bright. They're excellent with children and make wonderful family pets. Their intelligence and eagerness to please make training enjoyable. Early socialization helps them develop into well-rounded companions.</p>
+                </div>
             </details>
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group">
+
+            <details class="bg-white rounded-2xl card-shadow border border-slate-100 group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-audace flex items-center gap-3">
-                        <i data-lucide="heart-pulse" class="w-5 h-5 text-sky-500"></i> Salute
+                    <h2 class="text-xl font-bold text-slate-900 flex items-center gap-3">
+                        <i data-lucide="heart-pulse" class="w-5 h-5 text-sky-500"></i> Health
                     </h2>
                     <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">Predisposti all'anomalia dell'occhio del Collie, displasia dell'anca, ipotiroidismo e dermatomiosite. Portano spesso il gene MDR1. Aspettativa di vita 12-14 anni.</p></div>
+                <div class="px-6 pb-6">
+                    <p class="text-slate-600 leading-relaxed">Generally healthy with a lifespan of 12-14 years. Common concerns include patellar luxation and dental issues and skin conditions. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.</p>
+                </div>
             </details>
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group">
+
+            <details class="bg-white rounded-2xl card-shadow border border-slate-100 group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-audace flex items-center gap-3">
-                        <i data-lucide="activity" class="w-5 h-5 text-sky-500"></i> Esercizio
+                    <h2 class="text-xl font-bold text-slate-900 flex items-center gap-3">
+                        <i data-lucide="activity" class="w-5 h-5 text-sky-500"></i> Exercise
                     </h2>
                     <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">Esigenze di esercizio moderate. Passeggiate quotidiane e gioco sono importanti. Eccellono nell'agility e nell'obedience.</p></div>
+                <div class="px-6 pb-6">
+                    <p class="text-slate-600 leading-relaxed">High energy breed requiring vigorous daily exercise—at least an hour of activity. They thrive with active families who enjoy outdoor activities. Mental stimulation through training and puzzle toys is equally important. Without adequate exercise, they may develop behavioral issues.</p>
+                </div>
             </details>
         </div>
 
-        <!-- Verdict -->
-        <div class="bg-gradient-to-br from-sky-50 via-blue-50 to-sky-50 rounded-2xl p-6 mb-8 border border-sky-100">
-            <h2 class="text-xl font-audace mb-6 flex items-center gap-3">
-                <span class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center text-white">⦿</span>
-                Questa Razza è Giusta per Te?
+        <!-- THE VERDICT -->
+        <div class="mt-10 bg-gradient-to-br from-sky-50 via-blue-50 to-sky-50 rounded-3xl p-8 border border-sky-100">
+            <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
+                <span class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
+                    <i data-lucide="target" class="w-5 h-5"></i>
+                </span>
+                Is This Breed Right for You?
             </h2>
-            <div class="grid md:grid-cols-2 gap-6 mb-6">
-                <div class="bg-white/80 rounded-xl p-5 border border-emerald-100">
-                    <h3 class="font-audace text-emerald-700 mb-3 flex items-center gap-2">
-                        <span class="text-emerald-500">✓</span> Ideale Per
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <div class="bg-white/70 backdrop-blur rounded-2xl p-6 border border-emerald-100">
+                    <h3 class="font-bold text-emerald-700 mb-4 flex items-center gap-2">
+                        <span class="w-6 h-6 bg-emerald-500 rounded-full flex items-center justify-center text-white">
+                            <i data-lucide="check" class="w-4 h-4"></i>
+                        </span>
+                        Best For
                     </h3>
-                    <ul class="space-y-2 text-slate-700 text-sm"><li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Dog sport enthusiasts</span></li>
-<li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Famiglie attive</span></li>
-<li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Those wanting a addestrabile companion</span></li>
-<li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Proprietari esperti</span></li>
-<li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Case con giardino</span></li></ul>
+                    <ul class="space-y-3 text-slate-700">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="circle" class="w-2 h-2 mt-2 text-emerald-500 fill-current"></i>
+                            <span>Dog sport enthusiasts</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="circle" class="w-2 h-2 mt-2 text-emerald-500 fill-current"></i>
+                            <span>Active families</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="circle" class="w-2 h-2 mt-2 text-emerald-500 fill-current"></i>
+                            <span>Those wanting a trainable companion</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="circle" class="w-2 h-2 mt-2 text-emerald-500 fill-current"></i>
+                            <span>Experienced owners</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="circle" class="w-2 h-2 mt-2 text-emerald-500 fill-current"></i>
+                            <span>Homes with yards</span>
+                        </li>
+                        
+                    </ul>
                 </div>
-                <div class="bg-white/80 rounded-xl p-5 border border-rose-100">
-                    <h3 class="font-audace text-rose-700 mb-3 flex items-center gap-2">
-                        <span class="text-rose-500">✗</span> Non Ideale Per
+                <div class="bg-white/70 backdrop-blur rounded-2xl p-6 border border-rose-100">
+                    <h3 class="font-bold text-rose-700 mb-4 flex items-center gap-2">
+                        <span class="w-6 h-6 bg-rose-500 rounded-full flex items-center justify-center text-white">
+                            <i data-lucide="x" class="w-4 h-4"></i>
+                        </span>
+                        Not Ideal For
                     </h3>
-                    <ul class="space-y-2 text-slate-700 text-sm"><li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>Those who dislike barking</span></li>
-<li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>Residenti in appartamento (noise)</span></li>
-<li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>People wanting a quiet dog</span></li>
-<li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>Chi non ama la toelettatura</span></li></ul>
+                    <ul class="space-y-3 text-slate-700">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="circle" class="w-2 h-2 mt-2 text-rose-500 fill-current"></i>
+                            <span>Those who dislike barking</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="circle" class="w-2 h-2 mt-2 text-rose-500 fill-current"></i>
+                            <span>Apartment dwellers (noise)</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="circle" class="w-2 h-2 mt-2 text-rose-500 fill-current"></i>
+                            <span>People wanting a quiet dog</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="circle" class="w-2 h-2 mt-2 text-rose-500 fill-current"></i>
+                            <span>Those who dislike grooming</span>
+                        </li>
+                        
+                    </ul>
                 </div>
             </div>
-            <div class="bg-white/80 rounded-xl p-5 border border-slate-200">
-                <p class="text-slate-700"><strong>Il Nostro Verdetto:</strong> Lo Sheltie è un compagno intelligente e devoto, perfetto per famiglie. Richiede toelettatura regolare e stimolazione mentale.</p>
-            </div>
-        </div>
 
-        <div class="text-center">
-            <a href="../search/" class="inline-flex items-center gap-2 text-sky-700 font-semiaudace hover:text-sky-700">
-                <i data-lucide="arrow-left" class="w-4 h-4"></i>
-                Esplora le Razze
-            </a>
+            <div class="bg-white rounded-2xl p-6 border border-slate-200">
+                <p class="text-lg text-slate-700 leading-relaxed"><strong class="text-slate-900">Our Verdict:</strong> Brilliant, eager-to-please dogs that excel at training and dog sports. Shelties are loyal family companions but can be vocal. Heavy shedders who need regular grooming.</p>
+            </div>
         </div>
     </main>
 
+    <!-- Footer -->
+    <footer class="mt-16 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-5xl mx-auto px-4 py-8 text-center">
+            <div class="flex items-center justify-center gap-3 mb-4">
+                <div class="w-8 h-8 bg-gradient-to-br from-sky-500 to-blue-600 rounded-lg flex items-center justify-center text-white">
+                    <i data-lucide="dog" class="w-4 h-4"></i>
+                </div>
+                <span class="font-bold text-slate-800">BreedFinder</span>
+            </div>
+            <p class="text-sm text-slate-600 mb-4">Find your perfect dog breed match</p>
+            <div class="flex justify-center gap-6 text-sm text-slate-600">
+                <a href="../breeds/" class="hover:text-sky-700 transition">All Breeds</a>
+                <a href="../quiz" class="hover:text-sky-700 transition">Breed Quiz</a>
+                <a href="../about" class="hover:text-sky-700 transition">About</a>
+            </div>
+            <p class="text-xs text-slate-600 mt-6">© 2026 BreedFinder. Made with care for dog lovers.</p>
+        </div>
+    </footer>
+
     <script>lucide.createIcons();</script>
+
+    <script>
+
+        }
+    </script>
 </body>
 </html>
