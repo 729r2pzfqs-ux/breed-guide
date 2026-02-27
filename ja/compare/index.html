@@ -185,13 +185,28 @@
         // Load translated breed names
         fetch('../../data/breed_names_ja.json')
             .then(r => r.json())
-            .then(names => { breedNames = names; populateSelectors(); })
-            .catch(() => populateSelectors());
+            .then(names => { breedNames = names; populateSelectors(); applyUrlParams(); })
+            .catch(() => { populateSelectors(); applyUrlParams(); });
         
         function getLocalBreedName(breed) {
             return breedNames[breed.slug] || breed.name;
         }
         
+        
+        // Handle URL parameters
+        function applyUrlParams() {
+            const params = new URLSearchParams(window.location.search);
+            const breed1 = params.get('breed1');
+            const breed2 = params.get('breed2');
+            const breed3 = params.get('breed3');
+            
+            if (breed1) document.getElementById('breed1').value = breed1;
+            if (breed2) document.getElementById('breed2').value = breed2;
+            if (breed3) document.getElementById('breed3').value = breed3;
+            
+            if (breed1 || breed2) updateComparison();
+        }
+
         function populateSelectors() {
             selects.forEach(id => {
                 const select = document.getElementById(id);
