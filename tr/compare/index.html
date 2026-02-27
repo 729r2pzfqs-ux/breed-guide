@@ -4237,10 +4237,7 @@
                                         <div class="w-2 h-6 rounded-full ${n <= b[key] ? 'bg-gradient-to-t from-sky-500 to-blue-600' : 'bg-slate-200'}"></div>
                                     `).join('')}
                                 </div>
-                            ` : (key === 'origin' ? getTranslatedOrigin(b[key], pageLang) : 
-                                key === 'size' ? getTranslatedSize(b[key], pageLang) :
-                                key === 'lifespan' ? getTranslatedLifespan(b[key], pageLang) :
-                                b[key])}`
+                            ` : b[key]}`
                         </td>
                     `).join('')}
                 </tr>
