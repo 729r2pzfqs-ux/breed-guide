@@ -257,7 +257,45 @@
         }
         let fuse = null;
 
-        async function loadBreeds() {
+        
+        function applyUrlParams() {
+            const params = new URLSearchParams(window.location.search);
+            
+            const size = params.get('size');
+            if (size) {
+                const checkbox = document.querySelector(`.size-filter[value="${size}"]`);
+                if (checkbox) checkbox.checked = true;
+            }
+            
+            if (params.get('apartment') === '1') {
+                document.getElementById('apartmentOk').checked = true;
+            }
+            
+            if (params.get('kids') === '1') {
+                document.getElementById('kidFriendly').checked = true;
+            }
+            
+            if (params.get('train') === '1') {
+                document.getElementById('trainabilityEnabled').checked = true;
+                document.getElementById('trainabilityFilter').value = 4;
+            }
+            
+            const q = params.get('q');
+            if (q) {
+                document.getElementById('searchInput').value = q;
+            }
+            
+            const shedding = params.get('shedding');
+            if (shedding) {
+                const checkbox = document.querySelector(`.shed-filter[value="${shedding}"]`);
+                if (checkbox) checkbox.checked = true;
+            }
+            
+            toggleFilterControls();
+            updateSliderLabels();
+        }
+
+async function loadBreeds() {
             await loadTranslations();
             const response = await fetch('../../data/breeds.json');
             allBreeds = await response.json();
@@ -266,7 +304,6 @@
                 threshold: 0.4,
                 includeScore: true
             });
-            applyFilters();
         }
 
         function renderBreedCard(breed) {
@@ -449,7 +486,10 @@
         document.getElementById('resetFilters').addEventListener('click', resetFilters);
         document.querySelectorAll('.size-filter, .shed-filter').forEach(cb => cb.addEventListener('change', applyFilters));
 
-        loadBreeds();
+        loadBreeds().then(() => {
+            applyUrlParams();
+            applyFilters();
+        });
     </script>
 </body>
 </html>
