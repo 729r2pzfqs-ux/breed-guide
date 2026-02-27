@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="../../data/i18n.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
@@ -278,9 +279,10 @@
                 large: 'bg-orange-100 text-orange-700',
                 giant: 'bg-red-100 text-red-700'
             };
-            const temperamentTags = breed.temperament.slice(0, 3).map(t => 
-                `<span class="tag bg-slate-100 text-slate-600">${t}</span>`
-            ).join('');
+            const temperamentTags = breed.temperament.slice(0, 3).map(t => {
+                const translated = (i18n.temperaments && i18n.temperaments[pageLang] && i18n.temperaments[pageLang][t]) || t;
+                return `<span class="tag bg-slate-100 text-slate-600">${translated}</span>`;
+            }).join('');
 
             return `
                 <a href="../breeds/${breed.id}.html" class="breed-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden block">
@@ -293,7 +295,7 @@
                     </div>
                     <div class="p-4">
                         <h3 class="font-semibold text-slate-800 text-lg mb-1">${getBreedName(breed)}</h3>
-                        <p class="text-slate-600 text-sm mb-3">${breed.origin} · ${breed.lifespan}</p>
+                        <p class="text-slate-600 text-sm mb-3">${getTranslatedOrigin(breed.origin, pageLang)} · ${getTranslatedLifespan(breed.lifespan, pageLang)}</p>
                         <div class="flex flex-wrap gap-1 mb-3">${temperamentTags}</div>
                         <div class="grid grid-cols-3 gap-2 text-center text-xs">
                             <div class="bg-slate-50 rounded-lg py-2">
@@ -420,7 +422,7 @@
             searchDropdown.innerHTML = matches.map(b => `
                 <a href="../breeds/${b.id}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition border-b border-slate-100 last:border-0">
                     <img src="../../images/heads/${b.id}.webp" alt="${getBreedName(b)}" class="w-10 h-10 rounded-xl object-cover">
-                    <div><div class="font-medium text-slate-800">${getBreedName(b)}</div><div class="text-sm text-slate-600">${b.group} · ${b.size.category}</div></div>
+                    <div><div class="font-medium text-slate-800">${getBreedName(b)}</div><div class="text-sm text-slate-600">${getTranslatedGroup(b.group, pageLang)} · ${getTranslatedSize(b.size.category, pageLang)}</div></div>
                 </a>
             `).join('');
             searchDropdown.classList.remove('hidden');
