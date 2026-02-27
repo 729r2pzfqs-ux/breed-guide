@@ -397,7 +397,7 @@
         if (homeSearch && dropdown) {
             homeSearch.addEventListener('input', function() {
                 const query = this.value.trim().toLowerCase();
-                if (query.length < 1) { dropdown.classList.add('hidden'); return; }
+                if (query.length < 1 || breeds.length === 0) { dropdown.classList.add('hidden'); return; }
                 const matches = breeds.filter(b => b.name.toLowerCase().includes(query) || (b.localName && b.localName.toLowerCase().includes(query)) || (b.aliases && b.aliases.some(a => a.toLowerCase().includes(query)))).slice(0, 8);
                 if (matches.length === 0) { dropdown.classList.add('hidden'); return; }
                 dropdown.innerHTML = matches.map(b => `
