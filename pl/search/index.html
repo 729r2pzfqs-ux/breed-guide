@@ -235,9 +235,29 @@
     <script>
         lucide.createIcons();
         let allBreeds = [];
+        let breedTranslations = {};
+        const currentLang = 'pl';
+        
+        // Load breed name translations
+        async function loadTranslations() {
+            try {
+                const res = await fetch('../../data/breed_names_pl.json');
+                breedTranslations = await res.json();
+            } catch(e) { console.log('No translations'); }
+        }
+        
+        function getBreedName(breed) {
+            return breedTranslations[breed.id] || breed.name;
+        }
+        
+        function getSizeLabel(size) {
+            const labels = {'tiny': 'Malutki', 'small': 'Mały', 'medium': 'Średni', 'large': 'Duży', 'giant': 'Olbrzymi'};
+            return labels[size] || size;
+        }
         let fuse = null;
 
         async function loadBreeds() {
+            await loadTranslations();
             const response = await fetch('../../data/breeds.json');
             allBreeds = await response.json();
             fuse = new Fuse(allBreeds, {
@@ -265,28 +285,27 @@
             return `
                 <a href="../breeds/${breed.id}.html" class="breed-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden block">
                     <div class="aspect-[4/5] bg-slate-100 relative overflow-hidden">
-                        <img src="${imageUrl}" alt="${breed.name}" 
+                        <img src="${imageUrl}" alt="${getBreedName(breed)}" 
                             class="w-full h-full object-cover object-top"
                             onerror="this.onerror=null; this.src='${fallbackUrl}';">
                         <span class="absolute top-2 right-2 tag ${sizeColors[breed.size.category] || 'bg-slate-100 text-slate-600'}">
-                            ${breed.size.category}
-                        </span>
+                            ${getSizeLabel(breed.size.category)}</span>
                     </div>
                     <div class="p-4">
-                        <h3 class="font-semibold text-slate-800 text-lg mb-1">${breed.name}</h3>
+                        <h3 class="font-semibold text-slate-800 text-lg mb-1">${getBreedName(breed)}</h3>
                         <p class="text-slate-600 text-sm mb-3">${breed.origin} · ${breed.lifespan}</p>
                         <div class="flex flex-wrap gap-1 mb-3">${temperamentTags}</div>
                         <div class="grid grid-cols-3 gap-2 text-center text-xs">
                             <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-600">Energy</div>
+                                <div class="text-slate-600">Energia</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.energy)}${'○'.repeat(5-breed.ratings.energy)}</div>
                             </div>
                             <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-600">Groom</div>
+                                <div class="text-slate-600">Pielęgn.</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.grooming)}${'○'.repeat(5-breed.ratings.grooming)}</div>
                             </div>
                             <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-600">Train</div>
+                                <div class="text-slate-600">Trening</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.trainability)}${'○'.repeat(5-breed.ratings.trainability)}</div>
                             </div>
                         </div>
@@ -393,15 +412,15 @@
                 searchDropdown.classList.add('hidden');
                 return;
             }
-            const matches = allBreeds.filter(b => b.name.toLowerCase().includes(query.toLowerCase())).slice(0, 8);
+            const matches = allBreeds.filter(b => b.name.toLowerCase().includes(query.toLowerCase()) || getBreedName(b).toLowerCase().includes(query.toLowerCase()) || (b.aliases && b.aliases.some(a => a.toLowerCase().includes(query.toLowerCase())))).slice(0, 8);
             if (matches.length === 0) {
                 searchDropdown.classList.add('hidden');
                 return;
             }
             searchDropdown.innerHTML = matches.map(b => `
                 <a href="../breeds/${b.id}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition border-b border-slate-100 last:border-0">
-                    <img src="../../images/heads/${b.id}.webp" alt="${b.name}" class="w-10 h-10 rounded-xl object-cover">
-                    <div><div class="font-medium text-slate-800">${b.name}</div><div class="text-sm text-slate-600">${b.group} · ${b.size.category}</div></div>
+                    <img src="../../images/heads/${b.id}.webp" alt="${getBreedName(b)}" class="w-10 h-10 rounded-xl object-cover">
+                    <div><div class="font-medium text-slate-800">${getBreedName(b)}</div><div class="text-sm text-slate-600">${b.group} · ${b.size.category}</div></div>
                 </a>
             `).join('');
             searchDropdown.classList.remove('hidden');

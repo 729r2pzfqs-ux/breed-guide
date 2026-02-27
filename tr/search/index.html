@@ -272,12 +272,32 @@
 
         // State
         let allBreeds = [];
+        let breedTranslations = {};
+        const currentLang = 'tr';
+        
+        // Load breed name translations
+        async function loadTranslations() {
+            try {
+                const res = await fetch('../../data/breed_names_tr.json');
+                breedTranslations = await res.json();
+            } catch(e) { console.log('No translations'); }
+        }
+        
+        function getBreedName(breed) {
+            return breedTranslations[breed.id] || breed.name;
+        }
+        
+        function getSizeLabel(size) {
+            const labels = {'tiny': 'Minik', 'small': 'Küçük', 'medium': 'Orta', 'large': 'Büyük', 'giant': 'Dev'};
+            return labels[size] || size;
+        }
         let fuse = null;
 
         // Load breed data
         async function loadBreeds() {
             try {
-                const response = await fetch('../../data/breeds.json');
+                await loadTranslations();
+            const response = await fetch('../../data/breeds.json');
                 allBreeds = await response.json();
                 
                 // Initialize Fuse.js for fuzzy search
@@ -311,15 +331,14 @@
             return `
                 <a href="../breeds/${breed.id}.html" class="breed-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden block">
                     <div class="aspect-[4/5] bg-slate-100 relative overflow-hidden">
-                        <img src="${imageUrl}" alt="${breed.name}" 
+                        <img src="${imageUrl}" alt="${getBreedName(breed)}" 
                             class="w-full h-full object-cover object-top"
                             onerror="this.onerror=null; this.src='${fallbackUrl}'; this.onerror=function(){this.parentElement.innerHTML='<div class=\\'w-full h-full flex items-center justify-center\\'><i data-lucide=\\'dog\\' class=\\'w-16 h-16 text-slate-600\\'></i></div>'; lucide.createIcons();}">
                         <span class="absolute top-2 right-2 tag ${sizeColors[breed.size.category] || 'bg-slate-100 text-slate-600'}">
-                            ${breed.size.category}
-                        </span>
+                            ${getSizeLabel(breed.size.category)}</span>
                     </div>
                     <div class="p-4">
-                        <h3 class="font-semibold text-slate-800 text-lg mb-1">${breed.name}</h3>
+                        <h3 class="font-semibold text-slate-800 text-lg mb-1">${getBreedName(breed)}</h3>
                         <p class="text-slate-600 text-sm mb-3">${breed.origin} · ${breed.lifespan}</p>
                         <div class="flex flex-wrap gap-1 mb-3">
                             ${temperamentTags}
@@ -494,7 +513,7 @@
                 <a href="../breeds/${b.id}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition first:rounded-t-2xl last:rounded-b-2xl border-b border-slate-100 last:border-0">
                     <img src="../../images/heads/${b.id}.webp" alt="${b.name}" class="w-10 h-10 rounded-xl object-cover object-top" onerror="this.style.display='none'">
                     <div>
-                        <div class="font-medium text-slate-800">${b.name}</div>
+                        <div class="font-medium text-slate-800">${getBreedName(b)}</div>
                         <div class="text-sm text-slate-600">${b.group} · ${b.size.category}</div>
                     </div>
                 </a>
