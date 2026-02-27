@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Translate breed names in breed pages for a specific language.
-Updates: title, h1, meta descriptions, breadcrumbs, og/twitter tags
+Translate breed names in breed pages AND front page for a specific language.
+Updates: title, h1, meta descriptions, breadcrumbs, og/twitter tags, hero sections
 """
 
 import json
@@ -17,6 +17,42 @@ def load_translations(lang):
         sys.exit(1)
     with open(path, 'r', encoding='utf-8') as f:
         return json.load(f)
+
+def translate_front_page(lang, translations, breed_names):
+    """Update the front page (index.html) with localized breed names."""
+    filepath = f"{lang}/index.html"
+    if not os.path.exists(filepath):
+        return 0
+    
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    original = content
+    changes = 0
+    
+    for slug, english_name in breed_names.items():
+        local_name = translations.get(slug, english_name)
+        if english_name == local_name:
+            continue
+        
+        # Update alt text on breed images
+        old_alt = f'alt="{english_name}"'
+        new_alt = f'alt="{local_name}"'
+        if old_alt in content:
+            content = content.replace(old_alt, new_alt)
+            changes += 1
+        
+        # Update breed name in card (font-semibold div after the image)
+        # Pattern: after breeds/{slug}.html link, find the font-semibold div
+        pattern = rf'(href="breeds/{re.escape(slug)}\.html"[^>]*>.*?<div class="font-semibold[^"]*"[^>]*>){re.escape(english_name)}(</div>)'
+        replacement = rf'\g<1>{local_name}\g<2>'
+        content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+    
+    if content != original:
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(content)
+        return changes
+    return 0
 
 def translate_breed_page(filepath, slug, english_name, local_name):
     """Update a breed page with the localized name."""
@@ -160,7 +196,12 @@ def main():
         else:
             skipped += 1
     
-    print(f"\n✅ Updated: {updated} | Skipped: {skipped}")
+    print(f"\n✅ Breed pages - Updated: {updated} | Skipped: {skipped}")
+    
+    # Also update front page
+    front_changes = translate_front_page(lang, translations, breed_names)
+    if front_changes > 0:
+        print(f"✅ Front page - Updated {front_changes} breed names")
 
 if __name__ == "__main__":
     main()
