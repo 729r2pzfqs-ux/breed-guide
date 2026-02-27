@@ -373,27 +373,23 @@
         let breeds = [];
         let breedTranslations = {};
         
-        // Load translations first, then breeds
-        fetch('../data/breed_names_pl.json')
-            .then(r => r.json())
-            .then(trans => { breedTranslations = trans; })
-            .catch(() => {});
-        
-        fetch('../data/breeds.json')
-            .then(r => r.json())
-            .then(data => { 
+        // Load translations and breeds with proper async
+        (async function() {
+            try {
+                const [transRes, breedsRes] = await Promise.all([
+                    fetch('../data/breed_names_pl.json').catch(() => null),
+                    fetch('../data/breeds.json')
+                ]);
+                if (transRes) breedTranslations = await transRes.json();
+                const data = await breedsRes.json();
                 breeds = data.map(b => ({
-                    name: b.name, 
+                    name: b.name,
                     slug: b.id,
                     localName: breedTranslations[b.id] || b.name,
                     aliases: b.aliases || []
-                })); 
-                // Update localName after translations load
-                setTimeout(() => {
-                    breeds = breeds.map(b => ({...b, localName: breedTranslations[b.slug] || b.name}));
-                }, 100);
-            })
-            .catch(e => console.error('Failed to load breeds:', e));
+                }));
+            } catch(e) { console.error('Failed to load breeds:', e); }
+        })();
         
         const homeSearch = document.getElementById('home-search');
         const dropdown = document.getElementById('search-dropdown');
