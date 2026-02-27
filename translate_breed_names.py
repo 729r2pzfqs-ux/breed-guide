@@ -134,10 +134,45 @@ def translate_breed_page(filepath, slug, english_name, local_name):
         content
     )
     
-    # Update breadcrumb
+    # Update breadcrumb (both variants)
     content = re.sub(
         rf'<span class="text-slate-800">{re.escape(english_name)}</span>',
         f'<span class="text-slate-800">{local_name}</span>',
+        content
+    )
+    content = re.sub(
+        rf'<span class="text-slate-700 font-medium">{re.escape(english_name)}</span>',
+        f'<span class="text-slate-700 font-medium">{local_name}</span>',
+        content
+    )
+    
+    # Update image alt text
+    content = re.sub(
+        rf'alt="{re.escape(english_name)}"',
+        f'alt="{local_name}"',
+        content
+    )
+    
+    # Update any remaining instances of "the {breed}" pattern
+    content = re.sub(
+        rf'\bthe {re.escape(english_name)}\b',
+        f'the {local_name}',
+        content,
+        flags=re.IGNORECASE
+    )
+    
+    # Update "The {breed} is" pattern
+    content = re.sub(
+        rf'\bThe {re.escape(english_name)} is\b',
+        f'{local_name} is',
+        content
+    )
+    
+    # Update standalone breed name in text (be careful with this one)
+    # Only replace in specific contexts like verdict sections
+    content = re.sub(
+        rf'<strong>Meidän Arvio:</strong> The {re.escape(english_name)} is',
+        f'<strong>Meidän Arvio:</strong> {local_name} on',
         content
     )
     
