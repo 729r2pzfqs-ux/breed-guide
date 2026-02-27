@@ -2,7 +2,11 @@
   {
     "id": "affenpinscher",
     "name": "Affenpinscher",
-    "aliases": [],
+    "aliases": [
+      "アーフェンピンシャー",
+      "猴面犬",
+      "Аффенпинчер"
+    ],
     "group": "toy",
     "origin": "Germany",
     "lifespan": "12-15 years",
@@ -66,8 +70,22 @@
     "id": "afghan-hound",
     "name": "Afghan Hound",
     "aliases": [
+      "Afghanhund",
       "Tazi",
-      "Baluchi Hound"
+      "Afganinvinttikoira",
+      "Baluchi Hound",
+      "Lévrier Afghan",
+      "Lebrel Afgano",
+      "Afghaanse Windhond",
+      "アフガン・ハウンド",
+      "Afghansk Mynde",
+      "Chart Afgański",
+      "Afgan Tazısı",
+      "阿富汗猎犬",
+      "Афганская борзая",
+      "Galgo Afegão",
+      "Levriero Afgano",
+      "Afghanischer Windhund"
     ],
     "group": "hound",
     "origin": "Afghanistan",
@@ -130,7 +148,12 @@
     "id": "airedale-terrier",
     "name": "Airedale Terrier",
     "aliases": [
+      "Airedalenterrieri",
       "King of Terriers",
+      "Эрдельтерьер",
+      "エアデール・テリア",
+      "Airedaleterrier",
+      "万能梗",
       "Bingley Terrier",
       "Waterside Terrier"
     ],
@@ -196,8 +219,10 @@
     "name": "Akita",
     "aliases": [
       "Akita Inu",
-      "Japanese Akita",
-      "American Akita"
+      "American Akita",
+      "Акита",
+      "秋田犬",
+      "Japanese Akita"
     ],
     "group": "working",
     "origin": "Japan",
@@ -262,7 +287,10 @@
     "name": "Alaskan Klee Kai",
     "aliases": [
       "Klee Kai",
-      "Mini Husky"
+      "Аляскинский кли-кай",
+      "Mini Husky",
+      "阿拉斯加克利凯犬",
+      "アラスカン・クリー・カイ"
     ],
     "group": "non-sporting",
     "origin": "United States",
@@ -327,6 +355,14 @@
     "id": "alaskan-malamute",
     "name": "Alaskan Malamute",
     "aliases": [
+      "Аляскинский маламут",
+      "Malamute de Alaska",
+      "阿拉斯加雪橇犬",
+      "Malamute do Alasca",
+      "アラスカン・マラミュート",
+      "Malamute de l'Alaska",
+      "Alaskanmalamuutti",
+      "Alaska Malamut",
       "Malamute",
       "Mal"
     ],
@@ -403,7 +439,20 @@
     "id": "american-bulldog",
     "name": "American Bulldog",
     "aliases": [
+      "Buldogue Americano",
+      "Amerikan Bulldog",
+      "Buldog Amerykański",
+      "アメリカン・ブルドッグ",
+      "Amerikansk Bulldog",
+      "Amerikansk Bulldogg",
+      "Amerikaanse Bulldog",
+      "Amerikanische Bulldogge",
       "AmBull",
+      "Bouledogue Américain",
+      "Bulldog Americano",
+      "Американский бульдог",
+      "美国斗牛犬",
+      "Amerikanenbulldoggi",
       "Old Country Bulldog"
     ],
     "group": "working",
@@ -470,7 +519,21 @@
   {
     "id": "american-english-coonhound",
     "name": "American English Coonhound",
-    "aliases": [],
+    "aliases": [
+      "Американский английский кунхаунд",
+      "Coonhound Inglés Americano",
+      "アメリカン・イングリッシュ・クーンハウンド",
+      "Coonhound Inglese Americano",
+      "Coonhound Anglais Américain",
+      "Coonhound Inglês Americano",
+      "美国英国猎浣熊犬",
+      "Amerikansk Engelsk Coonhound",
+      "Coonhound Angielski Amerykański",
+      "Amerikanenglannin­ajokoira",
+      "Amerikan İngiliz Coonhound",
+      "Amerikansk Coonhound",
+      "Amerikaanse Engelse Coonhound"
+    ],
     "group": "hound",
     "origin": "United States",
     "lifespan": "11-12 years",
@@ -532,8 +595,21 @@
     "id": "american-eskimo-dog",
     "name": "American Eskimo Dog",
     "aliases": [
+      "美国爱斯基摩犬",
+      "Amerikansk Eskimohund",
+      "Amerikaanse Eskimohond",
+      "Perro Esquimal Americano",
+      "American Spitz",
+      "Spitz Americano",
+      "Amerykański Pies Eskimoski",
+      "Американский эскимосский шпиц",
+      "アメリカン・エスキモー・ドッグ",
+      "Amerikanischer Eskimohund",
+      "Amerikansk Eskimåhund",
+      "Spitz Américain",
       "Eskie",
-      "American Spitz"
+      "Amerikaneskimokoira",
+      "Amerikan Eskimo Köpeği"
     ],
     "group": "non-sporting",
     "origin": "Germany/United States",
@@ -596,7 +672,19 @@
   {
     "id": "american-foxhound",
     "name": "American Foxhound",
-    "aliases": [],
+    "aliases": [
+      "Amerikan Foxhound",
+      "Amerikansk Foxhound",
+      "Amerikanajokoira",
+      "Amerikanischer Foxhound",
+      "Foxhound Amerykański",
+      "美国猎狐犬",
+      "Foxhound Americano",
+      "アメリカン・フォックスハウンド",
+      "Amerikaanse Foxhound",
+      "Foxhound Américain",
+      "Американский фоксхаунд"
+    ],
     "group": "hound",
     "origin": "United States",
     "lifespan": "11-13 years",
@@ -655,7 +743,22 @@
   {
     "id": "american-hairless-terrier",
     "name": "American Hairless Terrier",
-    "aliases": [],
+    "aliases": [
+      "Amerikan Tüysüz Terrier",
+      "Terrier Américain Sans Poil",
+      "Terrier Americano Sem Pelo",
+      "Amerikanenkarvaton­terrieri",
+      "Amerikaanse Naakthond",
+      "美国无毛梗",
+      "Amerykański Terier Bezwłosy",
+      "アメリカン・ヘアレス・テリア",
+      "Terrier Americano Senza Pelo",
+      "Amerikanischer Nackthund",
+      "Американский голый терьер",
+      "Terrier Americano Sin Pelo",
+      "Amerikansk Nakenterrier",
+      "Amerikansk Hårløs Terrier"
+    ],
     "group": "terrier",
     "origin": "United States",
     "lifespan": "14-16 years",
@@ -715,8 +818,14 @@
     "id": "american-staffordshire-terrier",
     "name": "American Staffordshire Terrier",
     "aliases": [
+      "Amerikansk Staffordshire Terrier",
+      "Amerikanstaffordshire­terrieri",
+      "美国史特富郡梗",
+      "Staffie",
+      "Американский стаффордширский терьер",
+      "Amerikan Staffordshire Terrier",
       "AmStaff",
-      "Staffie"
+      "アメリカン・スタッフォードシャー・テリア"
     ],
     "group": "terrier",
     "origin": "United States",
@@ -781,7 +890,23 @@
   {
     "id": "american-water-spaniel",
     "name": "American Water Spaniel",
-    "aliases": [],
+    "aliases": [
+      "Amerikanischer Wasserspaniel",
+      "Amerykański Spaniel Wodny",
+      "Amerikaanse Waterspaniël",
+      "Amerikanenvesikoira",
+      "Spaniel d'Acqua Americano",
+      "アメリカン・ウォーター・スパニエル",
+      "Amerikansk Vattenspaniel",
+      "Amerikansk Vannspaniel",
+      "Американский водяной спаниель",
+      "Spaniel de Agua Americano",
+      "Amerikansk Vandspaniel",
+      "Amerikan Su Spanieli",
+      "美国水猎犬",
+      "Épagneul d'Eau Américain",
+      "Spaniel de Água Americano"
+    ],
     "group": "sporting",
     "origin": "United States",
     "lifespan": "10-14 years",
@@ -843,9 +968,24 @@
     "id": "anatolian-shepherd",
     "name": "Anatolian Shepherd",
     "aliases": [
+      "Anatolisk Herdehund",
+      "Pastor de Anatolia",
+      "Anatolische Herdershond",
+      "Anadolu Çoban Köpeği",
+      "Anatolsk Hyrdehund",
+      "Anatolianpaimenkoira",
+      "Anatolian Karabash",
       "Kangal Dog",
+      "Berger d'Anatolie",
+      "Owczarek Anatolijski",
+      "Anatolischer Hirtenhund",
+      "Anatolsk Gjeterhund",
+      "Pastore dell'Anatolia",
+      "安纳托利亚牧羊犬",
       "Karabash",
-      "Anatolian Karabash"
+      "アナトリアン・シェパード",
+      "Pastor da Anatólia",
+      "Анатолийская овчарка"
     ],
     "group": "working",
     "origin": "Turkey",
@@ -910,7 +1050,17 @@
   {
     "id": "appenzeller-sennenhund",
     "name": "Appenzeller Sennenhund",
-    "aliases": [],
+    "aliases": [
+      "Bovaro dell'Appenzell",
+      "Appenzeller Sennenhond",
+      "阿彭策尔山地犬",
+      "Boiadeiro de Appenzell",
+      "Appenzellinsennenhund",
+      "Bouvier de l'Appenzell",
+      "Boyero de Appenzell",
+      "Аппенцеллер зенненхунд",
+      "アッペンツェラー・ゼネンフント"
+    ],
     "group": "herding",
     "origin": "Switzerland",
     "lifespan": "12-15 years",
@@ -970,10 +1120,24 @@
     "id": "australian-cattle-dog",
     "name": "Australian Cattle Dog",
     "aliases": [
-      "ACD",
-      "Blue Heeler",
+      "Australische Veedrijvershond",
+      "澳大利亚牧牛犬",
+      "Boiadeiro Australiano",
+      "Australisk Boskapshund",
+      "Австралийская пастушья собака",
       "Red Heeler",
-      "Queensland Heeler"
+      "Australsk Kvegdriver",
+      "Avustralya Sığır Köpeği",
+      "Blue Heeler",
+      "Bouvier Australien",
+      "Australiankarjakoira",
+      "Queensland Heeler",
+      "Boyero Australiano",
+      "オーストラリアン・キャトル・ドッグ",
+      "Bovaro Australiano",
+      "Australsk Kvæghund",
+      "ACD",
+      "Australijski Pies Pasterski"
     ],
     "group": "herding",
     "origin": "Australia",
@@ -1040,7 +1204,20 @@
     "id": "australian-shepherd",
     "name": "Australian Shepherd",
     "aliases": [
-      "Aussie"
+      "オーストラリアン・シェパード",
+      "Australianpaimenkoira",
+      "Австралийская овчарка",
+      "Owczarek Australijski",
+      "澳大利亚牧羊犬",
+      "Berger Australien",
+      "Avustralya Çoban Köpeği",
+      "Pastor Australiano",
+      "Australische Herder",
+      "Australsk Gjeterhund",
+      "Pastore Australiano",
+      "Australisk Herdehund",
+      "Aussie",
+      "Australsk Hyrdehund"
     ],
     "group": "herding",
     "origin": "United States",
@@ -1107,7 +1284,19 @@
   {
     "id": "australian-terrier",
     "name": "Australian Terrier",
-    "aliases": [],
+    "aliases": [
+      "Австралийский терьер",
+      "Terrier Australiano",
+      "Terier Australijski",
+      "Avustralya Terrier",
+      "澳大利亚梗",
+      "Australisk Terrier",
+      "オーストラリアン・テリア",
+      "Terrier Australien",
+      "Australsk Terrier",
+      "Australianterrieri",
+      "Australische Terriër"
+    ],
     "group": "terrier",
     "origin": "Australia",
     "lifespan": "11-15 years",
@@ -1168,7 +1357,12 @@
   {
     "id": "azawakh",
     "name": "Azawakh",
-    "aliases": [],
+    "aliases": [
+      "Azavak",
+      "阿扎瓦克犬",
+      "Азавак",
+      "アザワク"
+    ],
     "group": "hound",
     "origin": "West Africa (Mali, Niger, Burkina Faso)",
     "lifespan": "12-15 years",
@@ -1232,7 +1426,11 @@
   {
     "id": "barbet",
     "name": "Barbet",
-    "aliases": [],
+    "aliases": [
+      "巴贝犬",
+      "バルベ",
+      "Барбет"
+    ],
     "group": "sporting",
     "origin": "France",
     "lifespan": "12-14 years",
@@ -1296,8 +1494,11 @@
     "id": "basenji",
     "name": "Basenji",
     "aliases": [
-      "African Barkless Dog",
-      "Congo Dog"
+      "巴仙吉犬",
+      "バセンジー",
+      "Басенджи",
+      "Congo Dog",
+      "African Barkless Dog"
     ],
     "group": "hound",
     "origin": "Central Africa",
@@ -1363,6 +1564,9 @@
     "id": "basset-hound",
     "name": "Basset Hound",
     "aliases": [
+      "バセット・ハウンド",
+      "Бассет-хаунд",
+      "巴吉度猎犬",
       "Basset"
     ],
     "group": "hound",
@@ -1428,7 +1632,11 @@
   {
     "id": "beagle",
     "name": "Beagle",
-    "aliases": [],
+    "aliases": [
+      "比格犬",
+      "Бигль",
+      "ビーグル"
+    ],
     "group": "hound",
     "origin": "England",
     "lifespan": "12-15 years",
@@ -1495,9 +1703,12 @@
     "id": "beauceron",
     "name": "Beauceron",
     "aliases": [
-      "Berger de Beauce",
+      "Босерон",
+      "ボースロン",
+      "波瑟龙犬",
       "French Shorthaired Shepherd",
-      "Bas Rouge"
+      "Bas Rouge",
+      "Berger de Beauce"
     ],
     "group": "herding",
     "origin": "France",
@@ -1560,7 +1771,14 @@
   {
     "id": "bedlington-terrier",
     "name": "Bedlington Terrier",
-    "aliases": [],
+    "aliases": [
+      "Бедлингтон-терьер",
+      "ベドリントン・テリア",
+      "Bedlingtoninterrieri",
+      "Bedlington Terriër",
+      "贝灵顿梗",
+      "Bedlingtonterrier"
+    ],
     "group": "terrier",
     "origin": "England",
     "lifespan": "11-16 years",
@@ -1622,8 +1840,22 @@
     "id": "belgian-laekenois",
     "name": "Belgian Laekenois",
     "aliases": [
+      "Belgisk Gjeterhund Laekenois",
+      "Belgisk Laekenois",
+      "Owczarek Belgijski Laekenois",
+      "ベルジアン・ラケノア",
+      "Бельгийская овчарка лакенуа",
       "Laeken",
-      "Belgian Shepherd Laekenois"
+      "Pastore Belga Laekenois",
+      "Belgisk Hyrdehund Laekenois",
+      "Berger Belge Laekenois",
+      "Pastor Belga Laekenois",
+      "比利时拉坎诺斯犬",
+      "Belgianpaimenkoira Laekenois",
+      "Belgian Shepherd Laekenois",
+      "Belçika Çoban Köpeği Laekenois",
+      "Belgische Herder Laekenois",
+      "Belgischer Schäferhund Laekenois"
     ],
     "group": "herding",
     "origin": "Belgium",
@@ -1686,7 +1918,21 @@
     "id": "belgian-malinois",
     "name": "Belgian Malinois",
     "aliases": [
+      "Pastore Belga Malinois",
+      "Belgischer Schäferhund Malinois",
+      "Owczarek Belgijski Malinois",
+      "Pastor Belga Malinois",
       "Malinois",
+      "ベルジアン・マリノア",
+      "Belgische Herder Malinois",
+      "Belçika Çoban Köpeği Malinois",
+      "比利时马林诺斯犬",
+      "Belgianpaimenkoira Malinois",
+      "Belgisk Malinois",
+      "Бельгийская овчарка малинуа",
+      "Belgisk Gjeterhund Malinois",
+      "Belgisk Hyrdehund Malinois",
+      "Berger Belge Malinois",
       "Mal"
     ],
     "group": "herding",
@@ -1751,8 +1997,22 @@
     "id": "belgian-sheepdog",
     "name": "Belgian Sheepdog",
     "aliases": [
+      "Belgisk Gjeterhund Groenendael",
+      "Belgisk Vallhund",
+      "Owczarek Belgijski Groenendael",
+      "Бельгийская овчарка грюнендаль",
+      "Belgian Groenendael",
+      "Pastor Belga Groenendael",
+      "Berger Belge Groenendael",
+      "比利时牧羊犬",
+      "ベルジアン・シェパード・ドッグ",
+      "Belgischer Schäferhund Groenendael",
       "Groenendael",
-      "Belgian Groenendael"
+      "Pastore Belga Groenendael",
+      "Belgisk Hyrdehund Groenendael",
+      "Belçika Çoban Köpeği Groenendael",
+      "Belgische Herder Groenendael",
+      "Belgianpaimenkoira Groenendael"
     ],
     "group": "herding",
     "origin": "Belgium",
@@ -1815,8 +2075,22 @@
     "id": "belgian-tervuren",
     "name": "Belgian Tervuren",
     "aliases": [
+      "比利时特伏丹犬",
+      "ベルジアン・タービュレン",
+      "Belgianpaimenkoira Tervueren",
+      "Belgisk Hyrdehund Tervueren",
+      "Berger Belge Tervueren",
+      "Owczarek Belgijski Tervueren",
+      "Belgisk Tervuren",
+      "Pastor Belga Tervueren",
+      "Terv",
       "Tervuren",
-      "Terv"
+      "Belgische Herder Tervuren",
+      "Belgisk Gjeterhund Tervueren",
+      "Belgischer Schäferhund Tervueren",
+      "Бельгийская овчарка тервюрен",
+      "Pastore Belga Tervueren",
+      "Belçika Çoban Köpeği Tervuren"
     ],
     "group": "herding",
     "origin": "Belgium",
@@ -1878,7 +2152,22 @@
   {
     "id": "bergamasco-sheepdog",
     "name": "Bergamasco Sheepdog",
-    "aliases": [],
+    "aliases": [
+      "Berger de Bergame",
+      "Bergamasco Hyrdehund",
+      "Pastor Bergamasco",
+      "Pastore Bergamasco",
+      "Owczarek Bergamasco",
+      "Bergamasco",
+      "Bergamasco Çoban Köpeği",
+      "贝加马斯科牧羊犬",
+      "ベルガマスコ・シープドッグ",
+      "Bergamasco Herdershond",
+      "Бергамская овчарка",
+      "Bergamasker Hirtenhund",
+      "Bergamasco Gjeterhund",
+      "Bergamasconpaimenkoira"
+    ],
     "group": "herding",
     "origin": "Italy",
     "lifespan": "13-15 years",
@@ -1938,7 +2227,14 @@
   {
     "id": "berger-picard",
     "name": "Berger Picard",
-    "aliases": [],
+    "aliases": [
+      "ベルジェ・ピカール",
+      "Пикардийская овчарка",
+      "Pastor de Picardía",
+      "Berger de Picardie",
+      "皮卡迪牧羊犬",
+      "Pastor da Picardia"
+    ],
     "group": "herding",
     "origin": "France",
     "lifespan": "12-13 years",
@@ -1999,8 +2295,20 @@
     "id": "bernese-mountain-dog",
     "name": "Bernese Mountain Dog",
     "aliases": [
-      "Berner",
-      "BMD"
+      "Boiadeiro de Berna",
+      "Berneński Pies Pasterski",
+      "Бернский зенненхунд",
+      "Berninpaimenkoira",
+      "Bovaro del Bernese",
+      "Bouvier Bernois",
+      "Berner Sennenhund",
+      "伯恩山犬",
+      "Boyero de Berna",
+      "Berner Sennenhond",
+      "Bern Dağ Köpeği",
+      "バーニーズ・マウンテン・ドッグ",
+      "BMD",
+      "Berner"
     ],
     "group": "working",
     "origin": "Switzerland",
@@ -2064,6 +2372,12 @@
     "id": "bichon-frise",
     "name": "Bichon Frise",
     "aliases": [
+      "Bichon Frisé",
+      "Bichón Frisé",
+      "比熊犬",
+      "Bichon à Poil Frisé",
+      "Бишон фризе",
+      "ビション・フリーゼ",
       "Bichon"
     ],
     "group": "non-sporting",
@@ -2186,7 +2500,21 @@
   {
     "id": "black-and-tan-coonhound",
     "name": "Black and Tan Coonhound",
-    "aliases": [],
+    "aliases": [
+      "Coonhound Nero Focato",
+      "黑褐猎浣熊犬",
+      "Coonhound Negro y Fuego",
+      "Siyah ve Tan Coonhound",
+      "Mustapalokinen Coonhound",
+      "Coonhound Czarno-Podpalany",
+      "ブラック・アンド・タン・クーンハウンド",
+      "Zwart-Bruine Coonhound",
+      "Svart og Tan Coonhound",
+      "Coonhound Noir et Feu",
+      "Чёрно-подпалый кунхаунд",
+      "Sort og Tan Coonhound",
+      "Coonhound Preto e Castanho"
+    ],
     "group": "hound",
     "origin": "United States",
     "lifespan": "10-12 years",
@@ -2245,7 +2573,23 @@
   {
     "id": "black-russian-terrier",
     "name": "Black Russian Terrier",
-    "aliases": [],
+    "aliases": [
+      "Zwarte Russische Terriër",
+      "Svart Russisk Terrier",
+      "Schwarzer Russischer Terrier",
+      "Terrier Nero Russo",
+      "俄罗斯黑梗",
+      "ブラック・ロシアン・テリア",
+      "Czarny Terier Rosyjski",
+      "Sort Russisk Terrier",
+      "Русский чёрный терьер",
+      "Rysk Svart Terrier",
+      "Terrier Russo Negro",
+      "Mustaterrier",
+      "Terrier Ruso Negro",
+      "Terrier Noir Russe",
+      "Siyah Rus Terrier"
+    ],
     "group": "working",
     "origin": "Russia",
     "lifespan": "10-12 years",
@@ -2305,8 +2649,17 @@
     "id": "bloodhound",
     "name": "Bloodhound",
     "aliases": [
+      "Chien de Saint-Hubert",
       "St. Hubert Hound",
-      "Chien de Saint-Hubert"
+      "ブラッドハウンド",
+      "Vihikoira",
+      "Sabueso de San Huberto",
+      "Kan İzi Köpeği",
+      "Bloedhond",
+      "寻血猎犬",
+      "Blodhund",
+      "Бладхаунд",
+      "Bluthund"
     ],
     "group": "hound",
     "origin": "Belgium/France",
@@ -2370,7 +2723,11 @@
   {
     "id": "bluetick-coonhound",
     "name": "Bluetick Coonhound",
-    "aliases": [],
+    "aliases": [
+      "ブルーティック・クーンハウンド",
+      "Блютик-кунхаунд",
+      "蓝色斑点猎浣熊犬"
+    ],
     "group": "hound",
     "origin": "United States",
     "lifespan": "11-12 years",
@@ -2430,8 +2787,11 @@
     "id": "boerboel",
     "name": "Boerboel",
     "aliases": [
+      "Бурбуль",
+      "南非獒犬",
       "South African Mastiff",
-      "South African Boerboel"
+      "South African Boerboel",
+      "ボーアボール"
     ],
     "group": "working",
     "origin": "South Africa",
@@ -2496,7 +2856,16 @@
   {
     "id": "bolognese",
     "name": "Bolognese",
-    "aliases": [],
+    "aliases": [
+      "Boloñés",
+      "Bolonhês",
+      "波隆那犬",
+      "Болоньез",
+      "Bolończyk",
+      "ボロニーズ",
+      "Bolonais",
+      "Bologneser"
+    ],
     "group": "toy",
     "origin": "Italy",
     "lifespan": "12-14 years",
@@ -2555,7 +2924,12 @@
   {
     "id": "border-collie",
     "name": "Border Collie",
-    "aliases": [],
+    "aliases": [
+      "ボーダー・コリー",
+      "Bordercollie",
+      "边境牧羊犬",
+      "Бордер-колли"
+    ],
     "group": "herding",
     "origin": "Scotland/England",
     "lifespan": "12-15 years",
@@ -2622,7 +2996,14 @@
   {
     "id": "border-terrier",
     "name": "Border Terrier",
-    "aliases": [],
+    "aliases": [
+      "Borderterrieri",
+      "边境梗",
+      "Бордер-терьер",
+      "Borderterrier",
+      "ボーダー・テリア",
+      "Border Terriër"
+    ],
     "group": "terrier",
     "origin": "England/Scotland",
     "lifespan": "12-15 years",
@@ -2684,7 +3065,16 @@
   {
     "id": "borzoi",
     "name": "Borzoi",
-    "aliases": [],
+    "aliases": [
+      "Barsoi",
+      "Chart Rosyjski",
+      "ボルゾイ",
+      "Venäjänvinttikoira",
+      "Русская псовая борзая",
+      "Barzoï",
+      "Barzoi",
+      "俄罗斯猎狼犬"
+    ],
     "group": "hound",
     "origin": "Russia",
     "lifespan": "9-14 years",
@@ -2744,7 +3134,13 @@
     "id": "boston-terrier",
     "name": "Boston Terrier",
     "aliases": [
-      "American Gentleman"
+      "Бостон-терьер",
+      "ボストン・テリア",
+      "Boston Terriër",
+      "American Gentleman",
+      "波士顿梗",
+      "Bostoninterrieri",
+      "Bostonterrier"
     ],
     "group": "non-sporting",
     "origin": "United States",
@@ -2808,7 +3204,16 @@
   {
     "id": "bouvier-des-flandres",
     "name": "Bouvier des Flandres",
-    "aliases": [],
+    "aliases": [
+      "Flandrischer Treibhund",
+      "Bovaro delle Fiandre",
+      "Boyero de Flandes",
+      "Фландрский бувье",
+      "Flanderinpaimenkoira",
+      "ブービエ・デ・フランダース",
+      "佛兰德牧牛犬",
+      "Boiadeiro de Flandres"
+    ],
     "group": "herding",
     "origin": "Belgium/France",
     "lifespan": "10-12 years",
@@ -2871,8 +3276,14 @@
     "id": "boxer",
     "name": "Boxer",
     "aliases": [
+      "Боксёр",
+      "Deutscher Boxer",
+      "拳师犬",
+      "Bokser",
+      "Bóxer",
+      "Bokseri",
       "German Boxer",
-      "Deutscher Boxer"
+      "ボクサー"
     ],
     "group": "working",
     "origin": "Germany",
@@ -2936,7 +3347,15 @@
   {
     "id": "boykin-spaniel",
     "name": "Boykin Spaniel",
-    "aliases": [],
+    "aliases": [
+      "Épagneul Boykin",
+      "Бойкин-спаниель",
+      "Spaniel Boykin",
+      "ボイキン・スパニエル",
+      "博伊金猎犬",
+      "Boykinspanieli",
+      "Boykin Spaniël"
+    ],
     "group": "sporting",
     "origin": "United States",
     "lifespan": "10-15 years",
@@ -2996,7 +3415,15 @@
   {
     "id": "bracco-italiano",
     "name": "Bracco Italiano",
-    "aliases": [],
+    "aliases": [
+      "İtalyan Bracco",
+      "意大利布拉可犬",
+      "Braque Italien",
+      "Italianseisoja",
+      "Итальянский бракк",
+      "Braco Italiano",
+      "ブラッコ・イタリアーノ"
+    ],
     "group": "sporting",
     "origin": "Italy",
     "lifespan": "10-14 years",
@@ -3058,8 +3485,12 @@
     "id": "briard",
     "name": "Briard",
     "aliases": [
+      "ブリアード",
+      "布里犬",
+      "Chien Berger de Brie",
       "Berger de Brie",
-      "Chien Berger de Brie"
+      "Бриар",
+      "Briardi"
     ],
     "group": "herding",
     "origin": "France",
@@ -3124,8 +3555,19 @@
     "id": "brittany",
     "name": "Brittany",
     "aliases": [
+      "Bretagnenspanieli",
+      "Bretonsk Spaniel",
+      "Epagneul Breton",
+      "Bretagnespaniel",
       "Brittany Spaniel",
-      "Epagneul Breton"
+      "布列塔尼犬",
+      "Breton Spanieli",
+      "Épagneul Breton",
+      "Spaniel Bretoński",
+      "Epagneul Bretão",
+      "Bretón",
+      "ブリタニー・スパニエル",
+      "Бретонский эпаньоль"
     ],
     "group": "sporting",
     "origin": "France",
@@ -3190,7 +3632,23 @@
   {
     "id": "brussels-griffon",
     "name": "Brussels Griffon",
-    "aliases": [],
+    "aliases": [
+      "Brysselingrifoni",
+      "Brüksel Griffon",
+      "Brüsseler Griffon",
+      "Griffon de Bruxelas",
+      "ブリュッセル・グリフォン",
+      "Grifón de Bruselas",
+      "Griffone di Bruxelles",
+      "Gryfonik Brukselski",
+      "Brysselgriffonn",
+      "Brüssel Griffon",
+      "Bruxelles Griffon",
+      "Griffon Bruxellois",
+      "Брюссельский гриффон",
+      "布鲁塞尔格里芬犬",
+      "Brusselse Griffon"
+    ],
     "group": "toy",
     "origin": "Belgium",
     "lifespan": "12-15 years",
@@ -3253,8 +3711,14 @@
     "id": "bull-terrier",
     "name": "Bull Terrier",
     "aliases": [
+      "Bully",
+      "Bullterrieri",
+      "Бультерьер",
+      "Bull Terriër",
+      "牛头梗",
+      "ブル・テリア",
       "English Bull Terrier",
-      "Bully"
+      "Bullterrier"
     ],
     "group": "terrier",
     "origin": "England",
@@ -3321,8 +3785,21 @@
     "id": "bulldog",
     "name": "Bulldog",
     "aliases": [
-      "English Bulldog",
-      "British Bulldog"
+      "Bulldog Inglés",
+      "ブルドッグ",
+      "İngiliz Bulldog",
+      "Bouledogue Anglais",
+      "Englische Bulldogge",
+      "British Bulldog",
+      "Englanninbulldoggi",
+      "Buldog Angielski",
+      "Engelse Bulldog",
+      "Английский бульдог",
+      "英国斗牛犬",
+      "Buldogue Inglês",
+      "Engelsk Bulldog",
+      "Bulldog Inglese",
+      "English Bulldog"
     ],
     "group": "non-sporting",
     "origin": "England",
@@ -3391,7 +3868,12 @@
   {
     "id": "bullmastiff",
     "name": "Bullmastiff",
-    "aliases": [],
+    "aliases": [
+      "ブルマスティフ",
+      "Бульмастиф",
+      "Bullmastiffi",
+      "斗牛獒犬"
+    ],
     "group": "working",
     "origin": "England",
     "lifespan": "7-9 years",
@@ -3453,7 +3935,13 @@
     "id": "cairn-terrier",
     "name": "Cairn Terrier",
     "aliases": [
-      "Cairn"
+      "Cairnterrier",
+      "Керн-терьер",
+      "Cairn Terriër",
+      "Cairn",
+      "凯恩梗",
+      "ケアーン・テリア",
+      "Cairnterrieri"
     ],
     "group": "terrier",
     "origin": "Scotland",
@@ -3519,7 +4007,22 @@
   {
     "id": "canaan-dog",
     "name": "Canaan Dog",
-    "aliases": [],
+    "aliases": [
+      "Kenan Köpeği",
+      "Chien de Canaan",
+      "Kaanaankoira",
+      "Ханаанская собака",
+      "カナーン・ドッグ",
+      "Cane di Canaan",
+      "Perro de Canaán",
+      "Kanaan Hund",
+      "Kanaan-Hund",
+      "Cão de Canaã",
+      "Kanaanhund",
+      "Pies Kanaanejski",
+      "迦南犬",
+      "Kanaän Hond"
+    ],
     "group": "herding",
     "origin": "Israel",
     "lifespan": "12-15 years",
@@ -3580,8 +4083,11 @@
     "id": "cane-corso",
     "name": "Cane Corso",
     "aliases": [
-      "Italian Mastiff",
-      "Cane Corso Italiano"
+      "卡斯罗犬",
+      "Кане-корсо",
+      "カネ・コルソ",
+      "Cane Corso Italiano",
+      "Italian Mastiff"
     ],
     "group": "working",
     "origin": "Italy",
@@ -3647,7 +4153,16 @@
   {
     "id": "cardigan-welsh-corgi",
     "name": "Cardigan Welsh Corgi",
-    "aliases": [],
+    "aliases": [
+      "Corgi Galês Cardigan",
+      "Corgi Galés de Cardigan",
+      "Corgi Gallese Cardigan",
+      "威尔士柯基犬（卡迪根）",
+      "Welsh Corgi Cardigan",
+      "Вельш-корги кардиган",
+      "ウェルシュ・コーギー・カーディガン",
+      "Corgi Gallois Cardigan"
+    ],
     "group": "herding",
     "origin": "Wales",
     "lifespan": "12-15 years",
@@ -3707,8 +4222,14 @@
     "id": "cavalier-king-charles-spaniel",
     "name": "Cavalier King Charles Spaniel",
     "aliases": [
+      "Cavalier King Charles Spaniël",
+      "Кавалер кинг чарльз спаниель",
+      "キャバリア・キング・チャールズ・スパニエル",
+      "CKCS",
+      "Cavalier King Charles",
       "Cavalier",
-      "CKCS"
+      "Cavalier Kingcharlesin­spanieli",
+      "查理士王小猎犬"
     ],
     "group": "toy",
     "origin": "England",
@@ -3834,7 +4355,15 @@
   {
     "id": "chesapeake-bay-retriever",
     "name": "Chesapeake Bay Retriever",
-    "aliases": [],
+    "aliases": [
+      "チェサピーク・ベイ・レトリーバー",
+      "Chesapeaken­noutaja",
+      "Retriever de la Baie de Chesapeake",
+      "切萨皮克湾寻回犬",
+      "Чесапик-бей-ретривер",
+      "Retriever de la Bahía de Chesapeake",
+      "Retriever da Baía de Chesapeake"
+    ],
     "group": "sporting",
     "origin": "United States",
     "lifespan": "10-13 years",
@@ -3895,7 +4424,11 @@
   {
     "id": "chihuahua",
     "name": "Chihuahua",
-    "aliases": [],
+    "aliases": [
+      "吉娃娃",
+      "チワワ",
+      "Чихуахуа"
+    ],
     "group": "toy",
     "origin": "Mexico",
     "lifespan": "14-16 years",
@@ -3963,8 +4496,21 @@
     "id": "chinese-crested",
     "name": "Chinese Crested",
     "aliases": [
+      "Puff",
+      "Grzywacz Chiński",
+      "Chinesischer Schopfhund",
+      "Cão de Crista Chinês",
+      "チャイニーズ・クレステッド・ドッグ",
+      "Crestado Chino",
+      "Китайская хохлатая собака",
+      "Kinesisk Nakenhund",
+      "Çin Tepeli Köpeği",
+      "Cane Crestato Cinese",
+      "Chinese Naakthond",
+      "Chien Chinois à Crête",
       "Crested",
-      "Puff"
+      "Kiinanharjakoira",
+      "中国冠毛犬"
     ],
     "group": "toy",
     "origin": "China/Africa",
@@ -4026,7 +4572,11 @@
   {
     "id": "chinook",
     "name": "Chinook",
-    "aliases": [],
+    "aliases": [
+      "チヌーク",
+      "Чинук",
+      "奇努克犬"
+    ],
     "group": "working",
     "origin": "United States",
     "lifespan": "12-15 years",
@@ -4087,8 +4637,12 @@
     "id": "chow-chow",
     "name": "Chow Chow",
     "aliases": [
+      "Chow-Chow",
+      "Songshi Quan",
+      "チャウ・チャウ",
       "Chow",
-      "Songshi Quan"
+      "Чау-чау",
+      "松狮犬"
     ],
     "group": "non-sporting",
     "origin": "China",
@@ -4214,7 +4768,14 @@
   {
     "id": "clumber-spaniel",
     "name": "Clumber Spaniel",
-    "aliases": [],
+    "aliases": [
+      "Кламбер-спаниель",
+      "Clumberspaniel",
+      "Clumber Spaniël",
+      "クランバー・スパニエル",
+      "克伦伯猎犬",
+      "Clumberspanieli"
+    ],
     "group": "sporting",
     "origin": "England",
     "lifespan": "10-12 years",
@@ -4275,7 +4836,19 @@
     "id": "cocker-spaniel",
     "name": "Cocker Spaniel",
     "aliases": [
-      "American Cocker Spaniel"
+      "Cockerspaniel",
+      "Cocker Spaniel Amerykański",
+      "Amerikanischer Cocker Spaniel",
+      "Amerikan Cocker Spaniel",
+      "アメリカン・コッカー・スパニエル",
+      "Cocker Spaniel Americano",
+      "Cocker Américain",
+      "Amerikaanse Cocker Spaniël",
+      "Американский кокер-спаниель",
+      "美国可卡犬",
+      "American Cocker Spaniel",
+      "Amerikancocker­spanieli",
+      "Amerikansk Cocker Spaniel"
     ],
     "group": "sporting",
     "origin": "United States/England",
@@ -4343,7 +4916,14 @@
     "name": "Collie",
     "aliases": [
       "Rough Collie",
-      "Lassie Dog"
+      "Colley",
+      "Lassie Dog",
+      "Owczarek Szkocki",
+      "Pitkäkarvainen Collie",
+      "Колли",
+      "コリー",
+      "苏格兰牧羊犬",
+      "Langhaarcollie"
     ],
     "group": "herding",
     "origin": "Scotland",
@@ -4408,7 +4988,12 @@
   {
     "id": "coton-de-tulear",
     "name": "Coton de Tulear",
-    "aliases": [],
+    "aliases": [
+      "Coton de Tuléar",
+      "Котон де Тулеар",
+      "棉花面纱犬",
+      "コトン・ド・テュレアール"
+    ],
     "group": "toy",
     "origin": "Madagascar",
     "lifespan": "15-19 years",
@@ -4469,7 +5054,20 @@
   {
     "id": "curly-coated-retriever",
     "name": "Curly-Coated Retriever",
-    "aliases": [],
+    "aliases": [
+      "Курчавошёрстный ретривер",
+      "Retriever Krętowosy",
+      "Krøllet Retriever",
+      "Retriever à Poil Bouclé",
+      "Kıvırcık Tüylü Retriever",
+      "Retriever de Pelo Rizado",
+      "Retriever de Pelo Encaracolado",
+      "Curly Coated Retriever",
+      "カーリーコーテッド・レトリーバー",
+      "Retriever a Pelo Riccio",
+      "Kiharakarvainen Noutaja",
+      "卷毛寻回犬"
+    ],
     "group": "sporting",
     "origin": "England",
     "lifespan": "10-12 years",
@@ -4530,9 +5128,20 @@
     "id": "dachshund",
     "name": "Dachshund",
     "aliases": [
-      "Wiener Dog",
+      "Dackel",
       "Sausage Dog",
-      "Doxie"
+      "Mäyräkoira",
+      "ダックスフント",
+      "Dachs",
+      "腊肠犬",
+      "Doxie",
+      "Tax",
+      "Такса",
+      "Bassotto",
+      "Jamnik",
+      "Gravhund",
+      "Teckel",
+      "Wiener Dog"
     ],
     "group": "hound",
     "origin": "Germany",
@@ -4603,8 +5212,19 @@
     "name": "Dalmatian",
     "aliases": [
       "Dal",
+      "Dálmata",
+      "Dalmata",
+      "Firehouse Dog",
+      "Dalmaçyalı",
+      "Dalmatyńczyk",
+      "ダルメシアン",
+      "Dalmatien",
+      "Dalmatiankoira",
+      "Dalmatiër",
+      "Dalmatiner",
       "Spotted Coach Dog",
-      "Firehouse Dog"
+      "大麦町犬",
+      "Далматин"
     ],
     "group": "non-sporting",
     "origin": "Croatia",
@@ -4668,6 +5288,11 @@
     "id": "dandie-dinmont-terrier",
     "name": "Dandie Dinmont Terrier",
     "aliases": [
+      "丹迪丁蒙梗",
+      "Dandie Dinmont Terrieri",
+      "ダンディ・ディンモント・テリア",
+      "Dandie Dinmont Terriër",
+      "Денди-динмонт-терьер",
       "Dandie"
     ],
     "group": "terrier",
@@ -4793,7 +5418,13 @@
     "name": "Doberman Pinscher",
     "aliases": [
       "Doberman",
-      "Dobie"
+      "Доберман",
+      "ドーベルマン",
+      "Dobermann",
+      "Dóberman",
+      "杜宾犬",
+      "Dobie",
+      "Dobermanni"
     ],
     "group": "working",
     "origin": "Germany",
@@ -4860,8 +5491,15 @@
     "id": "dogo-argentino",
     "name": "Dogo Argentino",
     "aliases": [
+      "Dogue Argentin",
       "Argentine Dogo",
-      "Argentine Mastiff"
+      "Argentine Mastiff",
+      "Arjantin Dogosu",
+      "Argentiinandoggi",
+      "ドゴ・アルヘンティーノ",
+      "Dog Argentyński",
+      "Аргентинский дог",
+      "阿根廷杜高犬"
     ],
     "group": "working",
     "origin": "Argentina",
@@ -4923,7 +5561,18 @@
   {
     "id": "dogue-de-bordeaux",
     "name": "Dogue de Bordeaux",
-    "aliases": [],
+    "aliases": [
+      "Bordeaux Dog",
+      "Dogue de Bordéus",
+      "Dogo de Burdeos",
+      "Bordeauxdogge",
+      "ドーグ・ド・ボルドー",
+      "波尔多犬",
+      "Бордоский дог",
+      "Bordeaux Dogosu",
+      "Dog Bordeaux",
+      "Bordeauxindoggi"
+    ],
     "group": "working",
     "origin": "France",
     "lifespan": "5-8 years",
@@ -5044,7 +5693,23 @@
   {
     "id": "dutch-shepherd",
     "name": "Dutch Shepherd",
-    "aliases": [],
+    "aliases": [
+      "Berger Hollandais",
+      "Hollandse Herder",
+      "Owczarek Holenderski",
+      "荷兰牧羊犬",
+      "Pastore Olandese",
+      "Hollanninpaimenkoira",
+      "Hollanda Çoban Köpeği",
+      "Голландская овчарка",
+      "Pastor Holandés",
+      "Holländsk Herdehund",
+      "Holländischer Schäferhund",
+      "Hollandsk Hyrdehund",
+      "Hollandsk Gjeterhund",
+      "ダッチ・シェパード",
+      "Pastor Holandês"
+    ],
     "group": "herding",
     "origin": "Netherlands",
     "lifespan": "11-14 years",
@@ -5103,7 +5768,22 @@
   {
     "id": "english-cocker-spaniel",
     "name": "English Cocker Spaniel",
-    "aliases": [],
+    "aliases": [
+      "イングリッシュ・コッカー・スパニエル",
+      "Cocker Spaniel Inglês",
+      "英国可卡犬",
+      "Cocker Spaniel Angielski",
+      "Engelse Cocker Spaniël",
+      "Cocker Spaniel Inglese",
+      "Engelsk Cocker Spaniel",
+      "Englischer Cocker Spaniel",
+      "İngiliz Cocker Spaniel",
+      "Englannincocker­spanieli",
+      "Cocker Anglais",
+      "Engelsk Cockerspaniel",
+      "Cocker Spaniel Inglés",
+      "Английский кокер-спаниель"
+    ],
     "group": "sporting",
     "origin": "England",
     "lifespan": "12-14 years",
@@ -5162,7 +5842,21 @@
   {
     "id": "english-foxhound",
     "name": "English Foxhound",
-    "aliases": [],
+    "aliases": [
+      "Engelse Foxhound",
+      "Foxhound Angielski",
+      "Englannin­ajokoira",
+      "Foxhound Inglés",
+      "Английский фоксхаунд",
+      "Foxhound Inglês",
+      "Englischer Foxhound",
+      "Engelsk Foxhound",
+      "Foxhound Anglais",
+      "Foxhound Inglese",
+      "İngiliz Foxhound",
+      "英国猎狐犬",
+      "イングリッシュ・フォックスハウンド"
+    ],
     "group": "hound",
     "origin": "England",
     "lifespan": "10-13 years",
@@ -5285,8 +5979,21 @@
     "id": "english-setter",
     "name": "English Setter",
     "aliases": [
+      "英国塞特犬",
+      "Englanninsetteri",
+      "İngiliz Setter",
+      "Английский сеттер",
+      "Setter Inglés",
+      "イングリッシュ・セター",
+      "Englischer Setter",
+      "Engelse Setter",
+      "Setter Inglês",
       "Laverack Setter",
-      "Llewellin Setter"
+      "Setter Anglais",
+      "Seter Angielski",
+      "Setter Inglese",
+      "Llewellin Setter",
+      "Engelsk Setter"
     ],
     "group": "sporting",
     "origin": "England",
@@ -5352,7 +6059,20 @@
     "id": "english-springer-spaniel",
     "name": "English Springer Spaniel",
     "aliases": [
-      "Springer Spaniel"
+      "Engelsk Springer Spaniel",
+      "Englannin­springerspanieli",
+      "イングリッシュ・スプリンガー・スパニエル",
+      "Springer Spaniel Angielski",
+      "Englischer Springer Spaniel",
+      "Английский спрингер-спаниель",
+      "Springer Anglais",
+      "Springer Spaniel Inglese",
+      "İngiliz Springer Spaniel",
+      "英国史宾格犬",
+      "Springer Spaniel",
+      "Engelse Springer Spaniël",
+      "Springer Spaniel Inglés",
+      "Springer Spaniel Inglês"
     ],
     "group": "sporting",
     "origin": "England",
@@ -5416,7 +6136,17 @@
   {
     "id": "english-toy-spaniel",
     "name": "English Toy Spaniel",
-    "aliases": [],
+    "aliases": [
+      "King Charles",
+      "キング・チャールズ・スパニエル",
+      "Кинг чарльз спаниель",
+      "英国玩具猎犬",
+      "King Charles Spaniël",
+      "Engelsk Toy Spaniel",
+      "King Charlesin Spanieli",
+      "King Charles Spaniel",
+      "Spaniel Toy Inglés"
+    ],
     "group": "toy",
     "origin": "England",
     "lifespan": "10-12 years",
@@ -5479,9 +6209,19 @@
     "id": "entlebucher-mountain-dog",
     "name": "Entlebucher Mountain Dog",
     "aliases": [
-      "Entlebucher",
+      "Boiadeiro de Entlebuch",
+      "Энтлебухер зенненхунд",
+      "エントレブッハー・マウンテン・ドッグ",
+      "Boyero de Entlebuch",
+      "恩特布赫山地犬",
       "Entlebucher Sennenhund",
-      "Entle"
+      "Bouvier de l'Entlebuch",
+      "Entle",
+      "Entlebuchinsennenhund",
+      "Entlebucher Sennenhond",
+      "Entlebucher Dağ Köpeği",
+      "Entlebucher",
+      "Bovaro dell'Entlebuch"
     ],
     "group": "herding",
     "origin": "Switzerland",
@@ -5602,7 +6342,13 @@
   {
     "id": "field-spaniel",
     "name": "Field Spaniel",
-    "aliases": [],
+    "aliases": [
+      "フィールド・スパニエル",
+      "田野猎犬",
+      "Fieldspanieli",
+      "Филд-спаниель",
+      "Field Spaniël"
+    ],
     "group": "sporting",
     "origin": "England",
     "lifespan": "10-12 years",
@@ -5664,8 +6410,21 @@
     "id": "finnish-lapphund",
     "name": "Finnish Lapphund",
     "aliases": [
+      "Finse Lappenhond",
+      "Chien Finnois de Laponie",
+      "フィニッシュ・ラップフンド",
+      "Lapphund Fiński",
       "Lapinkoira",
-      "Lappie"
+      "Finsk Lapphund",
+      "Lapphund Finlandés",
+      "Lappie",
+      "Fin Lapphund",
+      "Lapphund Finlandese",
+      "芬兰拉普猎犬",
+      "Финский лаппхунд",
+      "Suomenlapinkoira",
+      "Finnischer Lapphund",
+      "Lapphund Finlandês"
     ],
     "group": "herding",
     "origin": "Finland",
@@ -5727,7 +6486,23 @@
   {
     "id": "finnish-spitz",
     "name": "Finnish Spitz",
-    "aliases": [],
+    "aliases": [
+      "Finse Spits",
+      "Spitz Finlandés",
+      "Spitz Finlandese",
+      "Finsk Spids",
+      "Fin Spitz",
+      "Szpic Fiński",
+      "Finsk Spets",
+      "Финский шпиц",
+      "Finsk Spiss",
+      "Spitz Finlandais",
+      "Finnischer Spitz",
+      "Spitz Finlandês",
+      "フィニッシュ・スピッツ",
+      "Suomenpystykorva",
+      "芬兰狐狸犬"
+    ],
     "group": "non-sporting",
     "origin": "Finland",
     "lifespan": "13-15 years",
@@ -5786,7 +6561,17 @@
   {
     "id": "flat-coated-retriever",
     "name": "Flat-Coated Retriever",
-    "aliases": [],
+    "aliases": [
+      "平毛寻回犬",
+      "Düz Tüylü Retriever",
+      "Прямошёрстный ретривер",
+      "Sileäkarvainen Noutaja",
+      "フラットコーテッド・レトリーバー",
+      "Retriever à Poil Plat",
+      "Retriever de Pelo Liso",
+      "Flat Coated Retriever",
+      "Flatcoated Retriever"
+    ],
     "group": "sporting",
     "origin": "England",
     "lifespan": "8-10 years",
@@ -5847,6 +6632,20 @@
     "id": "french-bulldog",
     "name": "French Bulldog",
     "aliases": [
+      "Fransk Bulldogg",
+      "Bouledogue Français",
+      "Французский бульдог",
+      "フレンチ・ブルドッグ",
+      "Buldogue Francês",
+      "Franse Bulldog",
+      "Buldog Francuski",
+      "Fransız Bulldog",
+      "Bulldog Francés",
+      "Französische Bulldogge",
+      "Bouledogue Francese",
+      "Ranskanbulldoggi",
+      "Fransk Bulldog",
+      "法国斗牛犬",
       "Frenchie"
     ],
     "group": "non-sporting",
@@ -5917,9 +6716,23 @@
     "id": "german-shepherd",
     "name": "German Shepherd",
     "aliases": [
-      "GSD",
+      "ジャーマン・シェパード・ドッグ",
+      "Deutscher Schäferhund",
+      "Pastore Tedesco",
+      "German Shepherd Dog",
+      "Alman Çoban Köpeği",
       "Alsatian",
-      "German Shepherd Dog"
+      "Owczarek Niemiecki",
+      "Pastor Alemán",
+      "Schäfer",
+      "Saksanpaimenkoira",
+      "Pastor Alemão",
+      "Berger Allemand",
+      "Немецкая овчарка",
+      "Duitse Herder",
+      "Schæferhund",
+      "德国牧羊犬",
+      "GSD"
     ],
     "group": "herding",
     "origin": "Germany",
@@ -5988,7 +6801,21 @@
     "id": "german-shorthaired-pointer",
     "name": "German Shorthaired Pointer",
     "aliases": [
-      "GSP"
+      "Курцхаар",
+      "Braco Alemán de Pelo Corto",
+      "Wyżeł Niemiecki Krótkowłosy",
+      "Korthåret Hønsehund",
+      "Bracco Tedesco a Pelo Corto",
+      "Korthårig Vorsteh",
+      "Deutsch Kurzhaar",
+      "ジャーマン・ショートヘアード・ポインター",
+      "德国短毛指示犬",
+      "GSP",
+      "Braco Alemão de Pelo Curto",
+      "Alman Kısa Tüylü Pointer",
+      "Braque Allemand à Poil Court",
+      "Duitse Staande Korthaar",
+      "Saksanseisoja"
     ],
     "group": "sporting",
     "origin": "Germany",
@@ -6055,7 +6882,23 @@
   {
     "id": "german-spitz",
     "name": "German Spitz",
-    "aliases": [],
+    "aliases": [
+      "ジャーマン・スピッツ",
+      "Tysk Spiss",
+      "Szpic Niemiecki",
+      "Spitz Allemand",
+      "Spitz Alemán",
+      "Deutscher Spitz",
+      "德国狐狸犬",
+      "Tysk Spets",
+      "Spitz Tedesco",
+      "Немецкий шпиц",
+      "Saksanpystykorva",
+      "Alman Spitz",
+      "Duitse Spits",
+      "Tysk Spids",
+      "Spitz Alemão"
+    ],
     "group": "non-sporting",
     "origin": "Germany",
     "lifespan": "13-15 years",
@@ -6118,7 +6961,22 @@
   {
     "id": "german-wirehaired-pointer",
     "name": "German Wirehaired Pointer",
-    "aliases": [],
+    "aliases": [
+      "Saksankarkeakarvainen Seisoja",
+      "ジャーマン・ワイアーヘアード・ポインター",
+      "Ruhåret Hønsehund",
+      "Braco Alemán de Pelo Duro",
+      "Duitse Staande Draadhaar",
+      "Alman Tel Tüylü Pointer",
+      "德国硬毛指示犬",
+      "Deutsch Drahthaar",
+      "Дратхаар",
+      "Braco Alemão de Pelo Duro",
+      "Strävhårig Vorsteh",
+      "Bracco Tedesco a Pelo Duro",
+      "Braque Allemand à Poil Dur",
+      "Wyżeł Niemiecki Szorstkowłosy"
+    ],
     "group": "sporting",
     "origin": "Germany",
     "lifespan": "14-16 years",
@@ -6179,7 +7037,21 @@
   {
     "id": "giant-schnauzer",
     "name": "Giant Schnauzer",
-    "aliases": [],
+    "aliases": [
+      "ジャイアント・シュナウザー",
+      "Schnauzer Géant",
+      "Schnauzer Gigante",
+      "巨型雪纳瑞",
+      "Jättisnautseri",
+      "Riesenschnauzer",
+      "Kæmpeschnauzer",
+      "Sznaucer Olbrzymi",
+      "Reuzensnauzer",
+      "Ризеншнауцер",
+      "Dev Schnauzer",
+      "Jätteschnauzer",
+      "Kjempeschnauzer"
+    ],
     "group": "working",
     "origin": "Germany",
     "lifespan": "12-15 years",
@@ -6239,7 +7111,13 @@
   {
     "id": "glen-of-imaal-terrier",
     "name": "Glen of Imaal Terrier",
-    "aliases": [],
+    "aliases": [
+      "爱尔兰峡谷梗",
+      "Глен оф Имаал терьер",
+      "Glen of Imaal Terriër",
+      "Glen of Imaal Terrieri",
+      "グレン・オブ・イマール・テリア"
+    ],
     "group": "terrier",
     "origin": "Ireland",
     "lifespan": "10-15 years",
@@ -6301,6 +7179,10 @@
     "id": "golden-retriever",
     "name": "Golden Retriever",
     "aliases": [
+      "Kultainennoutaja",
+      "Золотистый ретривер",
+      "金毛寻回犬",
+      "ゴールデン・レトリーバー",
       "Golden"
     ],
     "group": "sporting",
@@ -6368,7 +7250,14 @@
   {
     "id": "gordon-setter",
     "name": "Gordon Setter",
-    "aliases": [],
+    "aliases": [
+      "Setter Gordon",
+      "Seter Gordon",
+      "Шотландский сеттер",
+      "ゴードン・セター",
+      "戈登塞特犬",
+      "Gordoninsetteri"
+    ],
     "group": "sporting",
     "origin": "Scotland",
     "lifespan": "12-13 years",
@@ -6487,8 +7376,20 @@
     "id": "great-dane",
     "name": "Great Dane",
     "aliases": [
+      "Grand Danois",
       "German Mastiff",
-      "Deutsche Dogge"
+      "Danua",
+      "Duitse Dog",
+      "グレート・デーン",
+      "Gran Danés",
+      "Dog Niemiecki",
+      "Немецкий дог",
+      "Deutsche Dogge",
+      "Dogue Allemand",
+      "Alano",
+      "Dogue Alemão",
+      "Tanskandoggi",
+      "大丹犬"
     ],
     "group": "working",
     "origin": "Germany",
@@ -6555,7 +7456,23 @@
   {
     "id": "great-pyrenees",
     "name": "Great Pyrenees",
-    "aliases": [],
+    "aliases": [
+      "Pirenejski Pies Górski",
+      "Pyreneittenkoira",
+      "大白熊犬",
+      "Pyreneisk Berghund",
+      "Büyük Pirene",
+      "Pyrenäenberghund",
+      "Cane da Montagna dei Pirenei",
+      "Пиренейская горная собака",
+      "Montagne des Pyrénées",
+      "Pyrenéerhund",
+      "Pyrenese Berghond",
+      "Cão da Serra da Estrela",
+      "Montaña del Pirineo",
+      "Pyrenæerhund",
+      "グレート・ピレニーズ"
+    ],
     "group": "working",
     "origin": "France/Spain",
     "lifespan": "10-12 years",
@@ -6617,7 +7534,22 @@
   {
     "id": "greater-swiss-mountain-dog",
     "name": "Greater Swiss Mountain Dog",
-    "aliases": [],
+    "aliases": [
+      "Stor Sveitsisk Sennenhund",
+      "Большой швейцарский зенненхунд",
+      "Grande Bovaro Svizzero",
+      "Büyük İsviçre Dağ Köpeği",
+      "Großer Schweizer Sennenhund",
+      "Stor Schweizisk Sennenhund",
+      "グレーター・スイス・マウンテン・ドッグ",
+      "大瑞士山地犬",
+      "Duży Szwajcarski Pies Pasterski",
+      "Gran Boyero Suizo",
+      "Grande Boiadeiro Suíço",
+      "Grote Zwitserse Sennenhond",
+      "Iso Sveitsinpaimenkoira",
+      "Grand Bouvier Suisse"
+    ],
     "group": "working",
     "origin": "Switzerland",
     "lifespan": "8-11 years",
@@ -6677,7 +7609,12 @@
     "id": "greyhound",
     "name": "Greyhound",
     "aliases": [
-      "English Greyhound"
+      "Грейхаунд",
+      "English Greyhound",
+      "グレーハウンド",
+      "灵缇犬",
+      "Galgo Inglês",
+      "Galgo Inglés"
     ],
     "group": "hound",
     "origin": "England/Egypt",
@@ -6739,7 +7676,11 @@
   {
     "id": "harrier",
     "name": "Harrier",
-    "aliases": [],
+    "aliases": [
+      "ハリア",
+      "哈利犬",
+      "Харьер"
+    ],
     "group": "hound",
     "origin": "England",
     "lifespan": "12-15 years",
@@ -6799,7 +7740,19 @@
     "id": "havanese",
     "name": "Havanese",
     "aliases": [
-      "Havana Silk Dog"
+      "Hawańczyk",
+      "Havaneser",
+      "Bichon Havanês",
+      "Havanezer",
+      "Гаванский бишон",
+      "Havannankoira",
+      "Havannaare",
+      "Bichon Havanais",
+      "Havana Silk Dog",
+      "Bichón Habanero",
+      "ハバニーズ",
+      "哈瓦那犬",
+      "Bichon Havanese"
     ],
     "group": "toy",
     "origin": "Cuba",
@@ -6986,7 +7939,16 @@
   {
     "id": "ibizan-hound",
     "name": "Ibizan Hound",
-    "aliases": [],
+    "aliases": [
+      "Podenco Ibicenco",
+      "Podenco d'Ibiza",
+      "伊比赞猎犬",
+      "Ibizanpodenco",
+      "Ивисская борзая",
+      "Podengo Ibicenco",
+      "イビザン・ハウンド",
+      "İbiza Tazısı"
+    ],
     "group": "hound",
     "origin": "Spain (Ibiza)",
     "lifespan": "11-14 years",
@@ -7047,7 +8009,22 @@
   {
     "id": "icelandic-sheepdog",
     "name": "Icelandic Sheepdog",
-    "aliases": [],
+    "aliases": [
+      "Isländsk Fårhund",
+      "İzlanda Çoban Köpeği",
+      "Pastor Islandés",
+      "Pastor Islandês",
+      "Исландская собака",
+      "冰岛牧羊犬",
+      "Berger Islandais",
+      "Pastore Islandese",
+      "アイスランド・シープドッグ",
+      "Owczarek Islandzki",
+      "Islandsk Fårehund",
+      "Islanninlammaskoira",
+      "Isländischer Schäferhund",
+      "IJslandse Hond"
+    ],
     "group": "herding",
     "origin": "Iceland",
     "lifespan": "12-14 years",
@@ -7109,7 +8086,23 @@
   {
     "id": "irish-red-and-white-setter",
     "name": "Irish Red and White Setter",
-    "aliases": [],
+    "aliases": [
+      "İrlanda Kızıl ve Beyaz Setter",
+      "Irländsk Röd och Vit Setter",
+      "Irsk Rød og Hvit Setter",
+      "Irlannin­punavalkosetteri",
+      "爱尔兰红白塞特犬",
+      "Irischer Rot-Weißer Setter",
+      "Ierse Rood-Witte Setter",
+      "Ирландский красно-белый сеттер",
+      "Setter Irlandais Rouge et Blanc",
+      "Irsk Rød og Hvid Setter",
+      "アイリッシュ・レッド・アンド・ホワイト・セター",
+      "Seter Irlandzki Czerwono-Biały",
+      "Setter Irlandés Rojo y Blanco",
+      "Setter Irlandês Vermelho e Branco",
+      "Setter Irlandese Rosso e Bianco"
+    ],
     "group": "sporting",
     "origin": "Ireland",
     "lifespan": "11-15 years",
@@ -7170,7 +8163,21 @@
     "name": "Irish Setter",
     "aliases": [
       "Red Setter",
-      "Irish Red Setter"
+      "Irish Red Setter",
+      "Irsk Setter",
+      "Irländsk Setter",
+      "Setter Irlandais",
+      "Ierse Setter",
+      "Irischer Setter",
+      "Setter Irlandés",
+      "Irlanninsetteri",
+      "アイリッシュ・セター",
+      "İrlanda Setter",
+      "Seter Irlandzki",
+      "Setter Irlandês",
+      "Ирландский сеттер",
+      "爱尔兰塞特犬",
+      "Setter Irlandese"
     ],
     "group": "sporting",
     "origin": "Ireland",
@@ -7233,7 +8240,23 @@
   {
     "id": "irish-water-spaniel",
     "name": "Irish Water Spaniel",
-    "aliases": [],
+    "aliases": [
+      "Spaniel de Água Irlandês",
+      "Ирландский водяной спаниель",
+      "İrlanda Su Spanieli",
+      "アイリッシュ・ウォーター・スパニエル",
+      "Irlanninvesispanieli",
+      "Irischer Wasserspaniel",
+      "Spaniel d'Acqua Irlandese",
+      "爱尔兰水猎犬",
+      "Spaniel de Agua Irlandés",
+      "Ierse Waterspaniël",
+      "Irlandzki Spaniel Wodny",
+      "Irsk Vandspaniel",
+      "Irländsk Vattenspaniel",
+      "Épagneul d'Eau Irlandais",
+      "Irsk Vannspaniel"
+    ],
     "group": "sporting",
     "origin": "Ireland",
     "lifespan": "12-13 years",
@@ -7292,7 +8315,22 @@
   {
     "id": "irish-wolfhound",
     "name": "Irish Wolfhound",
-    "aliases": [],
+    "aliases": [
+      "Lebrel Irlandés",
+      "Lévrier Irlandais",
+      "Irsk Ulvehund",
+      "アイリッシュ・ウルフハウンド",
+      "Wilczarz Irlandzki",
+      "Galgo Irlandês",
+      "Ierse Wolfshond",
+      "Ирландский волкодав",
+      "Irländsk Varghund",
+      "爱尔兰猎狼犬",
+      "Levriero Irlandese",
+      "İrlanda Kurt Köpeği",
+      "Irischer Wolfshund",
+      "Irlanninsusikoira"
+    ],
     "group": "hound",
     "origin": "Ireland",
     "lifespan": "6-8 years",
@@ -7358,9 +8396,22 @@
     "id": "italian-greyhound",
     "name": "Italian Greyhound",
     "aliases": [
+      "Chart Włoski",
+      "Galgo Italiano",
+      "意大利灵缇犬",
+      "Italiensk Vinthund",
+      "イタリアン・グレーハウンド",
       "Iggy",
       "IG",
-      "Piccolo Levriero Italiano"
+      "Italiaanse Windhond",
+      "Italiensk Mynde",
+      "İtalyan Greyhound",
+      "Итальянская борзая",
+      "Pequeno Galgo Italiano",
+      "Piccolo Levriero Italiano",
+      "Italianvinttikoira",
+      "Italienisches Windspiel",
+      "Petit Lévrier Italien"
     ],
     "group": "toy",
     "origin": "Italy",
@@ -7423,8 +8474,13 @@
     "id": "jack-russell-terrier",
     "name": "Jack Russell Terrier",
     "aliases": [
+      "ジャック・ラッセル・テリア",
+      "杰克罗素梗",
+      "Джек-рассел-терьер",
+      "Jack Russell",
+      "Jack Russell Terrieri",
       "JRT",
-      "Jack Russell"
+      "Jack Russell Terriër"
     ],
     "group": "terrier",
     "origin": "England",
@@ -7488,7 +8544,21 @@
   {
     "id": "japanese-chin",
     "name": "Japanese Chin",
-    "aliases": [],
+    "aliases": [
+      "Épagneul Japonais",
+      "Chin Japonês",
+      "Chin Japoński",
+      "Japanse Chin",
+      "日本狆",
+      "Chin Japonés",
+      "Японский хин",
+      "Japansk Chin",
+      "Japaninspanieli",
+      "Japan Chin",
+      "Japon Chin",
+      "狆",
+      "Chin Giapponese"
+    ],
     "group": "toy",
     "origin": "Japan/China",
     "lifespan": "10-12 years",
@@ -7549,7 +8619,23 @@
   {
     "id": "japanese-spitz",
     "name": "Japanese Spitz",
-    "aliases": [],
+    "aliases": [
+      "Японский шпиц",
+      "Spitz Japonês",
+      "Japaninpystykorva",
+      "Japanse Spits",
+      "Japansk Spids",
+      "Japanischer Spitz",
+      "日本狐狸犬",
+      "Spitz Giapponese",
+      "Spitz Japonais",
+      "日本スピッツ",
+      "Szpic Japoński",
+      "Japansk Spets",
+      "Spitz Japonés",
+      "Japansk Spiss",
+      "Japon Spitz"
+    ],
     "group": "non-sporting",
     "origin": "Japan",
     "lifespan": "12-14 years",
@@ -7668,9 +8754,13 @@
     "id": "keeshond",
     "name": "Keeshond",
     "aliases": [
+      "荷兰毛狮犬",
+      "Wolfsspitz",
       "Dutch Barge Dog",
-      "Smiling Dutchman",
-      "Wolfspitz"
+      "キースホンド",
+      "Кеесхонд",
+      "Wolfspitz",
+      "Smiling Dutchman"
     ],
     "group": "non-sporting",
     "origin": "Netherlands",
@@ -7732,7 +8822,13 @@
   {
     "id": "kerry-blue-terrier",
     "name": "Kerry Blue Terrier",
-    "aliases": [],
+    "aliases": [
+      "凯利蓝梗",
+      "Kerry Blue Terrieri",
+      "Керри-блю-терьер",
+      "ケリー・ブルー・テリア",
+      "Kerry Blue Terriër"
+    ],
     "group": "terrier",
     "origin": "Ireland",
     "lifespan": "12-15 years",
@@ -7791,7 +8887,12 @@
   {
     "id": "kishu-ken",
     "name": "Kishu Ken",
-    "aliases": [],
+    "aliases": [
+      "纪州犬",
+      "Кисю",
+      "紀州犬",
+      "Kishu"
+    ],
     "group": "non-sporting",
     "origin": "Japan",
     "lifespan": "11-13 years",
@@ -7853,8 +8954,11 @@
     "id": "komondor",
     "name": "Komondor",
     "aliases": [
+      "コモンドール",
+      "Mop Dog",
+      "可蒙犬",
       "Hungarian Komondor",
-      "Mop Dog"
+      "Комондор"
     ],
     "group": "working",
     "origin": "Hungary",
@@ -7981,7 +9085,10 @@
     "id": "kuvasz",
     "name": "Kuvasz",
     "aliases": [
-      "Hungarian Kuvasz"
+      "Кувас",
+      "Hungarian Kuvasz",
+      "クーバース",
+      "库瓦斯犬"
     ],
     "group": "working",
     "origin": "Hungary",
@@ -8045,7 +9152,11 @@
     "name": "Labrador Retriever",
     "aliases": [
       "Lab",
-      "Labrador"
+      "Labrador",
+      "ラブラドール・レトリーバー",
+      "Labradorinnoutaja",
+      "拉布拉多寻回犬",
+      "Лабрадор-ретривер"
     ],
     "group": "sporting",
     "origin": "Canada (Newfoundland)",
@@ -8112,7 +9223,11 @@
   {
     "id": "lagotto-romagnolo",
     "name": "Lagotto Romagnolo",
-    "aliases": [],
+    "aliases": [
+      "ラゴット・ロマニョーロ",
+      "Лаготто романьоло",
+      "罗马涅水犬"
+    ],
     "group": "sporting",
     "origin": "Italy",
     "lifespan": "15-17 years",
@@ -8175,7 +9290,13 @@
     "id": "lakeland-terrier",
     "name": "Lakeland Terrier",
     "aliases": [
-      "Lakie"
+      "Lakelandterrier",
+      "Лейкленд-терьер",
+      "レークランド・テリア",
+      "Lakeland Terriër",
+      "湖畔梗",
+      "Lakie",
+      "Lakelandinterrieri"
     ],
     "group": "terrier",
     "origin": "England",
@@ -8360,8 +9481,13 @@
     "id": "leonberger",
     "name": "Leonberger",
     "aliases": [
+      "莱昂贝格犬",
       "Leo",
-      "Gentle Giant"
+      "Gentle Giant",
+      "Leonberginkoira",
+      "レオンベルガー",
+      "Леонбергер",
+      "Leonberg"
     ],
     "group": "working",
     "origin": "Germany",
@@ -8427,6 +9553,10 @@
     "id": "lhasa-apso",
     "name": "Lhasa Apso",
     "aliases": [
+      "Лхаса апсо",
+      "ラサ・アプソ",
+      "Lhassa Apso",
+      "拉萨犬",
       "Lhasa",
       "Bark Lion Sentinel Dog"
     ],
@@ -8490,7 +9620,13 @@
   {
     "id": "lowchen",
     "name": "Löwchen",
-    "aliases": [],
+    "aliases": [
+      "ローシェン",
+      "Løwchen",
+      "小狮子犬",
+      "Лёвхен",
+      "Petit Chien Lion"
+    ],
     "group": "toy",
     "origin": "France/Germany",
     "lifespan": "13-15 years",
@@ -8549,7 +9685,19 @@
   {
     "id": "maltese",
     "name": "Maltese",
-    "aliases": [],
+    "aliases": [
+      "马尔济斯犬",
+      "Malteser",
+      "Malta Köpeği",
+      "Maltés",
+      "マルチーズ",
+      "Maltês",
+      "Мальтезе",
+      "Bichon Maltais",
+      "Maltezer",
+      "Maltańczyk",
+      "Malteserkoira"
+    ],
     "group": "toy",
     "origin": "Malta",
     "lifespan": "12-15 years",
@@ -8611,7 +9759,14 @@
   {
     "id": "manchester-terrier",
     "name": "Manchester Terrier",
-    "aliases": [],
+    "aliases": [
+      "マンチェスター・テリア",
+      "Manchester Terriër",
+      "Манчестер-терьер",
+      "Manchesterterrier",
+      "曼彻斯特梗",
+      "Manchesterinterrieri"
+    ],
     "group": "terrier",
     "origin": "England",
     "lifespan": "15-17 years",
@@ -8670,7 +9825,21 @@
   {
     "id": "mastiff",
     "name": "Mastiff",
-    "aliases": [],
+    "aliases": [
+      "Engelsk Mastiff",
+      "Mastiff Inglese",
+      "Mastiff Inglês",
+      "Mastif Angielski",
+      "İngiliz Mastiff",
+      "英国獒犬",
+      "Английский мастиф",
+      "マスティフ",
+      "Mastín Inglés",
+      "Engelse Mastiff",
+      "Englischer Mastiff",
+      "Mastiff Anglais",
+      "Englanninmastiffi"
+    ],
     "group": "working",
     "origin": "England",
     "lifespan": "6-10 years",
@@ -8732,8 +9901,22 @@
     "id": "miniature-american-shepherd",
     "name": "Miniature American Shepherd",
     "aliases": [
+      "Miniatur Amerikanischer Schäferhund",
+      "Minyatür Amerikan Çoban Köpeği",
+      "Miniatyr Amerikansk Herdehund",
+      "Miniaturowy Owczarek Amerykański",
+      "MAS",
+      "Amerikanenminiaturipaimenkoira",
+      "Pastor Americano Miniatura",
+      "Miniature Amerikansk Hyrdehund",
+      "ミニチュア・アメリカン・シェパード",
+      "Миниатюрная американская овчарка",
       "Mini Aussie",
-      "MAS"
+      "Miniatuur Amerikaanse Herder",
+      "Miniatyr Amerikansk Gjeterhund",
+      "Pastore Americano Miniatura",
+      "迷你美国牧羊犬",
+      "Berger Américain Miniature"
     ],
     "group": "herding",
     "origin": "United States",
@@ -8797,7 +9980,22 @@
   {
     "id": "miniature-pinscher",
     "name": "Miniature Pinscher",
-    "aliases": [],
+    "aliases": [
+      "Dvärgpinscher",
+      "Pinscher Miniatura",
+      "Zwergpinscher",
+      "Minyatür Pinscher",
+      "Dvergpinscher",
+      "ミニチュア・ピンシャー",
+      "Dwergpinscher",
+      "Pinscher Nain",
+      "迷你杜宾犬",
+      "Dværgpinscher",
+      "Kääpiöpinseri",
+      "Pinczer Miniaturowy",
+      "Цвергпинчер",
+      "Pinscher Nano"
+    ],
     "group": "toy",
     "origin": "Germany",
     "lifespan": "12-16 years",
@@ -8859,7 +10057,21 @@
     "id": "miniature-schnauzer",
     "name": "Miniature Schnauzer",
     "aliases": [
-      "Mini Schnauzer"
+      "Sznaucer Miniaturowy",
+      "Dvergschnauzer",
+      "Kääpiösnautseri",
+      "Zwergschnauzer",
+      "迷你雪纳瑞",
+      "Dvärgschnauzer",
+      "Dwergsnauzer",
+      "Mini Schnauzer",
+      "Schnauzer Miniatura",
+      "Schnauzer Nano",
+      "Schnauzer Nain",
+      "ミニチュア・シュナウザー",
+      "Minyatür Schnauzer",
+      "Dværgschnauzer",
+      "Цвергшнауцер"
     ],
     "group": "terrier",
     "origin": "Germany",
@@ -8924,7 +10136,11 @@
   {
     "id": "mudi",
     "name": "Mudi",
-    "aliases": [],
+    "aliases": [
+      "ムーディー",
+      "Муди",
+      "穆迪犬"
+    ],
     "group": "herding",
     "origin": "Hungary",
     "lifespan": "12-14 years",
@@ -8988,7 +10204,20 @@
   {
     "id": "neapolitan-mastiff",
     "name": "Neapolitan Mastiff",
-    "aliases": [],
+    "aliases": [
+      "Неаполитанский мастиф",
+      "ナポリタン・マスティフ",
+      "Napolinmastiffi",
+      "Napolitansk Mastiff",
+      "Mastim Napolitano",
+      "Mâtin de Naples",
+      "Mastino Napoletano",
+      "Napolitaanse Mastiff",
+      "Napoliten Mastiff",
+      "Mastif Neapolitański",
+      "Mastín Napolitano",
+      "那不勒斯獒犬"
+    ],
     "group": "working",
     "origin": "Italy",
     "lifespan": "7-9 years",
@@ -9111,7 +10340,19 @@
     "id": "newfoundland",
     "name": "Newfoundland",
     "aliases": [
+      "Newfoundlandinkoira",
+      "Nowofundland",
+      "Newfoundlænder",
+      "ニューファンドランド",
+      "Terranova",
+      "Terra Nova",
+      "Terre-Neuve",
+      "Newfoundlander",
+      "Newfoundlandshund",
+      "Ньюфаундленд",
+      "Neufundländer",
       "Newfie",
+      "纽芬兰犬",
       "Newf"
     ],
     "group": "working",
@@ -9180,7 +10421,13 @@
     "id": "norfolk-terrier",
     "name": "Norfolk Terrier",
     "aliases": [
-      "Norfolk"
+      "Norfolkterrier",
+      "诺福克梗",
+      "Norfolkinterrieri",
+      "Norfolk Terriër",
+      "ノーフォーク・テリア",
+      "Norfolk",
+      "Норфолк-терьер"
     ],
     "group": "terrier",
     "origin": "England",
@@ -9245,7 +10492,21 @@
   {
     "id": "norwegian-buhund",
     "name": "Norwegian Buhund",
-    "aliases": [],
+    "aliases": [
+      "Norjanbuhund",
+      "Buhund Norueguês",
+      "Buhund Norvegese",
+      "Norveç Buhund",
+      "Buhund Norvégien",
+      "Buhund Noruego",
+      "ノルウェジアン・ブーフント",
+      "Buhund Norweski",
+      "Norwegischer Buhund",
+      "Norsk Buhund",
+      "Норвежский бухунд",
+      "Noorse Buhund",
+      "挪威布哈德犬"
+    ],
     "group": "herding",
     "origin": "Norway",
     "lifespan": "12-15 years",
@@ -9306,8 +10567,21 @@
     "id": "norwegian-elkhound",
     "name": "Norwegian Elkhound",
     "aliases": [
+      "Norsk Älghund",
+      "Norwegischer Elchhund",
+      "Норвежский элкхаунд",
+      "Cazador de Alces Noruego",
+      "Elkhound Norvegese",
+      "挪威猎麋犬",
+      "Norjanharmaa",
+      "Chien d'Élan Norvégien",
+      "Elkhound Norueguês",
+      "ノルウェジアン・エルクハウンド",
+      "Norveç Elkhound",
+      "Elkhound",
       "Norsk Elghund",
-      "Elkhound"
+      "Noorse Elandhond",
+      "Szary Łosiak Norweski"
     ],
     "group": "hound",
     "origin": "Norway",
@@ -9369,7 +10643,21 @@
   {
     "id": "norwegian-lundehund",
     "name": "Norwegian Lundehund",
-    "aliases": [],
+    "aliases": [
+      "Norsk Lundehund",
+      "Lundehund Noruego",
+      "Norveç Lundehund",
+      "Lundehund Norweski",
+      "Норвежский лундехунд",
+      "Lundehund Norvegese",
+      "Norjanlunnikoira",
+      "挪威伦德猎犬",
+      "Lundehund",
+      "ノルウェジアン・ルンデフント",
+      "Norwegischer Lundehund",
+      "Noorse Lundehund",
+      "Lundehund Norueguês"
+    ],
     "group": "non-sporting",
     "origin": "Norway",
     "lifespan": "12-14 years",
@@ -9429,7 +10717,13 @@
     "id": "norwich-terrier",
     "name": "Norwich Terrier",
     "aliases": [
-      "Norwich"
+      "Норвич-терьер",
+      "Norwichterrier",
+      "ノーリッチ・テリア",
+      "Norwich Terriër",
+      "Norwich",
+      "Norwichinterrieri",
+      "诺维奇梗"
     ],
     "group": "terrier",
     "origin": "England",
@@ -9494,7 +10788,16 @@
   {
     "id": "nova-scotia-duck-tolling-retriever",
     "name": "Nova Scotia Duck Tolling Retriever",
-    "aliases": [],
+    "aliases": [
+      "Retriever da Nova Escócia",
+      "Retriever z Nowej Szkocji",
+      "Новошотландский ретривер",
+      "新斯科舍诱鸭寻回犬",
+      "ノヴァ・スコシア・ダック・トーリング・レトリーバー",
+      "Retriever de Nueva Escocia",
+      "Novascotian­noutaja",
+      "Retriever de la Nouvelle-Écosse"
+    ],
     "group": "sporting",
     "origin": "Canada",
     "lifespan": "12-14 years",
@@ -9554,7 +10857,14 @@
   {
     "id": "old-english-sheepdog",
     "name": "Old English Sheepdog",
-    "aliases": [],
+    "aliases": [
+      "オールド・イングリッシュ・シープドッグ",
+      "Bobtail",
+      "古代英国牧羊犬",
+      "Eski İngiliz Çoban Köpeği",
+      "Бобтейл",
+      "Vanhaenglanninlammaskoira"
+    ],
     "group": "herding",
     "origin": "England",
     "lifespan": "10-12 years",
@@ -9614,7 +10924,12 @@
   {
     "id": "otterhound",
     "name": "Otterhound",
-    "aliases": [],
+    "aliases": [
+      "奥达猎犬",
+      "Otterhund",
+      "Оттерхаунд",
+      "オッターハウンド"
+    ],
     "group": "hound",
     "origin": "England",
     "lifespan": "10-13 years",
@@ -9673,7 +10988,13 @@
   {
     "id": "papillon",
     "name": "Papillon",
-    "aliases": [],
+    "aliases": [
+      "Papillón",
+      "Папийон",
+      "Épagneul Nain Continental Papillon",
+      "蝴蝶犬",
+      "パピヨン"
+    ],
     "group": "toy",
     "origin": "France/Belgium",
     "lifespan": "14-16 years",
@@ -9733,8 +11054,13 @@
     "id": "parson-russell-terrier",
     "name": "Parson Russell Terrier",
     "aliases": [
-      "PRT",
-      "Parson Jack Russell"
+      "Parson Russell Terrieri",
+      "Parson Russell Terriër",
+      "帕森罗素梗",
+      "パーソン・ラッセル・テリア",
+      "Parson Jack Russell",
+      "Парсон-рассел-терьер",
+      "PRT"
     ],
     "group": "terrier",
     "origin": "England",
@@ -9798,7 +11124,22 @@
   {
     "id": "pekingese",
     "name": "Pekingese",
-    "aliases": [],
+    "aliases": [
+      "Pekińczyk",
+      "Pekinges",
+      "Pekingeser",
+      "Pékinois",
+      "Pechinese",
+      "Pekinees",
+      "ペキニーズ",
+      "Pequinés",
+      "Pekingeesi",
+      "Pekin Köpeği",
+      "Pekinese",
+      "北京犬",
+      "Пекинес",
+      "Pequinês"
+    ],
     "group": "toy",
     "origin": "China",
     "lifespan": "12-14 years",
@@ -9858,8 +11199,16 @@
     "id": "pembroke-welsh-corgi",
     "name": "Pembroke Welsh Corgi",
     "aliases": [
+      "PWC",
+      "ウェルシュ・コーギー・ペンブローク",
+      "Corgi Galés de Pembroke",
+      "Corgi Gallese Pembroke",
+      "Welsh Corgi Pembroke",
       "Corgi",
-      "PWC"
+      "威尔士柯基犬（彭布罗克）",
+      "Corgi Gallois Pembroke",
+      "Вельш-корги пемброк",
+      "Corgi Galês Pembroke"
     ],
     "group": "herding",
     "origin": "Wales",
@@ -9993,7 +11342,12 @@
   {
     "id": "petit-basset-griffon-vendeen",
     "name": "Petit Basset Griffon Vendéen",
-    "aliases": [],
+    "aliases": [
+      "小型旺代短腿猎犬",
+      "プチ・バセット・グリフォン・バンデーン",
+      "Малый вандейский бассет-гриффон",
+      "Petit Basset Griffon Vendeen"
+    ],
     "group": "hound",
     "origin": "France",
     "lifespan": "14-16 years",
@@ -10054,7 +11408,20 @@
     "name": "Pharaoh Hound",
     "aliases": [
       "Kelb tal-Fenek",
-      "Rabbit Dog"
+      "Chien du Pharaon",
+      "Pies Faraona",
+      "Фараонова собака",
+      "Firavun Köpeği",
+      "Pharaonenhund",
+      "Perro del Faraón",
+      "法老王猎犬",
+      "Cão do Faraó",
+      "Faaraonkoira",
+      "Faraohund",
+      "Rabbit Dog",
+      "Faraohond",
+      "Cane dei Faraoni",
+      "ファラオ・ハウンド"
     ],
     "group": "hound",
     "origin": "Malta",
@@ -10177,7 +11544,23 @@
   {
     "id": "polish-lowland-sheepdog",
     "name": "Polish Lowland Sheepdog",
-    "aliases": [],
+    "aliases": [
+      "Polsk Lavlandshyrdehund",
+      "Polsk Lavlandsgjeterhund",
+      "Pastore Polacco di Pianura",
+      "Польская низинная овчарка",
+      "ポリッシュ・ローランド・シープドッグ",
+      "Puolanalamaanpaimenkoira",
+      "波兰低地牧羊犬",
+      "Berger Polonais de Plaine",
+      "Polski Owczarek Nizinny",
+      "Polnischer Niederungshütehund",
+      "Pastor Polaco de Planície",
+      "Poolse Laagland Herdershond",
+      "Polonya Ova Çoban Köpeği",
+      "Polsk Låglandsvallhund",
+      "Pastor Polaco de las Llanuras"
+    ],
     "group": "herding",
     "origin": "Poland",
     "lifespan": "12-14 years",
@@ -10237,7 +11620,17 @@
     "id": "pomeranian",
     "name": "Pomeranian",
     "aliases": [
-      "Pom"
+      "Szpic Miniaturowy",
+      "Zwergspitz",
+      "Volpino di Pomerania",
+      "博美犬",
+      "Dwergkeeshond",
+      "Померанский шпиц",
+      "Lulu da Pomerânia",
+      "Pomerania",
+      "Pom",
+      "ポメラニアン",
+      "Spitz Nain"
     ],
     "group": "toy",
     "origin": "Germany/Poland",
@@ -10306,8 +11699,18 @@
     "name": "Poodle",
     "aliases": [
       "Standard Poodle",
+      "Puddel",
+      "Villakoira",
+      "Toy Poodle",
       "Miniature Poodle",
-      "Toy Poodle"
+      "贵宾犬",
+      "Poedel",
+      "Caniche",
+      "Barboncino",
+      "Pudel",
+      "プードル",
+      "Пудель",
+      "Kaniş"
     ],
     "group": "non-sporting",
     "origin": "Germany/France",
@@ -10438,8 +11841,23 @@
     "id": "portuguese-water-dog",
     "name": "Portuguese Water Dog",
     "aliases": [
+      "Cão de Água Português",
+      "Cane d'Acqua Portoghese",
+      "Perro de Agua Portugués",
+      "Portugese Waterhond",
+      "Portugiesischer Wasserhund",
+      "Portugisisk Vannhund",
+      "Portekiz Su Köpeği",
+      "Portugisisk Vandhund",
+      "Portugisisk Vattenhund",
+      "Portugalski Pies Wodny",
+      "Portugalinvesikoira",
+      "Portie",
+      "ポーチュギーズ・ウォーター・ドッグ",
+      "Chien d'Eau Portugais",
+      "Португальская водяная собака",
       "PWD",
-      "Portie"
+      "葡萄牙水犬"
     ],
     "group": "working",
     "origin": "Portugal",
@@ -10566,7 +11984,16 @@
   {
     "id": "pug",
     "name": "Pug",
-    "aliases": [],
+    "aliases": [
+      "巴哥犬",
+      "Mopsi",
+      "Мопс",
+      "Mops",
+      "Carlino",
+      "パグ",
+      "Carlin",
+      "Mopshond"
+    ],
     "group": "toy",
     "origin": "China",
     "lifespan": "13-15 years",
@@ -10632,8 +12059,11 @@
     "id": "puli",
     "name": "Puli",
     "aliases": [
-      "Hungarian Puli",
-      "Pulik (plural)"
+      "Пули",
+      "プーリー",
+      "普利犬",
+      "Pulik (plural)",
+      "Hungarian Puli"
     ],
     "group": "herding",
     "origin": "Hungary",
@@ -10699,7 +12129,10 @@
     "id": "pumi",
     "name": "Pumi",
     "aliases": [
-      "Hungarian Pumi"
+      "普米犬",
+      "Hungarian Pumi",
+      "Пуми",
+      "プーミー"
     ],
     "group": "herding",
     "origin": "Hungary",
@@ -10828,8 +12261,13 @@
     "id": "rat-terrier",
     "name": "Rat Terrier",
     "aliases": [
+      "Decker Giant",
+      "ラット・テリア",
+      "Рэт-терьер",
       "Ratting Terrier",
-      "Decker Giant"
+      "Rat Terriër",
+      "捕鼠梗",
+      "Rat Terrieri"
     ],
     "group": "terrier",
     "origin": "United States",
@@ -10891,7 +12329,11 @@
   {
     "id": "redbone-coonhound",
     "name": "Redbone Coonhound",
-    "aliases": [],
+    "aliases": [
+      "Редбон-кунхаунд",
+      "红骨猎浣熊犬",
+      "レッドボーン・クーンハウンド"
+    ],
     "group": "hound",
     "origin": "United States",
     "lifespan": "11-12 years",
@@ -10952,7 +12394,12 @@
     "name": "Rhodesian Ridgeback",
     "aliases": [
       "African Lion Dog",
-      "Ridgeback"
+      "Ridgeback",
+      "罗得西亚脊背犬",
+      "Rhodesiankoira",
+      "ローデシアン・リッジバック",
+      "Родезийский риджбек",
+      "Rodezya Ridgeback"
     ],
     "group": "hound",
     "origin": "Southern Africa",
@@ -11016,8 +12463,11 @@
     "id": "rottweiler",
     "name": "Rottweiler",
     "aliases": [
-      "Rottie",
-      "Rott"
+      "Ротвейлер",
+      "Rott",
+      "罗威纳犬",
+      "ロットワイラー",
+      "Rottie"
     ],
     "group": "working",
     "origin": "Germany",
@@ -11082,7 +12532,13 @@
   {
     "id": "russell-terrier",
     "name": "Russell Terrier",
-    "aliases": [],
+    "aliases": [
+      "Рассел-терьер",
+      "Russell Terrieri",
+      "ラッセル・テリア",
+      "罗素梗",
+      "Russell Terriër"
+    ],
     "group": "terrier",
     "origin": "England",
     "lifespan": "12-14 years",
@@ -11204,8 +12660,11 @@
     "id": "saluki",
     "name": "Saluki",
     "aliases": [
+      "サルーキ",
+      "Салюки",
+      "Royal Dog of Egypt",
       "Persian Greyhound",
-      "Royal Dog of Egypt"
+      "萨路基猎犬"
     ],
     "group": "hound",
     "origin": "Middle East",
@@ -11274,8 +12733,19 @@
     "id": "samoyed",
     "name": "Samoyed",
     "aliases": [
+      "Smiley Dog",
+      "Samojedi",
+      "Samojeed",
+      "Samojede",
+      "Samoieda",
+      "Samojed",
+      "Samoyède",
+      "萨摩耶犬",
+      "Samoiedo",
       "Sammy",
-      "Smiley Dog"
+      "サモエド",
+      "Samoyedo",
+      "Самоед"
     ],
     "group": "working",
     "origin": "Siberia, Russia",
@@ -11340,7 +12810,11 @@
   {
     "id": "schipperke",
     "name": "Schipperke",
-    "aliases": [],
+    "aliases": [
+      "スキッパーキ",
+      "Шипперке",
+      "舒柏奇犬"
+    ],
     "group": "non-sporting",
     "origin": "Belgium",
     "lifespan": "12-14 years",
@@ -11399,7 +12873,22 @@
   {
     "id": "scottish-deerhound",
     "name": "Scottish Deerhound",
-    "aliases": [],
+    "aliases": [
+      "Schottischer Hirschhund",
+      "Шотландская борзая",
+      "Skotlanninhjorta­koira",
+      "Skotsk Hjorthund",
+      "Lévrier Écossais",
+      "Levriero Scozzese",
+      "Lebrel Escocés",
+      "İskoç Geyik Köpeği",
+      "Galgo Escocês",
+      "スコティッシュ・ディアハウンド",
+      "Schotse Hertenhond",
+      "Skotsk Hjortehund",
+      "苏格兰猎鹿犬",
+      "Chart Szkocki"
+    ],
     "group": "hound",
     "origin": "Scotland",
     "lifespan": "8-11 years",
@@ -11462,8 +12951,15 @@
     "id": "scottish-terrier",
     "name": "Scottish Terrier",
     "aliases": [
+      "Skotsk Terrier",
+      "Шотландский терьер",
+      "İskoç Terrier",
+      "苏格兰梗",
+      "Aberdeen Terrier",
       "Scottie",
-      "Aberdeen Terrier"
+      "Skotlanninterrieri",
+      "スコティッシュ・テリア",
+      "Schotse Terriër"
     ],
     "group": "terrier",
     "origin": "Scotland",
@@ -11528,7 +13024,13 @@
     "id": "sealyham-terrier",
     "name": "Sealyham Terrier",
     "aliases": [
-      "Sealy"
+      "Силихем-терьер",
+      "西里汉梗",
+      "Sealyhamterrier",
+      "Sealyhaminterrieri",
+      "シーリハム・テリア",
+      "Sealy",
+      "Sealyham Terriër"
     ],
     "group": "terrier",
     "origin": "Wales",
@@ -11657,7 +13159,16 @@
     "id": "shetland-sheepdog",
     "name": "Shetland Sheepdog",
     "aliases": [
-      "Sheltie"
+      "Berger des Shetland",
+      "シェットランド・シープドッグ",
+      "Шелти",
+      "Shetland Çoban Köpeği",
+      "喜乐蒂牧羊犬",
+      "Shetlanninlammaskoira",
+      "Pastore delle Shetland",
+      "Pastor de Shetland",
+      "Sheltie",
+      "Owczarek Szetlandzki"
     ],
     "group": "herding",
     "origin": "Scotland (Shetland Islands)",
@@ -11725,7 +13236,9 @@
     "id": "shiba-inu",
     "name": "Shiba Inu",
     "aliases": [
-      "Shiba"
+      "Shiba",
+      "柴犬",
+      "Сиба-ину"
     ],
     "group": "non-sporting",
     "origin": "Japan",
@@ -11792,7 +13305,10 @@
     "name": "Shih Tzu",
     "aliases": [
       "Lion Dog",
-      "Chrysanthemum Dog"
+      "Chrysanthemum Dog",
+      "シー・ズー",
+      "Ши-тцу",
+      "西施犬"
     ],
     "group": "toy",
     "origin": "Tibet/China",
@@ -11923,7 +13439,17 @@
     "id": "siberian-husky",
     "name": "Siberian Husky",
     "aliases": [
-      "Husky"
+      "Сибирский хаски",
+      "西伯利亚雪橇犬",
+      "Husky Sibérien",
+      "Husky",
+      "Sibirsk Husky",
+      "Siberische Husky",
+      "シベリアン・ハスキー",
+      "Siperianhusky",
+      "Sibirya Husky",
+      "Sibirisk Husky",
+      "Husky Siberiano"
     ],
     "group": "working",
     "origin": "Siberia, Russia",
@@ -11991,7 +13517,20 @@
   {
     "id": "silky-terrier",
     "name": "Silky Terrier",
-    "aliases": [],
+    "aliases": [
+      "Silky Terrier Australijski",
+      "Silky Terrier Australiano",
+      "シルキー・テリア",
+      "Australische Silky Terriër",
+      "Silkyterrier",
+      "Australsk Silky Terrier",
+      "Australiansilkkiterrieri",
+      "Australischer Silky Terrier",
+      "Австралийский шелковистый терьер",
+      "Avustralya İpek Terrier",
+      "Silky Terrier Australien",
+      "澳大利亚丝毛梗"
+    ],
     "group": "toy",
     "origin": "Australia",
     "lifespan": "13-15 years",
@@ -12051,7 +13590,13 @@
     "id": "skye-terrier",
     "name": "Skye Terrier",
     "aliases": [
-      "Skye"
+      "斯凯梗",
+      "Skye Terriër",
+      "Skyeterrier",
+      "Skyenterrieri",
+      "Skye",
+      "Скай-терьер",
+      "スカイ・テリア"
     ],
     "group": "terrier",
     "origin": "Scotland",
@@ -12117,7 +13662,11 @@
   {
     "id": "sloughi",
     "name": "Sloughi",
-    "aliases": [],
+    "aliases": [
+      "Слюги",
+      "斯卢吉犬",
+      "スルーギ"
+    ],
     "group": "hound",
     "origin": "North Africa",
     "lifespan": "10-15 years",
@@ -12180,7 +13729,22 @@
   {
     "id": "small-munsterlander",
     "name": "Small Münsterländer",
-    "aliases": [],
+    "aliases": [
+      "Lille Münsterländer",
+      "小型明斯特兰德犬",
+      "Münsterländer Pequeño",
+      "スモール・ミュンスターレンダー",
+      "Petit Münsterländer",
+      "Piccolo Münsterländer",
+      "Kleine Münsterländer",
+      "Liten Münsterländer",
+      "Mały Münsterländer",
+      "Küçük Münsterländer",
+      "Kleiner Münsterländer",
+      "Münsterländer Pequeno",
+      "Малый мюнстерлендер",
+      "Pieni Münsterinseisoja"
+    ],
     "group": "sporting",
     "origin": "Germany",
     "lifespan": "12-14 years",
@@ -12307,8 +13871,21 @@
     "id": "soft-coated-wheaten-terrier",
     "name": "Soft Coated Wheaten Terrier",
     "aliases": [
+      "Terrier Irlandês de Pelo Macio",
+      "Ierse Zachte Wheaten Terriër",
+      "Terrier Irlandais à Poil Doux",
+      "Yumuşak Tüylü Wheaten Terrier",
+      "ソフトコーテッド・ウィートン・テリア",
+      "Terrier Irlandés de Pelo Suave",
+      "Irlandzki Terier Miękkowłosy",
+      "爱尔兰软毛麦色梗",
+      "Irlannin­pehmea­turkkinenterrieri",
+      "Ирландский мягкошёрстный пшеничный терьер",
+      "Irsk Myk Wheaten Terrier",
+      "Irsk Blød Wheaten Terrier",
       "Wheaten",
-      "Irish Soft-Coated Wheaten Terrier"
+      "Irish Soft-Coated Wheaten Terrier",
+      "Irish Soft Coated Wheaten Terrier"
     ],
     "group": "terrier",
     "origin": "Ireland",
@@ -12370,7 +13947,23 @@
   {
     "id": "spanish-water-dog",
     "name": "Spanish Water Dog",
-    "aliases": [],
+    "aliases": [
+      "Cane d'Acqua Spagnolo",
+      "Espanjanvesikoira",
+      "Cão de Água Espanhol",
+      "Spansk Vandhund",
+      "Spansk Vannhund",
+      "Spansk Vattenhund",
+      "西班牙水犬",
+      "Perro de Agua Español",
+      "Chien d'Eau Espagnol",
+      "Spanischer Wasserhund",
+      "İspanyol Su Köpeği",
+      "スパニッシュ・ウォーター・ドッグ",
+      "Spaanse Waterhond",
+      "Испанская водяная собака",
+      "Hiszpański Pies Wodny"
+    ],
     "group": "herding",
     "origin": "Spain",
     "lifespan": "12-14 years",
@@ -12433,7 +14026,13 @@
   {
     "id": "spinone-italiano",
     "name": "Spinone Italiano",
-    "aliases": [],
+    "aliases": [
+      "İtalyan Spinone",
+      "Spinone Italien",
+      "スピノーネ・イタリアーノ",
+      "Итальянский спиноне",
+      "意大利硬毛指示犬"
+    ],
     "group": "sporting",
     "origin": "Italy",
     "lifespan": "10-12 years",
@@ -12561,9 +14160,15 @@
     "id": "staffordshire-bull-terrier",
     "name": "Staffordshire Bull Terrier",
     "aliases": [
-      "Staffie",
+      "Staffordshire Bull Terriër",
+      "スタッフォードシャー・ブル・テリア",
+      "斯塔福郡斗牛梗",
+      "SBT",
+      "Staffordshire Bullterrier",
       "Staffy",
-      "SBT"
+      "Staffie",
+      "Staffordshiren­bullterrieri",
+      "Стаффордширский бультерьер"
     ],
     "group": "terrier",
     "origin": "England",
@@ -12630,7 +14235,21 @@
   {
     "id": "standard-schnauzer",
     "name": "Standard Schnauzer",
-    "aliases": [],
+    "aliases": [
+      "Schnauzer Mediano",
+      "Keskikokoinen Snautseri",
+      "Sznaucer Średni",
+      "スタンダード・シュナウザー",
+      "Mittelschnauzer",
+      "标准雪纳瑞",
+      "Миттельшнауцер",
+      "Schnauzer Médio",
+      "Schnauzer",
+      "Schnauzer Moyen",
+      "Schnauzer Medio",
+      "Middenslag Schnauzer",
+      "Standart Schnauzer"
+    ],
     "group": "working",
     "origin": "Germany",
     "lifespan": "13-16 years",
@@ -12690,7 +14309,14 @@
   {
     "id": "sussex-spaniel",
     "name": "Sussex Spaniel",
-    "aliases": [],
+    "aliases": [
+      "Sussexspaniel",
+      "萨塞克斯猎犬",
+      "サセックス・スパニエル",
+      "Sussexinspanieli",
+      "Суссекс-спаниель",
+      "Sussex Spaniël"
+    ],
     "group": "sporting",
     "origin": "England",
     "lifespan": "13-15 years",
@@ -12749,7 +14375,21 @@
   {
     "id": "swedish-vallhund",
     "name": "Swedish Vallhund",
-    "aliases": [],
+    "aliases": [
+      "Schwedischer Vallhund",
+      "Vallhund Svedese",
+      "Vallhund Sueco",
+      "スウェーディッシュ・ヴァルフント",
+      "Ruotsinvallhund",
+      "Zweedse Vallhund",
+      "Шведский вальхунд",
+      "Vallhund Szwedzki",
+      "Spitz Suédois",
+      "İsveç Vallhund",
+      "Västgötaspets",
+      "瑞典柯基犬",
+      "Svensk Vallhund"
+    ],
     "group": "herding",
     "origin": "Sweden",
     "lifespan": "12-15 years",
@@ -12811,8 +14451,15 @@
     "id": "thai-ridgeback",
     "name": "Thai Ridgeback",
     "aliases": [
-      "TRD",
-      "Mah Thai Lang Ahn"
+      "Thaimaanridgeback",
+      "Тайский риджбек",
+      "Thaise Ridgeback",
+      "泰国脊背犬",
+      "Mah Thai Lang Ahn",
+      "Tayland Ridgeback",
+      "タイ・リッジバック",
+      "Thailändsk Ridgeback",
+      "TRD"
     ],
     "group": "hound",
     "origin": "Thailand",
@@ -12878,8 +14525,21 @@
     "id": "tibetan-mastiff",
     "name": "Tibetan Mastiff",
     "aliases": [
+      "Mastín Tibetano",
+      "Тибетский мастиф",
+      "藏獒",
       "TM",
-      "Do-Khyi"
+      "Tibetansk Mastiff",
+      "Tiibetin­mastiffi",
+      "Mastino Tibetano",
+      "Mastim Tibetano",
+      "Mastif Tybetański",
+      "Do-Khyi",
+      "Tibetaanse Mastiff",
+      "Dogue du Tibet",
+      "チベタン・マスティフ",
+      "Tibet Mastiff",
+      "Tibetdogge"
     ],
     "group": "working",
     "origin": "Tibet",
@@ -12944,7 +14604,18 @@
   {
     "id": "tibetan-spaniel",
     "name": "Tibetan Spaniel",
-    "aliases": [],
+    "aliases": [
+      "Tibetansk Spaniel",
+      "Tibet Spaniel",
+      "Тибетский спаниель",
+      "チベタン・スパニエル",
+      "Tiibetinspanieli",
+      "Épagneul Tibétain",
+      "Spaniel Tibetano",
+      "Spaniel Tybetański",
+      "Tibetaanse Spaniël",
+      "西藏猎犬"
+    ],
     "group": "toy",
     "origin": "Tibet",
     "lifespan": "12-15 years",
@@ -13004,9 +14675,19 @@
     "id": "tibetan-terrier",
     "name": "Tibetan Terrier",
     "aliases": [
-      "TT",
+      "Terier Tybetański",
+      "Tibet Terrier",
+      "Terrier Tibétain",
+      "西藏梗",
+      "Tibetaanse Terriër",
+      "Holy Dog of Tibet",
       "Tsang Apso",
-      "Holy Dog of Tibet"
+      "Tibetansk Terrier",
+      "チベタン・テリア",
+      "TT",
+      "Тибетский терьер",
+      "Tiibetinterrieri",
+      "Terrier Tibetano"
     ],
     "group": "non-sporting",
     "origin": "Tibet",
@@ -13069,9 +14750,14 @@
     "id": "toy-fox-terrier",
     "name": "Toy Fox Terrier",
     "aliases": [
+      "Amertoy",
+      "玩具猎狐梗",
+      "Той-фокстерьер",
       "TFT",
+      "トイ・フォックス・テリア",
+      "Toy Fox Terrieri",
       "American Toy Terrier",
-      "Amertoy"
+      "Toy Fox Terriër"
     ],
     "group": "toy",
     "origin": "United States",
@@ -13136,7 +14822,11 @@
   {
     "id": "treeing-walker-coonhound",
     "name": "Treeing Walker Coonhound",
-    "aliases": [],
+    "aliases": [
+      "Триинг-уокер-кунхаунд",
+      "トゥリーイング・ウォーカー・クーンハウンド",
+      "树丛浣熊猎犬"
+    ],
     "group": "hound",
     "origin": "United States",
     "lifespan": "12-13 years",
@@ -13196,8 +14886,18 @@
     "id": "vizsla",
     "name": "Vizsla",
     "aliases": [
+      "维兹拉犬",
+      "Unkarinvizla",
+      "Hungarian Pointer",
+      "Macar Vizsla",
+      "Magyar Vizsla",
+      "Венгерская выжла",
       "Hungarian Vizsla",
-      "Hungarian Pointer"
+      "Braque Hongrois",
+      "Wyżeł Węgierski",
+      "ビズラ",
+      "Hongaarse Vizsla",
+      "Ungarsk Vizsla"
     ],
     "group": "sporting",
     "origin": "Hungary",
@@ -13261,6 +14961,13 @@
     "id": "weimaraner",
     "name": "Weimaraner",
     "aliases": [
+      "Weimarinseisoja",
+      "魏玛犬",
+      "Braque de Weimar",
+      "Braco de Weimar",
+      "ワイマラナー",
+      "Wyżeł Weimarski",
+      "Веймаранер",
       "Gray Ghost",
       "Weim"
     ],
@@ -13327,7 +15034,17 @@
   {
     "id": "welsh-springer-spaniel",
     "name": "Welsh Springer Spaniel",
-    "aliases": [],
+    "aliases": [
+      "威尔士史宾格犬",
+      "Welsh Springer Spaniël",
+      "Springer Gallois",
+      "Вельш-спрингер-спаниель",
+      "Walesinspringerspanieli",
+      "ウェルシュ・スプリンガー・スパニエル",
+      "Walisisk Springer Spaniel",
+      "Springer Spaniel Galés",
+      "Walesisk Springer Spaniel"
+    ],
     "group": "sporting",
     "origin": "Wales",
     "lifespan": "12-15 years",
@@ -13387,7 +15104,13 @@
     "id": "welsh-terrier",
     "name": "Welsh Terrier",
     "aliases": [
-      "Welshie"
+      "Welshie",
+      "Walesinterrieri",
+      "Вельштерьер",
+      "威尔士梗",
+      "Walesisk Terrier",
+      "ウェルシュ・テリア",
+      "Welsh Terriër"
     ],
     "group": "terrier",
     "origin": "Wales",
@@ -13451,7 +15174,11 @@
     "id": "west-highland-white-terrier",
     "name": "West Highland White Terrier",
     "aliases": [
-      "Westie"
+      "Westie",
+      "Вест-хайленд-уайт-терьер",
+      "西高地白梗",
+      "ウエスト・ハイランド・ホワイト・テリア",
+      "West Highland White Terriër"
     ],
     "group": "terrier",
     "origin": "Scotland",
@@ -13514,8 +15241,11 @@
     "id": "whippet",
     "name": "Whippet",
     "aliases": [
-      "English Whippet",
-      "Snap Dog"
+      "惠比特犬",
+      "ウィペット",
+      "Уиппет",
+      "Snap Dog",
+      "English Whippet"
     ],
     "group": "hound",
     "origin": "England",
@@ -13702,7 +15432,18 @@
   {
     "id": "wirehaired-pointing-griffon",
     "name": "Wirehaired Pointing Griffon",
-    "aliases": [],
+    "aliases": [
+      "Griffon de Pelo Duro",
+      "Tel Tüylü Griffon",
+      "Griffon d'Arrêt à Poil Dur Korthals",
+      "Grifón de Muestra de Pelo Duro",
+      "Griffone a Pelo Duro",
+      "硬毛指示格里芬犬",
+      "Griffon Szorstkowłosy",
+      "ワイアーヘアード・ポインティング・グリフォン",
+      "Гриффон Кортальса",
+      "Griffon Korthals"
+    ],
     "group": "sporting",
     "origin": "Netherlands/France",
     "lifespan": "12-15 years",
@@ -13823,8 +15564,13 @@
     "id": "xoloitzcuintli",
     "name": "Xoloitzcuintli",
     "aliases": [
+      "墨西哥无毛犬",
       "Xolo",
-      "Mexican Hairless Dog"
+      "Ксолоитцкуинтли",
+      "Mexican Hairless Dog",
+      "Xoloitzcuintle",
+      "Meksikonkarvatonkoira",
+      "ショロイッツクインツレ"
     ],
     "group": "non-sporting",
     "origin": "Mexico",
@@ -13891,6 +15637,11 @@
     "id": "yorkshire-terrier",
     "name": "Yorkshire Terrier",
     "aliases": [
+      "Yorkshirenterrieri",
+      "Yorkshire Terriër",
+      "约克夏梗",
+      "Йоркширский терьер",
+      "ヨークシャー・テリア",
       "Yorkie"
     ],
     "group": "toy",
