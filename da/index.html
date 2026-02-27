@@ -371,28 +371,9 @@
     <script>
         lucide.createIcons();
         let breeds = [];
-        let breedTranslations = {};
-        
-        // Load translations first, then breeds
-        fetch('../data/breed_names_da.json')
-            .then(r => r.json())
-            .then(trans => { breedTranslations = trans; })
-            .catch(() => {});
-        
         fetch('../data/breeds.json')
             .then(r => r.json())
-            .then(data => { 
-                breeds = data.map(b => ({
-                    name: b.name, 
-                    slug: b.id,
-                    localName: breedTranslations[b.id] || b.name,
-                    aliases: b.aliases || []
-                })); 
-                // Update localName after translations load
-                setTimeout(() => {
-                    breeds = breeds.map(b => ({...b, localName: breedTranslations[b.slug] || b.name}));
-                }, 100);
-            })
+            .then(data => { breeds = data.map(b => ({name: b.name, slug: b.id})); })
             .catch(e => console.error('Failed to load breeds:', e));
         
         const homeSearch = document.getElementById('home-search');
@@ -402,12 +383,12 @@
             homeSearch.addEventListener('input', function() {
                 const query = this.value.trim().toLowerCase();
                 if (query.length < 1) { dropdown.classList.add('hidden'); return; }
-                const matches = breeds.filter(b => b.name.toLowerCase().includes(query) || (b.localName && b.localName.toLowerCase().includes(query)) || (b.aliases && b.aliases.some(a => a.toLowerCase().includes(query)))).slice(0, 8);
+                const matches = breeds.filter(b => b.name.toLowerCase().includes(query)).slice(0, 8);
                 if (matches.length === 0) { dropdown.classList.add('hidden'); return; }
                 dropdown.innerHTML = matches.map(b => `
                     <a href="breeds/${b.slug}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition first:rounded-t-2xl last:rounded-b-2xl">
-                        <img src="../images/heads/${b.slug}.webp" alt="${b.localName || b.name}" class="w-10 h-10 rounded-xl object-cover" onerror="this.style.display='none'">
-                        <span class="font-medium text-slate-800">${b.localName || b.name}</span>
+                        <img src="../images/heads/${b.slug}.webp" alt="${b.name}" class="w-10 h-10 rounded-xl object-cover" onerror="this.style.display='none'">
+                        <span class="font-medium text-slate-800">${b.name}</span>
                     </a>
                 `).join('');
                 dropdown.classList.remove('hidden');
