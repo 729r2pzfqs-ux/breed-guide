@@ -295,7 +295,7 @@
             updateSliderLabels();
         }
 
-async function loadBreeds() {
+        async function loadBreeds() {
             await loadTranslations();
             const response = await fetch('../../data/breeds.json');
             allBreeds = await response.json();
