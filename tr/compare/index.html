@@ -4205,7 +4205,7 @@
                     ${selected.map(b => `
                         <th class="p-4 text-center">
                             <img src="${b.image}" alt="${b.name}" class="w-16 h-16 rounded-full mx-auto mb-2 object-cover bg-white">
-                            <div class="font-bold">${b.name}</div>
+                            <div class="font-bold">${getLocalBreedName(b)}</div>
                         </th>
                     `).join('')}
                 </tr>
@@ -4237,7 +4237,10 @@
                                         <div class="w-2 h-6 rounded-full ${n <= b[key] ? 'bg-gradient-to-t from-sky-500 to-blue-600' : 'bg-slate-200'}"></div>
                                     `).join('')}
                                 </div>
-                            ` : b[key]}
+                            ` : (key === 'origin' ? getTranslatedOrigin(b[key], pageLang) : 
+                                key === 'size' ? getTranslatedSize(b[key], pageLang) :
+                                key === 'lifespan' ? getTranslatedLifespan(b[key], pageLang) :
+                                b[key])}`
                         </td>
                     `).join('')}
                 </tr>

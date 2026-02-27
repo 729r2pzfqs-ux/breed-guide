@@ -143,7 +143,7 @@
                     <p class="text-sm text-slate-600">Twee Amerikaanse favorieten</p>
                 </button>
                 <button onclick="setBreeds('french-bulldog', 'bulldog')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">French Engelse Engelse Engelse Engelse Bulldog vs Engelse Engelse Engelse Bulldog</span>
+                    <span class="font-semibold">French Engelse Bulldog vs Engelse Bulldog</span>
                     <p class="text-sm text-slate-600">Compacte metgezellen</p>
                 </button>
                 <button onclick="setBreeds('german-shepherd', 'belgian-malinois')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
@@ -173,21 +173,36 @@
         </div>
     </footer>
 
+    <script src="../../data/i18n.js"></script>
     <script src="../../data/breeds-compare.js"></script>
     <script>
         // Dark mode removed
+        const pageLang = "nl";
+        let breedNames = {};
         
         // Populate breed selectors
         const selects = ['breed1', 'breed2', 'breed3'];
-        selects.forEach(id => {
-            const select = document.getElementById(id);
-            breeds.forEach(breed => {
-                const option = document.createElement('option');
-                option.value = breed.slug;
-                option.textContent = breed.name;
-                select.appendChild(option);
+        // Load translated breed names
+        fetch('../../data/breed_names_nl.json')
+            .then(r => r.json())
+            .then(names => { breedNames = names; populateSelectors(); })
+            .catch(() => populateSelectors());
+        
+        function getLocalBreedName(breed) {
+            return breedNames[breed.slug] || breed.name;
+        }
+        
+        function populateSelectors() {
+            selects.forEach(id => {
+                const select = document.getElementById(id);
+                breeds.forEach(breed => {
+                    const option = document.createElement('option');
+                    option.value = breed.slug;
+                    option.textContent = getLocalBreedName(breed);
+                    select.appendChild(option);
+                });
             });
-        });
+        }
         
         function setBreeds(slug1, slug2) {
             document.getElementById('breed1').value = slug1;
@@ -220,7 +235,7 @@
                     ${selected.map(b => `
                         <th class="p-4 text-center">
                             <img src="${b.image}" alt="${b.name}" class="w-16 h-16 rounded-full mx-auto mb-2 object-cover bg-white">
-                            <div class="font-bold">${b.name}</div>
+                            <div class="font-bold">${getLocalBreedName(b)}</div>
                         </th>
                     `).join('')}
                 </tr>
@@ -252,7 +267,10 @@
                                         <div class="w-2 h-6 rounded-full ${n <= b[key] ? 'bg-gradient-to-t from-sky-500 to-blue-600' : 'bg-slate-200'}"></div>
                                     `).join('')}
                                 </div>
-                            ` : b[key]}
+                            ` : (key === 'origin' ? getTranslatedOrigin(b[key], pageLang) : 
+                                key === 'size' ? getTranslatedSize(b[key], pageLang) :
+                                key === 'lifespan' ? getTranslatedLifespan(b[key], pageLang) :
+                                b[key])}`
                         </td>
                     `).join('')}
                 </tr>
