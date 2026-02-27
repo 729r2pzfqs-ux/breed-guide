@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEERQZ53LZ"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "G-VEERQZ53LZ");</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irkları Keşfet | BreedFinder</title>
+    <meta name="description" content="100'den fazla köpek ırkını boyut, enerji seviyesi, bakım ihtiyacı ve daha fazlasına göre filtreleyin. Yaşam tarzınıza en uygun köpek ırkını bulun.">
+    <link rel="icon" href="../../favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .breed-card { transition: transform 0.2s, box-shadow 0.2s; }
+        .breed-card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.1); }
+        .filter-section { border-bottom: 1px solid #e2e8f0; }
+        .filter-section:last-child { border-bottom: none; }
+        input[type="range"] { -webkit-appearance: none; height: 6px; border-radius: 3px; background: #e2e8f0; }
+        input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%; background: #3b82f6; cursor: pointer; }
+        .tag { display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 12px; font-weight: 500; }
+    </style>
+</head>
+<body class="bg-slate-50 min-h-screen">
+    <!-- Header -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <a href="../" class="flex items-center gap-2">
+                    <img src="../../logo-192.png" class="w-10 h-10" alt="BreedFinder">
+                    <span class="font-bold text-xl text-slate-800">BreedFinder</span>
+                </a>
+                <nav class="hidden md:flex items-center gap-6">
+                    <a href="../" class="text-slate-600 hover:text-slate-900">Ana Sayfa</a>
+                    <a href="./" class="text-blue-600 font-medium">Irkları Keşfet</a>
+                    <a href="../quiz/" class="text-slate-600 hover:text-slate-900">Quiz</a>
+                    <a href="../compare/" class="text-slate-600 hover:text-slate-900">Karşılaştır</a>
+                <div class="relative group">
+                    <button class="flex items-center gap-1 text-slate-600 hover:text-sky-700 py-2">
+                        <i data-lucide="globe" class="w-4 h-4"></i>
+                        <span>TR</span>
+                    </button>
+                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
+                        <a href="../../search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a><a href="../../es/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="../../de/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a><a href="../../fr/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a><a href="../../it/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="../../pt/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Português</a><a href="../../fi/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Suomi</a><a href="../../sv/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a><a href="../../nl/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a><a href="../../da/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a><a href="../../ja/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="../../no/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="../../pl/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Polski</a><a href="../../ru/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a><a href="../../tr/search/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-sky-700">Türkçe</a><a href="../../zh/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a>
+                    </div>
+                </div>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        <!-- Hero Section -->
+        <div class="text-center mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold text-slate-800 mb-3">Mükemmel Köpek Irkinizi Bulun</h1>
+            <p class="text-slate-600 text-lg">Boyut, enerji seviyesi, bakım ihtiyacı ve daha fazlasına göre filtreleyin</p>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="max-w-2xl mx-auto mb-8">
+            <div class="relative">
+                <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-600"></i>
+                <input type="text" id="searchInput" placeholder="Irk arayın... (örn. Golden Retriever, Poodle)" 
+                    class="w-full pl-12 pr-4 py-4 rounded-xl border border-slate-200 bg-white shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg" autocomplete="off">
+                <button id="clearSearch" class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-600 hover:text-slate-600 hidden">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+                <!-- Autocomplete dropdown -->
+                <div id="search-dropdown" class="absolute top-full left-0 right-0 mt-2 bg-white border border-slate-200 rounded-2xl shadow-xl z-50 hidden max-h-80 overflow-y-auto">
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row gap-8">
+            <!-- Filters Sidebar -->
+            <aside class="lg:w-72 flex-shrink-0">
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5">
+                    <div class="flex items-center justify-between mb-4">
+                        <h2 class="font-semibold text-slate-800 flex items-center gap-2">
+                            <i data-lucide="sliders-horizontal" class="w-5 h-5"></i>
+                            Filtreler
+                        </h2>
+                        <button id="resetFilters" class="text-sm text-blue-600 hover:text-blue-700">Sıfırla</button>
+                    </div>
+
+                    <!-- Size Filter -->
+                    <div class="filter-section py-4">
+                        <h3 class="font-medium text-slate-700 mb-3">Boyut</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="tiny" class="size-filter rounded text-blue-600">
+                                <span class="text-slate-600">Çok Küçük</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="small" class="size-filter rounded text-blue-600">
+                                <span class="text-slate-600">Küçük</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="medium" class="size-filter rounded text-blue-600">
+                                <span class="text-slate-600">Orta</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="large" class="size-filter rounded text-blue-600">
+                                <span class="text-slate-600">Büyük</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="giant" class="size-filter rounded text-blue-600">
+                                <span class="text-slate-600">Dev</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Energy Level -->
+                    <div class="filter-section py-4">
+                        <label class="flex items-center justify-between mb-3 cursor-pointer">
+                            <h3 class="font-medium text-slate-700">Enerji Seviyesi</h3>
+                            <input type="checkbox" id="energyEnabled" class="rounded text-blue-600">
+                        </label>
+                        <div id="energyControls" class="hidden">
+                            <div class="flex items-center gap-3">
+                                <span class="text-xs text-slate-600">Düşük</span>
+                                <input type="range" id="energyFilter" min="1" max="5" value="3" class="flex-1">
+                                <span class="text-xs text-slate-600">Yüksek</span>
+                            </div>
+                            <div class="text-center text-sm text-slate-400 mt-1">
+                                <span id="energyValue">3</span>+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Grooming Needs -->
+                    <div class="filter-section py-4">
+                        <label class="flex items-center justify-between mb-3 cursor-pointer">
+                            <h3 class="font-medium text-slate-700">Bakım İhtiyacı</h3>
+                            <input type="checkbox" id="groomingEnabled" class="rounded text-blue-600">
+                        </label>
+                        <div id="groomingControls" class="hidden">
+                            <div class="flex items-center gap-3">
+                                <span class="text-xs text-slate-600">Düşük</span>
+                                <input type="range" id="groomingFilter" min="1" max="5" value="3" class="flex-1">
+                                <span class="text-xs text-slate-600">Yüksek</span>
+                            </div>
+                            <div class="text-center text-sm text-slate-400 mt-1">
+                                <span id="groomingValue">3</span> veya daha az
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trainability -->
+                    <div class="filter-section py-4">
+                        <label class="flex items-center justify-between mb-3 cursor-pointer">
+                            <h3 class="font-medium text-slate-700">Eğitilebilirlik</h3>
+                            <input type="checkbox" id="trainabilityEnabled" class="rounded text-blue-600">
+                        </label>
+                        <div id="trainabilityControls" class="hidden">
+                            <div class="flex items-center gap-3">
+                                <span class="text-xs text-slate-600">Düşük</span>
+                                <input type="range" id="trainabilityFilter" min="1" max="5" value="3" class="flex-1">
+                                <span class="text-xs text-slate-600">Yüksek</span>
+                            </div>
+                            <div class="text-center text-sm text-slate-400 mt-1">
+                                <span id="trainabilityValue">3</span>+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Barking Level -->
+                    <div class="filter-section py-4">
+                        <label class="flex items-center justify-between mb-3 cursor-pointer">
+                            <h3 class="font-medium text-slate-700">Havlama Seviyesi</h3>
+                            <input type="checkbox" id="barkingEnabled" class="rounded text-blue-600">
+                        </label>
+                        <div id="barkingControls" class="hidden">
+                            <div class="flex items-center gap-3">
+                                <span class="text-xs text-slate-600">Sessiz</span>
+                                <input type="range" id="barkingFilter" min="1" max="5" value="3" class="flex-1">
+                                <span class="text-xs text-slate-600">Sesli</span>
+                            </div>
+                            <div class="text-center text-sm text-slate-400 mt-1">
+                                <span id="barkingValue">3</span> veya daha az
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Good For -->
+                    <div class="filter-section py-4">
+                        <h3 class="font-medium text-slate-700 mb-3">İçin Uygun</h3>
+                        <div class="space-y-3">
+                            <label class="flex items-center justify-between cursor-pointer">
+                                <span class="text-slate-600">Çocuklar</span>
+                                <input type="checkbox" id="kidFriendly" class="toggle-filter rounded text-blue-600">
+                            </label>
+                            <label class="flex items-center justify-between cursor-pointer">
+                                <span class="text-slate-600">Daireler</span>
+                                <input type="checkbox" id="apartmentOk" class="toggle-filter rounded text-blue-600">
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Shedding -->
+                    <div class="py-4">
+                        <h3 class="font-medium text-slate-700 mb-3">Tüy Dökme</h3>
+                        <div class="space-y-2">
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="minimal" class="shed-filter rounded text-blue-600">
+                                <span class="text-slate-600">Çok Az</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="moderate" class="shed-filter rounded text-blue-600">
+                                <span class="text-slate-600">Orta</span>
+                            </label>
+                            <label class="flex items-center gap-2 cursor-pointer">
+                                <input type="checkbox" value="heavy" class="shed-filter rounded text-blue-600">
+                                <span class="text-slate-600">Çok</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Results Grid -->
+            <div class="flex-1">
+                <div class="flex items-center justify-between mb-4">
+                    <p class="text-slate-600"><span id="resultCount">0</span> ırk bulundu</p>
+                    <select id="sortBy" class="px-3 py-2 rounded-lg border border-slate-200 bg-white text-sm">
+                        <option value="name">İsme Göre Sırala</option>
+                        <option value="size">Boyuta Göre Sırala</option>
+                        <option value="energy">Enerjiye Göre Sırala</option>
+                        <option value="trainability">Eğitime Göre Sırala</option>
+                    </select>
+                </div>
+
+                <div id="resultsGrid" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5">
+                    <!-- Breed cards will be inserted here -->
+                </div>
+
+                <div id="noResults" class="hidden text-center py-16">
+                    <i data-lucide="search-x" class="w-16 h-16 text-slate-600 mx-auto mb-4"></i>
+                    <h3 class="text-xl font-semibold text-slate-700 mb-2">Irk bulunamadı</h3>
+                    <p class="text-slate-600">Filtrelerinizi veya arama terimlerinizi ayarlamayı deneyin</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-white py-8 mt-16">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="flex items-center justify-center gap-2 mb-4">
+                <img src="../../logo-192.png" class="w-8 h-8 rounded-lg" alt="BreedFinder">
+                <span class="font-semibold">BreedFinder</span>
+            </div>
+            <p class="text-slate-600 text-sm">Mükemmel köpek ırkı eşleşmenizi bulun</p>
+            <div class="flex justify-center gap-6 mt-4 text-sm">
+                <a href="../" class="text-slate-600 hover:text-white">Ana Sayfa</a>
+                <a href="../quiz/" class="text-slate-600 hover:text-white">Irk Quiz</a>
+                <a href="../compare/" class="text-slate-600 hover:text-white">Karşılaştır</a>
+            </div>
+            <p class="text-slate-600 text-xs mt-6">© 2026 BreedFinder. Köpek severler için özenle yapıldı.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // State
+        let allBreeds = [];
+        let fuse = null;
+
+        // Load breed data
+        async function loadBreeds() {
+            try {
+                const response = await fetch('../../data/breeds.json');
+                allBreeds = await response.json();
+                
+                // Initialize Fuse.js for fuzzy search
+                fuse = new Fuse(allBreeds, {
+                    keys: ['name', 'aliases', 'temperament', 'group', 'description.overview'],
+                    threshold: 0.4,
+                    includeScore: true
+                });
+            } catch (error) {
+                console.error('Error loading breeds:', error);
+            }
+        }
+
+        // Render breed card
+        function renderBreedCard(breed) {
+            const imageUrl = `../images/breeds/${breed.id}.webp`;
+            const fallbackUrl = `../images/heads/${breed.id}.webp`;
+            
+            const sizeColors = {
+                tiny: 'bg-sky-100 text-sky-700',
+                small: 'bg-blue-100 text-blue-700',
+                medium: 'bg-green-100 text-green-700',
+                large: 'bg-orange-100 text-orange-700',
+                giant: 'bg-red-100 text-red-700'
+            };
+
+            const temperamentTags = breed.temperament.slice(0, 3).map(t => 
+                `<span class="tag bg-slate-100 text-slate-600">${t}</span>`
+            ).join('');
+
+            return `
+                <a href="../breeds/${breed.id}.html" class="breed-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden block">
+                    <div class="aspect-[4/5] bg-slate-100 relative overflow-hidden">
+                        <img src="${imageUrl}" alt="${breed.name}" 
+                            class="w-full h-full object-cover object-top"
+                            onerror="this.onerror=null; this.src='${fallbackUrl}'; this.onerror=function(){this.parentElement.innerHTML='<div class=\\'w-full h-full flex items-center justify-center\\'><i data-lucide=\\'dog\\' class=\\'w-16 h-16 text-slate-600\\'></i></div>'; lucide.createIcons();}">
+                        <span class="absolute top-2 right-2 tag ${sizeColors[breed.size.category] || 'bg-slate-100 text-slate-600'}">
+                            ${breed.size.category}
+                        </span>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-slate-800 text-lg mb-1">${breed.name}</h3>
+                        <p class="text-slate-600 text-sm mb-3">${breed.origin} · ${breed.lifespan}</p>
+                        <div class="flex flex-wrap gap-1 mb-3">
+                            ${temperamentTags}
+                        </div>
+                        <div class="grid grid-cols-3 gap-2 text-center text-xs">
+                            <div class="bg-slate-50 rounded-lg py-2">
+                                <div class="text-slate-600">Enerji</div>
+                                <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.energy)}${'○'.repeat(5-breed.ratings.energy)}</div>
+                            </div>
+                            <div class="bg-slate-50 rounded-lg py-2">
+                                <div class="text-slate-600">Bakım</div>
+                                <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.grooming)}${'○'.repeat(5-breed.ratings.grooming)}</div>
+                            </div>
+                            <div class="bg-slate-50 rounded-lg py-2">
+                                <div class="text-slate-600">Eğitim</div>
+                                <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.trainability)}${'○'.repeat(5-breed.ratings.trainability)}</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            `;
+        }
+
+        // Apply all filters
+        function applyFilters() {
+            const searchQuery = document.getElementById('searchInput').value.trim();
+            const energyEnabled = document.getElementById('energyEnabled').checked;
+            const groomingEnabled = document.getElementById('groomingEnabled').checked;
+            const trainabilityEnabled = document.getElementById('trainabilityEnabled').checked;
+            const barkingEnabled = document.getElementById('barkingEnabled').checked;
+            const energyMin = parseInt(document.getElementById('energyFilter').value);
+            const groomingMax = parseInt(document.getElementById('groomingFilter').value);
+            const trainabilityMin = parseInt(document.getElementById('trainabilityFilter').value);
+            const barkingMax = parseInt(document.getElementById('barkingFilter').value);
+            const kidFriendly = document.getElementById('kidFriendly').checked;
+            const apartmentOk = document.getElementById('apartmentOk').checked;
+            const sortBy = document.getElementById('sortBy').value;
+
+            // Get selected sizes
+            const selectedSizes = Array.from(document.querySelectorAll('.size-filter:checked')).map(cb => cb.value);
+            
+            // Get selected shedding levels
+            const selectedShedding = Array.from(document.querySelectorAll('.shed-filter:checked')).map(cb => cb.value);
+
+            // Start with search results or all breeds
+            let results = searchQuery && fuse 
+                ? fuse.search(searchQuery).map(r => r.item)
+                : [...allBreeds];
+
+            // Apply filters
+            results = results.filter(breed => {
+                // Size filter
+                if (selectedSizes.length > 0 && !selectedSizes.includes(breed.size.category)) return false;
+                
+                // Energy filter (minimum) - only if enabled
+                if (energyEnabled && breed.ratings.energy < energyMin) return false;
+                
+                // Grooming filter (maximum) - only if enabled
+                if (groomingEnabled && breed.ratings.grooming > groomingMax) return false;
+                
+                // Trainability filter (minimum) - only if enabled
+                if (trainabilityEnabled && breed.ratings.trainability < trainabilityMin) return false;
+                
+                // Barking filter (maximum) - only if enabled
+                if (barkingEnabled && breed.ratings.barking > barkingMax) return false;
+                
+                // Kid friendly
+                if (kidFriendly && breed.ratings.kid_friendly < 4) return false;
+                
+                // Apartment ok
+                if (apartmentOk && breed.ratings.apartment_ok < 3) return false;
+                
+                // Easy to train
+                
+                // Shedding
+                if (selectedShedding.length > 0 && !selectedShedding.includes(breed.characteristics.shedding)) return false;
+
+                return true;
+            });
+
+            // Sort results
+            results.sort((a, b) => {
+                switch (sortBy) {
+                    case 'size': return (a.ratings.size || 3) - (b.ratings.size || 3);
+                    case 'energy': return b.ratings.energy - a.ratings.energy;
+                    case 'trainability': return b.ratings.trainability - a.ratings.trainability;
+                    default: return a.name.localeCompare(b.name);
+                }
+            });
+
+            // Render results
+            const grid = document.getElementById('resultsGrid');
+            const noResults = document.getElementById('noResults');
+            const resultCount = document.getElementById('resultCount');
+
+            resultCount.textContent = results.length;
+
+            if (results.length === 0) {
+                grid.innerHTML = '';
+                noResults.classList.remove('hidden');
+            } else {
+                noResults.classList.add('hidden');
+                grid.innerHTML = results.map(renderBreedCard).join('');
+                lucide.createIcons();
+            }
+
+            // Update clear button visibility
+            document.getElementById('clearSearch').classList.toggle('hidden', !searchQuery);
+        }
+
+        // Toggle filter controls visibility
+        function toggleFilterControls() {
+            const energyEnabled = document.getElementById('energyEnabled').checked;
+            const groomingEnabled = document.getElementById('groomingEnabled').checked;
+            const trainabilityEnabled = document.getElementById('trainabilityEnabled').checked;
+            const barkingEnabled = document.getElementById('barkingEnabled').checked;
+            
+            document.getElementById('energyControls').classList.toggle('hidden', !energyEnabled);
+            document.getElementById('groomingControls').classList.toggle('hidden', !groomingEnabled);
+            document.getElementById('trainabilityControls').classList.toggle('hidden', !trainabilityEnabled);
+            document.getElementById('barkingControls').classList.toggle('hidden', !barkingEnabled);
+        }
+        
+        // Update all slider labels
+        function updateSliderLabels() {
+            document.getElementById('energyValue').textContent = document.getElementById('energyFilter').value;
+            document.getElementById('groomingValue').textContent = document.getElementById('groomingFilter').value;
+            document.getElementById('trainabilityValue').textContent = document.getElementById('trainabilityFilter').value;
+            document.getElementById('barkingValue').textContent = document.getElementById('barkingFilter').value;
+        }
+
+        // Reset filters
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('energyEnabled').checked = false;
+            document.getElementById('groomingEnabled').checked = false;
+            document.getElementById('trainabilityEnabled').checked = false;
+            document.getElementById('barkingEnabled').checked = false;
+            document.getElementById('energyFilter').value = 3;
+            document.getElementById('groomingFilter').value = 3;
+            document.getElementById('trainabilityFilter').value = 3;
+            document.getElementById('barkingFilter').value = 3;
+            document.getElementById('kidFriendly').checked = false;
+            document.getElementById('apartmentOk').checked = false;
+            document.querySelectorAll('.size-filter, .shed-filter').forEach(cb => cb.checked = false);
+            document.getElementById('sortBy').value = 'name';
+            toggleFilterControls();
+            updateSliderLabels();
+            applyFilters();
+        }
+
+        // Autocomplete functionality
+        const searchInput = document.getElementById('searchInput');
+        const searchDropdown = document.getElementById('search-dropdown');
+        
+        function showAutocomplete(query) {
+            if (!query || query.length < 1 || allBreeds.length === 0) {
+                searchDropdown.classList.add('hidden');
+                return;
+            }
+            
+            const matches = allBreeds.filter(b => 
+                b.name.toLowerCase().includes(query.toLowerCase())
+            ).slice(0, 8);
+            
+            if (matches.length === 0) {
+                searchDropdown.classList.add('hidden');
+                return;
+            }
+            
+            searchDropdown.innerHTML = matches.map(b => `
+                <a href="../breeds/${b.id}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition first:rounded-t-2xl last:rounded-b-2xl border-b border-slate-100 last:border-0">
+                    <img src="../../images/heads/${b.id}.webp" alt="${b.name}" class="w-10 h-10 rounded-xl object-cover object-top" onerror="this.style.display='none'">
+                    <div>
+                        <div class="font-medium text-slate-800">${b.name}</div>
+                        <div class="text-sm text-slate-600">${b.group} · ${b.size.category}</div>
+                    </div>
+                </a>
+            `).join('');
+            searchDropdown.classList.remove('hidden');
+        }
+        
+        // Hide dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!searchInput.contains(e.target) && !searchDropdown.contains(e.target)) {
+                searchDropdown.classList.add('hidden');
+            }
+        });
+
+        // Event listeners
+        searchInput.addEventListener('input', function() {
+            showAutocomplete(this.value.trim());
+            applyFilters();
+        });
+        searchInput.addEventListener('focus', function() {
+            if (this.value.trim()) showAutocomplete(this.value.trim());
+        });
+        document.getElementById('clearSearch').addEventListener('click', () => {
+            searchInput.value = '';
+            searchDropdown.classList.add('hidden');
+            applyFilters();
+        });
+        document.getElementById('energyEnabled').addEventListener('change', () => { toggleFilterControls(); applyFilters(); });
+        document.getElementById('groomingEnabled').addEventListener('change', () => { toggleFilterControls(); applyFilters(); });
+        document.getElementById('trainabilityEnabled').addEventListener('change', () => { toggleFilterControls(); applyFilters(); });
+        document.getElementById('barkingEnabled').addEventListener('change', () => { toggleFilterControls(); applyFilters(); });
+        document.getElementById('energyFilter').addEventListener('input', () => { updateSliderLabels(); applyFilters(); });
+        document.getElementById('groomingFilter').addEventListener('input', () => { updateSliderLabels(); applyFilters(); });
+        document.getElementById('trainabilityFilter').addEventListener('input', () => { updateSliderLabels(); applyFilters(); });
+        document.getElementById('barkingFilter').addEventListener('input', () => { updateSliderLabels(); applyFilters(); });
+        document.getElementById('kidFriendly').addEventListener('change', applyFilters);
+        document.getElementById('apartmentOk').addEventListener('change', applyFilters);
+        document.getElementById('sortBy').addEventListener('change', applyFilters);
+        document.getElementById('resetFilters').addEventListener('click', resetFilters);
+        document.querySelectorAll('.size-filter, .shed-filter').forEach(cb => cb.addEventListener('change', applyFilters));
+
+        // Read URL parameters and apply filters
+        function applyUrlParams() {
+            const params = new URLSearchParams(window.location.search);
+            
+            // Size filter
+            const size = params.get('size');
+            if (size) {
+                const checkbox = document.querySelector(`.size-filter[value="${size}"]`);
+                if (checkbox) checkbox.checked = true;
+            }
+            
+            // Apartment friendly
+            if (params.get('apartment') === '1') {
+                document.getElementById('apartmentOk').checked = true;
+            }
+            
+            // Kid friendly
+            if (params.get('kids') === '1') {
+                document.getElementById('kidFriendly').checked = true;
+            }
+            
+            // Easy to train
+            if (params.get('train') === '1') {
+                document.getElementById('trainabilityEnabled').checked = true;
+                document.getElementById('trainabilityFilter').value = 4;
+            }
+            
+            // Search query
+            const q = params.get('q');
+            if (q) {
+                document.getElementById('searchInput').value = q;
+            }
+            
+            // Low shedding
+            const shedding = params.get('shedding');
+            if (shedding) {
+                const checkbox = document.querySelector(`.shed-filter[value="${shedding}"]`);
+                if (checkbox) checkbox.checked = true;
+            }
+            
+            toggleFilterControls();
+            updateSliderLabels();
+        }
+
+        // Initialize
+        loadBreeds().then(() => {
+            applyUrlParams();
+            applyFilters();
+        });
+    </script>
+</body>
+</html>
