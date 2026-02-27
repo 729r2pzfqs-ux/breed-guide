@@ -512,8 +512,8 @@
                 
                 dropdown.innerHTML = matches.map(b => `
                     <a href="breeds/${b.slug}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition first:rounded-t-2xl last:rounded-b-2xl">
-                        <img src="../images/heads/${b.slug}.webp" alt="${b.name}" class="w-10 h-10 rounded-xl object-cover" onerror="this.style.display='none'">
-                        <span class="font-medium text-slate-800">${b.name}</span>
+                        <img src="../images/heads/${b.slug}.webp" alt="${b.localName || b.name}" class="w-10 h-10 rounded-xl object-cover" onerror="this.style.display='none'">
+                        <span class="font-medium text-slate-800">${b.localName || b.name}</span>
                     </a>
                 `).join('');
                 dropdown.classList.remove('hidden');
