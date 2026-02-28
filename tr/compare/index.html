@@ -7,18 +7,18 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Köpek Irklarını Yan Yana Karşılaştır | BreedFinder</title>
-    <meta name="description" content="Köpek ırklarını yan yana karşılaştırın. Boyut, enerji seviyesi, bakım ihtiyacı ve daha fazlasını görerek mükemmel eşleşmenizi bulun.">
-    <link rel="canonical" href="https://breedfinder.org/tr/compare/">
+    <title>Compare Dog Breeds Side by Side | BreedFinder</title>
+    <meta name="description" content="Compare dog breeds side by side. See size, energy level, grooming needs, and more to find your perfect match.">
+    <link rel="canonical" href="https://breedfinder.org/compare/">
     
-    <link rel="icon" href="../../favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
     
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://breedfinder.org/compare/">
-    <meta property="og:title" content="Köpek Irklarını Yan Yana Karşılaştır">
-    <meta property="og:description" content="Mükemmel eşleşmenizi bulmak için köpek ırklarını yan yana karşılaştırın.">
+    <meta property="og:title" content="Compare Dog Breeds Side by Side">
+    <meta property="og:description" content="Compare dog breeds side by side to find your perfect match.">
     <meta property="og:site_name" content="BreedFinder">
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -36,16 +36,16 @@
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="../" class="flex items-center gap-3">
                 <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
-                    <img src="../../logo-192.png" class="w-10 h-10" alt="BreedFinder">
+                    <img src="../logo-192.png" class="w-10 h-10" alt="BreedFinder">
                 </div>
                 <span class="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="../breeds" class="text-slate-600 hover:text-sky-700 transition">Tüm Irklar</a>
-                <a href="../quiz" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-sky-500/25 transition">Quiz'e Başla</a>
+                <a href="../breeds" class="text-slate-600 hover:text-sky-700 transition">All Breeds</a>
+                <a href="../quiz" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-sky-500/25 transition">Take Quiz</a>
                 <div class="relative">
                     <select onchange="if(this.value) window.location.href=this.value" class="appearance-none bg-transparent border border-slate-200 rounded-lg px-3 py-2 pr-8 text-sm cursor-pointer hover:border-sky-400 focus:outline-none focus:border-sky-400">
-                        <option value="../../compare/">English</option>
+                        <option value="../../compare/" selected>English</option>
                         <option value="../../es/compare/">Español</option>
                         <option value="../../de/compare/">Deutsch</option>
                         <option value="../../fr/compare/">Français</option>
@@ -59,7 +59,7 @@
                         <option value="../../no/compare/">Norsk</option>
                         <option value="../../pl/compare/">Polski</option>
                         <option value="../../ru/compare/">Русский</option>
-                        <option value="../../tr/compare/" selected>Türkçe</option>
+                        <option value="../../tr/compare/">Türkçe</option>
                         <option value="../../zh/compare/">中文</option>
                     </select>
                     <svg class="w-4 h-4 absolute right-2 top-1/2 -translate-y-1/2 text-slate-600 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
@@ -72,30 +72,30 @@
         <!-- Header -->
         <div class="text-center mb-10">
             <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
-                Irkları
-                <span class="bg-gradient-to-r from-sky-500 to-blue-600 bg-clip-text text-transparent">Karşılaştır</span>
+                Compare
+                <span class="bg-gradient-to-r from-sky-500 to-blue-600 bg-clip-text text-transparent">Breeds</span>
             </h1>
-            <p class="text-lg text-slate-600">Yan yana karşılaştırmak için 3'e kadar ırk seçin</p>
+            <p class="text-lg text-slate-600">Select up to 3 breeds to compare side by side</p>
         </div>
 
         <!-- Breed Selectors -->
         <div class="grid md:grid-cols-3 gap-4 mb-10">
             <div>
-                <label class="block text-sm font-medium text-slate-600 mb-2">Irk 1</label>
+                <label class="block text-sm font-medium text-slate-600 mb-2">Breed 1</label>
                 <select id="breed1" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-sky-400 focus:outline-none bg-white">
-                    <option value="">Bir ırk seçin...</option>
+                    <option value="">Select a breed...</option>
                 </select>
             </div>
             <div>
-                <label class="block text-sm font-medium text-slate-600 mb-2">Irk 2</label>
+                <label class="block text-sm font-medium text-slate-600 mb-2">Breed 2</label>
                 <select id="breed2" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-sky-400 focus:outline-none bg-white">
-                    <option value="">Bir ırk seçin...</option>
+                    <option value="">Select a breed...</option>
                 </select>
             </div>
             <div>
-                <label class="block text-sm font-medium text-slate-600 mb-2">Irk 3 (isteğe bağlı)</label>
+                <label class="block text-sm font-medium text-slate-600 mb-2">Breed 3 (optional)</label>
                 <select id="breed3" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-sky-400 focus:outline-none bg-white">
-                    <option value="">Bir ırk seçin...</option>
+                    <option value="">Select a breed...</option>
                 </select>
             </div>
         </div>
@@ -115,75 +115,75 @@
         <!-- Empty State -->
         <div id="empty-state" class="text-center py-20">
             <div class="text-6xl mb-4">🐕</div>
-            <h3 class="text-xl font-bold text-slate-700 mb-2">Karşılaştırmak için ırk seçin</h3>
-            <p class="text-slate-600">Yukarıdaki açılır menülerden en az 2 ırk seçin</p>
+            <h3 class="text-xl font-bold text-slate-700 mb-2">Select breeds to compare</h3>
+            <p class="text-slate-600">Choose at least 2 breeds from the dropdowns above</p>
         </div>
 
         <!-- In-Depth Comparisons -->
         <div class="mt-16">
             <div class="flex items-center justify-between mb-6">
-                <h2 class="text-2xl font-bold">Derinlemesine Karşılaştırmalar</h2>
-                <a href="./" class="text-sky-700 font-semibold hover:text-sky-700">Tümünü gör →</a>
+                <h2 class="text-2xl font-bold">In-Depth Comparisons</h2>
+                <a href="comparisons/" class="text-sky-700 font-semibold hover:text-sky-700">View all →</a>
             </div>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-                <a href="?breed1=labrador-retriever&breed2=golden-retriever" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
+                <a href="comparisons/labrador-vs-golden-retriever.html" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
                     <span class="font-semibold group-hover:text-sky-700">Labrador vs Golden Retriever</span>
-                    <p class="text-sm text-slate-600">Amerika'nın iki favorisi</p>
-                    <span class="text-xs text-sky-700 font-medium">Tam karşılaştırmayı oku →</span>
+                    <p class="text-sm text-slate-600">Two of America's favorites</p>
+                    <span class="text-xs text-sky-700 font-medium">Read full comparison →</span>
                 </a>
-                <a href="?breed1=french-bulldog&breed2=boston-terrier" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
-                    <span class="font-semibold group-hover:text-sky-700">French İngiliz İngiliz İngiliz Bulldog vs Boston Terrier</span>
-                    <p class="text-sm text-slate-600">Kompakt arkadaşlar</p>
-                    <span class="text-xs text-sky-700 font-medium">Tam karşılaştırmayı oku →</span>
+                <a href="comparisons/french-bulldog-vs-boston-terrier.html" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
+                    <span class="font-semibold group-hover:text-sky-700">French Bulldog vs Boston Terrier</span>
+                    <p class="text-sm text-slate-600">Compact companions</p>
+                    <span class="text-xs text-sky-700 font-medium">Read full comparison →</span>
                 </a>
-                <a href="?breed1=german-shepherd&breed2=belgian-malinois" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
-                    <span class="font-semibold group-hover:text-sky-700">Alman Çoban Köpeği vs Malinois</span>
-                    <p class="text-sm text-slate-600">Çalışma köpeği karşılaşması</p>
-                    <span class="text-xs text-sky-700 font-medium">Tam karşılaştırmayı oku →</span>
+                <a href="comparisons/german-shepherd-vs-belgian-malinois.html" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
+                    <span class="font-semibold group-hover:text-sky-700">German Shepherd vs Malinois</span>
+                    <p class="text-sm text-slate-600">Working dog showdown</p>
+                    <span class="text-xs text-sky-700 font-medium">Read full comparison →</span>
                 </a>
-                <a href="?breed1=poodle&breed2=labrador-retriever" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
-                    <span class="font-semibold group-hover:text-sky-700">Kaniş vs Labrador</span>
-                    <p class="text-sm text-slate-600">Zeka karşılaşması</p>
-                    <span class="text-xs text-sky-700 font-medium">Tam karşılaştırmayı oku →</span>
+                <a href="comparisons/poodle-vs-labrador.html" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
+                    <span class="font-semibold group-hover:text-sky-700">Poodle vs Labrador</span>
+                    <p class="text-sm text-slate-600">Intelligence showdown</p>
+                    <span class="text-xs text-sky-700 font-medium">Read full comparison →</span>
                 </a>
-                <a href="?breed1=siberian-husky&breed2=alaskan-malamute" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
+                <a href="comparisons/husky-vs-malamute.html" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
                     <span class="font-semibold group-hover:text-sky-700">Husky vs Malamute</span>
-                    <p class="text-sm text-slate-600">Arktik ırk kapışması</p>
-                    <span class="text-xs text-sky-700 font-medium">Tam karşılaştırmayı oku →</span>
+                    <p class="text-sm text-slate-600">Arctic breed battle</p>
+                    <span class="text-xs text-sky-700 font-medium">Read full comparison →</span>
                 </a>
-                <a href="./" class="bg-slate-50 p-4 rounded-xl flex items-center justify-center text-slate-600 hover:bg-slate-100 transition">
-                    <span class="font-semibold">Tüm Karşılaştırmaları Gör →</span>
+                <a href="comparisons/" class="bg-slate-50 p-4 rounded-xl flex items-center justify-center text-slate-600 hover:bg-slate-100 transition">
+                    <span class="font-semibold">View All Comparisons →</span>
                 </a>
             </div>
         </div>
 
         <!-- Quick Compare -->
         <div class="mt-8">
-            <h2 class="text-2xl font-bold mb-6">Hızlı Karşılaştır</h2>
+            <h2 class="text-2xl font-bold mb-6">Quick Compare</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <button onclick="setBreeds('labrador-retriever', 'golden-retriever')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
                     <span class="font-semibold">Labrador vs Golden Retriever</span>
-                    <p class="text-sm text-slate-600">Yukarıdaki araçta karşılaştır</p>
+                    <p class="text-sm text-slate-600">Compare in tool above</p>
                 </button>
                 <button onclick="setBreeds('french-bulldog', 'boston-terrier')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">French İngiliz İngiliz İngiliz İngiliz Bulldog vs Boston Terrier</span>
-                    <p class="text-sm text-slate-600">Yukarıdaki araçta karşılaştır</p>
+                    <span class="font-semibold">French Bulldog vs Boston Terrier</span>
+                    <p class="text-sm text-slate-600">Compare in tool above</p>
                 </button>
                 <button onclick="setBreeds('german-shepherd', 'belgian-malinois')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Alman Çoban Köpeği vs Malinois</span>
-                    <p class="text-sm text-slate-600">Yukarıdaki araçta karşılaştır</p>
+                    <span class="font-semibold">German Shepherd vs Malinois</span>
+                    <p class="text-sm text-slate-600">Compare in tool above</p>
                 </button>
                 <button onclick="setBreeds('siberian-husky', 'alaskan-malamute')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
                     <span class="font-semibold">Husky vs Malamute</span>
-                    <p class="text-sm text-slate-600">Yukarıdaki araçta karşılaştır</p>
+                    <p class="text-sm text-slate-600">Compare in tool above</p>
                 </button>
                 <button onclick="setBreeds('shih-tzu', 'maltese')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Shih Tzu vs Malta Köpeği</span>
-                    <p class="text-sm text-slate-600">Yukarıdaki araçta karşılaştır</p>
+                    <span class="font-semibold">Shih Tzu vs Maltese</span>
+                    <p class="text-sm text-slate-600">Compare in tool above</p>
                 </button>
                 <button onclick="setBreeds('poodle', 'labrador-retriever')" class="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition text-left">
-                    <span class="font-semibold">Kaniş vs Labrador</span>
-                    <p class="text-sm text-slate-600">Yukarıdaki araçta karşılaştır</p>
+                    <span class="font-semibold">Poodle vs Labrador</span>
+                    <p class="text-sm text-slate-600">Compare in tool above</p>
                 </button>
             </div>
         </div>
@@ -192,7 +192,7 @@
     <!-- Footer -->
     <footer class="border-t border-slate-100 mt-16 py-8">
         <div class="max-w-6xl mx-auto px-4 text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Mükemmel dostunuzu bulmanıza yardımcı oluyoruz.</p>
+            <p>© 2026 BreedFinder. Helping you find your perfect companion.</p>
         </div>
     </footer>
 
@@ -217,7 +217,7 @@
                 temperament: ["confident", "fearless", "funny", "stubborn"]
             },
             {
-                name: "Afgan Tazısı",
+                name: "Afghan Hound",
                 slug: "afghan-hound",
                 image: "../images/heads/afghan-hound.webp",
                 size: "Large",
@@ -289,7 +289,7 @@
                 temperament: ["intelligent", "curious", "alert", "loyal"]
             },
             {
-                name: "Alaska Malamut",
+                name: "Alaskan Malamute",
                 slug: "alaskan-malamute",
                 image: "../images/heads/alaskan-malamute.webp",
                 size: "Large",
@@ -307,7 +307,7 @@
                 temperament: ["loyal", "playful", "affectionate", "independent"]
             },
             {
-                name: "Amerikan İngiliz İngiliz Bulldog",
+                name: "American Bulldog",
                 slug: "american-bulldog",
                 image: "../images/heads/american-bulldog.webp",
                 size: "Large",
@@ -325,7 +325,7 @@
                 temperament: ["loyal", "confident", "friendly", "assertive"]
             },
             {
-                name: "Amerikan İngiliz Coonhound",
+                name: "American English Coonhound",
                 slug: "american-english-coonhound",
                 image: "../images/heads/american-english-coonhound.webp",
                 size: "Large",
@@ -343,7 +343,7 @@
                 temperament: ["pleasant", "alert", "confident", "sociable"]
             },
             {
-                name: "Amerikan Eskimo Köpeği",
+                name: "American Eskimo Dog",
                 slug: "american-eskimo-dog",
                 image: "../images/heads/american-eskimo-dog.webp",
                 size: "Medium",
@@ -361,7 +361,7 @@
                 temperament: ["intelligent", "alert", "friendly", "eager to please"]
             },
             {
-                name: "Amerikan Foxhound",
+                name: "American Foxhound",
                 slug: "american-foxhound",
                 image: "../images/heads/american-foxhound.webp",
                 size: "Large",
@@ -379,7 +379,7 @@
                 temperament: ["sweet", "independent", "easygoing", "loyal"]
             },
             {
-                name: "Amerikan Tüysüz Terrier",
+                name: "American Hairless Terrier",
                 slug: "american-hairless-terrier",
                 image: "../images/heads/american-hairless-terrier.webp",
                 size: "Small",
@@ -397,7 +397,7 @@
                 temperament: ["energetic", "alert", "curious", "intelligent"]
             },
             {
-                name: "Amerikan Staffordshire Terrier",
+                name: "American Staffordshire Terrier",
                 slug: "american-staffordshire-terrier",
                 image: "../images/heads/american-staffordshire-terrier.webp",
                 size: "Medium",
@@ -415,7 +415,7 @@
                 temperament: ["confident", "smart", "good-natured", "loyal"]
             },
             {
-                name: "Amerikan Su Spanieli",
+                name: "American Water Spaniel",
                 slug: "american-water-spaniel",
                 image: "../images/heads/american-water-spaniel.webp",
                 size: "Medium",
@@ -433,7 +433,7 @@
                 temperament: ["happy", "eager", "charming", "versatile"]
             },
             {
-                name: "Anadolu Çoban Köpeği",
+                name: "Anatolian Shepherd",
                 slug: "anatolian-shepherd",
                 image: "../images/heads/anatolian-shepherd.webp",
                 size: "Giant",
@@ -469,7 +469,7 @@
                 temperament: ["reliable", "fearless", "energetic", "lively"]
             },
             {
-                name: "Avustralya Sığır Köpeği",
+                name: "Australian Cattle Dog",
                 slug: "australian-cattle-dog",
                 image: "../images/heads/australian-cattle-dog.webp",
                 size: "Medium",
@@ -487,7 +487,7 @@
                 temperament: ["alert", "curious", "pleasant", "loyal"]
             },
             {
-                name: "Avustralya Çoban Köpeği",
+                name: "Australian Shepherd",
                 slug: "australian-shepherd",
                 image: "../images/heads/australian-shepherd.webp",
                 size: "Medium",
@@ -505,7 +505,7 @@
                 temperament: ["smart", "work-oriented", "exuberant", "good-natured"]
             },
             {
-                name: "Avustralya Terrier",
+                name: "Australian Terrier",
                 slug: "australian-terrier",
                 image: "../images/heads/australian-terrier.webp",
                 size: "Small",
@@ -523,7 +523,7 @@
                 temperament: ["spirited", "alert", "courageous", "affectionate"]
             },
             {
-                name: "Azavak",
+                name: "Azawakh",
                 slug: "azawakh",
                 image: "../images/heads/azawakh.webp",
                 size: "Large",
@@ -649,7 +649,7 @@
                 temperament: ["loyal", "charming", "spirited", "intelligent"]
             },
             {
-                name: "Belçika Çoban Köpeği Laekenois",
+                name: "Belgian Laekenois",
                 slug: "belgian-laekenois",
                 image: "../images/heads/belgian-laekenois.webp",
                 size: "Large",
@@ -667,7 +667,7 @@
                 temperament: ["intelligent", "alert", "protective", "devoted"]
             },
             {
-                name: "Belçika Çoban Köpeği Malinois",
+                name: "Belgian Malinois",
                 slug: "belgian-malinois",
                 image: "../images/heads/belgian-malinois.webp",
                 size: "Large",
@@ -685,7 +685,7 @@
                 temperament: ["confident", "smart", "hardworking", "protective"]
             },
             {
-                name: "Belçika Çoban Köpeği Groenendael",
+                name: "Belgian Sheepdog",
                 slug: "belgian-sheepdog",
                 image: "../images/heads/belgian-sheepdog.webp",
                 size: "Large",
@@ -703,7 +703,7 @@
                 temperament: ["intelligent", "devoted", "alert", "versatile"]
             },
             {
-                name: "Belçika Çoban Köpeği Tervuren",
+                name: "Belgian Tervuren",
                 slug: "belgian-tervuren",
                 image: "../images/heads/belgian-tervuren.webp",
                 size: "Large",
@@ -721,7 +721,7 @@
                 temperament: ["intelligent", "alert", "protective", "confident"]
             },
             {
-                name: "Bergamasco Çoban Köpeği",
+                name: "Bergamasco Sheepdog",
                 slug: "bergamasco-sheepdog",
                 image: "../images/heads/bergamasco-sheepdog.webp",
                 size: "Large",
@@ -757,7 +757,7 @@
                 temperament: ["loyal", "good-natured", "observant", "assertive"]
             },
             {
-                name: "Bern Dağ Köpeği",
+                name: "Bernese Mountain Dog",
                 slug: "bernese-mountain-dog",
                 image: "../images/heads/bernese-mountain-dog.webp",
                 size: "Large",
@@ -811,7 +811,7 @@
                 temperament: ["playful", "lighthearted", "amusing", "childlike"]
             },
             {
-                name: "Siyah ve Tan Coonhound",
+                name: "Black and Tan Coonhound",
                 slug: "black-and-tan-coonhound",
                 image: "../images/heads/black-and-tan-coonhound.webp",
                 size: "Large",
@@ -829,7 +829,7 @@
                 temperament: ["easygoing", "friendly", "alert", "trusting"]
             },
             {
-                name: "Siyah Rus Terrier",
+                name: "Black Russian Terrier",
                 slug: "black-russian-terrier",
                 image: "../images/heads/black-russian-terrier.webp",
                 size: "Large",
@@ -847,7 +847,7 @@
                 temperament: ["confident", "calm", "courageous", "intelligent"]
             },
             {
-                name: "Kan İzi Köpeği",
+                name: "Bloodhound",
                 slug: "bloodhound",
                 image: "../images/heads/bloodhound.webp",
                 size: "Large",
@@ -1045,7 +1045,7 @@
                 temperament: ["friendly", "eager", "lovable", "versatile"]
             },
             {
-                name: "İtalyan Bracco",
+                name: "Bracco Italiano",
                 slug: "bracco-italiano",
                 image: "../images/heads/bracco-italiano.webp",
                 size: "Large",
@@ -1081,7 +1081,7 @@
                 temperament: ["loyal", "protective", "intelligent", "obedient"]
             },
             {
-                name: "Breton Spanieli",
+                name: "Brittany",
                 slug: "brittany",
                 image: "../images/heads/brittany.webp",
                 size: "Medium",
@@ -1099,7 +1099,7 @@
                 temperament: ["bright", "fun-loving", "upbeat", "agile"]
             },
             {
-                name: "Brüksel Griffon",
+                name: "Brussels Griffon",
                 slug: "brussels-griffon",
                 image: "../images/heads/brussels-griffon.webp",
                 size: "Tiny",
@@ -1135,7 +1135,7 @@
                 temperament: ["playful", "charming", "mischievous", "sweet-tempered"]
             },
             {
-                name: "İngiliz İngiliz İngiliz Bulldog",
+                name: "Bulldog",
                 slug: "bulldog",
                 image: "../images/heads/bulldog.webp",
                 size: "Medium",
@@ -1189,7 +1189,7 @@
                 temperament: ["alert", "cheerful", "busy", "independent"]
             },
             {
-                name: "Kenan Köpeği",
+                name: "Canaan Dog",
                 slug: "canaan-dog",
                 image: "../images/heads/canaan-dog.webp",
                 size: "Medium",
@@ -1315,7 +1315,7 @@
                 temperament: ["charming", "graceful", "sassy", "devoted"]
             },
             {
-                name: "Çin Tepeli Köpeği",
+                name: "Chinese Crested",
                 slug: "chinese-crested",
                 image: "../images/heads/chinese-crested.webp",
                 size: "Tiny",
@@ -1405,7 +1405,7 @@
                 temperament: ["gentle", "loyal", "affectionate", "dignified"]
             },
             {
-                name: "Amerikan Amerikan Cocker Spaniel",
+                name: "Cocker Spaniel",
                 slug: "cocker-spaniel",
                 image: "../images/heads/cocker-spaniel.webp",
                 size: "Medium",
@@ -1459,7 +1459,7 @@
                 temperament: ["happy", "playful", "affectionate", "intelligent"]
             },
             {
-                name: "Kıvırcık Tüylü Retriever",
+                name: "Curly-Coated Retriever",
                 slug: "curly-coated-retriever",
                 image: "../images/heads/curly-coated-retriever.webp",
                 size: "Large",
@@ -1495,7 +1495,7 @@
                 temperament: ["clever", "stubborn", "devoted", "lively"]
             },
             {
-                name: "Dalmaçyalı",
+                name: "Dalmatian",
                 slug: "dalmatian",
                 image: "../images/heads/dalmatian.webp",
                 size: "Large",
@@ -1549,7 +1549,7 @@
                 temperament: ["versatile", "friendly", "determined", "adaptable"]
             },
             {
-                name: "Doberman",
+                name: "Doberman Pinscher",
                 slug: "doberman-pinscher",
                 image: "../images/heads/doberman-pinscher.webp",
                 size: "Large",
@@ -1567,7 +1567,7 @@
                 temperament: ["loyal", "fearless", "alert", "intelligent"]
             },
             {
-                name: "Arjantin Dogosu",
+                name: "Dogo Argentino",
                 slug: "dogo-argentino",
                 image: "../images/heads/dogo-argentino.webp",
                 size: "Large",
@@ -1585,7 +1585,7 @@
                 temperament: ["loyal", "courageous", "protective", "friendly"]
             },
             {
-                name: "Bordeaux Dogosu",
+                name: "Dogue de Bordeaux",
                 slug: "dogue-de-bordeaux",
                 image: "../images/heads/dogue-de-bordeaux.webp",
                 size: "Giant",
@@ -1621,7 +1621,7 @@
                 temperament: ["loyal", "intelligent", "sensitive", "adaptable"]
             },
             {
-                name: "Hollanda Çoban Köpeği",
+                name: "Dutch Shepherd",
                 slug: "dutch-shepherd",
                 image: "../images/heads/dutch-shepherd.webp",
                 size: "Large",
@@ -1639,7 +1639,7 @@
                 temperament: ["reliable", "alert", "obedient", "affectionate"]
             },
             {
-                name: "İngiliz Amerikan Cocker Spaniel",
+                name: "English Cocker Spaniel",
                 slug: "english-cocker-spaniel",
                 image: "../images/heads/english-cocker-spaniel.webp",
                 size: "Medium",
@@ -1657,7 +1657,7 @@
                 temperament: ["merry", "affectionate", "trainable", "playful"]
             },
             {
-                name: "İngiliz Foxhound",
+                name: "English Foxhound",
                 slug: "english-foxhound",
                 image: "../images/heads/english-foxhound.webp",
                 size: "Large",
@@ -1693,7 +1693,7 @@
                 temperament: ["loyal", "hardworking", "even-tempered", "kind"]
             },
             {
-                name: "İngiliz Setter",
+                name: "English Setter",
                 slug: "english-setter",
                 image: "../images/heads/english-setter.webp",
                 size: "Large",
@@ -1711,7 +1711,7 @@
                 temperament: ["gentle", "friendly", "merry", "affectionate"]
             },
             {
-                name: "İngiliz Springer Spaniel",
+                name: "English Springer Spaniel",
                 slug: "english-springer-spaniel",
                 image: "../images/heads/english-springer-spaniel.webp",
                 size: "Medium",
@@ -1729,7 +1729,7 @@
                 temperament: ["friendly", "playful", "obedient", "alert"]
             },
             {
-                name: "King Charles Spaniel",
+                name: "English Toy Spaniel",
                 slug: "english-toy-spaniel",
                 image: "../images/heads/english-toy-spaniel.webp",
                 size: "Small",
@@ -1747,7 +1747,7 @@
                 temperament: ["gentle", "happy", "playful", "loving"]
             },
             {
-                name: "Entlebucher Dağ Köpeği",
+                name: "Entlebucher Mountain Dog",
                 slug: "entlebucher-mountain-dog",
                 image: "../images/heads/entlebucher-mountain-dog.webp",
                 size: "Medium",
@@ -1801,7 +1801,7 @@
                 temperament: ["sensitive", "docile", "affectionate", "fun-loving"]
             },
             {
-                name: "Fin Lapphund",
+                name: "Finnish Lapphund",
                 slug: "finnish-lapphund",
                 image: "../images/heads/finnish-lapphund.webp",
                 size: "Medium",
@@ -1819,7 +1819,7 @@
                 temperament: ["friendly", "calm", "faithful", "courageous"]
             },
             {
-                name: "Fin Spitz",
+                name: "Finnish Spitz",
                 slug: "finnish-spitz",
                 image: "../images/heads/finnish-spitz.webp",
                 size: "Medium",
@@ -1837,7 +1837,7 @@
                 temperament: ["friendly", "active", "lively", "independent"]
             },
             {
-                name: "Düz Tüylü Retriever",
+                name: "Flat-Coated Retriever",
                 slug: "flat-coated-retriever",
                 image: "../images/heads/flat-coated-retriever.webp",
                 size: "Large",
@@ -1855,7 +1855,7 @@
                 temperament: ["cheerful", "optimistic", "friendly", "confident"]
             },
             {
-                name: "Fransız İngiliz İngiliz Bulldog",
+                name: "French Bulldog",
                 slug: "french-bulldog",
                 image: "../images/heads/french-bulldog.webp",
                 size: "Small",
@@ -1873,7 +1873,7 @@
                 temperament: ["adaptable", "playful", "smart", "affectionate"]
             },
             {
-                name: "Alman Çoban Köpeği",
+                name: "German Shepherd",
                 slug: "german-shepherd",
                 image: "../images/heads/german-shepherd.webp",
                 size: "Large",
@@ -1891,7 +1891,7 @@
                 temperament: ["confident", "courageous", "smart", "loyal"]
             },
             {
-                name: "Alman Kısa Tüylü Pointer",
+                name: "German Shorthaired Pointer",
                 slug: "german-shorthaired-pointer",
                 image: "../images/heads/german-shorthaired-pointer.webp",
                 size: "Large",
@@ -1909,7 +1909,7 @@
                 temperament: ["friendly", "smart", "willing", "enthusiastic"]
             },
             {
-                name: "Alman Spitz",
+                name: "German Spitz",
                 slug: "german-spitz",
                 image: "../images/heads/german-spitz.webp",
                 size: "Small",
@@ -1927,7 +1927,7 @@
                 temperament: ["attentive", "lively", "devoted", "trainable"]
             },
             {
-                name: "Alman Tel Tüylü Pointer",
+                name: "German Wirehaired Pointer",
                 slug: "german-wirehaired-pointer",
                 image: "../images/heads/german-wirehaired-pointer.webp",
                 size: "Large",
@@ -1945,7 +1945,7 @@
                 temperament: ["affectionate", "eager", "enthusiastic", "determined"]
             },
             {
-                name: "Dev Schnauzer",
+                name: "Giant Schnauzer",
                 slug: "giant-schnauzer",
                 image: "../images/heads/giant-schnauzer.webp",
                 size: "Large",
@@ -2035,7 +2035,7 @@
                 temperament: ["happy", "outgoing", "independent", "curious"]
             },
             {
-                name: "Danua",
+                name: "Great Dane",
                 slug: "great-dane",
                 image: "../images/heads/great-dane.webp",
                 size: "Giant",
@@ -2053,7 +2053,7 @@
                 temperament: ["friendly", "patient", "dependable", "gentle"]
             },
             {
-                name: "Büyük Pirene",
+                name: "Great Pyrenees",
                 slug: "great-pyrenees",
                 image: "../images/heads/great-pyrenees.webp",
                 size: "Giant",
@@ -2071,7 +2071,7 @@
                 temperament: ["patient", "calm", "gentle", "strong-willed"]
             },
             {
-                name: "Büyük İsviçre Dağ Köpeği",
+                name: "Greater Swiss Mountain Dog",
                 slug: "greater-swiss-mountain-dog",
                 image: "../images/heads/greater-swiss-mountain-dog.webp",
                 size: "Giant",
@@ -2179,7 +2179,7 @@
                 temperament: ["alert", "faithful", "familial", "reserved"]
             },
             {
-                name: "İbiza Tazısı",
+                name: "Ibizan Hound",
                 slug: "ibizan-hound",
                 image: "../images/heads/ibizan-hound.webp",
                 size: "Large",
@@ -2197,7 +2197,7 @@
                 temperament: ["clownish", "family-oriented", "even-tempered", "polite"]
             },
             {
-                name: "İzlanda Çoban Köpeği",
+                name: "Icelandic Sheepdog",
                 slug: "icelandic-sheepdog",
                 image: "../images/heads/icelandic-sheepdog.webp",
                 size: "Medium",
@@ -2215,7 +2215,7 @@
                 temperament: ["cheerful", "friendly", "inquisitive", "playful"]
             },
             {
-                name: "İrlanda Kızıl ve Beyaz Setter",
+                name: "Irish Red and White Setter",
                 slug: "irish-red-and-white-setter",
                 image: "../images/heads/irish-red-and-white-setter.webp",
                 size: "Large",
@@ -2233,7 +2233,7 @@
                 temperament: ["friendly", "spirited", "determined", "loyal"]
             },
             {
-                name: "İrlanda Setter",
+                name: "Irish Setter",
                 slug: "irish-setter",
                 image: "../images/heads/irish-setter.webp",
                 size: "Large",
@@ -2251,7 +2251,7 @@
                 temperament: ["outgoing", "sweet-natured", "active", "playful"]
             },
             {
-                name: "İrlanda Su Spanieli",
+                name: "Irish Water Spaniel",
                 slug: "irish-water-spaniel",
                 image: "../images/heads/irish-water-spaniel.webp",
                 size: "Medium",
@@ -2269,7 +2269,7 @@
                 temperament: ["playful", "hardworking", "alert", "inquisitive"]
             },
             {
-                name: "İrlanda Kurt Köpeği",
+                name: "Irish Wolfhound",
                 slug: "irish-wolfhound",
                 image: "../images/heads/irish-wolfhound.webp",
                 size: "Giant",
@@ -2287,7 +2287,7 @@
                 temperament: ["courageous", "dignified", "calm", "gentle"]
             },
             {
-                name: "İtalyan Greyhound",
+                name: "Italian Greyhound",
                 slug: "italian-greyhound",
                 image: "../images/heads/italian-greyhound.webp",
                 size: "Tiny",
@@ -2323,7 +2323,7 @@
                 temperament: ["energetic", "clever", "athletic", "fearless"]
             },
             {
-                name: "Japon Chin",
+                name: "Japanese Chin",
                 slug: "japanese-chin",
                 image: "../images/heads/japanese-chin.webp",
                 size: "Tiny",
@@ -2341,7 +2341,7 @@
                 temperament: ["charming", "noble", "loving", "cat-like"]
             },
             {
-                name: "Japon Spitz",
+                name: "Japanese Spitz",
                 slug: "japanese-spitz",
                 image: "../images/heads/japanese-spitz.webp",
                 size: "Small",
@@ -2413,7 +2413,7 @@
                 temperament: ["alert", "spirited", "loyal", "intelligent"]
             },
             {
-                name: "Kishu",
+                name: "Kishu Ken",
                 slug: "kishu-ken",
                 image: "../images/heads/kishu-ken.webp",
                 size: "Medium",
@@ -2629,7 +2629,7 @@
                 temperament: ["playful", "friendly", "active", "outgoing"]
             },
             {
-                name: "Malta Köpeği",
+                name: "Maltese",
                 slug: "maltese",
                 image: "../images/heads/maltese.webp",
                 size: "Tiny",
@@ -2665,7 +2665,7 @@
                 temperament: ["spirited", "alert", "keen", "devoted"]
             },
             {
-                name: "İngiliz İngiliz Mastiff",
+                name: "Mastiff",
                 slug: "mastiff",
                 image: "../images/heads/mastiff.webp",
                 size: "Giant",
@@ -2683,7 +2683,7 @@
                 temperament: ["courageous", "dignified", "good-natured", "calm"]
             },
             {
-                name: "Minyatür Amerikan Çoban Köpeği",
+                name: "Miniature American Shepherd",
                 slug: "miniature-american-shepherd",
                 image: "../images/heads/miniature-american-shepherd.webp",
                 size: "Small",
@@ -2701,7 +2701,7 @@
                 temperament: ["intelligent", "good-natured", "devoted", "versatile"]
             },
             {
-                name: "Minyatür Pinscher",
+                name: "Miniature Pinscher",
                 slug: "miniature-pinscher",
                 image: "../images/heads/miniature-pinscher.webp",
                 size: "Small",
@@ -2719,7 +2719,7 @@
                 temperament: ["fearless", "energetic", "alert", "proud"]
             },
             {
-                name: "Minyatür Schnauzer",
+                name: "Miniature Schnauzer",
                 slug: "miniature-schnauzer",
                 image: "../images/heads/miniature-schnauzer.webp",
                 size: "Small",
@@ -2755,7 +2755,7 @@
                 temperament: ["intelligent", "alert", "versatile", "energetic"]
             },
             {
-                name: "Napoliten İngiliz Mastiff",
+                name: "Neapolitan Mastiff",
                 slug: "neapolitan-mastiff",
                 image: "../images/heads/neapolitan-mastiff.webp",
                 size: "Giant",
@@ -2827,7 +2827,7 @@
                 temperament: ["alert", "fearless", "fun-loving", "loyal"]
             },
             {
-                name: "Norveç Buhund",
+                name: "Norwegian Buhund",
                 slug: "norwegian-buhund",
                 image: "../images/heads/norwegian-buhund.webp",
                 size: "Medium",
@@ -2845,7 +2845,7 @@
                 temperament: ["agile", "alert", "cheerful", "intelligent"]
             },
             {
-                name: "Norveç Elkhound",
+                name: "Norwegian Elkhound",
                 slug: "norwegian-elkhound",
                 image: "../images/heads/norwegian-elkhound.webp",
                 size: "Medium",
@@ -2863,7 +2863,7 @@
                 temperament: ["bold", "playful", "loyal", "alert"]
             },
             {
-                name: "Norveç Lundehund",
+                name: "Norwegian Lundehund",
                 slug: "norwegian-lundehund",
                 image: "../images/heads/norwegian-lundehund.webp",
                 size: "Small",
@@ -2917,7 +2917,7 @@
                 temperament: ["intelligent", "alert", "affectionate", "patient"]
             },
             {
-                name: "Eski İngiliz Çoban Köpeği",
+                name: "Old English Sheepdog",
                 slug: "old-english-sheepdog",
                 image: "../images/heads/old-english-sheepdog.webp",
                 size: "Large",
@@ -2989,7 +2989,7 @@
                 temperament: ["bold", "friendly", "athletic", "clever"]
             },
             {
-                name: "Pekin Köpeği",
+                name: "Pekingese",
                 slug: "pekingese",
                 image: "../images/heads/pekingese.webp",
                 size: "Small",
@@ -3043,7 +3043,7 @@
                 temperament: ["affectionate", "loyal", "alert", "lively"]
             },
             {
-                name: "Petit Basset Griffon Vendeen",
+                name: "Petit Basset Griffon Vendéen",
                 slug: "petit-basset-griffon-vendeen",
                 image: "../images/heads/petit-basset-griffon-vendeen.webp",
                 size: "Small",
@@ -3061,7 +3061,7 @@
                 temperament: ["happy", "extroverted", "independent", "alert"]
             },
             {
-                name: "Firavun Köpeği",
+                name: "Pharaoh Hound",
                 slug: "pharaoh-hound",
                 image: "../images/heads/pharaoh-hound.webp",
                 size: "Medium",
@@ -3097,7 +3097,7 @@
                 temperament: ["bold", "loyal", "alert", "intelligent"]
             },
             {
-                name: "Polonya Ova Çoban Köpeği",
+                name: "Polish Lowland Sheepdog",
                 slug: "polish-lowland-sheepdog",
                 image: "../images/heads/polish-lowland-sheepdog.webp",
                 size: "Medium",
@@ -3133,7 +3133,7 @@
                 temperament: ["lively", "bold", "inquisitive", "playful"]
             },
             {
-                name: "Kaniş",
+                name: "Poodle",
                 slug: "poodle",
                 image: "../images/heads/poodle.webp",
                 size: "Varies",
@@ -3169,7 +3169,7 @@
                 temperament: ["lively", "alert", "playful", "intelligent"]
             },
             {
-                name: "Portekiz Su Köpeği",
+                name: "Portuguese Water Dog",
                 slug: "portuguese-water-dog",
                 image: "../images/heads/portuguese-water-dog.webp",
                 size: "Medium",
@@ -3313,7 +3313,7 @@
                 temperament: ["even-tempered", "amiable", "eager", "mellow"]
             },
             {
-                name: "Rodezya Ridgeback",
+                name: "Rhodesian Ridgeback",
                 slug: "rhodesian-ridgeback",
                 image: "../images/heads/rhodesian-ridgeback.webp",
                 size: "Large",
@@ -3439,7 +3439,7 @@
                 temperament: ["curious", "fearless", "confident", "faithful"]
             },
             {
-                name: "İskoç Geyik Köpeği",
+                name: "Scottish Deerhound",
                 slug: "scottish-deerhound",
                 image: "../images/heads/scottish-deerhound.webp",
                 size: "Giant",
@@ -3457,7 +3457,7 @@
                 temperament: ["gentle", "dignified", "polite", "friendly"]
             },
             {
-                name: "İskoç Terrier",
+                name: "Scottish Terrier",
                 slug: "scottish-terrier",
                 image: "../images/heads/scottish-terrier.webp",
                 size: "Small",
@@ -3511,7 +3511,7 @@
                 temperament: ["loyal", "independent", "calm", "devoted"]
             },
             {
-                name: "Shetland Çoban Köpeği",
+                name: "Shetland Sheepdog",
                 slug: "shetland-sheepdog",
                 image: "../images/heads/shetland-sheepdog.webp",
                 size: "Small",
@@ -3583,7 +3583,7 @@
                 temperament: ["loyal", "alert", "cautious", "brave"]
             },
             {
-                name: "Sibirya Husky",
+                name: "Siberian Husky",
                 slug: "siberian-husky",
                 image: "../images/heads/siberian-husky.webp",
                 size: "Medium",
@@ -3601,7 +3601,7 @@
                 temperament: ["outgoing", "mischievous", "loyal", "friendly"]
             },
             {
-                name: "Avustralya İpek Terrier",
+                name: "Silky Terrier",
                 slug: "silky-terrier",
                 image: "../images/heads/silky-terrier.webp",
                 size: "Tiny",
@@ -3655,7 +3655,7 @@
                 temperament: ["reserved", "faithful", "sensitive", "noble"]
             },
             {
-                name: "Küçük Münsterländer",
+                name: "Small Münsterländer",
                 slug: "small-munsterlander",
                 image: "../images/heads/small-munsterlander.webp",
                 size: "Medium",
@@ -3691,7 +3691,7 @@
                 temperament: ["alert", "fearless", "friendly", "energetic"]
             },
             {
-                name: "Yumuşak Tüylü Wheaten Terrier",
+                name: "Soft Coated Wheaten Terrier",
                 slug: "soft-coated-wheaten-terrier",
                 image: "../images/heads/soft-coated-wheaten-terrier.webp",
                 size: "Medium",
@@ -3709,7 +3709,7 @@
                 temperament: ["happy", "friendly", "deeply devoted", "spirited"]
             },
             {
-                name: "İspanyol Su Köpeği",
+                name: "Spanish Water Dog",
                 slug: "spanish-water-dog",
                 image: "../images/heads/spanish-water-dog.webp",
                 size: "Medium",
@@ -3727,7 +3727,7 @@
                 temperament: ["diligent", "affectionate", "loyal", "athletic"]
             },
             {
-                name: "İtalyan Spinone",
+                name: "Spinone Italiano",
                 slug: "spinone-italiano",
                 image: "../images/heads/spinone-italiano.webp",
                 size: "Large",
@@ -3781,7 +3781,7 @@
                 temperament: ["clever", "brave", "tenacious", "affectionate"]
             },
             {
-                name: "Standart Schnauzer",
+                name: "Standard Schnauzer",
                 slug: "standard-schnauzer",
                 image: "../images/heads/standard-schnauzer.webp",
                 size: "Medium",
@@ -3817,7 +3817,7 @@
                 temperament: ["friendly", "cheerful", "calm", "steady"]
             },
             {
-                name: "İsveç Vallhund",
+                name: "Swedish Vallhund",
                 slug: "swedish-vallhund",
                 image: "../images/heads/swedish-vallhund.webp",
                 size: "Small",
@@ -3835,7 +3835,7 @@
                 temperament: ["friendly", "energetic", "alert", "intelligent"]
             },
             {
-                name: "Tayland Ridgeback",
+                name: "Thai Ridgeback",
                 slug: "thai-ridgeback",
                 image: "../images/heads/thai-ridgeback.webp",
                 size: "Medium",
@@ -3853,7 +3853,7 @@
                 temperament: ["loyal", "independent", "intelligent", "protective"]
             },
             {
-                name: "Tibet İngiliz Mastiff",
+                name: "Tibetan Mastiff",
                 slug: "tibetan-mastiff",
                 image: "../images/heads/tibetan-mastiff.webp",
                 size: "Giant",
@@ -3871,7 +3871,7 @@
                 temperament: ["independent", "reserved", "protective", "intelligent"]
             },
             {
-                name: "Tibet Spaniel",
+                name: "Tibetan Spaniel",
                 slug: "tibetan-spaniel",
                 image: "../images/heads/tibetan-spaniel.webp",
                 size: "Small",
@@ -3889,7 +3889,7 @@
                 temperament: ["assertive", "alert", "intelligent", "aloof"]
             },
             {
-                name: "Tibet Terrier",
+                name: "Tibetan Terrier",
                 slug: "tibetan-terrier",
                 image: "../images/heads/tibetan-terrier.webp",
                 size: "Medium",
@@ -3943,7 +3943,7 @@
                 temperament: ["smart", "brave", "courteous", "loving"]
             },
             {
-                name: "Macar Macar Vizsla",
+                name: "Vizsla",
                 slug: "vizsla",
                 image: "../images/heads/vizsla.webp",
                 size: "Medium",
@@ -4087,7 +4087,7 @@
                 temperament: ["alert", "confident", "fearless", "friendly"]
             },
             {
-                name: "Tel Tüylü Griffon",
+                name: "Wirehaired Pointing Griffon",
                 slug: "wirehaired-pointing-griffon",
                 image: "../images/heads/wirehaired-pointing-griffon.webp",
                 size: "Medium",
@@ -4105,7 +4105,7 @@
                 temperament: ["friendly", "devoted", "trainable", "proud"]
             },
             {
-                name: "Wirehaired Macar Vizsla",
+                name: "Wirehaired Vizsla",
                 slug: "wirehaired-vizsla",
                 image: "../images/heads/wirehaired-vizsla.webp",
                 size: "Medium",
@@ -4158,8 +4158,6 @@
                 apartment: 5,
                 temperament: ["affectionate", "spirited", "tomboyish", "feisty"]
             }
-
-        // Ensure breeds are populated even if fetch fails
         ];
 
         // Populate dropdowns
@@ -4176,16 +4174,12 @@
             });
         }
 
-        // Ensure breeds are populated even if fetch fails
-
         function setBreeds(slug1, slug2, slug3 = '') {
             document.getElementById('breed1').value = slug1;
             document.getElementById('breed2').value = slug2;
             document.getElementById('breed3').value = slug3;
             updateComparison();
         }
-
-        // Ensure breeds are populated even if fetch fails
 
         function updateComparison() {
             const selected = selects
@@ -4199,8 +4193,6 @@
                 document.getElementById('empty-state').classList.remove('hidden');
                 return;
             }
-
-        // Ensure breeds are populated even if fetch fails
             
             document.getElementById('comparison-container').classList.remove('hidden');
             document.getElementById('empty-state').classList.add('hidden');
@@ -4209,11 +4201,11 @@
             const header = document.getElementById('comparison-header');
             header.innerHTML = `
                 <tr class="bg-gradient-to-r from-sky-500 to-blue-600 text-white">
-                    <th class="p-4 text-left font-semibold">Nitelik</th>
+                    <th class="p-4 text-left font-semibold">Attribute</th>
                     ${selected.map(b => `
                         <th class="p-4 text-center">
                             <img src="${b.image}" alt="${b.name}" class="w-16 h-16 rounded-full mx-auto mb-2 object-cover bg-white">
-                            <div class="font-bold">${getLocalBreedName(b)}</div>
+                            <div class="font-bold">${b.name}</div>
                         </th>
                     `).join('')}
                 </tr>
@@ -4221,16 +4213,16 @@
             
             // Build comparison rows
             const attrs = [
-                ['Boyut', 'size'],
-                ['Yükseklik', 'height'],
-                ['Ağırlık', 'weight'],
-                ['Yaşam Süresi', 'lifespan'],
-                ['Mensei', 'origin'],
-                ['Enerji', 'energy', true],
-                ['Bakım', 'grooming', true],
-                ['Eğitim', 'trainability', true],
-                ['Çocuklarla Uyum', 'kidFriendly', true],
-                ['Daire Uyumu', 'apartment', true],
+                ['Size', 'size'],
+                ['Height', 'height'],
+                ['Weight', 'weight'],
+                ['Lifespan', 'lifespan'],
+                ['Origin', 'origin'],
+                ['Energy', 'energy', true],
+                ['Grooming', 'grooming', true],
+                ['Trainability', 'trainability', true],
+                ['Kid Friendly', 'kidFriendly', true],
+                ['Apartment', 'apartment', true],
             ];
             
             const body = document.getElementById('comparison-body');
@@ -4245,14 +4237,12 @@
                                         <div class="w-2 h-6 rounded-full ${n <= b[key] ? 'bg-gradient-to-t from-sky-500 to-blue-600' : 'bg-slate-200'}"></div>
                                     `).join('')}
                                 </div>
-                            ` : b[key]}`
+                            ` : b[key]}
                         </td>
                     `).join('')}
                 </tr>
             `).join('');
         }
-
-        // Ensure breeds are populated even if fetch fails
 
         // Init
         populateDropdowns();
