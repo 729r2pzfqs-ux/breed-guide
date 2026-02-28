@@ -11,9 +11,9 @@
     <meta name="description" content="Compare dog breeds side by side. See size, energy level, grooming needs, and more to find your perfect match.">
     <link rel="canonical" href="https://breedfinder.org/fi/compare/">
     
-    <link rel="icon" href="../favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" href="../../favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
     
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://breedfinder.org/compare/">
@@ -34,15 +34,15 @@
     <!-- Header -->
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="../" class="flex items-center gap-3">
+            <a href="../../" class="flex items-center gap-3">
                 <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
-                    <img src="../logo-192.png" class="w-10 h-10" alt="BreedFinder">
+                    <img src="../../logo-192.png" class="w-10 h-10" alt="BreedFinder">
                 </div>
                 <span class="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="../search/" class="text-slate-600 hover:text-sky-700 transition">Selaa Rotuja</a>
-                <a href="../quiz" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-sky-500/25 transition">Tee Testi</a>
+                <a href="../../search/" class="text-slate-600 hover:text-sky-700 transition">Selaa Rotuja</a>
+                <a href="../../quiz" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-sky-500/25 transition">Tee Testi</a>
                 <div class="relative">
                     <select onchange="if(this.value) window.location.href=this.value" class="appearance-none bg-transparent border border-slate-200 rounded-lg px-3 py-2 pr-8 text-sm cursor-pointer hover:border-sky-400 focus:outline-none focus:border-sky-400">
                         <option value="../../compare/" selected>English</option>
@@ -4162,7 +4162,7 @@
 
         // Load translated breed names
         let breedNames = {};
-        fetch('../data/breed_names_fi.json')
+        fetch('../../data/breed_names_fi.json')
             .then(r => r.json())
             .then(names => {
                 breedNames = names;
