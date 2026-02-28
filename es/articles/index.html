@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEERQZ53LZ"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "G-VEERQZ53LZ");</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guías de Razas de Perros | BreedFinder</title>
-    <meta name="description" content="Guías expertas para elegir la raza de perro perfecta. Perros para apartamentos, familias, personas con alergias y más.">
+    <title>Guías y Artículos sobre Razas de Perros | BreedFinder</title>
+    <meta name="description" content="Guías de expertos sobre cómo elegir la raza de perro adecuada para tu estilo de vida. Perros para apartamentos, perros para familias, razas que no sueltan pelo y más.">
     <link rel="canonical" href="https://breedfinder.org/es/articles/">
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+    
+    <link rel="alternate" hreflang="en" href="https://breedfinder.org/articles/">
+    <link rel="alternate" hreflang="es" href="https://breedfinder.org/es/articles/">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>* { font-family: 'Plus Jakarta Sans', sans-serif; }</style>
@@ -14,72 +22,91 @@
 <body class="bg-slate-50 text-slate-900">
     <header class="bg-white border-b border-slate-200 py-4 px-4">
         <div class="max-w-4xl mx-auto flex items-center justify-between">
-            <a href="/es/" class="flex items-center gap-2">
-                <span class="text-2xl">🐕</span>
-                <span class="text-xl font-bold bg-gradient-to-r from-sky-600 to-blue-600 bg-clip-text text-transparent">BreedFinder</span>
+            <a href="../" class="flex items-center gap-2">
+                <img src="../../logo-192.png" class="w-10 h-10 rounded-xl" alt="BreedFinder">
+                <span class="text-xl font-bold">BreedFinder</span>
             </a>
-                        <div class="flex items-center gap-3">
-                <div class="relative group">
-                    <button class="flex items-center gap-1 text-slate-600 hover:text-sky-700 py-2 text-sm">
-                        <i data-lucide="globe" class="w-4 h-4"></i>
-                        <span>ES</span>
-                    </button>
-                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="../../" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a>
-                        <a href="../../es/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-sky-700">Español</a>
-                        <a href="../../de/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a>
-                        <a href="../../fr/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a>
-                        <a href="../../it/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a>
-                        <a href="../../pt/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Português</a>
-                    </div>
-                </div>
-                <a href="/es/" class="text-slate-600 hover:text-slate-900 text-sm">← Volver</a>
-            </div>
+            <a href="../" class="text-slate-600 hover:text-slate-900 text-sm">← Inicio</a>
         </div>
     </header>
 
     <main class="px-4 py-12">
         <div class="max-w-4xl mx-auto">
-            <h1 class="text-3xl md:text-4xl font-bold mb-4">Guías de Razas de Perros</h1>
-            <p class="text-slate-600 text-lg mb-8">Guías expertas para ayudarte a encontrar la raza de perro perfecta para tu estilo de vida.</p>
+            <div class="text-center mb-10">
+                <h1 class="text-3xl md:text-4xl font-bold mb-4">Guías y Artículos sobre Razas</h1>
+                <p class="text-slate-600 text-lg">Consejos de expertos para encontrar el perro perfecto para tu estilo de vida</p>
+            </div>
 
             <div class="grid gap-6">
-                <a href="/es/articles/mejores-perros-para-apartamentos/" class="block bg-white rounded-2xl shadow-sm border border-slate-200 p-6 hover:shadow-md transition-shadow">
-                    <span class="text-sky-700 font-medium text-sm">GUÍA</span>
-                    <h2 class="text-xl font-bold mt-1 mb-2">15 Mejores Razas de Perros para Apartamentos</h2>
-                    <p class="text-slate-600">¿Crees que necesitas un jardín para tener un perro? Piénsalo de nuevo. Estas razas prosperan en espacios acogedores.</p>
+                <a href="mejores-perros-para-mayores/" class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition flex gap-5 items-start">
+                    <div class="w-14 h-14 bg-sky-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                        <span class="text-2xl">👴</span>
+                    </div>
+                    <div>
+                        <span class="text-sky-700 text-sm font-medium">GUÍA</span>
+                        <h2 class="text-xl font-bold mt-1 mb-2">12 Mejores Razas de Perros para Personas Mayores</h2>
+                        <p class="text-slate-600">Encontrando el compañero perfecto para tus años dorados. Razas gentiles y cariñosas con necesidades de ejercicio manejables y devoción infinita.</p>
+                    </div>
                 </a>
 
-                <a href="/es/articles/mejores-perros-para-familias/" class="block bg-white rounded-2xl shadow-sm border border-slate-200 p-6 hover:shadow-md transition-shadow">
-                    <span class="text-rose-600 font-medium text-sm">GUÍA</span>
-                    <h2 class="text-xl font-bold mt-1 mb-2">20 Mejores Razas de Perros para Familias</h2>
-                    <p class="text-slate-600">Encontrar el perro familiar perfecto significa buscar paciencia, gentileza y mucho amor.</p>
+                <a href="mejores-perros-para-apartamentos/" class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition flex gap-5 items-start">
+                    <div class="w-14 h-14 bg-sky-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                        <span class="text-2xl">🏢</span>
+                    </div>
+                    <div>
+                        <span class="text-sky-700 text-sm font-medium">GUÍA</span>
+                        <h2 class="text-xl font-bold mt-1 mb-2">15 Mejores Razas de Perros para Apartamentos</h2>
+                        <p class="text-slate-600">¿Crees que necesitas un jardín para tener un perro? Estas razas prosperan en espacios pequeños. El tamaño no lo es todo—descubre lo que realmente importa.</p>
+                    </div>
                 </a>
 
-                <a href="/es/articles/perros-que-no-sueltan-pelo/" class="block bg-white rounded-2xl shadow-sm border border-slate-200 p-6 hover:shadow-md transition-shadow">
-                    <span class="text-sky-700 font-medium text-sm">GUÍA</span>
-                    <h2 class="text-xl font-bold mt-1 mb-2">25 Perros que No Sueltan Pelo</h2>
-                    <p class="text-slate-600">¿Amas a los perros pero odias el pelo? Estas 25 razas sueltan mínimo pelo.</p>
+                <a href="mejores-perros-para-familias/" class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition flex gap-5 items-start">
+                    <div class="w-14 h-14 bg-rose-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                        <span class="text-2xl">👨‍👩‍👧‍👦</span>
+                    </div>
+                    <div>
+                        <span class="text-rose-600 text-sm font-medium">GUÍA FAMILIAR</span>
+                        <h2 class="text-xl font-bold mt-1 mb-2">12 Mejores Razas de Perros para Familias con Niños</h2>
+                        <p class="text-slate-600">Razas pacientes y gentiles que son geniales con niños de todas las edades. Más: razas con las que tener cuidado y consejos de seguridad.</p>
+                    </div>
                 </a>
 
-                <a href="/es/articles/mejores-perros-para-mayores/" class="block bg-white rounded-2xl shadow-sm border border-slate-200 p-6 hover:shadow-md transition-shadow">
-                    <span class="text-sky-700 font-medium text-sm">GUÍA</span>
-                    <h2 class="text-xl font-bold mt-1 mb-2">Mejores Perros para Mayores</h2>
-                    <p class="text-slate-600">12 compañeros gentiles para los años dorados. Tranquilos y amorosos.</p>
+                <a href="perros-que-no-sueltan-pelo/" class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition flex gap-5 items-start">
+                    <div class="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                        <span class="text-2xl">✨</span>
+                    </div>
+                    <div>
+                        <span class="text-emerald-600 text-sm font-medium">GUÍA DE ASEO</span>
+                        <h2 class="text-xl font-bold mt-1 mb-2">20 Mejores Razas de Perros que No Sueltan Pelo</h2>
+                        <p class="text-slate-600">¿Odias aspirar pelo de perro? Estas razas mantienen tu hogar más limpio. Más: la verdad sobre los perros "hipoalergénicos".</p>
+                    </div>
                 </a>
 
-                <a href="/es/articles/razas-de-bajo-mantenimiento/" class="block bg-white rounded-2xl shadow-sm border border-slate-200 p-6 hover:shadow-md transition-shadow">
-                    <span class="text-sky-700 font-medium text-sm">GUÍA</span>
-                    <h2 class="text-xl font-bold mt-1 mb-2">Razas de Bajo Mantenimiento</h2>
-                    <p class="text-slate-600">15 razas para personas ocupadas. Mínimo mantenimiento, máxima alegría.</p>
+                <a href="razas-de-bajo-mantenimiento/" class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition flex gap-5 items-start">
+                    <div class="w-14 h-14 bg-amber-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                        <span class="text-2xl">⏰</span>
+                    </div>
+                    <div>
+                        <span class="text-amber-600 text-sm font-medium">GUÍA DE ESTILO DE VIDA</span>
+                        <h2 class="text-xl font-bold mt-1 mb-2">15 Razas de Perros de Bajo Mantenimiento para Dueños Ocupados</h2>
+                        <p class="text-slate-600">¿Quieres un perro pero tienes poco tiempo? Estas razas necesitan aseo mínimo, ejercicio moderado y son fáciles de cuidar.</p>
+                    </div>
                 </a>
+            </div>
+
+            <div class="mt-12 text-center">
+                <p class="text-slate-600 mb-6">¿Aún no estás seguro de qué raza te conviene?</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="../quiz" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">Hacer el Quiz de Razas →</a>
+                    <a href="../compare" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Comparar Razas</a>
+                </div>
             </div>
         </div>
     </main>
 
     <footer class="bg-slate-900 text-white py-8 px-4 mt-12">
         <div class="max-w-4xl mx-auto text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Hecho con amor para los amantes de los perros.</p>
+            <p>© 2026 BreedFinder. Hecho con amor para amantes de los perros en todas partes.</p>
         </div>
     </footer>
 </body>
