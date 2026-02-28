@@ -4,9 +4,10 @@
   <url><loc>https://breedfinder.org/breeds/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://breedfinder.org/quiz/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://breedfinder.org/compare/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://breedfinder.org/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://breedfinder.org/about/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://breedfinder.org/faq/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://breedfinder.org/articles/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://breedfinder.org/search/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://breedfinder.org/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -119,7 +120,6 @@
   <url><loc>https://breedfinder.org/breeds/hovawart</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/breeds/ibizan-hound</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/breeds/icelandic-sheepdog</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://breedfinder.org/breeds/index</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/breeds/irish-red-and-white-setter</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/breeds/irish-setter</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/breeds/irish-water-spaniel</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -238,6 +238,7 @@
   <url><loc>https://breedfinder.org/da/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/da/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/da/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/da/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/da/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/da/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/da/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -464,11 +465,12 @@
   <url><loc>https://breedfinder.org/da/articles/hunde-der-ikke-falder/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/da/articles/lavt-vedligeholdelses-hunderacer/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/de/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://breedfinder.org/de/breeds/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://breedfinder.org/de/quiz/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/de/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://breedfinder.org/de/breeds/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://breedfinder.org/de/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/de/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/de/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/de/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/de/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/de/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -695,11 +697,12 @@
   <url><loc>https://breedfinder.org/de/articles/pflegeleichte-hunderassen/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/de/articles/wenig-haarende-hunde/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/es/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://breedfinder.org/es/breeds/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://breedfinder.org/es/quiz/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/es/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://breedfinder.org/es/breeds/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://breedfinder.org/es/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/es/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/es/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/es/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/es/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/es/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -930,6 +933,7 @@
   <url><loc>https://breedfinder.org/fi/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/fi/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/fi/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/fi/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/fi/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/fi/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/fi/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -1156,11 +1160,12 @@
   <url><loc>https://breedfinder.org/fi/articles/parhaat-perhekoirat/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/fi/articles/vahan-karvaavat-koirat/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/fr/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://breedfinder.org/fr/breeds/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://breedfinder.org/fr/quiz/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/fr/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://breedfinder.org/fr/breeds/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://breedfinder.org/fr/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/fr/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/fr/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/fr/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/fr/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/fr/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -1387,11 +1392,12 @@
   <url><loc>https://breedfinder.org/fr/articles/meilleurs-chiens-pour-seniors/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/fr/articles/races-de-chiens-faciles/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/it/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://breedfinder.org/it/breeds/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://breedfinder.org/it/quiz/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/it/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://breedfinder.org/it/breeds/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://breedfinder.org/it/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/it/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/it/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/it/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/it/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/it/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -1622,6 +1628,7 @@
   <url><loc>https://breedfinder.org/ja/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/ja/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/ja/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/ja/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/ja/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/ja/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/ja/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -1852,6 +1859,7 @@
   <url><loc>https://breedfinder.org/nl/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/nl/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/nl/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/nl/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/nl/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/nl/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/nl/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -2082,6 +2090,7 @@
   <url><loc>https://breedfinder.org/no/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/no/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/no/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/no/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/no/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/no/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/no/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -2312,6 +2321,7 @@
   <url><loc>https://breedfinder.org/pl/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/pl/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/pl/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/pl/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/pl/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/pl/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/pl/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -2542,6 +2552,7 @@
   <url><loc>https://breedfinder.org/pt/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/pt/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/pt/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/pt/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/pt/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/pt/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/pt/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -2772,6 +2783,7 @@
   <url><loc>https://breedfinder.org/ru/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/ru/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/ru/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/ru/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/ru/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/ru/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/ru/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -3002,6 +3014,7 @@
   <url><loc>https://breedfinder.org/sv/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/sv/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/sv/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/sv/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/sv/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/sv/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/sv/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -3232,6 +3245,7 @@
   <url><loc>https://breedfinder.org/tr/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/tr/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/tr/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/tr/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/tr/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/tr/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/tr/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -3462,6 +3476,7 @@
   <url><loc>https://breedfinder.org/zh/compare/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/zh/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/zh/articles/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://breedfinder.org/zh/search/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://breedfinder.org/zh/breeds/affenpinscher</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/zh/breeds/afghan-hound</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://breedfinder.org/zh/breeds/airedale-terrier</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
