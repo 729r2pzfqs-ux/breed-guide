@@ -10,13 +10,38 @@ IT_BREEDS_DIR = Path(__file__).parent / "it" / "breeds"
 
 # Translation mappings for common English phrases to Italian
 TRANSLATIONS = [
-    # Full English sentences that need complete replacement - must be first!
-    (r'"grooming": "Requires regular grooming appropriate for their dense double coat coat\."',
-     '"grooming": "Richiede toelettatura regolare appropriata per il loro denso doppio mantello."'),
-    (r'"grooming": "Requires regular grooming appropriate for their dense double coat\."',
-     '"grooming": "Richiede toelettatura regolare appropriata per il loro denso doppio mantello."'),
-    (r'"exercise": "High energy razza requiring vigorous daily exercise—at least an hour of activity\. They thrive with attivo families who enjoy outdoor activities\. Mental stimulation through training and puzzle toys is equally important\. Without adequate exercise, they may develop behavioral issues\."',
-     '"exercise": "Razza ad alta energia che richiede esercizio quotidiano intenso—almeno un\'ora di attività. Prosperano con famiglie attive che amano le attività all\'aperto. La stimolazione mentale attraverso l\'addestramento e i giocattoli rompicapo è altrettanto importante. Senza esercizio adeguato, possono sviluppare problemi comportamentali."'),
+    # Round 6 fixes
+    (r"work-oriented", "orientato al lavoro"),
+    (r"exuberant", "esuberante"),
+    (r"rendere addestramento piacevole", "rendono l'addestramento piacevole"),
+    (r"Bred per fox caccia in packs", "Allevati per cacciare volpi in muta"),
+    (r"who prosperano con company", "che prosperano con compagnia"),
+    (r"Sono rarely kept come pets", "Sono raramente tenuti come animali domestici"),
+    (r"'Little Lion Dog' ottiene la sua name da la sua tradizionale leone-piacere trim",
+     "'Little Lion Dog' (cagnolino leone) ottiene il nome dalla sua tradizionale tosatura simile a un leone"),
+    (r"Once one di rarest razze, sono ora prized per il loro allegri, amichevoli natura",
+     "Un tempo una delle razze più rare, ora sono apprezzati per la loro natura allegra e amichevole"),
+    (r"\bfox\b", "volpe"),
+    (r"\bfoxes\b", "volpi"),
+    (r"\bpacks\b", "muta"),
+    (r"\bcompany\b", "compagnia"),
+    (r"\brarely\b", "raramente"),
+    (r"\bkept\b", "tenuti"),
+    (r"\bprized\b", "apprezzati"),
+    (r"\btrim\b", "tosatura"),
+    (r"\bname\b", "nome"),
+    
+    # Full sentences/phrases needing complete replacement
+    (r"Border Collies sono considered most intelligente razza canina\. Loro were developed per conducendo pecore e hanno incredibile work ethic e energy\.",
+     "I Border Collie sono considerati la razza canina più intelligente. Furono sviluppati per condurre le pecore e hanno un'incredibile etica del lavoro ed energia."),
+    (r"Flat Coated Retriever è Peter Pan di retrievers—loro mai sembrare to crescere su\. Questi allegri, optimistic cani mantengono il loro da cucciolo enthusiasm well in adulthood\.",
+     "Il Flat-Coated Retriever è il Peter Pan dei retriever—non sembrano mai crescere. Questi cani allegri e ottimisti mantengono il loro entusiasmo da cucciolo fino all'età adulta."),
+    (r"Il Lakeland Terrier fu allevato to proteggere pecore da foxes in Inghilterra Lake District\.",
+     "Il Lakeland Terrier fu allevato per proteggere le pecore dalle volpi nel Lake District inglese."),
+    (r"Il Norwich Terrier ha pricked orecchie \(unlike folded-ear Norfolk\) e fu allevato to cacciare vermin\.",
+     "Il Norwich Terrier ha orecchie erette (a differenza del Norfolk con orecchie piegate) e fu allevato per cacciare i parassiti."),
+    (r"Il Sealyham Terrier è un raro Welsh razza that was una volta darling di Hollywood celebrities\.",
+     "Il Sealyham Terrier è una rara razza gallese che un tempo era la beniamina delle celebrità di Hollywood."),
     
     # Multi-word phrases first (order matters!)
     
