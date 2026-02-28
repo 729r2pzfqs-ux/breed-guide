@@ -345,6 +345,46 @@ FINAL_FIXES = {
 }
 FIXES.update(FINAL_FIXES)
 
+# More remaining fixes
+MORE_FIXES = {
+    "Ne, jotka ovat kiinnostuneita in rare rotus": "Ne, jotka ovat kiinnostuneita harvinaisista roduista",
+    "Ne, jotka haluavatn obedient, social koiran": "Ne, jotka haluavat tottelevaisen, sosiaalisen koiran",
+    "Ne, jotka haluavat very social koiran": "Ne, jotka haluavat erittäin sosiaalisen koiran",
+    "Ne, jotka haluavat very obedient koiran": "Ne, jotka haluavat erittäin tottelevaisen koiran",
+    "Ne, jotka haluavat versatile rotu": "Ne, jotka haluavat monipuolisen rodun",
+    "Ne, jotka haluavat versatile kumppani": "Ne, jotka haluavat monipuolisen kumppanin",
+    "Ne, jotka haluavat unique, ystävällinen koiran": "Ne, jotka haluavat ainutlaatuisen, ystävällisen koiran",
+    "Ne, jotka haluavat unique, ancient rotu": "Ne, jotka haluavat ainutlaatuisen, muinaisen rodun",
+    "Ne, jotka haluavat unique terrier": "Ne, jotka haluavat ainutlaatuisen terrierin",
+    "Ne, jotka haluavat unique small rotu": "Ne, jotka haluavat ainutlaatuisen pienen rodun",
+    "Ne, jotka haluavat social, ystävällinen koiran": "Ne, jotka haluavat sosiaalisen, ystävällisen koiran",
+    "Ne, jotka haluavat small, eloisa koiran": "Ne, jotka haluavat pienen, eloisan koiran",
+    "Ne, jotka haluavat small but sturdy koiran": "Ne, jotka haluavat pienen mutta vankan koiran",
+    "Ne, jotka haluavat quiet toy rotu": "Ne, jotka haluavat hiljaisen kääpiörodun",
+    "Ne, jotka haluavat quiet lapkoiran": "Ne, jotka haluavat hiljaisen sylissä pidettävän koiran",
+    "Ne, jotka haluavat quiet kumppani": "Ne, jotka haluavat rauhallisen kumppanin",
+    "Ne, jotka haluavat omistautunut lap koiran": "Ne, jotka haluavat omistautuneen sylissä pidettävän koiran",
+    "Ne, jotka haluavat medium-small koiran": "Ne, jotka haluavat keskikokoisen tai pienen koiran",
+    "Ne, jotka haluavat lap koiran": "Ne, jotka haluavat sylissä pidettävän koiran",
+    "Ne, jotka haluavat lap koiran only": "Ne, jotka haluavat vain sylissä pidettävän koiran",
+    "Ne, jotka haluavat glamorous small koiran": "Ne, jotka haluavat tyylikkään pienen koiran",
+    "Ne, jotka haluavat cuddly lap koiran only": "Ne, jotka haluavat vain halittavan sylissä pidettävän koiran",
+}
+FIXES.update(MORE_FIXES)
+
+# Even more fixes
+EVEN_MORE_FIXES = {
+    "Ne, jotka haluavatn elegant rotu": "Ne, jotka haluavat elegantin rodun",
+    "Ne, jotka haluavatn elegant kumppani": "Ne, jotka haluavat elegantin kumppanin",
+    "Ne, jotka haluavat ystävällinen, trainable koiran": "Ne, jotka haluavat ystävällisen, helposti koulutettavan koiran",
+    "Ne, jotka haluavat trainable toy koiran": "Ne, jotka haluavat helposti koulutettavan kääpiökoiran",
+    "Ne, jotka haluavat trainable rotu": "Ne, jotka haluavat helposti koulutettavan rodun",
+    "Ne, jotka haluavat trainable kumppani": "Ne, jotka haluavat helposti koulutettavan kumppanin",
+    "Ne, jotka haluavat show-quality terrier": "Ne, jotka haluavat näyttelylaadukaan terrierin",
+    "Ne, jotka haluavat cheerful rotu": "Ne, jotka haluavat iloisen rodun",
+}
+FIXES.update(EVEN_MORE_FIXES)
+
 # NOT IDEAL fixes
 NOT_IDEAL_FIXES = {
     "Active runners/hikers": "Aktiiviset juoksijat/retkeilijät",
