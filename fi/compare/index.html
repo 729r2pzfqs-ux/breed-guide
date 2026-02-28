@@ -4160,6 +4160,29 @@
             }
         ];
 
+        // Load translated breed names
+        let breedNames = {};
+        fetch('../data/breed_names_fi.json')
+            .then(r => r.json())
+            .then(names => {
+                breedNames = names;
+                // Re-populate with translated names
+                const selects = document.querySelectorAll('#breed1, #breed2, #breed3');
+                selects.forEach(select => {
+                    Array.from(select.options).forEach(opt => {
+                        if (opt.value && breedNames[opt.value]) {
+                            opt.textContent = breedNames[opt.value];
+                        }
+                    });
+                });
+            })
+            .catch(() => {});
+        
+        function getBreedName(breed) {
+            return breedNames[breed.slug] || breed.name;
+        }
+
+
         // Populate dropdowns
         const selects = ['breed1', 'breed2', 'breed3'];
         function populateDropdowns() {
@@ -4205,7 +4228,7 @@
                     ${selected.map(b => `
                         <th class="p-4 text-center">
                             <img src="${b.image}" alt="${b.name}" class="w-16 h-16 rounded-full mx-auto mb-2 object-cover bg-white">
-                            <div class="font-bold">${b.name}</div>
+                            <div class="font-bold">${getBreedName(b)}</div>
                         </th>
                     `).join('')}
                 </tr>
