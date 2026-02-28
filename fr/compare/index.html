@@ -195,6 +195,13 @@
         function getLocalBreedName(breed) {
             return breedNames[breed.slug] || breed.name;
         }
+
+        // Ensure breeds are populated even if fetch fails
+        window.addEventListener("load", function() {
+            if (document.getElementById("breed1").options.length <= 1) {
+                populateSelectors();
+            }
+        });
         
         
         // Handle URL parameters
@@ -211,6 +218,13 @@
             if (breed1 || breed2) updateComparison();
         }
 
+        // Ensure breeds are populated even if fetch fails
+        window.addEventListener("load", function() {
+            if (document.getElementById("breed1").options.length <= 1) {
+                populateSelectors();
+            }
+        });
+
         function populateSelectors() {
             selects.forEach(id => {
                 const select = document.getElementById(id);
@@ -222,6 +236,13 @@
                 });
             });
         }
+
+        // Ensure breeds are populated even if fetch fails
+        window.addEventListener("load", function() {
+            if (document.getElementById("breed1").options.length <= 1) {
+                populateSelectors();
+            }
+        });
         
         function setBreeds(slug1, slug2) {
             document.getElementById('breed1').value = slug1;
@@ -229,6 +250,13 @@
             document.getElementById('breed3').value = '';
             updateComparison();
         }
+
+        // Ensure breeds are populated even if fetch fails
+        window.addEventListener("load", function() {
+            if (document.getElementById("breed1").options.length <= 1) {
+                populateSelectors();
+            }
+        });
         
         function updateComparison() {
             const selected = selects
@@ -242,6 +270,13 @@
                 document.getElementById('empty-state').classList.remove('hidden');
                 return;
             }
+
+        // Ensure breeds are populated even if fetch fails
+        window.addEventListener("load", function() {
+            if (document.getElementById("breed1").options.length <= 1) {
+                populateSelectors();
+            }
+        });
             
             document.getElementById('comparison-container').classList.remove('hidden');
             document.getElementById('empty-state').classList.add('hidden');
@@ -292,6 +327,13 @@
                 </tr>
             `).join('');
         }
+
+        // Ensure breeds are populated even if fetch fails
+        window.addEventListener("load", function() {
+            if (document.getElementById("breed1").options.length <= 1) {
+                populateSelectors();
+            }
+        });
     </script>
 </body>
 </html>
