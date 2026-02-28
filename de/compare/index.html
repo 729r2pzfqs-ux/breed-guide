@@ -5700,22 +5700,8 @@
         // Ensure breeds are populated even if fetch fails
 
         // Initialize breeds on page load
-        // Initialize when ready
-        function initCompare() {
-            if (typeof breeds !== 'undefined' && breeds.length > 0) {
-                if (document.getElementById('breed1').options.length <= 1) {
-                    populateSelectors();
-                }
-                applyUrlParams();
-            } else {
-                setTimeout(initCompare, 100);
-            }
-        }
-        if (document.readyState === 'complete') {
-            initCompare();
-        } else {
-            window.addEventListener('load', initCompare);
-        }
+        // Initialize
+        populateSelectors();
     </script>
 </body>
 </html>
