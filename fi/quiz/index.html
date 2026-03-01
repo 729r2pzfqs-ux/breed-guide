@@ -101,6 +101,10 @@
             { q: "Minkä kokoisen koiran haluat?", answers: ["🐕 Pieni (alle 10 kg)", "🐕 Keskikokoinen (10-25 kg)", "🐕 Suuri (25-45 kg)", "🐕 Jättiläinen (yli 45 kg)"], tags: [["small"], ["medium"], ["large"], ["large"]] }
         ];
 
+        
+        const tagTranslations = {"high-energy": "korkea energia", "moderate-energy": "kohtalainen energia", "low-energy": "matala energia", "large": "suuri", "medium": "keskikokoinen", "small": "pieni", "family-friendly": "perheystävällinen", "apartment-friendly": "asuntoystävällinen", "low-grooming": "vähän hoitoa", "high-grooming": "paljon hoitoa", "low-shedding": "vähän karvaa", "high-shedding": "paljon karvaa", "guard-dog": "vahtikoira", "good-with-kids": "hyvä lasten kanssa", "easy-to-train": "helppo kouluttaa"};
+        const translateTag = (tag) => tagTranslations[tag] || tag;
+
         const breeds = [
             { name: "Affenpinscher", slug: "affenpinscher", tags: ["moderate-energy", "small", "apartment"] },
             { name: "Afganinvinttikoira", slug: "afghan-hound", tags: ["high-energy", "large", "high-grooming"] },
@@ -397,7 +401,7 @@
                             <span class="text-xl font-bold">${b.name}</span>
                             <span class="bg-gradient-to-r from-sky-500 to-blue-600 text-white text-xs px-2 py-1 rounded-full">${b.pct}% Sopivuus</span>
                         </div>
-                        <p class="text-sm text-slate-600">Miksi tämä sopii sinulle: ${b.tags.filter(t => userTags.includes(t)).join(', ')}</p>
+                        <p class="text-sm text-slate-600">Miksi tämä sopii sinulle: ${b.tags.filter(t => userTags.includes(t)).map(translateTag).join(', ')}</p>
                     </div>
                     <a href="../breeds/${b.slug}.html" class="text-sky-700 hover:text-sky-700 font-semibold text-sm">Katso Profiili →</a>
                 </div>

@@ -101,6 +101,10 @@
             { q: "Welke maat hond heb je liever?", answers: ["🐕 Klein (onder 10 kg)", "🐕 Middel (10-25 kg)", "🐕 Groot (25-45 kg)", "🐕 Reus (boven 45 kg)"], tags: [["small"], ["medium"], ["large"], ["large"]] }
         ];
 
+        
+        const tagTranslations = {"high-energy": "hoge energie", "moderate-energy": "gemiddelde energie", "low-energy": "lage energie", "large": "groot", "medium": "middelgroot", "small": "klein", "family-friendly": "gezinsvriendelijk", "apartment-friendly": "appartementvriendelijk", "guard-dog": "waakhond", "good-with-kids": "goed met kinderen", "easy-to-train": "makkelijk te trainen"};
+        const translateTag = (tag) => tagTranslations[tag] || tag;
+
         const breeds = [
             { name: "Affenpinscher", slug: "affenpinscher", tags: ["moderate-energy", "small", "apartment"] },
             { name: "Afghaanse Windhond", slug: "afghan-hound", tags: ["high-energy", "large", "high-grooming"] },
@@ -397,7 +401,7 @@
                             <span class="text-xl font-bold">${b.name}</span>
                             <span class="bg-gradient-to-r from-sky-500 to-blue-600 text-white text-xs px-2 py-1 rounded-full">${b.pct}% Match</span>
                         </div>
-                        <p class="text-sm text-slate-600">Waarom dit bij je past: ${b.tags.filter(t => userTags.includes(t)).join(', ')}</p>
+                        <p class="text-sm text-slate-600">Waarom dit bij je past: ${b.tags.filter(t => userTags.includes(t)).map(translateTag).join(', ')}</p>
                     </div>
                     <a href="../breeds/${b.slug}.html" class="text-sky-700 hover:text-sky-700 font-semibold text-sm">Bekijk Profiel →</a>
                 </div>

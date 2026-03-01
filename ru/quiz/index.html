@@ -100,6 +100,10 @@
             { q: "Какой размер собаки вы предпочитаете?", answers: ["🐕 Маленькая (до 10 кг)", "🐕 Средняя (10-25 кг)", "🐕 Большая (25-45 кг)", "🐕 Гигантская (более 45 кг)"], tags: [["small"], ["medium"], ["large"], ["large"]] }
         ];
 
+        
+        const tagTranslations = {"high-energy": "высокая энергия", "moderate-energy": "умеренная энергия", "low-energy": "низкая энергия", "large": "крупный", "medium": "средний", "small": "маленький", "family-friendly": "подходит для семьи", "apartment-friendly": "подходит для квартиры", "guard-dog": "сторожевая собака", "good-with-kids": "хорош с детьми", "easy-to-train": "легко обучаем"};
+        const translateTag = (tag) => tagTranslations[tag] || tag;
+
         const breeds = [
             { name: "Аффенпинчер", slug: "affenpinscher", tags: ["moderate-energy", "small", "apartment"] },
             { name: "Афганская борзая", slug: "afghan-hound", tags: ["high-energy", "large", "high-grooming"] },
@@ -396,7 +400,7 @@
                             <span class="text-xl font-bold">${b.name}</span>
                             <span class="bg-gradient-to-r from-sky-500 to-blue-600 text-white text-xs px-2 py-1 rounded-full">${b.pct}% Совпадение</span>
                         </div>
-                        <p class="text-sm text-slate-600">Почему это вам подходит: ${b.tags.filter(t => userTags.includes(t)).join(', ')}</p>
+                        <p class="text-sm text-slate-600">Почему это вам подходит: ${b.tags.filter(t => userTags.includes(t)).map(translateTag).join(', ')}</p>
                     </div>
                     <a href="../breeds/${b.slug}.html" class="text-sky-700 hover:text-sky-700 font-semibold text-sm">Смотреть Профиль →</a>
                 </div>
