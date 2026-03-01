@@ -221,7 +221,7 @@ def generate_article(comp_key, comp):
                 <span class="text-xl font-bold">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="../../breeds" class="text-slate-600 hover:text-sky-700">{ui['all_breeds']}</a>
+                <a href="/breeds/" class="text-slate-600 hover:text-sky-700">{ui['all_breeds']}</a>
                 <a href="../" class="text-slate-600 hover:text-sky-700">{ui['compare']}</a>
                 <a href="../../quiz" class="bg-sky-500 text-white px-5 py-2.5 rounded-xl font-semibold">{ui['take_quiz']}</a>
             </nav>
@@ -240,7 +240,7 @@ def generate_article(comp_key, comp):
                     <h2 class="text-2xl font-bold">{comp['breed1']}</h2>
                     <p class="text-amber-100">{comp['breed1_tagline']}</p>
                 </div>
-                <div class="p-6"><p class="text-slate-600 mb-4">{comp['breed1_desc']}</p><a href="../../breeds/{comp['breed1_slug']}" class="text-sky-700 font-semibold">{ui['view_profile']}</a></div>
+                <div class="p-6"><p class="text-slate-600 mb-4">{comp['breed1_desc']}</p><a href="/breeds/{comp['breed1_slug']}" class="text-sky-700 font-semibold">{ui['view_profile']}</a></div>
             </div>
             <div class="bg-white rounded-3xl shadow-xl overflow-hidden">
                 <div class="bg-gradient-to-r from-yellow-500 to-yellow-600 p-6 text-white text-center">
@@ -248,7 +248,7 @@ def generate_article(comp_key, comp):
                     <h2 class="text-2xl font-bold">{comp['breed2']}</h2>
                     <p class="text-yellow-100">{comp['breed2_tagline']}</p>
                 </div>
-                <div class="p-6"><p class="text-slate-600 mb-4">{comp['breed2_desc']}</p><a href="../../breeds/{comp['breed2_slug']}" class="text-sky-700 font-semibold">{ui['view_profile']}</a></div>
+                <div class="p-6"><p class="text-slate-600 mb-4">{comp['breed2_desc']}</p><a href="/breeds/{comp['breed2_slug']}" class="text-sky-700 font-semibold">{ui['view_profile']}</a></div>
             </div>
         </div>
         <div class="bg-white rounded-3xl shadow-xl overflow-hidden mb-12">
