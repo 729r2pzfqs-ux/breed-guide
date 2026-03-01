@@ -213,7 +213,7 @@ def generate_article(comp_key, comp):
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="../../" class="flex items-center gap-3"><img src="../../../logo-192.png" class="w-10 h-10" alt="BreedFinder"><span class="text-xl font-bold">BreedFinder</span></a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="/breeds/" class="text-slate-600 hover:text-sky-700">{ui['all_breeds']}</a>
+                <a href="../../breeds/" class="text-slate-600 hover:text-sky-700">{ui['all_breeds']}</a>
                 <a href="../" class="text-slate-600 hover:text-sky-700">{ui['compare']}</a>
                 <a href="../../quiz" class="bg-sky-500 text-white px-5 py-2.5 rounded-xl font-semibold">{ui['take_quiz']}</a>
             </nav>
@@ -231,14 +231,14 @@ def generate_article(comp_key, comp):
                     <img src="../../../images/heads/{comp['breed1_slug']}.webp" alt="{comp['breed1']}" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white/30">
                     <h2 class="text-2xl font-bold">{comp['breed1']}</h2><p class="text-amber-100">{comp['breed1_tagline']}</p>
                 </div>
-                <div class="p-6"><p class="text-slate-600 mb-4">{comp['breed1_desc']}</p><a href="/breeds/{comp['breed1_slug']}" class="text-sky-700 font-semibold">{ui['view_profile']}</a></div>
+                <div class="p-6"><p class="text-slate-600 mb-4">{comp['breed1_desc']}</p><a href="../../breeds/{comp['breed1_slug']}" class="text-sky-700 font-semibold">{ui['view_profile']}</a></div>
             </div>
             <div class="bg-white rounded-3xl shadow-xl overflow-hidden">
                 <div class="bg-gradient-to-r from-yellow-500 to-yellow-600 p-6 text-white text-center">
                     <img src="../../../images/heads/{comp['breed2_slug']}.webp" alt="{comp['breed2']}" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white/30">
                     <h2 class="text-2xl font-bold">{comp['breed2']}</h2><p class="text-yellow-100">{comp['breed2_tagline']}</p>
                 </div>
-                <div class="p-6"><p class="text-slate-600 mb-4">{comp['breed2_desc']}</p><a href="/breeds/{comp['breed2_slug']}" class="text-sky-700 font-semibold">{ui['view_profile']}</a></div>
+                <div class="p-6"><p class="text-slate-600 mb-4">{comp['breed2_desc']}</p><a href="../../breeds/{comp['breed2_slug']}" class="text-sky-700 font-semibold">{ui['view_profile']}</a></div>
             </div>
         </div>
         <div class="bg-white rounded-3xl shadow-xl overflow-hidden mb-12">
