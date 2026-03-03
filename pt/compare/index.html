@@ -32,21 +32,21 @@
 
     <!-- Light mode only -->
 </head>
-<body class="bg-gradient-to-br from-sky-50 via-white to-blue-50 min-h-screen text-slate-800">
+<body class="bg-white min-h-screen text-slate-800">
     <!-- Header -->
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="../" class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
+                
                     <img src="../../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
                 </div>
-                <span class="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">BreedFinder</span>
+                <span class="text-xl font-bold" style="color: #2a2518;">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="../../breeds" class="text-slate-600 hover:text-sky-700 transition">Todas as Raças</a>
-                <a href="../quiz/" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-sky-500/25 transition">Fazer Quiz</a>
+                <a href="../../breeds" class="text-slate-600 hover:text-forest transition">Todas as Raças</a>
+                <a href="../quiz/" class="bg-forest text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-forest/25 transition">Fazer Quiz</a>
                 <div class="relative">
-                    <select onchange="if(this.value) window.location.href=this.value" class="appearance-none bg-transparent border border-slate-200 rounded-lg px-3 py-2 pr-8 text-sm cursor-pointer hover:border-sky-400 focus:outline-none focus:border-sky-400">
+                    <select onchange="if(this.value) window.location.href=this.value" class="appearance-none bg-transparent border border-slate-200 rounded-lg px-3 py-2 pr-8 text-sm cursor-pointer hover:border-forest focus:outline-none focus:border-forest">
                         <option value="../../compare/">>English</option>
                         <option value="../es/compare/">Español</option>
                         <option value="../de/compare/">Deutsch</option>
@@ -75,7 +75,7 @@
         <div class="text-center mb-10">
             <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
                 Comparar
-                <span class="bg-gradient-to-r from-sky-500 to-blue-600 bg-clip-text text-transparent">Raças</span>
+                <span class="text-forest">Raças</span>
             </h1>
             <p class="text-lg text-slate-600">Selecione até 3 raças para comparar</p>
         </div>
@@ -84,19 +84,19 @@
         <div class="grid md:grid-cols-3 gap-4 mb-10">
             <div>
                 <label class="block text-sm font-medium text-slate-600 mb-2">Raça 1</label>
-                <select id="breed1" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-sky-400 focus:outline-none bg-white">
+                <select id="breed1" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-forest focus:outline-none bg-white">
                     <option value="">Selecione uma raça...</option>
                 </select>
             </div>
             <div>
                 <label class="block text-sm font-medium text-slate-600 mb-2">Raça 2</label>
-                <select id="breed2" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-sky-400 focus:outline-none bg-white">
+                <select id="breed2" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-forest focus:outline-none bg-white">
                     <option value="">Selecione uma raça...</option>
                 </select>
             </div>
             <div>
                 <label class="block text-sm font-medium text-slate-600 mb-2">Raça 3 (opcional)</label>
-                <select id="breed3" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-sky-400 focus:outline-none bg-white">
+                <select id="breed3" onchange="updateComparison()" class="w-full p-3 rounded-xl border-2 border-slate-200 focus:border-forest focus:outline-none bg-white">
                     <option value="">Selecione uma raça...</option>
                 </select>
             </div>
@@ -125,33 +125,33 @@
         <div class="mt-16">
             <div class="flex items-center justify-between mb-6">
                 <h2 class="text-2xl font-bold">Comparações Detalhadas</h2>
-                <a href="comparisons/" class="text-sky-700 font-semibold hover:text-sky-700">Ver todas →</a>
+                <a href="comparisons/" class="text-forest font-semibold hover:text-forest">Ver todas →</a>
             </div>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
                 <a href="comparisons/labrador-vs-golden-retriever.html" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
-                    <span class="font-semibold group-hover:text-sky-700">Labrador vs Golden Retriever</span>
+                    <span class="font-semibold group-hover:text-forest">Labrador vs Golden Retriever</span>
                     <p class="text-sm text-slate-600">Two of America's favorites</p>
-                    <span class="text-xs text-sky-700 font-medium">Read full comparison →</span>
+                    <span class="text-xs text-forest font-medium">Read full comparison →</span>
                 </a>
                 <a href="comparisons/buldogue-frances-vs-boston-terrier.html" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
-                    <span class="font-semibold group-hover:text-sky-700">French Bulldog vs Boston Terrier</span>
+                    <span class="font-semibold group-hover:text-forest">French Bulldog vs Boston Terrier</span>
                     <p class="text-sm text-slate-600">Compact companions</p>
-                    <span class="text-xs text-sky-700 font-medium">Read full comparison →</span>
+                    <span class="text-xs text-forest font-medium">Read full comparison →</span>
                 </a>
                 <a href="comparisons/pastor-alemao-vs-malinois.html" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
-                    <span class="font-semibold group-hover:text-sky-700">German Shepherd vs Malinois</span>
+                    <span class="font-semibold group-hover:text-forest">German Shepherd vs Malinois</span>
                     <p class="text-sm text-slate-600">Working dog showdown</p>
-                    <span class="text-xs text-sky-700 font-medium">Read full comparison →</span>
+                    <span class="text-xs text-forest font-medium">Read full comparison →</span>
                 </a>
                 <a href="comparisons/poodle-vs-labrador.html" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
-                    <span class="font-semibold group-hover:text-sky-700">Poodle vs Labrador</span>
+                    <span class="font-semibold group-hover:text-forest">Poodle vs Labrador</span>
                     <p class="text-sm text-slate-600">Intelligence showdown</p>
-                    <span class="text-xs text-sky-700 font-medium">Read full comparison →</span>
+                    <span class="text-xs text-forest font-medium">Read full comparison →</span>
                 </a>
                 <a href="comparisons/husky-vs-malamute.html" class="group bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition">
-                    <span class="font-semibold group-hover:text-sky-700">Husky vs Malamute</span>
+                    <span class="font-semibold group-hover:text-forest">Husky vs Malamute</span>
                     <p class="text-sm text-slate-600">Arctic breed battle</p>
-                    <span class="text-xs text-sky-700 font-medium">Read full comparison →</span>
+                    <span class="text-xs text-forest font-medium">Read full comparison →</span>
                 </a>
                 <a href="comparisons/" class="bg-slate-50 p-4 rounded-xl flex items-center justify-center text-slate-600 hover:bg-slate-100 transition">
                     <span class="font-semibold">Ver Todas →</span>
@@ -4225,7 +4225,7 @@
             // Build header
             const header = document.getElementById('comparison-header');
             header.innerHTML = `
-                <tr class="bg-gradient-to-r from-sky-500 to-blue-600 text-white">
+                <tr class="bg-forest text-white">
                     <th class="p-4 text-left font-semibold">Atributo</th>
                     ${selected.map(b => `
                         <th class="p-4 text-center">
@@ -4259,7 +4259,7 @@
                             ${isRating ? `
                                 <div class="flex justify-center gap-0.5">
                                     ${[1,2,3,4,5].map(n => `
-                                        <div class="w-2 h-6 rounded-full ${n <= b[key] ? 'bg-gradient-to-t from-sky-500 to-blue-600' : 'bg-slate-200'}"></div>
+                                        <div class="w-2 h-6 rounded-full ${n <= b[key] ? 'bg-forest' : 'bg-slate-200'}"></div>
                                     `).join('')}
                                 </div>
                             ` : b[key]}
