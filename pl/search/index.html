@@ -17,8 +17,8 @@
     <script src="../../data/i18n.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600
-        body { font-family: 'Inter', sans-serif; } .font-serif { font-family: 'Fraunces', serif; }
+        @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
         .breed-card { transition: transform 0.2s, box-shadow 0.2s; }
         .breed-card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.1); }
         .filter-section { border-bottom: 1px solid #e2e8f0; }
@@ -26,10 +26,12 @@
         input[type="range"] { -webkit-appearance: none; height: 6px; border-radius: 3px; background: #e2e8f0; }
         input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%; background: #0ea5e9; cursor: pointer; }
         .tag { display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 12px; font-weight: 500; }
+            body { font-family: 'Inter', sans-serif; }
+        .font-serif { font-family: 'Fraunces', serif; }
     </style>
 </head>
-<body class="min-h-screen" style="background: linear-gradient(135deg, #f6f7f2 0%, #faf9f6 50%, #eef1e8 100%); color: #2a2518; min-h-screen">
-    <header class="bg-white border-b " style="border-color: #f0ede6; sticky top-0 z-50">
+<body class="min-h-screen" style="background: linear-gradient(135deg, #f6f7f2 0%, #faf9f6 50%, #eef1e8 100%); color: #2a2518;">
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 py-4">
             <div class="flex items-center justify-between">
                 <a href="../" class="flex items-center gap-2">
@@ -46,7 +48,7 @@
                             <i data-lucide="globe" class="w-4 h-4"></i>
                             <span>PL</span>
                         </button>
-                        <div class="absolute right-0 top-full bg-white border " style="border-color: #f0ede6; rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
+                        <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
                         <a href="../../search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a><a href="../../es/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="../../de/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a><a href="../../fr/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a><a href="../../it/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="../../pt/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Português</a><a href="../../fi/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Suomi</a><a href="../../sv/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a><a href="../../nl/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a><a href="../../da/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a><a href="../../ja/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="../../no/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="../../pl/search/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-sky-700">Polski</a><a href="../../ru/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a><a href="../../tr/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Türkçe</a><a href="../../zh/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a>
                     </div>
                     </div>
@@ -65,17 +67,17 @@
             <div class="relative">
                 <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-600"></i>
                 <input type="text" id="searchInput" placeholder="Szukaj ras... (np. Golden Retriever, Pudel)" 
-                    class="w-full pl-12 pr-4 py-4 rounded-xl border " style="border-color: #f0ede6; bg-white shadow-sm focus:ring-2 focus:ring-sky-500 focus:border-sky-500 text-lg" autocomplete="off">
+                    class="w-full pl-12 pr-4 py-4 rounded-xl border border-slate-200 bg-white shadow-sm focus:ring-2 focus:ring-sky-500 focus:border-sky-500 text-lg" autocomplete="off">
                 <button id="clearSearch" class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-600 hover:text-slate-600 hidden">
                     <i data-lucide="x" class="w-5 h-5"></i>
                 </button>
-                <div id="search-dropdown" class="absolute top-full left-0 right-0 mt-2 bg-white border " style="border-color: #f0ede6; rounded-2xl shadow-xl z-50 hidden max-h-80 overflow-y-auto"></div>
+                <div id="search-dropdown" class="absolute top-full left-0 right-0 mt-2 bg-white border border-slate-200 rounded-2xl shadow-xl z-50 hidden max-h-80 overflow-y-auto"></div>
             </div>
         </div>
 
         <div class="flex flex-col lg:flex-row gap-8">
             <aside class="lg:w-72 flex-shrink-0">
-                <div class="bg-white rounded-xl shadow-sm border " style="border-color: #f0ede6; p-5">
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5">
                     <div class="flex items-center justify-between mb-4">
                         <h2 class="font-semibold text-slate-800 flex items-center gap-2">
                             <i data-lucide="sliders-horizontal" class="w-5 h-5"></i>
@@ -207,7 +209,7 @@
             <div class="flex-1">
                 <div class="flex items-center justify-between mb-4">
                     <p class="text-slate-600"><span id="resultCount">0</span> ras znaleziono</p>
-                    <select id="sortBy" class="px-3 py-2 rounded-lg border " style="border-color: #f0ede6; bg-white text-sm">
+                    <select id="sortBy" class="px-3 py-2 rounded-lg border border-slate-200 bg-white text-sm">
                         <option value="name">Wg Nazwy</option>
                         <option value="size">Wg Rozmiaru</option>
                         <option value="energy">Wg Energii</option>
@@ -326,7 +328,7 @@
             }).join('');
 
             return `
-                <a href="../breeds/${breed.id}.html" class="breed-card bg-white rounded-xl shadow-sm border " style="border-color: #f0ede6; overflow-hidden block">
+                <a href="../breeds/${breed.id}.html" class="breed-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden block">
                     <div class="aspect-[4/5] bg-slate-100 relative overflow-hidden">
                         <img src="${imageUrl}" alt="${getBreedName(breed)}" 
                             class="w-full h-full object-cover object-top"
@@ -339,15 +341,15 @@
                         <p class="text-slate-600 text-sm mb-3">${breed.origin} · ${breed.lifespan}</p>
                         <div class="flex flex-wrap gap-1 mb-3">${temperamentTags}</div>
                         <div class="grid grid-cols-3 gap-2 text-center text-xs">
-                            <div class="min-h-screen" style="background: linear-gradient(135deg, #f6f7f2 0%, #faf9f6 50%, #eef1e8 100%); color: #2a2518; rounded-lg py-2">
+                            <div class="bg-slate-50 rounded-lg py-2">
                                 <div class="text-slate-600">Energia</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.energy)}${'○'.repeat(5-breed.ratings.energy)}</div>
                             </div>
-                            <div class="min-h-screen" style="background: linear-gradient(135deg, #f6f7f2 0%, #faf9f6 50%, #eef1e8 100%); color: #2a2518; rounded-lg py-2">
+                            <div class="bg-slate-50 rounded-lg py-2">
                                 <div class="text-slate-600">Pielęgn.</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.grooming)}${'○'.repeat(5-breed.ratings.grooming)}</div>
                             </div>
-                            <div class="min-h-screen" style="background: linear-gradient(135deg, #f6f7f2 0%, #faf9f6 50%, #eef1e8 100%); color: #2a2518; rounded-lg py-2">
+                            <div class="bg-slate-50 rounded-lg py-2">
                                 <div class="text-slate-600">Trening</div>
                                 <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.trainability)}${'○'.repeat(5-breed.ratings.trainability)}</div>
                             </div>
@@ -461,7 +463,7 @@
                 return;
             }
             searchDropdown.innerHTML = matches.map(b => `
-                <a href="../breeds/${b.id}.html" class="flex items-center gap-3 px-4 py-3 hover:min-h-screen" style="background: linear-gradient(135deg, #f6f7f2 0%, #faf9f6 50%, #eef1e8 100%); color: #2a2518; transition border-b border-slate-100 last:border-0">
+                <a href="../breeds/${b.id}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition border-b border-slate-100 last:border-0">
                     <img src="../../images/heads/${b.id}.webp" alt="${getBreedName(b)}" class="w-10 h-10 rounded-xl object-cover">
                     <div><div class="font-medium text-slate-800">${getBreedName(b)}</div><div class="text-sm text-slate-600">${b.group} · ${getSizeLabel(b.size.category)}</div></div>
                 </a>

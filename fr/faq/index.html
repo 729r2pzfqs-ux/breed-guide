@@ -23,14 +23,16 @@
     </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Plus Jakarta Sans','sans-serif']}}}}</script>
-    <style>.card-shadow{box-shadow:0 1px 3px rgba(0,0,0,0.04),0 4px 12px rgba(0,0,0,0.03);}.faq-item[open] .faq-icon{transform:rotate(180deg);}</style>
+    <style>.card-shadow{box-shadow:0 1px 3px rgba(0,0,0,0.04),0 4px 12px rgba(0,0,0,0.03);}.faq-item[open] .faq-icon{transform:rotate(180deg);}        body { font-family: 'Inter', sans-serif; }
+        .font-serif { font-family: 'Fraunces', serif; }
+    </style>
 </head>
-<body class="min-h-screen" style="background: linear-gradient(135deg, #f6f7f2 0%, #faf9f6 50%, #eef1e8 100%); color: #2a2518; min-h-screen text-slate-800">
+<body class="bg-slate-50 min-h-screen text-slate-800">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="../" class="flex items-center gap-3"><img src="../../logo-192-green.png" class="w-10 h-10 " alt="BreedFinder"><span class="text-xl font-bold font-serif" style="color: #1a5632;">BreedFinder</span></a>
+            <a href="../" class="flex items-center gap-3"><img src="../../logo-192-green.png" class="w-10 h-10 rounded-xl" alt="BreedFinder"><span class="text-xl font-bold">BreedFinder</span></a>
             <nav class="flex items-center gap-6 text-sm font-medium">
                 <a href="../search/" class="text-slate-600 hover:text-sky-700">Toutes les Races</a>
                 <a href="../quiz/" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-5 py-2.5 rounded-xl font-semibold">Faire le Quiz</a>
@@ -40,7 +42,7 @@
                         <i data-lucide="globe" class="w-4 h-4"></i>
                         <span>FR</span>
                     </button>
-                    <div class="absolute right-0 top-full bg-white border " style="border-color: #f0ede6; rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
+                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
                         <a href="../../faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a><a href="../../es/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="../../de/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a><a href="../../fr/faq/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-sky-700">Français</a><a href="../../it/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="../../pt/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Português</a><a href="../../fi/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Suomi</a><a href="../../sv/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a><a href="../../nl/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a><a href="../../da/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a><a href="../../ja/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="../../no/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="../../pl/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Polski</a><a href="../../ru/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a><a href="../../tr/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Türkçe</a><a href="../../zh/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a>
                     </div>
                 </div>
@@ -56,11 +58,11 @@
             <section>
                 <h2 class="text-xl font-bold text-slate-900 mb-4">🐕 Choisir la Bonne Race</h2>
                 <div class="space-y-3">
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Comment choisir la bonne race?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><p>Considérez: espace, niveau d'activité, temps de toilettage, famille et expérience.</p><p class="mt-2"><a href="../quiz/" class="text-sky-700 underline">Faites notre quiz →</a></p></div>
                     </details>
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Chiot ou chien adulte?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><p><strong>Chiots</strong> demandent plus de temps et d'entraînement. <strong>Adultes</strong> sont souvent plus calmes et déjà éduqués. <strong>Seniors</strong> sont de merveilleux compagnons.</p></div>
                     </details>
@@ -69,11 +71,11 @@
             <section>
                 <h2 class="text-xl font-bold text-slate-900 mb-4">🏠 Style de Vie</h2>
                 <div class="space-y-3">
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Meilleurs chiens pour appartement?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Bouledogue Français — calme, peu d'énergie</li><li>Cavalier King Charles Spaniel — adaptable</li><li>Carlin — amateur de canapé</li><li>Lévrier — étonnamment calme à l'intérieur!</li></ul></div>
                     </details>
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Meilleurs chiens pour familles avec enfants?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Labrador Retriever — le classique familial</li><li>Golden Retriever — patient et doux</li><li>Beagle — robuste et joueur</li><li>Collie — protecteur et intelligent</li></ul><p class="mt-2">Surveillez toujours les interactions entre chiens et jeunes enfants.</p></div>
                     </details>
@@ -82,15 +84,15 @@
             <section>
                 <h2 class="text-xl font-bold text-slate-900 mb-4">✨ Soins & Santé</h2>
                 <div class="space-y-3">
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Existe-t-il des chiens hypoallergéniques?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><p>Aucun chien n'est 100% hypoallergénique. Mais les Caniches, Bichon Frisé et Schnauzer produisent moins d'allergènes.</p></div>
                     </details>
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Combien d'exercice ont besoin les chiens?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li><strong>Haute énergie</strong> (Border Collie, Husky): 2+ heures/jour</li><li><strong>Modérée</strong> (Labrador): ~1 heure</li><li><strong>Basse</strong> (Bouledogue, Basset): 30 minutes</li></ul></div>
                     </details>
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Quelle est l'espérance de vie des chiens?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Petites races: 14-18 ans</li><li>Races moyennes: 10-14 ans</li><li>Grandes races: 7-10 ans</li></ul></div>
                     </details>
@@ -103,7 +105,7 @@
             <a href="../quiz/" class="inline-block bg-white text-sky-700 px-8 py-3 rounded-xl font-bold hover:bg-sky-50">Faire le Quiz →</a>
         </div>
     </main>
-    <footer class="" style="background: #1a2e1a; text-slate-300 py-12 px-4 mt-12">
+    <footer class="py-10 px-4 text-slate-300 py-12 px-4 mt-12" style="background: #1a2e1a;">
         <div class="max-w-6xl mx-auto text-center">
             <p>© 2026 BreedFinder. Fait avec amour pour les amoureux des chiens.</p>
         </div>

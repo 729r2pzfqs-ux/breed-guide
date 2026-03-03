@@ -11,14 +11,16 @@
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Plus Jakarta Sans','sans-serif']}}}}</script>
-    <style>.faq-item[open] .faq-icon{transform:rotate(180deg);}</style>
+    <style>.faq-item[open] .faq-icon{transform:rotate(180deg);}        body { font-family: 'Inter', sans-serif; }
+        .font-serif { font-family: 'Fraunces', serif; }
+    </style>
 </head>
-<body class="min-h-screen" style="background: linear-gradient(135deg, #f6f7f2 0%, #faf9f6 50%, #eef1e8 100%); color: #2a2518; min-h-screen text-slate-800">
+<body class="bg-slate-50 min-h-screen text-slate-800">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="../" class="flex items-center gap-3"><img src="../../logo-192-green.png" class="w-10 h-10 " alt="BreedFinder"><span class="text-xl font-bold font-serif" style="color: #1a5632;">BreedFinder</span></a>
+            <a href="../" class="flex items-center gap-3"><img src="../../logo-192-green.png" class="w-10 h-10 rounded-xl" alt="BreedFinder"><span class="text-xl font-bold">BreedFinder</span></a>
             <nav class="flex items-center gap-6 text-sm font-medium">
                 <a href="../search/" class="text-slate-600 hover:text-sky-700">所有品种</a>
                 <a href="../quiz/" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-5 py-2.5 rounded-xl font-semibold">开始测试</a>
@@ -34,11 +36,11 @@
             <section>
                 <h2 class="text-xl font-bold text-slate-900 mb-4">🐕 选择合适的品种</h2>
                 <div class="space-y-3">
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>如何选择合适的犬种？</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><p>考虑您的居住空间、活动水平和家庭情况。<a href="../quiz/" class="text-sky-700 underline">参加品种测试 →</a></p></div>
                     </details>
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>幼犬还是成年犬？</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><strong>幼犬</strong>需要更多时间和训练。<strong>成年犬</strong>通常更平静。</div>
                     </details>
@@ -47,11 +49,11 @@
             <section>
                 <h2 class="text-xl font-bold text-slate-900 mb-4">🏠 生活方式与居住</h2>
                 <div class="space-y-3">
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>最适合公寓的狗？</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>法国斗牛犬 — 安静</li><li>查理士王小猎犬 — 适应性强</li><li>巴哥犬 — 沙发土豆</li><li>灰狗 — 室内安静</li></ul><a href="../search/?apartment=1" class="text-sky-700 underline mt-2 inline-block">查看所有适合公寓的品种 →</a></div>
                     </details>
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>最适合有孩子家庭的狗？</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>拉布拉多</li><li>金毛寻回犬</li><li>比格犬</li><li>柯利犬</li></ul><a href="../search/?kids=1" class="text-sky-700 underline mt-2 inline-block">查看所有适合家庭的品种 →</a></div>
                     </details>
@@ -60,11 +62,11 @@
             <section>
                 <h2 class="text-xl font-bold text-slate-900 mb-4">🧬 健康与护理</h2>
                 <div class="space-y-3">
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>有低过敏性的品种吗？</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><p>没有100%低过敏性的狗。贵宾犬、比熊犬和雪纳瑞更适合过敏者。</p></div>
                     </details>
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>哪些品种掉毛最少？</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><p>贵宾犬、比熊犬、雪纳瑞和约克夏梗掉毛少。<a href="../search/?shedding=minimal" class="text-sky-700 underline mt-2 inline-block">查看低掉毛品种 →</a></p></div>
                     </details>
@@ -73,11 +75,11 @@
             <section>
                 <h2 class="text-xl font-bold text-slate-900 mb-4">⏱️ 运动与训练</h2>
                 <div class="space-y-3">
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>狗需要多少运动？</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><p>高能量品种（边境牧羊犬、哈士奇）2+小时。中等品种（拉布拉多）1小时。低能量品种（斗牛犬）30分钟。</p></div>
                     </details>
-                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>哪些品种最容易训练？</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><p>边境牧羊犬、贵宾犬、德国牧羊犬和拉布拉多容易训练。<a href="../search/?train=1" class="text-sky-700 underline mt-2 inline-block">查看容易训练的品种 →</a></p></div>
                     </details>
@@ -85,7 +87,7 @@
             </section>
         </div>
     </main>
-    <footer class="" style="background: #1a2e1a; text-slate-300 py-8 px-4 mt-12">
+    <footer class="py-10 px-4 text-slate-300 py-8 px-4 mt-12" style="background: #1a2e1a;">
         <div class="max-w-6xl mx-auto text-center">
             <p class="text-sm">为爱狗人士用心制作</p>
         </div>
