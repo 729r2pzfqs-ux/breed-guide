@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>* { font-family: 'Plus Jakarta Sans', sans-serif; }</style>
 </head>
-<body class="bg-gradient-to-br from-sky-50 via-white to-blue-50 min-h-screen text-slate-800">
+<body class="bg-white min-h-screen text-slate-800">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="../../" class="flex items-center gap-3">
@@ -23,8 +23,8 @@
                 <span class="text-xl font-bold">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="../../breeds" class="text-slate-600 hover:text-sky-700">Tüm Irklar</a>
-                <a href="../" class="text-slate-600 hover:text-sky-700">Karşılaştır</a>
+                <a href="../../breeds" class="text-slate-600 hover:text-forest">Tüm Irklar</a>
+                <a href="../" class="text-slate-600 hover:text-forest">Karşılaştır</a>
                 <a href="../../quiz" class="bg-sky-500 text-white px-5 py-2.5 rounded-xl font-semibold">Teste Başla</a>
             </nav>
         </div>
@@ -37,7 +37,7 @@
 
         <div class="text-center mb-12">
             <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
-                <span class="text-amber-500">Fransız Bulldog</span>
+                <span class="text-forest">Fransız Bulldog</span>
                 <span class="text-slate-600 mx-4">vs</span>
                 <span class="text-yellow-500">Boston Terrier</span>
             </h1>
@@ -47,14 +47,14 @@
         <!-- Breed Cards -->
         <div class="grid md:grid-cols-2 gap-8 mb-12">
             <div class="bg-white rounded-3xl shadow-xl overflow-hidden">
-                <div class="bg-gradient-to-r from-amber-500 to-amber-600 p-6 text-white text-center">
+                <div class="bg-gradient-to-r from-forest to-forest p-6 text-white text-center">
                     <img src="../../../images/heads/french-bulldog.webp" alt="Fransız Bulldog" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white/30">
                     <h2 class="text-2xl font-bold">Fransız Bulldog</h2>
-                    <p class="text-amber-100">Çekici Fransız</p>
+                    <p class="text-white/80">Çekici Fransız</p>
                 </div>
                 <div class="p-6">
                     <p class="text-slate-600 mb-4">Fransız Bulldog, yarasa kulakları ile tanınan, oyuncu kişiliğe sahip çekici, uyumlu bir ırktır.</p>
-                    <a href="../../breeds/french-bulldog" class="text-sky-700 font-semibold">Tam profili gör →</a>
+                    <a href="../../breeds/french-bulldog" class="text-forest font-semibold">Tam profili gör →</a>
                 </div>
             </div>
             <div class="bg-white rounded-3xl shadow-xl overflow-hidden">
@@ -65,7 +65,7 @@
                 </div>
                 <div class="p-6">
                     <p class="text-slate-600 mb-4">Boston Terrier, "Amerikan Beyefendisi" olarak bilinir, dost canlısı mizacıyla canlı küçük bir köpektir.</p>
-                    <a href="../../breeds/boston-terrier" class="text-sky-700 font-semibold">Tam profili gör →</a>
+                    <a href="../../breeds/boston-terrier" class="text-forest font-semibold">Tam profili gör →</a>
                 </div>
             </div>
         </div>
@@ -78,18 +78,18 @@
             <table class="w-full">
                 <thead><tr class="bg-slate-50">
                     <th class="p-4 text-left">Özellik</th>
-                    <th class="p-4 text-center text-amber-600">Fransız Bulldog</th>
+                    <th class="p-4 text-center text-forest">Fransız Bulldog</th>
                     <th class="p-4 text-center text-yellow-600">Boston Terrier</th>
                 </tr></thead>
                 <tbody class="divide-y divide-slate-100">
                     <tr><td class="p-4">📏 Boyut</td><td class="p-4 text-center font-semibold">Büyük</td><td class="p-4 text-center font-semibold">Büyük</td></tr>
                     <tr class="bg-slate-50/50"><td class="p-4">⏳ Ömür</td><td class="p-4 text-center">10-12 yıl</td><td class="p-4 text-center">10-12 yıl</td></tr>
-                    <tr><td class="p-4">⚡ Enerji Seviyesi</td><td class="p-4 text-center"><span class="text-amber-500">●●●●●</span><br><span class="text-sm">Çok Yüksek</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●●○</span><br><span class="text-sm">Yüksek</span></td></tr>
-                    <tr class="bg-slate-50/50"><td class="p-4">✂️ Bakım İhtiyacı</td><td class="p-4 text-center"><span class="text-amber-500">●●○○○</span><br><span class="text-sm">Orta</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●○○</span><br><span class="text-sm">Orta</span></td></tr>
-                    <tr><td class="p-4">🎓 Eğitilebilirlik</td><td class="p-4 text-center"><span class="text-amber-500">●●●●●</span><br><span class="text-sm">Mükemmel</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●●●</span><br><span class="text-sm">Mükemmel</span></td></tr>
-                    <tr class="bg-slate-50/50"><td class="p-4">👶 Çocuk Dostu</td><td class="p-4 text-center"><span class="text-amber-500">●●●●●</span><br><span class="text-sm">Mükemmel</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●●●</span><br><span class="text-sm">Mükemmel</span></td></tr>
-                    <tr><td class="p-4">🏠 Daireye Uygun</td><td class="p-4 text-center"><span class="text-amber-500">●●○○○</span><br><span class="text-sm">Uygun Değil</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●○○○</span><br><span class="text-sm">Uygun Değil</span></td></tr>
-                    <tr class="bg-slate-50/50"><td class="p-4">🐕 Tüy Dökümü</td><td class="p-4 text-center font-semibold text-amber-600">Yüksek</td><td class="p-4 text-center font-semibold text-yellow-600">Yoğun</td></tr>
+                    <tr><td class="p-4">⚡ Enerji Seviyesi</td><td class="p-4 text-center"><span class="text-forest">●●●●●</span><br><span class="text-sm">Çok Yüksek</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●●○</span><br><span class="text-sm">Yüksek</span></td></tr>
+                    <tr class="bg-slate-50/50"><td class="p-4">✂️ Bakım İhtiyacı</td><td class="p-4 text-center"><span class="text-forest">●●○○○</span><br><span class="text-sm">Orta</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●○○</span><br><span class="text-sm">Orta</span></td></tr>
+                    <tr><td class="p-4">🎓 Eğitilebilirlik</td><td class="p-4 text-center"><span class="text-forest">●●●●●</span><br><span class="text-sm">Mükemmel</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●●●</span><br><span class="text-sm">Mükemmel</span></td></tr>
+                    <tr class="bg-slate-50/50"><td class="p-4">👶 Çocuk Dostu</td><td class="p-4 text-center"><span class="text-forest">●●●●●</span><br><span class="text-sm">Mükemmel</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●●●</span><br><span class="text-sm">Mükemmel</span></td></tr>
+                    <tr><td class="p-4">🏠 Daireye Uygun</td><td class="p-4 text-center"><span class="text-forest">●●○○○</span><br><span class="text-sm">Uygun Değil</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●○○○</span><br><span class="text-sm">Uygun Değil</span></td></tr>
+                    <tr class="bg-slate-50/50"><td class="p-4">🐕 Tüy Dökümü</td><td class="p-4 text-center font-semibold text-forest">Yüksek</td><td class="p-4 text-center font-semibold text-yellow-600">Yoğun</td></tr>
                 </tbody>
             </table>
         </div>
@@ -97,14 +97,14 @@
         <!-- Temperament Comparison -->
         <div class="grid md:grid-cols-2 gap-8 mb-12">
             <div class="bg-white rounded-2xl p-6 shadow-lg">
-                <h3 class="text-xl font-bold text-amber-600 mb-4">🧠 Fransız Bulldog Mizaç</h3>
+                <h3 class="text-xl font-bold text-forest mb-4">🧠 Fransız Bulldog Mizaç</h3>
                 <div class="flex flex-wrap gap-2 mb-4">
-                    <span class="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-medium">Oyuncu</span>
-                    <span class="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-medium">Uyumlu</span>
-                    <span class="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-medium">Akıllı</span>
-                    <span class="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-medium">Sevecen</span>
-                    <span class="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-medium">Sabırlı</span>
-                    <span class="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-medium">Uyanık</span>
+                    <span class="bg-sage-100 text-forest px-3 py-1 rounded-full text-sm font-medium">Oyuncu</span>
+                    <span class="bg-sage-100 text-forest px-3 py-1 rounded-full text-sm font-medium">Uyumlu</span>
+                    <span class="bg-sage-100 text-forest px-3 py-1 rounded-full text-sm font-medium">Akıllı</span>
+                    <span class="bg-sage-100 text-forest px-3 py-1 rounded-full text-sm font-medium">Sevecen</span>
+                    <span class="bg-sage-100 text-forest px-3 py-1 rounded-full text-sm font-medium">Sabırlı</span>
+                    <span class="bg-sage-100 text-forest px-3 py-1 rounded-full text-sm font-medium">Uyanık</span>
                 </div>
                 <p class="text-slate-600 text-sm">Frenchies are easygoing and adaptable, thriving in city apartments or country homes alike. They're playful but not hyperactive, making them excellent companions for various lifestyles.</p>
             </div>
@@ -124,17 +124,17 @@
 
         <!-- Exercise & Grooming -->
         <div class="grid md:grid-cols-2 gap-8 mb-12">
-            <div class="bg-gradient-to-br from-sky-50 to-sky-100 rounded-2xl p-6">
-                <h3 class="text-xl font-bold text-sky-700 mb-4">🏃 Egzersiz İhtiyacı</h3>
+            <div class="bg-gradient-to-br from-sage-50 to-sage-100 rounded-2xl p-6">
+                <h3 class="text-xl font-bold text-forest mb-4">🏃 Egzersiz İhtiyacı</h3>
                 <div class="space-y-4">
-                    <div><span class="font-semibold text-amber-600">Fransız Bulldog:</span><p class="text-slate-600 text-sm">Moderate exercise needs—short walks and play sessions suffice. Avoid overexertion in hot weather due to their flat faces.</p></div>
+                    <div><span class="font-semibold text-forest">Fransız Bulldog:</span><p class="text-slate-600 text-sm">Moderate exercise needs—short walks and play sessions suffice. Avoid overexertion in hot weather due to their flat faces.</p></div>
                     <div><span class="font-semibold text-yellow-600">Boston Terrier:</span><p class="text-slate-600 text-sm">Moderate energy requiring daily walks and play. More athletic than Frenchies but still prone to overheating.</p></div>
                 </div>
             </div>
-            <div class="bg-gradient-to-br from-sky-50 to-sky-100 rounded-2xl p-6">
-                <h3 class="text-xl font-bold text-sky-700 mb-4">✂️ Bakım Gereksinimleri</h3>
+            <div class="bg-gradient-to-br from-sage-50 to-sage-100 rounded-2xl p-6">
+                <h3 class="text-xl font-bold text-forest mb-4">✂️ Bakım Gereksinimleri</h3>
                 <div class="space-y-4">
-                    <div><span class="font-semibold text-amber-600">Fransız Bulldog:</span><p class="text-slate-600 text-sm">Minimal grooming—weekly brushing. Clean facial wrinkles regularly to prevent infections.</p></div>
+                    <div><span class="font-semibold text-forest">Fransız Bulldog:</span><p class="text-slate-600 text-sm">Minimal grooming—weekly brushing. Clean facial wrinkles regularly to prevent infections.</p></div>
                     <div><span class="font-semibold text-yellow-600">Boston Terrier:</span><p class="text-slate-600 text-sm">Low maintenance—occasional brushing. Their short coat is easy to care for.</p></div>
                 </div>
             </div>
@@ -145,7 +145,7 @@
             <h2 class="text-3xl font-bold text-center mb-8">🎯 Hangisi Size Uygun?</h2>
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-white/10 rounded-2xl p-6">
-                    <h3 class="text-xl font-bold text-amber-400 mb-4">Fransız Bulldog seçin eğer...</h3>
+                    <h3 class="text-xl font-bold text-forest mb-4">Fransız Bulldog seçin eğer...</h3>
                     <ul class="space-y-2 text-slate-200">
                         <li class="flex items-start gap-2">
                             <span class="text-green-400">✓</span>
@@ -196,7 +196,7 @@
                 </div>
             </div>
             <div class="mt-8 bg-white/5 rounded-xl p-6 text-center">
-                <h4 class="text-lg font-semibold text-sky-300 mb-2">Sonuç</h4>
+                <h4 class="text-lg font-semibold text-forest mb-2">Sonuç</h4>
                 <p class="text-slate-300">Both are excellent apartment dogs with big personalities. Frenchies are calmer and more laid-back, while Bostons are slightly more energetic and athletic. Either will steal your heart!</p>
             </div>
         </div>
@@ -217,7 +217,7 @@
         </div>
 
         <div class="text-center">
-            <a href="../" class="text-sky-700 font-semibold">← Karşılaştırmaya Dön</a>
+            <a href="../" class="text-forest font-semibold">← Karşılaştırmaya Dön</a>
         </div>
     </main>
 
