@@ -11,15 +11,15 @@
     <link rel="icon" href="../../favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
-        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600
+        body { font-family: 'Inter', sans-serif; } .font-serif { font-family: 'Fraunces', serif; }
     </style>
 </head>
 <body class="bg-gradient-to-br from-sky-50 via-white to-blue-50 min-h-screen text-slate-800">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="../" class="flex items-center gap-3">
-                <img src="../../logo-192.png" class="w-10 h-10" alt="BreedFinder">
+                <img src="../../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-4 text-sm font-medium">
@@ -34,7 +34,7 @@
                         <i data-lucide="globe" class="w-4 h-4"></i>
                         <span>SV</span>
                     </button>
-                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
+                    <div class="absolute right-0 top-full bg-white border " style="border-color: #f0ede6; rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
                         <a href="../../quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a><a href="../../es/quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="../../de/quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a><a href="../../fr/quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a><a href="../../it/quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="../../pt/quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Português</a><a href="../../fi/quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Suomi</a><a href="../../sv/quiz/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-sky-700">Svenska</a><a href="../../nl/quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a><a href="../../da/quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a><a href="../../ja/quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="../../no/quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="../../pl/quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Polski</a><a href="../../ru/quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a><a href="../../tr/quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Türkçe</a><a href="../../zh/quiz/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                 </div>
                 <div id="results-list" class="space-y-4"></div>
                 <div class="flex justify-center gap-4 mt-8">
-                    <button onclick="location.reload()" class="px-6 py-3 border border-slate-200 rounded-xl hover:bg-slate-50">← Gör Om Quiz</button>
+                    <button onclick="location.reload()" class="px-6 py-3 border " style="border-color: #f0ede6; rounded-xl hover:min-h-screen" style="background: linear-gradient(135deg, #f6f7f2 0%, #faf9f6 50%, #eef1e8 100%); color: #2a2518;">← Gör Om Quiz</button>
                     <a href="../compare/" id="compare-link" class="px-6 py-3 bg-gradient-to-r from-sky-500 to-blue-600 text-white rounded-xl font-semibold">Jämför Top 2</a>
                 </div>
             </div>
@@ -347,7 +347,7 @@
             
             const answersDiv = document.getElementById('answers');
             answersDiv.innerHTML = q.answers.map((a, i) => `
-                <button onclick="selectAnswer(${i})" class="answer-btn w-full text-left p-4 rounded-xl border-2 border-slate-200 hover:border-sky-400 transition ${answers[idx] === i ? 'border-sky-500 bg-sky-50' : ''}">
+                <button onclick="selectAnswer(${i})" class="answer-btn w-full text-left p-4 rounded-xl border-2 " style="border-color: #f0ede6; hover:border-sky-400 transition ${answers[idx] === i ? 'border-sky-500 bg-sky-50' : ''}">
                     ${a}
                 </button>
             `).join('');
