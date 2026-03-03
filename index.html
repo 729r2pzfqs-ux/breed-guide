@@ -138,6 +138,7 @@
                             50:  '#f6f7f2',
                             100: '#eef1e8',
                             200: '#dde3d4',
+                            300: '#c8d1be',
                         },
                         warm: {
                             50:  '#faf9f6',
@@ -152,6 +153,7 @@
                         },
                         forest: {
                             DEFAULT: '#1a5632',
+                            300:     '#6aab7d',
                             dark:    '#1a2e1a',
                         }
                     }
@@ -178,24 +180,24 @@
 <body class="bg-white min-h-screen text-warm-800" style="color: #2a2518;">
     <!-- Header -->
     <header class="bg-white/80 backdrop-blur-md border-b sticky top-0 z-50" style="border-color: #f0ede6;">
-        <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-            <a href="./" class="flex items-center gap-2 shrink-0">
-                <div class="w-10 h-10 rounded-xl flex items-center justify-center shadow-sm" style="background: #eef1e8;">
-                    <img src="logo-192-green.png" class="w-8 h-8" alt="BreedFinder">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            <a href="./" class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl flex items-center justify-center text-white shadow-lg" style="background: #1a5632;">
+                    <img src="logo-192-green.png" alt="BreedFinder" class="h-8 w-8">
                 </div>
-                <span class="text-lg font-bold font-serif" style="color: #1a5632;">BreedFinder</span>
+                <span class="text-xl font-bold" style="color: #2a2518;">BreedFinder</span>
             </a>
-            <nav class="flex items-center gap-3 md:gap-5 text-sm font-medium">
-                <a href="search/" class="hidden sm:block transition whitespace-nowrap" style="color: #5c5647;" onmouseover="this.style.color='#1a5632'" onmouseout="this.style.color='#5c5647'">Browse Breeds</a>
+            <nav class="flex items-center gap-4 md:gap-6 text-sm font-medium">
+                <a href="search/" class="transition ml-2 md:ml-0" style="color: #5c5647;" onmouseover="this.style.color='#1a5632'" onmouseout="this.style.color='#5c5647'">Browse Breeds</a>
                 <!-- Dark mode removed -->
-                <a href="quiz/" class="text-white px-4 py-2 rounded-xl font-semibold text-sm transition whitespace-nowrap" style="background: #1a5632;" onmouseover="this.style.boxShadow='0 8px 20px rgba(26,86,50,0.25)'" onmouseout="this.style.boxShadow='none'">Take Quiz</a>
+                <a href="quiz" class="text-white px-5 py-2.5 rounded-xl font-semibold transition" style="background: #1a5632;" onmouseover="this.style.boxShadow='0 8px 20px rgba(26,86,50,0.25)'" onmouseout="this.style.boxShadow='none'">Take Quiz</a>
                 <!-- Language selector -->
-                <div class="relative" id="lang-selector">
-                    <button onclick="document.getElementById('lang-dropdown').classList.toggle('hidden')" class="flex items-center gap-1 py-2 transition" style="color: #5c5647;">
+                <div class="relative group">
+                    <button class="flex items-center gap-1 py-2 transition" style="color: #5c5647;" onmouseover="this.style.color='#1a5632'" onmouseout="this.style.color='#5c5647'">
                         <i data-lucide="globe" class="w-4 h-4"></i>
                         <span>EN</span>
                     </button>
-                    <div id="lang-dropdown" class="absolute right-0 top-full bg-white border rounded-xl shadow-xl hidden min-w-[140px] py-2 max-h-80 overflow-y-auto z-50" style="border-color: #e2ddd4;">
+                    <div class="absolute right-0 top-full bg-white border rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent" style="border-color: #e2ddd4;">
                         <a href="./" class="block px-4 py-2 font-semibold" style="color: #1a5632; background: #f0ede6;" onmouseover="this.style.background='#e2ddd4'" onmouseout="this.style.background='#f0ede6'">English</a><a href="es/" class="block px-4 py-2 hover:bg-warm-100 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Español</a><a href="de/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Deutsch</a><a href="fr/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Français</a><a href="it/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Italiano</a><a href="pt/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Português</a><a href="fi/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Suomi</a><a href="sv/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Svenska</a><a href="nl/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Nederlands</a><a href="da/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Dansk</a><a href="ja/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">日本語</a><a href="no/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Norsk</a><a href="pl/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Polski</a><a href="ru/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Русский</a><a href="tr/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Türkçe</a><a href="zh/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">中文</a>
                     </div>
                 </div>
@@ -254,38 +256,78 @@
                 <p class="mb-8" style="color: #5c5647;">Most loved dog breeds worldwide</p>
                 
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
-                    <a href="breeds/labrador-retriever.html" class="bg-white rounded-2xl overflow-hidden card-shadow border transition group" style="border-color: #f0ede6;" onmouseover="this.style.borderColor='#dde3d4'" onmouseout="this.style.borderColor='#f0ede6'">
-                        <div class="aspect-square w-full overflow-hidden group-hover:scale-105 transition">
-                            <img src="images/heads/labrador-retriever.webp" alt="Labrador Retriever" class="w-full h-full object-cover object-top">
-                        </div><div class="p-4"><div class="font-semibold text-center" style="color: #2a2518;">Labrador Retriever</div><div class="text-xs text-center mt-1" style="color: #5c5647;">Friendly • Active • Loyal</div></div></a>
-                    <a href="breeds/german-shepherd.html" class="bg-white rounded-2xl overflow-hidden card-shadow border transition group" style="border-color: #f0ede6;" onmouseover="this.style.borderColor='#dde3d4'" onmouseout="this.style.borderColor='#f0ede6'">
-                        <div class="aspect-square w-full overflow-hidden group-hover:scale-105 transition">
-                            <img src="images/heads/german-shepherd.webp" alt="German Shepherd" class="w-full h-full object-cover object-top">
-                        </div><div class="p-4"><div class="font-semibold text-center" style="color: #2a2518;">German Shepherd</div><div class="text-xs text-center mt-1" style="color: #5c5647;">Intelligent • Protective</div></div></a>
-                    <a href="breeds/golden-retriever.html" class="bg-white rounded-2xl overflow-hidden card-shadow border transition group" style="border-color: #f0ede6;" onmouseover="this.style.borderColor='#dde3d4'" onmouseout="this.style.borderColor='#f0ede6'">
-                        <div class="aspect-square w-full overflow-hidden group-hover:scale-105 transition">
-                            <img src="images/heads/golden-retriever.webp" alt="Golden Retriever" class="w-full h-full object-cover object-top">
-                        </div><div class="p-4"><div class="font-semibold text-center" style="color: #2a2518;">Golden Retriever</div><div class="text-xs text-center mt-1" style="color: #5c5647;">Gentle • Friendly • Smart</div></div></a>
-                    <a href="breeds/french-bulldog.html" class="bg-white rounded-2xl overflow-hidden card-shadow border transition group" style="border-color: #f0ede6;" onmouseover="this.style.borderColor='#dde3d4'" onmouseout="this.style.borderColor='#f0ede6'">
-                        <div class="aspect-square w-full overflow-hidden group-hover:scale-105 transition">
-                            <img src="images/heads/french-bulldog.webp" alt="French Bulldog" class="w-full h-full object-cover object-top">
-                        </div><div class="p-4"><div class="font-semibold text-center" style="color: #2a2518;">French Bulldog</div><div class="text-xs text-center mt-1" style="color: #5c5647;">Playful • Adaptable</div></div></a>
-                    <a href="breeds/poodle.html" class="bg-white rounded-2xl overflow-hidden card-shadow border transition group" style="border-color: #f0ede6;" onmouseover="this.style.borderColor='#dde3d4'" onmouseout="this.style.borderColor='#f0ede6'">
-                        <div class="aspect-square w-full overflow-hidden group-hover:scale-105 transition">
-                            <img src="images/heads/poodle.webp" alt="Poodle" class="w-full h-full object-cover object-top">
-                        </div><div class="p-4"><div class="font-semibold text-center" style="color: #2a2518;">Poodle</div><div class="text-xs text-center mt-1" style="color: #5c5647;">Intelligent • Elegant</div></div></a>
-                    <a href="breeds/siberian-husky.html" class="bg-white rounded-2xl overflow-hidden card-shadow border transition group" style="border-color: #f0ede6;" onmouseover="this.style.borderColor='#dde3d4'" onmouseout="this.style.borderColor='#f0ede6'">
-                        <div class="aspect-square w-full overflow-hidden group-hover:scale-105 transition">
-                            <img src="images/heads/siberian-husky.webp" alt="Siberian Husky" class="w-full h-full object-cover object-top">
-                        </div><div class="p-4"><div class="font-semibold text-center" style="color: #2a2518;">Siberian Husky</div><div class="text-xs text-center mt-1" style="color: #5c5647;">Energetic • Outgoing</div></div></a>
-                    <a href="breeds/beagle.html" class="bg-white rounded-2xl overflow-hidden card-shadow border transition group" style="border-color: #f0ede6;" onmouseover="this.style.borderColor='#dde3d4'" onmouseout="this.style.borderColor='#f0ede6'">
-                        <div class="aspect-square w-full overflow-hidden group-hover:scale-105 transition">
-                            <img src="images/heads/beagle.webp" alt="Beagle" class="w-full h-full object-cover object-top">
-                        </div><div class="p-4"><div class="font-semibold text-center" style="color: #2a2518;">Beagle</div><div class="text-xs text-center mt-1" style="color: #5c5647;">Curious • Merry</div></div></a>
-                    <a href="breeds/dachshund.html" class="bg-white rounded-2xl overflow-hidden card-shadow border transition group" style="border-color: #f0ede6;" onmouseover="this.style.borderColor='#dde3d4'" onmouseout="this.style.borderColor='#f0ede6'">
-                        <div class="aspect-square w-full overflow-hidden group-hover:scale-105 transition">
-                            <img src="images/heads/dachshund.webp" alt="Dachshund" class="w-full h-full object-cover object-top">
-                        </div><div class="p-4"><div class="font-semibold text-center" style="color: #2a2518;">Dachshund</div><div class="text-xs text-center mt-1" style="color: #5c5647;">Clever • Devoted</div></div></a>
+                    <a href="breeds/labrador-retriever.html" class="bg-white rounded-2xl card-shadow border border-sage-300 hover:border-forest-300 transition group overflow-hidden">
+                        <div class="aspect-[4/3] overflow-hidden">
+                            <img src="images/breeds/labrador-retriever.webp" alt="Labrador Retriever" class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-300" loading="lazy">
+                        </div>
+                        <div class="p-4">
+                            <div class="font-semibold" style="color: #2a2518;">Labrador Retriever</div>
+                            <div class="text-sm mt-1" style="color: #5c5647;">Friendly · Active · Loyal</div>
+                        </div>
+                    </a>
+                    <a href="breeds/german-shepherd.html" class="bg-white rounded-2xl card-shadow border border-sage-300 hover:border-forest-300 transition group overflow-hidden">
+                        <div class="aspect-[4/3] overflow-hidden">
+                            <img src="images/breeds/german-shepherd.webp" alt="German Shepherd" class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-300" loading="lazy">
+                        </div>
+                        <div class="p-4">
+                            <div class="font-semibold" style="color: #2a2518;">German Shepherd</div>
+                            <div class="text-sm mt-1" style="color: #5c5647;">Intelligent · Protective</div>
+                        </div>
+                    </a>
+                    <a href="breeds/golden-retriever.html" class="bg-white rounded-2xl card-shadow border border-sage-300 hover:border-forest-300 transition group overflow-hidden">
+                        <div class="aspect-[4/3] overflow-hidden">
+                            <img src="images/breeds/golden-retriever.webp" alt="Golden Retriever" class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-300" loading="lazy">
+                        </div>
+                        <div class="p-4">
+                            <div class="font-semibold" style="color: #2a2518;">Golden Retriever</div>
+                            <div class="text-sm mt-1" style="color: #5c5647;">Gentle · Friendly · Smart</div>
+                        </div>
+                    </a>
+                    <a href="breeds/french-bulldog.html" class="bg-white rounded-2xl card-shadow border border-sage-300 hover:border-forest-300 transition group overflow-hidden">
+                        <div class="aspect-[4/3] overflow-hidden">
+                            <img src="images/breeds/french-bulldog.webp" alt="French Bulldog" class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-300" loading="lazy">
+                        </div>
+                        <div class="p-4">
+                            <div class="font-semibold" style="color: #2a2518;">French Bulldog</div>
+                            <div class="text-sm mt-1" style="color: #5c5647;">Playful · Adaptable</div>
+                        </div>
+                    </a>
+                    <a href="breeds/poodle.html" class="bg-white rounded-2xl card-shadow border border-sage-300 hover:border-forest-300 transition group overflow-hidden">
+                        <div class="aspect-[4/3] overflow-hidden">
+                            <img src="images/breeds/poodle.webp" alt="Poodle" class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-300" loading="lazy">
+                        </div>
+                        <div class="p-4">
+                            <div class="font-semibold" style="color: #2a2518;">Poodle</div>
+                            <div class="text-sm mt-1" style="color: #5c5647;">Intelligent · Elegant</div>
+                        </div>
+                    </a>
+                    <a href="breeds/siberian-husky.html" class="bg-white rounded-2xl card-shadow border border-sage-300 hover:border-forest-300 transition group overflow-hidden">
+                        <div class="aspect-[4/3] overflow-hidden">
+                            <img src="images/breeds/siberian-husky.webp" alt="Siberian Husky" class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-300" loading="lazy">
+                        </div>
+                        <div class="p-4">
+                            <div class="font-semibold" style="color: #2a2518;">Siberian Husky</div>
+                            <div class="text-sm mt-1" style="color: #5c5647;">Energetic · Outgoing</div>
+                        </div>
+                    </a>
+                    <a href="breeds/beagle.html" class="bg-white rounded-2xl card-shadow border border-sage-300 hover:border-forest-300 transition group overflow-hidden">
+                        <div class="aspect-[4/3] overflow-hidden">
+                            <img src="images/breeds/beagle.webp" alt="Beagle" class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-300" loading="lazy">
+                        </div>
+                        <div class="p-4">
+                            <div class="font-semibold" style="color: #2a2518;">Beagle</div>
+                            <div class="text-sm mt-1" style="color: #5c5647;">Curious · Merry</div>
+                        </div>
+                    </a>
+                    <a href="breeds/dachshund.html" class="bg-white rounded-2xl card-shadow border border-sage-300 hover:border-forest-300 transition group overflow-hidden">
+                        <div class="aspect-[4/3] overflow-hidden">
+                            <img src="images/breeds/dachshund.webp" alt="Dachshund" class="w-full h-full object-cover object-top group-hover:scale-105 transition duration-300" loading="lazy">
+                        </div>
+                        <div class="p-4">
+                            <div class="font-semibold" style="color: #2a2518;">Dachshund</div>
+                            <div class="text-sm mt-1" style="color: #5c5647;">Clever · Devoted</div>
+                        </div>
+                    </a>
                 </div>
                 
                 <div class="text-center mt-8">
@@ -459,8 +501,10 @@
         <div class="max-w-6xl mx-auto">
             <div class="flex flex-col md:flex-row items-center justify-between gap-6">
                 <div class="flex items-center gap-3">
-                    <img src="logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
-                    <span class="text-xl font-bold text-white font-serif">BreedFinder</span>
+                    <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background: #1a5632;">
+                        <img src="logo-192-green.png" alt="BreedFinder" class="h-8 w-8">
+                    </div>
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
                 </div>
                 <div class="flex gap-8 text-sm" style="color: #9a9285;">
                     <a href="quiz" class="hover:text-white transition">Breed Quiz</a>
@@ -541,15 +585,5 @@
     </script>
 
     <!-- Dark mode script removed -->
-<script>
-    // Close language dropdown when clicking outside
-    document.addEventListener('click', function(e) {
-        const dropdown = document.getElementById('lang-dropdown');
-        const selector = document.getElementById('lang-selector');
-        if (dropdown && selector && !selector.contains(e.target)) {
-            dropdown.classList.add('hidden');
-        }
-    });
-    </script>
 </body>
 </html>
