@@ -14,11 +14,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700');
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
-        .card-shadow { box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
-        .rating-bar { background: #e2e8f0; position: relative; overflow: hidden; }
-        .rating-bar::after { content: ''; position: absolute; left: 0; top: 0; height: 100%; width: var(--rating); background: linear-gradient(90deg, #0ea5e9, #2563eb); border-radius: 9999px; }
+        .card-shadow { box-shadow: 0 4px 20px rgba(26,86,50,0.05); }
+        .rating-bar { background: #e2ddd4; position: relative; overflow: hidden; }
+        .rating-bar::after { content: ''; position: absolute; left: 0; top: 0; height: 100%; width: var(--rating); background: linear-gradient(90deg, #1a5632, #1a5632); border-radius: 9999px; }
     </style>
 
     <!-- Open Graph -->
@@ -55,7 +55,7 @@
         "name": "BreedFinder",
         "logo": {
             "@type": "ImageObject",
-            "url": "https://breedfinder.org/logo-192.png"
+            "url": "https://breedfinder.org/logo-192-green.png"
         }
     },
     "about": {
@@ -78,75 +78,75 @@
     {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/da/"}, {"@type": "ListItem", "position": 2, "name": "Breeds", "item": "https://breedfinder.org/da/breeds/"}, {"@type": "ListItem", "position": 3, "name": "English Pointer"}]}
     </script>
 </head>
-<body class="bg-slate-50 min-h-screen">
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+<body class="bg-[#faf9f6] min-h-screen">
+    <header class="bg-white border-b border-[#e2ddd4] sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="../" class="flex items-center gap-2">
-                <img src="../../logo-192.png" class="w-10 h-10" alt="BreedFinder">
-                <span class="font-modig text-xl text-slate-800">BreedFinder</span>
+                <img src="../../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
+                <span class="font-modig text-xl text-[#2a2518]">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-4 text-sm">
-                <a href="../search/" class="text-slate-600 hover:text-sky-700">Gennemse Racer</a>
+                <a href="../search/" class="text-[#5c5647] hover:text-emerald-800">Gennemse Racer</a>
                 <div class="relative group">
-                    <button class="flex items-center gap-1 text-slate-600 hover:text-sky-700 py-2">
+                    <button class="flex items-center gap-1 text-[#5c5647] hover:text-emerald-800 py-2">
                         <i data-lucide="globe" class="w-4 h-4"></i>
                         <span>DA</span>
                     </button>
-                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="../../breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a><a href="../../es/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="../../de/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a><a href="../../fr/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a><a href="../../it/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="../../pt/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Português</a><a href="../../fi/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Suomi</a><a href="../../sv/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a><a href="../../nl/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a><a href="../../da/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 font-semimodig text-sky-700">Dansk</a><a href="../../ja/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="../../no/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="../../pl/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Polski</a><a href="../../ru/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a><a href="../../tr/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Türkçe</a><a href="../../zh/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a>
+                    <div class="absolute right-0 top-full bg-white border border-[#e2ddd4] rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
+                        <a href="../../breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">English</a><a href="../../es/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Español</a><a href="../../de/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Deutsch</a><a href="../../fr/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Français</a><a href="../../it/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Italiano</a><a href="../../pt/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Português</a><a href="../../fi/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Suomi</a><a href="../../sv/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Svenska</a><a href="../../nl/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Nederlands</a><a href="../../da/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] font-semimodig text-emerald-800">Dansk</a><a href="../../ja/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">日本語</a><a href="../../no/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Norsk</a><a href="../../pl/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Polski</a><a href="../../ru/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Русский</a><a href="../../tr/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Türkçe</a><a href="../../zh/breeds/english-pointer.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">中文</a>
                     </div>
                 </div>
-                <a href="../quiz/" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-4 py-2 rounded-xl">Tag Quizzen</a>
+                <a href="../quiz/" class="bg-gradient-to-r from-emerald-700 to-emerald-800 text-white px-4 py-2 rounded-xl">Tag Quizzen</a>
             </nav>
         </div>
     </header>
 
     <main class="max-w-5xl mx-auto px-4 py-8">
-        <nav class="text-sm text-slate-600 mb-6 flex items-center gap-2">
-            <a href="../" class="hover:text-sky-700">Hjem</a>
+        <nav class="text-sm text-[#5c5647] mb-6 flex items-center gap-2">
+            <a href="../" class="hover:text-emerald-800">Hjem</a>
             <i data-lucide="chevron-right" class="w-4 h-4"></i>
-            <a href="../search/" class="hover:text-sky-700">Gennemse Racer</a>
+            <a href="../search/" class="hover:text-emerald-800">Gennemse Racer</a>
             <i data-lucide="chevron-right" class="w-4 h-4"></i>
-            <span class="text-slate-700 font-medium">English Pointer</span>
+            <span class="text-[#3d3829] font-medium">English Pointer</span>
         </nav>
 
         <!-- Hero Card -->
-        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-slate-100">
+        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-[#f0ede6]">
             <div class="flex flex-col md:flex-row gap-8">
                 <div class="md:w-2/5">
-                    <img src="../../images/breeds/english-pointer.webp" alt="English Pointer" class="rounded-2xl w-full aspect-[4/5] object-cover border border-slate-200/50" onerror="this.src='../../images/heads/english-pointer.webp'">
+                    <img src="../../images/breeds/english-pointer.webp" alt="English Pointer" class="rounded-2xl w-full aspect-[4/5] object-cover border border-[#e2ddd4]/50" onerror="this.src='../../images/heads/english-pointer.webp'">
                 </div>
                 <div class="md:w-3/5">
                     <div class="flex items-center gap-2 mb-3">
-                        <span class="bg-sky-100 text-sky-700 text-xs font-semimodig px-3 py-1 rounded-full">Jagthunde</span>
-                        <span class="bg-sky-100 text-sky-700 text-xs font-semimodig px-3 py-1 rounded-full">Stor</span>
+                        <span class="bg-[#eef1e8] text-emerald-800 text-xs font-semimodig px-3 py-1 rounded-full">Jagthunde</span>
+                        <span class="bg-[#eef1e8] text-emerald-800 text-xs font-semimodig px-3 py-1 rounded-full">Stor</span>
                     </div>
-                    <h1 class="text-4xl font-modig text-slate-900 mb-3">English Pointer</h1>
-                    <p class="text-lg text-slate-600 mb-6 leading-relaxed">Aktiv, loyal, hårdtarbejdende og altid klar til eventyr — ideel sportslig ledsager.</p>
+                    <h1 class="text-4xl font-modig text-[#1a2e1a] mb-3 font-serif">English Pointer</h1>
+                    <p class="text-lg text-[#5c5647] mb-6 leading-relaxed">Aktiv, loyal, hårdtarbejdende og altid klar til eventyr — ideel sportslig ledsager.</p>
                     <div class="grid grid-cols-2 gap-4">
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase mb-1 flex items-center gap-1">
                                 <i data-lucide="map-pin" class="w-3 h-3"></i> Oprindelse
                             </div>
-                            <div class="text-slate-800 font-semimodig">England</div>
+                            <div class="text-[#2a2518] font-semimodig">England</div>
                         </div>
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase mb-1 flex items-center gap-1">
                                 <i data-lucide="heart" class="w-3 h-3"></i> Levetid
                             </div>
-                            <div class="text-slate-800 font-semimodig">12-17 år</div>
+                            <div class="text-[#2a2518] font-semimodig">12-17 år</div>
                         </div>
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase mb-1 flex items-center gap-1">
                                 <i data-lucide="ruler" class="w-3 h-3"></i> Højde
                             </div>
-                            <div class="text-slate-800 font-semimodig">58-71 cm<br><span class="text-sm font-normal text-slate-500">23-28 in</span></div>
+                            <div class="text-[#2a2518] font-semimodig">58-71 cm<br><span class="text-sm font-normal text-[#7a7265]">23-28 in</span></div>
                         </div>
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase mb-1 flex items-center gap-1">
                                 <i data-lucide="scale" class="w-3 h-3"></i> Vægt
                             </div>
-                            <div class="text-slate-800 font-semimodig">20-34 kg<br><span class="text-sm font-normal text-slate-500">44-75 lbs</span></div>
+                            <div class="text-[#2a2518] font-semimodig">20-34 kg<br><span class="text-sm font-normal text-[#7a7265]">44-75 lbs</span></div>
                         </div>
                     </div>
                 </div>
@@ -154,8 +154,8 @@
         </div>
 
         <!-- Ratings -->
-        <div class="bg-white rounded-2xl p-6 mb-8 shadow-sm border border-slate-100">
-            <h2 class="text-xl font-modig mb-4">Racevurderinger</h2>
+        <div class="bg-white rounded-2xl p-6 mb-8 shadow-sm border border-[#f0ede6]">
+            <h2 class="text-xl font-modig mb-4 font-serif">Racevurderinger</h2>
             <div class="grid md:grid-cols-2 gap-4">
                 <div>
                     <div class="flex justify-between text-sm mb-1"><span>Energiniveau</span><span>5/5</span></div>
@@ -185,81 +185,81 @@
         </div>
 
         <!-- Temperament -->
-        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-slate-100">
-            <h2 class="text-2xl font-modig text-slate-900 mb-6">Temperament</h2>
-            <div class="flex flex-wrap gap-2"><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">loyal</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">hårdtarbejdende</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">jævnt tempereret</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">venlig</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">atletisk</span></div>
+        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-[#f0ede6]">
+            <h2 class="text-2xl font-modig text-[#1a2e1a] mb-6 font-serif">Temperament</h2>
+            <div class="flex flex-wrap gap-2"><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">loyal</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">hårdtarbejdende</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">jævnt tempereret</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">venlig</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">atletisk</span></div>
         </div>
 
         <!-- Content Sections -->
         <div class="space-y-4 mb-8">
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group" open>
+            <details class="bg-white rounded-2xl shadow-sm border border-[#f0ede6] group" open>
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-modig flex items-center gap-3">
-                        <i data-lucide="book-open" class="w-5 h-5 text-sky-500"></i> Oversigt
+                    <h2 class="text-xl font-modig flex items-center gap-3 font-serif">
+                        <i data-lucide="book-open" class="w-5 h-5 text-emerald-700"></i> Oversigt
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">Den klassiske fuglehund er English Pointer avlet til hastighed og udholdenhed i marken. Derhjemme er de rolige, værdige ledsagere.</p></div>
+                <div class="px-6 pb-6"><p class="text-[#5c5647]">Den klassiske fuglehund er English Pointer avlet til hastighed og udholdenhed i marken. Derhjemme er de rolige, værdige ledsagere.</p></div>
             </details>
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group">
+            <details class="bg-white rounded-2xl shadow-sm border border-[#f0ede6] group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-modig flex items-center gap-3">
-                        <i data-lucide="heart" class="w-5 h-5 text-sky-500"></i> Temperament
+                    <h2 class="text-xl font-modig flex items-center gap-3 font-serif">
+                        <i data-lucide="heart" class="w-5 h-5 text-emerald-700"></i> Temperament
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">Den Engelske Pointer er kendt for at være loyal, hårdtarbejdende og jævnt tempereret. De er fremragende med børn og er vidunderlige familiehunde. Deres intelligens og iver for at tilfredsstille gør træning fornøjelig. Tidlig socialisering hjælper dem med at udvikle sig til velfunderede ledsagere.</p></div>
+                <div class="px-6 pb-6"><p class="text-[#5c5647]">Den Engelske Pointer er kendt for at være loyal, hårdtarbejdende og jævnt tempereret. De er fremragende med børn og er vidunderlige familiehunde. Deres intelligens og iver for at tilfredsstille gør træning fornøjelig. Tidlig socialisering hjælper dem med at udvikle sig til velfunderede ledsagere.</p></div>
             </details>
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group">
+            <details class="bg-white rounded-2xl shadow-sm border border-[#f0ede6] group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-modig flex items-center gap-3">
-                        <i data-lucide="heart-pulse" class="w-5 h-5 text-sky-500"></i> Sundhed
+                    <h2 class="text-xl font-modig flex items-center gap-3 font-serif">
+                        <i data-lucide="heart-pulse" class="w-5 h-5 text-emerald-700"></i> Sundhed
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">Generelt sund med en forventet levetid på 12-17 år. Almindelige helbredsproblemer inkluderer hofteledsdysplasi og oppustethed. Regelmæssige veterinærtjek og forebyggende pleje er vigtige. At opretholde en sund vægt hjælper med at forebygge mange helbredsproblemer.</p></div>
+                <div class="px-6 pb-6"><p class="text-[#5c5647]">Generelt sund med en forventet levetid på 12-17 år. Almindelige helbredsproblemer inkluderer hofteledsdysplasi og oppustethed. Regelmæssige veterinærtjek og forebyggende pleje er vigtige. At opretholde en sund vægt hjælper med at forebygge mange helbredsproblemer.</p></div>
             </details>
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group">
+            <details class="bg-white rounded-2xl shadow-sm border border-[#f0ede6] group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-modig flex items-center gap-3">
-                        <i data-lucide="activity" class="w-5 h-5 text-sky-500"></i> Motion
+                    <h2 class="text-xl font-modig flex items-center gap-3 font-serif">
+                        <i data-lucide="activity" class="w-5 h-5 text-emerald-700"></i> Motion
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">Højenergisk race, der kræver kraftig daglig motion – mindst en times aktivitet. De trives med aktive familier, der nyder udendørs aktiviteter. Mental stimulering gennem træning og puslespilslegetøj er lige så vigtigt. Uden tilstrækkelig motion kan de udvikle adfærdsproblemer.</p></div>
+                <div class="px-6 pb-6"><p class="text-[#5c5647]">Højenergisk race, der kræver kraftig daglig motion – mindst en times aktivitet. De trives med aktive familier, der nyder udendørs aktiviteter. Mental stimulering gennem træning og puslespilslegetøj er lige så vigtigt. Uden tilstrækkelig motion kan de udvikle adfærdsproblemer.</p></div>
             </details>
         </div>
 
         <!-- Verdict -->
-        <div class="bg-gradient-to-br from-sky-50 via-blue-50 to-sky-50 rounded-2xl p-6 mb-8 border border-sky-100">
-            <h2 class="text-xl font-modig mb-6 flex items-center gap-3">
-                <span class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center text-white">⦿</span>
+        <div class="bg-gradient-to-br from-[#f6f7f2] via-[#eef1e8] to-[#eef1e8] rounded-2xl p-6 mb-8 border border-[#dde3d4]">
+            <h2 class="text-xl font-modig mb-6 flex items-center gap-3 font-serif">
+                <span class="w-10 h-10 bg-gradient-to-br from-emerald-700 to-emerald-800 rounded-xl flex items-center justify-center text-white">⦿</span>
                 Passer Denne Race til Dig?
             </h2>
             <div class="grid md:grid-cols-2 gap-6 mb-6">
                 <div class="bg-white/80 rounded-xl p-5 border border-emerald-100">
-                    <h3 class="font-modig text-emerald-700 mb-3 flex items-center gap-2">
+                    <h3 class="font-modig text-emerald-700 mb-3 flex items-center gap-2 font-serif">
                         <span class="text-emerald-500">✓</span> Bedst For
                     </h3>
-                    <ul class="space-y-2 text-slate-700 text-sm"><li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Jægere</span></li>
+                    <ul class="space-y-2 text-[#3d3829] text-sm"><li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Jægere</span></li>
 <li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Aktive familier</span></li>
 <li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Dem med store haver</span></li></ul>
                 </div>
                 <div class="bg-white/80 rounded-xl p-5 border border-rose-100">
-                    <h3 class="font-modig text-rose-700 mb-3 flex items-center gap-2">
+                    <h3 class="font-modig text-rose-700 mb-3 flex items-center gap-2 font-serif">
                         <span class="text-rose-500">✗</span> Ikke Ideel For
                     </h3>
-                    <ul class="space-y-2 text-slate-700 text-sm"><li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>Lejlighedsbeboere</span></li>
+                    <ul class="space-y-2 text-[#3d3829] text-sm"><li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>Lejlighedsbeboere</span></li>
 <li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>Stillesiddende ejere</span></li></ul>
                 </div>
             </div>
-            <div class="bg-white/80 rounded-xl p-5 border border-slate-200">
-                <p class="text-slate-700"><strong>Vores Vurdering:</strong> Den klassiske fuglehund er English Pointer avlet til hastighed og udholdenhed i marken. Derhjemme er de rolige, værdige ledsagere.</p>
+            <div class="bg-white/80 rounded-xl p-5 border border-[#e2ddd4]">
+                <p class="text-[#3d3829]"><strong>Vores Vurdering:</strong> Den klassiske fuglehund er English Pointer avlet til hastighed og udholdenhed i marken. Derhjemme er de rolige, værdige ledsagere.</p>
             </div>
         </div>
 
         <div class="text-center">
-            <a href="../search/" class="inline-flex items-center gap-2 text-sky-700 font-semimodig hover:text-sky-700">
+            <a href="../search/" class="inline-flex items-center gap-2 text-emerald-800 font-semimodig hover:text-emerald-800">
                 <i data-lucide="arrow-left" class="w-4 h-4"></i>
                 Gennemse Racer
             </a>

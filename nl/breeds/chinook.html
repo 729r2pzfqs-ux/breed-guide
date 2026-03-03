@@ -14,11 +14,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700');
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
-        .card-shadow { box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
-        .rating-bar { background: #e2e8f0; position: relative; overflow: hidden; }
-        .rating-bar::after { content: ''; position: absolute; left: 0; top: 0; height: 100%; width: var(--rating); background: linear-gradient(90deg, #0ea5e9, #2563eb); border-radius: 9999px; }
+        .card-shadow { box-shadow: 0 4px 20px rgba(26,86,50,0.05); }
+        .rating-bar { background: #e2ddd4; position: relative; overflow: hidden; }
+        .rating-bar::after { content: ''; position: absolute; left: 0; top: 0; height: 100%; width: var(--rating); background: linear-gradient(90deg, #1a5632, #1a5632); border-radius: 9999px; }
     </style>
 
     <!-- Open Graph -->
@@ -55,7 +55,7 @@
         "name": "BreedFinder",
         "logo": {
             "@type": "ImageObject",
-            "url": "https://breedfinder.org/logo-192.png"
+            "url": "https://breedfinder.org/logo-192-green.png"
         }
     },
     "about": {
@@ -78,24 +78,24 @@
     {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/nl/"}, {"@type": "ListItem", "position": 2, "name": "Breeds", "item": "https://breedfinder.org/nl/breeds/"}, {"@type": "ListItem", "position": 3, "name": "Chinook"}]}
     </script>
 </head>
-<body class="bg-slate-50 min-h-screen">
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+<body class="bg-[#faf9f6] min-h-screen">
+    <header class="bg-white border-b border-[#e2ddd4] sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="../" class="flex items-center gap-2">
-                <img src="../../logo-192.png" class="w-10 h-10" alt="BreedFinder">
-                <span class="font-moedig text-xl text-slate-800">BreedFinder</span>
+                <img src="../../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
+                <span class="font-moedig text-xl text-[#2a2518]">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-4 text-sm">
-                <a href="../search/" class="text-slate-600 hover:text-sky-700">Bekijk Rassen</a>
-                <a href="../quiz/" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-4 py-2 rounded-xl">Doe de Quiz</a>
+                <a href="../search/" class="text-[#5c5647] hover:text-emerald-800">Bekijk Rassen</a>
+                <a href="../quiz/" class="bg-gradient-to-r from-emerald-700 to-emerald-800 text-white px-4 py-2 rounded-xl">Doe de Quiz</a>
             
                 <div class="relative group">
-                    <button class="flex items-center gap-1 text-slate-600 hover:text-sky-700 py-2">
+                    <button class="flex items-center gap-1 text-[#5c5647] hover:text-emerald-800 py-2">
                         <i data-lucide="globe" class="w-4 h-4"></i>
                         <span>NL</span>
                     </button>
-                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="../../breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a><a href="../../es/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="../../de/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a><a href="../../fr/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a><a href="../../it/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="../../pt/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Português</a><a href="../../fi/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Suomi</a><a href="../../sv/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a><a href="../../nl/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 font-semimoedig text-sky-700">Nederlands</a><a href="../../da/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a><a href="../../ja/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="../../no/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="../../pl/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Polski</a><a href="../../ru/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a><a href="../../tr/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Türkçe</a><a href="../../zh/breeds/chinook.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a>
+                    <div class="absolute right-0 top-full bg-white border border-[#e2ddd4] rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
+                        <a href="../../breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">English</a><a href="../../es/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Español</a><a href="../../de/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Deutsch</a><a href="../../fr/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Français</a><a href="../../it/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Italiano</a><a href="../../pt/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Português</a><a href="../../fi/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Suomi</a><a href="../../sv/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Svenska</a><a href="../../nl/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] font-semimoedig text-emerald-800">Nederlands</a><a href="../../da/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Dansk</a><a href="../../ja/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">日本語</a><a href="../../no/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Norsk</a><a href="../../pl/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Polski</a><a href="../../ru/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Русский</a><a href="../../tr/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Türkçe</a><a href="../../zh/breeds/chinook.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">中文</a>
                     </div>
                 </div>
             </nav>
@@ -103,51 +103,51 @@
     </header>
 
     <main class="max-w-5xl mx-auto px-4 py-8">
-        <nav class="text-sm text-slate-600 mb-6 flex items-center gap-2">
-            <a href="../" class="hover:text-sky-700">Home</a>
+        <nav class="text-sm text-[#5c5647] mb-6 flex items-center gap-2">
+            <a href="../" class="hover:text-emerald-800">Home</a>
             <i data-lucide="chevron-right" class="w-4 h-4"></i>
-            <a href="../search/" class="hover:text-sky-700">Bekijk Rassen</a>
+            <a href="../search/" class="hover:text-emerald-800">Bekijk Rassen</a>
             <i data-lucide="chevron-right" class="w-4 h-4"></i>
-            <span class="text-slate-700 font-medium">Chinook</span>
+            <span class="text-[#3d3829] font-medium">Chinook</span>
         </nav>
 
         <!-- Hero Card -->
-        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-slate-100">
+        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-[#f0ede6]">
             <div class="flex flex-col md:flex-row gap-8">
                 <div class="md:w-2/5">
-                    <img src="../../images/breeds/chinook.webp" alt="Chinook" class="rounded-2xl w-full aspect-[4/5] object-cover border border-slate-200/50" onerror="this.src='../../images/heads/chinook.webp'">
+                    <img src="../../images/breeds/chinook.webp" alt="Chinook" class="rounded-2xl w-full aspect-[4/5] object-cover border border-[#e2ddd4]/50" onerror="this.src='../../images/heads/chinook.webp'">
                 </div>
                 <div class="md:w-3/5">
                     <div class="flex items-center gap-2 mb-3">
-                        <span class="bg-sky-100 text-sky-700 text-xs font-semimoedig px-3 py-1 rounded-full">Werkhond</span>
-                        <span class="bg-sky-100 text-sky-700 text-xs font-semimoedig px-3 py-1 rounded-full">Groot</span>
+                        <span class="bg-[#eef1e8] text-emerald-800 text-xs font-semimoedig px-3 py-1 rounded-full">Werkhond</span>
+                        <span class="bg-[#eef1e8] text-emerald-800 text-xs font-semimoedig px-3 py-1 rounded-full">Groot</span>
                     </div>
-                    <h1 class="text-4xl font-moedig text-slate-900 mb-3">Chinook</h1>
-                    <p class="text-lg text-slate-600 mb-6 leading-relaxed">Slim, geduldig en gezinsgericht, de Chinook is een ideale huisgenoot.</p>
+                    <h1 class="text-4xl font-moedig text-[#1a2e1a] mb-3 font-serif">Chinook</h1>
+                    <p class="text-lg text-[#5c5647] mb-6 leading-relaxed">Slim, geduldig en gezinsgericht, de Chinook is een ideale huisgenoot.</p>
                     <div class="grid grid-cols-2 gap-4">
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase mb-1 flex items-center gap-1">
                                 <i data-lucide="map-pin" class="w-3 h-3"></i> Herkomst
                             </div>
-                            <div class="text-slate-800 font-semimoedig">Verenigde Staten</div>
+                            <div class="text-[#2a2518] font-semimoedig">Verenigde Staten</div>
                         </div>
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase mb-1 flex items-center gap-1">
                                 <i data-lucide="heart" class="w-3 h-3"></i> Levensverwachting
                             </div>
-                            <div class="text-slate-800 font-semimoedig">12-15 jaar</div>
+                            <div class="text-[#2a2518] font-semimoedig">12-15 jaar</div>
                         </div>
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase mb-1 flex items-center gap-1">
                                 <i data-lucide="ruler" class="w-3 h-3"></i> Hoogte
                             </div>
-                            <div class="text-slate-800 font-semimoedig">53-69 cm<br><span class="text-sm font-normal text-slate-500">21-27 in</span></div>
+                            <div class="text-[#2a2518] font-semimoedig">53-69 cm<br><span class="text-sm font-normal text-[#7a7265]">21-27 in</span></div>
                         </div>
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase mb-1 flex items-center gap-1">
                                 <i data-lucide="scale" class="w-3 h-3"></i> Gewicht
                             </div>
-                            <div class="text-slate-800 font-semimoedig">25-41 kg<br><span class="text-sm font-normal text-slate-500">55-90 lbs</span></div>
+                            <div class="text-[#2a2518] font-semimoedig">25-41 kg<br><span class="text-sm font-normal text-[#7a7265]">55-90 lbs</span></div>
                         </div>
                     </div>
                 </div>
@@ -155,8 +155,8 @@
         </div>
 
         <!-- Ratings -->
-        <div class="bg-white rounded-2xl p-6 mb-8 shadow-sm border border-slate-100">
-            <h2 class="text-xl font-moedig mb-4">Rasbeoordelingen</h2>
+        <div class="bg-white rounded-2xl p-6 mb-8 shadow-sm border border-[#f0ede6]">
+            <h2 class="text-xl font-moedig mb-4 font-serif">Rasbeoordelingen</h2>
             <div class="grid md:grid-cols-2 gap-4">
                 <div>
                     <div class="flex justify-between text-sm mb-1"><span>Energieniveau</span><span>4/5</span></div>
@@ -186,81 +186,81 @@
         </div>
 
         <!-- Temperament -->
-        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-slate-100">
-            <h2 class="text-2xl font-moedig text-slate-900 mb-6">Temperament</h2>
-            <div class="flex flex-wrap gap-2"><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">slim</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">geduldig</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">toegewijd</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">vriendelijk</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">kalm</span></div>
+        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-[#f0ede6]">
+            <h2 class="text-2xl font-moedig text-[#1a2e1a] mb-6 font-serif">Temperament</h2>
+            <div class="flex flex-wrap gap-2"><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">slim</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">geduldig</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">toegewijd</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">vriendelijk</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">kalm</span></div>
         </div>
 
         <!-- Content Sections -->
         <div class="space-y-4 mb-8">
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group" open>
+            <details class="bg-white rounded-2xl shadow-sm border border-[#f0ede6] group" open>
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-moedig flex items-center gap-3">
-                        <i data-lucide="book-open" class="w-5 h-5 text-sky-500"></i> Overzicht
+                    <h2 class="text-xl font-moedig flex items-center gap-3 font-serif">
+                        <i data-lucide="book-open" class="w-5 h-5 text-emerald-700"></i> Overzicht
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">De Chinook, de staatshond van New Hampshire, is een zeldzame Amerikaanse sledehond. Het zijn kalme, toegewijde gezinshonden met een zacht karakter.</p></div>
+                <div class="px-6 pb-6"><p class="text-[#5c5647]">De Chinook, de staatshond van New Hampshire, is een zeldzame Amerikaanse sledehond. Het zijn kalme, toegewijde gezinshonden met een zacht karakter.</p></div>
             </details>
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group">
+            <details class="bg-white rounded-2xl shadow-sm border border-[#f0ede6] group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-moedig flex items-center gap-3">
-                        <i data-lucide="heart" class="w-5 h-5 text-sky-500"></i> Temperament
+                    <h2 class="text-xl font-moedig flex items-center gap-3 font-serif">
+                        <i data-lucide="heart" class="w-5 h-5 text-emerald-700"></i> Temperament
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">De Chinook staat bekend om zijn slimheid, geduld en toewijding. Hij gaat uitstekend om met kinderen en is een geweldig gezinsdier. Zijn intelligentie en leergierigheid maken het trainen aangenaam. Vroege socialisatie helpt hem uit te groeien tot een evenwichtige metgezel.</p></div>
+                <div class="px-6 pb-6"><p class="text-[#5c5647]">De Chinook staat bekend om zijn slimheid, geduld en toewijding. Hij gaat uitstekend om met kinderen en is een geweldig gezinsdier. Zijn intelligentie en leergierigheid maken het trainen aangenaam. Vroege socialisatie helpt hem uit te groeien tot een evenwichtige metgezel.</p></div>
             </details>
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group">
+            <details class="bg-white rounded-2xl shadow-sm border border-[#f0ede6] group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-moedig flex items-center gap-3">
-                        <i data-lucide="heart-pulse" class="w-5 h-5 text-sky-500"></i> Gezondheid
+                    <h2 class="text-xl font-moedig flex items-center gap-3 font-serif">
+                        <i data-lucide="heart-pulse" class="w-5 h-5 text-emerald-700"></i> Gezondheid
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">Over het algemeen gezond met een levensduur van 12-15 jaar. Veelvoorkomende aandoeningen zijn heupdysplasie en maagdraaiing. Regelmatige veterinaire controles en preventieve zorg zijn belangrijk. Een gezond gewicht helpt veel gezondheidsproblemen te voorkomen.</p></div>
+                <div class="px-6 pb-6"><p class="text-[#5c5647]">Over het algemeen gezond met een levensduur van 12-15 jaar. Veelvoorkomende aandoeningen zijn heupdysplasie en maagdraaiing. Regelmatige veterinaire controles en preventieve zorg zijn belangrijk. Een gezond gewicht helpt veel gezondheidsproblemen te voorkomen.</p></div>
             </details>
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group">
+            <details class="bg-white rounded-2xl shadow-sm border border-[#f0ede6] group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-moedig flex items-center gap-3">
-                        <i data-lucide="activity" class="w-5 h-5 text-sky-500"></i> Beweging
+                    <h2 class="text-xl font-moedig flex items-center gap-3 font-serif">
+                        <i data-lucide="activity" class="w-5 h-5 text-emerald-700"></i> Beweging
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">Een hoogenergetisch ras dat krachtige dagelijkse beweging nodig heeft — minimaal een uur activiteit. Hij gedijt goed bij actieve gezinnen die houden van buitenactiviteiten. Mentale stimulatie door training en puzzelspeelgoed is even belangrijk. Zonder voldoende beweging kunnen gedragsproblemen ontstaan.</p></div>
+                <div class="px-6 pb-6"><p class="text-[#5c5647]">Een hoogenergetisch ras dat krachtige dagelijkse beweging nodig heeft — minimaal een uur activiteit. Hij gedijt goed bij actieve gezinnen die houden van buitenactiviteiten. Mentale stimulatie door training en puzzelspeelgoed is even belangrijk. Zonder voldoende beweging kunnen gedragsproblemen ontstaan.</p></div>
             </details>
         </div>
 
         <!-- Verdict -->
-        <div class="bg-gradient-to-br from-sky-50 via-blue-50 to-sky-50 rounded-2xl p-6 mb-8 border border-sky-100">
-            <h2 class="text-xl font-moedig mb-6 flex items-center gap-3">
-                <span class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center text-white">⦿</span>
+        <div class="bg-gradient-to-br from-[#f6f7f2] via-[#eef1e8] to-[#eef1e8] rounded-2xl p-6 mb-8 border border-[#dde3d4]">
+            <h2 class="text-xl font-moedig mb-6 flex items-center gap-3 font-serif">
+                <span class="w-10 h-10 bg-gradient-to-br from-emerald-700 to-emerald-800 rounded-xl flex items-center justify-center text-white">⦿</span>
                 Is Dit Ras Geschikt voor Jou?
             </h2>
             <div class="grid md:grid-cols-2 gap-6 mb-6">
                 <div class="bg-white/80 rounded-xl p-5 border border-emerald-100">
-                    <h3 class="font-moedig text-emerald-700 mb-3 flex items-center gap-2">
+                    <h3 class="font-moedig text-emerald-700 mb-3 flex items-center gap-2 font-serif">
                         <span class="text-emerald-500">✓</span> Ideaal Voor
                     </h3>
-                    <ul class="space-y-2 text-slate-700 text-sm"><li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Gezinnen met kinderen</span></li>
+                    <ul class="space-y-2 text-[#3d3829] text-sm"><li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Gezinnen met kinderen</span></li>
 <li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Mensen die een zeldzaam ras willen</span></li>
 <li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Actieve eigenaren</span></li></ul>
                 </div>
                 <div class="bg-white/80 rounded-xl p-5 border border-rose-100">
-                    <h3 class="font-moedig text-rose-700 mb-3 flex items-center gap-2">
+                    <h3 class="font-moedig text-rose-700 mb-3 flex items-center gap-2 font-serif">
                         <span class="text-rose-500">✗</span> Niet Ideaal Voor
                     </h3>
-                    <ul class="space-y-2 text-slate-700 text-sm"><li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>Zeer warme klimaten</span></li>
+                    <ul class="space-y-2 text-[#3d3829] text-sm"><li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>Zeer warme klimaten</span></li>
 <li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>Wie een waakhond wil</span></li></ul>
                 </div>
             </div>
-            <div class="bg-white/80 rounded-xl p-5 border border-slate-200">
-                <p class="text-slate-700"><strong>Ons Oordeel:</strong> De Chinook, de staatshond van New Hampshire, is een zeldzame Amerikaanse sledehond. Het zijn kalme, toegewijde gezinshonden met een zacht karakter.</p>
+            <div class="bg-white/80 rounded-xl p-5 border border-[#e2ddd4]">
+                <p class="text-[#3d3829]"><strong>Ons Oordeel:</strong> De Chinook, de staatshond van New Hampshire, is een zeldzame Amerikaanse sledehond. Het zijn kalme, toegewijde gezinshonden met een zacht karakter.</p>
             </div>
         </div>
 
         <div class="text-center">
-            <a href="../search/" class="inline-flex items-center gap-2 text-sky-700 font-semimoedig hover:text-sky-700">
+            <a href="../search/" class="inline-flex items-center gap-2 text-emerald-800 font-semimoedig hover:text-emerald-800">
                 <i data-lucide="arrow-left" class="w-4 h-4"></i>
                 Bekijk Rassen
             </a>

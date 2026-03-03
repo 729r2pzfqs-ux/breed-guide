@@ -12,42 +12,85 @@
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Fraunces', 'Georgia', 'serif']
+                    },
+                    colors: {
+                        sage: {
+                            50:  '#f6f7f2',
+                            100: '#eef1e8',
+                            200: '#dde3d4',
+                        },
+                        forest: {
+                            DEFAULT: '#1a5632',
+                            light:   '#2d7a48',
+                            dark:    '#133d24',
+                            nav:     '#1a2e1a',
+                        },
+                        warm: {
+                            50:  '#faf9f6',
+                            100: '#f0ede6',
+                            200: '#e2ddd4',
+                            300: '#c8c1b5',
+                            400: '#9a9285',
+                            600: '#5c5647',
+                            700: '#3d3829',
+                            800: '#2a2518',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
-        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        body { font-family: 'Inter', sans-serif; }
         .breed-card { transition: transform 0.2s, box-shadow 0.2s; }
-        .breed-card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.1); }
-        .filter-section { border-bottom: 1px solid #e2e8f0; }
+        .breed-card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(26,86,50,0.10); }
+        .filter-section { border-bottom: 1px solid #dde3d4; }
         .filter-section:last-child { border-bottom: none; }
-        input[type="range"] { -webkit-appearance: none; height: 6px; border-radius: 3px; background: #e2e8f0; }
-        input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%; background: #3b82f6; cursor: pointer; }
+        input[type="range"] { -webkit-appearance: none; height: 6px; border-radius: 3px; background: #dde3d4; }
+        input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%; background: #1a5632; cursor: pointer; }
         .tag { display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 12px; font-weight: 500; }
+        /* Custom checkbox accent */
+        input[type="checkbox"] { accent-color: #1a5632; }
+        /* Select focus ring */
+        select:focus { outline: 2px solid #1a5632; outline-offset: 2px; }
+        /* Search focus ring */
+        #searchInput:focus { outline: none; ring-color: #1a5632; }
     </style>
 </head>
-<body class="bg-slate-50 min-h-screen">
+<body class="bg-warm-50 min-h-screen" style="background-color:#faf9f6;">
     <!-- Header -->
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <header class="bg-white border-b sticky top-0 z-50" style="border-color:#e2ddd4;">
         <div class="max-w-7xl mx-auto px-4 py-4">
             <div class="flex items-center justify-between">
                 <a href="../" class="flex items-center gap-2">
-                    <img src="../logo-192.png" class="w-10 h-10" alt="BreedFinder">
-                    <span class="font-bold text-xl text-slate-800">BreedFinder</span>
+                    <img src="../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
+                    <span class="font-bold text-xl font-serif" style="color:#2a2518;">BreedFinder</span>
                 </a>
                 <nav class="hidden md:flex items-center gap-6">
-                    <a href="../" class="text-slate-600 hover:text-slate-900">Home</a>
-                    <a href="./" class="text-blue-600 font-medium">Browse Breeds</a>
-                    <a href="../quiz/" class="text-slate-600 hover:text-slate-900">Quiz</a>
-                    <a href="../compare/" class="text-slate-600 hover:text-slate-900">Compare</a>
+                    <a href="../" class="hover:text-forest transition-colors" style="color:#5c5647;">Home</a>
+                    <a href="./" class="font-medium" style="color:#1a5632;">Browse Breeds</a>
+                    <a href="../quiz/" class="hover:text-forest transition-colors" style="color:#5c5647;">Quiz</a>
+                    <a href="../compare/" class="hover:text-forest transition-colors" style="color:#5c5647;">Compare</a>
                 <div class="relative group">
-                    <button class="flex items-center gap-1 text-slate-600 hover:text-sky-700 py-2">
+                    <button class="flex items-center gap-1 py-2 hover:text-forest transition-colors" style="color:#5c5647;">
                         <i data-lucide="globe" class="w-4 h-4"></i>
                         <span>EN</span>
                     </button>
-                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="./search/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-sky-700">English</a><a href="../es/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="../de/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a><a href="../fr/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a><a href="../it/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="../pt/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Português</a><a href="../fi/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Suomi</a><a href="../sv/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a><a href="../nl/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a><a href="../da/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a><a href="../ja/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="../no/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="../pl/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Polski</a><a href="../ru/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a><a href="../tr/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Türkçe</a><a href="../zh/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a>
+                    <div class="absolute right-0 top-full bg-white border rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent" style="border-color:#e2ddd4;">
+                        <a href="./search/" class="block px-4 py-2 font-semibold" style="color:#1a5632; background-color:#eef1e8;">English</a><a href="../es/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">Español</a><a href="../de/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">Deutsch</a><a href="../fr/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">Français</a><a href="../it/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">Italiano</a><a href="../pt/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">Português</a><a href="../fi/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">Suomi</a><a href="../sv/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">Svenska</a><a href="../nl/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">Nederlands</a><a href="../da/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">Dansk</a><a href="../ja/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">日本語</a><a href="../no/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">Norsk</a><a href="../pl/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">Polski</a><a href="../ru/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">Русский</a><a href="../tr/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">Türkçe</a><a href="../zh/search/" class="block px-4 py-2 hover:bg-sage-50 transition-colors" style="color:#5c5647;">中文</a>
                     </div>
                 </div>
             </nav>
@@ -57,22 +100,26 @@
 
     <main class="max-w-7xl mx-auto px-4 py-8">
         <!-- Hero Section -->
-        <div class="text-center mb-8">
-            <h1 class="text-3xl md:text-4xl font-bold text-slate-800 mb-3">Find Your Perfect Dog Breed</h1>
-            <p class="text-slate-600 text-lg">Filter by size, energy level, grooming needs & more</p>
+        <div class="text-center mb-8 py-6 rounded-2xl" style="background-color:#eef1e8;">
+            <h1 class="text-3xl md:text-4xl font-bold font-serif mb-3" style="color:#2a2518;">Find Your Perfect Dog Breed</h1>
+            <p class="text-lg" style="color:#5c5647;">Filter by size, energy level, grooming needs &amp; more</p>
         </div>
 
         <!-- Search Bar -->
         <div class="max-w-2xl mx-auto mb-8">
             <div class="relative">
-                <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-600"></i>
+                <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5" style="color:#9a9285;"></i>
                 <input type="text" id="searchInput" placeholder="Search breeds... (e.g. Golden Retriever, Poodle)" 
-                    class="w-full pl-12 pr-4 py-4 rounded-xl border border-slate-200 bg-white shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg" autocomplete="off">
-                <button id="clearSearch" class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-600 hover:text-slate-600 hidden">
+                    class="w-full pl-12 pr-4 py-4 rounded-xl border shadow-sm text-lg transition focus:ring-2 focus:ring-offset-0"
+                    style="border-color:#c8c1b5; background-color:#ffffff; color:#3d3829; --tw-ring-color:#1a5632;"
+                    onfocus="this.style.borderColor='#1a5632'; this.style.boxShadow='0 0 0 3px rgba(26,86,50,0.12)';"
+                    onblur="this.style.borderColor='#c8c1b5'; this.style.boxShadow='0 1px 3px rgba(0,0,0,0.05)';"
+                    autocomplete="off">
+                <button id="clearSearch" class="absolute right-4 top-1/2 -translate-y-1/2 hover:opacity-70 hidden transition-opacity" style="color:#9a9285;">
                     <i data-lucide="x" class="w-5 h-5"></i>
                 </button>
                 <!-- Autocomplete dropdown -->
-                <div id="search-dropdown" class="absolute top-full left-0 right-0 mt-2 bg-white border border-slate-200 rounded-2xl shadow-xl z-50 hidden max-h-80 overflow-y-auto">
+                <div id="search-dropdown" class="absolute top-full left-0 right-0 mt-2 bg-white border rounded-2xl shadow-xl z-50 hidden max-h-80 overflow-y-auto" style="border-color:#e2ddd4;">
                 </div>
             </div>
         </div>
@@ -80,38 +127,38 @@
         <div class="flex flex-col lg:flex-row gap-8">
             <!-- Filters Sidebar -->
             <aside class="lg:w-72 flex-shrink-0">
-                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5">
+                <div class="bg-white rounded-xl border p-5" style="border-color:#dde3d4; box-shadow: 0 2px 8px rgba(26,86,50,0.04);">
                     <div class="flex items-center justify-between mb-4">
-                        <h2 class="font-semibold text-slate-800 flex items-center gap-2">
-                            <i data-lucide="sliders-horizontal" class="w-5 h-5"></i>
+                        <h2 class="font-semibold flex items-center gap-2 font-sans" style="color:#2a2518;">
+                            <i data-lucide="sliders-horizontal" class="w-5 h-5" style="color:#1a5632;"></i>
                             Filters
                         </h2>
-                        <button id="resetFilters" class="text-sm text-blue-600 hover:text-blue-700">Reset</button>
+                        <button id="resetFilters" class="text-sm font-medium hover:underline transition-colors" style="color:#1a5632;">Reset</button>
                     </div>
 
                     <!-- Size Filter -->
                     <div class="filter-section py-4">
-                        <h3 class="font-medium text-slate-700 mb-3">Size</h3>
+                        <h3 class="font-medium mb-3 font-serif" style="color:#3d3829;">Size</h3>
                         <div class="space-y-2">
                             <label class="flex items-center gap-2 cursor-pointer">
-                                <input type="checkbox" value="tiny" class="size-filter rounded text-blue-600">
-                                <span class="text-slate-600">Tiny</span>
+                                <input type="checkbox" value="tiny" class="size-filter rounded">
+                                <span style="color:#5c5647;">Tiny</span>
                             </label>
                             <label class="flex items-center gap-2 cursor-pointer">
-                                <input type="checkbox" value="small" class="size-filter rounded text-blue-600">
-                                <span class="text-slate-600">Small</span>
+                                <input type="checkbox" value="small" class="size-filter rounded">
+                                <span style="color:#5c5647;">Small</span>
                             </label>
                             <label class="flex items-center gap-2 cursor-pointer">
-                                <input type="checkbox" value="medium" class="size-filter rounded text-blue-600">
-                                <span class="text-slate-600">Medium</span>
+                                <input type="checkbox" value="medium" class="size-filter rounded">
+                                <span style="color:#5c5647;">Medium</span>
                             </label>
                             <label class="flex items-center gap-2 cursor-pointer">
-                                <input type="checkbox" value="large" class="size-filter rounded text-blue-600">
-                                <span class="text-slate-600">Large</span>
+                                <input type="checkbox" value="large" class="size-filter rounded">
+                                <span style="color:#5c5647;">Large</span>
                             </label>
                             <label class="flex items-center gap-2 cursor-pointer">
-                                <input type="checkbox" value="giant" class="size-filter rounded text-blue-600">
-                                <span class="text-slate-600">Giant</span>
+                                <input type="checkbox" value="giant" class="size-filter rounded">
+                                <span style="color:#5c5647;">Giant</span>
                             </label>
                         </div>
                     </div>
@@ -119,16 +166,16 @@
                     <!-- Energy Level -->
                     <div class="filter-section py-4">
                         <label class="flex items-center justify-between mb-3 cursor-pointer">
-                            <h3 class="font-medium text-slate-700">Energy Level</h3>
-                            <input type="checkbox" id="energyEnabled" class="rounded text-blue-600">
+                            <h3 class="font-medium font-serif" style="color:#3d3829;">Energy Level</h3>
+                            <input type="checkbox" id="energyEnabled" class="rounded">
                         </label>
                         <div id="energyControls" class="hidden">
                             <div class="flex items-center gap-3">
-                                <span class="text-xs text-slate-600">Low</span>
+                                <span class="text-xs" style="color:#9a9285;">Low</span>
                                 <input type="range" id="energyFilter" min="1" max="5" value="3" class="flex-1">
-                                <span class="text-xs text-slate-600">High</span>
+                                <span class="text-xs" style="color:#9a9285;">High</span>
                             </div>
-                            <div class="text-center text-sm text-slate-400 mt-1">
+                            <div class="text-center text-sm mt-1" style="color:#9a9285;">
                                 <span id="energyValue">3</span>+
                             </div>
                         </div>
@@ -137,16 +184,16 @@
                     <!-- Grooming Needs -->
                     <div class="filter-section py-4">
                         <label class="flex items-center justify-between mb-3 cursor-pointer">
-                            <h3 class="font-medium text-slate-700">Grooming Needs</h3>
-                            <input type="checkbox" id="groomingEnabled" class="rounded text-blue-600">
+                            <h3 class="font-medium font-serif" style="color:#3d3829;">Grooming Needs</h3>
+                            <input type="checkbox" id="groomingEnabled" class="rounded">
                         </label>
                         <div id="groomingControls" class="hidden">
                             <div class="flex items-center gap-3">
-                                <span class="text-xs text-slate-600">Low</span>
+                                <span class="text-xs" style="color:#9a9285;">Low</span>
                                 <input type="range" id="groomingFilter" min="1" max="5" value="3" class="flex-1">
-                                <span class="text-xs text-slate-600">High</span>
+                                <span class="text-xs" style="color:#9a9285;">High</span>
                             </div>
-                            <div class="text-center text-sm text-slate-400 mt-1">
+                            <div class="text-center text-sm mt-1" style="color:#9a9285;">
                                 <span id="groomingValue">3</span> or less
                             </div>
                         </div>
@@ -155,16 +202,16 @@
                     <!-- Trainability -->
                     <div class="filter-section py-4">
                         <label class="flex items-center justify-between mb-3 cursor-pointer">
-                            <h3 class="font-medium text-slate-700">Trainability</h3>
-                            <input type="checkbox" id="trainabilityEnabled" class="rounded text-blue-600">
+                            <h3 class="font-medium font-serif" style="color:#3d3829;">Trainability</h3>
+                            <input type="checkbox" id="trainabilityEnabled" class="rounded">
                         </label>
                         <div id="trainabilityControls" class="hidden">
                             <div class="flex items-center gap-3">
-                                <span class="text-xs text-slate-600">Low</span>
+                                <span class="text-xs" style="color:#9a9285;">Low</span>
                                 <input type="range" id="trainabilityFilter" min="1" max="5" value="3" class="flex-1">
-                                <span class="text-xs text-slate-600">High</span>
+                                <span class="text-xs" style="color:#9a9285;">High</span>
                             </div>
-                            <div class="text-center text-sm text-slate-400 mt-1">
+                            <div class="text-center text-sm mt-1" style="color:#9a9285;">
                                 <span id="trainabilityValue">3</span>+
                             </div>
                         </div>
@@ -173,16 +220,16 @@
                     <!-- Barking Level -->
                     <div class="filter-section py-4">
                         <label class="flex items-center justify-between mb-3 cursor-pointer">
-                            <h3 class="font-medium text-slate-700">Barking Level</h3>
-                            <input type="checkbox" id="barkingEnabled" class="rounded text-blue-600">
+                            <h3 class="font-medium font-serif" style="color:#3d3829;">Barking Level</h3>
+                            <input type="checkbox" id="barkingEnabled" class="rounded">
                         </label>
                         <div id="barkingControls" class="hidden">
                             <div class="flex items-center gap-3">
-                                <span class="text-xs text-slate-600">Quiet</span>
+                                <span class="text-xs" style="color:#9a9285;">Quiet</span>
                                 <input type="range" id="barkingFilter" min="1" max="5" value="3" class="flex-1">
-                                <span class="text-xs text-slate-600">Vocal</span>
+                                <span class="text-xs" style="color:#9a9285;">Vocal</span>
                             </div>
-                            <div class="text-center text-sm text-slate-400 mt-1">
+                            <div class="text-center text-sm mt-1" style="color:#9a9285;">
                                 <span id="barkingValue">3</span> or less
                             </div>
                         </div>
@@ -190,34 +237,34 @@
 
                     <!-- Good For -->
                     <div class="filter-section py-4">
-                        <h3 class="font-medium text-slate-700 mb-3">Good For</h3>
+                        <h3 class="font-medium mb-3 font-serif" style="color:#3d3829;">Good For</h3>
                         <div class="space-y-3">
                             <label class="flex items-center justify-between cursor-pointer">
-                                <span class="text-slate-600">Kids</span>
-                                <input type="checkbox" id="kidFriendly" class="toggle-filter rounded text-blue-600">
+                                <span style="color:#5c5647;">Kids</span>
+                                <input type="checkbox" id="kidFriendly" class="toggle-filter rounded">
                             </label>
                             <label class="flex items-center justify-between cursor-pointer">
-                                <span class="text-slate-600">Apartments</span>
-                                <input type="checkbox" id="apartmentOk" class="toggle-filter rounded text-blue-600">
+                                <span style="color:#5c5647;">Apartments</span>
+                                <input type="checkbox" id="apartmentOk" class="toggle-filter rounded">
                             </label>
                         </div>
                     </div>
 
                     <!-- Shedding -->
                     <div class="py-4">
-                        <h3 class="font-medium text-slate-700 mb-3">Shedding</h3>
+                        <h3 class="font-medium mb-3 font-serif" style="color:#3d3829;">Shedding</h3>
                         <div class="space-y-2">
                             <label class="flex items-center gap-2 cursor-pointer">
-                                <input type="checkbox" value="minimal" class="shed-filter rounded text-blue-600">
-                                <span class="text-slate-600">Minimal</span>
+                                <input type="checkbox" value="minimal" class="shed-filter rounded">
+                                <span style="color:#5c5647;">Minimal</span>
                             </label>
                             <label class="flex items-center gap-2 cursor-pointer">
-                                <input type="checkbox" value="moderate" class="shed-filter rounded text-blue-600">
-                                <span class="text-slate-600">Moderate</span>
+                                <input type="checkbox" value="moderate" class="shed-filter rounded">
+                                <span style="color:#5c5647;">Moderate</span>
                             </label>
                             <label class="flex items-center gap-2 cursor-pointer">
-                                <input type="checkbox" value="heavy" class="shed-filter rounded text-blue-600">
-                                <span class="text-slate-600">Heavy</span>
+                                <input type="checkbox" value="heavy" class="shed-filter rounded">
+                                <span style="color:#5c5647;">Heavy</span>
                             </label>
                         </div>
                     </div>
@@ -227,8 +274,8 @@
             <!-- Results Grid -->
             <div class="flex-1">
                 <div class="flex items-center justify-between mb-4">
-                    <p class="text-slate-600"><span id="resultCount">0</span> breeds found</p>
-                    <select id="sortBy" class="px-3 py-2 rounded-lg border border-slate-200 bg-white text-sm">
+                    <p style="color:#5c5647;"><span id="resultCount">0</span> breeds found</p>
+                    <select id="sortBy" class="px-3 py-2 rounded-lg border text-sm bg-white transition" style="border-color:#c8c1b5; color:#3d3829;">
                         <option value="name">Sort by Name</option>
                         <option value="size">Sort by Size</option>
                         <option value="energy">Sort by Energy</option>
@@ -241,28 +288,28 @@
                 </div>
 
                 <div id="noResults" class="hidden text-center py-16">
-                    <i data-lucide="search-x" class="w-16 h-16 text-slate-600 mx-auto mb-4"></i>
-                    <h3 class="text-xl font-semibold text-slate-700 mb-2">No breeds found</h3>
-                    <p class="text-slate-600">Try adjusting your filters or search terms</p>
+                    <i data-lucide="search-x" class="w-16 h-16 mx-auto mb-4" style="color:#9a9285;"></i>
+                    <h3 class="text-xl font-semibold mb-2 font-serif" style="color:#3d3829;">No breeds found</h3>
+                    <p style="color:#5c5647;">Try adjusting your filters or search terms</p>
                 </div>
             </div>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-slate-800 text-white py-8 mt-16">
+    <footer class="text-white py-8 mt-16" style="background-color:#1a2e1a;">
         <div class="max-w-7xl mx-auto px-4 text-center">
             <div class="flex items-center justify-center gap-2 mb-4">
-                <img src="../logo-192.png" class="w-8 h-8 rounded-lg" alt="BreedFinder">
-                <span class="font-semibold">BreedFinder</span>
+                <img src="../logo-192-green.png" class="w-8 h-8 rounded-lg" alt="BreedFinder">
+                <span class="font-semibold font-serif">BreedFinder</span>
             </div>
-            <p class="text-slate-600 text-sm">Find your perfect dog breed match</p>
+            <p class="text-sm" style="color:#6b8f6b;">Find your perfect dog breed match</p>
             <div class="flex justify-center gap-6 mt-4 text-sm">
-                <a href="../" class="text-slate-600 hover:text-white">Home</a>
-                <a href="../quiz/" class="text-slate-600 hover:text-white">Breed Quiz</a>
-                <a href="../compare/" class="text-slate-600 hover:text-white">Compare</a>
+                <a href="../" class="hover:text-white transition-colors" style="color:#6b8f6b;">Home</a>
+                <a href="../quiz/" class="hover:text-white transition-colors" style="color:#6b8f6b;">Breed Quiz</a>
+                <a href="../compare/" class="hover:text-white transition-colors" style="color:#6b8f6b;">Compare</a>
             </div>
-            <p class="text-slate-600 text-xs mt-6">© 2026 BreedFinder. Made with care for dog lovers.</p>
+            <p class="text-xs mt-6" style="color:#4a6b4a;">© 2026 BreedFinder. Made with care for dog lovers.</p>
         </div>
     </footer>
 
@@ -296,46 +343,47 @@
             const imageUrl = `../images/breeds/${breed.id}.webp`;
             const fallbackUrl = `../images/heads/${breed.id}.webp`;
             
+            // Forest & Editorial earthy size badge colors
             const sizeColors = {
-                tiny: 'bg-sky-100 text-sky-700',
-                small: 'bg-blue-100 text-blue-700',
-                medium: 'bg-green-100 text-green-700',
-                large: 'bg-orange-100 text-orange-700',
-                giant: 'bg-red-100 text-red-700'
+                tiny:   'background-color:#fef3c7; color:#92400e;',   // amber-100 / amber-800
+                small:  'background-color:#ccfbf1; color:#0f766e;',   // teal-100 / teal-700
+                medium: 'background-color:#d1fae5; color:#065f46;',   // emerald-100 / emerald-800
+                large:  'background-color:#fef3c7; color:#b45309;',   // amber-100 / amber-700
+                giant:  'background-color:#ffe4e6; color:#9f1239;'    // rose-100 / rose-800
             };
 
             const temperamentTags = breed.temperament.slice(0, 3).map(t => 
-                `<span class="tag bg-slate-100 text-slate-600">${t}</span>`
+                `<span class="tag" style="background-color:#eef1e8; color:#5c5647;">${t}</span>`
             ).join('');
 
             return `
-                <a href="../breeds/${breed.id}.html" class="breed-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden block">
-                    <div class="aspect-[4/5] bg-slate-100 relative overflow-hidden">
+                <a href="../breeds/${breed.id}.html" class="breed-card bg-white rounded-xl border overflow-hidden block" style="border-color:#dde3d4; box-shadow: 0 2px 8px rgba(26,86,50,0.04);">
+                    <div class="aspect-[4/5] relative overflow-hidden" style="background-color:#eef1e8;">
                         <img src="${imageUrl}" alt="${breed.name}" 
                             class="w-full h-full object-cover object-top"
-                            onerror="this.onerror=null; this.src='${fallbackUrl}'; this.onerror=function(){this.parentElement.innerHTML='<div class=\\'w-full h-full flex items-center justify-center\\'><i data-lucide=\\'dog\\' class=\\'w-16 h-16 text-slate-600\\'></i></div>'; lucide.createIcons();}">
-                        <span class="absolute top-2 right-2 tag ${sizeColors[breed.size.category] || 'bg-slate-100 text-slate-600'}">
+                            onerror="this.onerror=null; this.src='${fallbackUrl}'; this.onerror=function(){this.parentElement.innerHTML='<div class=\\'w-full h-full flex items-center justify-center\\'><i data-lucide=\\'dog\\' class=\\'w-16 h-16\\' style=\\'color:#9a9285;\\'></i></div>'; lucide.createIcons();}">
+                        <span class="absolute top-2 right-2 tag" style="${sizeColors[breed.size.category] || 'background-color:#eef1e8; color:#5c5647;'}">
                             ${breed.size.category}
                         </span>
                     </div>
                     <div class="p-4">
-                        <h3 class="font-semibold text-slate-800 text-lg mb-1">${breed.name}</h3>
-                        <p class="text-slate-600 text-sm mb-3">${breed.origin} · ${breed.lifespan}</p>
+                        <h3 class="font-semibold text-lg mb-1 font-serif" style="color:#2a2518;">${breed.name}</h3>
+                        <p class="text-sm mb-3" style="color:#9a9285;">${breed.origin} · ${breed.lifespan}</p>
                         <div class="flex flex-wrap gap-1 mb-3">
                             ${temperamentTags}
                         </div>
                         <div class="grid grid-cols-3 gap-2 text-center text-xs">
-                            <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-600">Energy</div>
-                                <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.energy)}${'○'.repeat(5-breed.ratings.energy)}</div>
+                            <div class="rounded-lg py-2" style="background-color:#f6f7f2;">
+                                <div style="color:#9a9285;">Energy</div>
+                                <div class="font-semibold" style="color:#1a5632;">${'●'.repeat(breed.ratings.energy)}${'○'.repeat(5-breed.ratings.energy)}</div>
                             </div>
-                            <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-600">Groom</div>
-                                <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.grooming)}${'○'.repeat(5-breed.ratings.grooming)}</div>
+                            <div class="rounded-lg py-2" style="background-color:#f6f7f2;">
+                                <div style="color:#9a9285;">Groom</div>
+                                <div class="font-semibold" style="color:#1a5632;">${'●'.repeat(breed.ratings.grooming)}${'○'.repeat(5-breed.ratings.grooming)}</div>
                             </div>
-                            <div class="bg-slate-50 rounded-lg py-2">
-                                <div class="text-slate-600">Train</div>
-                                <div class="font-semibold text-slate-700">${'●'.repeat(breed.ratings.trainability)}${'○'.repeat(5-breed.ratings.trainability)}</div>
+                            <div class="rounded-lg py-2" style="background-color:#f6f7f2;">
+                                <div style="color:#9a9285;">Train</div>
+                                <div class="font-semibold" style="color:#1a5632;">${'●'.repeat(breed.ratings.trainability)}${'○'.repeat(5-breed.ratings.trainability)}</div>
                             </div>
                         </div>
                     </div>
@@ -491,11 +539,11 @@
             }
             
             searchDropdown.innerHTML = matches.map(b => `
-                <a href="../breeds/${b.id}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition first:rounded-t-2xl last:rounded-b-2xl border-b border-slate-100 last:border-0">
+                <a href="../breeds/${b.id}.html" class="flex items-center gap-3 px-4 py-3 transition first:rounded-t-2xl last:rounded-b-2xl border-b last:border-0" style="border-color:#f0ede6;" onmouseover="this.style.backgroundColor='#f6f7f2'" onmouseout="this.style.backgroundColor=''">
                     <img src="../images/heads/${b.id}.webp" alt="${b.name}" class="w-10 h-10 rounded-xl object-cover object-top" onerror="this.style.display='none'">
                     <div>
-                        <div class="font-medium text-slate-800">${b.name}</div>
-                        <div class="text-sm text-slate-600">${b.group} · ${b.size.category}</div>
+                        <div class="font-medium" style="color:#2a2518;">${b.name}</div>
+                        <div class="text-sm" style="color:#9a9285;">${b.group} · ${b.size.category}</div>
                     </div>
                 </a>
             `).join('');
