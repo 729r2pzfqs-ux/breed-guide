@@ -49,36 +49,50 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script>
-        tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'], serif: ['Fraunces', 'serif'] } } } }
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Fraunces', 'Georgia', 'serif']
+                    },
+                    colors: {
+                        sage: { 50: '#f6f7f2', 100: '#eef1e8', 200: '#dde3d4' },
+                        warm: { 100: '#f0ede6', 200: '#e2ddd4', 600: '#5c5647', 800: '#2a2518' },
+                        forest: { DEFAULT: '#1a5632', dark: '#1a2e1a' }
+                    }
+                }
+            }
+        }
     </script>
     <style>
-        .card-shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03); }
-        .card-shadow:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.06), 0 8px 24px rgba(0,0,0,0.05); }
+        .card-shadow { box-shadow: 0 1px 3px rgba(26,86,50,0.04), 0 4px 12px rgba(26,86,50,0.03); }
+        .card-shadow:hover { box-shadow: 0 4px 12px rgba(26,86,50,0.06), 0 8px 24px rgba(26,86,50,0.05); }
         .hero-gradient { background: linear-gradient(135deg, #f6f7f2 0%, #eef1e8 50%, #f6f7f2 100%); }
     </style>
 </head>
-<body class="min-h-screen" style="background: linear-gradient(135deg, #f6f7f2 0%, #faf9f6 50%, #eef1e8 100%); color: #2a2518;">
-    <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
+<body class="bg-white min-h-screen" style="color: #2a2518;">
+    <header class="bg-white/80 backdrop-blur-md border-b sticky top-0 z-50" style="border-color: #f0ede6;">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="./" class="flex items-center gap-3">
                 <img src="../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
                 <span class="text-xl font-bold font-serif" style="color: #1a5632;">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-4 md:gap-6 text-sm font-medium">
-                <a href="search/" class="style="color: #5c5647;" hover:opacity-80 transition flex items-center">
+                <a href="search/" class="transition" style="color: #5c5647;" onmouseover="this.style.color='#1a5632'" onmouseout="this.style.color='#5c5647'" flex items-center">
                     <i data-lucide="search" class="w-5 h-5 md:hidden"></i>
                     <span class="hidden md:inline">Все породы</span>
                 </a>
-                <a href="quiz/" class="text-white" style="background: #1a5632; px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg transition">Квиз</a>
+                <a href="quiz/" class="text-white px-5 py-2.5 rounded-xl font-semibold transition" style="background: #1a5632;" onmouseover="this.style.boxShadow='0 8px 20px rgba(26,86,50,0.25)'" onmouseout="this.style.boxShadow='none'">Квиз</a>
                 <div class="relative group">
-                    <button class="flex items-center gap-1 style="color: #5c5647;" hover:opacity-80 py-2">
+                    <button class="flex items-center gap-1 py-2 transition" style="color: #5c5647;" onmouseover="this.style.color='#1a5632'" onmouseout="this.style.color='#5c5647'">
                         <i data-lucide="globe" class="w-4 h-4"></i>
                         <span>RU</span>
                     </button>
-                    <div class="absolute right-0 top-full bg-white border" style="border-color: #f0ede6; rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="../" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">English</a><a href="../es/" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">Español</a><a href="../de/" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">Deutsch</a><a href="../fr/" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">Français</a><a href="../it/" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">Italiano</a><a href="../pt/" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">Português</a><a href="../fi/" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">Suomi</a><a href="../sv/" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">Svenska</a><a href="../nl/" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">Nederlands</a><a href="../da/" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">Dansk</a><a href="../ja/" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">日本語</a><a href="../no/" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">Norsk</a><a href="../pl/" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">Polski</a><a href="../ru/" class="block px-4 py-2 hover:bg-slate-100 font-semibold style="color: #1a5632;"">Русский</a><a href="../tr/" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">Türkçe</a><a href="../zh/" class="block px-4 py-2 hover:bg-slate-100 style="color: #5c5647;"">中文</a>
+                    <div class="absolute right-0 top-full bg-white border rounded-xl" style="border-color: #e2ddd4; shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
+                        <a href="../" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">English</a><a href="../es/" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">Español</a><a href="../de/" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">Deutsch</a><a href="../fr/" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">Français</a><a href="../it/" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">Italiano</a><a href="../pt/" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">Português</a><a href="../fi/" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">Suomi</a><a href="../sv/" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">Svenska</a><a href="../nl/" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">Nederlands</a><a href="../da/" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">Dansk</a><a href="../ja/" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">日本語</a><a href="../no/" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">Norsk</a><a href="../pl/" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">Polski</a><a href="../ru/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-forest">Русский</a><a href="../tr/" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">Türkçe</a><a href="../zh/" class="block px-4 py-2 hover:bg-slate-100 text-warm-600">中文</a>
                     </div>
                 </div>
             </nav>
@@ -86,34 +100,34 @@
     </header>
 
     <main>
-        <section class="py-20 px-4" style="background: linear-gradient(135deg, #f6f7f2 0%, #eef1e8 50%, #f6f7f2 100%);">
+        <section class="hero-gradient py-20 px-4">
             <div class="max-w-4xl mx-auto text-center">
-                <div class="inline-flex items-center gap-2 bg-white/80 backdrop-blur px-4 py-2 rounded-full text-sm font-medium style="color: #5c5647;" mb-6 border" style="border-color: #f0ede6;/50">
-                    <i data-lucide="sparkles" class="w-4 h-4 style="color: #1a5632;""></i>
+                <div class="inline-flex items-center gap-2 bg-white/80 backdrop-blur px-4 py-2 rounded-full text-sm font-medium text-warm-600 mb-6 border border-slate-200/50">
+                    <i data-lucide="sparkles" class="w-4 h-4 text-forest"></i>
                     Более 200 пород собак для изучения
                 </div>
-                <h1 class="text-5xl md:text-6xl font-extrabold style="color: #1a2e1a;" mb-6 leading-tight">
+                <h1 class="text-5xl md:text-6xl font-extrabold text-forest-dark mb-6 leading-tight">
                     Найдите Свою<br>
                     <span style="color: #1a5632;">Идеальную Породу</span>
                 </h1>
-                <p class="text-xl style="color: #5c5647;" mb-10 max-w-2xl mx-auto leading-relaxed">Узнайте, какая порода собаки идеально подходит вашему образу жизни. Сравните характеристики, пройдите квиз и найдите своего идеального питомца.</p>
+                <p class="text-xl text-warm-600 mb-10 max-w-2xl mx-auto leading-relaxed">Узнайте, какая порода собаки идеально подходит вашему образу жизни. Сравните характеристики, пройдите квиз и найдите своего идеального питомца.</p>
                 
                 <div class="max-w-xl mx-auto mb-8">
                     <div class="relative">
-                        <input type="text" id="home-search" placeholder="Поиск пород..." autocomplete="off" class="w-full bg-white border" style="border-color: #f0ede6; rounded-2xl px-6 py-4 text-lg focus:outline-none focus:ring-2 focus:ring-green-700/20 focus:border-green-600 shadow-sm">
+                        <input type="text" id="home-search" placeholder="Поиск пород..." autocomplete="off" class="w-full bg-white border border-slate-200 rounded-2xl px-6 py-4 text-lg focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:border-sky-400 shadow-sm">
                         <button aria-label="Поиск" class="absolute right-2 top-1/2 -translate-y-1/2 bg-slate-100 hover:bg-slate-200 p-3 rounded-xl transition">
-                            <i data-lucide="search" class="w-5 h-5 style="color: #5c5647;""></i>
+                            <i data-lucide="search" class="w-5 h-5 text-warm-600"></i>
                         </button>
-                        <div id="search-dropdown" class="absolute top-full left-0 right-0 mt-2 bg-white border" style="border-color: #f0ede6; rounded-2xl shadow-xl z-50 hidden max-h-80 overflow-y-auto"></div>
+                        <div id="search-dropdown" class="absolute top-full left-0 right-0 mt-2 bg-white border border-slate-200 rounded-2xl shadow-xl z-50 hidden max-h-80 overflow-y-auto"></div>
                     </div>
                 </div>
 
                 <div class="flex flex-wrap justify-center gap-4">
-                    <a href="quiz/" class="inline-flex items-center gap-2 text-white" style="background: #1a5632; px-8 py-4 rounded-2xl font-semibold text-lg hover:shadow-xl hover:shadow-green-700/25 transition transform hover:-translate-y-0.5">
+                    <a href="quiz/" class="inline-flex items-center gap-2 text-white px-8 py-4 rounded-2xl font-semibold text-lg transition transform hover:-translate-y-0.5" style="background: #1a5632;" onmouseover="this.style.boxShadow='0 12px 28px rgba(26,86,50,0.3)'" onmouseout="this.style.boxShadow='none'">
                         <i data-lucide="target" class="w-5 h-5"></i>
                         Пройти квиз по породам
                     </a>
-                    <a href="compare/" class="inline-flex items-center gap-2 bg-white text-slate-700 border" style="border-color: #f0ede6; px-8 py-4 rounded-2xl font-semibold text-lg hover:border-slate-300 hover:shadow-lg transition transform hover:-translate-y-0.5">
+                    <a href="compare/" class="inline-flex items-center gap-2 bg-white px-8 py-4 rounded-2xl font-semibold text-lg transition transform hover:-translate-y-0.5" style="color: #3d3829; border: 1px solid #e2ddd4;" onmouseover="this.style.boxShadow='0 8px 20px rgba(26,86,50,0.1)'" onmouseout="this.style.boxShadow='none'">
                         <i data-lucide="scale" class="w-5 h-5"></i>
                         Сравнить породы
                     </a>
@@ -123,68 +137,68 @@
 
         <section class="py-16 px-4">
             <div class="max-w-6xl mx-auto">
-                <h2 class="text-2xl font-bold font-serif" style="color: #1a2e1a; mb-2">Популярные породы</h2>
-                <p class="style="color: #5c5647;" mb-8">Самые любимые породы собак в мире</p>
+                <h2 class="text-2xl font-bold font-serif mb-2" style="color: #1a2e1a;">Популярные породы</h2>
+                <p class="mb-8" style="color: #5c5647;">Самые любимые породы собак в мире</p>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
-                    <a href="breeds/labrador-retriever.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:style="border-color: #d0ddd0;" transition group">
+                    <a href="breeds/labrador-retriever.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/labrador-retriever.webp" alt="Лабрадор-ретривер" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Лабрадор-ретривер</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Дружелюбный • Активный • Верный</div>
+                        <div class="font-semibold text-warm-800 text-center">Лабрадор-ретривер</div>
+                        <div class="text-xs text-warm-600 text-center mt-1">Дружелюбный • Активный • Верный</div>
                     </a>
-                    <a href="breeds/german-shepherd.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:style="border-color: #d0ddd0;" transition group">
+                    <a href="breeds/german-shepherd.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/german-shepherd.webp" alt="Немецкая овчарка" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Немецкая овчарка</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Умный • Защитник</div>
+                        <div class="font-semibold text-warm-800 text-center">Немецкая овчарка</div>
+                        <div class="text-xs text-warm-600 text-center mt-1">Умный • Защитник</div>
                     </a>
-                    <a href="breeds/golden-retriever.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:style="border-color: #d0ddd0;" transition group">
+                    <a href="breeds/golden-retriever.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/golden-retriever.webp" alt="Золотистый ретривер" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Золотистый ретривер</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Нежный • Дружелюбный • Умный</div>
+                        <div class="font-semibold text-warm-800 text-center">Золотистый ретривер</div>
+                        <div class="text-xs text-warm-600 text-center mt-1">Нежный • Дружелюбный • Умный</div>
                     </a>
-                    <a href="breeds/french-bulldog.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:style="border-color: #d0ddd0;" transition group">
+                    <a href="breeds/french-bulldog.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/french-bulldog.webp" alt="Французский бульдог" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Французский бульдог</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Игривый • Адаптивный</div>
+                        <div class="font-semibold text-warm-800 text-center">Французский бульдог</div>
+                        <div class="text-xs text-warm-600 text-center mt-1">Игривый • Адаптивный</div>
                     </a>
-                    <a href="breeds/poodle.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:style="border-color: #d0ddd0;" transition group">
+                    <a href="breeds/poodle.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/poodle.webp" alt="Пудель" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Пудель</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Умный • Элегантный</div>
+                        <div class="font-semibold text-warm-800 text-center">Пудель</div>
+                        <div class="text-xs text-warm-600 text-center mt-1">Умный • Элегантный</div>
                     </a>
-                    <a href="breeds/siberian-husky.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:style="border-color: #d0ddd0;" transition group">
+                    <a href="breeds/siberian-husky.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/siberian-husky.webp" alt="Сибирский хаски" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Сибирский хаски</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Энергичный • Общительный</div>
+                        <div class="font-semibold text-warm-800 text-center">Сибирский хаски</div>
+                        <div class="text-xs text-warm-600 text-center mt-1">Энергичный • Общительный</div>
                     </a>
-                    <a href="breeds/beagle.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:style="border-color: #d0ddd0;" transition group">
+                    <a href="breeds/beagle.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/beagle.webp" alt="Бигль" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Бигль</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Любопытный • Весёлый</div>
+                        <div class="font-semibold text-warm-800 text-center">Бигль</div>
+                        <div class="text-xs text-warm-600 text-center mt-1">Любопытный • Весёлый</div>
                     </a>
-                    <a href="breeds/dachshund.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:style="border-color: #d0ddd0;" transition group">
+                    <a href="breeds/dachshund.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/dachshund.webp" alt="Такса" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Такса</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Умный • Преданный</div>
+                        <div class="font-semibold text-warm-800 text-center">Такса</div>
+                        <div class="text-xs text-warm-600 text-center mt-1">Умный • Преданный</div>
                     </a>
                 </div>
                 <div class="text-center mt-8">
-                    <a href="search/" class="inline-flex items-center gap-2 style="color: #1a5632;" font-semibold hover:opacity-80 transition">
+                    <a href="search/" class="inline-flex items-center gap-2 text-forest font-semibold hover:text-forest transition">
                         Смотреть все 200+ пород
                         <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
@@ -192,45 +206,45 @@
             </div>
         </section>
 
-        <section class="py-16 px-4 " style="background: #f6f7f2;">
+        <section class="py-16 px-4 bg-slate-50">
             <div class="max-w-6xl mx-auto">
-                <h2 class="text-2xl font-bold font-serif" style="color: #1a2e1a; mb-2">Поиск по размеру</h2>
-                <p class="style="color: #5c5647;" mb-8">Найдите породы, подходящие для вашего жилья</p>
+                <h2 class="text-2xl font-bold font-serif mb-2" style="color: #1a2e1a;">Поиск по размеру</h2>
+                <p class="mb-8" style="color: #5c5647;">Найдите породы, подходящие для вашего жилья</p>
                 <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
-                    <a href="search/?size=tiny" class="style="background: #eef1e8;" hover:style="background: #e5ebe5;" rounded-2xl p-6 text-center transition border style="border-color: #d0ddd0;" group">
+                    <a href="search/?size=tiny" class="rounded-2xl p-6 text-center transition border group" style="background: #eef1e8; border-color: #dde3d4;" onmouseover="this.style.background='#e5ebe5'" onmouseout="this.style.background='#eef1e8'">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="../images/heads/chihuahua.webp" alt="Чихуахуа" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Миниатюрные</div>
-                        <div class="text-sm style="color: #5c5647;"">До 5 кг</div>
+                        <div class="font-semibold text-warm-800">Миниатюрные</div>
+                        <div class="text-sm text-warm-600">До 5 кг</div>
                     </a>
-                    <a href="search/?size=small" class="style="background: #eef1e8;" hover:style="background: #e5ebe5;" rounded-2xl p-6 text-center transition border style="border-color: #d0ddd0;" group">
+                    <a href="search/?size=small" class="rounded-2xl p-6 text-center transition border group" style="background: #eef1e8; border-color: #dde3d4;" onmouseover="this.style.background='#e5ebe5'" onmouseout="this.style.background='#eef1e8'">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="../images/heads/beagle.webp" alt="Бигль" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Маленькие</div>
-                        <div class="text-sm style="color: #5c5647;"">5–10 кг</div>
+                        <div class="font-semibold text-warm-800">Маленькие</div>
+                        <div class="text-sm text-warm-600">5–10 кг</div>
                     </a>
-                    <a href="search/?size=medium" class="style="background: #eef1e8;" hover:style="background: #e5ebe5;" rounded-2xl p-6 text-center transition border style="border-color: #d0ddd0;" group">
+                    <a href="search/?size=medium" class="rounded-2xl p-6 text-center transition border group" style="background: #eef1e8; border-color: #dde3d4;" onmouseover="this.style.background='#e5ebe5'" onmouseout="this.style.background='#eef1e8'">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="../images/heads/border-collie.webp" alt="Бордер-колли" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Средние</div>
-                        <div class="text-sm style="color: #5c5647;"">10–25 кг</div>
+                        <div class="font-semibold text-warm-800">Средние</div>
+                        <div class="text-sm text-warm-600">10–25 кг</div>
                     </a>
-                    <a href="search/?size=large" class="style="background: #eef1e8;" hover:style="background: #e5ebe5;" rounded-2xl p-6 text-center transition border style="border-color: #d0ddd0;" group">
+                    <a href="search/?size=large" class="rounded-2xl p-6 text-center transition border group" style="background: #eef1e8; border-color: #dde3d4;" onmouseover="this.style.background='#e5ebe5'" onmouseout="this.style.background='#eef1e8'">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="../images/heads/german-shepherd.webp" alt="Немецкая овчарка" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Крупные</div>
-                        <div class="text-sm style="color: #5c5647;"">25–45 кг</div>
+                        <div class="font-semibold text-warm-800">Крупные</div>
+                        <div class="text-sm text-warm-600">25–45 кг</div>
                     </a>
-                    <a href="search/?size=giant" class="style="background: #eef1e8;" hover:style="background: #e5ebe5;" rounded-2xl p-6 text-center transition border style="border-color: #d0ddd0;" group">
+                    <a href="search/?size=giant" class="rounded-2xl p-6 text-center transition border group" style="background: #eef1e8; border-color: #dde3d4;" onmouseover="this.style.background='#e5ebe5'" onmouseout="this.style.background='#eef1e8'">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="../images/heads/great-dane.webp" alt="Немецкий дог" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Гигантские</div>
-                        <div class="text-sm style="color: #5c5647;"">Свыше 45 кг</div>
+                        <div class="font-semibold text-warm-800">Гигантские</div>
+                        <div class="text-sm text-warm-600">Свыше 45 кг</div>
                     </a>
                 </div>
             </div>
@@ -238,36 +252,36 @@
 
         <section class="py-16 px-4">
             <div class="max-w-6xl mx-auto">
-                <h2 class="text-2xl font-bold font-serif" style="color: #1a2e1a; mb-2">Поиск по образу жизни</h2>
-                <p class="style="color: #5c5647;" mb-8">Быстрые фильтры для ваших нужд</p>
+                <h2 class="text-2xl font-bold font-serif mb-2" style="color: #1a2e1a;">Поиск по образу жизни</h2>
+                <p class="mb-8" style="color: #5c5647;">Быстрые фильтры для ваших нужд</p>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <a href="search/?apartment=1" class="style="background: #eef1e8;" hover:style="background: #e5ebe5;" rounded-2xl p-6 text-center transition border style="border-color: #d0ddd0;" group">
+                    <a href="search/?apartment=1" class="rounded-2xl p-6 text-center transition border group" style="background: #eef1e8; border-color: #dde3d4;" onmouseover="this.style.background='#e5ebe5'" onmouseout="this.style.background='#eef1e8'">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
-                            <i data-lucide="building-2" class="w-6 h-6 style="color: #1a5632;""></i>
+                            <i data-lucide="building-2" class="w-6 h-6 text-forest"></i>
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Подходит для квартиры</div>
-                        <div class="text-sm style="color: #5c5647;"">Идеально для квартир</div>
+                        <div class="font-semibold text-warm-800">Подходит для квартиры</div>
+                        <div class="text-sm text-warm-600">Идеально для квартир</div>
                     </a>
-                    <a href="search/?kids=1" class="style="background: #eef1e8;" hover:style="background: #e5ebe5;" rounded-2xl p-6 text-center transition border style="border-color: #d0ddd0;" group">
+                    <a href="search/?kids=1" class="rounded-2xl p-6 text-center transition border group" style="background: #eef1e8; border-color: #dde3d4;" onmouseover="this.style.background='#e5ebe5'" onmouseout="this.style.background='#eef1e8'">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
-                            <i data-lucide="heart" class="w-6 h-6 style="color: #1a5632;""></i>
+                            <i data-lucide="heart" class="w-6 h-6 text-forest"></i>
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Ладят с детьми</div>
-                        <div class="text-sm style="color: #5c5647;"">Дружелюбны к семье</div>
+                        <div class="font-semibold text-warm-800">Ладят с детьми</div>
+                        <div class="text-sm text-warm-600">Дружелюбны к семье</div>
                     </a>
-                    <a href="search/?shedding=minimal" class="style="background: #eef1e8;" hover:style="background: #e5ebe5;" rounded-2xl p-6 text-center transition border style="border-color: #d0ddd0;" group">
+                    <a href="search/?shedding=minimal" class="rounded-2xl p-6 text-center transition border group" style="background: #eef1e8; border-color: #dde3d4;" onmouseover="this.style.background='#e5ebe5'" onmouseout="this.style.background='#eef1e8'">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
-                            <i data-lucide="sparkles" class="w-6 h-6 style="color: #1a5632;""></i>
+                            <i data-lucide="sparkles" class="w-6 h-6 text-forest"></i>
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Мало линяют</div>
-                        <div class="text-sm style="color: #5c5647;"">Меньше шерсти, чище дом</div>
+                        <div class="font-semibold text-warm-800">Мало линяют</div>
+                        <div class="text-sm text-warm-600">Меньше шерсти, чище дом</div>
                     </a>
-                    <a href="search/?train=1" class="style="background: #eef1e8;" hover:style="background: #e5ebe5;" rounded-2xl p-6 text-center transition border style="border-color: #d0ddd0;" group">
+                    <a href="search/?train=1" class="rounded-2xl p-6 text-center transition border group" style="background: #eef1e8; border-color: #dde3d4;" onmouseover="this.style.background='#e5ebe5'" onmouseout="this.style.background='#eef1e8'">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
-                            <i data-lucide="graduation-cap" class="w-6 h-6 style="color: #1a5632;""></i>
+                            <i data-lucide="graduation-cap" class="w-6 h-6 text-forest"></i>
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Легко поддаются дрессировке</div>
-                        <div class="text-sm style="color: #5c5647;"">Быстро обучаются</div>
+                        <div class="font-semibold text-warm-800">Легко поддаются дрессировке</div>
+                        <div class="text-sm text-warm-600">Быстро обучаются</div>
                     </a>
                 </div>
             </div>
@@ -278,89 +292,89 @@
 
     <section class="py-16 px-4">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-2xl font-bold font-serif" style="color: #1a2e1a; mb-2">Руководства по породам</h2>
-            <p class="style="color: #5c5647;" mb-6">Экспертные советы по выбору подходящей собаки для вашего образа жизни</p>
+            <h2 class="text-2xl font-bold font-serif mb-2" style="color: #1a2e1a;">Руководства по породам</h2>
+            <p class="text-warm-600 mb-6">Экспертные советы по выбору подходящей собаки для вашего образа жизни</p>
             <div class="grid md:grid-cols-3 gap-4">
                 <a href="articles/luchshie-sobaki-dlya-kvartir/" class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition border border-slate-100">
                     <span class="text-3xl">🏢</span>
-                    <h3 class="font-bold style="color: #1a2e1a;" mt-3 mb-1">Лучшие собаки для квартир</h3>
-                    <p class="style="color: #5c5647;" text-sm">15 пород, которые прекрасно живут в небольших помещениях</p>
+                    <h3 class="font-bold text-forest-dark mt-3 mb-1">Лучшие собаки для квартир</h3>
+                    <p class="text-warm-600 text-sm">15 пород, которые прекрасно живут в небольших помещениях</p>
                 </a>
                 <a href="articles/luchshie-sobaki-dlya-semey/" class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition border border-slate-100">
                     <span class="text-3xl">👨‍👩‍👧‍👦</span>
-                    <h3 class="font-bold style="color: #1a2e1a;" mt-3 mb-1">Лучшие собаки для семей</h3>
-                    <p class="style="color: #5c5647;" text-sm">12 терпеливых, ласковых пород для детей</p>
+                    <h3 class="font-bold text-forest-dark mt-3 mb-1">Лучшие собаки для семей</h3>
+                    <p class="text-warm-600 text-sm">12 терпеливых, ласковых пород для детей</p>
                 </a>
                 <a href="articles/sobaki-kotorye-ne-linyayut/" class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition border border-slate-100">
                     <span class="text-3xl">✨</span>
-                    <h3 class="font-bold style="color: #1a2e1a;" mt-3 mb-1">Породы, которые мало линяют</h3>
-                    <p class="style="color: #5c5647;" text-sm">20 пород для более чистого дома</p>
+                    <h3 class="font-bold text-forest-dark mt-3 mb-1">Породы, которые мало линяют</h3>
+                    <p class="text-warm-600 text-sm">20 пород для более чистого дома</p>
                 </a>
             </div>
         </div>
     
             <div class="text-center mt-8">
-                <a href="search/" class="inline-flex items-center gap-2 style="color: #1a5632;" font-semibold hover:opacity-80 transition">
+                <a href="search/" class="inline-flex items-center gap-2 text-forest font-semibold hover:text-forest transition">
                     Все руководства
                     <i data-lucide="arrow-right" class="w-4 h-4"></i>
                 </a>
             </div>
         </section>
 
-    <section class="py-16 px-4 " style="background: #f6f7f2;">
+    <section class="py-16 px-4 bg-slate-50">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-2xl font-bold font-serif" style="color: #1a2e1a; mb-8 text-center">Часто задаваемые вопросы</h2>
+            <h2 class="text-2xl font-bold text-forest-dark mb-8 text-center">Часто задаваемые вопросы</h2>
             <div class="space-y-4">
-                <div class="bg-white rounded-xl p-6 shadow-sm">
-                    <h3 class="font-semibold style="color: #1a2e1a;" text-lg">Как выбрать подходящую породу собаки для моего образа жизни?</h3>
-                    <p class="style="color: #5c5647;" mt-2">Учитывайте жилплощадь, уровень активности, время на уход и семейную ситуацию. Наш квиз по породам задаёт эти вопросы и подбирает подходящие породы.</p>
+                <div class="bg-white rounded-xl p-6 card-shadow">
+                    <h3 class="font-semibold text-forest-dark text-lg">Как выбрать подходящую породу собаки для моего образа жизни?</h3>
+                    <p class="text-warm-600 mt-2">Учитывайте жилплощадь, уровень активности, время на уход и семейную ситуацию. Наш квиз по породам задаёт эти вопросы и подбирает подходящие породы.</p>
                 </div>
-                <div class="bg-white rounded-xl p-6 shadow-sm">
-                    <h3 class="font-semibold style="color: #1a2e1a;" text-lg">Какие породы собак лучше всего подходят для квартиры?</h3>
-                    <p class="style="color: #5c5647;" mt-2">Французский бульдог, Кавалер-кинг-чарльз-спаниель, Мопс и Бостон-терьер хорошо адаптируются к жизни в квартире. Размер — не главное: некоторые крупные породы, например грейхаунд, спокойны в помещении.</p>
+                <div class="bg-white rounded-xl p-6 card-shadow">
+                    <h3 class="font-semibold text-forest-dark text-lg">Какие породы собак лучше всего подходят для квартиры?</h3>
+                    <p class="text-warm-600 mt-2">Французский бульдог, Кавалер-кинг-чарльз-спаниель, Мопс и Бостон-терьер хорошо адаптируются к жизни в квартире. Размер — не главное: некоторые крупные породы, например грейхаунд, спокойны в помещении.</p>
                 </div>
-                <div class="bg-white rounded-xl p-6 shadow-sm">
-                    <h3 class="font-semibold style="color: #1a2e1a;" text-lg">Какие породы лучше всего подходят для семей с детьми?</h3>
-                    <p class="style="color: #5c5647;" mt-2">Лабрадор-ретривер, золотистый ретривер, бигль и колли известны терпением и мягкостью с детьми. Всегда следите за взаимодействием.</p>
+                <div class="bg-white rounded-xl p-6 card-shadow">
+                    <h3 class="font-semibold text-forest-dark text-lg">Какие породы лучше всего подходят для семей с детьми?</h3>
+                    <p class="text-warm-600 mt-2">Лабрадор-ретривер, золотистый ретривер, бигль и колли известны терпением и мягкостью с детьми. Всегда следите за взаимодействием.</p>
                 </div>
-                <div class="bg-white rounded-xl p-6 shadow-sm">
-                    <h3 class="font-semibold style="color: #1a2e1a;" text-lg">Какие собаки меньше всего линяют?</h3>
-                    <p class="style="color: #5c5647;" mt-2">Пудель, бишон-фризе, португальская водяная собака и шнауцеры — породы с минимальным линянием. «Гипоаллергенный» не означает полное отсутствие аллергенов.</p>
+                <div class="bg-white rounded-xl p-6 card-shadow">
+                    <h3 class="font-semibold text-forest-dark text-lg">Какие собаки меньше всего линяют?</h3>
+                    <p class="text-warm-600 mt-2">Пудель, бишон-фризе, португальская водяная собака и шнауцеры — породы с минимальным линянием. «Гипоаллергенный» не означает полное отсутствие аллергенов.</p>
                 </div>
-                <div class="bg-white rounded-xl p-6 shadow-sm">
-                    <h3 class="font-semibold style="color: #1a2e1a;" text-lg">Сколько физической нагрузки нужно разным породам?</h3>
-                    <p class="style="color: #5c5647;" mt-2">Высокоэнергичным породам нужно 2+ часа в день. Умеренным породам — около 1 часа. Малоактивным породам достаточно 30 минут.</p>
+                <div class="bg-white rounded-xl p-6 card-shadow">
+                    <h3 class="font-semibold text-forest-dark text-lg">Сколько физической нагрузки нужно разным породам?</h3>
+                    <p class="text-warm-600 mt-2">Высокоэнергичным породам нужно 2+ часа в день. Умеренным породам — около 1 часа. Малоактивным породам достаточно 30 минут.</p>
                 </div>
-                <div class="bg-white rounded-xl p-6 shadow-sm">
-                    <h3 class="font-semibold style="color: #1a2e1a;" text-lg">В чём разница между инструментом сравнения и квизом?</h3>
-                    <p class="style="color: #5c5647;" mt-2">Квиз помогает открыть породы, подходящие к вашему образу жизни. Инструмент сравнения позволяет рассмотреть две конкретные породы рядом.</p>
+                <div class="bg-white rounded-xl p-6 card-shadow">
+                    <h3 class="font-semibold text-forest-dark text-lg">В чём разница между инструментом сравнения и квизом?</h3>
+                    <p class="text-warm-600 mt-2">Квиз помогает открыть породы, подходящие к вашему образу жизни. Инструмент сравнения позволяет рассмотреть две конкретные породы рядом.</p>
                 </div>
             </div>
         </div>
     
             <div class="text-center mt-8">
-                <a href="faq/" class="inline-flex items-center gap-2 style="color: #1a5632;" font-semibold hover:opacity-80 transition">
+                <a href="faq/" class="inline-flex items-center gap-2 text-forest font-semibold hover:text-forest transition">
                     Все вопросы
                     <i data-lucide="arrow-right" class="w-4 h-4"></i>
                 </a>
             </div>
         </section>
 
-    <footer class="" style="background: #1a2e1a; color: #c8c1b5; py-12 px-4">
+    <footer class="bg-slate-900 text-slate-300 py-12 px-4">
         <div class="max-w-6xl mx-auto">
             <div class="flex flex-col md:flex-row items-center justify-between gap-6">
                 <div class="flex items-center gap-3">
                     <img src="../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
                     <span class="text-xl font-bold">BreedFinder</span>
                 </div>
-                <div class="flex gap-8 text-sm style="color: #a8a090;"">
+                <div class="flex gap-8 text-sm text-slate-400">
                     <a href="quiz/" class="hover:text-white transition">Квиз</a>
                     <a href="compare/" class="hover:text-white transition">Сравнение</a>
                     <a href="articles/" class="hover:text-white transition">Руководства</a>
                     <a href="about/" class="hover:text-white transition">О Нас</a>
                 </div>
             </div>
-            <div class="border-t style="border-color: #2a3f2a;" mt-8 pt-8 text-center text-sm style="color: #a8a090;"">
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center text-sm text-slate-400">
                 <p>© 2026 BreedFinder. Создано с любовью для ценителей собак по всему миру.</p>
             </div>
         </div>
@@ -399,9 +413,9 @@
                 const matches = breeds.filter(b => b.name.toLowerCase().includes(query) || (b.localName && b.localName.toLowerCase().includes(query)) || (b.aliases && b.aliases.some(a => a.toLowerCase().includes(query)))).slice(0, 8);
                 if (matches.length === 0) { dropdown.classList.add('hidden'); return; }
                 dropdown.innerHTML = matches.map(b => `
-                    <a href="breeds/${b.slug}.html" class="flex items-center gap-3 px-4 py-3 hover:" style="background: #f6f7f2; transition first:rounded-t-2xl last:rounded-b-2xl">
+                    <a href="breeds/${b.slug}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition first:rounded-t-2xl last:rounded-b-2xl">
                         <img src="../images/heads/${b.slug}.webp" alt="${b.localName || b.name}" class="w-10 h-10 rounded-xl object-cover" onerror="this.style.display='none'">
-                        <span class="font-medium style="color: #2a2518;"">${b.localName || b.name}</span>
+                        <span class="font-medium text-warm-800">${b.localName || b.name}</span>
                     </a>
                 `).join('');
                 dropdown.classList.remove('hidden');
