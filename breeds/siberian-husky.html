@@ -19,19 +19,19 @@
     <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] }
+                    fontFamily: { sans: ['Inter', 'sans-serif'], serif: ['Fraunces', 'Georgia', 'serif'] }
                 }
             }
         }
     </script>
     <style>
         .rating-bar { 
-            background: #e2e8f0;
+            background: #e2ddd4;
             position: relative;
             overflow: hidden;
         }
@@ -42,11 +42,11 @@
             top: 0;
             height: 100%;
             width: var(--rating);
-            background: linear-gradient(90deg, #0ea5e9, #2563eb);
+            background: linear-gradient(90deg, #1a5632, #1a5632);
             border-radius: 9999px;
         }
         .card-shadow {
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 4px 12px rgba(0,0,0,0.04);
+            box-shadow: 0 1px 3px rgba(26,86,50,0.05), 0 4px 12px rgba(26,86,50,0.04);
         }
     </style>
 
@@ -87,7 +87,7 @@
         "name": "BreedFinder",
         "logo": {
             "@type": "ImageObject",
-            "url": "https://breedfinder.org/logo-192.png"
+            "url": "https://breedfinder.org/logo-192-green.png"
         }
     },
     "about": {
@@ -108,25 +108,25 @@
     {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/"}, {"@type": "ListItem", "position": 2, "name": "Dog Breeds", "item": "https://breedfinder.org/breeds/"}, {"@type": "ListItem", "position": 3, "name": "Siberian Husky"}]}
     </script>
 </head>
-<body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-slate-800">
+<body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <!-- Header -->
-    <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
+    <header class="bg-white/80 backdrop-blur-md border-b border-[#e2ddd4]/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="../" class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
-                    <img src="../logo-192.png" class="w-10 h-10" alt="BreedFinder">
+                <div class="w-10 h-10 bg-gradient-to-br from-emerald-700 to-emerald-800 rounded-xl flex items-center justify-center text-white shadow-lg shadow-emerald-700/20">
+                    <img src="../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
                 </div>
                 <span class="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="../breeds/" class="text-slate-600 hover:text-sky-700 transition">All Breeds</a>
-                <a href="../quiz" class="text-slate-600 hover:text-sky-700 transition">Breed Quiz</a><div class="relative group">
-                    <button class="flex items-center gap-1 text-slate-600 hover:text-sky-700 py-2">
+                <a href="../breeds/" class="text-[#5c5647] hover:text-emerald-800 transition">All Breeds</a>
+                <a href="../quiz" class="text-[#5c5647] hover:text-emerald-800 transition">Breed Quiz</a><div class="relative group">
+                    <button class="flex items-center gap-1 text-[#5c5647] hover:text-emerald-800 py-2">
                         <i data-lucide="globe" class="w-4 h-4"></i>
                         <span>EN</span>
                     </button>
-                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="./siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-sky-700">English</a><a href="../es/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="../de/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a><a href="../fr/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a><a href="../it/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="../pt/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Português</a><a href="../fi/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Suomi</a><a href="../sv/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a><a href="../nl/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a><a href="../da/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a><a href="../ja/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="../no/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="../pl/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Polski</a><a href="../ru/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a><a href="../tr/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Türkçe</a><a href="../zh/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a>
+                    <div class="absolute right-0 top-full bg-white border border-[#e2ddd4] rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
+                        <a href="./siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] font-semibold text-emerald-800">English</a><a href="../es/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Español</a><a href="../de/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Deutsch</a><a href="../fr/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Français</a><a href="../it/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Italiano</a><a href="../pt/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Português</a><a href="../fi/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Suomi</a><a href="../sv/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Svenska</a><a href="../nl/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Nederlands</a><a href="../da/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Dansk</a><a href="../ja/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">日本語</a><a href="../no/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Norsk</a><a href="../pl/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Polski</a><a href="../ru/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Русский</a><a href="../tr/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Türkçe</a><a href="../zh/breeds/siberian-husky.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">中文</a>
                     </div>
                 </div>
             </nav>
@@ -135,56 +135,56 @@
 
     <main class="max-w-5xl mx-auto px-4 py-8">
         <!-- Breadcrumb -->
-        <nav class="text-sm text-slate-600 mb-6 flex items-center gap-2">
-            <a href="../" class="hover:text-sky-700 transition">Home</a>
-            <i data-lucide="chevron-right" class="w-4 h-4 text-slate-600"></i>
-            <a href="../breeds/" class="hover:text-sky-700 transition">Breeds</a>
-            <i data-lucide="chevron-right" class="w-4 h-4 text-slate-600"></i>
-            <span class="text-slate-700 font-medium">Siberian Husky</span>
+        <nav class="text-sm text-[#5c5647] mb-6 flex items-center gap-2">
+            <a href="../" class="hover:text-emerald-800 transition">Home</a>
+            <i data-lucide="chevron-right" class="w-4 h-4 text-[#5c5647]"></i>
+            <a href="../breeds/" class="hover:text-emerald-800 transition">Breeds</a>
+            <i data-lucide="chevron-right" class="w-4 h-4 text-[#5c5647]"></i>
+            <span class="text-[#3d3829] font-medium">Siberian Husky</span>
         </nav>
 
         <!-- Hero Card -->
-        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-slate-100">
+        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-[#f0ede6]">
             <div class="flex flex-col md:flex-row gap-8">
                 <!-- Image -->
                 <div class="md:w-2/5">
-                    <img src="../images/breeds/siberian-husky.webp" alt="Siberian Husky" class="rounded-2xl w-full aspect-[4/5] object-cover border border-slate-200/50" onerror="this.onerror=null; this.src=''; this.parentElement.innerHTML='<div class=\'bg-gradient-to-br from-slate-100 to-slate-50 rounded-2xl aspect-[4/5] flex items-center justify-center border border-slate-200/50\'><i data-lucide=\'dog\' class=\'w-24 h-24 text-slate-600\'></i></div>'; lucide.createIcons();">
+                    <img src="../images/breeds/siberian-husky.webp" alt="Siberian Husky" class="rounded-2xl w-full aspect-[4/5] object-cover border border-[#e2ddd4]/50" onerror="this.onerror=null; this.src=''; this.parentElement.innerHTML='<div class=\'bg-gradient-to-br from-slate-100 to-slate-50 rounded-2xl aspect-[4/5] flex items-center justify-center border border-[#e2ddd4]/50\'><i data-lucide=\'dog\' class=\'w-24 h-24 text-[#5c5647]\'></i></div>'; lucide.createIcons();">
                 </div>
                 
                 <!-- Info -->
                 <div class="md:w-3/5">
                     <div class="flex items-center gap-2 mb-3">
-                        <span class="bg-sky-100 text-sky-700 text-xs font-semibold px-3 py-1 rounded-full">Working</span>
-                        <span class="bg-sky-100 text-sky-700 text-xs font-semibold px-3 py-1 rounded-full">Medium</span>
+                        <span class="bg-[#eef1e8] text-emerald-800 text-xs font-semibold px-3 py-1 rounded-full">Working</span>
+                        <span class="bg-[#eef1e8] text-emerald-800 text-xs font-semibold px-3 py-1 rounded-full">Medium</span>
                     </div>
                     
-                    <h1 class="text-4xl font-bold text-slate-900 mb-3">Siberian Husky</h1>
-                    <p class="text-lg text-slate-600 mb-6 leading-relaxed">With its outgoing, mischievous nature, the Siberian Husky is a beloved breed for good reason.</p>
+                    <h1 class="text-4xl font-bold text-[#1a2e1a] mb-3 font-serif">Siberian Husky</h1>
+                    <p class="text-lg text-[#5c5647] mb-6 leading-relaxed">With its outgoing, mischievous nature, the Siberian Husky is a beloved breed for good reason.</p>
                     
                     <div class="grid grid-cols-2 gap-4">
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase tracking-wide mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase tracking-wide mb-1 flex items-center gap-1">
                                 <i data-lucide="map-pin" class="w-3 h-3"></i> Origin
                             </div>
-                            <div class="text-slate-800 font-semibold">Siberia, Russia</div>
+                            <div class="text-[#2a2518] font-semibold">Siberia, Russia</div>
                         </div>
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase tracking-wide mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase tracking-wide mb-1 flex items-center gap-1">
                                 <i data-lucide="heart" class="w-3 h-3"></i> Lifespan
                             </div>
-                            <div class="text-slate-800 font-semibold">12-14 years</div>
+                            <div class="text-[#2a2518] font-semibold">12-14 years</div>
                         </div>
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase tracking-wide mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase tracking-wide mb-1 flex items-center gap-1">
                                 <i data-lucide="ruler" class="w-3 h-3"></i> Height
                             </div>
-                            <div class="text-slate-800 font-semibold">50-60 cm<br><span class="text-sm font-normal text-slate-500">20-24 in</span></div>
+                            <div class="text-[#2a2518] font-semibold">50-60 cm<br><span class="text-sm font-normal text-[#7a7265]">20-24 in</span></div>
                         </div>
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase tracking-wide mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase tracking-wide mb-1 flex items-center gap-1">
                                 <i data-lucide="scale" class="w-3 h-3"></i> Weight
                             </div>
-                            <div class="text-slate-800 font-semibold">16-27 kg<br><span class="text-sm font-normal text-slate-500">35-59 lbs</span></div>
+                            <div class="text-[#2a2518] font-semibold">16-27 kg<br><span class="text-sm font-normal text-[#7a7265]">35-59 lbs</span></div>
                         </div>
                     </div>
                 </div>
@@ -192,8 +192,8 @@
         </div>
 
         <!-- Ratings -->
-        <div class="bg-white rounded-2xl p-6 mb-8 shadow-sm border border-slate-100">
-            <h2 class="text-xl font-bold mb-4">Breed Ratings</h2>
+        <div class="bg-white rounded-2xl p-6 mb-8 shadow-sm border border-[#f0ede6]">
+            <h2 class="text-xl font-bold mb-4 font-serif">Breed Ratings</h2>
             <div class="grid md:grid-cols-2 gap-4">
                 <div>
                     <div class="flex justify-between text-sm mb-1"><span>Energy Level</span><span>5/5</span></div>
@@ -228,7 +228,7 @@
 
         <!-- Temperament -->
         <div class="mb-8">
-            <h2 class="text-2xl font-bold text-slate-900 mb-4">Temperament</h2>
+            <h2 class="text-2xl font-bold text-[#1a2e1a] mb-4 font-serif">Temperament</h2>
             <div class="flex flex-wrap gap-2">
                 <span class="bg-emerald-50 text-emerald-700 border border-emerald-200 px-4 py-2 rounded-full text-sm font-medium">Outgoing</span>
                 <span class="bg-emerald-50 text-emerald-700 border border-emerald-200 px-4 py-2 rounded-full text-sm font-medium">Mischievous</span>
@@ -242,59 +242,59 @@
 
         <!-- Content Sections -->
         <div class="space-y-6">
-            <details class="bg-white rounded-2xl card-shadow border border-slate-100 group" open>
+            <details class="bg-white rounded-2xl card-shadow border border-[#f0ede6] group" open>
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-bold text-slate-900 flex items-center gap-3">
-                        <i data-lucide="book-open" class="w-5 h-5 text-sky-500"></i> Overview
+                    <h2 class="text-xl font-bold text-[#1a2e1a] flex items-center gap-3 font-serif">
+                        <i data-lucide="book-open" class="w-5 h-5 text-emerald-700"></i> Overview
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
                 <div class="px-6 pb-6">
-                    <p class="text-slate-600 leading-relaxed">Siberian Huskies are beautiful, athletic dogs bred to run. They're friendly, outgoing, and mischievous. Known for their striking blue eyes and wolf-like appearance.</p>
+                    <p class="text-[#5c5647] leading-relaxed">Siberian Huskies are beautiful, athletic dogs bred to run. They're friendly, outgoing, and mischievous. Known for their striking blue eyes and wolf-like appearance.</p>
                 </div>
             </details>
 
-            <details class="bg-white rounded-2xl card-shadow border border-slate-100 group">
+            <details class="bg-white rounded-2xl card-shadow border border-[#f0ede6] group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-bold text-slate-900 flex items-center gap-3">
-                        <i data-lucide="heart" class="w-5 h-5 text-sky-500"></i> Temperament
+                    <h2 class="text-xl font-bold text-[#1a2e1a] flex items-center gap-3 font-serif">
+                        <i data-lucide="heart" class="w-5 h-5 text-emerald-700"></i> Temperament
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
                 <div class="px-6 pb-6">
-                    <p class="text-slate-600 leading-relaxed">The Siberian Husky is known for being outgoing, mischievous, loyal. They're excellent with children and make wonderful family pets. Their independent nature requires patient, consistent training. Early socialization helps them develop into well-rounded companions.</p>
+                    <p class="text-[#5c5647] leading-relaxed">The Siberian Husky is known for being outgoing, mischievous, loyal. They're excellent with children and make wonderful family pets. Their independent nature requires patient, consistent training. Early socialization helps them develop into well-rounded companions.</p>
                 </div>
             </details>
 
-            <details class="bg-white rounded-2xl card-shadow border border-slate-100 group">
+            <details class="bg-white rounded-2xl card-shadow border border-[#f0ede6] group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-bold text-slate-900 flex items-center gap-3">
-                        <i data-lucide="heart-pulse" class="w-5 h-5 text-sky-500"></i> Health
+                    <h2 class="text-xl font-bold text-[#1a2e1a] flex items-center gap-3 font-serif">
+                        <i data-lucide="heart-pulse" class="w-5 h-5 text-emerald-700"></i> Health
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
                 <div class="px-6 pb-6">
-                    <p class="text-slate-600 leading-relaxed">Generally healthy with a lifespan of 12-14 years. Common concerns include joint problems and skin conditions. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.</p>
+                    <p class="text-[#5c5647] leading-relaxed">Generally healthy with a lifespan of 12-14 years. Common concerns include joint problems and skin conditions. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.</p>
                 </div>
             </details>
 
-            <details class="bg-white rounded-2xl card-shadow border border-slate-100 group">
+            <details class="bg-white rounded-2xl card-shadow border border-[#f0ede6] group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-bold text-slate-900 flex items-center gap-3">
-                        <i data-lucide="activity" class="w-5 h-5 text-sky-500"></i> Exercise
+                    <h2 class="text-xl font-bold text-[#1a2e1a] flex items-center gap-3 font-serif">
+                        <i data-lucide="activity" class="w-5 h-5 text-emerald-700"></i> Exercise
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
                 <div class="px-6 pb-6">
-                    <p class="text-slate-600 leading-relaxed">High energy breed requiring vigorous daily exercise—at least an hour of activity. They thrive with active families who enjoy outdoor activities. Mental stimulation through training and puzzle toys is equally important. Without adequate exercise, they may develop behavioral issues.</p>
+                    <p class="text-[#5c5647] leading-relaxed">High energy breed requiring vigorous daily exercise—at least an hour of activity. They thrive with active families who enjoy outdoor activities. Mental stimulation through training and puzzle toys is equally important. Without adequate exercise, they may develop behavioral issues.</p>
                 </div>
             </details>
         </div>
 
         <!-- THE VERDICT -->
-        <div class="mt-10 bg-gradient-to-br from-sky-50 via-blue-50 to-sky-50 rounded-3xl p-8 border border-sky-100">
-            <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-3">
-                <span class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
+        <div class="mt-10 bg-gradient-to-br from-[#f6f7f2] via-[#eef1e8] to-[#eef1e8] rounded-3xl p-8 border border-[#dde3d4]">
+            <h2 class="text-2xl font-bold text-[#1a2e1a] mb-6 flex items-center gap-3 font-serif">
+                <span class="w-10 h-10 bg-gradient-to-br from-emerald-700 to-emerald-800 rounded-xl flex items-center justify-center text-white shadow-lg shadow-emerald-700/20">
                     <i data-lucide="target" class="w-5 h-5"></i>
                 </span>
                 Is This Breed Right for You?
@@ -302,13 +302,13 @@
             
             <div class="grid md:grid-cols-2 gap-8 mb-8">
                 <div class="bg-white/70 backdrop-blur rounded-2xl p-6 border border-emerald-100">
-                    <h3 class="font-bold text-emerald-700 mb-4 flex items-center gap-2">
+                    <h3 class="font-bold text-emerald-700 mb-4 flex items-center gap-2 font-serif">
                         <span class="w-6 h-6 bg-emerald-500 rounded-full flex items-center justify-center text-white">
                             <i data-lucide="check" class="w-4 h-4"></i>
                         </span>
                         Best For
                     </h3>
-                    <ul class="space-y-3 text-slate-700">
+                    <ul class="space-y-3 text-[#3d3829]">
                         <li class="flex items-start gap-3">
                             <i data-lucide="circle" class="w-2 h-2 mt-2 text-emerald-500 fill-current"></i>
                             <span>Active owners who run/bike</span>
@@ -333,13 +333,13 @@
                     </ul>
                 </div>
                 <div class="bg-white/70 backdrop-blur rounded-2xl p-6 border border-rose-100">
-                    <h3 class="font-bold text-rose-700 mb-4 flex items-center gap-2">
+                    <h3 class="font-bold text-rose-700 mb-4 flex items-center gap-2 font-serif">
                         <span class="w-6 h-6 bg-rose-500 rounded-full flex items-center justify-center text-white">
                             <i data-lucide="x" class="w-4 h-4"></i>
                         </span>
                         Not Ideal For
                     </h3>
-                    <ul class="space-y-3 text-slate-700">
+                    <ul class="space-y-3 text-[#3d3829]">
                         <li class="flex items-start gap-3">
                             <i data-lucide="circle" class="w-2 h-2 mt-2 text-rose-500 fill-current"></i>
                             <span>Hot climates</span>
@@ -365,28 +365,28 @@
                 </div>
             </div>
 
-            <div class="bg-white rounded-2xl p-6 border border-slate-200">
-                <p class="text-lg text-slate-700 leading-relaxed"><strong class="text-slate-900">Our Verdict:</strong> Beautiful but challenging. Huskies need extensive exercise, secure fencing, and experienced handling. They're friendly and loving but independent. Best for active owners in cool climates.</p>
+            <div class="bg-white rounded-2xl p-6 border border-[#e2ddd4]">
+                <p class="text-lg text-[#3d3829] leading-relaxed"><strong class="text-[#1a2e1a]">Our Verdict:</strong> Beautiful but challenging. Huskies need extensive exercise, secure fencing, and experienced handling. They're friendly and loving but independent. Best for active owners in cool climates.</p>
             </div>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="mt-16 bg-slate-50 border-t border-slate-200">
+    <footer class="mt-16 bg-[#faf9f6] border-t border-[#e2ddd4]">
         <div class="max-w-5xl mx-auto px-4 py-8 text-center">
             <div class="flex items-center justify-center gap-3 mb-4">
-                <div class="w-8 h-8 bg-gradient-to-br from-sky-500 to-blue-600 rounded-lg flex items-center justify-center text-white">
+                <div class="w-8 h-8 bg-gradient-to-br from-emerald-700 to-emerald-800 rounded-lg flex items-center justify-center text-white">
                     <i data-lucide="dog" class="w-4 h-4"></i>
                 </div>
-                <span class="font-bold text-slate-800">BreedFinder</span>
+                <span class="font-bold text-[#2a2518]">BreedFinder</span>
             </div>
-            <p class="text-sm text-slate-600 mb-4">Find your perfect dog breed match</p>
-            <div class="flex justify-center gap-6 text-sm text-slate-600">
-                <a href="../breeds/" class="hover:text-sky-700 transition">All Breeds</a>
-                <a href="../quiz" class="hover:text-sky-700 transition">Breed Quiz</a>
-                <a href="../about" class="hover:text-sky-700 transition">About</a>
+            <p class="text-sm text-[#5c5647] mb-4">Find your perfect dog breed match</p>
+            <div class="flex justify-center gap-6 text-sm text-[#5c5647]">
+                <a href="../breeds/" class="hover:text-emerald-800 transition">All Breeds</a>
+                <a href="../quiz" class="hover:text-emerald-800 transition">Breed Quiz</a>
+                <a href="../about" class="hover:text-emerald-800 transition">About</a>
             </div>
-            <p class="text-xs text-slate-600 mt-6">© 2026 BreedFinder. Made with care for dog lovers.</p>
+            <p class="text-xs text-[#5c5647] mt-6">© 2026 BreedFinder. Made with care for dog lovers.</p>
         </div>
     </footer>
 

@@ -14,11 +14,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700');
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
-        .card-shadow { box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
-        .rating-bar { background: #e2e8f0; position: relative; overflow: hidden; }
-        .rating-bar::after { content: ''; position: absolute; left: 0; top: 0; height: 100%; width: var(--rating); background: linear-gradient(90deg, #0ea5e9, #2563eb); border-radius: 9999px; }
+        .card-shadow { box-shadow: 0 4px 20px rgba(26,86,50,0.05); }
+        .rating-bar { background: #e2ddd4; position: relative; overflow: hidden; }
+        .rating-bar::after { content: ''; position: absolute; left: 0; top: 0; height: 100%; width: var(--rating); background: linear-gradient(90deg, #1a5632, #1a5632); border-radius: 9999px; }
     </style>
 
     <!-- Open Graph -->
@@ -55,7 +55,7 @@
         "name": "BreedFinder",
         "logo": {
             "@type": "ImageObject",
-            "url": "https://breedfinder.org/logo-192.png"
+            "url": "https://breedfinder.org/logo-192-green.png"
         }
     },
     "about": {
@@ -78,24 +78,24 @@
     {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/pl/"}, {"@type": "ListItem", "position": 2, "name": "Breeds", "item": "https://breedfinder.org/pl/breeds/"}, {"@type": "ListItem", "position": 3, "name": "Jamnik"}]}
     </script>
 </head>
-<body class="bg-slate-50 min-h-screen">
-    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+<body class="bg-[#faf9f6] min-h-screen">
+    <header class="bg-white border-b border-[#e2ddd4] sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="../" class="flex items-center gap-2">
-                <img src="../../logo-192.png" class="w-10 h-10" alt="BreedFinder">
-                <span class="font-odważny text-xl text-slate-800">BreedFinder</span>
+                <img src="../../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
+                <span class="font-odważny text-xl text-[#2a2518]">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-4 text-sm">
-                <a href="../search/" class="text-slate-600 hover:text-sky-700">Przeglądaj Rasy</a>
-                <a href="../quiz/" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-4 py-2 rounded-xl">Zrób Quiz</a>
+                <a href="../search/" class="text-[#5c5647] hover:text-emerald-800">Przeglądaj Rasy</a>
+                <a href="../quiz/" class="bg-gradient-to-r from-emerald-700 to-emerald-800 text-white px-4 py-2 rounded-xl">Zrób Quiz</a>
             
                 <div class="relative group">
-                    <button class="flex items-center gap-1 text-slate-600 hover:text-sky-700 py-2">
+                    <button class="flex items-center gap-1 text-[#5c5647] hover:text-emerald-800 py-2">
                         <i data-lucide="globe" class="w-4 h-4"></i>
                         <span>PL</span>
                     </button>
-                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="../../breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a><a href="../../es/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="../../de/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a><a href="../../fr/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a><a href="../../it/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="../../pt/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Português</a><a href="../../fi/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Suomi</a><a href="../../sv/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a><a href="../../nl/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a><a href="../../da/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a><a href="../../ja/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="../../no/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="../../pl/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 font-semiodważny text-sky-700">Polski</a><a href="../../ru/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a><a href="../../tr/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Türkçe</a><a href="../../zh/breeds/dachshund.html" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a>
+                    <div class="absolute right-0 top-full bg-white border border-[#e2ddd4] rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
+                        <a href="../../breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">English</a><a href="../../es/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Español</a><a href="../../de/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Deutsch</a><a href="../../fr/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Français</a><a href="../../it/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Italiano</a><a href="../../pt/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Português</a><a href="../../fi/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Suomi</a><a href="../../sv/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Svenska</a><a href="../../nl/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Nederlands</a><a href="../../da/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Dansk</a><a href="../../ja/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">日本語</a><a href="../../no/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Norsk</a><a href="../../pl/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] font-semiodważny text-emerald-800">Polski</a><a href="../../ru/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Русский</a><a href="../../tr/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">Türkçe</a><a href="../../zh/breeds/dachshund.html" class="block px-4 py-2 hover:bg-[#f0ede6] text-[#5c5647]">中文</a>
                     </div>
                 </div>
             </nav>
@@ -103,51 +103,51 @@
     </header>
 
     <main class="max-w-5xl mx-auto px-4 py-8">
-        <nav class="text-sm text-slate-600 mb-6 flex items-center gap-2">
-            <a href="../" class="hover:text-sky-700">Strona główna</a>
+        <nav class="text-sm text-[#5c5647] mb-6 flex items-center gap-2">
+            <a href="../" class="hover:text-emerald-800">Strona główna</a>
             <i data-lucide="chevron-right" class="w-4 h-4"></i>
-            <a href="../search/" class="hover:text-sky-700">Przeglądaj Rasy</a>
+            <a href="../search/" class="hover:text-emerald-800">Przeglądaj Rasy</a>
             <i data-lucide="chevron-right" class="w-4 h-4"></i>
-            <span class="text-slate-700 font-medium">Jamnik</span>
+            <span class="text-[#3d3829] font-medium">Jamnik</span>
         </nav>
 
         <!-- Hero Card -->
-        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-slate-100">
+        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-[#f0ede6]">
             <div class="flex flex-col md:flex-row gap-8">
                 <div class="md:w-2/5">
-                    <img src="../../images/breeds/dachshund.webp" alt="Jamnik" class="rounded-2xl w-full aspect-[4/5] object-cover border border-slate-200/50" onerror="this.src='../../images/heads/dachshund.webp'">
+                    <img src="../../images/breeds/dachshund.webp" alt="Jamnik" class="rounded-2xl w-full aspect-[4/5] object-cover border border-[#e2ddd4]/50" onerror="this.src='../../images/heads/dachshund.webp'">
                 </div>
                 <div class="md:w-3/5">
                     <div class="flex items-center gap-2 mb-3">
-                        <span class="bg-sky-100 text-sky-700 text-xs font-semiodważny px-3 py-1 rounded-full">Ogar</span>
-                        <span class="bg-sky-100 text-sky-700 text-xs font-semiodważny px-3 py-1 rounded-full">Mały</span>
+                        <span class="bg-[#eef1e8] text-emerald-800 text-xs font-semiodważny px-3 py-1 rounded-full">Ogar</span>
+                        <span class="bg-[#eef1e8] text-emerald-800 text-xs font-semiodważny px-3 py-1 rounded-full">Mały</span>
                     </div>
-                    <h1 class="text-4xl font-odważny text-slate-900 mb-3">Jamnik</h1>
-                    <p class="text-lg text-slate-600 mb-6 leading-relaxed">bystry, uparty mała rasa która jest wspaniałym towarzyszem.</p>
+                    <h1 class="text-4xl font-odważny text-[#1a2e1a] mb-3 font-serif">Jamnik</h1>
+                    <p class="text-lg text-[#5c5647] mb-6 leading-relaxed">bystry, uparty mała rasa która jest wspaniałym towarzyszem.</p>
                     <div class="grid grid-cols-2 gap-4">
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase mb-1 flex items-center gap-1">
                                 <i data-lucide="map-pin" class="w-3 h-3"></i> Pochodzenie
                             </div>
-                            <div class="text-slate-800 font-semiodważny">Niemcy</div>
+                            <div class="text-[#2a2518] font-semiodważny">Niemcy</div>
                         </div>
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase mb-1 flex items-center gap-1">
                                 <i data-lucide="heart" class="w-3 h-3"></i> Długość życia
                             </div>
-                            <div class="text-slate-800 font-semiodważny">12-16 lat</div>
+                            <div class="text-[#2a2518] font-semiodważny">12-16 lat</div>
                         </div>
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase mb-1 flex items-center gap-1">
                                 <i data-lucide="ruler" class="w-3 h-3"></i> Wysokość
                             </div>
-                            <div class="text-slate-800 font-semiodważny">13-23 cm<br><span class="text-sm font-normal text-slate-500">5-9 in</span></div>
+                            <div class="text-[#2a2518] font-semiodważny">13-23 cm<br><span class="text-sm font-normal text-[#7a7265]">5-9 in</span></div>
                         </div>
-                        <div class="bg-slate-50 rounded-xl p-4">
-                            <div class="text-xs font-medium text-slate-600 uppercase mb-1 flex items-center gap-1">
+                        <div class="bg-[#faf9f6] rounded-xl p-4">
+                            <div class="text-xs font-medium text-[#5c5647] uppercase mb-1 flex items-center gap-1">
                                 <i data-lucide="scale" class="w-3 h-3"></i> Waga
                             </div>
-                            <div class="text-slate-800 font-semiodważny">5-15 kg<br><span class="text-sm font-normal text-slate-500">11-33 lbs</span></div>
+                            <div class="text-[#2a2518] font-semiodważny">5-15 kg<br><span class="text-sm font-normal text-[#7a7265]">11-33 lbs</span></div>
                         </div>
                     </div>
                 </div>
@@ -155,8 +155,8 @@
         </div>
 
         <!-- Ratings -->
-        <div class="bg-white rounded-2xl p-6 mb-8 shadow-sm border border-slate-100">
-            <h2 class="text-xl font-odważny mb-4">Oceny Rasy</h2>
+        <div class="bg-white rounded-2xl p-6 mb-8 shadow-sm border border-[#f0ede6]">
+            <h2 class="text-xl font-odważny mb-4 font-serif">Oceny Rasy</h2>
             <div class="grid md:grid-cols-2 gap-4">
                 <div>
                     <div class="flex justify-between text-sm mb-1"><span>Poziom Energii</span><span>3/5</span></div>
@@ -186,85 +186,85 @@
         </div>
 
         <!-- Temperament -->
-        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-slate-100">
-            <h2 class="text-2xl font-odważny text-slate-900 mb-6">Temperament</h2>
-            <div class="flex flex-wrap gap-2"><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">bystry</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">uparty</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">oddany</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">żywy</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-slate-700 px-4 py-2 rounded-full text-sm font-medium">zabawny</span></div>
+        <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-[#f0ede6]">
+            <h2 class="text-2xl font-odważny text-[#1a2e1a] mb-6 font-serif">Temperament</h2>
+            <div class="flex flex-wrap gap-2"><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">bystry</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">uparty</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">oddany</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">żywy</span><span class="bg-gradient-to-r from-sky-100 to-blue-100 text-[#3d3829] px-4 py-2 rounded-full text-sm font-medium">zabawny</span></div>
         </div>
 
         <!-- Content Sections -->
         <div class="space-y-4 mb-8">
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group" open>
+            <details class="bg-white rounded-2xl shadow-sm border border-[#f0ede6] group" open>
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-odważny flex items-center gap-3">
-                        <i data-lucide="book-open" class="w-5 h-5 text-sky-500"></i> Przegląd
+                    <h2 class="text-xl font-odważny flex items-center gap-3 font-serif">
+                        <i data-lucide="book-open" class="w-5 h-5 text-emerald-700"></i> Przegląd
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">Kultowy "jamnik" jest słynnie długi i nisko osadzony. Ciekawski, żywy i czarujący, ze szczekaniem godnym większego psa – Jamnik jest sprytny i odważny, niekiedy aż do brawury.</p></div>
+                <div class="px-6 pb-6"><p class="text-[#5c5647]">Kultowy "jamnik" jest słynnie długi i nisko osadzony. Ciekawski, żywy i czarujący, ze szczekaniem godnym większego psa – Jamnik jest sprytny i odważny, niekiedy aż do brawury.</p></div>
             </details>
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group">
+            <details class="bg-white rounded-2xl shadow-sm border border-[#f0ede6] group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-odważny flex items-center gap-3">
-                        <i data-lucide="heart" class="w-5 h-5 text-sky-500"></i> Temperament
+                    <h2 class="text-xl font-odważny flex items-center gap-3 font-serif">
+                        <i data-lucide="heart" class="w-5 h-5 text-emerald-700"></i> Temperament
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">Jamniki są śmiałe i ciekawskie, z nutką uporu. Silnie przywiązują się do właścicieli, lecz mogą być nieufne wobec obcych. Mają zaskakująco głośny szczek.</p></div>
+                <div class="px-6 pb-6"><p class="text-[#5c5647]">Jamniki są śmiałe i ciekawskie, z nutką uporu. Silnie przywiązują się do właścicieli, lecz mogą być nieufne wobec obcych. Mają zaskakująco głośny szczek.</p></div>
             </details>
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group">
+            <details class="bg-white rounded-2xl shadow-sm border border-[#f0ede6] group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-odważny flex items-center gap-3">
-                        <i data-lucide="heart-pulse" class="w-5 h-5 text-sky-500"></i> Zdrowie
+                    <h2 class="text-xl font-odważny flex items-center gap-3 font-serif">
+                        <i data-lucide="heart-pulse" class="w-5 h-5 text-emerald-700"></i> Zdrowie
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">Generalnie zdrowy, o średniej długości życia 12–16 lat. Do typowych problemów zdrowotnych należą zwichnięcie rzepki i problemy stomatologiczne. Regularne wizyty u weterynarza i profilaktyczna opieka są ważne. Utrzymanie prawidłowej wagi pomaga zapobiegać wielu problemom zdrowotnym.</p></div>
+                <div class="px-6 pb-6"><p class="text-[#5c5647]">Generalnie zdrowy, o średniej długości życia 12–16 lat. Do typowych problemów zdrowotnych należą zwichnięcie rzepki i problemy stomatologiczne. Regularne wizyty u weterynarza i profilaktyczna opieka są ważne. Utrzymanie prawidłowej wagi pomaga zapobiegać wielu problemom zdrowotnym.</p></div>
             </details>
-            <details class="bg-white rounded-2xl shadow-sm border border-slate-100 group">
+            <details class="bg-white rounded-2xl shadow-sm border border-[#f0ede6] group">
                 <summary class="p-6 cursor-pointer flex items-center justify-between">
-                    <h2 class="text-xl font-odważny flex items-center gap-3">
-                        <i data-lucide="activity" class="w-5 h-5 text-sky-500"></i> Ćwiczenia
+                    <h2 class="text-xl font-odważny flex items-center gap-3 font-serif">
+                        <i data-lucide="activity" class="w-5 h-5 text-emerald-700"></i> Ćwiczenia
                     </h2>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-slate-600 group-open:rotate-180 transition-transform"></i>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-[#5c5647] group-open:rotate-180 transition-transform"></i>
                 </summary>
-                <div class="px-6 pb-6"><p class="text-slate-600">Umiarkowane potrzeby ruchowe – codzienne spacery i regularne zabawy. Lubi łączyć aktywność fizyczną z odpoczynkiem. Interaktywne gry i sesje szkoleniowe zapewniają stymulację umysłową. Regularny harmonogram ćwiczeń utrzymuje go w zdrowiu i dobrej formie.</p></div>
+                <div class="px-6 pb-6"><p class="text-[#5c5647]">Umiarkowane potrzeby ruchowe – codzienne spacery i regularne zabawy. Lubi łączyć aktywność fizyczną z odpoczynkiem. Interaktywne gry i sesje szkoleniowe zapewniają stymulację umysłową. Regularny harmonogram ćwiczeń utrzymuje go w zdrowiu i dobrej formie.</p></div>
             </details>
         </div>
 
         <!-- Verdict -->
-        <div class="bg-gradient-to-br from-sky-50 via-blue-50 to-sky-50 rounded-2xl p-6 mb-8 border border-sky-100">
-            <h2 class="text-xl font-odważny mb-6 flex items-center gap-3">
-                <span class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center text-white">⦿</span>
+        <div class="bg-gradient-to-br from-[#f6f7f2] via-[#eef1e8] to-[#eef1e8] rounded-2xl p-6 mb-8 border border-[#dde3d4]">
+            <h2 class="text-xl font-odważny mb-6 flex items-center gap-3 font-serif">
+                <span class="w-10 h-10 bg-gradient-to-br from-emerald-700 to-emerald-800 rounded-xl flex items-center justify-center text-white">⦿</span>
                 Czy Ta Rasa Jest Dla Ciebie?
             </h2>
             <div class="grid md:grid-cols-2 gap-6 mb-6">
                 <div class="bg-white/80 rounded-xl p-5 border border-emerald-100">
-                    <h3 class="font-odważny text-emerald-700 mb-3 flex items-center gap-2">
+                    <h3 class="font-odważny text-emerald-700 mb-3 flex items-center gap-2 font-serif">
                         <span class="text-emerald-500">✓</span> Idealna Dla
                     </h3>
-                    <ul class="space-y-2 text-slate-700 text-sm"><li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Mieszkańcy mieszkań</span></li>
+                    <ul class="space-y-2 text-[#3d3829] text-sm"><li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Mieszkańcy mieszkań</span></li>
 <li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Single i pary</span></li>
 <li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Osoby szukające small but odważny psa</span></li>
 <li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Seniorzy</span></li>
 <li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-emerald-500 rounded-full"></span><span>Osoby, które lubią psa z charakterem</span></li></ul>
                 </div>
                 <div class="bg-white/80 rounded-xl p-5 border border-rose-100">
-                    <h3 class="font-odważny text-rose-700 mb-3 flex items-center gap-2">
+                    <h3 class="font-odważny text-rose-700 mb-3 flex items-center gap-2 font-serif">
                         <span class="text-rose-500">✗</span> Nieidealna Dla
                     </h3>
-                    <ul class="space-y-2 text-slate-700 text-sm"><li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>Rodziny z małymi dziećmi</span></li>
+                    <ul class="space-y-2 text-[#3d3829] text-sm"><li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>Rodziny z małymi dziećmi</span></li>
 <li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>Osoby szukające łatwego szkolenia</span></li>
 <li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>Aktywni biegacze/wędrowcy</span></li>
 <li class="flex items-start gap-3"><span class="w-2 h-2 mt-2 bg-rose-500 rounded-full"></span><span>Domy z wieloma schodami</span></li></ul>
                 </div>
             </div>
-            <div class="bg-white/80 rounded-xl p-5 border border-slate-200">
-                <p class="text-slate-700"><strong>Nasz Werdykt:</strong> Odważny i charakterny. Jamniki są inteligentne, dzielne i pełne osobowości. Możliwe problemy z kręgosłupem, ważna kontrola wagi.</p>
+            <div class="bg-white/80 rounded-xl p-5 border border-[#e2ddd4]">
+                <p class="text-[#3d3829]"><strong>Nasz Werdykt:</strong> Odważny i charakterny. Jamniki są inteligentne, dzielne i pełne osobowości. Możliwe problemy z kręgosłupem, ważna kontrola wagi.</p>
             </div>
         </div>
 
         <div class="text-center">
-            <a href="../search/" class="inline-flex items-center gap-2 text-sky-700 font-semiodważny hover:text-sky-700">
+            <a href="../search/" class="inline-flex items-center gap-2 text-emerald-800 font-semiodważny hover:text-emerald-800">
                 <i data-lucide="arrow-left" class="w-4 h-4"></i>
                 Przeglądaj Rasy
             </a>
