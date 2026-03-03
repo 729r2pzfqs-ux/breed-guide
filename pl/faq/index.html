@@ -11,14 +11,14 @@
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600" rel="stylesheet">
     <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Plus Jakarta Sans','sans-serif']}}}}</script>
     <style>.faq-item[open] .faq-icon{transform:rotate(180deg);}</style>
 </head>
-<body class="bg-slate-50 min-h-screen text-slate-800">
+<body class="min-h-screen" style="background: linear-gradient(135deg, #f6f7f2 0%, #faf9f6 50%, #eef1e8 100%); color: #2a2518; min-h-screen text-slate-800">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="../" class="flex items-center gap-3"><img src="../../logo-192.png" class="w-10 h-10 rounded-xl" alt="BreedFinder"><span class="text-xl font-bold">BreedFinder</span></a>
+            <a href="../" class="flex items-center gap-3"><img src="../../logo-192-green.png" class="w-10 h-10 " alt="BreedFinder"><span class="text-xl font-bold font-serif" style="color: #1a5632;">BreedFinder</span></a>
             <nav class="flex items-center gap-6 text-sm font-medium">
                 <a href="../search/" class="text-slate-600 hover:text-sky-700">Wszystkie Rasy</a>
                 <a href="../quiz/" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-5 py-2.5 rounded-xl font-semibold">Rozpocznij Quiz</a>
@@ -34,11 +34,11 @@
             <section>
                 <h2 class="text-xl font-bold text-slate-900 mb-4">🐕 Wybór Odpowiedniej Rasy</h2>
                 <div class="space-y-3">
-                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Jak wybrać odpowiednią rasę psa?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><p>Weź pod uwagę swoje mieszkanie, poziom aktywności i sytuację rodzinną. <a href="../quiz/" class="text-sky-700 underline">Zrób test ras →</a></p></div>
                     </details>
-                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Szczeniak czy dorosły pies?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><strong>Szczeniaki</strong> wymagają więcej czasu i szkolenia. <strong>Dorosłe psy</strong> są często spokojniejsze.</div>
                     </details>
@@ -47,11 +47,11 @@
             <section>
                 <h2 class="text-xl font-bold text-slate-900 mb-4">🏠 Styl Życia & Mieszkanie</h2>
                 <div class="space-y-3">
-                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Najlepsze psy do mieszkań?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Buldog Francuski — spokojny</li><li>Cavalier — adaptacyjny</li><li>Mops — kanapowiec</li><li>Chart — spokojny w domu</li></ul><a href="../search/?apartment=1" class="text-sky-700 underline mt-2 inline-block">Zobacz wszystkie rasy do mieszkań →</a></div>
                     </details>
-                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Najlepsze psy dla rodzin z dziećmi?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Labrador Retriever</li><li>Golden Retriever</li><li>Beagle</li><li>Collie</li></ul><a href="../search/?kids=1" class="text-sky-700 underline mt-2 inline-block">Zobacz wszystkie rasy dla rodzin →</a></div>
                     </details>
@@ -60,11 +60,11 @@
             <section>
                 <h2 class="text-xl font-bold text-slate-900 mb-4">🧬 Zdrowie & Pielęgnacja</h2>
                 <div class="space-y-3">
-                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Czy istnieją rasy hipoalergiczne?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><p>Żaden pies nie jest w 100% hipoalergiczny. Pudel, bichon frise i sznaucer pasują lepiej dla alergików.</p></div>
                     </details>
-                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Które rasy najmniej linieją?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><p>Pudle, bichon frise, sznaucery i yorkshire terriery linieją mało. <a href="../search/?shedding=minimal" class="text-sky-700 underline mt-2 inline-block">Zobacz mało linejące rasy →</a></p></div>
                     </details>
@@ -73,11 +73,11 @@
             <section>
                 <h2 class="text-xl font-bold text-slate-900 mb-4">⏱️ Ruch & Szkolenie</h2>
                 <div class="space-y-3">
-                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Ile ruchu potrzebują psy?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><p>Energiczne rasy (border collie, husky) 2+ godziny. Umiarkowane (labrador) 1 godzina. Spokojniejsze (buldog) 30 minut.</p></div>
                     </details>
-                    <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
+                    <details class="faq-item bg-white border " style="border-color: #f0ede6; rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Które rasy są najłatwiejsze do szkolenia?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
                         <div class="px-5 pb-5 text-slate-600"><p>Border collie, pudle, owczarki niemieckie i labradory są łatwe do szkolenia. <a href="../search/?train=1" class="text-sky-700 underline mt-2 inline-block">Zobacz łatwe do szkolenia rasy →</a></p></div>
                     </details>
@@ -85,7 +85,7 @@
             </section>
         </div>
     </main>
-    <footer class="bg-slate-900 text-slate-300 py-8 px-4 mt-12">
+    <footer class="" style="background: #1a2e1a; text-slate-300 py-8 px-4 mt-12">
         <div class="max-w-6xl mx-auto text-center">
             <p class="text-sm">Stworzone z miłością dla miłośników psów</p>
         </div>
