@@ -188,12 +188,12 @@
                 <!-- Dark mode removed -->
                 <a href="quiz" class="text-white px-5 py-2.5 rounded-xl font-semibold transition" style="background: #1a5632;" onmouseover="this.style.boxShadow='0 8px 20px rgba(26,86,50,0.25)'" onmouseout="this.style.boxShadow='none'">Take Quiz</a>
                 <!-- Language selector -->
-                <div class="relative group">
-                    <button class="flex items-center gap-1 py-2 transition" style="color: #5c5647;" onmouseover="this.style.color='#1a5632'" onmouseout="this.style.color='#5c5647'">
+                <div class="relative" id="lang-selector">
+                    <button onclick="document.getElementById('lang-dropdown').classList.toggle('hidden')" class="flex items-center gap-1 py-2 transition" style="color: #5c5647;">
                         <i data-lucide="globe" class="w-4 h-4"></i>
                         <span>EN</span>
                     </button>
-                    <div class="absolute right-0 top-full bg-white border rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent" style="border-color: #e2ddd4;">
+                    <div id="lang-dropdown" class="absolute right-0 top-full bg-white border rounded-xl shadow-xl hidden min-w-[140px] py-2 max-h-80 overflow-y-auto z-50" style="border-color: #e2ddd4;">
                         <a href="./" class="block px-4 py-2 font-semibold" style="color: #1a5632; background: #f0ede6;" onmouseover="this.style.background='#e2ddd4'" onmouseout="this.style.background='#f0ede6'">English</a><a href="es/" class="block px-4 py-2 hover:bg-warm-100 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Español</a><a href="de/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Deutsch</a><a href="fr/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Français</a><a href="it/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Italiano</a><a href="pt/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Português</a><a href="fi/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Suomi</a><a href="sv/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Svenska</a><a href="nl/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Nederlands</a><a href="da/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Dansk</a><a href="ja/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">日本語</a><a href="no/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Norsk</a><a href="pl/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Polski</a><a href="ru/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Русский</a><a href="tr/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">Türkçe</a><a href="zh/" class="block px-4 py-2 transition" style="color: #5c5647;" onmouseover="this.style.background='#f0ede6'" onmouseout="this.style.background=''">中文</a>
                     </div>
                 </div>
@@ -563,5 +563,15 @@
     </script>
 
     <!-- Dark mode script removed -->
+<script>
+    // Close language dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+        const dropdown = document.getElementById('lang-dropdown');
+        const selector = document.getElementById('lang-selector');
+        if (dropdown && selector && !selector.contains(e.target)) {
+            dropdown.classList.add('hidden');
+        }
+    });
+    </script>
 </body>
 </html>
