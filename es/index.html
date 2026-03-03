@@ -76,17 +76,17 @@
 </head>
 <body class="bg-white min-h-screen font-sans" style="color: #2a2518;">
     <header class="bg-white/80 backdrop-blur-md border-b sticky top-0 z-50" style="border-color: #f0ede6;">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="./" class="flex items-center gap-3">
-                <img src="../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
-                <span class="text-xl font-bold font-serif" style="color: #1a5632;">BreedFinder</span>
+        <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+            <a href="./" class="flex items-center gap-2 shrink-0">
+                <div class="w-10 h-10 rounded-xl flex items-center justify-center shadow-sm" style="background: #eef1e8;"><img src="../logo-192-green.png" class="w-8 h-8" alt="BreedFinder"></div>
+                <span class="text-lg font-bold font-serif" style="color: #1a5632;">BreedFinder</span>
             </a>
-            <nav class="flex items-center gap-4 md:gap-6 text-sm font-medium">
-                <a href="search/" class="transition" style="color: #5c5647;" onmouseover="this.style.color='#1a5632'" onmouseout="this.style.color='#5c5647'" flex items-center">
+            <nav class="flex items-center gap-3 md:gap-5 text-sm font-medium">
+                <a href="search/" class="hidden sm:block transition whitespace-nowrap" style="color: #5c5647;" onmouseover="this.style.color='#1a5632'" onmouseout="this.style.color='#5c5647'" flex items-center">
                     <i data-lucide="search" class="w-5 h-5 md:hidden"></i>
                     <span class="hidden md:inline">Ver Razas</span>
                 </a>
-                <a href="quiz/" class="text-white px-5 py-2.5 rounded-xl font-semibold transition" style="background: #1a5632;" onmouseover="this.style.boxShadow='0 8px 20px rgba(26,86,50,0.25)'" onmouseout="this.style.boxShadow='none'">Quiz</a>
+                <a href="quiz/" class="text-white px-4 py-2 rounded-xl font-semibold text-sm transition whitespace-nowrap" style="background: #1a5632;" onmouseover="this.style.boxShadow='0 8px 20px rgba(26,86,50,0.25)'" onmouseout="this.style.boxShadow='none'">Quiz</a>
                 <div class="relative" id="lang-selector">
                     <button onclick="document.getElementById('lang-dropdown').classList.toggle('hidden')" class="flex items-center gap-1 py-2 transition" style="color: #5c5647;" onmouseover="this.style.color='#1a5632'" onmouseout="this.style.color='#5c5647'">
                         <i data-lucide="globe" class="w-4 h-4"></i>
@@ -365,7 +365,7 @@
         <div class="max-w-6xl mx-auto">
             <div class="flex flex-col md:flex-row items-center justify-between gap-6">
                 <div class="flex items-center gap-3">
-                    <img src="../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
+                    <div class="w-10 h-10 rounded-xl flex items-center justify-center shadow-sm" style="background: #eef1e8;"><img src="../logo-192-green.png" class="w-8 h-8" alt="BreedFinder"></div>
                     <span class="text-xl font-bold">BreedFinder</span>
                 </div>
                 <div class="flex gap-8 text-sm text-slate-400">
