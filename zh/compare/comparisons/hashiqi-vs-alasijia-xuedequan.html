@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>* { font-family: 'Plus Jakarta Sans', sans-serif; }</style>
 </head>
-<body class="bg-gradient-to-br from-sky-50 via-white to-blue-50 min-h-screen text-slate-800">
+<body class="bg-white min-h-screen text-slate-800">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="../../" class="flex items-center gap-3">
@@ -23,8 +23,8 @@
                 <span class="text-xl font-bold">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="../../breeds" class="text-slate-600 hover:text-sky-700">所有品种</a>
-                <a href="../" class="text-slate-600 hover:text-sky-700">比较</a>
+                <a href="../../breeds" class="text-slate-600 hover:text-forest">所有品种</a>
+                <a href="../" class="text-slate-600 hover:text-forest">比较</a>
                 <a href="../../quiz" class="bg-sky-500 text-white px-5 py-2.5 rounded-xl font-semibold">参加测验</a>
             </nav>
         </div>
@@ -37,7 +37,7 @@
 
         <div class="text-center mb-12">
             <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
-                <span class="text-amber-500">西伯利亚哈士奇</span>
+                <span class="text-forest">西伯利亚哈士奇</span>
                 <span class="text-slate-600 mx-4">vs</span>
                 <span class="text-yellow-500">阿拉斯加雪橇犬</span>
             </h1>
@@ -47,14 +47,14 @@
         <!-- Breed Cards -->
         <div class="grid md:grid-cols-2 gap-8 mb-12">
             <div class="bg-white rounded-3xl shadow-xl overflow-hidden">
-                <div class="bg-gradient-to-r from-amber-500 to-amber-600 p-6 text-white text-center">
+                <div class="bg-gradient-to-r from-forest to-forest p-6 text-white text-center">
                     <img src="../../../images/heads/siberian-husky.webp" alt="西伯利亚哈士奇" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-white/30">
                     <h2 class="text-2xl font-bold">西伯利亚哈士奇</h2>
-                    <p class="text-amber-100">快速雪橇犬</p>
+                    <p class="text-white/80">快速雪橇犬</p>
                 </div>
                 <div class="p-6">
                     <p class="text-slate-600 mb-4">西伯利亚哈士奇是一种运动型、耐力强的雪橇犬，以蓝眼睛和友好性格著称。</p>
-                    <a href="../../breeds/siberian-husky" class="text-sky-700 font-semibold">查看完整资料 →</a>
+                    <a href="../../breeds/siberian-husky" class="text-forest font-semibold">查看完整资料 →</a>
                 </div>
             </div>
             <div class="bg-white rounded-3xl shadow-xl overflow-hidden">
@@ -65,7 +65,7 @@
                 </div>
                 <div class="p-6">
                     <p class="text-slate-600 mb-4">阿拉斯加雪橇犬是一种强壮、体格健壮的雪橇犬，为力量和耐力而培育。</p>
-                    <a href="../../breeds/alaskan-malamute" class="text-sky-700 font-semibold">查看完整资料 →</a>
+                    <a href="../../breeds/alaskan-malamute" class="text-forest font-semibold">查看完整资料 →</a>
                 </div>
             </div>
         </div>
@@ -78,18 +78,18 @@
             <table class="w-full">
                 <thead><tr class="bg-slate-50">
                     <th class="p-4 text-left">属性</th>
-                    <th class="p-4 text-center text-amber-600">西伯利亚哈士奇</th>
+                    <th class="p-4 text-center text-forest">西伯利亚哈士奇</th>
                     <th class="p-4 text-center text-yellow-600">阿拉斯加雪橇犬</th>
                 </tr></thead>
                 <tbody class="divide-y divide-slate-100">
                     <tr><td class="p-4">📏 体型</td><td class="p-4 text-center font-semibold">大型</td><td class="p-4 text-center font-semibold">大型</td></tr>
                     <tr class="bg-slate-50/50"><td class="p-4">⏳ 寿命</td><td class="p-4 text-center">10-12 年</td><td class="p-4 text-center">10-12 年</td></tr>
-                    <tr><td class="p-4">⚡ 精力水平</td><td class="p-4 text-center"><span class="text-amber-500">●●●●●</span><br><span class="text-sm">非常高</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●●○</span><br><span class="text-sm">高</span></td></tr>
-                    <tr class="bg-slate-50/50"><td class="p-4">✂️ 美容需求</td><td class="p-4 text-center"><span class="text-amber-500">●●○○○</span><br><span class="text-sm">中等</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●○○</span><br><span class="text-sm">中等</span></td></tr>
-                    <tr><td class="p-4">🎓 可训练性</td><td class="p-4 text-center"><span class="text-amber-500">●●●●●</span><br><span class="text-sm">优秀</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●●●</span><br><span class="text-sm">优秀</span></td></tr>
-                    <tr class="bg-slate-50/50"><td class="p-4">👶 儿童友好</td><td class="p-4 text-center"><span class="text-amber-500">●●●●●</span><br><span class="text-sm">优秀</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●●●</span><br><span class="text-sm">优秀</span></td></tr>
-                    <tr><td class="p-4">🏠 适合公寓</td><td class="p-4 text-center"><span class="text-amber-500">●●○○○</span><br><span class="text-sm">不理想</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●○○○</span><br><span class="text-sm">不理想</span></td></tr>
-                    <tr class="bg-slate-50/50"><td class="p-4">🐕 掉毛</td><td class="p-4 text-center font-semibold text-amber-600">高</td><td class="p-4 text-center font-semibold text-yellow-600">严重</td></tr>
+                    <tr><td class="p-4">⚡ 精力水平</td><td class="p-4 text-center"><span class="text-forest">●●●●●</span><br><span class="text-sm">非常高</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●●○</span><br><span class="text-sm">高</span></td></tr>
+                    <tr class="bg-slate-50/50"><td class="p-4">✂️ 美容需求</td><td class="p-4 text-center"><span class="text-forest">●●○○○</span><br><span class="text-sm">中等</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●○○</span><br><span class="text-sm">中等</span></td></tr>
+                    <tr><td class="p-4">🎓 可训练性</td><td class="p-4 text-center"><span class="text-forest">●●●●●</span><br><span class="text-sm">优秀</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●●●</span><br><span class="text-sm">优秀</span></td></tr>
+                    <tr class="bg-slate-50/50"><td class="p-4">👶 儿童友好</td><td class="p-4 text-center"><span class="text-forest">●●●●●</span><br><span class="text-sm">优秀</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●●●●</span><br><span class="text-sm">优秀</span></td></tr>
+                    <tr><td class="p-4">🏠 适合公寓</td><td class="p-4 text-center"><span class="text-forest">●●○○○</span><br><span class="text-sm">不理想</span></td><td class="p-4 text-center"><span class="text-yellow-500">●●○○○</span><br><span class="text-sm">不理想</span></td></tr>
+                    <tr class="bg-slate-50/50"><td class="p-4">🐕 掉毛</td><td class="p-4 text-center font-semibold text-forest">高</td><td class="p-4 text-center font-semibold text-yellow-600">严重</td></tr>
                 </tbody>
             </table>
         </div>
@@ -97,14 +97,14 @@
         <!-- Temperament Comparison -->
         <div class="grid md:grid-cols-2 gap-8 mb-12">
             <div class="bg-white rounded-2xl p-6 shadow-lg">
-                <h3 class="text-xl font-bold text-amber-600 mb-4">🧠 西伯利亚哈士奇 性格</h3>
+                <h3 class="text-xl font-bold text-forest mb-4">🧠 西伯利亚哈士奇 性格</h3>
                 <div class="flex flex-wrap gap-2 mb-4">
-                    <span class="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-medium">外向</span>
-                    <span class="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-medium">Mischievous</span>
-                    <span class="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-medium">忠诚</span>
-                    <span class="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-medium">友好</span>
-                    <span class="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-medium">警觉</span>
-                    <span class="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-medium">温柔</span>
+                    <span class="bg-sage-100 text-forest px-3 py-1 rounded-full text-sm font-medium">外向</span>
+                    <span class="bg-sage-100 text-forest px-3 py-1 rounded-full text-sm font-medium">Mischievous</span>
+                    <span class="bg-sage-100 text-forest px-3 py-1 rounded-full text-sm font-medium">忠诚</span>
+                    <span class="bg-sage-100 text-forest px-3 py-1 rounded-full text-sm font-medium">友好</span>
+                    <span class="bg-sage-100 text-forest px-3 py-1 rounded-full text-sm font-medium">警觉</span>
+                    <span class="bg-sage-100 text-forest px-3 py-1 rounded-full text-sm font-medium">温柔</span>
                 </div>
                 <p class="text-slate-600 text-sm">Huskies are friendly, outgoing, and sometimes mischievous. They're pack dogs who love company and are known for their vocal nature and escape artist tendencies.</p>
             </div>
@@ -124,17 +124,17 @@
 
         <!-- Exercise & Grooming -->
         <div class="grid md:grid-cols-2 gap-8 mb-12">
-            <div class="bg-gradient-to-br from-sky-50 to-sky-100 rounded-2xl p-6">
-                <h3 class="text-xl font-bold text-sky-700 mb-4">🏃 运动需求</h3>
+            <div class="bg-gradient-to-br from-sage-50 to-sage-100 rounded-2xl p-6">
+                <h3 class="text-xl font-bold text-forest mb-4">🏃 运动需求</h3>
                 <div class="space-y-4">
-                    <div><span class="font-semibold text-amber-600">西伯利亚哈士奇:</span><p class="text-slate-600 text-sm">Very high energy—designed to run for miles. At least 2 hours of vigorous exercise daily. They love running and pulling activities.</p></div>
+                    <div><span class="font-semibold text-forest">西伯利亚哈士奇:</span><p class="text-slate-600 text-sm">Very high energy—designed to run for miles. At least 2 hours of vigorous exercise daily. They love running and pulling activities.</p></div>
                     <div><span class="font-semibold text-yellow-600">阿拉斯加雪橇犬:</span><p class="text-slate-600 text-sm">High energy but with more endurance than speed. Long hikes and pulling work suit them well. They can overheat in warm climates.</p></div>
                 </div>
             </div>
-            <div class="bg-gradient-to-br from-sky-50 to-sky-100 rounded-2xl p-6">
-                <h3 class="text-xl font-bold text-sky-700 mb-4">✂️ 美容要求</h3>
+            <div class="bg-gradient-to-br from-sage-50 to-sage-100 rounded-2xl p-6">
+                <h3 class="text-xl font-bold text-forest mb-4">✂️ 美容要求</h3>
                 <div class="space-y-4">
-                    <div><span class="font-semibold text-amber-600">西伯利亚哈士奇:</span><p class="text-slate-600 text-sm">Heavy grooming—brush several times weekly. Massive seasonal shedding ("blowing coat") twice yearly.</p></div>
+                    <div><span class="font-semibold text-forest">西伯利亚哈士奇:</span><p class="text-slate-600 text-sm">Heavy grooming—brush several times weekly. Massive seasonal shedding ("blowing coat") twice yearly.</p></div>
                     <div><span class="font-semibold text-yellow-600">阿拉斯加雪橇犬:</span><p class="text-slate-600 text-sm">Heavy grooming similar to Husky. Their thicker coat requires regular brushing to prevent matting.</p></div>
                 </div>
             </div>
@@ -145,7 +145,7 @@
             <h2 class="text-3xl font-bold text-center mb-8">🎯 哪种适合你？</h2>
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-white/10 rounded-2xl p-6">
-                    <h3 class="text-xl font-bold text-amber-400 mb-4">如果...选择西伯利亚哈士奇</h3>
+                    <h3 class="text-xl font-bold text-forest mb-4">如果...选择西伯利亚哈士奇</h3>
                     <ul class="space-y-2 text-slate-200">
                         <li class="flex items-start gap-2">
                             <span class="text-green-400">✓</span>
@@ -196,7 +196,7 @@
                 </div>
             </div>
             <div class="mt-8 bg-white/5 rounded-xl p-6 text-center">
-                <h4 class="text-lg font-semibold text-sky-300 mb-2">总结</h4>
+                <h4 class="text-lg font-semibold text-forest mb-2">总结</h4>
                 <p class="text-slate-300">Huskies are medium-sized athletes who love to run and talk. Malamutes are powerful giants built for strength. Both shed heavily and need lots of exercise. Choose based on size preference and desired temperament.</p>
             </div>
         </div>
@@ -217,7 +217,7 @@
         </div>
 
         <div class="text-center">
-            <a href="../" class="text-sky-700 font-semibold">← 返回比较</a>
+            <a href="../" class="text-forest font-semibold">← 返回比较</a>
         </div>
     </main>
 
