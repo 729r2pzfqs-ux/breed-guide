@@ -49,38 +49,36 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600" rel="stylesheet">
     <script>
-        tailwind.config = { theme: { extend: { fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] } } } }
+        tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'], serif: ['Fraunces', 'serif'] } } } }
     </script>
     <style>
         .card-shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03); }
         .card-shadow:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.06), 0 8px 24px rgba(0,0,0,0.05); }
-        .hero-gradient {
-            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #f0f9ff 100%);
-        }
+        .hero-gradient { background: linear-gradient(135deg, #f6f7f2 0%, #eef1e8 50%, #f6f7f2 100%); }
     </style>
 </head>
-<body class="bg-white min-h-screen style="color: #2a2518;"">
-    <header class="bg-white/80 backdrop-blur-md border-b style="border-color: #f0ede6;" sticky top-0 z-50">
+<body class="min-h-screen" style="background: linear-gradient(135deg, #f6f7f2 0%, #faf9f6 50%, #eef1e8 100%); color: #2a2518;">
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="./" class="flex items-center gap-3">
                 <img src="../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
-                <span class="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">BreedFinder</span>
+                <span class="text-xl font-bold font-serif" style="color: #1a5632;">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-4 md:gap-6 text-sm font-medium">
-                <a href="search/" class="style="color: #5c5647;" hover:text-sky-700 transition flex items-center">
+                <a href="search/" class="text-slate-600 hover:opacity-80 transition flex items-center">
                     <i data-lucide="search" class="w-5 h-5 md:hidden"></i>
                     <span class="hidden md:inline">Rassen Durchsuchen</span>
                 </a>
-                <a href="quiz/" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg transition">Quiz</a>
+                <a href="quiz/" class="text-white" style="background: #1a5632; px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg transition">Quiz</a>
                 <div class="relative group">
-                    <button class="flex items-center gap-1 style="color: #5c5647;" hover:text-sky-700 py-2">
+                    <button class="flex items-center gap-1 text-slate-600 hover:opacity-80 py-2">
                         <i data-lucide="globe" class="w-4 h-4"></i>
                         <span>DE</span>
                     </button>
-                    <div class="absolute right-0 top-full bg-white border style="border-color: #f0ede6;" rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="../" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">English</a><a href="../es/" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">Español</a><a href="../de/" class="block px-4 py-2 hover:style="background: #f0ede6;" font-semibold text-sky-700">Deutsch</a><a href="../fr/" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">Français</a><a href="../it/" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">Italiano</a><a href="../pt/" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">Português</a><a href="../fi/" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">Suomi</a><a href="../sv/" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">Svenska</a><a href="../nl/" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">Nederlands</a><a href="../da/" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">Dansk</a><a href="../ja/" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">日本語</a><a href="../no/" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">Norsk</a><a href="../pl/" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">Polski</a><a href="../ru/" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">Русский</a><a href="../tr/" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">Türkçe</a><a href="../zh/" class="block px-4 py-2 hover:style="background: #f0ede6;" style="color: #5c5647;"">中文</a>
+                    <div class="absolute right-0 top-full bg-white border" style="border-color: #f0ede6; rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
+                        <a href="../" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a><a href="../es/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="../de/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-sky-700">Deutsch</a><a href="../fr/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a><a href="../it/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="../pt/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Português</a><a href="../fi/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Suomi</a><a href="../sv/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a><a href="../nl/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a><a href="../da/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a><a href="../ja/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="../no/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="../pl/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Polski</a><a href="../ru/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a><a href="../tr/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Türkçe</a><a href="../zh/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a>
                     </div>
                 </div>
             </nav>
@@ -88,34 +86,34 @@
     </header>
 
     <main>
-        <section class="hero-gradient py-20 px-4">
+        <section class="py-20 px-4" style="background: linear-gradient(135deg, #f6f7f2 0%, #eef1e8 50%, #f6f7f2 100%);">
             <div class="max-w-4xl mx-auto text-center">
-                <div class="inline-flex items-center gap-2 bg-white/80 backdrop-blur px-4 py-2 rounded-full text-sm font-medium style="color: #5c5647;" mb-6 border style="border-color: #f0ede6;"/50">
+                <div class="inline-flex items-center gap-2 bg-white/80 backdrop-blur px-4 py-2 rounded-full text-sm font-medium text-slate-600 mb-6 border" style="border-color: #f0ede6;/50">
                     <i data-lucide="sparkles" class="w-4 h-4 text-sky-700"></i>
                     Über 200 Hunderassen zu entdecken
                 </div>
-                <h1 class="text-5xl md:text-6xl font-extrabold style="color: #1a2e1a;" mb-6 leading-tight">
+                <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
                     Finde Deine<br>
-                    <span class="bg-gradient-to-r from-sky-500 via-blue-500 to-rose-500 bg-clip-text text-transparent">Perfekte Hunderasse</span>
+                    <span style="color: #1a5632;">Perfekte Hunderasse</span>
                 </h1>
-                <p class="text-xl style="color: #5c5647;" mb-10 max-w-2xl mx-auto leading-relaxed">Entdecke, welche Hunderasse perfekt zu deinem Lebensstil passt. Vergleiche Eigenschaften und finde deinen idealen Begleiter.</p>
+                <p class="text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">Entdecke, welche Hunderasse perfekt zu deinem Lebensstil passt. Vergleiche Eigenschaften und finde deinen idealen Begleiter.</p>
                 
                 <div class="max-w-xl mx-auto mb-8">
                     <div class="relative">
-                        <input type="text" id="home-search" placeholder="Rassen suchen..." autocomplete="off" class="w-full bg-white border style="border-color: #f0ede6;" rounded-2xl px-6 py-4 text-lg focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:border-sky-400 shadow-sm">
-                        <button aria-label="Search" class="absolute right-2 top-1/2 -translate-y-1/2 style="background: #f0ede6;" hover:bg-slate-200 p-3 rounded-xl transition">
-                            <i data-lucide="search" class="w-5 h-5 style="color: #5c5647;""></i>
+                        <input type="text" id="home-search" placeholder="Rassen suchen..." autocomplete="off" class="w-full bg-white border" style="border-color: #f0ede6; rounded-2xl px-6 py-4 text-lg focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:border-sky-400 shadow-sm">
+                        <button aria-label="Search" class="absolute right-2 top-1/2 -translate-y-1/2 bg-slate-100 hover:bg-slate-200 p-3 rounded-xl transition">
+                            <i data-lucide="search" class="w-5 h-5 text-slate-600"></i>
                         </button>
-                        <div id="search-dropdown" class="absolute top-full left-0 right-0 mt-2 bg-white border style="border-color: #f0ede6;" rounded-2xl shadow-xl z-50 hidden max-h-80 overflow-y-auto"></div>
+                        <div id="search-dropdown" class="absolute top-full left-0 right-0 mt-2 bg-white border" style="border-color: #f0ede6; rounded-2xl shadow-xl z-50 hidden max-h-80 overflow-y-auto"></div>
                     </div>
                 </div>
 
                 <div class="flex flex-wrap justify-center gap-4">
-                    <a href="quiz/" class="inline-flex items-center gap-2 bg-gradient-to-r from-sky-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-semibold text-lg hover:shadow-xl hover:shadow-sky-500/25 transition transform hover:-translate-y-0.5">
+                    <a href="quiz/" class="inline-flex items-center gap-2 text-white" style="background: #1a5632; px-8 py-4 rounded-2xl font-semibold text-lg hover:shadow-xl hover:shadow-sky-500/25 transition transform hover:-translate-y-0.5">
                         <i data-lucide="target" class="w-5 h-5"></i>
                         Mach das Rassen-Quiz
                     </a>
-                    <a href="compare/" class="inline-flex items-center gap-2 bg-white style="color: #3a3528;" border style="border-color: #f0ede6;" px-8 py-4 rounded-2xl font-semibold text-lg hover:border-slate-300 hover:shadow-lg transition transform hover:-translate-y-0.5">
+                    <a href="compare/" class="inline-flex items-center gap-2 bg-white text-slate-700 border" style="border-color: #f0ede6; px-8 py-4 rounded-2xl font-semibold text-lg hover:border-slate-300 hover:shadow-lg transition transform hover:-translate-y-0.5">
                         <i data-lucide="scale" class="w-5 h-5"></i>
                         Rassen Vergleichen
                     </a>
@@ -125,68 +123,68 @@
 
         <section class="py-16 px-4">
             <div class="max-w-6xl mx-auto">
-                <h2 class="text-2xl font-bold font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif style="color: #1a2e1a;" mb-2">Beliebte Rassen</h2>
-                <p class="style="color: #5c5647;" mb-8">Die beliebtesten Hunderassen weltweit</p>
+                <h2 class="text-2xl font-bold font-serif" style="color: #1a2e1a; mb-2">Beliebte Rassen</h2>
+                <p class="text-slate-600 mb-8">Die beliebtesten Hunderassen weltweit</p>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
-                    <a href="breeds/labrador-retriever.html" class="bg-white rounded-2xl p-5 card-shadow border style="border-color: #f0ede6;"  transition group">
+                    <a href="breeds/labrador-retriever.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/labrador-retriever.webp" alt="Labrador Retriever" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Labrador Retriever</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Freundlich • Aktiv • Treu</div>
+                        <div class="font-semibold text-slate-800 text-center">Labrador Retriever</div>
+                        <div class="text-xs text-slate-600 text-center mt-1">Freundlich • Aktiv • Treu</div>
                     </a>
-                    <a href="breeds/german-shepherd.html" class="bg-white rounded-2xl p-5 card-shadow border style="border-color: #f0ede6;"  transition group">
+                    <a href="breeds/german-shepherd.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/german-shepherd.webp" alt="Deutscher Schäferhund" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Deutscher Schäferhund</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Intelligent • Beschützend</div>
+                        <div class="font-semibold text-slate-800 text-center">Deutscher Schäferhund</div>
+                        <div class="text-xs text-slate-600 text-center mt-1">Intelligent • Beschützend</div>
                     </a>
-                    <a href="breeds/golden-retriever.html" class="bg-white rounded-2xl p-5 card-shadow border style="border-color: #f0ede6;"  transition group">
+                    <a href="breeds/golden-retriever.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/golden-retriever.webp" alt="Golden Retriever" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Golden Retriever</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Sanft • Freundlich • Klug</div>
+                        <div class="font-semibold text-slate-800 text-center">Golden Retriever</div>
+                        <div class="text-xs text-slate-600 text-center mt-1">Sanft • Freundlich • Klug</div>
                     </a>
-                    <a href="breeds/french-bulldog.html" class="bg-white rounded-2xl p-5 card-shadow border style="border-color: #f0ede6;"  transition group">
+                    <a href="breeds/french-bulldog.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/french-bulldog.webp" alt="Französische Bulldogge" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Französische Bulldogge</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Verspielt • Anpassungsfähig</div>
+                        <div class="font-semibold text-slate-800 text-center">Französische Bulldogge</div>
+                        <div class="text-xs text-slate-600 text-center mt-1">Verspielt • Anpassungsfähig</div>
                     </a>
-                    <a href="breeds/poodle.html" class="bg-white rounded-2xl p-5 card-shadow border style="border-color: #f0ede6;"  transition group">
+                    <a href="breeds/poodle.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/poodle.webp" alt="Pudel" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Pudel</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Intelligent • Elegant</div>
+                        <div class="font-semibold text-slate-800 text-center">Pudel</div>
+                        <div class="text-xs text-slate-600 text-center mt-1">Intelligent • Elegant</div>
                     </a>
-                    <a href="breeds/siberian-husky.html" class="bg-white rounded-2xl p-5 card-shadow border style="border-color: #f0ede6;"  transition group">
+                    <a href="breeds/siberian-husky.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/siberian-husky.webp" alt="Siberian Husky" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Sibirischer Husky</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Energisch • Kontaktfreudig</div>
+                        <div class="font-semibold text-slate-800 text-center">Sibirischer Husky</div>
+                        <div class="text-xs text-slate-600 text-center mt-1">Energisch • Kontaktfreudig</div>
                     </a>
-                    <a href="breeds/beagle.html" class="bg-white rounded-2xl p-5 card-shadow border style="border-color: #f0ede6;"  transition group">
+                    <a href="breeds/beagle.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/beagle.webp" alt="Beagle" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Beagle</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Neugierig • Fröhlich</div>
+                        <div class="font-semibold text-slate-800 text-center">Beagle</div>
+                        <div class="text-xs text-slate-600 text-center mt-1">Neugierig • Fröhlich</div>
                     </a>
-                    <a href="breeds/dachshund.html" class="bg-white rounded-2xl p-5 card-shadow border style="border-color: #f0ede6;"  transition group">
+                    <a href="breeds/dachshund.html" class="bg-white rounded-2xl p-5 card-shadow border border-slate-100 hover:border-sky-200 transition group">
                         <div class="w-16 h-16 rounded-2xl mx-auto mb-3 overflow-hidden">
                             <img src="../images/heads/dachshund.webp" alt="Dackel" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;" text-center">Dackel</div>
-                        <div class="text-xs style="color: #5c5647;" text-center mt-1">Klug • Ergeben</div>
+                        <div class="font-semibold text-slate-800 text-center">Dackel</div>
+                        <div class="text-xs text-slate-600 text-center mt-1">Klug • Ergeben</div>
                     </a>
                 </div>
                 <div class="text-center mt-8">
-                    <a href="articles/" class="inline-flex items-center gap-2 text-sky-700 font-semibold hover:text-sky-700 transition">
+                    <a href="articles/" class="inline-flex items-center gap-2 text-sky-700 font-semibold hover:opacity-80 transition">
                         Alle 200+ Rassen ansehen
                         <i data-lucide="arrow-right" class="w-4 h-4"></i>
                     </a>
@@ -194,45 +192,45 @@
             </div>
         </section>
 
-        <section class="py-16 px-4 bg-slate-50">
+        <section class="py-16 px-4 " style="background: #f6f7f2;">
             <div class="max-w-6xl mx-auto">
-                <h2 class="text-2xl font-bold font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif style="color: #1a2e1a;" mb-2">Nach Größe Suchen</h2>
-                <p class="style="color: #5c5647;" mb-8">Finde Rassen, die zu deinem Wohnraum passen</p>
+                <h2 class="text-2xl font-bold font-serif" style="color: #1a2e1a; mb-2">Nach Größe Suchen</h2>
+                <p class="text-slate-600 mb-8">Finde Rassen, die zu deinem Wohnraum passen</p>
                 <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
-                    <a href="search/?size=tiny" class="style="background: #eef1e8;" hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
+                    <a href="search/?size=tiny" class="bg-sky-50 hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="../images/heads/chihuahua.webp" alt="Chihuahua" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Winzig</div>
-                        <div class="text-sm style="color: #5c5647;"">Unter 5 kg</div>
+                        <div class="font-semibold text-slate-800">Winzig</div>
+                        <div class="text-sm text-slate-600">Unter 5 kg</div>
                     </a>
-                    <a href="search/?size=small" class="style="background: #eef1e8;" hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
+                    <a href="search/?size=small" class="bg-sky-50 hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="../images/heads/beagle.webp" alt="Beagle" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Klein</div>
-                        <div class="text-sm style="color: #5c5647;"">5–10 kg</div>
+                        <div class="font-semibold text-slate-800">Klein</div>
+                        <div class="text-sm text-slate-600">5–10 kg</div>
                     </a>
-                    <a href="search/?size=medium" class="style="background: #eef1e8;" hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
+                    <a href="search/?size=medium" class="bg-sky-50 hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="../images/heads/border-collie.webp" alt="Border Langhaarcollie" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Mittel</div>
-                        <div class="text-sm style="color: #5c5647;"">10–25 kg</div>
+                        <div class="font-semibold text-slate-800">Mittel</div>
+                        <div class="text-sm text-slate-600">10–25 kg</div>
                     </a>
-                    <a href="search/?size=large" class="style="background: #eef1e8;" hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
+                    <a href="search/?size=large" class="bg-sky-50 hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="../images/heads/german-shepherd.webp" alt="Deutscher Schäferhund" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Groß</div>
-                        <div class="text-sm style="color: #5c5647;"">25–45 kg</div>
+                        <div class="font-semibold text-slate-800">Groß</div>
+                        <div class="text-sm text-slate-600">25–45 kg</div>
                     </a>
-                    <a href="search/?size=giant" class="style="background: #eef1e8;" hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
+                    <a href="search/?size=giant" class="bg-sky-50 hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
                             <img src="../images/heads/great-dane.webp" alt="Deutsche Dogge" class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Riesig</div>
-                        <div class="text-sm style="color: #5c5647;"">Über 45 kg</div>
+                        <div class="font-semibold text-slate-800">Riesig</div>
+                        <div class="text-sm text-slate-600">Über 45 kg</div>
                     </a>
                 </div>
             </div>
@@ -240,36 +238,36 @@
 
         <section class="py-16 px-4">
             <div class="max-w-6xl mx-auto">
-                <h2 class="text-2xl font-bold font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif style="color: #1a2e1a;" mb-2">Nach Lebensstil Suchen</h2>
-                <p class="style="color: #5c5647;" mb-8">Schnelle Filter für deine Bedürfnisse</p>
+                <h2 class="text-2xl font-bold font-serif" style="color: #1a2e1a; mb-2">Nach Lebensstil Suchen</h2>
+                <p class="text-slate-600 mb-8">Schnelle Filter für deine Bedürfnisse</p>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <a href="search/?apartment=1" class="style="background: #eef1e8;" hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
+                    <a href="search/?apartment=1" class="bg-sky-50 hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
                             <i data-lucide="building-2" class="w-6 h-6 text-sky-700"></i>
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Wohnungsgeeignet</div>
-                        <div class="text-sm style="color: #5c5647;"">Perfekt für Wohnungen</div>
+                        <div class="font-semibold text-slate-800">Wohnungsgeeignet</div>
+                        <div class="text-sm text-slate-600">Perfekt für Wohnungen</div>
                     </a>
-                    <a href="search/?kids=1" class="style="background: #eef1e8;" hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
+                    <a href="search/?kids=1" class="bg-sky-50 hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
                             <i data-lucide="heart" class="w-6 h-6 text-sky-700"></i>
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Gut mit Kindern</div>
-                        <div class="text-sm style="color: #5c5647;"">Familienfreundlich</div>
+                        <div class="font-semibold text-slate-800">Gut mit Kindern</div>
+                        <div class="text-sm text-slate-600">Familienfreundlich</div>
                     </a>
-                    <a href="search/?shedding=minimal" class="style="background: #eef1e8;" hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
+                    <a href="search/?shedding=minimal" class="bg-sky-50 hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
                             <i data-lucide="sparkles" class="w-6 h-6 text-sky-700"></i>
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Wenig Haarausfall</div>
-                        <div class="text-sm style="color: #5c5647;"">Weniger Haare, weniger Chaos</div>
+                        <div class="font-semibold text-slate-800">Wenig Haarausfall</div>
+                        <div class="text-sm text-slate-600">Weniger Haare, weniger Chaos</div>
                     </a>
-                    <a href="search/?train=1" class="style="background: #eef1e8;" hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
+                    <a href="search/?train=1" class="bg-sky-50 hover:bg-sky-100 rounded-2xl p-6 text-center transition border border-sky-200 group">
                         <div class="w-12 h-12 bg-white rounded-xl mx-auto mb-3 flex items-center justify-center shadow-sm group-hover:scale-110 transition">
                             <i data-lucide="graduation-cap" class="w-6 h-6 text-sky-700"></i>
                         </div>
-                        <div class="font-semibold style="color: #2a2518;"">Leicht zu Trainieren</div>
-                        <div class="text-sm style="color: #5c5647;"">Schnelle Lerner</div>
+                        <div class="font-semibold text-slate-800">Leicht zu Trainieren</div>
+                        <div class="text-sm text-slate-600">Schnelle Lerner</div>
                     </a>
                 </div>
             </div>
@@ -280,89 +278,89 @@
 
     <section class="py-16 px-4">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-2xl font-bold font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif style="color: #1a2e1a;" mb-2">Rassenführer</h2>
-            <p class="style="color: #5c5647;" mb-6">Expertenrat zur Wahl des richtigen Hundes</p>
+            <h2 class="text-2xl font-bold font-serif" style="color: #1a2e1a; mb-2">Rassenführer</h2>
+            <p class="text-slate-600 mb-6">Expertenrat zur Wahl des richtigen Hundes</p>
             <div class="grid md:grid-cols-3 gap-4">
-                <a href="articles/beste-hunde-fuer-wohnungen/" class="bg-white rounded-xl p-5 card-shadow transition border style="border-color: #f0ede6;"">
+                <a href="articles/beste-hunde-fuer-wohnungen/" class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition border border-slate-100">
                     <span class="text-3xl">🏢</span>
-                    <h3 class="font-bold style="color: #1a2e1a;" mt-3 mb-1">Beste Wohnungshunde</h3>
-                    <p class="style="color: #5c5647;" text-sm">15 Rassen für kleine Räume</p>
+                    <h3 class="font-bold text-slate-900 mt-3 mb-1">Beste Wohnungshunde</h3>
+                    <p class="text-slate-600 text-sm">15 Rassen für kleine Räume</p>
                 </a>
-                <a href="articles/beste-hunde-fuer-familien/" class="bg-white rounded-xl p-5 card-shadow transition border style="border-color: #f0ede6;"">
+                <a href="articles/beste-hunde-fuer-familien/" class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition border border-slate-100">
                     <span class="text-3xl">👨‍👩‍👧‍👦</span>
-                    <h3 class="font-bold style="color: #1a2e1a;" mt-3 mb-1">Beste Familienhunde</h3>
-                    <p class="style="color: #5c5647;" text-sm">12 geduldige Rassen für Kinder</p>
+                    <h3 class="font-bold text-slate-900 mt-3 mb-1">Beste Familienhunde</h3>
+                    <p class="text-slate-600 text-sm">12 geduldige Rassen für Kinder</p>
                 </a>
-                <a href="articles/wenig-haarende-hunde/" class="bg-white rounded-xl p-5 card-shadow transition border style="border-color: #f0ede6;"">
+                <a href="articles/wenig-haarende-hunde/" class="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition border border-slate-100">
                     <span class="text-3xl">✨</span>
-                    <h3 class="font-bold style="color: #1a2e1a;" mt-3 mb-1">Wenig Haarende Rassen</h3>
-                    <p class="style="color: #5c5647;" text-sm">20 Rassen für ein sauberes Zuhause</p>
+                    <h3 class="font-bold text-slate-900 mt-3 mb-1">Wenig Haarende Rassen</h3>
+                    <p class="text-slate-600 text-sm">20 Rassen für ein sauberes Zuhause</p>
                 </a>
             </div>
         </div>
     
             <div class="text-center mt-8">
-                <a href="articles/" class="inline-flex items-center gap-2 text-sky-700 font-semibold hover:text-sky-700 transition">
+                <a href="articles/" class="inline-flex items-center gap-2 text-sky-700 font-semibold hover:opacity-80 transition">
                     Alle Ratgeber ansehen
                     <i data-lucide="arrow-right" class="w-4 h-4"></i>
                 </a>
             </div>
         </section>
 
-    <section class="py-16 px-4 bg-slate-50">
+    <section class="py-16 px-4 " style="background: #f6f7f2;">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-2xl font-bold font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif font-serif style="color: #1a2e1a;" mb-8 text-center">Häufig Gestellte Fragen</h2>
+            <h2 class="text-2xl font-bold font-serif" style="color: #1a2e1a; mb-8 text-center">Häufig Gestellte Fragen</h2>
             <div class="space-y-4">
                 <div class="bg-white rounded-xl p-6 shadow-sm">
-                    <h3 class="font-semibold style="color: #1a2e1a;" text-lg">Wie wähle ich die richtige Hunderasse?</h3>
-                    <p class="style="color: #5c5647;" mt-2">Berücksichtige deinen Wohnraum, Aktivitätslevel und Familie. Unser Quiz hilft dir dabei.</p>
+                    <h3 class="font-semibold text-slate-900 text-lg">Wie wähle ich die richtige Hunderasse?</h3>
+                    <p class="text-slate-600 mt-2">Berücksichtige deinen Wohnraum, Aktivitätslevel und Familie. Unser Quiz hilft dir dabei.</p>
                 </div>
                 <div class="bg-white rounded-xl p-6 shadow-sm">
-                    <h3 class="font-semibold style="color: #1a2e1a;" text-lg">Welche Hunderassen eignen sich für Wohnungen?</h3>
-                    <p class="style="color: #5c5647;" mt-2"><a href="breeds/french-bulldog.html" class="text-sky-700 underline hover:no-underline">Französische Bulldoggen</a>, <a href="breeds/cavalier-king-charles-spaniel.html" class="text-sky-700 underline hover:no-underline">Cavaliers</a>, <a href="breeds/pug.html" class="text-sky-700 underline hover:no-underline">Möpse</a> und <a href="breeds/boston-terrier.html" class="text-sky-700 underline hover:no-underline">Boston Terrier</a> passen gut in Wohnungen.</p>
+                    <h3 class="font-semibold text-slate-900 text-lg">Welche Hunderassen eignen sich für Wohnungen?</h3>
+                    <p class="text-slate-600 mt-2"><a href="breeds/french-bulldog.html" class="text-sky-700 underline hover:no-underline">Französische Bulldoggen</a>, <a href="breeds/cavalier-king-charles-spaniel.html" class="text-sky-700 underline hover:no-underline">Cavaliers</a>, <a href="breeds/pug.html" class="text-sky-700 underline hover:no-underline">Möpse</a> und <a href="breeds/boston-terrier.html" class="text-sky-700 underline hover:no-underline">Boston Terrier</a> passen gut in Wohnungen.</p>
                 </div>
                 <div class="bg-white rounded-xl p-6 shadow-sm">
-                    <h3 class="font-semibold style="color: #1a2e1a;" text-lg">Welche Rassen sind am besten für Familien?</h3>
-                    <p class="style="color: #5c5647;" mt-2"><a href="breeds/labrador-retriever.html" class="text-sky-700 underline hover:no-underline">Labrador Retriever</a>, <a href="breeds/golden-retriever.html" class="text-sky-700 underline hover:no-underline">Golden Retriever</a>, <a href="breeds/beagle.html" class="text-sky-700 underline hover:no-underline">Beagles</a> und <a href="breeds/collie.html" class="text-sky-700 underline hover:no-underline">Langhaarcollie</a> sind bekannt für Geduld mit Kindern.</p>
+                    <h3 class="font-semibold text-slate-900 text-lg">Welche Rassen sind am besten für Familien?</h3>
+                    <p class="text-slate-600 mt-2"><a href="breeds/labrador-retriever.html" class="text-sky-700 underline hover:no-underline">Labrador Retriever</a>, <a href="breeds/golden-retriever.html" class="text-sky-700 underline hover:no-underline">Golden Retriever</a>, <a href="breeds/beagle.html" class="text-sky-700 underline hover:no-underline">Beagles</a> und <a href="breeds/collie.html" class="text-sky-700 underline hover:no-underline">Langhaarcollie</a> sind bekannt für Geduld mit Kindern.</p>
                 </div>
                 <div class="bg-white rounded-xl p-6 shadow-sm">
-                    <h3 class="font-semibold style="color: #1a2e1a;" text-lg">Welche Hunde haaren am wenigsten?</h3>
-                    <p class="style="color: #5c5647;" mt-2"><a href="breeds/poodle.html" class="text-sky-700 underline hover:no-underline">Pudel</a>, <a href="breeds/bichon-frise.html" class="text-sky-700 underline hover:no-underline">Bichon Frisés</a>, <a href="breeds/portuguese-water-dog.html" class="text-sky-700 underline hover:no-underline">Portugiesische Wasserhunde</a> und <a href="breeds/miniature-schnauzer.html" class="text-sky-700 underline hover:no-underline">Schnauzer</a> haaren wenig.</p>
+                    <h3 class="font-semibold text-slate-900 text-lg">Welche Hunde haaren am wenigsten?</h3>
+                    <p class="text-slate-600 mt-2"><a href="breeds/poodle.html" class="text-sky-700 underline hover:no-underline">Pudel</a>, <a href="breeds/bichon-frise.html" class="text-sky-700 underline hover:no-underline">Bichon Frisés</a>, <a href="breeds/portuguese-water-dog.html" class="text-sky-700 underline hover:no-underline">Portugiesische Wasserhunde</a> und <a href="breeds/miniature-schnauzer.html" class="text-sky-700 underline hover:no-underline">Schnauzer</a> haaren wenig.</p>
                 </div>
                 <div class="bg-white rounded-xl p-6 shadow-sm">
-                    <h3 class="font-semibold style="color: #1a2e1a;" text-lg">Wie viel Bewegung brauchen verschiedene Rassen?</h3>
-                    <p class="style="color: #5c5647;" mt-2">Energische Rassen wie <a href="breeds/border-collie.html" class="text-sky-700 underline hover:no-underline">Border Langhaarcollie</a> brauchen 2+ Stunden täglich. Moderate Rassen wie <a href="breeds/labrador-retriever.html" class="text-sky-700 underline hover:no-underline">Labrador</a> etwa 1 Stunde.</p>
+                    <h3 class="font-semibold text-slate-900 text-lg">Wie viel Bewegung brauchen verschiedene Rassen?</h3>
+                    <p class="text-slate-600 mt-2">Energische Rassen wie <a href="breeds/border-collie.html" class="text-sky-700 underline hover:no-underline">Border Langhaarcollie</a> brauchen 2+ Stunden täglich. Moderate Rassen wie <a href="breeds/labrador-retriever.html" class="text-sky-700 underline hover:no-underline">Labrador</a> etwa 1 Stunde.</p>
                 </div>
                 <div class="bg-white rounded-xl p-6 shadow-sm">
-                    <h3 class="font-semibold style="color: #1a2e1a;" text-lg">Was ist der Unterschied zwischen Vergleich und Quiz?</h3>
-                    <p class="style="color: #5c5647;" mt-2">Das Quiz hilft Rassen zu entdecken. Der Vergleich zeigt zwei Rassen nebeneinander.</p>
+                    <h3 class="font-semibold text-slate-900 text-lg">Was ist der Unterschied zwischen Vergleich und Quiz?</h3>
+                    <p class="text-slate-600 mt-2">Das Quiz hilft Rassen zu entdecken. Der Vergleich zeigt zwei Rassen nebeneinander.</p>
                 </div>
             </div>
         </div>
     
             <div class="text-center mt-8">
-                <a href="faq/" class="inline-flex items-center gap-2 text-sky-700 font-semibold hover:text-sky-700 transition">
+                <a href="faq/" class="inline-flex items-center gap-2 text-sky-700 font-semibold hover:opacity-80 transition">
                     Alle FAQs ansehen
                     <i data-lucide="arrow-right" class="w-4 h-4"></i>
                 </a>
             </div>
         </section>
 
-    <footer class="py-10 px-4" style="background: #1a2e1a;">
+    <footer class="bg-slate-900 text-slate-300 py-12 px-4">
         <div class="max-w-6xl mx-auto">
             <div class="flex flex-col md:flex-row items-center justify-between gap-6">
                 <div class="flex items-center gap-3">
                     <img src="../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
-                    <span class="text-xl font-bold font-serif" style="color: #1a5632;">BreedFinder</span>
+                    <span class="text-xl font-bold">BreedFinder</span>
                 </div>
-                <div class="flex gap-8 text-sm style="color: #a8a090;"">
+                <div class="flex gap-8 text-sm text-slate-400">
                     <a href="quiz/" class="hover:text-white transition">Quiz</a>
                     <a href="compare/" class="hover:text-white transition">Vergleichen</a>
                     <a href="articles/" class="hover:text-white transition">Ratgeber</a>
                     <a href="about/" class="hover:text-white transition">Über Uns</a>
                 </div>
             </div>
-            <div class="border-t border-slate-800 mt-8 pt-8 text-center text-sm style="color: #a8a090;"">
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center text-sm text-slate-400">
                 <p>© 2026 BreedFinder. Mit Liebe für Hundefreunde gemacht.</p>
             </div>
         </div>
@@ -401,9 +399,9 @@
                 const matches = breeds.filter(b => b.name.toLowerCase().includes(query) || (b.localName && b.localName.toLowerCase().includes(query)) || (b.aliases && b.aliases.some(a => a.toLowerCase().includes(query)))).slice(0, 8);
                 if (matches.length === 0) { dropdown.classList.add('hidden'); return; }
                 dropdown.innerHTML = matches.map(b => `
-                    <a href="breeds/${b.slug}.html" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition first:rounded-t-2xl last:rounded-b-2xl">
+                    <a href="breeds/${b.slug}.html" class="flex items-center gap-3 px-4 py-3 hover:" style="background: #f6f7f2; transition first:rounded-t-2xl last:rounded-b-2xl">
                         <img src="../images/heads/${b.slug}.webp" alt="${b.localName || b.name}" class="w-10 h-10 rounded-xl object-cover" onerror="this.style.display='none'">
-                        <span class="font-medium style="color: #2a2518;"">${b.localName || b.name}</span>
+                        <span class="font-medium text-slate-800">${b.localName || b.name}</span>
                     </a>
                 `).join('');
                 dropdown.classList.remove('hidden');
