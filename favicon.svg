@@ -1,38 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0ea5e9"/>
-      <stop offset="100%" style="stop-color:#8b5cf6"/>
-    </linearGradient>
-  </defs>
-  <circle cx="50" cy="50" r="48" fill="url(#grad)"/>
-  
-  <!-- Dog face -->
-  <g fill="white">
-    <!-- Ears -->
-    <ellipse cx="25" cy="28" rx="12" ry="18" transform="rotate(-15 25 28)"/>
-    <ellipse cx="75" cy="28" rx="12" ry="18" transform="rotate(15 75 28)"/>
-    
-    <!-- Head -->
-    <circle cx="50" cy="52" r="28"/>
-    
-    <!-- Inner ears (gradient color) -->
-    <ellipse cx="26" cy="30" rx="6" ry="10" fill="#0ea5e9" transform="rotate(-15 26 30)"/>
-    <ellipse cx="74" cy="30" rx="6" ry="10" fill="#0ea5e9" transform="rotate(15 74 30)"/>
-  </g>
-  
-  <!-- Face features -->
-  <g>
-    <!-- Eyes -->
-    <circle cx="38" cy="48" r="5" fill="#1e293b"/>
-    <circle cx="62" cy="48" r="5" fill="#1e293b"/>
-    <circle cx="40" cy="46" r="2" fill="white"/>
-    <circle cx="64" cy="46" r="2" fill="white"/>
-    
+  <!-- Collie/Sheltie profile - forest green, flowing style -->
+  <g fill="none" stroke="#1a5f2a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top of head and ear -->
+    <path d="M35 25 Q30 20 28 12 Q32 8 38 12 Q42 8 48 14 Q52 12 55 18"/>
+    <!-- Second ear -->
+    <path d="M48 14 Q50 8 56 10 Q60 14 55 18"/>
+    <!-- Forehead to nose -->
+    <path d="M35 25 Q40 28 45 30 Q55 32 65 35 Q75 38 82 42 Q86 45 88 48"/>
     <!-- Nose -->
-    <ellipse cx="50" cy="60" rx="6" ry="5" fill="#1e293b"/>
-    
-    <!-- Mouth -->
-    <path d="M44 66 Q50 72 56 66" stroke="#1e293b" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <ellipse cx="88" cy="50" rx="4" ry="3" fill="#1a5f2a"/>
+    <!-- Mouth line -->
+    <path d="M84 52 Q78 56 70 55"/>
+    <!-- Under jaw -->
+    <path d="M70 55 Q60 58 50 62 Q40 68 35 75"/>
+    <!-- Chest fur - flowing lines -->
+    <path d="M35 75 Q30 70 25 72 Q20 78 22 85"/>
+    <path d="M35 75 Q32 78 30 85 Q28 90 32 95"/>
+    <path d="M35 75 Q38 82 36 90 Q35 95 40 98"/>
+    <path d="M40 70 Q45 78 42 88"/>
+    <!-- Neck fur detail -->
+    <path d="M50 62 Q48 68 45 72"/>
+    <path d="M55 58 Q52 65 50 70"/>
+    <!-- Eye -->
+    <circle cx="58" cy="35" r="3" fill="#1a5f2a"/>
+    <!-- Brow detail -->
+    <path d="M50 30 Q55 28 62 30"/>
+    <!-- Head fur detail -->
+    <path d="M40 22 Q42 26 40 30"/>
+    <path d="M45 20 Q48 24 46 28"/>
   </g>
 </svg>
