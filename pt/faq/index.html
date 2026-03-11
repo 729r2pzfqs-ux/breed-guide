@@ -138,30 +138,22 @@
         .font-serif { font-family: 'Fraunces', serif; }
     </style>
 </head>
-<body class="bg-white min-h-screen text-slate-800">
-    <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+<body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
+        <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="/" class="flex items-center gap-3">
-                <img src="/logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
-                <span class="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">BreedFinder</span>
+                <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
+                <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
-            <nav class="flex items-center gap-4 md:gap-6 text-sm font-medium">
-                <a href="/search/" class="text-slate-600 hover:text-sky-700 transition">Buscar Raças</a>
-                <div class="relative group">
-                    <button class="flex items-center gap-1 text-slate-600 hover:text-sky-700 py-2">
-                        <i data-lucide="globe" class="w-4 h-4"></i>
-                        <span>PT</span>
-                    </button>
-                    <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a><a href="/es/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="/de/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a><a href="/fr/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a><a href="/it/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="/pt/faq/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-sky-700">Português</a><a href="/fi/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Suomi</a><a href="/sv/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a><a href="/nl/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a><a href="/da/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a><a href="/ja/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="/no/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="/pl/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Polski</a><a href="/ru/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a><a href="/tr/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Türkçe</a><a href="/zh/faq/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a>
-                    </div>
-                </div>
-                <a href="/quiz/" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg transition">Quiz</a>
+            <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
+                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
 
-    <main class="py-16 px-4">
+    <main class="max-w-5xl mx-auto px-4 py-8">
         <div class="max-w-3xl mx-auto">
             <div class="text-center mb-12">
                 <div class="inline-flex items-center gap-2 bg-sky-50 px-4 py-2 rounded-full text-sm font-medium text-sky-700 mb-4">
