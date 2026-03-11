@@ -11,11 +11,11 @@
     <title>Ver Raças | BreedFinder</title>
     <meta name="description" content="Filtre por tamanho, nível de energia, necessidades de higiene e mais">
     <link rel="canonical" href="https://breedfinder.org/pt/search/">
-    <link rel="icon" href="../../favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+    <link rel="icon" href="/../favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/../favicon-32.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <script src="../../data/i18n.js"></script>
+    <script src="/../data/i18n.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
@@ -35,22 +35,22 @@
     <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 py-4">
             <div class="flex items-center justify-between">
-                <a href="../" class="flex items-center gap-2">
-                    <img src="../../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
+                <a href="/" class="flex items-center gap-2">
+                    <img src="/../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
                     <span class="font-bold text-xl text-slate-800">BreedFinder</span>
                 </a>
                 <nav class="hidden md:flex items-center gap-6">
-                    <a href="../" class="text-slate-600 hover:text-slate-900">Início</a>
+                    <a href="/" class="text-slate-600 hover:text-slate-900">Início</a>
                     <a href="./" class="text-[#1a5632] font-medium">Ver Raças</a>
-                    <a href="../quiz/" class="text-slate-600 hover:text-slate-900">Quiz</a>
-                    <a href="../compare/" class="text-slate-600 hover:text-slate-900">Comparar</a>
+                    <a href="/quiz/" class="text-slate-600 hover:text-slate-900">Quiz</a>
+                    <a href="/compare/" class="text-slate-600 hover:text-slate-900">Comparar</a>
                     <div class="relative group">
                         <button class="flex items-center gap-1 text-slate-600 hover:text-[#1a5632] py-2">
                             <i data-lucide="globe" class="w-4 h-4"></i>
                             <span>PT</span>
                         </button>
                         <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="../../search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a><a href="../../es/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="../../de/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a><a href="../../fr/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a><a href="../../it/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="../../pt/search/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-[#1a5632]">Português</a><a href="../../fi/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Suomi</a><a href="../../sv/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a><a href="../../nl/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a><a href="../../da/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a><a href="../../ja/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="../../no/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="../../pl/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Polski</a><a href="../../ru/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a><a href="../../tr/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Türkçe</a><a href="../../zh/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a>
+                        <a href="/../search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">English</a><a href="/../es/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Español</a><a href="/../de/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Deutsch</a><a href="/../fr/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Français</a><a href="/../it/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Italiano</a><a href="/../pt/search/" class="block px-4 py-2 hover:bg-slate-100 font-semibold text-[#1a5632]">Português</a><a href="/../fi/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Suomi</a><a href="/../sv/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Svenska</a><a href="/../nl/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Nederlands</a><a href="/../da/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Dansk</a><a href="/../ja/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">日本語</a><a href="/../no/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Norsk</a><a href="/../pl/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Polski</a><a href="/../ru/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Русский</a><a href="/../tr/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">Türkçe</a><a href="/../zh/search/" class="block px-4 py-2 hover:bg-slate-100 text-slate-600">中文</a>
                     </div>
                     </div>
                 </nav>
@@ -232,7 +232,7 @@
     <footer class="bg-slate-800 text-white py-8 mt-16">
         <div class="max-w-7xl mx-auto px-4 text-center">
             <div class="flex items-center justify-center gap-2 mb-4">
-                <img src="../../logo-192-green.png" class="w-8 h-8 rounded-lg" alt="BreedFinder">
+                <img src="/../logo-192-green.png" class="w-8 h-8 rounded-lg" alt="BreedFinder">
                 <span class="font-semibold">BreedFinder</span>
             </div>
             <p class="text-slate-600 text-sm">Find your perfect dog breed match</p>
@@ -329,7 +329,7 @@
             }).join('');
 
             return `
-                <a href="../breeds/${breed.id}/" class="breed-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden block">
+                <a href="/breeds/${breed.id}/" class="breed-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden block">
                     <div class="aspect-[4/5] bg-slate-100 relative overflow-hidden">
                         <img src="${imageUrl}" alt="${getBreedName(breed)}" 
                             class="w-full h-full object-cover object-top"
@@ -464,8 +464,8 @@
                 return;
             }
             searchDropdown.innerHTML = matches.map(b => `
-                <a href="../breeds/${b.id}/" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition border-b border-slate-100 last:border-0">
-                    <img src="../../images/heads/${b.id}.webp" alt="${getBreedName(b)}" class="w-10 h-10 rounded-xl object-cover">
+                <a href="/breeds/${b.id}/" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition border-b border-slate-100 last:border-0">
+                    <img src="/../images/heads/${b.id}.webp" alt="${getBreedName(b)}" class="w-10 h-10 rounded-xl object-cover">
                     <div><div class="font-medium text-slate-800">${getBreedName(b)}</div><div class="text-sm text-slate-600">${b.group} · ${getSizeLabel(b.size.category)}</div></div>
                 </a>
             `).join('');

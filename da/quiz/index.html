@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find Din Perfekte Hund | BreedFinder</title>
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="/../favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
@@ -21,12 +21,12 @@
 <body class="min-h-screen text-warm-800" style="background: linear-gradient(135deg, #f6f7f2 0%, #faf9f6 50%, #eef1e8 100%); color: #2a2518;">
     <header class="bg-white/85 backdrop-blur-md border-b sticky top-0 z-50" style="border-color: #e2ddd4;">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="../" class="flex items-center gap-3">
-                <img src="../../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
+            <a href="/" class="flex items-center gap-3">
+                <img src="/../logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
                 <span class="text-xl font-bold font-serif" style="color: #1a5632;">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-4 text-sm font-medium">
-                <a href="../search/" class="text-slate-600 hover:text-[#1a5632] flex items-center">
+                <a href="/search/" class="text-slate-600 hover:text-[#1a5632] flex items-center">
                     <i data-lucide="search" class="w-5 h-5 md:hidden"></i>
                     <span class="hidden md:inline">Gennemse Racer</span>
                 </a>
@@ -79,7 +79,7 @@
                 <div id="results-list" class="space-y-4"></div>
                 <div class="flex justify-center gap-4 mt-8">
                     <button onclick="location.reload()" class="px-6 py-3 border border-slate-200 rounded-xl hover:bg-slate-50">← Tag Quiz Igen</button>
-                    <a href="../compare/" id="compare-link" class="px-6 py-3 bg-[#1a5632] text-white rounded-xl font-semibold">Sammenlign Top 2</a>
+                    <a href="/compare/" id="compare-link" class="px-6 py-3 bg-[#1a5632] text-white rounded-xl font-semibold">Sammenlign Top 2</a>
                 </div>
             </div>
         </div>
@@ -388,7 +388,7 @@
             
             document.getElementById('results-list').innerHTML = scored.map((b, i) => `
                 <div class="bg-white rounded-2xl p-6 shadow-sm border flex gap-4 items-center">
-                    <img src="../../images/heads/${b.slug}.webp" class="w-20 h-20 rounded-xl object-cover" alt="${b.name}">
+                    <img src="/../images/heads/${b.slug}.webp" class="w-20 h-20 rounded-xl object-cover" alt="${b.name}">
                     <div class="flex-1">
                         <div class="flex items-center gap-2 mb-1">
                             <span class="text-xl font-bold">${b.name}</span>
@@ -396,7 +396,7 @@
                         </div>
                         <p class="text-sm text-slate-600">Hvorfor dette passer dig: ${b.tags.filter(t => userTags.includes(t)).map(translateTag).join(', ')}</p>
                     </div>
-                    <a href="../breeds/${b.slug}/" class="text-[#1a5632] hover:text-[#1a5632] font-semibold text-sm">Se Profil →</a>
+                    <a href="/breeds/${b.slug}/" class="text-[#1a5632] hover:text-[#1a5632] font-semibold text-sm">Se Profil →</a>
                 </div>
             `).join('');
             
