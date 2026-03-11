@@ -361,7 +361,7 @@
             ).join('');
 
             return `
-                <a href="../breeds/${breed.id}.html" class="breed-card bg-white rounded-xl border overflow-hidden block" style="border-color:#dde3d4; box-shadow: 0 2px 8px rgba(26,86,50,0.04);">
+                <a href="../breeds/${breed.id}/" class="breed-card bg-white rounded-xl border overflow-hidden block" style="border-color:#dde3d4; box-shadow: 0 2px 8px rgba(26,86,50,0.04);">
                     <div class="aspect-[4/5] relative overflow-hidden" style="background-color:#eef1e8;">
                         <img src="${imageUrl}" alt="${breed.name}" 
                             class="w-full h-full object-cover object-top"
@@ -543,7 +543,7 @@
             }
             
             searchDropdown.innerHTML = matches.map(b => `
-                <a href="../breeds/${b.id}.html" class="flex items-center gap-3 px-4 py-3 transition first:rounded-t-2xl last:rounded-b-2xl border-b last:border-0" style="border-color:#f0ede6;" onmouseover="this.style.backgroundColor='#f6f7f2'" onmouseout="this.style.backgroundColor=''">
+                <a href="../breeds/${b.id}/" class="flex items-center gap-3 px-4 py-3 transition first:rounded-t-2xl last:rounded-b-2xl border-b last:border-0" style="border-color:#f0ede6;" onmouseover="this.style.backgroundColor='#f6f7f2'" onmouseout="this.style.backgroundColor=''">
                     <img src="../images/heads/${b.id}.webp" alt="${b.name}" class="w-10 h-10 rounded-xl object-cover object-top" onerror="this.style.display='none'">
                     <div>
                         <div class="font-medium" style="color:#2a2518;">${b.name}</div>
