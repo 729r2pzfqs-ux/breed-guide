@@ -88,15 +88,34 @@ def generate_page(a_id, b_id):
         ("Barking Level", rating_to_label(a_r.get("barking",3)), rating_to_label(b_r.get("barking",3))),
     ]
     
-    # Build table rows
+    # Build table rows with star ratings
     table_rows = ""
+    rating_traits = {"Energy Level", "Grooming Needs", "Trainability", "Kid-Friendly", "Apartment Suitable", "Sociability", "Barking Level"}
+    
     for i, (label, a_val, b_val) in enumerate(rows_data):
         bg = ' class="bg-slate-50/50"' if i % 2 == 0 else ""
-        a_color = rating_to_color(a_val) if a_val in ("Very Low","Low","Moderate","High","Very High","Minimal") else ""
-        b_color = rating_to_color(b_val) if b_val in ("Very Low","Low","Moderate","High","Very High","Minimal") else ""
-        a_class = f' class="p-4 text-center font-medium {a_color}"' if a_color else ' class="p-4 text-center font-semibold"'
-        b_class = f' class="p-4 text-center font-medium {b_color}"' if b_color else ' class="p-4 text-center font-semibold"'
-        table_rows += f'<tr{bg}><td class="p-4 font-medium text-slate-700">{label}</td><td{a_class}>{a_val}</td><td{b_class}>{b_val}</td></tr>\n'
+        
+        if label in rating_traits:
+            # Get numeric rating for stars
+            trait_key_map = {"Energy Level": "energy", "Grooming Needs": "grooming", "Trainability": "trainability", 
+                           "Kid-Friendly": "kid_friendly", "Apartment Suitable": "apartment_ok", "Sociability": "sociability", "Barking Level": "barking"}
+            key = trait_key_map.get(label, "")
+            a_num = a_r.get(key, 3)
+            b_num = b_r.get(key, 3)
+            a_stars_str = stars(a_num)
+            b_stars_str = stars(b_num)
+            
+            a_cell = f'''<td class="p-4 text-center">
+<div class="flex justify-center gap-1"><span class="text-blue-500">{a_stars_str}</span></div>
+<span class="text-sm text-slate-600">{a_val}</span></td>'''
+            b_cell = f'''<td class="p-4 text-center">
+<div class="flex justify-center gap-1"><span class="text-rose-500">{b_stars_str}</span></div>
+<span class="text-sm text-slate-600">{b_val}</span></td>'''
+        else:
+            a_cell = f'<td class="p-4 text-center font-semibold">{a_val}</td>'
+            b_cell = f'<td class="p-4 text-center font-semibold">{b_val}</td>'
+        
+        table_rows += f'<tr{bg}><td class="p-4 font-medium text-slate-700">{label}</td>{a_cell}{b_cell}</tr>\n'
     
     # Description (can be dict or string)
     a_desc_raw = a.get("description", {})
