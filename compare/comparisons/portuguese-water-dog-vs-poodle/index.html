@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <!-- Google Analytics -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEERQZ53LZ"></script>
- <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "G-VEERQZ53LZ");</script>
 
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,6 +44,10 @@
  <script type="application/ld+json">
  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the main difference between a Portuguese Water Dog and a Standard Poodle?", "acceptedAnswer": {"@type": "Answer", "text": "The main differences lie in their size, energy levels, and temperament. The Portuguese Water Dog is a medium-sized breed with high energy, while the Standard Poodle is varies-sized with high energy. Check the detailed comparison above for a complete breakdown."}}, {"@type": "Question", "name": "Which is better for families with children, Portuguese Water Dog or Standard Poodle?", "acceptedAnswer": {"@type": "Answer", "text": "Both breeds can be good family dogs, but the Portuguese Water Dog tends to score higher for kid-friendliness. Consider your children's ages, your living space, and how much time you can dedicate to training and exercise when making your decision."}}, {"@type": "Question", "name": "Which breed is easier to train, Portuguese Water Dog or Standard Poodle?", "acceptedAnswer": {"@type": "Answer", "text": "The Portuguese Water Dog has a trainability rating of 5/5 while the Standard Poodle scores 5/5. Both breeds are similarly trainable. Positive reinforcement works best for both breeds."}}, {"@type": "Question", "name": "Do Portuguese Water Dogs or Standard Poodles need more exercise?", "acceptedAnswer": {"@type": "Answer", "text": "The Portuguese Water Dog has high energy needs while the Standard Poodle has high energy needs. Both breeds need similar amounts of exercise."}}, {"@type": "Question", "name": "How long do Portuguese Water Dogs and Standard Poodles live?", "acceptedAnswer": {"@type": "Answer", "text": "The Portuguese Water Dog typically lives 11-13 years, while the Standard Poodle has an average lifespan of 12-15 years. Proper nutrition, regular veterinary care, and appropriate exercise can help maximize lifespan for both breeds."}}]}
  </script>
+
+    <!-- Hreflang -->
+    <link rel="alternate" hreflang="en" href="https://breedfinder.org/compare/comparisons/portuguese-water-dog-vs-poodle/">
+    <link rel="alternate" hreflang="x-default" href="https://breedfinder.org/compare/comparisons/portuguese-water-dog-vs-poodle/">
 </head>
 <body class="min-h-screen text-slate-800" style="background: linear-gradient(135deg, #f6f7f2 0%, #ffffff 50%, #eef1e8 100%);">
  <!-- Header -->
@@ -422,5 +423,17 @@
  <p>© 2026 BreedFinder. Helping you find your perfect companion.</p>
  </div>
  </footer>
+
+<div id="gdpr-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;background:#1a1a2e;color:#fff;padding:12px 20px;z-index:10000;text-align:center;font-size:14px;">
+  We use analytics to improve your experience. By clicking Accept, you consent to our use of analytics.
+  <button onclick="acceptGA()" style="background:#6366f1;color:#fff;border:none;padding:6px 16px;border-radius:6px;margin-left:10px;cursor:pointer;">Accept</button>
+  <button onclick="declineGA()" style="background:transparent;color:#aaa;border:1px solid #555;padding:6px 16px;border-radius:6px;margin-left:6px;cursor:pointer;">Decline</button>
+</div>
+<script>
+function loadGA(){var s=document.createElement('script');s.src='https://www.googletagmanager.com/gtag/js?id=G-VEERQZ53LZ';s.async=true;document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-VEERQZ53LZ');}
+function acceptGA(){localStorage.setItem('breedfinder-consent','yes');document.getElementById('gdpr-banner').style.display='none';loadGA();}
+function declineGA(){localStorage.setItem('breedfinder-consent','no');document.getElementById('gdpr-banner').style.display='none';}
+if(localStorage.getItem('breedfinder-consent')==='yes'){loadGA();}else if(!localStorage.getItem('breedfinder-consent')){document.getElementById('gdpr-banner').style.display='block';}
+</script>
 </body>
 </html>
