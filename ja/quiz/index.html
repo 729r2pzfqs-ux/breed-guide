@@ -408,12 +408,12 @@
                         </div>
                         <p class="text-sm text-slate-600">おすすめの理由： ${b.tags.filter(t => userTags.includes(t)).join(', ')}</p>
                     </div>
-                    <a href="/breeds/${b.slug}/" class="text-[#1a5632] hover:text-[#1a5632] font-semibold text-sm">プロフィールを見る →</a>
+                    <a href="` + '/breeds/' + b.slug + '/' + `" class="text-[#1a5632] hover:text-[#1a5632] font-semibold text-sm">プロフィールを見る →</a>
                 </div>
             `).join('');
             
             if (scored.length >= 2) {
-                document.getElementById('compare-link').href = `../compare/?breed1=${scored[0].slug}&breed2=${scored[1].slug}`;
+                document.getElementById('compare-link').href = '../compare/?breed1=' + scored[0].slug + '&breed2=' + scored[1].slug;
             }
         }
     </script>

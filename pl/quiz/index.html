@@ -412,12 +412,12 @@
                         </div>
                         <p class="text-sm text-slate-600">Dlaczego to pasuje: ${b.tags.filter(t => userTags.includes(t)).map(translateTag).join(', ')}</p>
                     </div>
-                    <a href="/breeds/${b.slug}/" class="text-[#1a5632] hover:text-[#1a5632] font-semibold text-sm">Zobacz Profil →</a>
+                    <a href="` + '/breeds/' + b.slug + '/' + `" class="text-[#1a5632] hover:text-[#1a5632] font-semibold text-sm">Zobacz Profil →</a>
                 </div>
             `).join('');
             
             if (scored.length >= 2) {
-                document.getElementById('compare-link').href = `../compare/?breed1=${scored[0].slug}&breed2=${scored[1].slug}`;
+                document.getElementById('compare-link').href = '../compare/?breed1=' + scored[0].slug + '&breed2=' + scored[1].slug;
             }
         }
     </script>
