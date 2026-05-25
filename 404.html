@@ -46,6 +46,7 @@
 
   function tryRedirect() {
     var pathname = window.location.pathname;
+    if (pathname.indexOf('${') !== -1) { window.location.replace('/'); return; }
     var segments = pathname.split('/').filter(function(s) { return s.length > 0; });
     
     if (segments.length < 2) return; // Not a localized path

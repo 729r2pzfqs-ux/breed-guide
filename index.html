@@ -541,12 +541,26 @@
                     return;
                 }
                 
-                dropdown.innerHTML = matches.map(b => `
-                    <a href="breeds/${b.slug}/" class="flex items-center gap-3 px-4 py-3 transition first:rounded-t-2xl last:rounded-b-2xl" style="color: #2a2518;" onmouseover="this.style.background='#f6f7f2'" onmouseout="this.style.background=''">
-                        <img src="images/heads/${b.slug}.webp" alt="${b.name}" class="w-10 h-10 rounded-xl object-cover" onerror="this.style.display='none'">
-                        <span class="font-medium">${b.name}</span>
-                    </a>
-                `).join('');
+                dropdown.innerHTML = '';
+                matches.forEach(function(b) {
+                    var a = document.createElement('a');
+                    a.href = 'breeds/' + b.slug + '/';
+                    a.className = 'flex items-center gap-3 px-4 py-3 transition first:rounded-t-2xl last:rounded-b-2xl';
+                    a.style.color = '#2a2518';
+                    a.onmouseover = function() { this.style.background='#f6f7f2'; };
+                    a.onmouseout = function() { this.style.background=''; };
+                    var img = document.createElement('img');
+                    img.src = 'images/heads/' + b.slug + '.webp';
+                    img.alt = b.name;
+                    img.className = 'w-10 h-10 rounded-xl object-cover';
+                    img.onerror = function() { this.style.display='none'; };
+                    a.appendChild(img);
+                    var span = document.createElement('span');
+                    span.className = 'font-medium';
+                    span.textContent = b.name;
+                    a.appendChild(span);
+                    dropdown.appendChild(a);
+                });
                 dropdown.classList.remove('hidden');
             });
             

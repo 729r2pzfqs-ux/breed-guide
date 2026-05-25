@@ -420,12 +420,23 @@
                 if (query.length < 1 || breeds.length === 0) { dropdown.classList.add('hidden'); return; }
                 const matches = breeds.filter(b => b.name.toLowerCase().includes(query) || (b.localName && b.localName.toLowerCase().includes(query)) || (b.aliases && b.aliases.some(a => a.toLowerCase().includes(query)))).slice(0, 8);
                 if (matches.length === 0) { dropdown.classList.add('hidden'); return; }
-                dropdown.innerHTML = matches.map(b => `
-                    <a href="breeds/${b.slug}/" class="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition first:rounded-t-2xl last:rounded-b-2xl">
-                        <img src="/images/heads/${b.slug}.webp" alt="${b.localName || b.name}" class="w-10 h-10 rounded-xl object-cover" onerror="this.style.display='none'">
-                        <span class="font-medium text-warm-800">${b.localName || b.name}</span>
-                    </a>
-                `).join('');
+                dropdown.innerHTML = '';
+                matches.forEach(function(b) {
+                    var a = document.createElement('a');
+                    a.href = 'breeds/' + b.slug + '/';
+                    a.className = 'flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition first:rounded-t-2xl last:rounded-b-2xl';
+                    var img = document.createElement('img');
+                    img.src = '/images/heads/' + b.slug + '.webp';
+                    img.alt = b.localName || b.name;
+                    img.className = 'w-10 h-10 rounded-xl object-cover';
+                    img.onerror = function() { this.style.display='none'; };
+                    a.appendChild(img);
+                    var span = document.createElement('span');
+                    span.className = 'font-medium text-warm-800';
+                    span.textContent = b.localName || b.name;
+                    a.appendChild(span);
+                    dropdown.appendChild(a);
+                });
                 dropdown.classList.remove('hidden');
             });
             homeSearch.addEventListener('blur', function() { setTimeout(() => dropdown.classList.add('hidden'), 200); });
