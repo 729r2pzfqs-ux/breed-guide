@@ -2,6 +2,7 @@
 """Fix Finnish compare page: images, translations"""
 
 import re
+import os
 
 # Finnish translations
 FI_TRANSLATIONS = {
@@ -416,4 +417,4 @@ def fix_compare_page(filepath):
     print(f"Fixed: {filepath}")
 
 if __name__ == "__main__":
-    fix_compare_page("/Users/juhaporraskorpi/clawd/breedfinder.org/fi/compare/index.html")
+    fix_compare_page(os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../breedfinder.org/fi/compare/index.html"))

@@ -1388,7 +1388,7 @@ BREEDS = {
     }
 }
 
-OUTPUT_DIR = "/Users/juhaporraskorpi/clawd/dog-breed-guide/data/breeds"
+OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../dog-breed-guide/data/breeds")
 
 for num, breed_data in BREEDS.items():
     filepath = f"{OUTPUT_DIR}/{breed_data['id']}.json"

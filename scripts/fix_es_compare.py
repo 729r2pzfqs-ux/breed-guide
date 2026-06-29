@@ -2,6 +2,7 @@
 """Fix Spanish compare page: images, translations"""
 
 import re
+import os
 
 # Spanish translations
 ES_TRANSLATIONS = {
@@ -359,4 +360,4 @@ def fix_compare_page(filepath):
     print(f"Fixed: {filepath}")
 
 if __name__ == "__main__":
-    fix_compare_page("/Users/juhaporraskorpi/clawd/breedfinder.org/es/compare/index.html")
+    fix_compare_page(os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../breedfinder.org/es/compare/index.html"))

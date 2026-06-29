@@ -486,7 +486,7 @@ def fix_compare_page(lang_code, data, base_dir):
     print(f"Fixed: {lang_code} ({data['lang_name']})")
 
 if __name__ == "__main__":
-    base_dir = "/Users/juhaporraskorpi/clawd/breedfinder.org"
+    base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../breedfinder.org")
     
     for lang_code, data in LANGUAGES.items():
         fix_compare_page(lang_code, data, base_dir)
