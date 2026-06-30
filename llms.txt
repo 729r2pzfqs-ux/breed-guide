@@ -1,0 +1,53 @@
+# BreedFinder
+
+> Find your perfect dog breed. BreedFinder profiles 220+ dog breeds with expert ratings, side-by-side comparisons, a breed-matching quiz, and lifestyle guides — available in 16 languages.
+
+BreedFinder helps prospective and current dog owners choose the right breed for their lifestyle. Every breed is rated across eight practical dimensions (size, energy, grooming, sociability, trainability, barking, kid-friendliness, and apartment suitability) and described with overview, history, temperament, health, grooming, and exercise sections, plus a plain-language verdict of who the breed is and isn't right for.
+
+## Key Facts
+
+- 220+ dog breeds profiled with structured ratings and editorial write-ups
+- ~3,000 head-to-head breed comparison pages (English), generated from the breed dataset
+- 6 lifestyle guide articles (apartments, families, seniors, hypoallergenic, low-shedding, low-maintenance)
+- An interactive breed-finder quiz and a breed search tool
+- Available in 16 languages: English, Danish, German, Spanish, Finnish, French, Italian, Japanese, Dutch, Norwegian, Polish, Portuguese, Russian, Swedish, Turkish, and Chinese
+- 6,600+ total pages across all languages
+- Breed data is editorially curated and stored in a structured JSON dataset
+
+## Sections
+
+- [Breeds](https://breedfinder.org/breeds): Index of all dog breeds, each linking to a full profile
+- [Breed profiles](https://breedfinder.org/breeds/golden-retriever/): Individual breed pages with ratings, characteristics, temperament, health, grooming, exercise needs, and a best-for / not-for verdict
+- [Compare](https://breedfinder.org/compare/): Choose any two breeds to compare side by side
+- [Comparisons](https://breedfinder.org/compare/comparisons/): Pre-built head-to-head comparison pages for popular breed pairings
+- [Quiz](https://breedfinder.org/quiz/): Interactive breed-finder quiz that matches a breed to your lifestyle and preferences
+- [Search](https://breedfinder.org/search/): Search breeds by name or alias
+- [Articles](https://breedfinder.org/articles/): Lifestyle guides such as best dogs for apartments, families, seniors, hypoallergenic breeds, and low-shedding breeds
+- [FAQ](https://breedfinder.org/faq/): Frequently asked questions about choosing and caring for dogs
+- [About](https://breedfinder.org/about/): About BreedFinder and how breeds are rated
+- [Sitemap](https://breedfinder.org/sitemap.xml): Full XML sitemap of all pages across every language
+
+## URL Patterns
+
+- Breed profile: `https://breedfinder.org/breeds/{breed-id}/` (e.g. `/breeds/labrador-retriever/`)
+- Breed comparison: `https://breedfinder.org/compare/comparisons/{breed-a}-vs-{breed-b}/` (e.g. `/compare/comparisons/labrador-vs-golden-retriever/`)
+- Article guide: `https://breedfinder.org/articles/{slug}/` (e.g. `/articles/best-dogs-for-families/`)
+- Localized pages: `https://breedfinder.org/{lang}/...` where `{lang}` is one of `da`, `de`, `es`, `fi`, `fr`, `it`, `ja`, `nl`, `no`, `pl`, `pt`, `ru`, `sv`, `tr`, `zh` (e.g. `/de/breeds/golden-retriever/`). Localized URLs mirror the English structure with translated breed slugs.
+
+## Rating Dimensions
+
+Each breed is scored 1–5 on: size, energy level, grooming needs, sociability, trainability, barking tendency, kid-friendliness, and apartment suitability. Profiles also include group, country of origin, lifespan, height/weight, coat type and colors, shedding level, hypoallergenic status, and temperament traits.
+
+## Data Sources
+
+- Breed data is editorially curated by BreedFinder and stored as a structured dataset (`data/breeds.json`).
+- Ratings and verdicts reflect general breed characteristics and are intended as guidance, not a substitute for advice from breeders, veterinarians, or rescue organizations.
+
+## Contact
+
+- Email: hello@breedfinder.org
+
+## Notes
+
+- This is a static site hosted on GitHub Pages.
+- Information is general in nature; individual dogs vary. Always consult a veterinarian or qualified professional for decisions about a specific animal.
