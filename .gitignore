@@ -1,1 +1,4 @@
 tailwindcss-macos-arm64
+__pycache__/
+*.pyc
+.claude/
