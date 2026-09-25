@@ -52,24 +52,35 @@
         .prose li { margin-bottom: 0.5rem; }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/it/"}, {"@type": "ListItem", "position": 2, "name": "Guide", "item": "https://breedfinder.org/it/articles/"}, {"@type": "ListItem", "position": 3, "name": "20 Razze di Cani Che Non Perdono Pelo", "item": "https://breedfinder.org/it/articles/cani-che-non-perdono-pelo/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/it/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/it/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/it/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/it/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-3xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/it/" class="hover:text-emerald-800 transition underline">Home</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/it/articles/" class="hover:text-emerald-800 transition underline">Guide</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">20 Razze di Cani Che Non Perdono Pelo</span>
+        </nav>
+
         <article class="max-w-3xl mx-auto">
             <div class="mb-8">
                 <span class="text-emerald-600 font-medium text-sm">GUIDA TOELETTATURA</span>
@@ -87,7 +98,7 @@
                 <h2>🐩 La Famiglia del Barboncino (Tutte le Taglie)</h2>
 
                 <h3>1. Barboncino Standard</h3>
-                <p>Lo standard d'oro per i cani che non perdono pelo. I Barboncini hanno pelo riccio che intrappola i peli morti invece di farli cadere sul pavimento. Intelligenti, atletici ed eleganti. <a href="/breeds/poodle/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>Lo standard d'oro per i cani che non perdono pelo. I Barboncini hanno pelo riccio che intrappola i peli morti invece di farli cadere sul pavimento. Intelligenti, atletici ed eleganti. <a href="/it/breeds/poodle/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h3>2. Barboncino Nano</h3>
                 <p>Tutti i vantaggi di un Barboncino Standard in un pacchetto più piccolo. Perfetto per chi vuole un cane che non perde pelo ma ha spazio limitato.</p>
@@ -104,10 +115,10 @@
                 <p>Capelli lunghi e setosi bianchi che perdono minimamente. I Maltese sono gentili, giocherelloni e si adattano bene a varie situazioni. La spazzolatura regolare previene i nodi.</p>
 
                 <h3>6. Shih Tzu</h3>
-                <p>Nonostante il loro mantello lungo e fluente, gli Shih Tzu perdono pochissimo pelo. I loro capelli crescono continuamente e cadono solo quando spazzolati o rotti. <a href="/breeds/shih-tzu/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>Nonostante il loro mantello lungo e fluente, gli Shih Tzu perdono pochissimo pelo. I loro capelli crescono continuamente e cadono solo quando spazzolati o rotti. <a href="/it/breeds/shih-tzu/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h3>7. Yorkshire Terrier</h3>
-                <p>Gli Yorkie hanno capelli simili a quelli umani—crescono continuamente e perdono minimamente. Sono piccoli ma pieni di personalità. <a href="/breeds/yorkshire-terrier/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>Gli Yorkie hanno capelli simili a quelli umani—crescono continuamente e perdono minimamente. Sono piccoli ma pieni di personalità. <a href="/it/breeds/yorkshire-terrier/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h2>🌊 Cani d'Acqua (Perdita Minima)</h2>
 
@@ -123,7 +134,7 @@
                 <h2>🐕 Terrier Che Non Perdono Molto Pelo</h2>
 
                 <h3>11. Schnauzer (Tutte le Taglie)</h3>
-                <p>Schnauzer Gigante, Standard e Nano hanno tutti mantelli ruvidi che perdono minimamente. Hanno bisogno di stripping o tosatura regolare per mantenere il loro aspetto distintivo. <a href="/breeds/miniature-schnauzer/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>Schnauzer Gigante, Standard e Nano hanno tutti mantelli ruvidi che perdono minimamente. Hanno bisogno di stripping o tosatura regolare per mantenere il loro aspetto distintivo. <a href="/it/breeds/miniature-schnauzer/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h3>12. Soft Coated Wheaten Terrier</h3>
                 <p>Mantello setoso e ondulato che non perde molto. I Wheaten sono cani amichevoli e felici che vanno d'accordo con tutti. Il loro mantello ha bisogno di spazzolatura quotidiana.</p>
@@ -176,21 +187,21 @@
                 <p>Non sei sicuro di quale razza a bassa perdita sia giusta per te? Il nostro quiz considera le tue esigenze specifiche.</p>
 
                 <div class="flex flex-wrap gap-4 mt-6">
-                    <a href="/quiz/" class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-xl">Fai il Quiz →</a>
-                    <a href="/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Confronta Razze</a>
+                    <a href="/it/quiz/" class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-xl">Fai il Quiz →</a>
+                    <a href="/it/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Confronta Razze</a>
                 </div>
 
                 <h2>Articoli Correlati</h2>
                 <div class="grid gap-4 mt-4">
-                    <a href="/migliori-cani-per-appartamenti/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
+                    <a href="/it/articles/migliori-cani-per-appartamenti/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
                         <span class="text-2xl">🏢</span>
                         <span class="font-medium">15 Migliori Razze per Appartamenti</span>
                     </a>
-                    <a href="/migliori-cani-per-famiglie/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
+                    <a href="/it/articles/migliori-cani-per-famiglie/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
                         <span class="text-2xl">👨‍👩‍👧‍👦</span>
                         <span class="font-medium">12 Migliori Razze per Famiglie</span>
                     </a>
-                    <a href="/razze-a-bassa-manutenzione/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
+                    <a href="/it/articles/razze-a-bassa-manutenzione/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
                         <span class="text-2xl">🎯</span>
                         <span class="font-medium">15 Razze a Bassa Manutenzione</span>
                     </a>
@@ -199,9 +210,26 @@
         </article>
     </main>
 
-    <footer class="bg-emerald-900 text-white py-8 px-4 mt-12">
-        <div class="max-w-4xl mx-auto text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Fatto con cura per gli amanti dei cani.</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/it/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/it/search/" class="hover:text-white transition">Esplora le razze</a>
+                    <a href="/it/quiz/" class="hover:text-white transition">Quiz razze</a>
+                    <a href="/it/compare/" class="hover:text-white transition">Confronta</a>
+                    <a href="/it/articles/" class="hover:text-white transition">Guide</a>
+                    <a href="/it/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/it/about/" class="hover:text-white transition">Chi siamo</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privacy</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contatti: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

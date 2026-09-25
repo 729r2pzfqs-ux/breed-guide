@@ -48,24 +48,35 @@
         .prose li { margin-bottom: 0.5rem; }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://breedfinder.org/pl/"}, {"@type": "ListItem", "position": 2, "name": "Poradniki", "item": "https://breedfinder.org/pl/articles/"}, {"@type": "ListItem", "position": 3, "name": "12 Najlepszych Ras Psów dla Seniorów", "item": "https://breedfinder.org/pl/articles/najlepsze-psy-dla-seniorow/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/pl/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/pl/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/pl/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/pl/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-3xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/pl/" class="hover:text-emerald-800 transition underline">Strona główna</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/pl/articles/" class="hover:text-emerald-800 transition underline">Poradniki</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">12 Najlepszych Ras Psów dla Seniorów</span>
+        </nav>
+
         <article class="max-w-3xl mx-auto">
             <div class="mb-8">
                 <span class="text-sky-700 font-medium text-sm">PRZEWODNIK</span>
@@ -83,44 +94,44 @@
                 <h2>🏆 Najlepsze Wybory dla Seniorów</h2>
 
                 <h3>1. Cavalier King Charles Spaniel</h3>
-                <p>Idealny towarzysz dla seniora. Cavaliery są łagodne, czułe i zaskakująco elastyczne. Są szczęśliwe, idąc z tobą na spacer lub leżąc przy tobie cały dzień. Spokojne, łatwe do szkolenia i całkowicie oddane właścicielom. <a href="/breeds/cavalier-king-charles-spaniel/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
+                <p>Idealny towarzysz dla seniora. Cavaliery są łagodne, czułe i zaskakująco elastyczne. Są szczęśliwe, idąc z tobą na spacer lub leżąc przy tobie cały dzień. Spokojne, łatwe do szkolenia i całkowicie oddane właścicielom. <a href="/pl/breeds/cavalier-king-charles-spaniel/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
 
                 <h3>2. Bichon Frise</h3>
-                <p>Ta wesoła mała biała chmurka jest hipoalergiczna, mało gubi sierść i ma cudownie radosną osobowość. Bichony są zabawne bez bycia hiperaktywne i uwielbiają być z ludźmi. <a href="/breeds/bichon-frise/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
+                <p>Ta wesoła mała biała chmurka jest hipoalergiczna, mało gubi sierść i ma cudownie radosną osobowość. Bichony są zabawne bez bycia hiperaktywne i uwielbiają być z ludźmi. <a href="/pl/breeds/bichon-frise/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
 
                 <h3>3. Shih Tzu</h3>
-                <p>Hodowane jako towarzysze dla chińskiej rodziny królewskiej, Shih Tzu to urodzone psy do siedzenia na kolanach. Potrzebują minimalnego ruchu i są zadowolone z krótkich codziennych spacerów. <a href="/breeds/shih-tzu/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
+                <p>Hodowane jako towarzysze dla chińskiej rodziny królewskiej, Shih Tzu to urodzone psy do siedzenia na kolanach. Potrzebują minimalnego ruchu i są zadowolone z krótkich codziennych spacerów. <a href="/pl/breeds/shih-tzu/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
 
                 <h3>4. Maltańczyk</h3>
-                <p>Ważąc tylko 2-3 kg, Maltańczyk jest łatwy w obsłudze i noszeniu. Mimo delikatnego wyglądu są zaskakująco wytrzymałe i żywotne. Czułe, łagodne i tworzą zaskakująco silne więzi z właścicielami. <a href="/breeds/maltese/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
+                <p>Ważąc tylko 2-3 kg, Maltańczyk jest łatwy w obsłudze i noszeniu. Mimo delikatnego wyglądu są zaskakująco wytrzymałe i żywotne. Czułe, łagodne i tworzą zaskakująco silne więzi z właścicielami. <a href="/pl/breeds/maltese/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
 
                 <h3>5. Pudel Toy lub Miniaturowy</h3>
-                <p>Nie daj się zwieść fantazyjnym fryzurom—Pudle są inteligentne, łatwe do szkolenia i wspaniale lojalne. Rozmiary Toy i Miniaturowy są idealne dla seniorów, z hipoalergiczną sierścią i umiarkowanymi potrzebami ruchowymi. <a href="/breeds/poodle/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
+                <p>Nie daj się zwieść fantazyjnym fryzurom—Pudle są inteligentne, łatwe do szkolenia i wspaniale lojalne. Rozmiary Toy i Miniaturowy są idealne dla seniorów, z hipoalergiczną sierścią i umiarkowanymi potrzebami ruchowymi. <a href="/pl/breeds/poodle/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
 
                 <h2>🐕 Kanapowi Przyjaciele do Kochania</h2>
 
                 <h3>6. Mops</h3>
-                <p>Mopsy to urodzeni komicy ze złotym sercem. Niski poziom energii, uwielbiają przytulanie i są idealnie zadowolone z krótkich spacerów i wielu drzemek. <a href="/breeds/pug/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
+                <p>Mopsy to urodzeni komicy ze złotym sercem. Niski poziom energii, uwielbiają przytulanie i są idealnie zadowolone z krótkich spacerów i wielu drzemek. <a href="/pl/breeds/pug/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
 
                 <h3>7. Buldog Francuski</h3>
-                <p>Popularność Buldogów Francuskich wzrosła z dobrego powodu. Elastyczne, czułe i z minimalnymi potrzebami ruchowymi. To spokojne psy, które są zadowolone w każdym mieszkaniu. <a href="/breeds/french-bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
+                <p>Popularność Buldogów Francuskich wzrosła z dobrego powodu. Elastyczne, czułe i z minimalnymi potrzebami ruchowymi. To spokojne psy, które są zadowolone w każdym mieszkaniu. <a href="/pl/breeds/french-bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
 
                 <h3>8. Hawańczyk</h3>
-                <p>Narodowy pies Kuby to uroczy towarzysz—towarzyski, łatwy do szkolenia i chętny do zadowolenia. Hawańczyki są hipoalergiczne i nie potrzebują intensywnego ruchu, co czyni je idealnymi dla seniorów. <a href="/breeds/havanese/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
+                <p>Narodowy pies Kuby to uroczy towarzysz—towarzyski, łatwy do szkolenia i chętny do zadowolenia. Hawańczyki są hipoalergiczne i nie potrzebują intensywnego ruchu, co czyni je idealnymi dla seniorów. <a href="/pl/breeds/havanese/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
 
                 <h2>🌟 Dla Aktywnych Seniorów</h2>
 
                 <h3>9. Beagle</h3>
-                <p>Przyjazne, ciekawskie i świetne dla seniorów szukających towarzyszy na spacery. Beagle są wytrzymałe, średniego rozmiaru (9-14 kg) i mają radosny temperament. <a href="/breeds/beagle/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
+                <p>Przyjazne, ciekawskie i świetne dla seniorów szukających towarzyszy na spacery. Beagle są wytrzymałe, średniego rozmiaru (9-14 kg) i mają radosny temperament. <a href="/pl/breeds/beagle/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
 
                 <h3>10. Cocker Spaniel</h3>
                 <p>Słodkie, łagodne i nieskończenie oddane. Cocker Spaniele to wspaniali towarzysze dla aktywnych seniorów lubiących umiarkowany codzienny ruch.</p>
 
                 <h3>11. Welsh Corgi Pembroke</h3>
-                <p>Nie daj się zwieść krótkim nóżkom—Corgi są wytrzymałe, inteligentne i wspaniale lojalne. <a href="/breeds/pembroke-welsh-corgi/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
+                <p>Nie daj się zwieść krótkim nóżkom—Corgi są wytrzymałe, inteligentne i wspaniale lojalne. <a href="/pl/breeds/pembroke-welsh-corgi/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
 
                 <h3>12. Yorkshire Terrier</h3>
-                <p>Yorki pakują duże osobowości w małe ciała (2-3 kg). Przenośne, elastyczne i zaciekle lojalne. <a href="/breeds/yorkshire-terrier/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
+                <p>Yorki pakują duże osobowości w małe ciała (2-3 kg). Przenośne, elastyczne i zaciekle lojalne. <a href="/pl/breeds/yorkshire-terrier/" style="color: #1a5632;" class=" underline hover:no-underline">Zobacz profil rasy →</a></p>
 
                 <h2>✅ Co Czyni Psa Dobrym dla Seniorów?</h2>
 
@@ -159,16 +170,33 @@
                 <p>Nie wiesz jeszcze, która rasa jest dla ciebie najlepsza? Zrób nasz quiz, żeby znaleźć rasy pasujące do poziomu aktywności i preferencji.</p>
 
                 <div class="flex flex-wrap gap-4 mt-6">
-                    <a href="/quiz" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">Zrób Quiz Ras →</a>
-                    <a href="/compare" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Porównaj Rasy</a>
+                    <a href="/pl/quiz/" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">Zrób Quiz Ras →</a>
+                    <a href="/pl/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Porównaj Rasy</a>
                 </div>
             </div>
         </article>
     </main>
 
-    <footer class="bg-emerald-900 text-white py-8 px-4 mt-12">
-        <div class="max-w-4xl mx-auto text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Stworzone z miłością dla miłośników psów na całym świecie.</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/pl/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/pl/search/" class="hover:text-white transition">Przeglądaj rasy</a>
+                    <a href="/pl/quiz/" class="hover:text-white transition">Quiz ras</a>
+                    <a href="/pl/compare/" class="hover:text-white transition">Porównaj</a>
+                    <a href="/pl/articles/" class="hover:text-white transition">Poradniki</a>
+                    <a href="/pl/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/pl/about/" class="hover:text-white transition">O nas</a>
+                    <a href="/privacy/" class="hover:text-white transition">Prywatność</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Kontakt: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

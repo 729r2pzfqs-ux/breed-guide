@@ -48,24 +48,35 @@
         .prose li { margin-bottom: 0.5rem; }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://breedfinder.org/ja/"}, {"@type": "ListItem", "position": 2, "name": "ガイド", "item": "https://breedfinder.org/ja/articles/"}, {"@type": "ListItem", "position": 3, "name": "マンション向け犬種15選", "item": "https://breedfinder.org/ja/articles/manshon-ni-tekishita-inu/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/ja/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/ja/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/ja/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/ja/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-3xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/ja/" class="hover:text-emerald-800 transition underline">ホーム</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/ja/articles/" class="hover:text-emerald-800 transition underline">ガイド</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">マンション向け犬種15選</span>
+        </nav>
+
         <article class="max-w-3xl mx-auto">
             <div class="mb-8">
                 <span class="text-sky-700 font-medium text-sm">ガイド</span>
@@ -83,7 +94,7 @@
                 <h2>🏆 マンション向けトップ5</h2>
 
                 <h3>1. フレンチブルドッグ</h3>
-                <p>究極のマンションコンパニオン。フレンチブルドッグは静かで、運動量が少なく、ソファでくつろぐのが大好きです。滅多に吠えず、どんな住環境にも適応します。 <a href="/breeds/french-bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">犬種プロフィールを見る →</a></p>
+                <p>究極のマンションコンパニオン。フレンチブルドッグは静かで、運動量が少なく、ソファでくつろぐのが大好きです。滅多に吠えず、どんな住環境にも適応します。 <a href="/ja/breeds/french-bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">犬種プロフィールを見る →</a></p>
 
                 <h3>2. キャバリア・キング・チャールズ・スパニエル</h3>
                 <p>穏やかで静か、膝の上で丸くなるのが好きです。キャバリアは適応力があり、活動的な方にも家でリラックスしたい方にもぴったりです。</p>
@@ -92,7 +103,7 @@
                 <p>小さくて陽気、低アレルゲン。ビションは抜け毛が少なく、静かなことで知られています。適度な運動で満足し、室内遊びや短い散歩で十分です。</p>
 
                 <h3>4. パグ</h3>
-                <p>パグは文字通り膝犬として育てられました。エネルギーが低く、飼い主の近くにいることが好きで、狭いスペースでも満足します。いびきには覚悟が必要です！ <a href="/breeds/pug/" style="color: #1a5632;" class=" underline hover:no-underline">犬種プロフィールを見る →</a></p>
+                <p>パグは文字通り膝犬として育てられました。エネルギーが低く、飼い主の近くにいることが好きで、狭いスペースでも満足します。いびきには覚悟が必要です！ <a href="/ja/breeds/pug/" style="color: #1a5632;" class=" underline hover:no-underline">犬種プロフィールを見る →</a></p>
 
                 <h3>5. ボストンテリア</h3>
                 <p>「アメリカン・ジェントルマン」はコンパクトで静か、適応力があります。ボストンテリアは適度なエネルギーレベルで、室内での行儀の良さで知られています。</p>
@@ -103,7 +114,7 @@
                 <p>サイズに騙されないでください。バセットハウンドはカウチポテトです。穏やかで低エネルギー、毎日の散歩で満足します。</p>
 
                 <h3>7. イングリッシュブルドッグ</h3>
-                <p>ブルドッグは穏やかで威厳があり、運動量は最小限です。暑さに弱いので、実は暑い庭よりもエアコン付きのマンションを好みます。 <a href="/breeds/bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">犬種プロフィールを見る →</a></p>
+                <p>ブルドッグは穏やかで威厳があり、運動量は最小限です。暑さに弱いので、実は暑い庭よりもエアコン付きのマンションを好みます。 <a href="/ja/breeds/bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">犬種プロフィールを見る →</a></p>
 
                 <h3>8. 柴犬</h3>
                 <p>清潔で静か、猫のように独立心が強いです。柴犬は自分でグルーミングをし、滅多に吠えません（特徴的な「柴叫び」はありますが）。適切に運動させればマンションに最適です。</p>
@@ -154,16 +165,33 @@
                 <p>どのマンション向け犬種があなたに合っているかわからない？クイズを受けて、ライフスタイル、活動レベル、住環境に合った犬種を見つけましょう。</p>
 
                 <div class="flex gap-4 mt-6">
-                    <a href="/quiz" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">犬種クイズを受ける →</a>
-                    <a href="/compare" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">犬種を比較</a>
+                    <a href="/ja/quiz/" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">犬種クイズを受ける →</a>
+                    <a href="/ja/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">犬種を比較</a>
                 </div>
             </div>
         </article>
     </main>
 
-    <footer class="bg-emerald-900 text-white py-8 px-4 mt-12">
-        <div class="max-w-4xl mx-auto text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. 世界中の犬好きのために愛を込めて作りました。</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/ja/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/ja/search/" class="hover:text-white transition">犬種一覧</a>
+                    <a href="/ja/quiz/" class="hover:text-white transition">犬種診断</a>
+                    <a href="/ja/compare/" class="hover:text-white transition">比較</a>
+                    <a href="/ja/articles/" class="hover:text-white transition">ガイド</a>
+                    <a href="/ja/faq/" class="hover:text-white transition">よくある質問</a>
+                    <a href="/ja/about/" class="hover:text-white transition">運営者情報</a>
+                    <a href="/privacy/" class="hover:text-white transition">プライバシー</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; お問い合わせ: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

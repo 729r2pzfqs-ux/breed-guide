@@ -8,7 +8,7 @@
     <link rel="canonical" href="https://breedfinder.org/pl/faq/">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/tailwind.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="/js/icons.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>.faq-item[open] .faq-icon{transform:rotate(180deg);}        body { font-family: 'Inter', sans-serif; }
         .font-serif { font-family: 'Fraunces', serif; }
@@ -44,22 +44,31 @@
     <meta name="twitter:title" content="FAQ o Rasach Psów — Często Zadawane Pytania | BreedFinder">
     <meta name="twitter:description" content="Jasne odpowiedzi na najczęstsze pytania o rasach psów — od wyboru rasy po potrzeby ruchowe, pielęgnację i wiele więcej.">
     <meta name="twitter:image" content="https://breedfinder.org/images/og-card.png">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://breedfinder.org/pl/"}, {"@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://breedfinder.org/pl/faq/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
         <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/pl/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/pl/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/pl/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/pl/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
     <main class="max-w-5xl mx-auto px-4 py-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/pl/" class="hover:text-emerald-800 transition underline">Strona główna</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">FAQ</span>
+        </nav>
+
         <div class="text-center mb-10">
             <h1 class="text-4xl font-extrabold text-slate-900 mb-3">Często Zadawane Pytania</h1>
             <p class="text-lg text-slate-600">Wszystko co musisz wiedzieć o rasach psów</p>
@@ -70,7 +79,7 @@
                 <div class="space-y-3">
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Jak wybrać odpowiednią rasę psa?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><p>Weź pod uwagę swoje mieszkanie, poziom aktywności i sytuację rodzinną. <a href="/quiz/" class="text-sky-700 underline">Zrób test ras →</a></p></div>
+                        <div class="px-5 pb-5 text-slate-600"><p>Weź pod uwagę swoje mieszkanie, poziom aktywności i sytuację rodzinną. <a href="/pl/quiz/" class="text-sky-700 underline">Zrób test ras →</a></p></div>
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Szczeniak czy dorosły pies?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
@@ -83,11 +92,11 @@
                 <div class="space-y-3">
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Najlepsze psy do mieszkań?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Buldog Francuski — spokojny</li><li>Cavalier — adaptacyjny</li><li>Mops — kanapowiec</li><li>Chart — spokojny w domu</li></ul><a href="/search/?apartment=1" class="text-sky-700 underline mt-2 inline-block">Zobacz wszystkie rasy do mieszkań →</a></div>
+                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Buldog Francuski — spokojny</li><li>Cavalier — adaptacyjny</li><li>Mops — kanapowiec</li><li>Chart — spokojny w domu</li></ul><a href="/pl/search/?apartment=1" class="text-sky-700 underline mt-2 inline-block">Zobacz wszystkie rasy do mieszkań →</a></div>
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Najlepsze psy dla rodzin z dziećmi?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Labrador Retriever</li><li>Golden Retriever</li><li>Beagle</li><li>Collie</li></ul><a href="/search/?kids=1" class="text-sky-700 underline mt-2 inline-block">Zobacz wszystkie rasy dla rodzin →</a></div>
+                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Labrador Retriever</li><li>Golden Retriever</li><li>Beagle</li><li>Collie</li></ul><a href="/pl/search/?kids=1" class="text-sky-700 underline mt-2 inline-block">Zobacz wszystkie rasy dla rodzin →</a></div>
                     </details>
                 </div>
             </section>
@@ -100,7 +109,7 @@
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Które rasy najmniej linieją?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><p>Pudle, bichon frise, sznaucery i yorkshire terriery linieją mało. <a href="/search/?shedding=minimal" class="text-sky-700 underline mt-2 inline-block">Zobacz mało linejące rasy →</a></p></div>
+                        <div class="px-5 pb-5 text-slate-600"><p>Pudle, bichon frise, sznaucery i yorkshire terriery linieją mało. <a href="/pl/search/?shedding=minimal" class="text-sky-700 underline mt-2 inline-block">Zobacz mało linejące rasy →</a></p></div>
                     </details>
                 </div>
             </section>
@@ -113,15 +122,32 @@
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Które rasy są najłatwiejsze do szkolenia?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><p>Border collie, pudle, owczarki niemieckie i labradory są łatwe do szkolenia. <a href="/search/?train=1" class="text-sky-700 underline mt-2 inline-block">Zobacz łatwe do szkolenia rasy →</a></p></div>
+                        <div class="px-5 pb-5 text-slate-600"><p>Border collie, pudle, owczarki niemieckie i labradory są łatwe do szkolenia. <a href="/pl/search/?train=1" class="text-sky-700 underline mt-2 inline-block">Zobacz łatwe do szkolenia rasy →</a></p></div>
                     </details>
                 </div>
             </section>
         </div>
     </main>
-    <footer class="py-10 px-4 text-slate-300 py-8 px-4 mt-12" style="background: #1a2e1a;">
-        <div class="max-w-6xl mx-auto text-center">
-            <p class="text-sm">Stworzone z miłością dla miłośników psów</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/pl/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/pl/search/" class="hover:text-white transition">Przeglądaj rasy</a>
+                    <a href="/pl/quiz/" class="hover:text-white transition">Quiz ras</a>
+                    <a href="/pl/compare/" class="hover:text-white transition">Porównaj</a>
+                    <a href="/pl/articles/" class="hover:text-white transition">Poradniki</a>
+                    <a href="/pl/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/pl/about/" class="hover:text-white transition">O nas</a>
+                    <a href="/privacy/" class="hover:text-white transition">Prywatność</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Kontakt: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
     <script>lucide.createIcons();</script>

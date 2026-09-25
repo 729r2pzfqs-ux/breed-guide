@@ -9,9 +9,12 @@
     <link rel="canonical" href="https://breedfinder.org/ja/breeds/black-russian-terrier/">
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="/css/tailwind.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="/js/icons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700');
+        
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
         .card-shadow { box-shadow: 0 4px 20px rgba(26,86,50,0.05); }
         .rating-bar { background: #e2ddd4; position: relative; overflow: hidden; }
@@ -67,7 +70,7 @@
 
     <!-- Breadcrumb Schema -->
     <script type="application/ld+json">
-    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/ja/"}, {"@type": "ListItem", "position": 2, "name": "Breeds", "item": "https://breedfinder.org/ja/breeds/"}, {"@type": "ListItem", "position": 3, "name": "ブラック・ロシアン・テリア"}]}
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/ja/"}, {"@type": "ListItem", "position": 2, "name": "Breeds", "item": "https://breedfinder.org/ja/search/"}, {"@type": "ListItem", "position": 3, "name": "ブラック・ロシアン・テリア"}]}
     </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is a \u30d6\u30e9\u30c3\u30af\u30fb\u30ed\u30b7\u30a2\u30f3\u30fb\u30c6\u30ea\u30a2 a good family dog?", "acceptedAnswer": {"@type": "Answer", "text": "The \u30d6\u30e9\u30c3\u30af\u30fb\u30ed\u30b7\u30a2\u30f3\u30fb\u30c6\u30ea\u30a2 can make a great family companion depending on your lifestyle. Check temperament, energy level, and size requirements on this page."}}, {"@type": "Question", "name": "How much exercise does a \u30d6\u30e9\u30c3\u30af\u30fb\u30ed\u30b7\u30a2\u30f3\u30fb\u30c6\u30ea\u30a2 need?", "acceptedAnswer": {"@type": "Answer", "text": "Exercise needs vary by individual dog, but the \u30d6\u30e9\u30c3\u30af\u30fb\u30ed\u30b7\u30a2\u30f3\u30fb\u30c6\u30ea\u30a2 generally requires regular daily activity. Check the exercise and energy level sections above for specific recommendations."}}, {"@type": "Question", "name": "Are \u30d6\u30e9\u30c3\u30af\u30fb\u30ed\u30b7\u30a2\u30f3\u30fb\u30c6\u30ea\u30a2s easy to train?", "acceptedAnswer": {"@type": "Answer", "text": "\u4ed5\u4e8b\u306e\u305f\u3081\u306b\u751f\u307e\u308c\u3001\u5bb6\u65cf\u306b\u5fe0\u5b9f \u2014 \u5927\u578b\u72ac\u7a2e \u672c\u683c\u7684\u306a\u80fd\u529b\u3092\u6301\u3064...."}}, {"@type": "Question", "name": "How much does a \u30d6\u30e9\u30c3\u30af\u30fb\u30ed\u30b7\u30a2\u30f3\u30fb\u30c6\u30ea\u30a2 cost?", "acceptedAnswer": {"@type": "Answer", "text": "The price of a \u30d6\u30e9\u30c3\u30af\u30fb\u30ed\u30b7\u30a2\u30f3\u30fb\u30c6\u30ea\u30a2 varies by breeder, location, and lineage. Expect to budget for initial purchase, veterinary care, food, grooming, and supplies. Adoption from a rescue is also an excellent option."}}, {"@type": "Question", "name": "Do \u30d6\u30e9\u30c3\u30af\u30fb\u30ed\u30b7\u30a2\u30f3\u30fb\u30c6\u30ea\u30a2s shed a lot?", "acceptedAnswer": {"@type": "Answer", "text": "Shedding varies by breed. Check the grooming section above for specific information about the \u30d6\u30e9\u30c3\u30af\u30fb\u30ed\u30b7\u30a2\u30f3\u30fb\u30c6\u30ea\u30a2's coat type, grooming frequency, and shedding level."}}]}</script>
 
@@ -93,20 +96,20 @@
 <body class="bg-[#faf9f6] min-h-screen">
         <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/ja/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">犬種</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">クイズ</a>
+                <a href="/ja/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">犬種</a>
+                <a href="/ja/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">クイズ</a>
                 <div class="relative group">
                     <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-800 py-2 transition">
                         <i data-lucide="globe" class="w-4 h-4"></i>
                         <span>JA</span>
                     </button>
                     <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">EN</a><a href="/es/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">ES</a><a href="/de/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">DE</a><a href="/fr/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">FR</a><a href="/it/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">IT</a><a href="/pt/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">PT</a><a href="/fi/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">FI</a><a href="/sv/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">SV</a><a href="/nl/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">NL</a><a href="/da/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">DA</a><a href="/ja/" class="block px-4 py-2 font-semibold text-emerald-800 bg-slate-100">JA</a><a href="/no/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">NO</a><a href="/pl/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">PL</a><a href="/ru/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">RU</a><a href="/tr/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">TR</a><a href="/zh/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">ZH</a>
+                        <a href="/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">EN</a><a href="/es/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">ES</a><a href="/de/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">DE</a><a href="/fr/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">FR</a><a href="/it/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">IT</a><a href="/pt/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">PT</a><a href="/fi/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">FI</a><a href="/sv/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">SV</a><a href="/nl/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">NL</a><a href="/da/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">DA</a><a href="/ja/breeds/black-russian-terrier/" class="block px-4 py-2 font-semibold text-emerald-800 bg-slate-100">JA</a><a href="/no/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">NO</a><a href="/pl/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">PL</a><a href="/ru/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">RU</a><a href="/tr/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">TR</a><a href="/zh/breeds/black-russian-terrier/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">ZH</a>
                     </div>
                 </div>
             </nav>
@@ -117,7 +120,7 @@
         <nav class="text-sm text-[#5c5647] mb-6 flex items-center gap-2">
             <a href="/" class="hover:text-emerald-800">ホーム</a>
             <i data-lucide="chevron-right" class="w-4 h-4"></i>
-            <a href="/search/" class="hover:text-emerald-800">犬種を見る</a>
+            <a href="/ja/search/" class="hover:text-emerald-800">犬種を見る</a>
             <i data-lucide="chevron-right" class="w-4 h-4"></i>
             <span class="text-[#3d3829] font-medium">ブラック・ロシアン・テリア</span>
         </nav>
@@ -126,7 +129,7 @@
         <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-[#f0ede6]">
             <div class="flex flex-col md:flex-row gap-8">
                 <div class="md:w-2/5">
-                    <img src="/images/breeds/black-russian-terrier.webp" alt="ブラック・ロシアン・テリア" class="rounded-2xl w-full object-contain bg-white border border-[#e2ddd4]/50" onerror="this.src='../../images/heads/black-russian-terrier.webp'">
+                    <img src="/images/breeds/black-russian-terrier.webp" srcset="/images/breeds/768/black-russian-terrier.webp 768w, /images/breeds/black-russian-terrier.webp 1024w" sizes="(min-width: 768px) 400px, 100vw" width="1024" height="1536" fetchpriority="high" decoding="async" alt="ブラック・ロシアン・テリア" class="rounded-2xl w-full object-contain bg-white border border-[#e2ddd4]/50" onerror="this.src='../../images/heads/black-russian-terrier.webp'">
                 </div>
                 <div class="md:w-3/5">
                     <div class="flex items-center gap-2 mb-3">
@@ -271,12 +274,35 @@
         </div>
 
         <div class="text-center">
-            <a href="/search/" class="inline-flex items-center gap-2 text-emerald-800 font-semibold hover:text-emerald-800">
+            <a href="/ja/search/" class="inline-flex items-center gap-2 text-emerald-800 font-semibold hover:text-emerald-800">
                 <i data-lucide="arrow-left" class="w-4 h-4"></i>
                 犬種を見る
             </a>
         </div>
     </main>
+
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/ja/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/ja/search/" class="hover:text-white transition">犬種一覧</a>
+                    <a href="/ja/quiz/" class="hover:text-white transition">犬種診断</a>
+                    <a href="/ja/compare/" class="hover:text-white transition">比較</a>
+                    <a href="/ja/articles/" class="hover:text-white transition">ガイド</a>
+                    <a href="/ja/faq/" class="hover:text-white transition">よくある質問</a>
+                    <a href="/ja/about/" class="hover:text-white transition">運営者情報</a>
+                    <a href="/privacy/" class="hover:text-white transition">プライバシー</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; お問い合わせ: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
+        </div>
+    </footer>
 
     <script>lucide.createIcons();</script>
 

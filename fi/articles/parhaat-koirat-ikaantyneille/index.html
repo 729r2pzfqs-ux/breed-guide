@@ -81,24 +81,35 @@
         .prose li { margin-bottom: 0.5rem; }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Etusivu", "item": "https://breedfinder.org/fi/"}, {"@type": "ListItem", "position": 2, "name": "Oppaat", "item": "https://breedfinder.org/fi/articles/"}, {"@type": "ListItem", "position": 3, "name": "12 Parasta Koirarotua Ikääntyneille", "item": "https://breedfinder.org/fi/articles/parhaat-koirat-ikaantyneille/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/fi/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/fi/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/fi/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/fi/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-3xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/fi/" class="hover:text-emerald-800 transition underline">Etusivu</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/fi/articles/" class="hover:text-emerald-800 transition underline">Oppaat</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">12 Parasta Koirarotua Ikääntyneille</span>
+        </nav>
+
         <article class="max-w-3xl mx-auto">
             <div class="mb-8">
                 <span class="text-sky-700 font-medium text-sm">OPAS</span>
@@ -116,44 +127,44 @@
                 <h2>🏆 Parhaat Valinnat Ikääntyneille</h2>
 
                 <h3>1. Cavalier kingcharlesinspanieli</h3>
-                <p>Täydellinen eläkeläiskumppani. Cavalierit ovat lempeitä, helliä ja huomattavan sopeutuvia—ne lähtevät mielellään kävelylle tai käpertyvät viereesi koko päiväksi. Ne ovat hiljaisia, helppoja kouluttaa ja ehdottoman omistautuneita. <a href="/breeds/cavalier-king-charles-spaniel/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
+                <p>Täydellinen eläkeläiskumppani. Cavalierit ovat lempeitä, helliä ja huomattavan sopeutuvia—ne lähtevät mielellään kävelylle tai käpertyvät viereesi koko päiväksi. Ne ovat hiljaisia, helppoja kouluttaa ja ehdottoman omistautuneita. <a href="/fi/breeds/cavalier-king-charles-spaniel/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
 
                 <h3>2. Bichon frisé</h3>
-                <p>Nämä iloiset pienet pilvet ovat hypoallergeenisia, eivät karva paljon ja niillä on ihanasti iloinen persoonallisuus. Bichonit ovat leikkisiä mutteivät yliaktiivisia ja rakastavat olla ihmistensä kanssa. <a href="/breeds/bichon-frise/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
+                <p>Nämä iloiset pienet pilvet ovat hypoallergeenisia, eivät karva paljon ja niillä on ihanasti iloinen persoonallisuus. Bichonit ovat leikkisiä mutteivät yliaktiivisia ja rakastavat olla ihmistensä kanssa. <a href="/fi/breeds/bichon-frise/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
 
                 <h3>3. Shih tzu</h3>
-                <p>Vuosisatoja kiinalaisen kuninkaallisen seuralaiskieriksi kasvatetut shih tzut ovat luonnollisia sylikoiria. Ne vaativat minimaalista liikuntaa—lyhyt päivittäinen kävely riittää—ja ovat tyytyväisiä viettämään tunteja jalkojesi juuressa. <a href="/breeds/shih-tzu/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
+                <p>Vuosisatoja kiinalaisen kuninkaallisen seuralaiskieriksi kasvatetut shih tzut ovat luonnollisia sylikoiria. Ne vaativat minimaalista liikuntaa—lyhyt päivittäinen kävely riittää—ja ovat tyytyväisiä viettämään tunteja jalkojesi juuressa. <a href="/fi/breeds/shih-tzu/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
 
                 <h3>4. Maltankoira</h3>
-                <p>Vain 2-3 kilon painoiset maltankoirat ovat helppoja käsitellä ja kuljettaa. Herkästä ulkonäöstään huolimatta ne ovat yllättävän kestäviä ja eloisia. Ne ovat helliä, lempeitä ja muodostavat uskomattoman vahvoja siteitä omistajiinsa. <a href="/breeds/maltese/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
+                <p>Vain 2-3 kilon painoiset maltankoirat ovat helppoja käsitellä ja kuljettaa. Herkästä ulkonäöstään huolimatta ne ovat yllättävän kestäviä ja eloisia. Ne ovat helliä, lempeitä ja muodostavat uskomattoman vahvoja siteitä omistajiinsa. <a href="/fi/breeds/maltese/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
 
                 <h3>5. Villakoira (Toy tai Kääpiö)</h3>
-                <p>Älä anna hienojen kampauksien huijata—villakoirat ovat älykkäitä, helppoja kouluttaa ja ihanasti uskollisia. Toy- ja kääpiöversiot ovat täydellisiä ikääntyneille yhdistäen hypoallergeenisen turkin kohtuullisiin liikuntatarpeisiin. <a href="/breeds/poodle/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
+                <p>Älä anna hienojen kampauksien huijata—villakoirat ovat älykkäitä, helppoja kouluttaa ja ihanasti uskollisia. Toy- ja kääpiöversiot ovat täydellisiä ikääntyneille yhdistäen hypoallergeenisen turkin kohtuullisiin liikuntatarpeisiin. <a href="/fi/breeds/poodle/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
 
                 <h2>🐕 Ihanat Sohvakumppanit</h2>
 
                 <h3>6. Mopsi</h3>
-                <p>Mopsit ovat luonnollisia koomikoita kultaisilla sydämillä. Ne ovat matalaenergisiä, rakastavat halailua ja ovat täysin tyytyväisiä lyhyisiin kävelyihin ja runsaaseen päikkärilepoon. <a href="/breeds/pug/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
+                <p>Mopsit ovat luonnollisia koomikoita kultaisilla sydämillä. Ne ovat matalaenergisiä, rakastavat halailua ja ovat täysin tyytyväisiä lyhyisiin kävelyihin ja runsaaseen päikkärilepoon. <a href="/fi/breeds/pug/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
 
                 <h3>7. Ranskanbulldoggi</h3>
-                <p>Ranskikset ovat nousseet suosioon hyvästä syystä—ne ovat sopeutuvia, helliä ja vaativat minimaalista liikuntaa. Ne ovat hiljaisia koiria ja tyytyväisiä missä tahansa asunnossa. <a href="/breeds/french-bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
+                <p>Ranskikset ovat nousseet suosioon hyvästä syystä—ne ovat sopeutuvia, helliä ja vaativat minimaalista liikuntaa. Ne ovat hiljaisia koiria ja tyytyväisiä missä tahansa asunnossa. <a href="/fi/breeds/french-bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
 
                 <h3>8. Havannankoira</h3>
-                <p>Kuuban kansalliskoira on ihastuttava kumppani—sosiaalinen, koulutettava ja innokas miellyttämään. Havannankoirat ovat hypoallergeenisia eivätkä tarvitse intensiivistä liikuntaa. <a href="/breeds/havanese/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
+                <p>Kuuban kansalliskoira on ihastuttava kumppani—sosiaalinen, koulutettava ja innokas miellyttämään. Havannankoirat ovat hypoallergeenisia eivätkä tarvitse intensiivistä liikuntaa. <a href="/fi/breeds/havanese/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
 
                 <h2>🌟 Aktiiviset Ikääntyneet: Rodut, Jotka Pitävät Sinut Liikkeessä</h2>
 
                 <h3>9. Beagle</h3>
-                <p>Ystävällinen, utelias ja loistava ikääntyneille, jotka haluavat kävelykumppanin. Beaglet ovat kestäviä, keskikokoisia (9-14 kg) ja niillä on iloiset luonteet. <a href="/breeds/beagle/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
+                <p>Ystävällinen, utelias ja loistava ikääntyneille, jotka haluavat kävelykumppanin. Beaglet ovat kestäviä, keskikokoisia (9-14 kg) ja niillä on iloiset luonteet. <a href="/fi/breeds/beagle/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
 
                 <h3>10. Cockerspanieli</h3>
-                <p>Suloisia, lempeitä ja äärettömän omistautuneita. Cockerspanielit ovat erinomaisia kumppaneita aktiivisille ikääntyneille kohtuullisella päivittäisellä liikunnalla. <a href="/breeds/cocker-spaniel/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
+                <p>Suloisia, lempeitä ja äärettömän omistautuneita. Cockerspanielit ovat erinomaisia kumppaneita aktiivisille ikääntyneille kohtuullisella päivittäisellä liikunnalla. <a href="/fi/breeds/cocker-spaniel/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
 
                 <h3>11. Pembrokenwelshcorgi</h3>
-                <p>Älä anna lyhyiden jalkojen huijata—corgit ovat kestäviä, älykkäitä ja ihanasti uskollisia. Ne ovat kohtuullisen aktiivisia ja nauttivat päivittäisistä kävelyistä. <a href="/breeds/pembroke-welsh-corgi/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
+                <p>Älä anna lyhyiden jalkojen huijata—corgit ovat kestäviä, älykkäitä ja ihanasti uskollisia. Ne ovat kohtuullisen aktiivisia ja nauttivat päivittäisistä kävelyistä. <a href="/fi/breeds/pembroke-welsh-corgi/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
 
                 <h3>12. Yorkshirenterrieri</h3>
-                <p>Yorkiet pakkaavat isot persoonallisuudet pieniin kehoihin (2-3 kg). Ne ovat helposti kuljetettavia, sopeutuvia ja hurjan uskollisia. <a href="/breeds/yorkshire-terrier/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
+                <p>Yorkiet pakkaavat isot persoonallisuudet pieniin kehoihin (2-3 kg). Ne ovat helposti kuljetettavia, sopeutuvia ja hurjan uskollisia. <a href="/fi/breeds/yorkshire-terrier/" style="color: #1a5632;" class=" underline hover:no-underline">Katso rotuprofiili →</a></p>
 
                 <h2>✅ Mikä Tekee Koirasta Hyvän Ikääntyneille?</h2>
 
@@ -212,16 +223,33 @@
                 <p>Etkö ole vielä varma, mikä rotu sopii sinulle? Visamme huomioi aktiivisuustasosi, asumistilanteesi ja mieltymyksesi.</p>
 
                 <div class="flex flex-wrap gap-4 mt-6">
-                    <a href="/quiz" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">Tee Rotuvisa →</a>
-                    <a href="/compare" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Vertaile Rotuja</a>
+                    <a href="/fi/quiz/" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">Tee Rotuvisa →</a>
+                    <a href="/fi/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Vertaile Rotuja</a>
                 </div>
             </div>
         </article>
     </main>
 
-    <footer class="bg-emerald-900 text-white py-8 px-4 mt-12">
-        <div class="max-w-4xl mx-auto text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Tehty rakkaudella koiranystäville kaikkialla.</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/fi/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/fi/search/" class="hover:text-white transition">Selaa rotuja</a>
+                    <a href="/fi/quiz/" class="hover:text-white transition">Rotutesti</a>
+                    <a href="/fi/compare/" class="hover:text-white transition">Vertaile</a>
+                    <a href="/fi/articles/" class="hover:text-white transition">Oppaat</a>
+                    <a href="/fi/faq/" class="hover:text-white transition">UKK</a>
+                    <a href="/fi/about/" class="hover:text-white transition">Tietoa meistä</a>
+                    <a href="/privacy/" class="hover:text-white transition">Tietosuoja</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Yhteystiedot: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

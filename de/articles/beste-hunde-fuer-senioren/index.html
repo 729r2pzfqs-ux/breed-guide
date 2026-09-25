@@ -109,24 +109,35 @@
         .prose li { margin-bottom: 0.5rem; }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://breedfinder.org/de/"}, {"@type": "ListItem", "position": 2, "name": "Ratgeber", "item": "https://breedfinder.org/de/articles/"}, {"@type": "ListItem", "position": 3, "name": "12 Beste Hunderassen für Senioren", "item": "https://breedfinder.org/de/articles/beste-hunde-fuer-senioren/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/de/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/de/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/de/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/de/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-3xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/de/" class="hover:text-emerald-800 transition underline">Startseite</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/de/articles/" class="hover:text-emerald-800 transition underline">Ratgeber</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">12 Beste Hunderassen für Senioren</span>
+        </nav>
+
         <article class="max-w-3xl mx-auto">
             <div class="mb-8">
                 <span class="text-sky-700 font-medium text-sm">RATGEBER</span>
@@ -144,46 +155,46 @@
                 <h2>🏆 Top-Empfehlungen für Senioren</h2>
 
                 <h3>1. Cavalier King Charles Spaniel</h3>
-                <p>Der Inbegriff des Seniorenbegleiters. Cavaliers sind sanft, liebevoll und bemerkenswert anpassungsfähig—sie begleiten dich gerne auf einem Spaziergang oder rollen sich den ganzen Tag neben dir zusammen. Sie sind ruhig, leicht zu trainieren und absolut hingebungsvoll. <a href="/breeds/cavalier-king-charles-spaniel/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
+                <p>Der Inbegriff des Seniorenbegleiters. Cavaliers sind sanft, liebevoll und bemerkenswert anpassungsfähig—sie begleiten dich gerne auf einem Spaziergang oder rollen sich den ganzen Tag neben dir zusammen. Sie sind ruhig, leicht zu trainieren und absolut hingebungsvoll. <a href="/de/breeds/cavalier-king-charles-spaniel/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
 
                 <h3>2. Bichon Frisé</h3>
-                <p>Diese fröhlichen kleinen Wölkchen sind hypoallergen, haaren nicht viel und haben wunderbar fröhliche Persönlichkeiten. Bichons sind verspielt, aber nicht hyperaktiv, und sie lieben nichts mehr, als bei ihren Menschen zu sein. <a href="/breeds/bichon-frise/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
+                <p>Diese fröhlichen kleinen Wölkchen sind hypoallergen, haaren nicht viel und haben wunderbar fröhliche Persönlichkeiten. Bichons sind verspielt, aber nicht hyperaktiv, und sie lieben nichts mehr, als bei ihren Menschen zu sein. <a href="/de/breeds/bichon-frise/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
 
                 <h3>3. Shih Tzu</h3>
-                <p>Seit Jahrhunderten als Begleithunde für chinesische Adelige gezüchtet, sind Shih Tzus natürliche Schoßhunde. Sie brauchen minimale Bewegung—ein kurzer täglicher Spaziergang reicht—und sind zufrieden, stundenlang zu deinen Füßen zu verbringen. <a href="/breeds/shih-tzu/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
+                <p>Seit Jahrhunderten als Begleithunde für chinesische Adelige gezüchtet, sind Shih Tzus natürliche Schoßhunde. Sie brauchen minimale Bewegung—ein kurzer täglicher Spaziergang reicht—und sind zufrieden, stundenlang zu deinen Füßen zu verbringen. <a href="/de/breeds/shih-tzu/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
 
                 <h3>4. Malteser</h3>
-                <p>Mit nur 2-3 kg sind Malteser leicht zu handhaben und zu transportieren. Trotz ihres zarten Aussehens sind sie überraschend robust und lebhaft. Sie sind liebevoll, sanft und bilden unglaublich starke Bindungen zu ihren Besitzern. <a href="/breeds/maltese/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
+                <p>Mit nur 2-3 kg sind Malteser leicht zu handhaben und zu transportieren. Trotz ihres zarten Aussehens sind sie überraschend robust und lebhaft. Sie sind liebevoll, sanft und bilden unglaublich starke Bindungen zu ihren Besitzern. <a href="/de/breeds/maltese/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
 
                 <h3>5. Pudel (Toy oder Zwerg)</h3>
-                <p>Lass dich von den schicken Frisuren nicht täuschen—Pudel sind intelligent, leicht zu trainieren und wunderbar loyal. Toy- und Zwergvarianten sind perfekt für Senioren, kombinieren hypoallergenes Fell mit moderaten Bewegungsbedürfnissen. <a href="/breeds/poodle/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
+                <p>Lass dich von den schicken Frisuren nicht täuschen—Pudel sind intelligent, leicht zu trainieren und wunderbar loyal. Toy- und Zwergvarianten sind perfekt für Senioren, kombinieren hypoallergenes Fell mit moderaten Bewegungsbedürfnissen. <a href="/de/breeds/poodle/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
 
                 <h2>🐕 Liebenswerte Sofabegleiter</h2>
 
                 <h3>6. Mops</h3>
-                <p>Möpse sind natürliche Komiker mit Herzen aus Gold. Sie sind energiearm, lieben Kuscheln und sind völlig zufrieden mit kurzen Spaziergängen und viel Nickerchen. Ihre kompakte Größe (6-8 kg) ist handlich. <a href="/breeds/pug/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
+                <p>Möpse sind natürliche Komiker mit Herzen aus Gold. Sie sind energiearm, lieben Kuscheln und sind völlig zufrieden mit kurzen Spaziergängen und viel Nickerchen. Ihre kompakte Größe (6-8 kg) ist handlich. <a href="/de/breeds/pug/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
 
                 <h3>7. Französische Bulldogge</h3>
-                <p>Frenchies sind aus gutem Grund in der Beliebtheit gestiegen—sie sind anpassungsfähig, liebevoll und brauchen minimale Bewegung. Sie sind ruhige Hunde (kein übermäßiges Bellen) und in jedem Wohnraum zufrieden. <a href="/breeds/french-bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
+                <p>Frenchies sind aus gutem Grund in der Beliebtheit gestiegen—sie sind anpassungsfähig, liebevoll und brauchen minimale Bewegung. Sie sind ruhige Hunde (kein übermäßiges Bellen) und in jedem Wohnraum zufrieden. <a href="/de/breeds/french-bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
 
                 <h3>8. Havaneser</h3>
-                <p>Kubas Nationalhund ist ein reizender Begleiter—gesellig, trainierbar und eifrig zu gefallen. Havaneser sind hypoallergen und brauchen keine intensive Bewegung, was sie perfekt für Senioren macht. <a href="/breeds/havanese/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
+                <p>Kubas Nationalhund ist ein reizender Begleiter—gesellig, trainierbar und eifrig zu gefallen. Havaneser sind hypoallergen und brauchen keine intensive Bewegung, was sie perfekt für Senioren macht. <a href="/de/breeds/havanese/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
 
                 <h2>🌟 Aktive Senioren: Rassen, die dich in Bewegung halten</h2>
 
                 <p>Wenn du ein aktiver Senior bist, der tägliche Spaziergänge und Zeit im Freien genießt, bieten diese Rassen etwas mehr Energie, während sie handhabbar bleiben:</p>
 
                 <h3>9. Beagle</h3>
-                <p>Freundlich, neugierig und großartig für Senioren, die einen Spazierbegleiter wollen. Beagles sind robust, mittelgroß (9-14 kg) und haben fröhliche Temperamente. Sie brauchen regelmäßige Bewegung—etwa 30-60 Minuten täglich. <a href="/breeds/beagle/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
+                <p>Freundlich, neugierig und großartig für Senioren, die einen Spazierbegleiter wollen. Beagles sind robust, mittelgroß (9-14 kg) und haben fröhliche Temperamente. Sie brauchen regelmäßige Bewegung—etwa 30-60 Minuten täglich. <a href="/de/breeds/beagle/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
 
                 <h3>10. Cocker Spaniel</h3>
-                <p>Süß, sanft und endlos hingebungsvoll. Cocker Spaniels sind großartige Begleiter für aktive Senioren und brauchen moderate tägliche Bewegung. Sie sind eifrig zu gefallen und reagieren gut auf Training. <a href="/breeds/cocker-spaniel/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
+                <p>Süß, sanft und endlos hingebungsvoll. Cocker Spaniels sind großartige Begleiter für aktive Senioren und brauchen moderate tägliche Bewegung. Sie sind eifrig zu gefallen und reagieren gut auf Training. <a href="/de/breeds/cocker-spaniel/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
 
                 <h3>11. Pembroke Welsh Corgi</h3>
-                <p>Lass dich von den kurzen Beinen nicht täuschen—Corgis sind robust, intelligent und wunderbar loyal. Sie sind mäßig aktiv und genießen tägliche Spaziergänge. Mit 11-14 kg fühlen sie sich wie ein "richtiger Hund" an. <a href="/breeds/pembroke-welsh-corgi/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
+                <p>Lass dich von den kurzen Beinen nicht täuschen—Corgis sind robust, intelligent und wunderbar loyal. Sie sind mäßig aktiv und genießen tägliche Spaziergänge. Mit 11-14 kg fühlen sie sich wie ein "richtiger Hund" an. <a href="/de/breeds/pembroke-welsh-corgi/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
 
                 <h3>12. Yorkshire Terrier</h3>
-                <p>Yorkies packen große Persönlichkeiten in winzige Körper (2-3 kg). Sie sind tragbar, anpassungsfähig und wild loyal. Trotz ihres mutigen Rufs sind sie liebevolle Begleiter. <a href="/breeds/yorkshire-terrier/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
+                <p>Yorkies packen große Persönlichkeiten in winzige Körper (2-3 kg). Sie sind tragbar, anpassungsfähig und wild loyal. Trotz ihres mutigen Rufs sind sie liebevolle Begleiter. <a href="/de/breeds/yorkshire-terrier/" style="color: #1a5632;" class=" underline hover:no-underline">Rasseprofil ansehen →</a></p>
 
                 <h2>✅ Was macht einen Hund gut für Senioren?</h2>
 
@@ -256,21 +267,21 @@
                 <p>Immer noch unsicher, welche Rasse zu dir passt? Unser Quiz berücksichtigt dein Aktivitätsniveau, deine Wohnsituation und deine Vorlieben, um Rassen zu empfehlen, die perfekt zu deinem Lebensstil passen.</p>
 
                 <div class="flex flex-wrap gap-4 mt-6">
-                    <a href="/quiz" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">Rassen-Quiz starten →</a>
-                    <a href="/compare" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Rassen vergleichen</a>
+                    <a href="/de/quiz/" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">Rassen-Quiz starten →</a>
+                    <a href="/de/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Rassen vergleichen</a>
                 </div>
 
                 <h2>Verwandte Artikel</h2>
                 <div class="grid gap-4 mt-4">
-                    <a href="/beste-hunde-fuer-wohnungen/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
+                    <a href="/de/articles/beste-hunde-fuer-wohnungen/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
                         <span class="text-2xl">🏢</span>
                         <span class="font-medium">15 Beste Hunderassen für Wohnungen</span>
                     </a>
-                    <a href="/beste-hunde-fuer-familien/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
+                    <a href="/de/articles/beste-hunde-fuer-familien/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
                         <span class="text-2xl">👨‍👩‍👧‍👦</span>
                         <span class="font-medium">12 Beste Hunderassen für Familien mit Kindern</span>
                     </a>
-                    <a href="/wenig-haarende-hunde/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
+                    <a href="/de/articles/wenig-haarende-hunde/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
                         <span class="text-2xl">✨</span>
                         <span class="font-medium">20 Beste Hunderassen die wenig haaren</span>
                     </a>
@@ -279,9 +290,26 @@
         </article>
     </main>
 
-    <footer class="bg-emerald-900 text-white py-8 px-4 mt-12">
-        <div class="max-w-4xl mx-auto text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Mit Liebe gemacht für Hundeliebhaber überall.</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/de/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/de/search/" class="hover:text-white transition">Rassen entdecken</a>
+                    <a href="/de/quiz/" class="hover:text-white transition">Rassen-Quiz</a>
+                    <a href="/de/compare/" class="hover:text-white transition">Vergleichen</a>
+                    <a href="/de/articles/" class="hover:text-white transition">Ratgeber</a>
+                    <a href="/de/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/de/about/" class="hover:text-white transition">Über uns</a>
+                    <a href="/privacy/" class="hover:text-white transition">Datenschutz</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Kontakt: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

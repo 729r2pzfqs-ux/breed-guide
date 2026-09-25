@@ -126,6 +126,9 @@
     <link rel="alternate" hreflang="tr" href="https://breedfinder.org/tr/articles/bakimi-kolay-kopek-irklari/">
     <link rel="alternate" hreflang="zh" href="https://breedfinder.org/zh/articles/yiyang-de-quanzhong/">
     <link rel="alternate" hreflang="x-default" href="https://breedfinder.org/articles/low-maintenance-dog-breeds/">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://breedfinder.org/articles/"}, {"@type": "ListItem", "position": 3, "name": "15 Low Maintenance Dog Breeds for Busy Owners", "item": "https://breedfinder.org/articles/low-maintenance-dog-breeds/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
@@ -135,7 +138,7 @@
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
                 <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
                 <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
@@ -143,6 +146,14 @@
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-3xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/" class="hover:text-emerald-800 transition underline">Home</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/articles/" class="hover:text-emerald-800 transition underline">Guides</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">15 Low Maintenance Dog Breeds for Busy Owners</span>
+        </nav>
+
         <article class="max-w-3xl mx-auto">
             <div class="mb-8">
                 <span class="text-amber-600 font-medium text-sm">LIFESTYLE GUIDE</span>
@@ -279,16 +290,33 @@
                 <p>Still not sure which low maintenance breed suits your lifestyle? Our quiz considers your schedule, living situation, and preferences to recommend the best breeds for you.</p>
 
                 <div class="flex flex-wrap gap-4 mt-6">
-                    <a href="/quiz" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold px-6 py-3 rounded-xl">Take the Breed Quiz →</a>
-                    <a href="/compare" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Compare Breeds</a>
+                    <a href="/quiz/" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold px-6 py-3 rounded-xl">Take the Breed Quiz →</a>
+                    <a href="/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Compare Breeds</a>
                 </div>
             </div>
         </article>
     </main>
 
-    <footer class="py-10 px-4 mt-12" style="background: #1a2e1a;">
-        <div class="max-w-4xl mx-auto text-center text-sm" style="color: #a8a090;">
-            <p>© 2026 BreedFinder. Made with care for dog lovers everywhere.</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/search/" class="hover:text-white transition">Browse Breeds</a>
+                    <a href="/quiz/" class="hover:text-white transition">Breed Quiz</a>
+                    <a href="/compare/" class="hover:text-white transition">Compare</a>
+                    <a href="/articles/" class="hover:text-white transition">Guides</a>
+                    <a href="/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/about/" class="hover:text-white transition">About</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privacy</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contact: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

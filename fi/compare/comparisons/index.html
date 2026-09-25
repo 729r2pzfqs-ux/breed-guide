@@ -47,6 +47,9 @@
     <meta name="twitter:title" content="Koirarotujen vertailut | BreedFinder">
     <meta name="twitter:description" content="Lue yksityiskohtaiset koirarotujen vertailut. Labrador vs Kultainennoutaja, Husky vs Malamuutti ja paljon muuta.">
     <meta name="twitter:image" content="https://breedfinder.org/images/og-card.png">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Etusivu", "item": "https://breedfinder.org/fi/"}, {"@type": "ListItem", "position": 2, "name": "Vertaile", "item": "https://breedfinder.org/fi/compare/"}, {"@type": "ListItem", "position": 3, "name": "Koirarotujen vertailut", "item": "https://breedfinder.org/fi/compare/comparisons/"}]}
+    </script>
 </head>
 <body class="min-h-screen text-slate-800" style="background: linear-gradient(135deg, #f6f7f2 0%, #ffffff 50%, #eef1e8 100%);">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100" style="border-color: #e2ddd4; sticky top-0 z-50">
@@ -56,18 +59,20 @@
                 <span class="text-xl font-bold" style="color: #1a5632;">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="/rodut" class="text-slate-600 hover:text-forest transition">Kaikki rodut</a>
-                <a href="/" class="text-slate-600 hover:text-forest transition">Vertailu</a>
-                <a href="/testi" class="bg-forest text-white px-5 py-2.5 rounded-xl font-semibold">Tee testi</a>
+                <a href="/fi/search/" class="text-slate-600 hover:text-forest transition">Kaikki rodut</a>
+                <a href="/fi/compare/" class="text-slate-600 hover:text-forest transition">Vertailu</a>
+                <a href="/fi/quiz/" class="bg-forest text-white px-5 py-2.5 rounded-xl font-semibold">Tee testi</a>
             </nav>
         </div>
     </header>
 
     <main class="max-w-6xl mx-auto px-4 py-12">
-        <nav class="text-sm text-slate-600 mb-8">
-            <a href="/" class="hover:text-forest">Vertailu</a>
-            <span class="mx-2">›</span>
-            <span class="text-slate-700">Kaikki vertailut</span>
+        <nav aria-label="Breadcrumb" class="text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/fi/" class="hover:text-emerald-800 transition underline">Etusivu</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/fi/compare/" class="hover:text-emerald-800 transition underline">Vertaile</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">Koirarotujen vertailut</span>
         </nav>
 
         <div class="text-center mb-12">
@@ -94,9 +99,9 @@
             <!-- German Shepherd vs Malinois -->
             <a href="saksanpaimenkoira-vs-malinois/" class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition p-6 group">
                 <div class="flex items-center gap-4 mb-4">
-                    <img src="/images/heads/german-shepherd.webp" alt="Saksanpaimenkoira" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/german-shepherd.webp" alt="Saksanpaimenkoira" class="w-16 h-16 rounded-full object-cover">
                     <span class="text-2xl font-bold text-emerald-200">vs</span>
-                    <img src="/images/heads/belgian-malinois.webp" alt="Malinois" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/belgian-malinois.webp" alt="Malinois" class="w-16 h-16 rounded-full object-cover">
                 </div>
                 <h2 class="text-xl font-bold text-slate-800 group-hover:text-forest transition">Saksanpaimenkoira vs Malinois</h2>
                 <p class="text-slate-600 mt-2">Kaksi maailman parasta työkoiraa — kumpi on oikea valinta?</p>
@@ -106,9 +111,9 @@
             <!-- French Bulldog vs Boston Terrier -->
             <a href="ranskanbulldoggi-vs-bostoninterrieri/" class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition p-6 group">
                 <div class="flex items-center gap-4 mb-4">
-                    <img src="/images/heads/french-bulldog.webp" alt="Ranskanbulldoggi" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/french-bulldog.webp" alt="Ranskanbulldoggi" class="w-16 h-16 rounded-full object-cover">
                     <span class="text-2xl font-bold text-emerald-200">vs</span>
-                    <img src="/images/heads/boston-terrier.webp" alt="Bostoninterrieri" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/boston-terrier.webp" alt="Bostoninterrieri" class="w-16 h-16 rounded-full object-cover">
                 </div>
                 <h2 class="text-xl font-bold text-slate-800 group-hover:text-forest transition">Ranskanbulldoggi vs Bostoninterrieri</h2>
                 <p class="text-slate-600 mt-2">Kaksi suosittua pienikokoista rotua — kumpi sopii kerrostaloasumiseen?</p>
@@ -118,9 +123,9 @@
             <!-- Husky vs Malamute -->
             <a href="husky-vs-malamuutti/" class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition p-6 group">
                 <div class="flex items-center gap-4 mb-4">
-                    <img src="/images/heads/siberian-husky.webp" alt="Husky" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/siberian-husky.webp" alt="Husky" class="w-16 h-16 rounded-full object-cover">
                     <span class="text-2xl font-bold text-emerald-200">vs</span>
-                    <img src="/images/heads/alaskan-malamute.webp" alt="Malamuutti" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/alaskan-malamute.webp" alt="Malamuutti" class="w-16 h-16 rounded-full object-cover">
                 </div>
                 <h2 class="text-xl font-bold text-slate-800 group-hover:text-forest transition">Siperianhusky vs Alaskanmalamuutti</h2>
                 <p class="text-slate-600 mt-2">Kaksi upeaa arktista rotua — mikä on niiden todellinen ero?</p>
@@ -130,9 +135,9 @@
             <!-- Poodle vs Labrador -->
             <a href="villakoira-vs-labrador/" class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition p-6 group">
                 <div class="flex items-center gap-4 mb-4">
-                    <img src="/images/heads/poodle.webp" alt="Villakoira" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/poodle.webp" alt="Villakoira" class="w-16 h-16 rounded-full object-cover">
                     <span class="text-2xl font-bold text-emerald-200">vs</span>
-                    <img src="/images/heads/labrador-retriever.webp" alt="Labrador" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/labrador-retriever.webp" alt="Labrador" class="w-16 h-16 rounded-full object-cover">
                 </div>
                 <h2 class="text-xl font-bold text-slate-800 group-hover:text-forest transition">Villakoira vs Labradorinnoutaja</h2>
                 <p class="text-slate-600 mt-2">Älykkyyttä vai ystävällisyyttä? Vertaa kahta suosikkia.</p>
@@ -145,9 +150,26 @@
         </div>
     </main>
 
-    <footer class="border-t border-slate-100 mt-16 py-8">
-        <div class="max-w-6xl mx-auto px-4 text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Autamme sinua löytämään täydellisen kumppanin.</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/fi/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/fi/search/" class="hover:text-white transition">Selaa rotuja</a>
+                    <a href="/fi/quiz/" class="hover:text-white transition">Rotutesti</a>
+                    <a href="/fi/compare/" class="hover:text-white transition">Vertaile</a>
+                    <a href="/fi/articles/" class="hover:text-white transition">Oppaat</a>
+                    <a href="/fi/faq/" class="hover:text-white transition">UKK</a>
+                    <a href="/fi/about/" class="hover:text-white transition">Tietoa meistä</a>
+                    <a href="/privacy/" class="hover:text-white transition">Tietosuoja</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Yhteystiedot: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

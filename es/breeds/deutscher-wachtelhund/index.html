@@ -10,9 +10,9 @@
     <link rel="icon" href="/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/tailwind.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="/js/icons.js"></script>
     <style>
         
         
@@ -68,7 +68,7 @@
 
     <!-- Breadcrumb Schema -->
     <script type="application/ld+json">
-    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://breedfinder.org/es/"}, {"@type": "ListItem", "position": 2, "name": "Razas de perros", "item": "https://breedfinder.org/es/breeds/"}, {"@type": "ListItem", "position": 3, "name": "Deutscher Wachtelhund"}]}
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://breedfinder.org/es/"}, {"@type": "ListItem", "position": 2, "name": "Razas de perros", "item": "https://breedfinder.org/es/search/"}, {"@type": "ListItem", "position": 3, "name": "Deutscher Wachtelhund"}]}
     </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "\u00bfEs la raza Deutscher Wachtelhund una buena elecci\u00f3n para una familia?", "acceptedAnswer": {"@type": "Answer", "text": "Un perro de raza Deutscher Wachtelhund puede ser un excelente compa\u00f1ero familiar seg\u00fan tu estilo de vida. Consulta el temperamento, el nivel de energ\u00eda y el tama\u00f1o en esta p\u00e1gina."}}, {"@type": "Question", "name": "\u00bfCu\u00e1nto ejercicio necesita la raza Deutscher Wachtelhund?", "acceptedAnswer": {"@type": "Answer", "text": "Las necesidades de ejercicio var\u00edan seg\u00fan cada perro, pero la raza Deutscher Wachtelhund generalmente requiere actividad diaria regular. Consulta las secciones de ejercicio y nivel de energ\u00eda m\u00e1s arriba para recomendaciones espec\u00edficas."}}, {"@type": "Question", "name": "\u00bfEs f\u00e1cil adiestrar a un perro de raza Deutscher Wachtelhund?", "acceptedAnswer": {"@type": "Answer", "text": "Con su vers\u00e1til, amigable naturaleza, el Deutscher Wachtelhund es una raza querida por buenas razones...."}}, {"@type": "Question", "name": "\u00bfCu\u00e1nto cuesta un perro de raza Deutscher Wachtelhund?", "acceptedAnswer": {"@type": "Answer", "text": "El precio de un perro de raza Deutscher Wachtelhund var\u00eda seg\u00fan el criador, la ubicaci\u00f3n y el linaje. Presupuesta la compra inicial, los cuidados veterinarios, la comida, el aseo y los accesorios. Adoptar de una protectora tambi\u00e9n es una excelente opci\u00f3n."}}, {"@type": "Question", "name": "\u00bfSuelta mucho pelo la raza Deutscher Wachtelhund?", "acceptedAnswer": {"@type": "Answer", "text": "La muda de pelo var\u00eda seg\u00fan la raza. Consulta la secci\u00f3n de aseo m\u00e1s arriba para informaci\u00f3n sobre el tipo de manto, la frecuencia de cepillado y la muda de la raza Deutscher Wachtelhund."}}]}</script>
 
@@ -94,20 +94,20 @@
 <body class="bg-slate-50 min-h-screen">
             <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/es/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Razas</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/es/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Razas</a>
+                <a href="/es/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
                 <div class="relative group">
                     <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-800 py-2 transition">
                         <i data-lucide="globe" class="w-4 h-4"></i>
                         <span>ES</span>
                     </button>
                     <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">EN</a><a href="/es/" class="block px-4 py-2 font-semibold text-emerald-800 bg-slate-100">ES</a><a href="/de/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">DE</a><a href="/fr/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">FR</a><a href="/it/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">IT</a><a href="/pt/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">PT</a><a href="/fi/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">FI</a><a href="/sv/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">SV</a><a href="/nl/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">NL</a><a href="/da/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">DA</a><a href="/ja/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">JA</a><a href="/no/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">NO</a><a href="/pl/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">PL</a><a href="/ru/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">RU</a><a href="/tr/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">TR</a><a href="/zh/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">ZH</a>
+                        <a href="/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">EN</a><a href="/es/breeds/deutscher-wachtelhund/" class="block px-4 py-2 font-semibold text-emerald-800 bg-slate-100">ES</a><a href="/de/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">DE</a><a href="/fr/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">FR</a><a href="/it/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">IT</a><a href="/pt/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">PT</a><a href="/fi/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">FI</a><a href="/sv/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">SV</a><a href="/nl/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">NL</a><a href="/da/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">DA</a><a href="/ja/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">JA</a><a href="/no/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">NO</a><a href="/pl/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">PL</a><a href="/ru/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">RU</a><a href="/tr/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">TR</a><a href="/zh/breeds/deutscher-wachtelhund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">ZH</a>
                     </div>
                 </div>
             </nav>
@@ -118,7 +118,7 @@
         <nav class="text-sm text-slate-600 mb-6 flex items-center gap-2">
             <a href="/" class="hover:text-[#1a5632]">Inicio</a>
             <i data-lucide="chevron-right" class="w-4 h-4"></i>
-            <a href="/search/" class="hover:text-[#1a5632]">Ver Razas</a>
+            <a href="/es/search/" class="hover:text-[#1a5632]">Ver Razas</a>
             <i data-lucide="chevron-right" class="w-4 h-4"></i>
             <span class="text-slate-700 font-medium">Deutscher Wachtelhund</span>
         </nav>
@@ -127,7 +127,7 @@
         <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-slate-100">
             <div class="flex flex-col md:flex-row gap-8">
                 <div class="md:w-2/5">
-                    <img src="/images/breeds/deutscher-wachtelhund.webp" alt="Deutscher Wachtelhund" class="rounded-2xl w-full object-contain bg-white border border-[#e2ddd4]/50" onerror="this.src='../../images/heads/deutscher-wachtelhund.webp'">
+                    <img src="/images/breeds/deutscher-wachtelhund.webp" srcset="/images/breeds/768/deutscher-wachtelhund.webp 768w, /images/breeds/deutscher-wachtelhund.webp 1024w" sizes="(min-width: 768px) 400px, 100vw" width="1024" height="1536" fetchpriority="high" decoding="async" alt="Deutscher Wachtelhund" class="rounded-2xl w-full object-contain bg-white border border-[#e2ddd4]/50" onerror="this.src='../../images/heads/deutscher-wachtelhund.webp'">
                 </div>
                 <div class="md:w-3/5">
                     <div class="flex items-center gap-2 mb-3">
@@ -272,12 +272,35 @@
         </div>
 
         <div class="text-center">
-            <a href="/search/" class="inline-flex items-center gap-2 text-[#1a5632] font-semibold hover:text-[#1a5632]">
+            <a href="/es/search/" class="inline-flex items-center gap-2 text-[#1a5632] font-semibold hover:text-[#1a5632]">
                 <i data-lucide="arrow-left" class="w-4 h-4"></i>
                 Ver Razas
             </a>
         </div>
     </main>
+
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/es/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/es/search/" class="hover:text-white transition">Explorar razas</a>
+                    <a href="/es/quiz/" class="hover:text-white transition">Test de razas</a>
+                    <a href="/es/compare/" class="hover:text-white transition">Comparar</a>
+                    <a href="/es/articles/" class="hover:text-white transition">Guías</a>
+                    <a href="/es/faq/" class="hover:text-white transition">Preguntas frecuentes</a>
+                    <a href="/es/about/" class="hover:text-white transition">Acerca de</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privacidad</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contacto: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
+        </div>
+    </footer>
 
     <script>lucide.createIcons();</script>
 

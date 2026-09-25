@@ -110,24 +110,35 @@
         .prose li { margin-bottom: 0.5rem; }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/it/"}, {"@type": "ListItem", "position": 2, "name": "Guide", "item": "https://breedfinder.org/it/articles/"}, {"@type": "ListItem", "position": 3, "name": "12 Migliori Razze di Cani per Anziani", "item": "https://breedfinder.org/it/articles/migliori-cani-per-anziani/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/it/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/it/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/it/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/it/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-3xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/it/" class="hover:text-emerald-800 transition underline">Home</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/it/articles/" class="hover:text-emerald-800 transition underline">Guide</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">12 Migliori Razze di Cani per Anziani</span>
+        </nav>
+
         <article class="max-w-3xl mx-auto">
             <div class="mb-8">
                 <span class="text-sky-700 font-medium text-sm">GUIDA</span>
@@ -145,46 +156,46 @@
                 <h2>🏆 Le Migliori Scelte per Anziani</h2>
 
                 <h3>1. Cavalier King Charles Spaniel</h3>
-                <p>Il compagno per eccellenza degli anziani. I Cavalier sono dolci, affettuosi e notevolmente adattabili—ti accompagneranno felicemente in una passeggiata o si raggomitoleranno accanto a te tutto il giorno. Sono tranquilli, facili da addestrare e assolutamente devoti ai loro proprietari. <a href="/breeds/cavalier-king-charles-spaniel/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>Il compagno per eccellenza degli anziani. I Cavalier sono dolci, affettuosi e notevolmente adattabili—ti accompagneranno felicemente in una passeggiata o si raggomitoleranno accanto a te tutto il giorno. Sono tranquilli, facili da addestrare e assolutamente devoti ai loro proprietari. <a href="/it/breeds/cavalier-king-charles-spaniel/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h3>2. Bichon Frisé</h3>
-                <p>Queste allegre nuvolette sono ipoallergeniche, non perdono molto pelo e hanno personalità meravigliosamente felici. I Bichon sono giocherelloni ma non iperattivi, e non amano nulla di più che stare con le loro persone. <a href="/breeds/bichon-frise/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>Queste allegre nuvolette sono ipoallergeniche, non perdono molto pelo e hanno personalità meravigliosamente felici. I Bichon sono giocherelloni ma non iperattivi, e non amano nulla di più che stare con le loro persone. <a href="/it/breeds/bichon-frise/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h3>3. Shih Tzu</h3>
-                <p>Allevati per secoli come cani da compagnia per la nobiltà cinese, gli Shih Tzu sono naturali cani da grembo. Richiedono un esercizio minimo—una breve passeggiata giornaliera è sufficiente—e sono contenti di trascorrere ore ai tuoi piedi. <a href="/breeds/shih-tzu/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>Allevati per secoli come cani da compagnia per la nobiltà cinese, gli Shih Tzu sono naturali cani da grembo. Richiedono un esercizio minimo—una breve passeggiata giornaliera è sufficiente—e sono contenti di trascorrere ore ai tuoi piedi. <a href="/it/breeds/shih-tzu/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h3>4. Maltese</h3>
-                <p>Con soli 2-3 kg, i Maltese sono facili da gestire e trasportare. Nonostante il loro aspetto delicato, sono sorprendentemente robusti e vivaci. Sono amorevoli, dolci e formano legami incredibilmente forti con i loro proprietari. <a href="/breeds/maltese/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>Con soli 2-3 kg, i Maltese sono facili da gestire e trasportare. Nonostante il loro aspetto delicato, sono sorprendentemente robusti e vivaci. Sono amorevoli, dolci e formano legami incredibilmente forti con i loro proprietari. <a href="/it/breeds/maltese/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h3>5. Barboncino (Toy o Nano)</h3>
-                <p>Non lasciarti ingannare dalle acconciature elaborate—i Barboncini sono intelligenti, facili da addestrare e meravigliosamente leali. Le varietà Toy e Nano sono perfette per gli anziani, combinando mantelli ipoallergenici con esigenze di esercizio moderate. <a href="/breeds/poodle/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>Non lasciarti ingannare dalle acconciature elaborate—i Barboncini sono intelligenti, facili da addestrare e meravigliosamente leali. Le varietà Toy e Nano sono perfette per gli anziani, combinando mantelli ipoallergenici con esigenze di esercizio moderate. <a href="/it/breeds/poodle/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h2>🐕 Adorabili Compagni da Divano</h2>
 
                 <h3>6. Carlino</h3>
-                <p>I Carlini sono comici naturali con cuori d'oro. Sono a bassa energia, amano le coccole e sono perfettamente contenti con brevi passeggiate e tanto riposo. La loro taglia compatta (6-8 kg) è gestibile. Preparati solo al russare! <a href="/breeds/pug/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>I Carlini sono comici naturali con cuori d'oro. Sono a bassa energia, amano le coccole e sono perfettamente contenti con brevi passeggiate e tanto riposo. La loro taglia compatta (6-8 kg) è gestibile. Preparati solo al russare! <a href="/it/breeds/pug/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h3>7. Bouledogue Francese</h3>
-                <p>I Frenchie sono diventati popolari per buone ragioni—sono adattabili, affettuosi e richiedono un esercizio minimo. Sono cani tranquilli (niente abbaiare eccessivo) e felici in qualsiasi spazio abitativo. <a href="/breeds/french-bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>I Frenchie sono diventati popolari per buone ragioni—sono adattabili, affettuosi e richiedono un esercizio minimo. Sono cani tranquilli (niente abbaiare eccessivo) e felici in qualsiasi spazio abitativo. <a href="/it/breeds/french-bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h3>8. Bichon Havanese</h3>
-                <p>Il cane nazionale di Cuba è un compagno delizioso—socievole, addestrabile e desideroso di compiacere. Gli Bichon Havanese sono ipoallergenici e non richiedono esercizio intenso, rendendoli perfetti per gli anziani. <a href="/breeds/havanese/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>Il cane nazionale di Cuba è un compagno delizioso—socievole, addestrabile e desideroso di compiacere. Gli Bichon Havanese sono ipoallergenici e non richiedono esercizio intenso, rendendoli perfetti per gli anziani. <a href="/it/breeds/havanese/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h2>🌟 Anziani Attivi: Razze Che Ti Tengono in Movimento</h2>
 
                 <p>Se sei un anziano attivo che ama le passeggiate quotidiane e il tempo all'aperto, queste razze offrono un po' più di energia rimanendo gestibili:</p>
 
                 <h3>9. Beagle</h3>
-                <p>Amichevoli, curiosi e ottimi per anziani che vogliono un compagno di passeggiate. I Beagle sono robusti, di taglia media (9-14 kg) e hanno temperamenti felici. Hanno bisogno di esercizio regolare—circa 30-60 minuti al giorno. <a href="/breeds/beagle/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>Amichevoli, curiosi e ottimi per anziani che vogliono un compagno di passeggiate. I Beagle sono robusti, di taglia media (9-14 kg) e hanno temperamenti felici. Hanno bisogno di esercizio regolare—circa 30-60 minuti al giorno. <a href="/it/breeds/beagle/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h3>10. Cocker Spaniel Americano</h3>
-                <p>Dolci, gentili e infinitamente devoti. I Cocker Spaniel Americano sono ottimi compagni per anziani attivi, necessitando di esercizio quotidiano moderato. Sono desiderosi di compiacere e rispondono bene all'addestramento. <a href="/breeds/cocker-spaniel/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>Dolci, gentili e infinitamente devoti. I Cocker Spaniel Americano sono ottimi compagni per anziani attivi, necessitando di esercizio quotidiano moderato. Sono desiderosi di compiacere e rispondono bene all'addestramento. <a href="/it/breeds/cocker-spaniel/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h3>11. Welsh Corgi Pembroke</h3>
-                <p>Non lasciarti ingannare da quelle zampe corte—i Corgi sono robusti, intelligenti e meravigliosamente leali. Sono moderatamente attivi e godono delle passeggiate quotidiane. Con 10-14 kg, sono abbastanza sostanziosi pur rimanendo gestibili. <a href="/breeds/pembroke-welsh-corgi/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>Non lasciarti ingannare da quelle zampe corte—i Corgi sono robusti, intelligenti e meravigliosamente leali. Sono moderatamente attivi e godono delle passeggiate quotidiane. Con 10-14 kg, sono abbastanza sostanziosi pur rimanendo gestibili. <a href="/it/breeds/pembroke-welsh-corgi/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h3>12. Yorkshire Terrier</h3>
-                <p>Gli Yorkie racchiudono grandi personalità in pacchetti minuscoli (2-3 kg). Sono portatili, adattabili e ferocemente leali. Nonostante la loro reputazione vivace, sono compagni amorevoli felici con brevi passeggiate. <a href="/breeds/yorkshire-terrier/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
+                <p>Gli Yorkie racchiudono grandi personalità in pacchetti minuscoli (2-3 kg). Sono portatili, adattabili e ferocemente leali. Nonostante la loro reputazione vivace, sono compagni amorevoli felici con brevi passeggiate. <a href="/it/breeds/yorkshire-terrier/" style="color: #1a5632;" class=" underline hover:no-underline">Vedi profilo razza →</a></p>
 
                 <h2>✅ Cosa Rende un Cane Adatto agli Anziani?</h2>
 
@@ -253,21 +264,21 @@
                 <p>Non sei ancora sicuro di quale razza sia giusta per te? Il nostro quiz considera il tuo livello di attività, situazione abitativa e preferenze.</p>
 
                 <div class="flex flex-wrap gap-4 mt-6">
-                    <a href="/quiz/" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">Fai il Quiz →</a>
-                    <a href="/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Confronta Razze</a>
+                    <a href="/it/quiz/" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">Fai il Quiz →</a>
+                    <a href="/it/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Confronta Razze</a>
                 </div>
 
                 <h2>Articoli Correlati</h2>
                 <div class="grid gap-4 mt-4">
-                    <a href="/migliori-cani-per-appartamenti/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
+                    <a href="/it/articles/migliori-cani-per-appartamenti/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
                         <span class="text-2xl">🏢</span>
                         <span class="font-medium">15 Migliori Razze di Cani per Appartamenti</span>
                     </a>
-                    <a href="/migliori-cani-per-famiglie/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
+                    <a href="/it/articles/migliori-cani-per-famiglie/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
                         <span class="text-2xl">👨‍👩‍👧‍👦</span>
                         <span class="font-medium">12 Migliori Razze di Cani per Famiglie</span>
                     </a>
-                    <a href="/cani-che-non-perdono-pelo/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
+                    <a href="/it/articles/cani-che-non-perdono-pelo/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
                         <span class="text-2xl">✨</span>
                         <span class="font-medium">20 Razze di Cani Che Non Perdono Pelo</span>
                     </a>
@@ -276,9 +287,26 @@
         </article>
     </main>
 
-    <footer class="bg-emerald-900 text-white py-8 px-4 mt-12">
-        <div class="max-w-4xl mx-auto text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Fatto con cura per gli amanti dei cani.</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/it/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/it/search/" class="hover:text-white transition">Esplora le razze</a>
+                    <a href="/it/quiz/" class="hover:text-white transition">Quiz razze</a>
+                    <a href="/it/compare/" class="hover:text-white transition">Confronta</a>
+                    <a href="/it/articles/" class="hover:text-white transition">Guide</a>
+                    <a href="/it/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/it/about/" class="hover:text-white transition">Chi siamo</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privacy</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contatti: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

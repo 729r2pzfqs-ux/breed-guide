@@ -86,19 +86,20 @@
                 <span class="text-xl font-bold" style="color: #1a5632;">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="/breeds" class="text-slate-600 hover:text-forest transition">All Breeds</a>
-                <a href="/" class="text-slate-600 hover:text-forest transition">Compare</a>
-                <a href="/quiz" class="bg-forest text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-forest/25 transition">Take Quiz</a>
+                <a href="/search/" class="text-slate-600 hover:text-forest transition">All Breeds</a>
+                <a href="/compare/" class="text-slate-600 hover:text-forest transition">Compare</a>
+                <a href="/quiz/" class="bg-forest text-white px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg hover:shadow-forest/25 transition">Take Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="max-w-6xl mx-auto px-4 py-12">
-        <!-- Breadcrumb -->
-        <nav class="text-sm text-slate-600 mb-8">
-            <a href="/" class="hover:text-forest">Compare</a>
-            <span class="mx-2">›</span>
-            <span class="text-slate-700">All Comparisons</span>
+        <nav aria-label="Breadcrumb" class="text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/" class="hover:text-emerald-800 transition underline">Home</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/compare/" class="hover:text-emerald-800 transition underline">Compare</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">Breed Comparisons</span>
         </nav>
 
         <!-- Header -->
@@ -135,9 +136,9 @@
             <a href="french-bulldog-vs-boston-terrier/" class="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition overflow-hidden">
                 <div class="bg-gradient-to-r from-forest to-forest p-4 text-white">
                     <div class="flex justify-center items-center gap-2">
-                        <img src="/images/heads/french-bulldog.webp" alt="French Bulldog" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
+                        <img loading="lazy" decoding="async" src="/images/heads/french-bulldog.webp" alt="French Bulldog" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
                         <span class="text-2xl font-bold">vs</span>
-                        <img src="/images/heads/boston-terrier.webp" alt="Boston Terrier" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
+                        <img loading="lazy" decoding="async" src="/images/heads/boston-terrier.webp" alt="Boston Terrier" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
                     </div>
                 </div>
                 <div class="p-4">
@@ -154,9 +155,9 @@
             <a href="german-shepherd-vs-belgian-malinois/" class="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition overflow-hidden">
                 <div class="bg-gradient-to-r from-forest to-forest p-4 text-white">
                     <div class="flex justify-center items-center gap-2">
-                        <img src="/images/heads/german-shepherd.webp" alt="German Shepherd" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
+                        <img loading="lazy" decoding="async" src="/images/heads/german-shepherd.webp" alt="German Shepherd" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
                         <span class="text-2xl font-bold">vs</span>
-                        <img src="/images/heads/belgian-malinois.webp" alt="Belgian Malinois" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
+                        <img loading="lazy" decoding="async" src="/images/heads/belgian-malinois.webp" alt="Belgian Malinois" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
                     </div>
                 </div>
                 <div class="p-4">
@@ -173,9 +174,9 @@
             <a href="poodle-vs-labrador/" class="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition overflow-hidden">
                 <div class="bg-gradient-to-r from-forest to-forest p-4 text-white">
                     <div class="flex justify-center items-center gap-2">
-                        <img src="/images/heads/poodle.webp" alt="Poodle" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
+                        <img loading="lazy" decoding="async" src="/images/heads/poodle.webp" alt="Poodle" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
                         <span class="text-2xl font-bold">vs</span>
-                        <img src="/images/heads/labrador-retriever.webp" alt="Labrador Retriever" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
+                        <img loading="lazy" decoding="async" src="/images/heads/labrador-retriever.webp" alt="Labrador Retriever" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
                     </div>
                 </div>
                 <div class="p-4">
@@ -192,9 +193,9 @@
             <a href="husky-vs-malamute/" class="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition overflow-hidden">
                 <div class="bg-gradient-to-r from-forest to-forest p-4 text-white">
                     <div class="flex justify-center items-center gap-2">
-                        <img src="/images/heads/siberian-husky.webp" alt="Siberian Husky" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
+                        <img loading="lazy" decoding="async" src="/images/heads/siberian-husky.webp" alt="Siberian Husky" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
                         <span class="text-2xl font-bold">vs</span>
-                        <img src="/images/heads/alaskan-malamute.webp" alt="Alaskan Malamute" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
+                        <img loading="lazy" decoding="async" src="/images/heads/alaskan-malamute.webp" alt="Alaskan Malamute" class="w-16 h-16 rounded-full object-cover border-2 border-white/50">
                     </div>
                 </div>
                 <div class="p-4">
@@ -3194,10 +3195,26 @@
 
 </main>
 
-    <!-- Footer -->
-    <footer class="border-t border-slate-100 mt-16 py-8">
-        <div class="max-w-6xl mx-auto px-4 text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Helping you find your perfect companion.</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/search/" class="hover:text-white transition">Browse Breeds</a>
+                    <a href="/quiz/" class="hover:text-white transition">Breed Quiz</a>
+                    <a href="/compare/" class="hover:text-white transition">Compare</a>
+                    <a href="/articles/" class="hover:text-white transition">Guides</a>
+                    <a href="/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/about/" class="hover:text-white transition">About</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privacy</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contact: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

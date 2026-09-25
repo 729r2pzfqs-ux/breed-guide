@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="0Yv9EWB8oEkzNC9k0s6oV8T2eQGtKLLqahAaSd_YwYc">
     <title>Dog Breed Finder | Quiz, Compare & Find Your Perfect Dog | BreedFinder</title>
-    <meta name="description" content="Find your perfect dog breed with our quiz, compare tool & expert guides. 200+ breeds rated for families, apartments, allergies & more.">
+    <meta name="description" content="Find your ideal dog among 220 breeds: take a 5-question lifestyle quiz, compare any two breeds side by side, and read honest verdicts on energy, grooming and kids.">
     <meta name="keywords" content="dog breeds, dog breed finder, dog breed quiz, compare dog breeds, best dog breeds, family dogs, apartment dogs, hypoallergenic dogs, low shedding dogs">
     <link rel="canonical" href="https://breedfinder.org/">
     
@@ -39,7 +39,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://breedfinder.org/">
     <meta property="og:title" content="BreedFinder — Find Your Perfect Dog Breed">
-    <meta property="og:description" content="Discover the perfect dog breed for your lifestyle. Compare 200+ breeds, read expert verdicts, and find your ideal furry companion.">
+    <meta property="og:description" content="Find your ideal dog among 220 breeds: take a 5-question lifestyle quiz, compare any two breeds side by side, and read honest verdicts on energy, grooming and kids.">
     <meta property="og:site_name" content="BreedFinder">
     <meta property="og:image" content="https://breedfinder.org/images/og-card.png">
     <meta property="og:image:width" content="1200">
@@ -48,7 +48,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="BreedFinder — Find Your Perfect Dog Breed">
-    <meta name="twitter:description" content="Discover the perfect dog breed for your lifestyle. Compare 200+ breeds and find your ideal furry companion.">
+    <meta name="twitter:description" content="Find your ideal dog among 220 breeds: take a 5-question lifestyle quiz, compare any two breeds side by side, and read honest verdicts on energy, grooming and kids.">
     <meta name="twitter:image" content="https://breedfinder.org/images/og-card.png">
     
     <!-- Schema.org -->
@@ -116,7 +116,7 @@
     </script>
     
     <link rel="stylesheet" href="/css/tailwind.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="/js/icons.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -140,14 +140,14 @@
     <!-- Header -->
     <header class="bg-white/80 backdrop-blur-md border-b sticky top-0 z-50" style="border-color: #f0ede6;">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="./" class="flex items-center gap-3">
+            <a href="/" class="flex items-center gap-3">
                 <img src="logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-4 md:gap-6 text-sm font-medium">
-                <a href="search/" class="hidden sm:block transition" style="color: #5c5647;" onmouseover="this.style.color='#1a5632'" onmouseout="this.style.color='#5c5647'">Browse Breeds</a>
+                <a href="/search/" class="hidden sm:block transition" style="color: #5c5647;" onmouseover="this.style.color='#1a5632'" onmouseout="this.style.color='#5c5647'">Browse Breeds</a>
                 <!-- Dark mode removed -->
-                <a href="quiz" class="text-white px-5 py-2.5 rounded-xl font-semibold transition" style="background: #1a5632;" onmouseover="this.style.boxShadow='0 8px 20px rgba(26,86,50,0.25)'" onmouseout="this.style.boxShadow='none'">Take Quiz</a>
+                <a href="/quiz/" class="text-white px-5 py-2.5 rounded-xl font-semibold transition" style="background: #1a5632;" onmouseover="this.style.boxShadow='0 8px 20px rgba(26,86,50,0.25)'" onmouseout="this.style.boxShadow='none'">Take Quiz</a>
                 <!-- Language selector -->
                 <div class="relative group">
                     <button class="flex items-center gap-1 py-2 transition" style="color: #5c5647;" onmouseover="this.style.color='#1a5632'" onmouseout="this.style.color='#5c5647'">
@@ -305,35 +305,35 @@
                 <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
                     <a href="search/?size=tiny" class="rounded-2xl p-6 text-center transition border group" style="background: #f6f7f2; border-color: #dde3d4;" onmouseover="this.style.background='#eef1e8'" onmouseout="this.style.background='#f6f7f2'">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
-                            <img src="images/heads/chihuahua.webp" alt="Chihuahua" class="w-full h-full object-cover object-top">
+                            <img loading="lazy" decoding="async" src="images/heads/chihuahua.webp" alt="Chihuahua" class="w-full h-full object-cover object-top">
                         </div>
                         <div class="font-semibold" style="color: #2a2518;">Tiny</div>
                         <div class="text-sm" style="color: #5c5647;">Under 5 kg</div>
                     </a>
                     <a href="search/?size=small" class="rounded-2xl p-6 text-center transition border group" style="background: #f6f7f2; border-color: #dde3d4;" onmouseover="this.style.background='#eef1e8'" onmouseout="this.style.background='#f6f7f2'">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
-                            <img src="images/heads/beagle.webp" alt="Beagle" class="w-full h-full object-cover object-top">
+                            <img loading="lazy" decoding="async" src="images/heads/beagle.webp" alt="Beagle" class="w-full h-full object-cover object-top">
                         </div>
                         <div class="font-semibold" style="color: #2a2518;">Small</div>
                         <div class="text-sm" style="color: #5c5647;">5–10 kg</div>
                     </a>
                     <a href="search/?size=medium" class="rounded-2xl p-6 text-center transition border group" style="background: #f6f7f2; border-color: #dde3d4;" onmouseover="this.style.background='#eef1e8'" onmouseout="this.style.background='#f6f7f2'">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
-                            <img src="images/heads/border-collie.webp" alt="Border Collie" class="w-full h-full object-cover object-top">
+                            <img loading="lazy" decoding="async" src="images/heads/border-collie.webp" alt="Border Collie" class="w-full h-full object-cover object-top">
                         </div>
                         <div class="font-semibold" style="color: #2a2518;">Medium</div>
                         <div class="text-sm" style="color: #5c5647;">10–25 kg</div>
                     </a>
                     <a href="search/?size=large" class="rounded-2xl p-6 text-center transition border group" style="background: #f6f7f2; border-color: #dde3d4;" onmouseover="this.style.background='#eef1e8'" onmouseout="this.style.background='#f6f7f2'">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
-                            <img src="images/heads/german-shepherd.webp" alt="German Shepherd" class="w-full h-full object-cover object-top">
+                            <img loading="lazy" decoding="async" src="images/heads/german-shepherd.webp" alt="German Shepherd" class="w-full h-full object-cover object-top">
                         </div>
                         <div class="font-semibold" style="color: #2a2518;">Large</div>
                         <div class="text-sm" style="color: #5c5647;">25–45 kg</div>
                     </a>
                     <a href="search/?size=giant" class="rounded-2xl p-6 text-center transition border group" style="background: #f6f7f2; border-color: #dde3d4;" onmouseover="this.style.background='#eef1e8'" onmouseout="this.style.background='#f6f7f2'">
                         <div class="w-14 h-14 rounded-xl mx-auto mb-3 group-hover:scale-110 transition shadow-sm overflow-hidden">
-                            <img src="images/heads/great-dane.webp" alt="Great Dane" class="w-full h-full object-cover object-top">
+                            <img loading="lazy" decoding="async" src="images/heads/great-dane.webp" alt="Great Dane" class="w-full h-full object-cover object-top">
                         </div>
                         <div class="font-semibold" style="color: #2a2518;">Giant</div>
                         <div class="text-sm" style="color: #5c5647;">Over 45 kg</div>
@@ -453,23 +453,25 @@
         </div>
     </section>
 
-    <!-- Footer -->
-        <footer class="bg-emerald-900 py-12 px-4">
-        <div class="max-w-6xl mx-auto">
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
             <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-                <div class="flex items-center gap-3">
-                    <img src="logo-192-green.png" alt="BreedFinder" class="h-10 w-10 brightness-0 invert">
+                <a href="/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
                     <span class="text-xl font-bold text-white">BreedFinder</span>
-                </div>
-                <div class="flex gap-8 text-sm text-emerald-200">
-                    <a href="quiz/" class="hover:text-white transition">Quiz</a>
-                    <a href="compare/" class="hover:text-white transition">Compare</a>
-                    <a href="search/" class="hover:text-white transition">Browse</a>
-                    <a href="faq/" class="hover:text-white transition">FAQ</a>
-                </div>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/search/" class="hover:text-white transition">Browse Breeds</a>
+                    <a href="/quiz/" class="hover:text-white transition">Breed Quiz</a>
+                    <a href="/compare/" class="hover:text-white transition">Compare</a>
+                    <a href="/articles/" class="hover:text-white transition">Guides</a>
+                    <a href="/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/about/" class="hover:text-white transition">About</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privacy</a>
+                </nav>
             </div>
             <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
-                <p>© 2026 BreedFinder</p>
+                <p>&copy; 2026 BreedFinder &middot; Contact: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
             </div>
         </div>
     </footer>

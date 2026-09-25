@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About BreedFinder — Helping You Find the Perfect Dog Breed</title>
-    <meta name="description" content="Learn about BreedFinder - helping dog lovers find their perfect breed match since 2026. Contact us with questions or suggestions.">
+    <meta name="description" content="BreedFinder is an independent guide to 220 dog breeds with a lifestyle quiz, side-by-side comparisons and honest verdicts. Questions? Email info@breedfinder.org.">
     <link rel="canonical" href="https://breedfinder.org/about/">
     
     <!-- Favicon -->
@@ -17,18 +17,18 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://breedfinder.org/about/">
     <meta property="og:title" content="About BreedFinder — Helping You Find the Perfect Dog Breed">
-    <meta property="og:description" content="Helping dog lovers find their perfect breed match. Contact us with questions or suggestions.">
+    <meta property="og:description" content="BreedFinder is an independent guide to 220 dog breeds with a lifestyle quiz, side-by-side comparisons and honest verdicts. Questions? Email info@breedfinder.org.">
     <meta property="og:site_name" content="BreedFinder">
     <meta property="og:image" content="https://breedfinder.org/images/og-card.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="About BreedFinder — Helping You Find the Perfect Dog Breed">
-    <meta name="twitter:description" content="Helping dog lovers find their perfect breed match. Contact us with questions or suggestions.">
+    <meta name="twitter:description" content="BreedFinder is an independent guide to 220 dog breeds with a lifestyle quiz, side-by-side comparisons and honest verdicts. Questions? Email info@breedfinder.org.">
     <meta name="twitter:image" content="https://breedfinder.org/images/og-card.png">
     
     <link rel="stylesheet" href="/css/tailwind.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="/js/icons.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -67,6 +67,9 @@
         "description": "BreedFinder helps dog lovers find their perfect breed match with a lifestyle quiz, side-by-side comparisons, and guides covering 200+ dog breeds."
     }
     </script>
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/"}, {"@type": "ListItem", "position": 2, "name": "About", "item": "https://breedfinder.org/about/"}]}
+    </script>
 </head>
 <body class="bg-white min-h-screen text-slate-800">
     <!-- Header -->
@@ -95,6 +98,12 @@
     </header>
 
     <main class="max-w-3xl mx-auto px-4 py-16">
+        <nav aria-label="Breadcrumb" class="text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/" class="hover:text-emerald-800 transition underline">Home</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">About</span>
+        </nav>
+
         <!-- Hero -->
         <div class="text-center mb-12">
             <h1 class="text-4xl font-extrabold text-slate-900 mb-4">About BreedFinder</h1>
@@ -168,9 +177,9 @@
                     Have a question, suggestion, or spotted an error? We'd love to hear from you.
                 </p>
                 <div class="flex items-center gap-3">
-                    <a href="mailto:hello@breedfinder.org" class="inline-flex items-center gap-2 bg-white text-slate-900 px-6 py-3 rounded-xl font-semibold hover:bg-slate-100 transition">
+                    <a href="mailto:info@breedfinder.org" class="inline-flex items-center gap-2 bg-white text-slate-900 px-6 py-3 rounded-xl font-semibold hover:bg-slate-100 transition">
                         <i data-lucide="send" class="w-5 h-5"></i>
-                        hello@breedfinder.org
+                        info@breedfinder.org
                     </a>
                 </div>
                 <p class="text-slate-600 text-sm mt-4">
@@ -199,25 +208,25 @@
         </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-emerald-900 text-slate-300 py-12 px-4">
-        <div class="max-w-6xl mx-auto">
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
             <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-                <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center">
-                        <img src="/logo-192.png" class="w-10 h-10" alt="BreedFinder">
-                    </div>
-                    <span class="text-xl font-bold">BreedFinder</span>
-                </div>
-                <div class="flex gap-8 text-sm text-emerald-200">
+                <a href="/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/search/" class="hover:text-white transition">Browse Breeds</a>
                     <a href="/quiz/" class="hover:text-white transition">Breed Quiz</a>
                     <a href="/compare/" class="hover:text-white transition">Compare</a>
                     <a href="/articles/" class="hover:text-white transition">Guides</a>
-                    <a href="./" class="hover:text-white transition">About</a>
-                </div>
+                    <a href="/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/about/" class="hover:text-white transition">About</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privacy</a>
+                </nav>
             </div>
-            <div class="border-t border-slate-800 mt-8 pt-8 text-center text-sm text-emerald-200">
-                <p>© 2026 BreedFinder. Made with care for dog lovers everywhere.</p>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contact: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
             </div>
         </div>
     </footer>

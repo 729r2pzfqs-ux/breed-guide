@@ -9,9 +9,12 @@
     <link rel="canonical" href="https://breedfinder.org/pt/breeds/dachshund/">
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="/css/tailwind.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="/js/icons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700');
+        
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
         .card-shadow { box-shadow: 0 4px 20px rgba(26,86,50,0.05); }
         .rating-bar { background: #e2ddd4; position: relative; overflow: hidden; }
@@ -65,7 +68,7 @@
 
     <!-- Breadcrumb Schema -->
     <script type="application/ld+json">
-    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Início", "item": "https://breedfinder.org/pt/"}, {"@type": "ListItem", "position": 2, "name": "Raças de cães", "item": "https://breedfinder.org/pt/breeds/"}, {"@type": "ListItem", "position": 3, "name": "Teckel"}]}
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Início", "item": "https://breedfinder.org/pt/"}, {"@type": "ListItem", "position": 2, "name": "Raças de cães", "item": "https://breedfinder.org/pt/search/"}, {"@type": "ListItem", "position": 3, "name": "Teckel"}]}
     </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "A ra\u00e7a Teckel \u00e9 uma boa escolha para fam\u00edlias?", "acceptedAnswer": {"@type": "Answer", "text": "Um c\u00e3o da ra\u00e7a Teckel pode ser um excelente companheiro de fam\u00edlia, dependendo do seu estilo de vida. Verifique o temperamento, o n\u00edvel de energia e o tamanho nesta p\u00e1gina."}}, {"@type": "Question", "name": "De quanto exerc\u00edcio a ra\u00e7a Teckel precisa?", "acceptedAnswer": {"@type": "Answer", "text": "As necessidades de exerc\u00edcio variam de c\u00e3o para c\u00e3o, mas a ra\u00e7a Teckel geralmente requer atividade di\u00e1ria regular. Consulte as se\u00e7\u00f5es de exerc\u00edcio e n\u00edvel de energia acima para recomenda\u00e7\u00f5es espec\u00edficas."}}, {"@type": "Question", "name": "A ra\u00e7a Teckel \u00e9 f\u00e1cil de adestrar?", "acceptedAnswer": {"@type": "Answer", "text": "Um inteligente, teimoso ra\u00e7a pequena que \u00e9 um maravilhoso companheiro...."}}, {"@type": "Question", "name": "Quanto custa um c\u00e3o da ra\u00e7a Teckel?", "acceptedAnswer": {"@type": "Answer", "text": "O pre\u00e7o de um c\u00e3o da ra\u00e7a Teckel varia conforme o criador, a regi\u00e3o e a linhagem. Considere no or\u00e7amento a compra, os cuidados veterin\u00e1rios, a alimenta\u00e7\u00e3o, a tosa e os acess\u00f3rios. Adotar de um abrigo tamb\u00e9m \u00e9 uma excelente op\u00e7\u00e3o."}}, {"@type": "Question", "name": "A ra\u00e7a Teckel solta muito pelo?", "acceptedAnswer": {"@type": "Answer", "text": "A queda de pelo varia de ra\u00e7a para ra\u00e7a. Consulte a se\u00e7\u00e3o de cuidados com a pelagem acima para informa\u00e7\u00f5es sobre o tipo de pelagem, a frequ\u00eancia de tosa e a queda de pelo da ra\u00e7a Teckel."}}]}</script>
 
@@ -91,20 +94,20 @@
 <body class="bg-[#faf9f6] min-h-screen">
         <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/pt/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Raças</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/pt/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Raças</a>
+                <a href="/pt/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
                 <div class="relative group">
                     <button class="flex items-center gap-1 text-slate-600 hover:text-emerald-800 py-2 transition">
                         <i data-lucide="globe" class="w-4 h-4"></i>
                         <span>PT</span>
                     </button>
                     <div class="absolute right-0 top-full bg-white border border-slate-200 rounded-xl shadow-xl hidden group-hover:block min-w-[140px] py-2 max-h-80 overflow-y-auto z-50 before:absolute before:h-2 before:-top-2 before:left-0 before:right-0 before:bg-transparent">
-                        <a href="/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">EN</a><a href="/es/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">ES</a><a href="/de/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">DE</a><a href="/fr/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">FR</a><a href="/it/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">IT</a><a href="/pt/" class="block px-4 py-2 font-semibold text-emerald-800 bg-slate-100">PT</a><a href="/fi/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">FI</a><a href="/sv/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">SV</a><a href="/nl/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">NL</a><a href="/da/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">DA</a><a href="/ja/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">JA</a><a href="/no/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">NO</a><a href="/pl/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">PL</a><a href="/ru/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">RU</a><a href="/tr/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">TR</a><a href="/zh/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">ZH</a>
+                        <a href="/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">EN</a><a href="/es/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">ES</a><a href="/de/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">DE</a><a href="/fr/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">FR</a><a href="/it/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">IT</a><a href="/pt/breeds/dachshund/" class="block px-4 py-2 font-semibold text-emerald-800 bg-slate-100">PT</a><a href="/fi/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">FI</a><a href="/sv/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">SV</a><a href="/nl/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">NL</a><a href="/da/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">DA</a><a href="/ja/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">JA</a><a href="/no/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">NO</a><a href="/pl/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">PL</a><a href="/ru/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">RU</a><a href="/tr/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">TR</a><a href="/zh/breeds/dachshund/" class="block px-4 py-2 text-slate-600 hover:bg-slate-100">ZH</a>
                     </div>
                 </div>
             </nav>
@@ -115,7 +118,7 @@
         <nav class="text-sm text-[#5c5647] mb-6 flex items-center gap-2">
             <a href="/" class="hover:text-emerald-800">Início</a>
             <i data-lucide="chevron-right" class="w-4 h-4"></i>
-            <a href="/search/" class="hover:text-emerald-800">Ver Raças</a>
+            <a href="/pt/search/" class="hover:text-emerald-800">Ver Raças</a>
             <i data-lucide="chevron-right" class="w-4 h-4"></i>
             <span class="text-[#3d3829] font-medium">Teckel</span>
         </nav>
@@ -124,7 +127,7 @@
         <div class="bg-white rounded-3xl p-8 mb-8 card-shadow border border-[#f0ede6]">
             <div class="flex flex-col md:flex-row gap-8">
                 <div class="md:w-2/5">
-                    <img src="/images/breeds/dachshund.webp" alt="Teckel" class="rounded-2xl w-full object-contain bg-white border border-[#e2ddd4]/50" onerror="this.src='../../images/heads/dachshund.webp'">
+                    <img src="/images/breeds/dachshund.webp" srcset="/images/breeds/768/dachshund.webp 768w, /images/breeds/dachshund.webp 1024w" sizes="(min-width: 768px) 400px, 100vw" width="1024" height="1536" fetchpriority="high" decoding="async" alt="Teckel" class="rounded-2xl w-full object-contain bg-white border border-[#e2ddd4]/50" onerror="this.src='../../images/heads/dachshund.webp'">
                 </div>
                 <div class="md:w-3/5">
                     <div class="flex items-center gap-2 mb-3">
@@ -273,12 +276,35 @@
         </div>
 
         <div class="text-center">
-            <a href="/search/" class="inline-flex items-center gap-2 text-emerald-800 font-semibold hover:text-emerald-800">
+            <a href="/pt/search/" class="inline-flex items-center gap-2 text-emerald-800 font-semibold hover:text-emerald-800">
                 <i data-lucide="arrow-left" class="w-4 h-4"></i>
                 Ver Raças
             </a>
         </div>
     </main>
+
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/pt/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/pt/search/" class="hover:text-white transition">Explorar raças</a>
+                    <a href="/pt/quiz/" class="hover:text-white transition">Quiz de raças</a>
+                    <a href="/pt/compare/" class="hover:text-white transition">Comparar</a>
+                    <a href="/pt/articles/" class="hover:text-white transition">Guias</a>
+                    <a href="/pt/faq/" class="hover:text-white transition">Perguntas frequentes</a>
+                    <a href="/pt/about/" class="hover:text-white transition">Sobre</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privacidade</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contato: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
+        </div>
+    </footer>
 
     <script>lucide.createIcons();</script>
 

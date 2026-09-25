@@ -48,24 +48,35 @@
         .prose li { margin-bottom: 0.5rem; }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首页", "item": "https://breedfinder.org/zh/"}, {"@type": "ListItem", "position": 2, "name": "指南", "item": "https://breedfinder.org/zh/articles/"}, {"@type": "ListItem", "position": 3, "name": "不掉毛的20种最佳犬种", "item": "https://breedfinder.org/zh/articles/bu-diao-mao-de-gou/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/zh/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/zh/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/zh/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/zh/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-3xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/zh/" class="hover:text-emerald-800 transition underline">首页</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/zh/articles/" class="hover:text-emerald-800 transition underline">指南</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">不掉毛的20种最佳犬种</span>
+        </nav>
+
         <article class="max-w-3xl mx-auto">
             <div class="mb-8">
                 <span class="text-emerald-600 font-medium text-sm">护理指南</span>
@@ -83,7 +94,7 @@
                 <h2>🐩 贵宾犬家族（所有尺寸）</h2>
 
                 <h3>1. 标准贵宾犬</h3>
-                <p>不掉毛狗的黄金标准。贵宾犬用卷毛捕捉掉落的毛发，而不是掉在地上。聪明、运动、优雅。 <a href="/breeds/poodle/" style="color: #1a5632;" class=" underline hover:no-underline">查看犬种资料 →</a></p>
+                <p>不掉毛狗的黄金标准。贵宾犬用卷毛捕捉掉落的毛发，而不是掉在地上。聪明、运动、优雅。 <a href="/zh/breeds/poodle/" style="color: #1a5632;" class=" underline hover:no-underline">查看犬种资料 →</a></p>
 
                 <h3>2. 迷你贵宾犬</h3>
                 <p>标准贵宾犬的所有优点，更小的包装。适合空间有限的人。</p>
@@ -100,10 +111,10 @@
                 <p>长而丝滑的白毛，掉毛最少。温柔、爱玩，适应各种生活环境。</p>
 
                 <h3>6. 西施犬</h3>
-                <p>尽管有长而飘逸的毛发，西施犬几乎不掉毛。它们的毛发持续生长，只在梳理或断裂时才掉落。 <a href="/breeds/shih-tzu/" style="color: #1a5632;" class=" underline hover:no-underline">查看犬种资料 →</a></p>
+                <p>尽管有长而飘逸的毛发，西施犬几乎不掉毛。它们的毛发持续生长，只在梳理或断裂时才掉落。 <a href="/zh/breeds/shih-tzu/" style="color: #1a5632;" class=" underline hover:no-underline">查看犬种资料 →</a></p>
 
                 <h3>7. 约克夏梗</h3>
-                <p>约克夏梗的毛发像人类头发，持续生长，掉毛最少。 <a href="/breeds/yorkshire-terrier/" style="color: #1a5632;" class=" underline hover:no-underline">查看犬种资料 →</a></p>
+                <p>约克夏梗的毛发像人类头发，持续生长，掉毛最少。 <a href="/zh/breeds/yorkshire-terrier/" style="color: #1a5632;" class=" underline hover:no-underline">查看犬种资料 →</a></p>
 
                 <h2>🌊 水犬（极少掉毛）</h2>
 
@@ -119,7 +130,7 @@
                 <h2>🐕 不掉毛的梗犬</h2>
 
                 <h3>11. 雪纳瑞（所有尺寸）</h3>
-                <p>巨型、标准和迷你雪纳瑞都有极少掉毛的硬毛。需要定期修剪来保持标志性外观。 <a href="/breeds/miniature-schnauzer/" style="color: #1a5632;" class=" underline hover:no-underline">查看犬种资料 →</a></p>
+                <p>巨型、标准和迷你雪纳瑞都有极少掉毛的硬毛。需要定期修剪来保持标志性外观。 <a href="/zh/breeds/miniature-schnauzer/" style="color: #1a5632;" class=" underline hover:no-underline">查看犬种资料 →</a></p>
 
                 <h3>12. 软毛麦色梗</h3>
                 <p>丝滑、波浪状的毛发，不怎么掉毛。友好、快乐的狗狗。</p>
@@ -194,16 +205,33 @@
                 <p>准备好找一只不会让家里到处是毛的狗了吗？我们的测试会考虑掉毛情况以及你的生活方式和偏好。</p>
 
                 <div class="flex gap-4 mt-6">
-                    <a href="/quiz" class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-xl">做犬种测试 →</a>
-                    <a href="/compare" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">比较犬种</a>
+                    <a href="/zh/quiz/" class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-xl">做犬种测试 →</a>
+                    <a href="/zh/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">比较犬种</a>
                 </div>
             </div>
         </article>
     </main>
 
-    <footer class="bg-emerald-900 text-white py-8 px-4 mt-12">
-        <div class="max-w-4xl mx-auto text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. 为全世界的爱狗人士用心制作。</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/zh/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/zh/search/" class="hover:text-white transition">浏览犬种</a>
+                    <a href="/zh/quiz/" class="hover:text-white transition">犬种测验</a>
+                    <a href="/zh/compare/" class="hover:text-white transition">比较</a>
+                    <a href="/zh/articles/" class="hover:text-white transition">指南</a>
+                    <a href="/zh/faq/" class="hover:text-white transition">常见问题</a>
+                    <a href="/zh/about/" class="hover:text-white transition">关于我们</a>
+                    <a href="/privacy/" class="hover:text-white transition">隐私政策</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; 联系我们: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

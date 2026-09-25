@@ -11,7 +11,7 @@
  
  <style>* { font-family: 'Inter', sans-serif; }</style>
  <link rel="preconnect" href="https://fonts.googleapis.com">
- <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Hreflang -->
     <link rel="alternate" hreflang="fr" href="https://breedfinder.org/fr/compare/comparisons/berger-allemand-vs-malinois/">
@@ -28,27 +28,33 @@
     <meta name="twitter:title" content="Berger Allemand vs Malinois Belge : Comparaison complète | BreedFinder">
     <meta name="twitter:description" content="Berger Allemand vs Malinois Belge — comparez taille, tempérament, énergie, toilettage et compatibilité familiale côte à côte pour trouver la race idéale.">
     <meta name="twitter:image" content="https://breedfinder.org/images/og-card.png">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://breedfinder.org/fr/"}, {"@type": "ListItem", "position": 2, "name": "Comparer", "item": "https://breedfinder.org/fr/compare/"}, {"@type": "ListItem", "position": 3, "name": "Berger Allemand vs Malinois Belge", "item": "https://breedfinder.org/fr/compare/comparisons/berger-allemand-vs-malinois/"}]}
+    </script>
 </head>
 <body class="min-h-screen text-slate-800" style="background: linear-gradient(135deg, #f6f7f2 0%, #ffffff 50%, #eef1e8 100%);">
  <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
  <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
- <a href="/" class="flex items-center gap-3">
+ <a href="/fr/" class="flex items-center gap-3">
  <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
  <span class="text-xl font-bold text-slate-800">BreedFinder</span>
  </a>
  <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
- <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
- <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
- <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+ <a href="/fr/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+ <a href="/fr/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+ <a href="/fr/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
  </nav>
  </div>
  </header>
 
  <main class="max-w-6xl mx-auto px-4 py-12">
- <nav class="text-sm text-slate-600 mb-8">
- <a href="/" class="hover:text-forest">Comparer</a> <span class="mx-2">›</span>
- <span class="text-slate-700">Berger Allemand vs Malinois</span>
- </nav>
+        <nav aria-label="Breadcrumb" class="text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/fr/" class="hover:text-emerald-800 transition underline">Accueil</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/fr/compare/" class="hover:text-emerald-800 transition underline">Comparer</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">Berger Allemand vs Malinois Belge</span>
+        </nav>
 
  <div class="text-center mb-12">
  <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
@@ -113,6 +119,7 @@
  </tbody>
  </table>
  </div>
+ </div>
 
  <div class="bg-gradient-to-r from-yellow-500 to-yellow-600 rounded-3xl p-8 text-white mb-12">
  <h2 class="text-3xl font-bold text-center mb-8"><i data-lucide="target" class="w-6 h-6 inline mr-2"></i> Lequel vous convient ?</h2>
@@ -157,10 +164,31 @@
  <div class="text-center"><a href="/" class="inline-flex items-center gap-2 text-forest font-semibold">← Retour au comparateur</a></div>
  </main>
 
- <footer class="border-t border-slate-100 mt-16 py-8">
- <div class="max-w-6xl mx-auto px-4 text-center text-slate-600 text-sm"><p>© 2026 BreedFinder. Nous vous aidons à trouver votre compagnon parfait.</p></div>
- </footer>
+ <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/fr/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/fr/search/" class="hover:text-white transition">Parcourir les races</a>
+                    <a href="/fr/quiz/" class="hover:text-white transition">Quiz des races</a>
+                    <a href="/fr/compare/" class="hover:text-white transition">Comparer</a>
+                    <a href="/fr/articles/" class="hover:text-white transition">Guides</a>
+                    <a href="/fr/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/fr/about/" class="hover:text-white transition">À propos</a>
+                    <a href="/privacy/" class="hover:text-white transition">Confidentialité</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contact: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
+        </div>
+    </footer>
 
 <script>(function(){try{if(Intl.DateTimeFormat().resolvedOptions().timeZone==='Asia/Singapore')return}catch(e){}var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-VEERQZ53LZ';document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-VEERQZ53LZ');})();</script>
+<script src="/js/icons.js"></script>
+<script>lucide.createIcons();</script>
 </body>
 </html>

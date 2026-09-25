@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog Breed Articles & Expert Guides | BreedFinder</title>
-    <meta name="description" content="Expert guides on choosing the right dog breed for your lifestyle. Apartment dogs, family dogs, low-shedding breeds, and more.">
+    <meta name="description" content="Practical dog breed guides with ranked picks: the best dogs for apartments, families with kids and seniors, plus low-shedding and low-maintenance breeds.">
     <link rel="canonical" href="https://breedfinder.org/articles/">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     
@@ -39,15 +39,18 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://breedfinder.org/articles/">
     <meta property="og:title" content="Dog Breed Articles &amp; Expert Guides | BreedFinder">
-    <meta property="og:description" content="Expert guides on choosing the right dog breed for your lifestyle. Apartment dogs, family dogs, low-shedding breeds, and more.">
+    <meta property="og:description" content="Practical dog breed guides with ranked picks: the best dogs for apartments, families with kids and seniors, plus low-shedding and low-maintenance breeds.">
     <meta property="og:site_name" content="BreedFinder">
     <meta property="og:image" content="https://breedfinder.org/images/og-card.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Dog Breed Articles &amp; Expert Guides | BreedFinder">
-    <meta name="twitter:description" content="Expert guides on choosing the right dog breed for your lifestyle. Apartment dogs, family dogs, low-shedding breeds, and more.">
+    <meta name="twitter:description" content="Practical dog breed guides with ranked picks: the best dogs for apartments, families with kids and seniors, plus low-shedding and low-maintenance breeds.">
     <meta name="twitter:image" content="https://breedfinder.org/images/og-card.png">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://breedfinder.org/articles/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <!-- Header -->
@@ -65,6 +68,12 @@
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-4xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/" class="hover:text-emerald-800 transition underline">Home</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">Guides</span>
+        </nav>
+
         <div class="max-w-4xl mx-auto">
             <div class="text-center mb-10">
                 <h1 class="text-3xl md:text-4xl font-bold font-serif mb-4" style="color: #1a2e1a;">Breed Guides & Articles</h1>
@@ -135,14 +144,26 @@
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="py-10 px-4 mt-12" style="background: #1a2e1a;">
-        <div class="max-w-4xl mx-auto text-center text-sm" style="color: #a8a090;">
-            <div class="flex items-center justify-center gap-3 mb-4">
-                <img src="/logo-192-green.png" class="w-8 h-8" alt="BreedFinder">
-                <span class="text-white font-serif font-semibold">BreedFinder</span>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/search/" class="hover:text-white transition">Browse Breeds</a>
+                    <a href="/quiz/" class="hover:text-white transition">Breed Quiz</a>
+                    <a href="/compare/" class="hover:text-white transition">Compare</a>
+                    <a href="/articles/" class="hover:text-white transition">Guides</a>
+                    <a href="/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/about/" class="hover:text-white transition">About</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privacy</a>
+                </nav>
             </div>
-            <p>© 2026 BreedFinder. Made with 🐕 for dog lovers everywhere.</p>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contact: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

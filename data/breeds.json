@@ -294,7 +294,7 @@
     ],
     "group": "non-sporting",
     "origin": "United States",
-    "lifespan": "12-16 years",
+    "lifespan": "13-16 years",
     "size": {
       "height_cm": "33-43",
       "weight_kg": "4-10",
@@ -331,7 +331,7 @@
     "description": {
       "overview": "The Alaskan Klee Kai looks like a miniature Husky but is a distinct breed developed in Alaska in the 1970s.",
       "temperament": "The Alaskan Klee Kai is known for being intelligent, curious, alert. Their intelligence and eagerness to please make training enjoyable. Early socialization helps them develop into well-rounded companions.",
-      "health": "Generally healthy with a lifespan of 12-16 years. Common concerns include patellar luxation and dental issues. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
+      "health": "Generally healthy with a lifespan of 13-16 years. Common concerns include patellar luxation and dental issues. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
       "exercise": "High energy breed requiring vigorous daily exercise—at least an hour of activity. They thrive with active families who enjoy outdoor activities. Mental stimulation through training and puzzle toys is equally important. Without adequate exercise, they may develop behavioral issues."
     },
     "verdict": {
@@ -457,7 +457,7 @@
     ],
     "group": "working",
     "origin": "United States",
-    "lifespan": "10-12 years",
+    "lifespan": "10-15 years",
     "size": {
       "height_cm": "52-70",
       "weight_kg": "27-54",
@@ -496,7 +496,7 @@
     "description": {
       "overview": "The American Bulldog is a powerful, athletic breed that descended from working bulldogs brought to America by immigrants.",
       "temperament": "The American Bulldog is known for being loyal, confident, friendly. They're excellent with children and make wonderful family pets. Their intelligence and eagerness to please make training enjoyable. Early socialization helps them develop into well-rounded companions.",
-      "health": "Generally healthy with a lifespan of 10-12 years. Common concerns include hip dysplasia and bloat. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
+      "health": "Generally healthy with a lifespan of 10-15 years. Common concerns include hip dysplasia and bloat. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
       "exercise": "High energy breed requiring vigorous daily exercise—at least an hour of activity. They thrive with active families who enjoy outdoor activities. Mental stimulation through training and puzzle toys is equally important. Without adequate exercise, they may develop behavioral issues."
     },
     "verdict": {
@@ -1859,7 +1859,7 @@
     ],
     "group": "herding",
     "origin": "Belgium",
-    "lifespan": "12-14 years",
+    "lifespan": "10-12 years",
     "size": {
       "height_cm": "56-66",
       "weight_kg": "20-30",
@@ -1894,7 +1894,7 @@
     "description": {
       "overview": "The Belgian Laekenois is the rarest of the four Belgian Shepherd varieties, with a distinctive rough, wiry coat.",
       "temperament": "The Belgian Laekenois is known for being intelligent, alert, protective. They're excellent with children and make wonderful family pets. Their intelligence and eagerness to please make training enjoyable. Early socialization helps them develop into well-rounded companions.",
-      "health": "Generally healthy with a lifespan of 12-14 years. Common concerns include hip dysplasia and bloat. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
+      "health": "Generally healthy with a lifespan of 10-12 years. Common concerns include hip dysplasia and bloat. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
       "exercise": "High energy breed requiring vigorous daily exercise—at least an hour of activity. They thrive with active families who enjoy outdoor activities. Mental stimulation through training and puzzle toys is equally important. Without adequate exercise, they may develop behavioral issues."
     },
     "verdict": {
@@ -5997,7 +5997,7 @@
     ],
     "group": "sporting",
     "origin": "England",
-    "lifespan": "12 years",
+    "lifespan": "10-12 years",
     "size": {
       "height_cm": "61-69",
       "weight_kg": "20-36",
@@ -6035,7 +6035,7 @@
     "description": {
       "overview": "The English Setter is an elegant bird dog known for its gentle temperament and beautiful speckled coat.",
       "temperament": "The English Setter is known for being gentle, friendly, merry. They're excellent with children and make wonderful family pets. Their intelligence and eagerness to please make training enjoyable. Early socialization helps them develop into well-rounded companions.",
-      "health": "Generally healthy with a lifespan of 12 years. Common concerns include hip dysplasia and bloat and skin conditions. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
+      "health": "Generally healthy with a lifespan of 10-12 years. Common concerns include hip dysplasia and bloat and skin conditions. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
       "exercise": "High energy breed requiring vigorous daily exercise—at least an hour of activity. They thrive with active families who enjoy outdoor activities. Mental stimulation through training and puzzle toys is equally important. Without adequate exercise, they may develop behavioral issues."
     },
     "verdict": {
@@ -8484,7 +8484,7 @@
     ],
     "group": "terrier",
     "origin": "England",
-    "lifespan": "12-14 years",
+    "lifespan": "13-16 years",
     "size": {
       "height_cm": "25-30",
       "weight_kg": "6-8",
@@ -8521,7 +8521,7 @@
     "description": {
       "overview": "The Jack Russell Terrier is a small but mighty hunting terrier with boundless energy and fearless spirit.",
       "temperament": "The Jack Russell Terrier is known for being energetic, clever, athletic. Early socialization helps them develop into well-rounded companions.",
-      "health": "Generally healthy with a lifespan of 12-14 years. Common concerns include patellar luxation and dental issues. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
+      "health": "Generally healthy with a lifespan of 13-16 years. Common concerns include patellar luxation and dental issues. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
       "exercise": "High energy breed requiring vigorous daily exercise—at least an hour of activity. They thrive with active families who enjoy outdoor activities. Mental stimulation through training and puzzle toys is equally important. Without adequate exercise, they may develop behavioral issues."
     },
     "verdict": {
@@ -9491,7 +9491,7 @@
     ],
     "group": "working",
     "origin": "Germany",
-    "lifespan": "9 years",
+    "lifespan": "7-9 years",
     "size": {
       "height_cm": "65-80",
       "weight_kg": "41-77",
@@ -9529,7 +9529,7 @@
     "description": {
       "overview": "The Leonberger was bred to resemble a lion and serve as a versatile working dog and family companion.",
       "temperament": "The Leonberger is known for being friendly, playful, gentle. They're excellent with children and make wonderful family pets. Their intelligence and eagerness to please make training enjoyable. Early socialization helps them develop into well-rounded companions.",
-      "health": "Generally healthy with a lifespan of 9 years. Common concerns include hip dysplasia and bloat and skin conditions. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
+      "health": "Generally healthy with a lifespan of 7-9 years. Common concerns include hip dysplasia and bloat and skin conditions. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
       "exercise": "Moderate exercise needs with daily walks and regular play sessions. They enjoy a mix of physical activity and relaxation time. Interactive games and training sessions provide mental stimulation. A consistent exercise routine keeps them healthy and happy."
     },
     "verdict": {
@@ -12963,7 +12963,7 @@
     ],
     "group": "terrier",
     "origin": "Scotland",
-    "lifespan": "12 years",
+    "lifespan": "11-13 years",
     "size": {
       "height_cm": "25-28",
       "weight_kg": "8-10",
@@ -13000,7 +13000,7 @@
     "description": {
       "overview": "The Scottish Terrier is a small but confident terrier with a distinctive silhouette and independent spirit.",
       "temperament": "The Scottish Terrier is known for being confident, independent, spirited. Early socialization helps them develop into well-rounded companions.",
-      "health": "Generally healthy with a lifespan of 12 years. Common concerns include patellar luxation and dental issues. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
+      "health": "Generally healthy with a lifespan of 11-13 years. Common concerns include patellar luxation and dental issues. Regular veterinary checkups and preventive care are important. Maintaining a healthy weight helps prevent many health issues.",
       "exercise": "Moderate exercise needs with daily walks and regular play sessions. They enjoy a mix of physical activity and relaxation time. Interactive games and training sessions provide mental stimulation. A consistent exercise routine keeps them healthy and happy."
     },
     "verdict": {

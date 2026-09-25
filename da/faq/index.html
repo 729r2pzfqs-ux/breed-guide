@@ -8,7 +8,7 @@
     <link rel="canonical" href="https://breedfinder.org/da/faq/">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/tailwind.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="/js/icons.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>.faq-item[open] .faq-icon{transform:rotate(180deg);}        body { font-family: 'Inter', sans-serif; }
         .font-serif { font-family: 'Fraunces', serif; }
@@ -44,22 +44,31 @@
     <meta name="twitter:title" content="Hunderacer FAQ — Ofte Stillede Spørgsmål | BreedFinder">
     <meta name="twitter:description" content="Klare svar på de mest stillede spørgsmål om hunderacer — fra racevalg til motionsbehov, pelspleje og meget mere.">
     <meta name="twitter:image" content="https://breedfinder.org/images/og-card.png">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Forside", "item": "https://breedfinder.org/da/"}, {"@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://breedfinder.org/da/faq/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
         <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/da/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/da/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/da/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/da/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
     <main class="max-w-5xl mx-auto px-4 py-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/da/" class="hover:text-emerald-800 transition underline">Forside</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">FAQ</span>
+        </nav>
+
         <div class="text-center mb-10">
             <h1 class="text-4xl font-extrabold text-slate-900 mb-3">Ofte Stillede Spørgsmål</h1>
             <p class="text-lg text-slate-600">Alt du behøver at vide om hunderacer</p>
@@ -70,7 +79,7 @@
                 <div class="space-y-3">
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Hvordan vælger jeg den rigtige hunderace?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><p>Overvej din bolig, aktivitetsniveau og familiesituation. <a href="/quiz/" class="text-sky-700 underline">Tag racetesten →</a></p></div>
+                        <div class="px-5 pb-5 text-slate-600"><p>Overvej din bolig, aktivitetsniveau og familiesituation. <a href="/da/quiz/" class="text-sky-700 underline">Tag racetesten →</a></p></div>
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Hvalp eller voksen hund?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
@@ -83,11 +92,11 @@
                 <div class="space-y-3">
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Bedste hunde til lejligheder?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Fransk Bulldog — rolig</li><li>Cavalier — tilpasningsdygtig</li><li>Mops — sofakartoffel</li><li>Greyhound — rolig indendørs</li></ul><a href="/search/?apartment=1" class="text-sky-700 underline mt-2 inline-block">Se alle lejlighedsvenlige racer →</a></div>
+                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Fransk Bulldog — rolig</li><li>Cavalier — tilpasningsdygtig</li><li>Mops — sofakartoffel</li><li>Greyhound — rolig indendørs</li></ul><a href="/da/search/?apartment=1" class="text-sky-700 underline mt-2 inline-block">Se alle lejlighedsvenlige racer →</a></div>
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Bedste hunde til børnefamilier?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Labrador Retriever</li><li>Golden Retriever</li><li>Beagle</li><li>Collie</li></ul><a href="/search/?kids=1" class="text-sky-700 underline mt-2 inline-block">Se alle børnevenlige racer →</a></div>
+                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Labrador Retriever</li><li>Golden Retriever</li><li>Beagle</li><li>Collie</li></ul><a href="/da/search/?kids=1" class="text-sky-700 underline mt-2 inline-block">Se alle børnevenlige racer →</a></div>
                     </details>
                 </div>
             </section>
@@ -100,7 +109,7 @@
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Hvilke racer fælder mindst?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><p>Pudler, bichon frisés, schnauzere og yorkshireterrier fælder lidt. <a href="/search/?shedding=minimal" class="text-sky-700 underline mt-2 inline-block">Se lavfældende racer →</a></p></div>
+                        <div class="px-5 pb-5 text-slate-600"><p>Pudler, bichon frisés, schnauzere og yorkshireterrier fælder lidt. <a href="/da/search/?shedding=minimal" class="text-sky-700 underline mt-2 inline-block">Se lavfældende racer →</a></p></div>
                     </details>
                 </div>
             </section>
@@ -113,15 +122,32 @@
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Hvilke racer er nemmest at træne?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><p>Border collies, pudler, schæferhunde og labradorer er nemme at træne. <a href="/search/?train=1" class="text-sky-700 underline mt-2 inline-block">Se nemme at træne racer →</a></p></div>
+                        <div class="px-5 pb-5 text-slate-600"><p>Border collies, pudler, schæferhunde og labradorer er nemme at træne. <a href="/da/search/?train=1" class="text-sky-700 underline mt-2 inline-block">Se nemme at træne racer →</a></p></div>
                     </details>
                 </div>
             </section>
         </div>
     </main>
-    <footer class="py-10 px-4 text-slate-300 py-8 px-4 mt-12" style="background: #1a2e1a;">
-        <div class="max-w-6xl mx-auto text-center">
-            <p class="text-sm">Lavet med kærlighed til hundeelskere</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/da/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/da/search/" class="hover:text-white transition">Udforsk racer</a>
+                    <a href="/da/quiz/" class="hover:text-white transition">Racequiz</a>
+                    <a href="/da/compare/" class="hover:text-white transition">Sammenlign</a>
+                    <a href="/da/articles/" class="hover:text-white transition">Guides</a>
+                    <a href="/da/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/da/about/" class="hover:text-white transition">Om os</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privatliv</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Kontakt: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
     <script>lucide.createIcons();</script>

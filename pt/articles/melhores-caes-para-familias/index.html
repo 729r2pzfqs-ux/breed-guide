@@ -52,24 +52,35 @@
         .prose li { margin-bottom: 0.5rem; }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Início", "item": "https://breedfinder.org/pt/"}, {"@type": "ListItem", "position": 2, "name": "Guias", "item": "https://breedfinder.org/pt/articles/"}, {"@type": "ListItem", "position": 3, "name": "12 Melhores Raças de Cães para Famílias com Crianças", "item": "https://breedfinder.org/pt/articles/melhores-caes-para-familias/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/pt/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/pt/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/pt/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/pt/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-3xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/pt/" class="hover:text-emerald-800 transition underline">Início</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/pt/articles/" class="hover:text-emerald-800 transition underline">Guias</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">12 Melhores Raças de Cães para Famílias com Crianças</span>
+        </nav>
+
         <article class="max-w-3xl mx-auto">
             <div class="mb-8">
                 <span class="text-rose-600 font-medium text-sm">GUIA FAMÍLIA</span>
@@ -87,13 +98,13 @@
                 <h2>🥇 Os Clássicos Cães de Família</h2>
 
                 <h3>1. Labrador Retriever</h3>
-                <p>Há uma razão para os Labs serem o cão de família #1 há décadas. São pacientes, brincalhões, desejam agradar e praticamente indestrutíveis quando se trata de tolerar as travessuras das crianças. <a href="/breeds/labrador-retriever/" style="color: #1a5632;" class=" underline hover:no-underline">Ver perfil da raça →</a></p>
+                <p>Há uma razão para os Labs serem o cão de família #1 há décadas. São pacientes, brincalhões, desejam agradar e praticamente indestrutíveis quando se trata de tolerar as travessuras das crianças. <a href="/pt/breeds/labrador-retriever/" style="color: #1a5632;" class=" underline hover:no-underline">Ver perfil da raça →</a></p>
 
                 <h3>2. Golden Retriever</h3>
-                <p>Os Goldens são almas gentis com paciência infinita. São inteligentes, fáceis de treinar e parecem ter uma compreensão inata de como se comportar com crianças. <a href="/breeds/golden-retriever/" style="color: #1a5632;" class=" underline hover:no-underline">Ver perfil da raça →</a></p>
+                <p>Os Goldens são almas gentis com paciência infinita. São inteligentes, fáceis de treinar e parecem ter uma compreensão inata de como se comportar com crianças. <a href="/pt/breeds/golden-retriever/" style="color: #1a5632;" class=" underline hover:no-underline">Ver perfil da raça →</a></p>
 
                 <h3>3. Beagle</h3>
-                <p>Os Beagles são robustos, amigáveis e adoram fazer parte de uma matilha—que é exatamente como verão sua família. São brincalhões sem serem opressivos. <a href="/breeds/beagle/" style="color: #1a5632;" class=" underline hover:no-underline">Ver perfil da raça →</a></p>
+                <p>Os Beagles são robustos, amigáveis e adoram fazer parte de uma matilha—que é exatamente como verão sua família. São brincalhões sem serem opressivos. <a href="/pt/breeds/beagle/" style="color: #1a5632;" class=" underline hover:no-underline">Ver perfil da raça →</a></p>
 
                 <h2>👶 Melhores para Famílias com Bebês</h2>
 
@@ -149,17 +160,17 @@
                 </div>
 
                 <div class="flex flex-wrap gap-4 mt-6">
-                    <a href="/quiz/" class="inline-block bg-rose-600 hover:bg-rose-700 text-white font-semibold px-6 py-3 rounded-xl">Fazer o Quiz →</a>
-                    <a href="/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Comparar Raças</a>
+                    <a href="/pt/quiz/" class="inline-block bg-rose-600 hover:bg-rose-700 text-white font-semibold px-6 py-3 rounded-xl">Fazer o Quiz →</a>
+                    <a href="/pt/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Comparar Raças</a>
                 </div>
 
                 <h2>Artigos Relacionados</h2>
                 <div class="grid gap-4 mt-4">
-                    <a href="/melhores-caes-para-apartamentos/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
+                    <a href="/pt/articles/melhores-caes-para-apartamentos/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
                         <span class="text-2xl">🏢</span>
                         <span class="font-medium">15 Melhores Raças para Apartamentos</span>
                     </a>
-                    <a href="/caes-que-nao-soltam-pelo/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
+                    <a href="/pt/articles/caes-que-nao-soltam-pelo/" class="flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition">
                         <span class="text-2xl">✨</span>
                         <span class="font-medium">20 Raças Que Não Soltam Pelo</span>
                     </a>
@@ -168,9 +179,26 @@
         </article>
     </main>
 
-    <footer class="bg-emerald-900 text-white py-8 px-4 mt-12">
-        <div class="max-w-4xl mx-auto text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Feito com amor para os amantes de cães.</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/pt/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/pt/search/" class="hover:text-white transition">Explorar raças</a>
+                    <a href="/pt/quiz/" class="hover:text-white transition">Quiz de raças</a>
+                    <a href="/pt/compare/" class="hover:text-white transition">Comparar</a>
+                    <a href="/pt/articles/" class="hover:text-white transition">Guias</a>
+                    <a href="/pt/faq/" class="hover:text-white transition">Perguntas frequentes</a>
+                    <a href="/pt/about/" class="hover:text-white transition">Sobre</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privacidade</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contato: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

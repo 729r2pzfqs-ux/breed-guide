@@ -130,7 +130,7 @@
     </script>
     
     <link rel="stylesheet" href="/css/tailwind.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="/js/icons.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         .card-shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03); }
@@ -139,23 +139,32 @@
             body { font-family: 'Inter', sans-serif; }
         .font-serif { font-family: 'Fraunces', serif; }
     </style>
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Início", "item": "https://breedfinder.org/pt/"}, {"@type": "ListItem", "position": 2, "name": "Perguntas frequentes", "item": "https://breedfinder.org/pt/faq/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
         <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/pt/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/pt/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/pt/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/pt/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="max-w-5xl mx-auto px-4 py-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/pt/" class="hover:text-emerald-800 transition underline">Início</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">Perguntas frequentes</span>
+        </nav>
+
         <div class="max-w-3xl mx-auto">
             <div class="text-center mb-12">
                 <div class="inline-flex items-center gap-2 bg-sky-50 px-4 py-2 rounded-full text-sm font-medium text-sky-700 mb-4">
@@ -192,7 +201,7 @@
                                     <li><strong>Família</strong> — Você tem crianças ou outros animais?</li>
                                     <li><strong>Experiência</strong> — Primeiro cão ou dono experiente?</li>
                                 </ul>
-                                <p class="mt-3"><a href="/quiz/" class="text-sky-700 underline hover:no-underline font-medium">Faça nosso quiz →</a> para recomendações personalizadas.</p>
+                                <p class="mt-3"><a href="/pt/quiz/" class="text-sky-700 underline hover:no-underline font-medium">Faça nosso quiz →</a> para recomendações personalizadas.</p>
                             </div>
                         </details>
                         
@@ -240,14 +249,14 @@
                             <div class="px-5 pb-5 text-slate-600 leading-relaxed">
                                 <p>Os melhores cães para apartamento são calmos, silenciosos e não precisam de quintal:</p>
                                 <ul class="list-disc ml-5 mt-2 space-y-1">
-                                    <li><a href="/breeds/french-bulldog/" class="text-sky-700 underline hover:no-underline">Bouledogue Francese</a> — Baixa energia, silencioso</li>
-                                    <li><a href="/breeds/cavalier-king-charles-spaniel/" class="text-sky-700 underline hover:no-underline">Cavalier King Charles Spaniel</a> — Adaptável, calmo</li>
-                                    <li><a href="/breeds/pug/" class="text-sky-700 underline hover:no-underline">Carlino</a> — Caseiro, late pouco</li>
-                                    <li><a href="/breeds/boston-terrier/" class="text-sky-700 underline hover:no-underline">Boston Terrier</a> — Compacto, amigável</li>
-                                    <li><a href="/breeds/greyhound/" class="text-sky-700 underline hover:no-underline">Greyhound</a> — Surpreendentemente calmo em casa!</li>
+                                    <li><a href="/pt/breeds/french-bulldog/" class="text-sky-700 underline hover:no-underline">Bouledogue Francese</a> — Baixa energia, silencioso</li>
+                                    <li><a href="/pt/breeds/cavalier-king-charles-spaniel/" class="text-sky-700 underline hover:no-underline">Cavalier King Charles Spaniel</a> — Adaptável, calmo</li>
+                                    <li><a href="/pt/breeds/pug/" class="text-sky-700 underline hover:no-underline">Carlino</a> — Caseiro, late pouco</li>
+                                    <li><a href="/pt/breeds/boston-terrier/" class="text-sky-700 underline hover:no-underline">Boston Terrier</a> — Compacto, amigável</li>
+                                    <li><a href="/pt/breeds/greyhound/" class="text-sky-700 underline hover:no-underline">Greyhound</a> — Surpreendentemente calmo em casa!</li>
                                 </ul>
                                 <p class="mt-3">O tamanho não é tudo—alguns cães pequenos como Jack Russells precisam de mais espaço que algumas raças grandes.</p>
-                                <p class="mt-2"><a href="/articles/melhores-caes-para-apartamentos/" class="text-sky-700 underline hover:no-underline font-medium">Leia nosso guia →</a></p>
+                                <p class="mt-2"><a href="/pt/articles/melhores-caes-para-apartamentos/" class="text-sky-700 underline hover:no-underline font-medium">Leia nosso guia →</a></p>
                             </div>
                         </details>
                         
@@ -259,14 +268,14 @@
                             <div class="px-5 pb-5 text-slate-600 leading-relaxed">
                                 <p>Procure raças pacientes e brincalhonas que tolerem barulho e manuseio:</p>
                                 <ul class="list-disc ml-5 mt-2 space-y-1">
-                                    <li><a href="/breeds/labrador-retriever/" class="text-sky-700 underline hover:no-underline">Labrador Retriever</a> — O clássico cão de família</li>
-                                    <li><a href="/breeds/golden-retriever/" class="text-sky-700 underline hover:no-underline">Golden Retriever</a> — Paciente e gentil</li>
-                                    <li><a href="/breeds/beagle/" class="text-sky-700 underline hover:no-underline">Beagle</a> — Robusto e brincalhão</li>
-                                    <li><a href="/breeds/collie/" class="text-sky-700 underline hover:no-underline">Collie</a> — Protetor e inteligente</li>
-                                    <li><a href="/breeds/cavalier-king-charles-spaniel/" class="text-sky-700 underline hover:no-underline">Cavalier King Charles Spaniel</a> — Doce cão de colo</li>
+                                    <li><a href="/pt/breeds/labrador-retriever/" class="text-sky-700 underline hover:no-underline">Labrador Retriever</a> — O clássico cão de família</li>
+                                    <li><a href="/pt/breeds/golden-retriever/" class="text-sky-700 underline hover:no-underline">Golden Retriever</a> — Paciente e gentil</li>
+                                    <li><a href="/pt/breeds/beagle/" class="text-sky-700 underline hover:no-underline">Beagle</a> — Robusto e brincalhão</li>
+                                    <li><a href="/pt/breeds/collie/" class="text-sky-700 underline hover:no-underline">Collie</a> — Protetor e inteligente</li>
+                                    <li><a href="/pt/breeds/cavalier-king-charles-spaniel/" class="text-sky-700 underline hover:no-underline">Cavalier King Charles Spaniel</a> — Doce cão de colo</li>
                                 </ul>
                                 <p class="mt-3">Sempre supervisione interações entre cães e crianças pequenas. Ensine as crianças a respeitar o espaço do cão.</p>
-                                <p class="mt-2"><a href="/articles/melhores-caes-para-familias/" class="text-sky-700 underline hover:no-underline font-medium">Leia nosso guia →</a></p>
+                                <p class="mt-2"><a href="/pt/articles/melhores-caes-para-familias/" class="text-sky-700 underline hover:no-underline font-medium">Leia nosso guia →</a></p>
                             </div>
                         </details>
                         
@@ -276,7 +285,7 @@
                                 <i data-lucide="chevron-down" class="w-5 h-5 faq-icon transition-transform text-slate-600"></i>
                             </summary>
                             <div class="px-5 pb-5 text-slate-600 leading-relaxed">
-                                <p>Sim! Muitos cães vivem felizes com gatos. Raças conhecidas por serem amigas dos gatos incluem <a href="/breeds/golden-retriever/" class="text-sky-700 underline hover:no-underline">Golden Retriever</a>, <a href="/breeds/cavalier-king-charles-spaniel/" class="text-sky-700 underline hover:no-underline">Cavalier King Charles Spaniel</a>, <a href="/breeds/basset-hound/" class="text-sky-700 underline hover:no-underline">Basset Hound</a> e <a href="/breeds/beagle/" class="text-sky-700 underline hover:no-underline">Beagle</a>.</p>
+                                <p>Sim! Muitos cães vivem felizes com gatos. Raças conhecidas por serem amigas dos gatos incluem <a href="/pt/breeds/golden-retriever/" class="text-sky-700 underline hover:no-underline">Golden Retriever</a>, <a href="/pt/breeds/cavalier-king-charles-spaniel/" class="text-sky-700 underline hover:no-underline">Cavalier King Charles Spaniel</a>, <a href="/pt/breeds/basset-hound/" class="text-sky-700 underline hover:no-underline">Basset Hound</a> e <a href="/pt/breeds/beagle/" class="text-sky-700 underline hover:no-underline">Beagle</a>.</p>
                                 <p class="mt-2"><strong>Evite</strong> raças com alto instinto predatório como Greyhound, Husky e a maioria dos terriers se você tem gatos.</p>
                                 <p class="mt-2">O sucesso depende de uma introdução correta, supervisão e personalidades individuais.</p>
                             </div>
@@ -290,11 +299,11 @@
                             <div class="px-5 pb-5 text-slate-600 leading-relaxed">
                                 <p>Raças de baixa manutenção precisam de menos exercício, cuidados e atenção:</p>
                                 <ul class="list-disc ml-5 mt-2 space-y-1">
-                                    <li><a href="/breeds/chihuahua/" class="text-sky-700 underline hover:no-underline">Chihuahua</a> — Minúsculo, necessidades mínimas de exercício</li>
-                                    <li><a href="/breeds/french-bulldog/" class="text-sky-700 underline hover:no-underline">Bouledogue Francese</a> — Baixa energia, pelo curto</li>
-                                    <li><a href="/breeds/basset-hound/" class="text-sky-700 underline hover:no-underline">Basset Hound</a> — Caseiro relaxado</li>
-                                    <li><a href="/breeds/greyhound/" class="text-sky-700 underline hover:no-underline">Greyhound</a> — Corre e depois dorme</li>
-                                    <li><a href="/breeds/shih-tzu/" class="text-sky-700 underline hover:no-underline">Shih Tzu</a> — Calmo e afetuoso</li>
+                                    <li><a href="/pt/breeds/chihuahua/" class="text-sky-700 underline hover:no-underline">Chihuahua</a> — Minúsculo, necessidades mínimas de exercício</li>
+                                    <li><a href="/pt/breeds/french-bulldog/" class="text-sky-700 underline hover:no-underline">Bouledogue Francese</a> — Baixa energia, pelo curto</li>
+                                    <li><a href="/pt/breeds/basset-hound/" class="text-sky-700 underline hover:no-underline">Basset Hound</a> — Caseiro relaxado</li>
+                                    <li><a href="/pt/breeds/greyhound/" class="text-sky-700 underline hover:no-underline">Greyhound</a> — Corre e depois dorme</li>
+                                    <li><a href="/pt/breeds/shih-tzu/" class="text-sky-700 underline hover:no-underline">Shih Tzu</a> — Calmo e afetuoso</li>
                                 </ul>
                                 <p class="mt-3">Lembre-se: todos os cães precisam de atenção diária, visitas veterinárias regulares e alimentação adequada.</p>
                             </div>
@@ -320,11 +329,11 @@
                             <div class="px-5 pb-5 text-slate-600 leading-relaxed">
                                 <p><strong>Nenhum cão é 100% hipoalergênico.</strong> Todos os cães produzem alérgenos através da pele, saliva e urina. No entanto, algumas raças produzem menos alérgenos ou soltam menos pelo:</p>
                                 <ul class="list-disc ml-5 mt-2 space-y-1">
-                                    <li><a href="/breeds/poodle/" class="text-sky-700 underline hover:no-underline">Barboncino</a> — O pelo cacheado retém a caspa</li>
-                                    <li><a href="/breeds/bichon-frise/" class="text-sky-700 underline hover:no-underline">Bichon Frisé</a> — Pouca queda de pelo, menos caspa</li>
-                                    <li><a href="/breeds/portuguese-water-dog/" class="text-sky-700 underline hover:no-underline">Cane d'acqua portoghese</a> — Pelagem única, queda mínima</li>
+                                    <li><a href="/pt/breeds/poodle/" class="text-sky-700 underline hover:no-underline">Barboncino</a> — O pelo cacheado retém a caspa</li>
+                                    <li><a href="/pt/breeds/bichon-frise/" class="text-sky-700 underline hover:no-underline">Bichon Frisé</a> — Pouca queda de pelo, menos caspa</li>
+                                    <li><a href="/pt/breeds/portuguese-water-dog/" class="text-sky-700 underline hover:no-underline">Cane d'acqua portoghese</a> — Pelagem única, queda mínima</li>
                                     <li><a href="/breeds/schnauzer/" class="text-sky-700 underline hover:no-underline">Schnauzer</a> — Pelo áspero, pouca caspa</li>
-                                    <li><a href="/breeds/maltese/" class="text-sky-700 underline hover:no-underline">Maltese</a> — Cabelos em vez de pelos</li>
+                                    <li><a href="/pt/breeds/maltese/" class="text-sky-700 underline hover:no-underline">Maltese</a> — Cabelos em vez de pelos</li>
                                 </ul>
                                 <p class="mt-3">Passar tempo com uma raça antes de adotar é a melhor forma de testar sua reação.</p>
                             </div>
@@ -355,11 +364,11 @@
                             <div class="px-5 pb-5 text-slate-600 leading-relaxed">
                                 <p>Raças que soltam pouco pelo incluem:</p>
                                 <ul class="list-disc ml-5 mt-2 space-y-1">
-                                    <li><a href="/breeds/poodle/" class="text-sky-700 underline hover:no-underline">Barboncino</a> — Todos os tamanhos, pelo cacheado</li>
-                                    <li><a href="/breeds/bichon-frise/" class="text-sky-700 underline hover:no-underline">Bichon Frisé</a> — Fofo mas pouca queda</li>
-                                    <li><a href="/breeds/yorkshire-terrier/" class="text-sky-700 underline hover:no-underline">Yorkshire Terrier</a> — Cabelos, não pelos</li>
-                                    <li><a href="/breeds/shih-tzu/" class="text-sky-700 underline hover:no-underline">Shih Tzu</a> — Pelagem longa mas queda mínima</li>
-                                    <li><a href="/breeds/maltese/" class="text-sky-700 underline hover:no-underline">Maltese</a> — Sedoso, pelagem única</li>
+                                    <li><a href="/pt/breeds/poodle/" class="text-sky-700 underline hover:no-underline">Barboncino</a> — Todos os tamanhos, pelo cacheado</li>
+                                    <li><a href="/pt/breeds/bichon-frise/" class="text-sky-700 underline hover:no-underline">Bichon Frisé</a> — Fofo mas pouca queda</li>
+                                    <li><a href="/pt/breeds/yorkshire-terrier/" class="text-sky-700 underline hover:no-underline">Yorkshire Terrier</a> — Cabelos, não pelos</li>
+                                    <li><a href="/pt/breeds/shih-tzu/" class="text-sky-700 underline hover:no-underline">Shih Tzu</a> — Pelagem longa mas queda mínima</li>
+                                    <li><a href="/pt/breeds/maltese/" class="text-sky-700 underline hover:no-underline">Maltese</a> — Sedoso, pelagem única</li>
                                 </ul>
                                 <p class="mt-3">Nota: pouca queda de pelo frequentemente significa mais cuidados. Essas pelagens podem embaraçar sem escovação regular.</p>
                             </div>
@@ -401,11 +410,11 @@
                             <div class="px-5 pb-5 text-slate-600 leading-relaxed">
                                 <p>As raças mais treináveis são inteligentes e desejam agradar:</p>
                                 <ul class="list-disc ml-5 mt-2 space-y-1">
-                                    <li><a href="/breeds/border-collie/" class="text-sky-700 underline hover:no-underline">Border Collie</a> — A raça mais inteligente</li>
-                                    <li><a href="/breeds/poodle/" class="text-sky-700 underline hover:no-underline">Barboncino</a> — Aprende rápido, deseja agradar</li>
-                                    <li><a href="/breeds/german-shepherd/" class="text-sky-700 underline hover:no-underline">Pastore Tedesco</a> — Focado e obediente</li>
-                                    <li><a href="/breeds/golden-retriever/" class="text-sky-700 underline hover:no-underline">Golden Retriever</a> — Paciente e motivado por comida</li>
-                                    <li><a href="/breeds/labrador-retriever/" class="text-sky-700 underline hover:no-underline">Labrador Retriever</a> — Versátil e voluntarioso</li>
+                                    <li><a href="/pt/breeds/border-collie/" class="text-sky-700 underline hover:no-underline">Border Collie</a> — A raça mais inteligente</li>
+                                    <li><a href="/pt/breeds/poodle/" class="text-sky-700 underline hover:no-underline">Barboncino</a> — Aprende rápido, deseja agradar</li>
+                                    <li><a href="/pt/breeds/german-shepherd/" class="text-sky-700 underline hover:no-underline">Pastore Tedesco</a> — Focado e obediente</li>
+                                    <li><a href="/pt/breeds/golden-retriever/" class="text-sky-700 underline hover:no-underline">Golden Retriever</a> — Paciente e motivado por comida</li>
+                                    <li><a href="/pt/breeds/labrador-retriever/" class="text-sky-700 underline hover:no-underline">Labrador Retriever</a> — Versátil e voluntarioso</li>
                                 </ul>
                                 <p class="mt-3"><strong>Nota:</strong> Cães inteligentes precisam de mais estimulação mental. Um Border Collie entediado pode se tornar destrutivo!</p>
                             </div>
@@ -419,11 +428,11 @@
                             <div class="px-5 pb-5 text-slate-600 leading-relaxed">
                                 <p>Algumas raças são independentes ou teimosas, requerendo mais paciência:</p>
                                 <ul class="list-disc ml-5 mt-2 space-y-1">
-                                    <li><a href="/breeds/afghan-hound/" class="text-sky-700 underline hover:no-underline">Levriero Afgano</a> — Independente e distante</li>
-                                    <li><a href="/breeds/basenji/" class="text-sky-700 underline hover:no-underline">Basenji</a> — Independência de gato</li>
-                                    <li><a href="/breeds/bulldog/" class="text-sky-700 underline hover:no-underline">Buldogue Inglês</a> — Veia teimosa</li>
-                                    <li><a href="/breeds/chow-chow/" class="text-sky-700 underline hover:no-underline">Chow Chow</a> — Vontade forte</li>
-                                    <li><a href="/breeds/siberian-husky/" class="text-sky-700 underline hover:no-underline">Husky Siberiano</a> — Inteligente mas independente</li>
+                                    <li><a href="/pt/breeds/afghan-hound/" class="text-sky-700 underline hover:no-underline">Levriero Afgano</a> — Independente e distante</li>
+                                    <li><a href="/pt/breeds/basenji/" class="text-sky-700 underline hover:no-underline">Basenji</a> — Independência de gato</li>
+                                    <li><a href="/pt/breeds/bulldog/" class="text-sky-700 underline hover:no-underline">Buldogue Inglês</a> — Veia teimosa</li>
+                                    <li><a href="/pt/breeds/chow-chow/" class="text-sky-700 underline hover:no-underline">Chow Chow</a> — Vontade forte</li>
+                                    <li><a href="/pt/breeds/siberian-husky/" class="text-sky-700 underline hover:no-underline">Husky Siberiano</a> — Inteligente mas independente</li>
                                 </ul>
                                 <p class="mt-3">Essas raças não são menos inteligentes—apenas têm sua própria agenda. Podem ser treinadas com paciência, consistência e a motivação certa.</p>
                             </div>
@@ -437,11 +446,11 @@
                 <h2 class="text-2xl font-bold text-slate-900 mb-3">Ainda não tem certeza de qual raça é certa para você?</h2>
                 <p class="text-slate-600 mb-6">Faça nosso quiz rápido para obter recomendações personalizadas baseadas no seu estilo de vida.</p>
                 <div class="flex flex-wrap justify-center gap-4">
-                    <a href="/quiz/" class="inline-flex items-center gap-2 bg-gradient-to-r from-sky-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-semibold text-lg hover:shadow-xl transition">
+                    <a href="/pt/quiz/" class="inline-flex items-center gap-2 bg-gradient-to-r from-sky-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-semibold text-lg hover:shadow-xl transition">
                         <i data-lucide="target" class="w-5 h-5"></i>
                         Faça o Quiz de Raças
                     </a>
-                    <a href="/compare/" class="inline-flex items-center gap-2 bg-white text-slate-700 border border-slate-200 px-8 py-4 rounded-2xl font-semibold text-lg hover:shadow-lg transition">
+                    <a href="/pt/compare/" class="inline-flex items-center gap-2 bg-white text-slate-700 border border-slate-200 px-8 py-4 rounded-2xl font-semibold text-lg hover:shadow-lg transition">
                         <i data-lucide="scale" class="w-5 h-5"></i>
                         Comparar Raças
                     </a>
@@ -450,23 +459,25 @@
         </div>
     </main>
 
-    <footer class="py-10 px-4 text-slate-300 py-12 px-4" style="background: #1a2e1a;">
-        <div class="max-w-6xl mx-auto">
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
             <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-                <div class="flex items-center gap-3">
-                    <img src="/logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
-                    <span class="text-xl font-bold">BreedFinder</span>
-                </div>
-                <div class="flex gap-8 text-sm text-emerald-200">
-                    <a href="/quiz/" class="hover:text-white transition">Quiz</a>
-                    <a href="/compare/" class="hover:text-white transition">Comparar</a>
-                    <a href="/articles/" class="hover:text-white transition">Guias</a>
-                    <a href="./" class="hover:text-white transition text-white">FAQ</a>
-                    <a href="/about/" class="hover:text-white transition">Sobre Nós</a>
-                </div>
+                <a href="/pt/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/pt/search/" class="hover:text-white transition">Explorar raças</a>
+                    <a href="/pt/quiz/" class="hover:text-white transition">Quiz de raças</a>
+                    <a href="/pt/compare/" class="hover:text-white transition">Comparar</a>
+                    <a href="/pt/articles/" class="hover:text-white transition">Guias</a>
+                    <a href="/pt/faq/" class="hover:text-white transition">Perguntas frequentes</a>
+                    <a href="/pt/about/" class="hover:text-white transition">Sobre</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privacidade</a>
+                </nav>
             </div>
-            <div class="border-t border-slate-800 mt-8 pt-8 text-center text-sm text-emerald-200">
-                <p>© 2026 BreedFinder. Feito com ❤️ para os amantes de cães.</p>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contato: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
             </div>
         </div>
     </footer>

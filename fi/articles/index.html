@@ -27,19 +27,28 @@
     <meta name="twitter:title" content="Koirarodut Oppaat &amp; Artikkelit | BreedFinder">
     <meta name="twitter:description" content="Asiantuntijaoppaat oikean koirarodun valintaan elämäntyyliisi. Kerrostalokoirat, perhekoirat, vähän karvaavat rodut ja paljon muuta.">
     <meta name="twitter:image" content="https://breedfinder.org/images/og-card.png">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Etusivu", "item": "https://breedfinder.org/fi/"}, {"@type": "ListItem", "position": 2, "name": "Oppaat", "item": "https://breedfinder.org/fi/articles/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <header class="bg-white border-b border-slate-200 py-4 px-4">
         <div class="max-w-4xl mx-auto flex items-center justify-between">
-            <a href="/" class="flex items-center gap-2">
+            <a href="/fi/" class="flex items-center gap-2">
                 <img src="/logo-192.png" class="w-10 h-10 rounded-xl" alt="BreedFinder">
                 <span class="text-xl font-bold">BreedFinder</span>
             </a>
-            <a href="/" class="text-slate-600 hover:text-slate-900 text-sm">← Etusivu</a>
+            <a href="/fi/" class="text-slate-600 hover:text-slate-900 text-sm">← Etusivu</a>
         </div>
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-4xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/fi/" class="hover:text-emerald-800 transition underline">Etusivu</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">Oppaat</span>
+        </nav>
+
         <div class="max-w-4xl mx-auto">
             <div class="text-center mb-10">
                 <h1 class="text-3xl md:text-4xl font-bold mb-4">Rotuoppaat & Artikkelit</h1>
@@ -106,16 +115,33 @@
             <div class="mt-12 text-center">
                 <p class="text-slate-600 mb-6">Etkö ole vielä varma, mikä rotu sopii sinulle?</p>
                 <div class="flex flex-wrap justify-center gap-4">
-                    <a href="/quiz" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">Tee Rotuvisa →</a>
-                    <a href="/compare" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Vertaile Rotuja</a>
+                    <a href="/fi/quiz/" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">Tee Rotuvisa →</a>
+                    <a href="/fi/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Vertaile Rotuja</a>
                 </div>
             </div>
         </div>
     </main>
 
-    <footer class="bg-emerald-900 text-white py-8 px-4 mt-12">
-        <div class="max-w-4xl mx-auto text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Tehty rakkaudella koiranystäville kaikkialla.</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/fi/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/fi/search/" class="hover:text-white transition">Selaa rotuja</a>
+                    <a href="/fi/quiz/" class="hover:text-white transition">Rotutesti</a>
+                    <a href="/fi/compare/" class="hover:text-white transition">Vertaile</a>
+                    <a href="/fi/articles/" class="hover:text-white transition">Oppaat</a>
+                    <a href="/fi/faq/" class="hover:text-white transition">UKK</a>
+                    <a href="/fi/about/" class="hover:text-white transition">Tietoa meistä</a>
+                    <a href="/privacy/" class="hover:text-white transition">Tietosuoja</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Yhteystiedot: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

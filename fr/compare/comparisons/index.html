@@ -41,6 +41,9 @@
     <meta name="twitter:title" content="Comparaisons de races de chiens | BreedFinder">
     <meta name="twitter:description" content="Lisez des comparaisons détaillées de races de chiens. Labrador vs Golden Retriever, Husky vs Malamute et bien plus.">
     <meta name="twitter:image" content="https://breedfinder.org/images/og-card.png">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://breedfinder.org/fr/"}, {"@type": "ListItem", "position": 2, "name": "Comparer", "item": "https://breedfinder.org/fr/compare/"}, {"@type": "ListItem", "position": 3, "name": "Comparaisons de races", "item": "https://breedfinder.org/fr/compare/comparisons/"}]}
+    </script>
 </head>
 <body class="min-h-screen text-slate-800" style="background: linear-gradient(135deg, #f6f7f2 0%, #ffffff 50%, #eef1e8 100%);">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100" style="border-color: #e2ddd4; sticky top-0 z-50">
@@ -50,18 +53,20 @@
                 <span class="text-xl font-bold" style="color: #1a5632;">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="/races" class="text-slate-600 hover:text-forest">Toutes les races</a>
-                <a href="/" class="text-slate-600 hover:text-forest">Comparer</a>
-                <a href="/quiz" class="bg-forest text-white px-5 py-2.5 rounded-xl font-semibold">Faire le quiz</a>
+                <a href="/fr/search/" class="text-slate-600 hover:text-forest">Toutes les races</a>
+                <a href="/fr/compare/" class="text-slate-600 hover:text-forest">Comparer</a>
+                <a href="/fr/quiz/" class="bg-forest text-white px-5 py-2.5 rounded-xl font-semibold">Faire le quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="max-w-6xl mx-auto px-4 py-12">
-        <nav class="text-sm text-slate-600 mb-8">
-            <a href="/" class="hover:text-forest">Comparer</a>
-            <span class="mx-2">›</span>
-            <span class="text-slate-700">Toutes les comparaisons</span>
+        <nav aria-label="Breadcrumb" class="text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/fr/" class="hover:text-emerald-800 transition underline">Accueil</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/fr/compare/" class="hover:text-emerald-800 transition underline">Comparer</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">Comparaisons de races</span>
         </nav>
 
         <div class="text-center mb-12">
@@ -86,9 +91,9 @@
 
             <a href="berger-allemand-vs-malinois/" class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition p-6 group">
                 <div class="flex items-center gap-4 mb-4">
-                    <img src="/images/heads/german-shepherd.webp" alt="Berger Allemand" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/german-shepherd.webp" alt="Berger Allemand" class="w-16 h-16 rounded-full object-cover">
                     <span class="text-2xl font-bold text-emerald-200">vs</span>
-                    <img src="/images/heads/belgian-malinois.webp" alt="Malinois" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/belgian-malinois.webp" alt="Malinois" class="w-16 h-16 rounded-full object-cover">
                 </div>
                 <h2 class="text-xl font-bold text-slate-800 group-hover:text-forest transition">Berger Allemand vs Malinois</h2>
                 <p class="text-slate-600 mt-2">Deux des meilleurs chiens de travail — lequel est le bon choix ?</p>
@@ -97,9 +102,9 @@
 
             <a href="bouledogue-francais-vs-boston-terrier/" class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition p-6 group">
                 <div class="flex items-center gap-4 mb-4">
-                    <img src="/images/heads/french-bulldog.webp" alt="Bouledogue Français" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/french-bulldog.webp" alt="Bouledogue Français" class="w-16 h-16 rounded-full object-cover">
                     <span class="text-2xl font-bold text-emerald-200">vs</span>
-                    <img src="/images/heads/boston-terrier.webp" alt="Boston Terrier" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/boston-terrier.webp" alt="Boston Terrier" class="w-16 h-16 rounded-full object-cover">
                 </div>
                 <h2 class="text-xl font-bold text-slate-800 group-hover:text-forest transition">Bouledogue Français vs Boston Terrier</h2>
                 <p class="text-slate-600 mt-2">Deux races compactes populaires — laquelle pour l'appartement ?</p>
@@ -108,9 +113,9 @@
 
             <a href="husky-vs-malamute/" class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition p-6 group">
                 <div class="flex items-center gap-4 mb-4">
-                    <img src="/images/heads/siberian-husky.webp" alt="Husky" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/siberian-husky.webp" alt="Husky" class="w-16 h-16 rounded-full object-cover">
                     <span class="text-2xl font-bold text-emerald-200">vs</span>
-                    <img src="/images/heads/alaskan-malamute.webp" alt="Malamute" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/alaskan-malamute.webp" alt="Malamute" class="w-16 h-16 rounded-full object-cover">
                 </div>
                 <h2 class="text-xl font-bold text-slate-800 group-hover:text-forest transition">Husky Sibérien vs Malamute d'Alaska</h2>
                 <p class="text-slate-600 mt-2">Deux magnifiques races arctiques — quelle est la vraie différence ?</p>
@@ -119,9 +124,9 @@
 
             <a href="caniche-vs-labrador/" class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition p-6 group">
                 <div class="flex items-center gap-4 mb-4">
-                    <img src="/images/heads/poodle.webp" alt="Caniche" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/poodle.webp" alt="Caniche" class="w-16 h-16 rounded-full object-cover">
                     <span class="text-2xl font-bold text-emerald-200">vs</span>
-                    <img src="/images/heads/labrador-retriever.webp" alt="Labrador" class="w-16 h-16 rounded-full object-cover">
+                    <img loading="lazy" decoding="async" src="/images/heads/labrador-retriever.webp" alt="Labrador" class="w-16 h-16 rounded-full object-cover">
                 </div>
                 <h2 class="text-xl font-bold text-slate-800 group-hover:text-forest transition">Caniche vs Labrador Retriever</h2>
                 <p class="text-slate-600 mt-2">Intelligence ou gentillesse ? Comparez deux favoris.</p>
@@ -134,9 +139,26 @@
         </div>
     </main>
 
-    <footer class="border-t border-slate-100 mt-16 py-8">
-        <div class="max-w-6xl mx-auto px-4 text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Nous vous aidons à trouver votre compagnon parfait.</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/fr/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/fr/search/" class="hover:text-white transition">Parcourir les races</a>
+                    <a href="/fr/quiz/" class="hover:text-white transition">Quiz des races</a>
+                    <a href="/fr/compare/" class="hover:text-white transition">Comparer</a>
+                    <a href="/fr/articles/" class="hover:text-white transition">Guides</a>
+                    <a href="/fr/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/fr/about/" class="hover:text-white transition">À propos</a>
+                    <a href="/privacy/" class="hover:text-white transition">Confidentialité</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contact: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

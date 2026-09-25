@@ -9,8 +9,11 @@
     <meta name="description" content="Faites notre quiz gratuit sur les races de chiens et découvrez laquelle des 200+ races correspond le mieux à votre mode de vie et votre foyer.">
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="/css/tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
+        
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
             body { font-family: 'Inter', sans-serif; }
         .font-serif { font-family: 'Fraunces', serif; }
@@ -46,25 +49,34 @@
     <meta name="twitter:title" content="Quiz Races de Chiens — Trouvez Votre Compagnon Idéal | BreedFinder">
     <meta name="twitter:description" content="Faites notre quiz gratuit sur les races de chiens et découvrez laquelle des 200+ races correspond le mieux à votre mode de vie et votre foyer.">
     <meta name="twitter:image" content="https://breedfinder.org/images/og-card.png">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://breedfinder.org/fr/"}, {"@type": "ListItem", "position": 2, "name": "Quiz des races", "item": "https://breedfinder.org/fr/quiz/"}]}
+    </script>
 </head>
 <body class="min-h-screen text-warm-800" style="background: linear-gradient(135deg, #f6f7f2 0%, #faf9f6 50%, #eef1e8 100%); color: #2a2518;">
     <header class="bg-white/85 backdrop-blur-md border-b sticky top-0 z-50" style="border-color: #e2ddd4;">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/fr/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
                 <span class="text-xl font-bold font-serif" style="color: #1a5632;">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-4 text-sm font-medium">
-                <a href="/search/" class="text-slate-600 hover:text-[#1a5632] flex items-center">
+                <a href="/fr/search/" class="text-slate-600 hover:text-[#1a5632] flex items-center">
                     <i data-lucide="search" class="w-5 h-5 md:hidden"></i>
                     <span class="hidden md:inline">Parcourir les Races</span>
                 </a>
-                <a href="./" class="bg-[#1a5632] text-white px-4 py-2 rounded-xl">Quiz</a>
+                <a href="/fr/quiz/" class="bg-[#1a5632] text-white px-4 py-2 rounded-xl">Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="max-w-2xl mx-auto px-4 py-12">
+        <nav aria-label="Breadcrumb" class="text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/fr/" class="hover:text-emerald-800 transition underline">Accueil</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">Quiz des races</span>
+        </nav>
+
         <div id="quiz-container">
             <div id="quiz-intro" class="text-center">
                 <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm border text-sm text-slate-600 mb-6">
@@ -108,11 +120,34 @@
                 <div id="results-list" class="space-y-4"></div>
                 <div class="flex justify-center gap-4 mt-8">
                     <button onclick="location.reload()" class="px-6 py-3 border border-slate-200 rounded-xl hover:bg-slate-50">← Refaire le Quiz</button>
-                    <a href="/compare/" id="compare-link" class="px-6 py-3 bg-[#1a5632] text-white rounded-xl font-semibold">Comparer Top 2</a>
+                    <a href="/fr/compare/" id="compare-link" class="px-6 py-3 bg-[#1a5632] text-white rounded-xl font-semibold">Comparer Top 2</a>
                 </div>
             </div>
         </div>
     </main>
+
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/fr/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/fr/search/" class="hover:text-white transition">Parcourir les races</a>
+                    <a href="/fr/quiz/" class="hover:text-white transition">Quiz des races</a>
+                    <a href="/fr/compare/" class="hover:text-white transition">Comparer</a>
+                    <a href="/fr/articles/" class="hover:text-white transition">Guides</a>
+                    <a href="/fr/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/fr/about/" class="hover:text-white transition">À propos</a>
+                    <a href="/privacy/" class="hover:text-white transition">Confidentialité</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contact: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
+        </div>
+    </footer>
 
     <script>
         const questions = [
@@ -432,5 +467,7 @@
     </script>
 
 <script>(function(){try{if(Intl.DateTimeFormat().resolvedOptions().timeZone==='Asia/Singapore')return}catch(e){}var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-VEERQZ53LZ';document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-VEERQZ53LZ');})();</script>
+<script src="/js/icons.js"></script>
+<script>lucide.createIcons();</script>
 </body>
 </html>

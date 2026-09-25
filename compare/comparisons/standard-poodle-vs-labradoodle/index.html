@@ -27,7 +27,7 @@
  
  <link rel="stylesheet" href="/css/tailwind.css">
  <link rel="preconnect" href="https://fonts.googleapis.com">
- <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
  
  <style>
  * { font-family: 'Inter', sans-serif; }
@@ -43,6 +43,9 @@
     <!-- Hreflang -->
     <link rel="alternate" hreflang="en" href="https://breedfinder.org/compare/comparisons/standard-poodle-vs-labradoodle/">
     <link rel="alternate" hreflang="x-default" href="https://breedfinder.org/compare/comparisons/standard-poodle-vs-labradoodle/">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://breedfinder.org/"}, {"@type": "ListItem", "position": 2, "name": "Compare", "item": "https://breedfinder.org/compare/"}, {"@type": "ListItem", "position": 3, "name": "Standard Poodle vs Labradoodle", "item": "https://breedfinder.org/compare/comparisons/standard-poodle-vs-labradoodle/"}]}
+    </script>
 </head>
 <body class="min-h-screen text-slate-800" style="background: linear-gradient(135deg, #f6f7f2 0%, #ffffff 50%, #eef1e8 100%);">
  <!-- Header -->
@@ -53,7 +56,7 @@
  <span class="text-xl font-bold text-slate-800">BreedFinder</span>
  </a>
  <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
- <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+ <a href="/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
  <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
  <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
  </nav>
@@ -61,14 +64,13 @@
  </header>
 
  <main class="max-w-6xl mx-auto px-4 py-12">
- <!-- Breadcrumb -->
- <nav class="text-sm text-slate-600 mb-8">
- <a href="/" class="hover:text-forest">Home</a>
- <span class="mx-2">›</span>
- <a href="/compare/" class="hover:text-forest">Compare</a>
- <span class="mx-2">›</span>
- <span class="text-slate-700">Standard Poodle vs Labradoodle</span>
- </nav>
+        <nav aria-label="Breadcrumb" class="text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/" class="hover:text-emerald-800 transition underline">Home</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/compare/" class="hover:text-emerald-800 transition underline">Compare</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">Standard Poodle vs Labradoodle</span>
+        </nav>
 
  <!-- Header -->
  <div class="text-center mb-12">
@@ -416,12 +418,28 @@
  </div>
  </main>
 
- <!-- Footer -->
- <footer class="border-t border-slate-100 mt-16 py-8">
- <div class="max-w-6xl mx-auto px-4 text-center text-slate-600 text-sm">
- <p>© 2026 BreedFinder. Helping you find your perfect companion.</p>
- </div>
- </footer>
+ <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/search/" class="hover:text-white transition">Browse Breeds</a>
+                    <a href="/quiz/" class="hover:text-white transition">Breed Quiz</a>
+                    <a href="/compare/" class="hover:text-white transition">Compare</a>
+                    <a href="/articles/" class="hover:text-white transition">Guides</a>
+                    <a href="/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/about/" class="hover:text-white transition">About</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privacy</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contact: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
+        </div>
+    </footer>
 
 <script>(function(){try{if(Intl.DateTimeFormat().resolvedOptions().timeZone==='Asia/Singapore')return}catch(e){}var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-VEERQZ53LZ';document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-VEERQZ53LZ');})();</script>
 </body>

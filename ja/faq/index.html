@@ -8,7 +8,7 @@
     <link rel="canonical" href="https://breedfinder.org/ja/faq/">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/tailwind.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="/js/icons.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>.faq-item[open] .faq-icon{transform:rotate(180deg);}        body { font-family: 'Inter', sans-serif; }
         .font-serif { font-family: 'Fraunces', serif; }
@@ -44,22 +44,31 @@
     <meta name="twitter:title" content="犬種FAQ — よくある質問と回答 | BreedFinder">
     <meta name="twitter:description" content="犬種に関するよくある質問に明確に回答します。犬種の選び方から運動量、被毛の手入れ、家族との相性まで幅広くカバー。">
     <meta name="twitter:image" content="https://breedfinder.org/images/og-card.png">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://breedfinder.org/ja/"}, {"@type": "ListItem", "position": 2, "name": "よくある質問", "item": "https://breedfinder.org/ja/faq/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
         <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/ja/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/ja/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/ja/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/ja/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
     <main class="max-w-5xl mx-auto px-4 py-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/ja/" class="hover:text-emerald-800 transition underline">ホーム</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">よくある質問</span>
+        </nav>
+
         <div class="text-center mb-10">
             <h1 class="text-4xl font-extrabold text-slate-900 mb-3">よくある質問</h1>
             <p class="text-lg text-slate-600">犬種について知っておくべきすべてのこと</p>
@@ -70,7 +79,7 @@
                 <div class="space-y-3">
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>適切な犬種をどうやって選びますか？</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><p>住居スペース、活動レベル、家族構成を考慮してください。<a href="/quiz/" class="text-sky-700 underline">犬種テストを受ける →</a></p></div>
+                        <div class="px-5 pb-5 text-slate-600"><p>住居スペース、活動レベル、家族構成を考慮してください。<a href="/ja/quiz/" class="text-sky-700 underline">犬種テストを受ける →</a></p></div>
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>子犬と成犬、どちらがいい？</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
@@ -83,11 +92,11 @@
                 <div class="space-y-3">
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>アパートに最適な犬は？</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>フレンチブルドッグ — 穏やか</li><li>キャバリア — 適応力が高い</li><li>パグ — のんびり屋</li><li>グレイハウンド — 室内で穏やか</li></ul><a href="/search/?apartment=1" class="text-sky-700 underline mt-2 inline-block">アパート向きの犬種をすべて見る →</a></div>
+                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>フレンチブルドッグ — 穏やか</li><li>キャバリア — 適応力が高い</li><li>パグ — のんびり屋</li><li>グレイハウンド — 室内で穏やか</li></ul><a href="/ja/search/?apartment=1" class="text-sky-700 underline mt-2 inline-block">アパート向きの犬種をすべて見る →</a></div>
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>子供のいる家庭に最適な犬は？</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>ラブラドール</li><li>ゴールデンレトリバー</li><li>ビーグル</li><li>コリー</li></ul><a href="/search/?kids=1" class="text-sky-700 underline mt-2 inline-block">家族向きの犬種をすべて見る →</a></div>
+                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>ラブラドール</li><li>ゴールデンレトリバー</li><li>ビーグル</li><li>コリー</li></ul><a href="/ja/search/?kids=1" class="text-sky-700 underline mt-2 inline-block">家族向きの犬種をすべて見る →</a></div>
                     </details>
                 </div>
             </section>
@@ -100,7 +109,7 @@
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>抜け毛が少ない犬種は？</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><p>プードル、ビションフリーゼ、シュナウザー、ヨークシャーテリアは抜け毛が少ないです。<a href="/search/?shedding=minimal" class="text-sky-700 underline mt-2 inline-block">抜け毛が少ない犬種を見る →</a></p></div>
+                        <div class="px-5 pb-5 text-slate-600"><p>プードル、ビションフリーゼ、シュナウザー、ヨークシャーテリアは抜け毛が少ないです。<a href="/ja/search/?shedding=minimal" class="text-sky-700 underline mt-2 inline-block">抜け毛が少ない犬種を見る →</a></p></div>
                     </details>
                 </div>
             </section>
@@ -113,15 +122,32 @@
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>最もトレーニングしやすい犬種は？</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><p>ボーダーコリー、プードル、ジャーマンシェパード、ラブラドールはトレーニングが簡単です。<a href="/search/?train=1" class="text-sky-700 underline mt-2 inline-block">トレーニングしやすい犬種を見る →</a></p></div>
+                        <div class="px-5 pb-5 text-slate-600"><p>ボーダーコリー、プードル、ジャーマンシェパード、ラブラドールはトレーニングが簡単です。<a href="/ja/search/?train=1" class="text-sky-700 underline mt-2 inline-block">トレーニングしやすい犬種を見る →</a></p></div>
                     </details>
                 </div>
             </section>
         </div>
     </main>
-    <footer class="py-10 px-4 text-slate-300 py-8 px-4 mt-12" style="background: #1a2e1a;">
-        <div class="max-w-6xl mx-auto text-center">
-            <p class="text-sm">犬好きのために愛を込めて作りました</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/ja/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/ja/search/" class="hover:text-white transition">犬種一覧</a>
+                    <a href="/ja/quiz/" class="hover:text-white transition">犬種診断</a>
+                    <a href="/ja/compare/" class="hover:text-white transition">比較</a>
+                    <a href="/ja/articles/" class="hover:text-white transition">ガイド</a>
+                    <a href="/ja/faq/" class="hover:text-white transition">よくある質問</a>
+                    <a href="/ja/about/" class="hover:text-white transition">運営者情報</a>
+                    <a href="/privacy/" class="hover:text-white transition">プライバシー</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; お問い合わせ: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
     <script>lucide.createIcons();</script>

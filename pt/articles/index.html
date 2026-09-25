@@ -41,19 +41,28 @@
     <meta name="twitter:title" content="Guias sobre Raças de Cães | BreedFinder">
     <meta name="twitter:description" content="Guias especializados sobre as melhores raças de cães para famílias, apartamentos, idosos e mais. Dicas para escolher o cão perfeito.">
     <meta name="twitter:image" content="https://breedfinder.org/images/og-card.png">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Início", "item": "https://breedfinder.org/pt/"}, {"@type": "ListItem", "position": 2, "name": "Guias", "item": "https://breedfinder.org/pt/articles/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <header class="bg-white border-b border-slate-200 py-4 px-4">
         <div class="max-w-4xl mx-auto flex items-center justify-between">
-            <a href="/" class="flex items-center gap-2">
+            <a href="/pt/" class="flex items-center gap-2">
                 <img src="/logo-192.png" class="w-10 h-10 rounded-xl" alt="BreedFinder">
                 <span class="text-xl font-bold">BreedFinder</span>
             </a>
-            <a href="/" class="text-slate-600 hover:text-slate-900 text-sm">← Voltar</a>
+            <a href="/pt/" class="text-slate-600 hover:text-slate-900 text-sm">← Voltar</a>
         </div>
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-4xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/pt/" class="hover:text-emerald-800 transition underline">Início</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">Guias</span>
+        </nav>
+
         <div class="max-w-4xl mx-auto">
             <h1 class="text-3xl md:text-4xl font-bold mb-2">Guias de Raças</h1>
             <p class="text-slate-600 text-lg mb-8">Conselhos especializados para encontrar a raça perfeita para você</p>
@@ -92,14 +101,31 @@
 
             <div class="mt-12 text-center">
                 <p class="text-slate-600 mb-4">Não tem certeza de qual raça é certa para você?</p>
-                <a href="/quiz/" class="inline-block bg-gradient-to-r from-sky-500 to-blue-600 text-white font-semibold px-6 py-3 rounded-xl hover:shadow-lg transition">Faça o Quiz de Raças →</a>
+                <a href="/pt/quiz/" class="inline-block bg-gradient-to-r from-sky-500 to-blue-600 text-white font-semibold px-6 py-3 rounded-xl hover:shadow-lg transition">Faça o Quiz de Raças →</a>
             </div>
         </div>
     </main>
 
-    <footer class="bg-emerald-900 text-white py-8 px-4 mt-12">
-        <div class="max-w-4xl mx-auto text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Feito com amor para os amantes de cães.</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/pt/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/pt/search/" class="hover:text-white transition">Explorar raças</a>
+                    <a href="/pt/quiz/" class="hover:text-white transition">Quiz de raças</a>
+                    <a href="/pt/compare/" class="hover:text-white transition">Comparar</a>
+                    <a href="/pt/articles/" class="hover:text-white transition">Guias</a>
+                    <a href="/pt/faq/" class="hover:text-white transition">Perguntas frequentes</a>
+                    <a href="/pt/about/" class="hover:text-white transition">Sobre</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privacidade</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Contato: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

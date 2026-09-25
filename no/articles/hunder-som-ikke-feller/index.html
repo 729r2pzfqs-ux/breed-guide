@@ -48,24 +48,35 @@
         .prose li { margin-bottom: 0.5rem; }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Forside", "item": "https://breedfinder.org/no/"}, {"@type": "ListItem", "position": 2, "name": "Guider", "item": "https://breedfinder.org/no/articles/"}, {"@type": "ListItem", "position": 3, "name": "20 Beste Hunderaser som Ikke Røyter", "item": "https://breedfinder.org/no/articles/hunder-som-ikke-feller/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/no/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/no/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/no/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/no/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-3xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/no/" class="hover:text-emerald-800 transition underline">Forside</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/no/articles/" class="hover:text-emerald-800 transition underline">Guider</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">20 Beste Hunderaser som Ikke Røyter</span>
+        </nav>
+
         <article class="max-w-3xl mx-auto">
             <div class="mb-8">
                 <span class="text-emerald-600 font-medium text-sm">STELLGUIDE</span>
@@ -83,7 +94,7 @@
                 <h2>🐩 Puddelfamilien (Alle Størrelser)</h2>
 
                 <h3>1. Standardpuddel</h3>
-                <p>Gullstandarden for ikke-røytende hunder. Puddler fanger løse hår i krøllene i stedet for å miste dem på gulvet. Intelligente, atletiske og elegante. <a href="/breeds/poodle/" style="color: #1a5632;" class=" underline hover:no-underline">Se raseprofil →</a></p>
+                <p>Gullstandarden for ikke-røytende hunder. Puddler fanger løse hår i krøllene i stedet for å miste dem på gulvet. Intelligente, atletiske og elegante. <a href="/no/breeds/poodle/" style="color: #1a5632;" class=" underline hover:no-underline">Se raseprofil →</a></p>
 
                 <h3>2. Dvergpuddel</h3>
                 <p>Alle fordelene med Standardpuddel i en mindre pakke. Perfekt for begrenset plass.</p>
@@ -100,10 +111,10 @@
                 <p>Langt, silkeaktig hvitt hår med minimal røyting. Milde, lekne og tilpasser seg ulike bosituasjoner.</p>
 
                 <h3>6. Shih Tzu</h3>
-                <p>Til tross for sin lange, flytende pels røyter Shih Tzuer knapt. Håret deres vokser kontinuerlig og faller bare ut ved børsting eller brudd. <a href="/breeds/shih-tzu/" style="color: #1a5632;" class=" underline hover:no-underline">Se raseprofil →</a></p>
+                <p>Til tross for sin lange, flytende pels røyter Shih Tzuer knapt. Håret deres vokser kontinuerlig og faller bare ut ved børsting eller brudd. <a href="/no/breeds/shih-tzu/" style="color: #1a5632;" class=" underline hover:no-underline">Se raseprofil →</a></p>
 
                 <h3>7. Yorkshire Terrier</h3>
-                <p>Yorkier har hår som ligner på menneskehår, vokser kontinuerlig og røyter minimalt. <a href="/breeds/yorkshire-terrier/" style="color: #1a5632;" class=" underline hover:no-underline">Se raseprofil →</a></p>
+                <p>Yorkier har hår som ligner på menneskehår, vokser kontinuerlig og røyter minimalt. <a href="/no/breeds/yorkshire-terrier/" style="color: #1a5632;" class=" underline hover:no-underline">Se raseprofil →</a></p>
 
                 <h2>🌊 Vannhunder (Minimal Røyting)</h2>
 
@@ -119,7 +130,7 @@
                 <h2>🐕 Ikke-Røytende Terriere</h2>
 
                 <h3>11. Schnauzer (Alle Størrelser)</h3>
-                <p>Kjempe-, Standard- og Dvergschnauzere har alle trådhår-pelser som røyter minimalt. Regelmessig trimming er nødvendig for deres karakteristiske utseende. <a href="/breeds/miniature-schnauzer/" style="color: #1a5632;" class=" underline hover:no-underline">Se raseprofil →</a></p>
+                <p>Kjempe-, Standard- og Dvergschnauzere har alle trådhår-pelser som røyter minimalt. Regelmessig trimming er nødvendig for deres karakteristiske utseende. <a href="/no/breeds/miniature-schnauzer/" style="color: #1a5632;" class=" underline hover:no-underline">Se raseprofil →</a></p>
 
                 <h3>12. Soft Coated Wheaten Terrier</h3>
                 <p>Silkeaktig, bølgete pels som ikke røyter mye. Vennlige, glade hunder.</p>
@@ -194,16 +205,33 @@
                 <p>Klar til å finne en hund som ikke dekker huset med hår? Vår quiz tar hensyn til røyting pluss livsstil og preferanser.</p>
 
                 <div class="flex gap-4 mt-6">
-                    <a href="/quiz" class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-xl">Ta Rasequizen →</a>
-                    <a href="/compare" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Sammenlign Raser</a>
+                    <a href="/no/quiz/" class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3 rounded-xl">Ta Rasequizen →</a>
+                    <a href="/no/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Sammenlign Raser</a>
                 </div>
             </div>
         </article>
     </main>
 
-    <footer class="bg-emerald-900 text-white py-8 px-4 mt-12">
-        <div class="max-w-4xl mx-auto text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Laget med kjærlighet for hundeelskere overalt.</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/no/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/no/search/" class="hover:text-white transition">Utforsk raser</a>
+                    <a href="/no/quiz/" class="hover:text-white transition">Rasequiz</a>
+                    <a href="/no/compare/" class="hover:text-white transition">Sammenlign</a>
+                    <a href="/no/articles/" class="hover:text-white transition">Guider</a>
+                    <a href="/no/faq/" class="hover:text-white transition">Vanlige spørsmål</a>
+                    <a href="/no/about/" class="hover:text-white transition">Om oss</a>
+                    <a href="/privacy/" class="hover:text-white transition">Personvern</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Kontakt: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

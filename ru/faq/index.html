@@ -8,7 +8,7 @@
     <link rel="canonical" href="https://breedfinder.org/ru/faq/">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/tailwind.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="/js/icons.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>.faq-item[open] .faq-icon{transform:rotate(180deg);}        body { font-family: 'Inter', sans-serif; }
         .font-serif { font-family: 'Fraunces', serif; }
@@ -44,22 +44,31 @@
     <meta name="twitter:title" content="FAQ о Породах Собак — Частые Вопросы | BreedFinder">
     <meta name="twitter:description" content="Четкие ответы на самые частые вопросы о породах собак — от выбора породы до потребностей в физических нагрузках, уходе и многом другом.">
     <meta name="twitter:image" content="https://breedfinder.org/images/og-card.png">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Главная", "item": "https://breedfinder.org/ru/"}, {"@type": "ListItem", "position": 2, "name": "Вопросы и ответы", "item": "https://breedfinder.org/ru/faq/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
         <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/ru/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/ru/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/ru/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/ru/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
     <main class="max-w-5xl mx-auto px-4 py-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/ru/" class="hover:text-emerald-800 transition underline">Главная</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">Вопросы и ответы</span>
+        </nav>
+
         <div class="text-center mb-10">
             <h1 class="text-4xl font-extrabold text-slate-900 mb-3">Частые Вопросы</h1>
             <p class="text-lg text-slate-600">Всё что нужно знать о породах собак</p>
@@ -70,7 +79,7 @@
                 <div class="space-y-3">
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Как выбрать правильную породу собаки?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><p>Учитывайте жилплощадь, уровень активности и семейную ситуацию. <a href="/quiz/" class="text-sky-700 underline">Пройти тест пород →</a></p></div>
+                        <div class="px-5 pb-5 text-slate-600"><p>Учитывайте жилплощадь, уровень активности и семейную ситуацию. <a href="/ru/quiz/" class="text-sky-700 underline">Пройти тест пород →</a></p></div>
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Щенок или взрослая собака?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
@@ -83,11 +92,11 @@
                 <div class="space-y-3">
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Лучшие собаки для квартир?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Французский бульдог — спокойный</li><li>Кавалер — адаптивный</li><li>Мопс — домосед</li><li>Грейхаунд — спокойный дома</li></ul><a href="/search/?apartment=1" class="text-sky-700 underline mt-2 inline-block">Смотреть все породы для квартир →</a></div>
+                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Французский бульдог — спокойный</li><li>Кавалер — адаптивный</li><li>Мопс — домосед</li><li>Грейхаунд — спокойный дома</li></ul><a href="/ru/search/?apartment=1" class="text-sky-700 underline mt-2 inline-block">Смотреть все породы для квартир →</a></div>
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Лучшие собаки для семей с детьми?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Лабрадор-ретривер</li><li>Золотистый ретривер</li><li>Бигль</li><li>Колли</li></ul><a href="/search/?kids=1" class="text-sky-700 underline mt-2 inline-block">Смотреть все породы для семей →</a></div>
+                        <div class="px-5 pb-5 text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Лабрадор-ретривер</li><li>Золотистый ретривер</li><li>Бигль</li><li>Колли</li></ul><a href="/ru/search/?kids=1" class="text-sky-700 underline mt-2 inline-block">Смотреть все породы для семей →</a></div>
                     </details>
                 </div>
             </section>
@@ -100,7 +109,7 @@
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Какие породы меньше линяют?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><p>Пудели, бишон фризе, шнауцеры и йоркширские терьеры линяют мало. <a href="/search/?shedding=minimal" class="text-sky-700 underline mt-2 inline-block">Смотреть мало линяющие породы →</a></p></div>
+                        <div class="px-5 pb-5 text-slate-600"><p>Пудели, бишон фризе, шнауцеры и йоркширские терьеры линяют мало. <a href="/ru/search/?shedding=minimal" class="text-sky-700 underline mt-2 inline-block">Смотреть мало линяющие породы →</a></p></div>
                     </details>
                 </div>
             </section>
@@ -113,15 +122,32 @@
                     </details>
                     <details class="faq-item bg-white border border-slate-200 rounded-xl overflow-hidden">
                         <summary class="flex items-center justify-between p-5 cursor-pointer font-semibold text-slate-800 hover:text-sky-700"><span>Какие породы легче всего дрессировать?</span><i data-lucide="chevron-down" class="w-5 h-5 faq-icon text-slate-600"></i></summary>
-                        <div class="px-5 pb-5 text-slate-600"><p>Бордер-колли, пудели, немецкие овчарки и лабрадоры легко поддаются дрессировке. <a href="/search/?train=1" class="text-sky-700 underline mt-2 inline-block">Смотреть легко обучаемые породы →</a></p></div>
+                        <div class="px-5 pb-5 text-slate-600"><p>Бордер-колли, пудели, немецкие овчарки и лабрадоры легко поддаются дрессировке. <a href="/ru/search/?train=1" class="text-sky-700 underline mt-2 inline-block">Смотреть легко обучаемые породы →</a></p></div>
                     </details>
                 </div>
             </section>
         </div>
     </main>
-    <footer class="py-10 px-4 text-slate-300 py-8 px-4 mt-12" style="background: #1a2e1a;">
-        <div class="max-w-6xl mx-auto text-center">
-            <p class="text-sm">Создано с любовью для любителей собак</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/ru/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/ru/search/" class="hover:text-white transition">Все породы</a>
+                    <a href="/ru/quiz/" class="hover:text-white transition">Тест пород</a>
+                    <a href="/ru/compare/" class="hover:text-white transition">Сравнить</a>
+                    <a href="/ru/articles/" class="hover:text-white transition">Статьи</a>
+                    <a href="/ru/faq/" class="hover:text-white transition">Вопросы и ответы</a>
+                    <a href="/ru/about/" class="hover:text-white transition">О нас</a>
+                    <a href="/privacy/" class="hover:text-white transition">Конфиденциальность</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Контакты: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
     <script>lucide.createIcons();</script>

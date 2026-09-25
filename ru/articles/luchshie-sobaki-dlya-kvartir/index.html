@@ -48,24 +48,35 @@
         .prose li { margin-bottom: 0.5rem; }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Главная", "item": "https://breedfinder.org/ru/"}, {"@type": "ListItem", "position": 2, "name": "Статьи", "item": "https://breedfinder.org/ru/articles/"}, {"@type": "ListItem", "position": 3, "name": "15 Лучших Пород Собак для Квартиры", "item": "https://breedfinder.org/ru/articles/luchshie-sobaki-dlya-kvartir/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/ru/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/ru/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/ru/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/ru/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-3xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/ru/" class="hover:text-emerald-800 transition underline">Главная</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/ru/articles/" class="hover:text-emerald-800 transition underline">Статьи</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">15 Лучших Пород Собак для Квартиры</span>
+        </nav>
+
         <article class="max-w-3xl mx-auto">
             <div class="mb-8">
                 <span class="text-sky-700 font-medium text-sm">РУКОВОДСТВО</span>
@@ -83,7 +94,7 @@
                 <h2>🏆 Топ-5 Собак для Квартиры</h2>
 
                 <h3>1. Французский бульдог</h3>
-                <p>Идеальный сосед по квартире. Французские бульдоги спокойны, не требуют много движения и обожают отдыхать на диване. Они редко лают и адаптируются к любой жилищной ситуации. <a href="/breeds/french-bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">Смотреть профиль породы →</a></p>
+                <p>Идеальный сосед по квартире. Французские бульдоги спокойны, не требуют много движения и обожают отдыхать на диване. Они редко лают и адаптируются к любой жилищной ситуации. <a href="/ru/breeds/french-bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">Смотреть профиль породы →</a></p>
 
                 <h3>2. Кавалер кинг чарльз спаниель</h3>
                 <p>Нежные, спокойные и счастливые свернуться калачиком у вас на коленях. Кавалеры адаптивны и хорошо себя чувствуют, будь вы активны или предпочитаете отдых дома.</p>
@@ -92,7 +103,7 @@
                 <p>Маленькие, весёлые и гипоаллергенные. Бишоны мало линяют и известны своим спокойствием. Им нужна умеренная активность, и они довольны играми дома и короткими прогулками.</p>
 
                 <h3>4. Мопс</h3>
-                <p>Мопсы буквально были выведены как комнатные собачки. У них низкий уровень энергии, они любят быть рядом с хозяевами и довольны в небольших пространствах. Только будьте готовы к храпу! <a href="/breeds/pug/" style="color: #1a5632;" class=" underline hover:no-underline">Смотреть профиль породы →</a></p>
+                <p>Мопсы буквально были выведены как комнатные собачки. У них низкий уровень энергии, они любят быть рядом с хозяевами и довольны в небольших пространствах. Только будьте готовы к храпу! <a href="/ru/breeds/pug/" style="color: #1a5632;" class=" underline hover:no-underline">Смотреть профиль породы →</a></p>
 
                 <h3>5. Бостон-терьер</h3>
                 <p>"Американский джентльмен" компактен, спокоен и адаптивен. Бостон-терьеры имеют умеренный уровень энергии и известны хорошим поведением в помещении.</p>
@@ -152,16 +163,33 @@
                 <p>Не уверены, какая квартирная порода вам подходит? Пройдите наш тест, чтобы найти породы, соответствующие вашему образу жизни.</p>
 
                 <div class="flex gap-4 mt-6">
-                    <a href="/quiz" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">Пройти Тест Пород →</a>
-                    <a href="/compare" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Сравнить Породы</a>
+                    <a href="/ru/quiz/" class="inline-block bg-sky-600 hover:bg-sky-700 text-white font-semibold px-6 py-3 rounded-xl">Пройти Тест Пород →</a>
+                    <a href="/ru/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">Сравнить Породы</a>
                 </div>
             </div>
         </article>
     </main>
 
-    <footer class="bg-emerald-900 text-white py-8 px-4 mt-12">
-        <div class="max-w-4xl mx-auto text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. Создано с любовью для любителей собак по всему миру.</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/ru/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/ru/search/" class="hover:text-white transition">Все породы</a>
+                    <a href="/ru/quiz/" class="hover:text-white transition">Тест пород</a>
+                    <a href="/ru/compare/" class="hover:text-white transition">Сравнить</a>
+                    <a href="/ru/articles/" class="hover:text-white transition">Статьи</a>
+                    <a href="/ru/faq/" class="hover:text-white transition">Вопросы и ответы</a>
+                    <a href="/ru/about/" class="hover:text-white transition">О нас</a>
+                    <a href="/privacy/" class="hover:text-white transition">Конфиденциальность</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Контакты: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 

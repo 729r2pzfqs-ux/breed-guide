@@ -22,7 +22,7 @@
     <meta name="twitter:description" content="BreedFinder hjælper hundeelskere med at finde deres ideelle race med ekspertguider, interaktive quizzer og sammenligninger af over 200 racer.">
     <meta name="twitter:image" content="https://breedfinder.org/images/og-card.png">
     <link rel="stylesheet" href="/css/tailwind.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="/js/icons.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>.card-shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03); }        body { font-family: 'Inter', sans-serif; }
@@ -47,19 +47,22 @@
     <link rel="alternate" hreflang="tr" href="https://breedfinder.org/tr/about/">
     <link rel="alternate" hreflang="da" href="https://breedfinder.org/da/about/">
     <link rel="alternate" hreflang="x-default" href="https://breedfinder.org/about/">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Forside", "item": "https://breedfinder.org/da/"}, {"@type": "ListItem", "position": 2, "name": "Om os", "item": "https://breedfinder.org/da/about/"}]}
+    </script>
 </head>
 <body class="bg-white min-h-screen text-slate-800">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/da/" class="flex items-center gap-3">
                 <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-sky-500/20">
                     <img src="/logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
                 </div>
                 <span class="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-6 text-sm font-medium">
-                <a href="/search/" class="text-slate-600 hover:text-sky-700 transition hidden sm:block">Gennemse Racer</a>
-                <a href="/quiz/" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-4 sm:px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg transition text-sm sm:text-base">Tag Quiz</a>
+                <a href="/da/search/" class="text-slate-600 hover:text-sky-700 transition hidden sm:block">Gennemse Racer</a>
+                <a href="/da/quiz/" class="bg-gradient-to-r from-sky-500 to-blue-600 text-white px-4 sm:px-5 py-2.5 rounded-xl font-semibold hover:shadow-lg transition text-sm sm:text-base">Tag Quiz</a>
                 <div class="relative group">
                     <button class="flex items-center gap-1 text-slate-600 hover:text-sky-700 py-2">
                         <i data-lucide="globe" class="w-4 h-4"></i>
@@ -74,6 +77,12 @@
     </header>
 
     <main class="max-w-3xl mx-auto px-4 py-16">
+        <nav aria-label="Breadcrumb" class="text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/da/" class="hover:text-emerald-800 transition underline">Forside</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">Om os</span>
+        </nav>
+
         <div class="text-center mb-12">
             <h1 class="text-4xl font-extrabold text-slate-900 mb-4">Om BreedFinder</h1>
             <p class="text-xl text-slate-600">Hjælper hundeelskere med at finde deres perfekte match</p>
@@ -137,9 +146,9 @@
                 </h2>
                 <p class="text-emerald-200 mb-6">Har du et spørgsmål, forslag eller fundet en fejl? Vi vil gerne høre fra dig.</p>
                 <div class="flex items-center gap-3">
-                    <a href="mailto:hello@breedfinder.org" class="inline-flex items-center gap-2 bg-white text-slate-900 px-6 py-3 rounded-xl font-semibold hover:bg-slate-100 transition">
+                    <a href="mailto:info@breedfinder.org" class="inline-flex items-center gap-2 bg-white text-slate-900 px-6 py-3 rounded-xl font-semibold hover:bg-slate-100 transition">
                         <i data-lucide="send" class="w-5 h-5"></i>
-                        hello@breedfinder.org
+                        info@breedfinder.org
                     </a>
                 </div>
                 <p class="text-emerald-200 text-sm mt-4">Vi svarer typisk inden for få dage. For raceforslag, inkluder venligst et kildelink.</p>
@@ -165,24 +174,25 @@
         </section>
     </main>
 
-    <footer class="py-10 px-4 text-slate-300 py-12 px-4" style="background: #1a2e1a;">
-        <div class="max-w-6xl mx-auto">
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
             <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-                <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-blue-600 rounded-xl flex items-center justify-center">
-                        <img src="/logo-192-green.png" class="w-10 h-10" alt="BreedFinder">
-                    </div>
-                    <span class="text-xl font-bold">BreedFinder</span>
-                </div>
-                <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
-                    <a href="/quiz/" class="hover:text-white transition">Race Quiz</a>
-                    <a href="/compare/" class="hover:text-white transition">Sammenlign</a>
-                    <a href="/articles/" class="hover:text-white transition">Guider</a>
-                    <a href="./" class="hover:text-white transition">Om</a>
-                </div>
+                <a href="/da/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/da/search/" class="hover:text-white transition">Udforsk racer</a>
+                    <a href="/da/quiz/" class="hover:text-white transition">Racequiz</a>
+                    <a href="/da/compare/" class="hover:text-white transition">Sammenlign</a>
+                    <a href="/da/articles/" class="hover:text-white transition">Guides</a>
+                    <a href="/da/faq/" class="hover:text-white transition">FAQ</a>
+                    <a href="/da/about/" class="hover:text-white transition">Om os</a>
+                    <a href="/privacy/" class="hover:text-white transition">Privatliv</a>
+                </nav>
             </div>
-            <div class="border-t border-slate-800 mt-8 pt-8 text-center text-sm text-emerald-200">
-                <p>© 2026 BreedFinder. Lavet med kærlighed til hundeelskere overalt.</p>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; Kontakt: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
             </div>
         </div>
     </footer>

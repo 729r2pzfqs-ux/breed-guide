@@ -48,24 +48,35 @@
         .prose li { margin-bottom: 0.5rem; }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://breedfinder.org/ja/"}, {"@type": "ListItem", "position": 2, "name": "ガイド", "item": "https://breedfinder.org/ja/articles/"}, {"@type": "ListItem", "position": 3, "name": "忙しい飼い主向け手入れが楽な犬種15選", "item": "https://breedfinder.org/ja/articles/teire-ga-raku-na-inu/"}]}
+    </script>
 </head>
 <body class="bg-gradient-to-b from-slate-50 to-white min-h-screen text-[#2a2518]">
     <header class="bg-white/80 backdrop-blur-md border-b border-slate-200/60 sticky top-0 z-50">
         <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-3">
+            <a href="/ja/" class="flex items-center gap-3">
                 <img src="/logo-192-green.png" alt="BreedFinder" class="h-10 w-10">
                 <span class="text-xl font-bold text-slate-800">BreedFinder</span>
             </a>
             <nav class="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-                <a href="/breeds/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
-                <a href="/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
-                <a href="/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
+                <a href="/ja/search/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Breeds</a>
+                <a href="/ja/compare/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Compare</a>
+                <a href="/ja/quiz/" class="hidden sm:block text-slate-600 hover:text-emerald-800 transition">Quiz</a>
             </nav>
         </div>
     </header>
 
     <main class="px-4 py-12">
+        <nav aria-label="Breadcrumb" class="max-w-3xl mx-auto text-sm text-[#5c5647] mb-6 flex flex-wrap items-center gap-2">
+            <a href="/ja/" class="hover:text-emerald-800 transition underline">ホーム</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <a href="/ja/articles/" class="hover:text-emerald-800 transition underline">ガイド</a>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span class="text-[#3d3829] font-medium" aria-current="page">忙しい飼い主向け手入れが楽な犬種15選</span>
+        </nav>
+
         <article class="max-w-3xl mx-auto">
             <div class="mb-8">
                 <span class="text-amber-600 font-medium text-sm">ライフスタイルガイド</span>
@@ -83,7 +94,7 @@
                 <h2>🏆 最も飼いやすいトップ5</h2>
 
                 <h3>1. フレンチブルドッグ</h3>
-                <p>フレンチブルドッグは手入れが楽な犬のゴールドスタンダードです。短くて滑らかな被毛はたまにブラッシングするだけでOK。短い散歩数回で満足し、マラソンより昼寝を選びます。 <a href="/breeds/french-bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">犬種プロフィールを見る →</a></p>
+                <p>フレンチブルドッグは手入れが楽な犬のゴールドスタンダードです。短くて滑らかな被毛はたまにブラッシングするだけでOK。短い散歩数回で満足し、マラソンより昼寝を選びます。 <a href="/ja/breeds/french-bulldog/" style="color: #1a5632;" class=" underline hover:no-underline">犬種プロフィールを見る →</a></p>
 
                 <h3>2. ボストンテリア</h3>
                 <p>「アメリカン・ジェントルマン」はコンパクトで清潔、飼いやすさ抜群。タキシード柄の被毛は最小限の手入れで、自然と行儀が良く、遊び心と落ち着きのバランスが完璧です。</p>
@@ -95,7 +106,7 @@
                 <p>「ソーセージ犬」は意外と飼いやすい。短毛のダックスフンドはグルーミングが最小限で、適度な運動で満足します。</p>
 
                 <h3>5. ビーグル</h3>
-                <p>ビーグルの被毛はほぼ自己洗浄機能付き。丈夫で健康な犬で、特別なケアは不要。友好的でリラックスした性格で、初心者の間違いも許容してくれます。 <a href="/breeds/beagle/" style="color: #1a5632;" class=" underline hover:no-underline">犬種プロフィールを見る →</a></p>
+                <p>ビーグルの被毛はほぼ自己洗浄機能付き。丈夫で健康な犬で、特別なケアは不要。友好的でリラックスした性格で、初心者の間違いも許容してくれます。 <a href="/ja/breeds/beagle/" style="color: #1a5632;" class=" underline hover:no-underline">犬種プロフィールを見る →</a></p>
 
                 <h2>🐕 飼いやすい中〜大型犬</h2>
 
@@ -123,7 +134,7 @@
                 <p>このアメリカの農場犬は丈夫で健康、飼いやすい。短い被毛と適度な運動ニーズ。</p>
 
                 <h3>13. パグ</h3>
-                <p>パグは伴侶犬として育てられ、その役割に秀でています。運動は最小限でOK、家の中をついて歩くのが好き。 <a href="/breeds/pug/" style="color: #1a5632;" class=" underline hover:no-underline">犬種プロフィールを見る →</a></p>
+                <p>パグは伴侶犬として育てられ、その役割に秀でています。運動は最小限でOK、家の中をついて歩くのが好き。 <a href="/ja/breeds/pug/" style="color: #1a5632;" class=" underline hover:no-underline">犬種プロフィールを見る →</a></p>
 
                 <h3>14. キャバリア・キング・チャールズ・スパニエル</h3>
                 <p>シルキーな被毛は多少のブラッシングが必要ですが、それ以外は驚くほど手入れが楽。活動レベルに合わせて適応します。</p>
@@ -158,16 +169,33 @@
                 <p>どの手入れが楽な犬種があなたのライフスタイルに合うかまだわからない？クイズでスケジュール、住環境、好みを考慮して見つけましょう。</p>
 
                 <div class="flex flex-wrap gap-4 mt-6">
-                    <a href="/quiz" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold px-6 py-3 rounded-xl">犬種クイズを受ける →</a>
-                    <a href="/compare" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">犬種を比較</a>
+                    <a href="/ja/quiz/" class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-semibold px-6 py-3 rounded-xl">犬種クイズを受ける →</a>
+                    <a href="/ja/compare/" class="inline-block bg-slate-200 hover:bg-slate-300 text-slate-800 font-semibold px-6 py-3 rounded-xl">犬種を比較</a>
                 </div>
             </div>
         </article>
     </main>
 
-    <footer class="bg-emerald-900 text-white py-8 px-4 mt-12">
-        <div class="max-w-4xl mx-auto text-center text-slate-600 text-sm">
-            <p>© 2026 BreedFinder. 世界中の犬好きのために愛を込めて作りました。</p>
+    <footer class="bg-emerald-900 py-12 px-4 mt-12">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <a href="/ja/" class="flex items-center gap-3">
+                    <img src="/logo-192-green.png" alt="BreedFinder" width="40" height="40" loading="lazy" class="h-10 w-10 brightness-0 invert">
+                    <span class="text-xl font-bold text-white">BreedFinder</span>
+                </a>
+                <nav aria-label="Footer" class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-emerald-200">
+                    <a href="/ja/search/" class="hover:text-white transition">犬種一覧</a>
+                    <a href="/ja/quiz/" class="hover:text-white transition">犬種診断</a>
+                    <a href="/ja/compare/" class="hover:text-white transition">比較</a>
+                    <a href="/ja/articles/" class="hover:text-white transition">ガイド</a>
+                    <a href="/ja/faq/" class="hover:text-white transition">よくある質問</a>
+                    <a href="/ja/about/" class="hover:text-white transition">運営者情報</a>
+                    <a href="/privacy/" class="hover:text-white transition">プライバシー</a>
+                </nav>
+            </div>
+            <div class="mt-8 pt-8 border-t border-emerald-800 text-center text-sm text-emerald-200">
+                <p>&copy; 2026 BreedFinder &middot; お問い合わせ: <a href="mailto:info@breedfinder.org" class="hover:text-white transition">info@breedfinder.org</a></p>
+            </div>
         </div>
     </footer>
 
